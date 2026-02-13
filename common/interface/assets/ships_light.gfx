@@ -1,0 +1,301 @@
+objectTypes = {
+			
+	###########################################################################
+	############												###############
+	############                    Light ships                 ###############
+	############												###############
+	###########################################################################
+	
+	pdxmesh = {
+		name = "western_light_ship_crayer"
+		file = "gfx\models\ships\barque.mesh"
+
+		animation = { id = "idle"	type = "barque_idle" }
+		animation = { id = "walk"	type = "barque_walk" }
+		animation = { id = "attack"	type = "barque_attack"}
+		scale = 1
+	}
+
+	pdxmesh = {
+		name = "muslim_light_ship_dhow_raider"
+		file = "gfx\models\ships\barque.mesh"
+
+		animation = { id = "idle"	type = "barque_idle" }
+		animation = { id = "walk"	type = "barque_walk" }
+		animation = { id = "attack"	type = "barque_attack"}
+		scale = 1
+	}
+
+	pdxmesh = {
+		name = "chinese_light_ship_fuchuan_warship"
+		file = "gfx\models\ships\barque.mesh"
+
+		animation = { id = "idle"	type = "barque_idle" }
+		animation = { id = "walk"	type = "barque_walk" }
+		animation = { id = "attack"	type = "barque_attack"}
+		scale = 1
+	}
+
+	pdxmesh = {
+		name = "korean_light_ship_gwaseon"
+		file = "gfx\models\ships\barque.mesh"
+
+		animation = { id = "idle"	type = "barque_idle" }
+		animation = { id = "walk"	type = "barque_walk" }
+		animation = { id = "attack"	type = "barque_attack"}
+		scale = 1
+	}
+
+	pdxmesh = {
+		name = "western_light_ship_early_caravel"
+		file = "gfx\models\ships\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1
+	}
+	
+	pdxmesh = {
+		name = "unique_ENG_light_ship_ballinger"
+		file = "gfx\models\ships\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1
+	}
+	
+	pdxmesh = {
+		name = "muslim_light_ship_sambuk"
+		file = "gfx\models\ships\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1
+	}
+	
+	pdxmesh = {
+		name = "indian_light_ship_batella"
+		file = "gfx\models\ships\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1
+	}
+	
+	pdxmesh = {
+		name = "chinese_light_ship_trading_junk"
+		file = "gfx\models\ships\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1
+	}
+	
+	pdxmesh = {
+		name = "western_light_ship_caravela_redonda"
+		file = "gfx\models\meiou\ships\caravela_redonda\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1.1
+	}
+	
+	pdxmesh = {
+		name = "unique_POR_light_ship_caravela_de_armada"
+		file = "gfx\models\meiou\ships\caravela_redonda\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1.1
+	}
+	
+	pdxmesh = {
+		name = "unique_NED_light_ship_fluyt"
+		file = "gfx\models\meiou\ships\caravela_redonda\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1.1
+	}
+	
+	pdxmesh = {
+		name = "muslim_light_ship_ganja"
+		file = "gfx\models\meiou\ships\caravela_redonda\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1.1
+	}
+	
+	pdxmesh = {
+		name = "indian_light_ship_kotiya"
+		file = "gfx\models\meiou\ships\caravela_redonda\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1.1
+	}
+	
+	pdxmesh = {
+		name = "chinese_light_ship_zaw"
+		file = "gfx\models\meiou\ships\caravela_redonda\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1.1
+	}
+	
+	pdxmesh = {
+		name = "unique_KOR_light_ship_panokseon"
+		file = "gfx\models\meiou\ships\caravela_redonda\caravel.mesh"
+
+		animation = { id = "idle"	type = "caravel_idle" }
+		animation = { id = "walk"	type = "caravel_walk" }
+		animation = { id = "attack"	type = "caravel_attack"}
+		scale = 1.1
+	}
+	
+	pdxmesh = {
+		name = "western_light_ship_early_frigate"
+		file = "gfx\models\ships\early_frigate.mesh"
+
+		animation = { id = "idle"	type = "early_frigate_idle" }
+		animation = { id = "walk"	type = "early_frigate_walk" }
+		animation = { id = "attack" type = "early_frigate_attack"}
+		scale = 1
+	}
+	
+	pdxmesh = {
+		name = "western_light_ship_brigantine"
+		file = "gfx\models\ships\early_frigate.mesh"
+
+		animation = { id = "idle"	type = "early_frigate_idle" }
+		animation = { id = "walk"	type = "early_frigate_walk" }
+		animation = { id = "attack" type = "early_frigate_attack"}
+		scale = 0.8
+	}
+	
+	pdxmesh = {
+		name = "chinese_light_ship_lorcha"
+		file = "gfx\models\ships\early_frigate.mesh"
+
+		animation = { id = "idle"	type = "early_frigate_idle" }
+		animation = { id = "walk"	type = "early_frigate_walk" }
+		animation = { id = "attack" type = "early_frigate_attack"}
+		scale = 0.8
+	}
+	
+	pdxmesh = {
+		name = "unique_KOR_light_ship_turtle_ship"
+		file = "gfx\models\ships\early_frigate.mesh"
+
+		animation = { id = "idle"	type = "early_frigate_idle" }
+		animation = { id = "walk"	type = "early_frigate_walk" }
+		animation = { id = "attack" type = "early_frigate_attack"}
+		scale = 0.8
+	}
+	
+	pdxmesh = {
+		name = "unique_FRA_light_ship_corvette"
+		file = "gfx\models\ships\early_frigate.mesh"
+
+		animation = { id = "idle"	type = "early_frigate_idle" }
+		animation = { id = "walk"	type = "early_frigate_walk" }
+		animation = { id = "attack" type = "early_frigate_attack"}
+		scale = 1
+	}
+	
+	pdxmesh = {
+		name = "chinese_light_ship_red_seal_ship"
+		file = "gfx\models\ships\early_frigate.mesh"
+
+		animation = { id = "idle"	type = "early_frigate_idle" }
+		animation = { id = "walk"	type = "early_frigate_walk" }
+		animation = { id = "attack" type = "early_frigate_attack"}
+		scale = 1
+	}
+	
+	pdxmesh = {
+		name = "indian_light_ship_ghurab"
+		file = "gfx\models\ships\early_frigate.mesh"
+
+		animation = { id = "idle"	type = "early_frigate_idle" }
+		animation = { id = "walk"	type = "early_frigate_walk" }
+		animation = { id = "attack" type = "early_frigate_attack"}
+		scale = 1
+	}
+	
+	pdxmesh = {
+		name = "muslim_light_ship_war_dhow"
+		file = "gfx\models\ships\early_frigate.mesh"
+
+		animation = { id = "idle"	type = "early_frigate_idle" }
+		animation = { id = "walk"	type = "early_frigate_walk" }
+		animation = { id = "attack" type = "early_frigate_attack"}
+		scale = 1
+	}
+	
+	pdxmesh = {
+		name = "western_light_ship_frigate"
+		file = "gfx\models\ships\frigate.mesh"
+
+		
+		animation = { id = "idle"	type = "frigate_idle" }
+		animation = { id = "walk"	type = "frigate_walk" }
+		animation = { id = "attack" type = "frigate_attack"}
+		scale = 1
+	}	
+	
+	pdxmesh = {
+		name = "indian_light_ship_pal"
+		file = "gfx\models\ships\frigate.mesh"
+
+		
+		animation = { id = "idle"	type = "frigate_idle" }
+		animation = { id = "walk"	type = "frigate_walk" }
+		animation = { id = "attack" type = "frigate_attack"}
+		scale = 1
+	}	
+	
+	pdxmesh = {
+		name = "western_light_ship_heavy_frigate"
+		file = "gfx\models\ships\heavy_frigate.mesh"
+
+		animation = { id = "idle"	type = "heavy_frigate_idle" }
+		animation = { id = "walk"	type = "heavy_frigate_walk" }
+		animation = { id = "attack" type = "heavy_frigate_attack"}
+		scale = 1
+	}
+
+	pdxmesh = {
+		name = "western_light_ship_steam_frigate"
+		file = "gfx\models\ships\heavy_frigate.mesh"
+
+		animation = { id = "idle"	type = "heavy_frigate_idle" }
+		animation = { id = "walk"	type = "heavy_frigate_walk" }
+		animation = { id = "attack" type = "heavy_frigate_attack"}
+		scale = 1.1
+	}
+
+	pdxmesh = {
+		name = "western_light_ship_armored_frigate"
+		file = "gfx\models\ships\heavy_frigate.mesh"
+
+		animation = { id = "idle"	type = "heavy_frigate_idle" }
+		animation = { id = "walk"	type = "heavy_frigate_walk" }
+		animation = { id = "attack" type = "heavy_frigate_attack"}
+		scale = 1.1
+	}
+
+}

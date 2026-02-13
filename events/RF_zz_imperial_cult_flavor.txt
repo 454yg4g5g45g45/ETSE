@@ -1,0 +1,215 @@
+namespace = imperial_cult_flavor
+
+# --------------------------------------------------
+# EVENT 1: POSITIVE (Powerful) - The Living Apotheosis
+# Context: The Collegium declares you a God while still alive.
+# --------------------------------------------------
+country_event = {
+    id = imperial_cult_flavor.1
+    title = "imperial_cult_flavor.1.t"
+    desc = "imperial_cult_flavor.1.d"
+    picture = RELIGION_eventPicture
+    
+    trigger = {
+        religion = zz_imperial_cult
+        NOT = { has_ruler_modifier = imperial_apotheosis }
+        OR = {
+			adm = 6
+			dip = 6
+			mil = 6
+		}
+    }
+    
+    mean_time_to_happen = { months = 480 }
+    
+    option = {
+        name = "imperial_cult_flavor.1.a" # Numen Augusti!
+        add_stability = 1
+        add_patriarch_authority = 25
+        add_prestige = 50
+		add_republican_tradition = 10
+		add_legitimacy = 15
+		add_devotion = 15
+        
+        add_ruler_modifier = {
+            name = imperial_apotheosis
+            duration = -1
+        }
+    }
+}
+
+# --------------------------------------------------
+# EVENT 2: NEUTRAL (Dilemma) - Caesar vs. Cincinnatus
+# Context: How should the Ruler wield power? (Force vs Duty)
+# --------------------------------------------------
+country_event = {
+    id = imperial_cult_flavor.2
+    title = "imperial_cult_flavor.2.t"
+    desc = "imperial_cult_flavor.2.d"
+    picture = REFORM_ARMY_eventPicture
+    
+    trigger = {
+        religion = zz_imperial_cult
+    }
+    
+    mean_time_to_happen = { months = 300 }
+    
+    option = {
+        name = "imperial_cult_flavor.2.a" # Follow Caesar: Power is to be seized.
+        add_patriarch_authority = 20 # Assert dominance
+        add_mil_power = 75
+        add_years_of_income = -0.1 # Paying the legions
+    }
+    
+    option = {
+        name = "imperial_cult_flavor.2.b" # Follow Cincinnatus: Power is a duty.
+        add_patriarch_authority = -10 # You humble yourself before the State
+        add_country_modifier = {
+            name = cincinnatus_example
+            duration = 3650
+        }
+		add_republican_tradition = 5
+		add_legitimacy = 10
+    }
+}
+
+# --------------------------------------------------
+# EVENT 3: NEUTRAL (Admin) - The Counsel of Seneca
+# Context: The Collegium advises restraint and development.
+# --------------------------------------------------
+country_event = {
+    id = imperial_cult_flavor.3
+    title = "imperial_cult_flavor.3.t"
+    desc = "imperial_cult_flavor.3.d"
+    picture = DEBATE_eventPicture
+    
+    trigger = {
+        religion = zz_imperial_cult
+    }
+    
+    mean_time_to_happen = { months = 360 }
+    
+    option = {
+        name = "imperial_cult_flavor.3.a" # Heed the philosopher's wisdom.
+        add_adm_power = 50
+        add_years_of_income = -0.2 # Investing in infrastructure
+        add_country_modifier = {
+            name = senecan_administration
+            duration = 3650
+        }
+    }
+    
+    option = {
+        name = "imperial_cult_flavor.3.b" # The Treasury is for the Emperor, not the people.
+        add_years_of_income = 0.5
+        add_patriarch_authority = -5 # Collegium disapproves of greed
+        add_prestige = -10
+    }
+}
+
+# --------------------------------------------------
+# EVENT 4: NEUTRAL (Political) - The Cicero Faction
+# Context: The Collegium demands diplomatic over military solutions.
+# --------------------------------------------------
+country_event = {
+    id = imperial_cult_flavor.4
+    title = "imperial_cult_flavor.4.t"
+    desc = "imperial_cult_flavor.4.d"
+    picture = DIPLOMACY_eventPicture
+    
+    trigger = {
+        religion = zz_imperial_cult
+    }
+    
+    mean_time_to_happen = { months = 300 }
+    
+    option = {
+        name = "imperial_cult_flavor.4.a" # Let words take the place of swords.
+        add_dip_power = 100
+        add_patriarch_authority = 5 # Collegium approves
+        add_country_modifier = {
+            name = ciceronian_diplomacy
+            duration = 3650 # 10 Years
+        }
+    }
+    
+    option = {
+        name = "imperial_cult_flavor.4.b" # Rome does not beg. Rome dictates.
+        add_mil_power = 50
+        add_patriarch_authority = 10 # Asserting strength
+        add_prestige = 10
+		add_country_modifier = {
+            name = imperial_belligerence
+            duration = 3650 # 10 Years
+        }
+    }
+}
+
+# --------------------------------------------------
+# EVENT 5: NEGATIVE (Authority) - The Collegium's Veto
+# Context: The "Religious Senate" blocks your decree.
+# --------------------------------------------------
+country_event = {
+    id = imperial_cult_flavor.5
+    title = "imperial_cult_flavor.5.t"
+    desc = "imperial_cult_flavor.5.d"
+    picture = BAD_WITH_MONARCH_eventPicture
+    
+    trigger = {
+        religion = zz_imperial_cult
+    }
+    
+    mean_time_to_happen = { months = 450 }
+    
+    option = {
+        name = "imperial_cult_flavor.5.a" # Crush their defiance. I am the State!
+        add_patriarch_authority = 10 # Forced authority
+        add_stability = -1
+        add_estate_loyalty = {
+            estate = estate_church
+            loyalty = -20
+        }
+    }
+    
+    option = {
+        name = "imperial_cult_flavor.5.b" # Submit to the Mos Maiorum.
+        add_patriarch_authority = -20 # You looked weak
+        add_prestige = -20
+		add_republican_tradition = -5
+		add_legitimacy = -10
+    }
+}
+
+# --------------------------------------------------
+# EVENT 6: NEGATIVE (Rebellion) - The False Romulus
+# Context: A pretender claiming divine lineage.
+# --------------------------------------------------
+country_event = {
+    id = imperial_cult_flavor.6
+    title = "imperial_cult_flavor.6.t"
+    desc = "imperial_cult_flavor.6.d"
+    picture = CIVIL_WAR_eventPicture
+    
+    trigger = {
+        religion = zz_imperial_cult
+    }
+    
+    mean_time_to_happen = { months = 500 }
+    
+    option = {
+        name = "imperial_cult_flavor.6.a" # There is only one Son of Rome. Destroy him.
+        add_manpower_modifier = -0.15 # Civil war casualties
+        add_patriarch_authority = 5
+        spawn_rebels = {
+            type = pretender_rebels
+            size = 3
+        }
+    }
+    
+    option = {
+        name = "imperial_cult_flavor.6.b" # Bribe the Collegium to denounce his lineage.
+        add_years_of_income = -0.5
+        add_adm_power = -50
+        add_patriarch_authority = -10 # Relying on priests makes you look weak
+    }
+}

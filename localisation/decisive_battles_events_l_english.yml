@@ -1,0 +1,12 @@
+﻿l_english:
+
+ decisive_battles_mod_events.1.t: "Decisive Battles Enabled"
+ decisive_battles_mod_events.1.desc: "Congratulations!\n\nThe Decisive Battles modifier has now been applied, so now battles earn §J3 times§! more warscore than before, allowing decisive and crushing victories and defeats to decide the outcome of wars, as was many times the case historically.\n\nThe maximum possible warscore earned from battles has also been increased from 40 to §M60§!."
+ decisive_battles_mod_events.1.a: "Victory shall be ours!"
+ decisive_battles_mod_events.2.t: "Decisive Battles Enabled"
+ decisive_battles_mod_events.2.desc: "Congratulations!\n\nThe Decisive Battles modifier has now been applied, so now battles earn §J3 times§! more warscore than before, allowing decisive and crushing victories and defeats to decide the outcome of wars, as was many times the case historically.\n\nThe maximum possible warscore earned from battles has also been increased from 40 to §M60§!."
+ decisive_battles_mod_events.2.a: "Victory shall be ours!"
+ 
+ decisive_battles_mod_events.1.tt: "Has happened:"
+ decisive_battles_mod_modifier: "Decisive Battles"
+ 

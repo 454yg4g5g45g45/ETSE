@@ -1,0 +1,17 @@
+﻿l_english:
+ great_plague.3.b: "Quarantine the province."
+ great_plague.9.t: "Peasants demand higher wages"
+ great_plague.9.d: "With such a large portion of the population dead, labor shortages have become a critical issue. With their newfound bargaining power, the working class is demanding lower taxes, higher wages, and increased land rights to ease the burden of the Plague."
+ great_plague.9.a: "Offer additional rights."
+ great_plague.9.b: "Offer financial assistance."
+ great_plague.9.c: "Reject their demands."
+ great_plague_faith_crisis_modifier: "Crisis of Faith"
+ great_plague.13.t: "Crisis of Faith"
+ great_plague.13.d: "The Plague has caused widespread fear and panic in your people. Many see the Plague as divine punishment. Some in your population are turning away from religion, while religious minorites are blamed for spreading the Plague to others."
+ great_plague.13.a: "Unfortunate."
+ great_plague.13.b: "Try to heal the divide."
+ cb_plague_vengeance: "Plaguebearers"
+ cb_plague_vengeance_desc: "They have infected our people!"
+ GREAT_PLAGUE_BOOKMARK: "The Great Plague"
+ GREAT_PLAGUE_BOOKMARK_DESC: "In 1346, a deadly plague begins to spread through the known world, wiping out entire populations with terrifying speed. The Great Plague spreads via trade routes, decimating the once-thriving cities of Europe, the Middle East, and Asia. Societies crumble under the weight of massive death tolls, labor shortages, and widespread panic. Old rivalries are set aside as kings and emperors grapple with the unprecedented devastation, while some see opportunity in the chaos to expand their influence or challenge their weakened neighbors. Amidst the turmoil, faith is tested, new ideologies emerge, and the balance of power shifts irreversibly."
+  

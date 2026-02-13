@@ -1,0 +1,6375 @@
+namespace = roman_characters_event
+
+namespace = roman_characters_event
+
+# 1. Claudius Galenus (Pergamon)
+country_event = {
+	id = roman_characters_event.1
+	title = "roman_characters_event.1.t"
+	desc = "roman_characters_event.1.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 150
+		NOT = { is_year = 216 }
+		owns_core_province = 325 # Castamonu
+		NOT = { has_global_flag = galen_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 325 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.1.opt1" # Advisor (Natural Scientist)
+		set_global_flag = galen_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Claudius Galenus"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.1.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 2. Flavius Belisarius (Thrace/Edirne)
+country_event = {
+	id = roman_characters_event.2
+	title = "roman_characters_event.2.t"
+	desc = "roman_characters_event.2.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 525
+		NOT = { is_year = 565 }
+		owns_core_province = 149 # Edirne
+		NOT = { has_global_flag = belisarius_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 149 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.2.opt1" # General
+		set_global_flag = belisarius_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Flavius Belisarius"
+			fire = 4
+			shock = 6
+			manuever = 5
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.2.opt2" # Advisor (Army Reformer)
+		set_global_flag = belisarius_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Flavius Belisarius"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.2.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 3. Marco Polo (Venice)
+country_event = {
+	id = roman_characters_event.3
+	title = "roman_characters_event.3.t"
+	desc = "roman_characters_event.3.d"
+	picture = BAD_WITH_MERCHANT_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1270
+		NOT = { is_year = 1324 }
+		owns_core_province = 112 # Venice
+		NOT = { has_global_flag = marcopolo_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 112 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.3.opt1" # Advisor (Colonial Governor)
+		set_global_flag = marcopolo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Marco Polo"
+			type = colonial_governor
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.3.opt2" # Advisor (Trader)
+		set_global_flag = marcopolo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Marco Polo"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.3.opt3" # Advisor (Diplomat)
+		set_global_flag = marcopolo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Marco Polo"
+			type = diplomat
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.3.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 4. Dante Alighieri (Florence)
+country_event = {
+	id = roman_characters_event.4
+	title = "roman_characters_event.4.t"
+	desc = "roman_characters_event.4.d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1300
+		NOT = { is_year = 1321 }
+		owns_core_province = 116 # Florence
+		NOT = { has_global_flag = dante_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 116 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.4.opt1" # Advisor (Philosopher)
+		set_global_flag = dante_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Dante Alighieri"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.4.opt2" # Advisor (Artist)
+		set_global_flag = dante_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Dante Alighieri"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.4.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 5. Cristoforo Colombo (Genoa)
+country_event = {
+	id = roman_characters_event.5
+	title = "roman_characters_event.5.t"
+	desc = "roman_characters_event.5.d"
+	picture = EXPLORERS_DEPARTING_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1485
+		NOT = { is_year = 1506 }
+		owns_core_province = 101 # Genoa
+		NOT = { has_global_flag = columbus_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 101 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.5.opt1" # Explorer
+		set_global_flag = columbus_recruited
+		add_years_of_income = -0.25
+		define_explorer = {
+			name = "Cristoforo Colombo"
+			fire = 4
+			shock = 4
+			manuever = 6
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.5.opt2" # Admiral
+		set_global_flag = columbus_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Cristoforo Colombo"
+			fire = 4
+			shock = 4
+			manuever = 6
+			siege = 1
+			culture = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.5.opt3" # Advisor (Colonial Governor)
+		set_global_flag = columbus_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Cristoforo Colombo"
+			type = colonial_governor
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.5.opt4" # Advisor (Navigator)
+		set_global_flag = columbus_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Cristoforo Colombo"
+			type = navigator
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.5.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 6. Leonardo da Vinci (Florence)
+country_event = {
+	id = roman_characters_event.6
+	title = "roman_characters_event.6.t"
+	desc = "roman_characters_event.6.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1475
+		NOT = { is_year = 1515 }
+		owns_core_province = 116
+		NOT = { has_global_flag = leonardo_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 116 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.6.opt1" # Advisor (Natural Scientist)
+		set_global_flag = leonardo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Leonardo da Vinci"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.6.opt2" # Advisor (Artist)
+		set_global_flag = leonardo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Leonardo da Vinci"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.6.opt3" # Advisor (Military Engineer)
+		set_global_flag = leonardo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Leonardo da Vinci"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.6.refuse"
+		ai_chance = { factor = 5 }
+		add_prestige = -5
+	}
+}
+
+# 7. Niccolò Machiavelli (Florence)
+country_event = {
+	id = roman_characters_event.7
+	title = "roman_characters_event.7.t"
+	desc = "roman_characters_event.7.d"
+	picture = ADVISOR_STATESMAN_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1500
+		NOT = { is_year = 1525 }
+		owns_core_province = 116
+		NOT = { has_global_flag = machiavelli_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 116 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.7.opt1" # Advisor (Spymaster)
+		set_global_flag = machiavelli_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Niccolò Machiavelli"
+			type = spymaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.7.opt2" # Advisor (Statesman)
+		set_global_flag = machiavelli_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Niccolò Machiavelli"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.7.opt3" # Advisor (Diplomat)
+		set_global_flag = machiavelli_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Niccolò Machiavelli"
+			type = diplomat
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.7.opt4" # Ruler (Machiavelli)
+		set_global_flag = machiavelli_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Niccolò"
+			dynasty = "Machiavelli"
+			adm = 5
+			dip = 6
+			mil = 4
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_stability = -1
+		add_absolutism = 10
+	}
+	option = {
+		name = "roman_characters_event.7.refuse"
+		ai_chance = { factor = 5 }
+		add_prestige = -5
+	}
+}
+
+# 8. Isaac Newton (London)
+country_event = {
+	id = roman_characters_event.8
+	title = "roman_characters_event.8.t"
+	desc = "roman_characters_event.8.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1670
+		NOT = { is_year = 1720 }
+		owns_core_province = 236
+		NOT = { has_global_flag = newton_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 236 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.8.opt1" # Advisor (Natural Scientist)
+		set_global_flag = newton_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Isaac Newton"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.8.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 9. Napoleone di Buonaparte (Corsica)
+country_event = {
+	id = roman_characters_event.9
+	title = "roman_characters_event.9.t"
+	desc = "roman_characters_event.9.d"
+	picture = MILITARY_PARADE_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1790
+		NOT = { is_year = 1815 }
+		owns_core_province = 1247
+		NOT = { has_global_flag = napoleon_recruited }
+	}
+	mean_time_to_happen = { months = 6 }
+	immediate = { 1247 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.9.opt1" # General
+		set_global_flag = napoleon_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Napoleone di Buonaparte"
+			fire = 6
+			shock = 6
+			manuever = 6
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.9.opt2" # Advisor (Commandant)
+		set_global_flag = napoleon_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Napoleone di Buonaparte"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.9.opt3" # Advisor (Master Recruiter)
+		set_global_flag = napoleon_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Napoleone di Buonaparte"
+			type = army_organiser
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.9.opt4" # Ruler (Napoleone)
+		set_global_flag = napoleon_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Napoleone I"
+			dynasty = "Buonaparte"
+			adm = 6
+			dip = 3
+			mil = 6
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_general = {
+			name = "Napoleone I"
+			fire = 6
+			shock = 6
+			manuever = 6
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_stability = -1
+		add_absolutism = 20
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.9.refuse"
+		ai_chance = { factor = 0 }
+		add_prestige = -5
+	}
+}
+
+# 10. Albert Einstein (Ulm)
+country_event = {
+	id = roman_characters_event.10
+	title = "roman_characters_event.10.t"
+	desc = "roman_characters_event.10.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1910
+		NOT = { is_year = 1950 }
+		owns_core_province = 1872 # Ulm region
+		NOT = { has_global_flag = einstein_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 1872 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.10.opt1" # Advisor (Natural Scientist)
+		set_global_flag = einstein_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Albert Einstein"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.10.opt2" # Advisor (Military Engineer)
+		set_global_flag = einstein_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Albert Einstein"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.10.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 11. Hypatia (Alexandria)
+country_event = {
+	id = roman_characters_event.11
+	title = "roman_characters_event.11.t"
+	desc = "roman_characters_event.11.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 380
+		NOT = { is_year = 410 }
+		owns_core_province = 358 # Alexandria
+		NOT = { has_global_flag = hypatia_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 358 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.11.opt1" # Advisor (Natural Scientist)
+		set_global_flag = hypatia_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Hypatia"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.11.opt2" # Advisor (Philosopher)
+		set_global_flag = hypatia_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Hypatia"
+			type = philosopher
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.11.opt3" # Advisor (Master of Mint)
+		set_global_flag = hypatia_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Hypatia"
+			type = master_of_mint
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.11.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 12. Tribonian (Constantinople)
+country_event = {
+	id = roman_characters_event.12
+	title = "roman_characters_event.12.t"
+	desc = "roman_characters_event.12.d"
+	picture = ADVISOR_TREASURER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 520
+		NOT = { is_year = 545 }
+		owns_core_province = 151 # Constantinople
+		NOT = { has_global_flag = tribonian_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 151 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.12.opt1" # Advisor (Treasurer)
+		set_global_flag = tribonian_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Tribonian"
+			type = treasurer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.12.opt2" # Advisor (Master of Mint)
+		set_global_flag = tribonian_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Tribonian"
+			type = master_of_mint
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.12.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 13. Narses (Constantinople)
+country_event = {
+	id = roman_characters_event.13
+	title = "roman_characters_event.13.t"
+	desc = "roman_characters_event.13.d"
+	picture = MILITARY_PARADE_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 530
+		NOT = { is_year = 570 }
+		owns_core_province = 151 # Constantinople
+		NOT = { has_global_flag = narses_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 151 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.13.opt1" # General
+		set_global_flag = narses_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Narses"
+			fire = 4
+			shock = 4
+			manuever = 5
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.13.opt2" # Advisor (Commandant)
+		set_global_flag = narses_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Narses"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.13.opt3" # Advisor (Military Engineer)
+		set_global_flag = narses_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Narses"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.13.opt4" # Advisor (Quartermaster)
+		set_global_flag = narses_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Narses"
+			type = quartermaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.13.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 14. Isidore of Seville (Sevilla)
+country_event = {
+	id = roman_characters_event.14
+	title = "roman_characters_event.14.t"
+	desc = "roman_characters_event.14.d"
+	picture = ADVISOR_THEOLOGIAN_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 590
+		NOT = { is_year = 630 }
+		owns_core_province = 224 # Sevilla
+		NOT = { has_global_flag = isidore_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 224 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.14.opt1" # Advisor (Theologian)
+		set_global_flag = isidore_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Isidore of Seville"
+			type = theologian
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.14.opt2" # Advisor (Inquisitor)
+		set_global_flag = isidore_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Isidore of Seville"
+			type = inquisitor
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.14.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 15. Tariq ibn Ziyad (Tangier)
+country_event = {
+	id = roman_characters_event.15
+	title = "roman_characters_event.15.t"
+	desc = "roman_characters_event.15.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 700
+		NOT = { is_year = 715 }
+		owns_core_province = 334 # Tangier
+		NOT = { has_global_flag = tariq_recruited }
+	}
+	mean_time_to_happen = { months = 6 }
+	immediate = { 334 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.15.opt1" # General
+		set_global_flag = tariq_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Tariq ibn Ziyad"
+			fire = 4
+			shock = 5
+			manuever = 5
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.15.opt2" # Advisor (Commandant)
+		set_global_flag = tariq_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Tariq ibn Ziyad"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.15.opt3" # Advisor (Army Reformer)
+		set_global_flag = tariq_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Tariq ibn Ziyad"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.15.refuse"
+		ai_chance = { factor = 5 }
+		add_prestige = -5
+	}
+}
+
+# 16. Ibn Rushd (Averroes)
+country_event = {
+	id = roman_characters_event.16
+	title = "roman_characters_event.16.t"
+	desc = "roman_characters_event.16.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1150
+		NOT = { is_year = 1195 }
+		owns_core_province = 225 # Cordoba
+		NOT = { has_global_flag = averroes_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 225 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.16.opt1" # Advisor (Philosopher)
+		set_global_flag = averroes_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Ibn Rushd"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.16.opt2" # Advisor (Theologian)
+		set_global_flag = averroes_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Ibn Rushd"
+			type = theologian
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.16.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 17. Maimonides
+country_event = {
+	id = roman_characters_event.17
+	title = "roman_characters_event.17.t"
+	desc = "roman_characters_event.17.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1160
+		NOT = { is_year = 1200 }
+		owns_core_province = 225 # Cordoba
+		NOT = { has_global_flag = maimonides_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 225 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.17.opt1" # Advisor (Natural Scientist)
+		set_global_flag = maimonides_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Maimonides"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.17.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 18. Leonardo Fibonacci (Pisa)
+country_event = {
+	id = roman_characters_event.18
+	title = "roman_characters_event.18.t"
+	desc = "roman_characters_event.18.d"
+	picture = ADVISOR_TREASURER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1190
+		NOT = { is_year = 1240 }
+		owns_core_province = 115 # Pisa
+		NOT = { has_global_flag = fibonacci_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 115 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.18.opt1" # Advisor (Treasurer)
+		set_global_flag = fibonacci_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Leonardo Fibonacci"
+			type = treasurer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.18.opt2" # Advisor (Master of Mint)
+		set_global_flag = fibonacci_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Leonardo Fibonacci"
+			type = master_of_mint
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.18.opt3" # Advisor (Natural Scientist)
+		set_global_flag = fibonacci_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Leonardo Fibonacci"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.18.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 19. Thomas Aquinas (Naples)
+country_event = {
+	id = roman_characters_event.19
+	title = "roman_characters_event.19.t"
+	desc = "roman_characters_event.19.d"
+	picture = ADVISOR_THEOLOGIAN_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1245
+		NOT = { is_year = 1270 }
+		owns_core_province = 121 # Naples
+		NOT = { has_global_flag = aquinas_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 121 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.19.opt1" # Advisor (Theologian)
+		set_global_flag = aquinas_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Thomas Aquinas"
+			type = theologian
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.19.opt2" # Advisor (Natural Scientist)
+		set_global_flag = aquinas_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Thomas Aquinas"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.19.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 20. Rodrigo Diaz de Vivar (El Cid)
+country_event = {
+	id = roman_characters_event.20
+	title = "roman_characters_event.20.t"
+	desc = "roman_characters_event.20.d"
+	picture = MILITARY_PARADE_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1065
+		NOT = { is_year = 1095 }
+		owns_core_province = 220 # Valencia
+		NOT = { has_global_flag = elcid_recruited }
+	}
+	mean_time_to_happen = { months = 6 }
+	immediate = { 220 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.20.opt1" # General
+		set_global_flag = elcid_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Rodrigo Diaz de Vivar"
+			fire = 4
+			shock = 5
+			manuever = 5
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.20.opt2" # Ruler (Rodrigo)
+		set_global_flag = elcid_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Rodrigo"
+			dynasty = "de Vivar"
+			adm = 4
+			dip = 3
+			mil = 6
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_general = {
+			name = "Rodrigo"
+			fire = 4
+			shock = 5
+			manuever = 5
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_stability = -1
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.20.opt3" # Advisor (Commandant)
+		set_global_flag = elcid_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Rodrigo Diaz de Vivar"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.20.opt4" # Advisor (Army Organizer)
+		set_global_flag = elcid_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Rodrigo Diaz de Vivar"
+			type = army_organiser
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.20.refuse"
+		ai_chance = { factor = 0 }
+		add_prestige = -5
+	}
+}
+
+# 21. Ibn Khaldun (Tunis)
+country_event = {
+	id = roman_characters_event.21
+	title = "roman_characters_event.21.t"
+	desc = "roman_characters_event.21.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1360
+		NOT = { is_year = 1400 }
+		owns_core_province = 341 # Tunis
+		NOT = { has_global_flag = khaldun_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 341 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.21.opt1" # Advisor (Philosopher)
+		set_global_flag = khaldun_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Ibn Khaldun"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.21.opt2" # Advisor (Statesman)
+		set_global_flag = khaldun_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Ibn Khaldun"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.21.opt3" # Advisor (Diplomat)
+		set_global_flag = khaldun_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Ibn Khaldun"
+			type = diplomat
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.21.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 22. Filippo Brunelleschi (Florence)
+country_event = {
+	id = roman_characters_event.22
+	title = "roman_characters_event.22.t"
+	desc = "roman_characters_event.22.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1400
+		NOT = { is_year = 1440 }
+		owns_core_province = 116 # Florence
+		NOT = { has_global_flag = brunelleschi_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 116 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.22.opt1" # Advisor (Artist)
+		set_global_flag = brunelleschi_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Filippo Brunelleschi"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.22.opt2" # Advisor (Military Engineer)
+		set_global_flag = brunelleschi_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Filippo Brunelleschi"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.22.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 23. Donatello (Florence)
+country_event = {
+	id = roman_characters_event.23
+	title = "roman_characters_event.23.t"
+	desc = "roman_characters_event.23.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1420
+		NOT = { is_year = 1460 }
+		owns_core_province = 116 # Florence
+		NOT = { has_global_flag = donatello_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 116 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.23.opt1" # Advisor (Artist)
+		set_global_flag = donatello_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Donatello"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.23.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 24. Gjergj Kastrioti (Skanderbeg)
+country_event = {
+	id = roman_characters_event.24
+	title = "roman_characters_event.24.t"
+	desc = "roman_characters_event.24.d"
+	picture = MILITARY_PARADE_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1440
+		NOT = { is_year = 1465 }
+		owns_core_province = 4175 # Lezhe
+		NOT = { has_global_flag = skanderbeg_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 4175 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.24.opt1" # General
+		set_global_flag = skanderbeg_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Gjergj Kastrioti"
+			fire = 5
+			shock = 5
+			manuever = 4
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.24.opt2" # Advisor (Commandant)
+		set_global_flag = skanderbeg_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gjergj Kastrioti"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.24.opt3" # Advisor (Statesman)
+		set_global_flag = skanderbeg_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gjergj Kastrioti"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.24.opt4" # Ruler (Georgius)
+		set_global_flag = skanderbeg_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Georgius"
+			dynasty = "Kastrioti"
+			adm = 4
+			dip = 4
+			mil = 6
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_general = {
+			name = "Georgius"
+			fire = 5
+			shock = 5
+			manuever = 4
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_stability = -2
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.24.refuse"
+		ai_chance = { factor = 0 }
+		add_prestige = -5
+	}
+}
+
+# 25. Gemistus Pletho (Morea)
+country_event = {
+	id = roman_characters_event.25
+	title = "roman_characters_event.25.t"
+	desc = "roman_characters_event.25.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1400
+		NOT = { is_year = 1445 }
+		owns_core_province = 145 # Morea
+		NOT = { has_global_flag = pletho_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 145 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.25.opt1" # Advisor (Philosopher)
+		set_global_flag = pletho_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gemistus Pletho"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.25.opt2" # Advisor (Inquisitor)
+		set_global_flag = pletho_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gemistus Pletho"
+			type = inquisitor
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.25.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 26. Amerigo Vespucci (Florence)
+country_event = {
+	id = roman_characters_event.26
+	title = "roman_characters_event.26.t"
+	desc = "roman_characters_event.26.d"
+	picture = EXPLORERS_DEPARTING_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1490
+		NOT = { is_year = 1510 }
+		owns_core_province = 116 # Florence
+		NOT = { has_global_flag = vespucci_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 116 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.26.opt1" # Explorer
+		set_global_flag = vespucci_recruited
+		add_years_of_income = -0.25
+		define_explorer = {
+			name = "Amerigo Vespucci"
+			fire = 3
+			shock = 3
+			manuever = 5
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.26.opt2" # Advisor (Navigator)
+		set_global_flag = vespucci_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Amerigo Vespucci"
+			type = navigator
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.26.opt3" # Advisor (Colonial Governor)
+		set_global_flag = vespucci_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Amerigo Vespucci"
+			type = colonial_governor
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.26.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 27. Vasco da Gama (Porto)
+country_event = {
+	id = roman_characters_event.27
+	title = "roman_characters_event.27.t"
+	desc = "roman_characters_event.27.d"
+	picture = EXPLORERS_DEPARTING_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1495
+		NOT = { is_year = 1520 }
+		owns_core_province = 231 # Porto
+		NOT = { has_global_flag = dagama_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 231 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.27.opt1" # Explorer
+		set_global_flag = dagama_recruited
+		add_years_of_income = -0.25
+		define_explorer = {
+			name = "Vasco da Gama"
+			fire = 4
+			shock = 3
+			manuever = 4
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.27.opt2" # Advisor (Navigator)
+		set_global_flag = dagama_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Vasco da Gama"
+			type = navigator
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.27.opt3" # Advisor (Colonial Governor)
+		set_global_flag = dagama_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Vasco da Gama"
+			type = colonial_governor
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.27.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 28. Ferdinand Magellan (Porto)
+country_event = {
+	id = roman_characters_event.28
+	title = "roman_characters_event.28.t"
+	desc = "roman_characters_event.28.d"
+	picture = EXPLORERS_DEPARTING_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1510
+		NOT = { is_year = 1520 }
+		owns_core_province = 231 # Porto
+		NOT = { has_global_flag = magellan_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 231 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.28.opt1" # Explorer
+		set_global_flag = magellan_recruited
+		add_years_of_income = -0.25
+		define_explorer = {
+			name = "Ferdinand Magellan"
+			fire = 4
+			shock = 4
+			manuever = 6
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.28.opt2" # Advisor (Navigator)
+		set_global_flag = magellan_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Ferdinand Magellan"
+			type = navigator
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.28.opt3" # Advisor (Colonial Governor)
+		set_global_flag = magellan_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Ferdinand Magellan"
+			type = colonial_governor
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.28.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 29. Hernan Cortes (Badajoz)
+country_event = {
+	id = roman_characters_event.29
+	title = "roman_characters_event.29.t"
+	desc = "roman_characters_event.29.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1515
+		NOT = { is_year = 1540 }
+		owns_core_province = 218 # Badajoz
+		NOT = { has_global_flag = cortes_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 218 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.29.opt1" # Conquistador
+		set_global_flag = cortes_recruited
+		add_years_of_income = -0.25
+		define_conquistador = {
+			name = "Hernan Cortes"
+			fire = 5
+			shock = 4
+			manuever = 4
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.29.opt2" # General
+		set_global_flag = cortes_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Hernan Cortes"
+			fire = 5
+			shock = 4
+			manuever = 4
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.29.opt3" # Advisor (Colonial Governor)
+		set_global_flag = cortes_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Hernan Cortes"
+			type = colonial_governor
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.29.refuse"
+		ai_chance = { factor = 5 }
+		add_prestige = -5
+	}
+}
+
+# 30. Mimar Sinan (Constantinople)
+country_event = {
+	id = roman_characters_event.30
+	title = "roman_characters_event.30.t"
+	desc = "roman_characters_event.30.d"
+	picture = ADVISOR_fortification_expert_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1540
+		NOT = { is_year = 1580 }
+		owns_core_province = 151 # Constantinople
+		NOT = { has_global_flag = sinan_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 151 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.30.opt1" # Advisor (Artist)
+		set_global_flag = sinan_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Mimar Sinan"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.30.opt2" # Advisor (Military Engineer)
+		set_global_flag = sinan_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Mimar Sinan"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.30.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 31. Miguel de Cervantes (Madrid)
+country_event = {
+	id = roman_characters_event.31
+	title = "roman_characters_event.31.t"
+	desc = "roman_characters_event.31.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1590
+		NOT = { is_year = 1615 }
+		owns_core_province = 217 # Madrid
+		NOT = { has_global_flag = cervantes_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 217 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.31.opt1" # Advisor (Philosopher)
+		set_global_flag = cervantes_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Miguel de Cervantes"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.31.opt2" # Advisor (Artist)
+		set_global_flag = cervantes_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Miguel de Cervantes"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.31.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 32. Galileo Galilei (Pisa)
+country_event = {
+	id = roman_characters_event.32
+	title = "roman_characters_event.32.t"
+	desc = "roman_characters_event.32.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1610
+		NOT = { is_year = 1640 }
+		owns_core_province = 115 # Pisa
+		NOT = { has_global_flag = galileo_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 115 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.32.opt1" # Advisor (Natural Scientist)
+		set_global_flag = galileo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Galileo Galilei"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.32.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 33. Artemisia Gentileschi (Rome)
+country_event = {
+	id = roman_characters_event.33
+	title = "roman_characters_event.33.t"
+	desc = "roman_characters_event.33.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1620
+		NOT = { is_year = 1650 }
+		owns_core_province = 118 # Rome
+		NOT = { has_global_flag = artemisia_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.33.opt1" # Advisor (Artist)
+		set_global_flag = artemisia_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Artemisia Gentileschi"
+			type = artist
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.33.opt2" # Advisor (Spymaster)
+		set_global_flag = artemisia_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Artemisia Gentileschi"
+			type = spymaster
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.33.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 34. Gian Lorenzo Bernini (Naples)
+country_event = {
+	id = roman_characters_event.34
+	title = "roman_characters_event.34.t"
+	desc = "roman_characters_event.34.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1630
+		NOT = { is_year = 1670 }
+		owns_core_province = 121 # Naples
+		NOT = { has_global_flag = bernini_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 121 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.34.opt1" # Advisor (Artist)
+		set_global_flag = bernini_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gian Lorenzo Bernini"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.34.opt2" # Advisor (Military Engineer)
+		set_global_flag = bernini_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gian Lorenzo Bernini"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.34.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 35. Antonio Vivaldi (Venice)
+country_event = {
+	id = roman_characters_event.35
+	title = "roman_characters_event.35.t"
+	desc = "roman_characters_event.35.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1710
+		NOT = { is_year = 1740 }
+		owns_core_province = 112 # Venice
+		NOT = { has_global_flag = vivaldi_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 112 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.35.opt1" # Advisor (Artist)
+		set_global_flag = vivaldi_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Antonio Vivaldi"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.35.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 36. Voltaire (Paris)
+country_event = {
+	id = roman_characters_event.36
+	title = "roman_characters_event.36.t"
+	desc = "roman_characters_event.36.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1750
+		NOT = { is_year = 1775 }
+		owns_core_province = 183 # Paris
+		NOT = { has_global_flag = voltaire_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 183 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.36.opt1" # Advisor (Philosopher)
+		set_global_flag = voltaire_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Voltaire"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.36.opt2" # Advisor (Statesman)
+		set_global_flag = voltaire_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Voltaire"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.36.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 37. Wolfgang Amadeus Mozart (Salzburg)
+country_event = {
+	id = roman_characters_event.37
+	title = "roman_characters_event.37.t"
+	desc = "roman_characters_event.37.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1775
+		NOT = { is_year = 1790 }
+		owns_core_province = 76 # Salzburg
+		NOT = { has_global_flag = mozart_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 76 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.37.opt1" # Advisor (Artist)
+		set_global_flag = mozart_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Wolfgang Amadeus Mozart"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.37.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 38. Johann Wolfgang von Goethe (Frankfurt)
+country_event = {
+	id = roman_characters_event.38
+	title = "roman_characters_event.38.t"
+	desc = "roman_characters_event.38.d"
+	picture = ADVISOR_STATESMAN_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1800
+		NOT = { is_year = 1830 }
+		owns_core_province = 1876 # Frankfurt
+		NOT = { has_global_flag = goethe_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 1876 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.38.opt1" # Advisor (Statesman)
+		set_global_flag = goethe_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Johann Wolfgang von Goethe"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.38.opt2" # Advisor (Artist)
+		set_global_flag = goethe_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Johann Wolfgang von Goethe"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.38.opt3" # Advisor (Natural Scientist)
+		set_global_flag = goethe_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Johann Wolfgang von Goethe"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.38.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 39. Arthur Wellesley (Dublin)
+country_event = {
+	id = roman_characters_event.39
+	title = "roman_characters_event.39.t"
+	desc = "roman_characters_event.39.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1810
+		NOT = { is_year = 1840 }
+		owns_core_province = 373 # Dublin
+		NOT = { has_global_flag = wellesley_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 373 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.39.opt1" # General
+		set_global_flag = wellesley_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Arthur Wellesley"
+			fire = 6
+			shock = 5
+			manuever = 4
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.39.opt2" # Advisor (Commandant)
+		set_global_flag = wellesley_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Arthur Wellesley"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.39.opt3" # Advisor (Military Engineer)
+		set_global_flag = wellesley_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Arthur Wellesley"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.39.opt4" # Advisor (Army Reformer)
+		set_global_flag = wellesley_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Arthur Wellesley"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.39.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 40. Giuseppe Garibaldi (Nice)
+country_event = {
+	id = roman_characters_event.40
+	title = "roman_characters_event.40.t"
+	desc = "roman_characters_event.40.d"
+	picture = MILITARY_PARADE_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1840
+		NOT = { is_year = 1870 }
+		owns_core_province = 102 # Nice
+		NOT = { has_global_flag = garibaldi_recruited }
+	}
+	mean_time_to_happen = { months = 6 }
+	immediate = { 102 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.40.opt1" # General
+		set_global_flag = garibaldi_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Giuseppe Garibaldi"
+			fire = 5
+			shock = 6
+			manuever = 5
+			siege = 1
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.40.opt2" # Advisor (Commandant)
+		set_global_flag = garibaldi_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Giuseppe Garibaldi"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.40.opt3" # Advisor (Army Reformer)
+		set_global_flag = garibaldi_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Giuseppe Garibaldi"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.40.opt4" # Ruler (Giuseppe)
+		set_global_flag = garibaldi_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Giuseppe"
+			dynasty = "Garibaldi"
+			adm = 4
+			dip = 5
+			mil = 6
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_general = {
+			name = "Giuseppe"
+			fire = 5
+			shock = 6
+			manuever = 5
+			siege = 1
+			culture = event_target:char_origin_province
+		}
+		add_stability = -2
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.40.refuse"
+		ai_chance = { factor = 0 }
+		add_prestige = -5
+	}
+}
+
+# 41. Camillo Benso (Cavour)
+country_event = {
+	id = roman_characters_event.41
+	title = "roman_characters_event.41.t"
+	desc = "roman_characters_event.41.d"
+	picture = ADVISOR_STATESMAN_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1848
+		NOT = { is_year = 1860 }
+		owns_core_province = 103 # Turin
+		NOT = { has_global_flag = cavour_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 103 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.41.opt1" # Advisor (Statesman)
+		set_global_flag = cavour_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Camillo Benso"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.41.opt2" # Advisor (Spymaster)
+		set_global_flag = cavour_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Camillo Benso"
+			type = spymaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.41.opt3" # Advisor (Master of Mint)
+		set_global_flag = cavour_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Camillo Benso"
+			type = master_of_mint
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.41.opt4" # Advisor (Diplomat)
+		set_global_flag = cavour_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Camillo Benso"
+			type = diplomat
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.41.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 42. Florence Nightingale (Florence)
+country_event = {
+	id = roman_characters_event.42
+	title = "roman_characters_event.42.t"
+	desc = "roman_characters_event.42.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1855
+		NOT = { is_year = 1880 }
+		owns_core_province = 116 # Florence
+		NOT = { has_global_flag = nightingale_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 116 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.42.opt1" # Advisor (Master of Mint)
+		set_global_flag = nightingale_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Florence Nightingale"
+			type = master_of_mint
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.42.opt2" # Advisor (Natural Scientist)
+		set_global_flag = nightingale_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Florence Nightingale"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.42.opt3" # Advisor (Quartermaster)
+		set_global_flag = nightingale_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Florence Nightingale"
+			type = quartermaster
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.42.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 43. Nikola Tesla (Lika)
+country_event = {
+	id = roman_characters_event.43
+	title = "roman_characters_event.43.t"
+	desc = "roman_characters_event.43.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1890
+		NOT = { is_year = 1930 }
+		owns_core_province = 1826 # Lika
+		NOT = { has_global_flag = tesla_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 1826 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.43.opt1" # Advisor (Natural Scientist)
+		set_global_flag = tesla_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Nikola Tesla"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.43.opt2" # Advisor (Spymaster)
+		set_global_flag = tesla_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Nikola Tesla"
+			type = spymaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.43.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 44. Marie Curie (Warsaw)
+country_event = {
+	id = roman_characters_event.44
+	title = "roman_characters_event.44.t"
+	desc = "roman_characters_event.44.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1910
+		NOT = { is_year = 1930 }
+		owns_core_province = 257 # Warsaw
+		NOT = { has_global_flag = curie_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 257 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.44.opt1" # Advisor (Natural Scientist)
+		set_global_flag = curie_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Marie Curie"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.44.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 45. Mustafa Kemal (Thessaloniki)
+country_event = {
+	id = roman_characters_event.45
+	title = "roman_characters_event.45.t"
+	desc = "roman_characters_event.45.d"
+	picture = MILITARY_PARADE_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1920
+		NOT = { is_year = 1935 }
+		owns_core_province = 148 # Thessaloniki
+		NOT = { has_global_flag = mustafakemal_recruited }
+	}
+	mean_time_to_happen = { months = 6 }
+	immediate = { 148 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.45.opt1" # General
+		set_global_flag = mustafakemal_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Mustafa Kemal"
+			fire = 6
+			shock = 5
+			manuever = 5
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.45.opt2" # Advisor (Statesman)
+		set_global_flag = mustafakemal_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Mustafa Kemal"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.45.opt3" # Advisor (Army Reformer)
+		set_global_flag = mustafakemal_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Mustafa Kemal"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.45.opt4" # Ruler (Mustafa)
+		set_global_flag = mustafakemal_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Mustafa"
+			dynasty = "Kemal"
+			adm = 5
+			dip = 5
+			mil = 6
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_general = {
+			name = "Mustafa Kemal"
+			fire = 6
+			shock = 5
+			manuever = 5
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_stability = -2
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.45.refuse"
+		ai_chance = { factor = 0 }
+		add_prestige = -5
+	}
+}
+
+# 46. Pablo Picasso (Malaga)
+country_event = {
+	id = roman_characters_event.46
+	title = "roman_characters_event.46.t"
+	desc = "roman_characters_event.46.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1910
+		NOT = { is_year = 1960 }
+		owns_core_province = 4546 # Malaga
+		NOT = { has_global_flag = picasso_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 4546 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.46.opt1" # Advisor (Artist)
+		set_global_flag = picasso_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Pablo Picasso"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.46.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 47. Guglielmo Marconi (Bologna)
+country_event = {
+	id = roman_characters_event.47
+	title = "roman_characters_event.47.t"
+	desc = "roman_characters_event.47.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1900
+		NOT = { is_year = 1935 }
+		owns_core_province = 4730 # Bologna
+		NOT = { has_global_flag = marconi_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 4730 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.47.opt1" # Advisor (Natural Scientist)
+		set_global_flag = marconi_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Guglielmo Marconi"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.47.opt2" # Advisor (Quartermaster)
+		set_global_flag = marconi_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Guglielmo Marconi"
+			type = quartermaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.47.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 48. Enrico Fermi (Rome)
+country_event = {
+	id = roman_characters_event.48
+	title = "roman_characters_event.48.t"
+	desc = "roman_characters_event.48.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1940
+		NOT = { is_year = 1950 }
+		owns_core_province = 118 # Rome
+		NOT = { has_global_flag = fermi_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.48.opt1" # Advisor (Natural Scientist)
+		set_global_flag = fermi_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Enrico Fermi"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.48.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 49. Enzo Ferrari (Modena)
+country_event = {
+	id = roman_characters_event.49
+	title = "roman_characters_event.49.t"
+	desc = "roman_characters_event.49.d"
+	picture = ADVISOR_QUARTERMASTER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1950
+		NOT = { is_year = 1980 }
+		owns_core_province = 106 # Modena
+		NOT = { has_global_flag = ferrari_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 106 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.49.opt1" # Advisor (Natural Scientist)
+		set_global_flag = ferrari_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Enzo Ferrari"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.49.opt2" # Advisor (Quartermaster)
+		set_global_flag = ferrari_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Enzo Ferrari"
+			type = quartermaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.49.opt3" # Advisor (Trader)
+		set_global_flag = ferrari_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Enzo Ferrari"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.49.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 50. Wernher von Braun (Posen)
+country_event = {
+	id = roman_characters_event.50
+	title = "roman_characters_event.50.t"
+	desc = "roman_characters_event.50.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1940
+		NOT = { is_year = 1970 }
+		owns_core_province = 254 # Posen
+		NOT = { has_global_flag = vonbraun_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 254 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.50.opt1" # Advisor (Natural Scientist)
+		set_global_flag = vonbraun_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Wernher von Braun"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.50.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+# 51. Gnaeus Domitius Corbulo (Rome)
+country_event = {
+	id = roman_characters_event.51
+	title = "roman_characters_event.51.t"
+	desc = "roman_characters_event.51.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 50
+		NOT = { is_year = 65 }
+		owns_core_province = 118 # Rome
+		NOT = { has_global_flag = corbulo_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.51.opt1" # General
+		set_global_flag = corbulo_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Gnaeus Domitius Corbulo"
+			fire = 4
+			shock = 4
+			manuever = 3
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.51.opt2" # Advisor (Commandant)
+		set_global_flag = corbulo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gnaeus Domitius Corbulo"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.51.opt3" # Advisor (Army Reformer)
+		set_global_flag = corbulo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gnaeus Domitius Corbulo"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.51.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 52. Flavius Aetius (Ravenna)
+country_event = {
+	id = roman_characters_event.52
+	title = "roman_characters_event.52.t"
+	desc = "roman_characters_event.52.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 430
+		NOT = { is_year = 450 }
+		owns_core_province = 114 # Ravenna
+		NOT = { has_global_flag = aetius_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 114 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.52.opt1" # General
+		set_global_flag = aetius_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Flavius Aetius"
+			fire = 4
+			shock = 5
+			manuever = 5
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.52.opt2" # Advisor (Commandant)
+		set_global_flag = aetius_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Flavius Aetius"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.52.opt3" # Advisor (Army Reformer)
+		set_global_flag = aetius_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Flavius Aetius"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.52.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 53. Flavius Stilicho (Milan)
+country_event = {
+	id = roman_characters_event.53
+	title = "roman_characters_event.53.t"
+	desc = "roman_characters_event.53.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 390
+		NOT = { is_year = 405 }
+		owns_core_province = 104 # Milan
+		NOT = { has_global_flag = stilicho_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 104 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.53.opt1" # General
+		set_global_flag = stilicho_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Flavius Stilicho"
+			fire = 4
+			shock = 5
+			manuever = 4
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.53.opt2" # Advisor (Commandant)
+		set_global_flag = stilicho_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Flavius Stilicho"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.53.opt3" # Advisor (Army Reformer)
+		set_global_flag = stilicho_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Flavius Stilicho"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.53.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 54. Roger de Flor (Messina)
+country_event = {
+	id = roman_characters_event.54
+	title = "roman_characters_event.54.t"
+	desc = "roman_characters_event.54.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1290
+		NOT = { is_year = 1305 }
+		owns_core_province = 124 # Messina
+		NOT = { has_global_flag = rogerdeflor_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 124 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.54.opt1" # Admiral
+		set_global_flag = rogerdeflor_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Roger de Flor"
+			fire = 4
+			shock = 5
+			manuever = 4
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.54.opt2" # Advisor (Grand Captain)
+		set_global_flag = rogerdeflor_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Roger de Flor"
+			type = grand_captain
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.54.opt3" # Advisor (Naval reformer)
+		set_global_flag = rogerdeflor_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Roger de Flor"
+			type = naval_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.54.opt4" # Advisor (Trader)
+		set_global_flag = rogerdeflor_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Roger de Flor"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.54.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 55. Andrea Doria (Genoa)
+country_event = {
+	id = roman_characters_event.55
+	title = "roman_characters_event.55.t"
+	desc = "roman_characters_event.55.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1520
+		NOT = { is_year = 1550 }
+		owns_core_province = 101 # Genoa
+		NOT = { has_global_flag = andreadoria_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 101 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.55.opt1" # Admiral
+		set_global_flag = andreadoria_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Andrea Doria"
+			fire = 5
+			shock = 5
+			manuever = 5
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.55.opt2" # Advisor (Trader)
+		set_global_flag = andreadoria_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Andrea Doria"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.55.opt3" # Advisor (Naval reformer)
+		set_global_flag = andreadoria_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Andrea Doria"
+			type = naval_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.55.opt4" # Ruler (Andrea)
+		set_global_flag = andreadoria_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Andrea"
+			dynasty = "Doria"
+			adm = 4
+			dip = 5
+			mil = 5
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_admiral = {
+			name = "Andrea Doria"
+			fire = 5
+			shock = 5
+			manuever = 5
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_stability = -1
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.55.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 56. Hayreddin Barbarossa (Lesbos)
+country_event = {
+	id = roman_characters_event.56
+	title = "roman_characters_event.56.t"
+	desc = "roman_characters_event.56.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1525
+		NOT = { is_year = 1545 }
+		owns_core_province = 4700 # Lesbos
+		NOT = { has_global_flag = barbarossa_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 4700 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.56.opt1" # Admiral
+		set_global_flag = barbarossa_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Hayreddin Barbarossa"
+			fire = 6
+			shock = 5
+			manuever = 5
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.56.opt2" # Advisor (Spymaster)
+		set_global_flag = barbarossa_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Hayreddin Barbarossa"
+			type = spymaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.56.opt3" # Advisor (Naval reformer)
+		set_global_flag = barbarossa_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Hayreddin Barbarossa"
+			type = naval_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.56.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 57. Don John of Austria (Messina)
+country_event = {
+	id = roman_characters_event.57
+	title = "roman_characters_event.57.t"
+	desc = "roman_characters_event.57.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1570
+		NOT = { is_year = 1575 }
+		owns_core_province = 124 # Messina
+		NOT = { has_global_flag = donjohn_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 124 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.57.opt1" # Admiral
+		set_global_flag = donjohn_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Don John of Austria"
+			fire = 6
+			shock = 5
+			manuever = 4
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.57.opt2" # Advisor (Trader)
+		set_global_flag = donjohn_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Don John of Austria"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.57.opt3" # Advisor (Diplomat)
+		set_global_flag = donjohn_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Don John of Austria"
+			type = diplomat
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.57.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 58. Giovanni Giustiniani (Genoa)
+country_event = {
+	id = roman_characters_event.58
+	title = "roman_characters_event.58.t"
+	desc = "roman_characters_event.58.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1445
+		NOT = { is_year = 1455 }
+		owns_core_province = 101 # Genoa
+		NOT = { has_global_flag = giustiniani_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 101 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.58.opt1" # General
+		set_global_flag = giustiniani_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Giovanni Giustiniani"
+			fire = 4
+			shock = 5
+			manuever = 3
+			siege = 4
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.58.opt2" # Advisor (Military Engineer)
+		set_global_flag = giustiniani_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Giovanni Giustiniani"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.58.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 59. Sebastien de Vauban (Bourgogne)
+country_event = {
+	id = roman_characters_event.59
+	title = "roman_characters_event.59.t"
+	desc = "roman_characters_event.59.d"
+	picture = ADVISOR_fortification_expert_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1680
+		NOT = { is_year = 1700 }
+		owns_core_province = 192 # Bourgogne
+		NOT = { has_global_flag = vauban_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 192 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.59.opt1" # Advisor (Military Engineer)
+		set_global_flag = vauban_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Sebastien de Vauban"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.59.opt2" # Advisor (Quartermaster)
+		set_global_flag = vauban_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Sebastien de Vauban"
+			type = quartermaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.59.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 60. Raimondo Montecuccoli (Modena)
+country_event = {
+	id = roman_characters_event.60
+	title = "roman_characters_event.60.t"
+	desc = "roman_characters_event.60.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1660
+		NOT = { is_year = 1675 }
+		owns_core_province = 106 # Modena
+		NOT = { has_global_flag = montecuccoli_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 106 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.60.opt1" # General
+		set_global_flag = montecuccoli_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Raimondo Montecuccoli"
+			fire = 5
+			shock = 5
+			manuever = 4
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.60.opt2" # Advisor (Military Engineer)
+		set_global_flag = montecuccoli_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Raimondo Montecuccoli"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.60.opt3" # Advisor (Statesman)
+		set_global_flag = montecuccoli_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Raimondo Montecuccoli"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.60.opt4" # Advisor (Philosopher)
+		set_global_flag = montecuccoli_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Raimondo Montecuccoli"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.60.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 61. Eugene of Savoy (Turin)
+country_event = {
+	id = roman_characters_event.61
+	title = "roman_characters_event.61.t"
+	desc = "roman_characters_event.61.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1700
+		NOT = { is_year = 1730 }
+		owns_core_province = 103 # Turin
+		NOT = { has_global_flag = eugeneofsavoy_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 103 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.61.opt1" # General
+		set_global_flag = eugeneofsavoy_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Eugene of Savoy"
+			fire = 6
+			shock = 5
+			manuever = 5
+			siege = 4
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.61.opt2" # Advisor (Commandant)
+		set_global_flag = eugeneofsavoy_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Eugene of Savoy"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.61.opt3" # Advisor (Statesman)
+		set_global_flag = eugeneofsavoy_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Eugene of Savoy"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.61.opt4" # Ruler (Eugenio)
+		set_global_flag = eugeneofsavoy_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Eugenio"
+			dynasty = "Savoy"
+			adm = 5
+			dip = 4
+			mil = 6
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_general = {
+			name = "Eugenio"
+			fire = 6
+			shock = 5
+			manuever = 5
+			siege = 4
+			culture = event_target:char_origin_province
+		}
+		add_stability = -1
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.61.refuse"
+		ai_chance = { factor = 0 }
+		add_prestige = -5
+	}
+}
+
+# 62. Michiel de Ruyter (Zeeland)
+country_event = {
+	id = roman_characters_event.62
+	title = "roman_characters_event.62.t"
+	desc = "roman_characters_event.62.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1650
+		NOT = { is_year = 1670 }
+		owns_core_province = 96 # Zeeland
+		NOT = { has_global_flag = deruyter_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 96 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.62.opt1" # Admiral
+		set_global_flag = deruyter_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Michiel de Ruyter"
+			fire = 5
+			shock = 5
+			manuever = 6
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.62.opt2" # Advisor (Naval reformer)
+		set_global_flag = deruyter_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Michiel de Ruyter"
+			type = naval_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.62.opt3" # Advisor (Trader)
+		set_global_flag = deruyter_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Michiel de Ruyter"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.62.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 63. Horatio Nelson (London)
+country_event = {
+	id = roman_characters_event.63
+	title = "roman_characters_event.63.t"
+	desc = "roman_characters_event.63.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1795
+		NOT = { is_year = 1805 }
+		owns_core_province = 236 # London
+		NOT = { has_global_flag = nelson_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 236 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.63.opt1" # Admiral
+		set_global_flag = nelson_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Horatio Nelson"
+			fire = 6
+			shock = 6
+			manuever = 4
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.63.opt2" # Advisor (Naval reformer)
+		set_global_flag = nelson_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Horatio Nelson"
+			type = naval_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.63.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 64. Alexander Suvorov (Moskva)
+country_event = {
+	id = roman_characters_event.64
+	title = "roman_characters_event.64.t"
+	desc = "roman_characters_event.64.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1780
+		NOT = { is_year = 1795 }
+		owns_core_province = 295 # Moskva
+		NOT = { has_global_flag = suvorov_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 295 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.64.opt1" # General
+		set_global_flag = suvorov_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Alexander Suvorov"
+			fire = 5
+			shock = 6
+			manuever = 4
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.64.opt2" # Advisor (Commandant)
+		set_global_flag = suvorov_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Alexander Suvorov"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.64.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 65. Carl von Clausewitz (Magdeburg)
+country_event = {
+	id = roman_characters_event.65
+	title = "roman_characters_event.65.t"
+	desc = "roman_characters_event.65.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1815
+		NOT = { is_year = 1830 }
+		owns_core_province = 52 # Magdeburg
+		NOT = { has_global_flag = clausewitz_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 52 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.65.opt1" # Advisor (Army Reformer)
+		set_global_flag = clausewitz_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Carl von Clausewitz"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.65.opt2" # Advisor (Philosopher)
+		set_global_flag = clausewitz_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Carl von Clausewitz"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.65.opt3" # Advisor (Diplomat)
+		set_global_flag = clausewitz_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Carl von Clausewitz"
+			type = diplomat
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.65.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 66. Helmuth von Moltke (Berlin)
+country_event = {
+	id = roman_characters_event.66
+	title = "roman_characters_event.66.t"
+	desc = "roman_characters_event.66.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1860
+		NOT = { is_year = 1885 }
+		owns_core_province = 50 # Berlin
+		NOT = { has_global_flag = moltke_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 50 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.66.opt1" # General
+		set_global_flag = moltke_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Helmuth von Moltke"
+			fire = 5
+			shock = 5
+			manuever = 5
+			siege = 4
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.66.opt2" # Advisor (Commandant)
+		set_global_flag = moltke_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Helmuth von Moltke"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.66.opt3" # Advisor (Master Recruiter)
+		set_global_flag = moltke_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Helmuth von Moltke"
+			type = army_organiser
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.66.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 67. Robert E. Lee (Virginia)
+country_event = {
+	id = roman_characters_event.67
+	title = "roman_characters_event.67.t"
+	desc = "roman_characters_event.67.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1860
+		NOT = { is_year = 1865 }
+		owns_core_province = 950 # Chesapeake
+		NOT = { has_global_flag = lee_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 950 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.67.opt1" # General
+		set_global_flag = lee_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Robert E. Lee"
+			fire = 6
+			shock = 5
+			manuever = 5
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.67.opt2" # Advisor (Army Reformer)
+		set_global_flag = lee_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Robert E. Lee"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.67.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 68. Maurice of Nassau (Holland)
+country_event = {
+	id = roman_characters_event.68
+	title = "roman_characters_event.68.t"
+	desc = "roman_characters_event.68.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1590
+		NOT = { is_year = 1620 }
+		owns_core_province = 97 # Holland
+		NOT = { has_global_flag = mauriceofnassau_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 97 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.68.opt1" # General
+		set_global_flag = mauriceofnassau_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Maurice of Nassau"
+			fire = 4
+			shock = 4
+			manuever = 3
+			siege = 4
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.68.opt2" # Advisor (Army Reformer)
+		set_global_flag = mauriceofnassau_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Maurice of Nassau"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.68.opt3" # Advisor (Diplomat)
+		set_global_flag = mauriceofnassau_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Maurice of Nassau"
+			type = diplomat
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.68.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 69. Gustavus Adolphus (Stockholm)
+country_event = {
+	id = roman_characters_event.69
+	title = "roman_characters_event.69.t"
+	desc = "roman_characters_event.69.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1625
+		NOT = { is_year = 1635 }
+		owns_core_province = 1 # Stockholm
+		NOT = { has_global_flag = gustavusadolphus_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 1 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.69.opt1" # General
+		set_global_flag = gustavusadolphus_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Gustavus Adolphus"
+			fire = 5
+			shock = 5
+			manuever = 5
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.69.opt2" # Advisor (Quartermaster)
+		set_global_flag = gustavusadolphus_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gustavus Adolphus"
+			type = quartermaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.69.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 70. John Paul Jones (Highlands/Britain)
+country_event = {
+	id = roman_characters_event.70
+	title = "roman_characters_event.70.t"
+	desc = "roman_characters_event.70.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1780
+		NOT = { is_year = 1790 }
+		owns_core_province = 236 # London/Britain
+		NOT = { has_global_flag = johnpauljones_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 236 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.70.opt1" # Admiral
+		set_global_flag = johnpauljones_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "John Paul Jones"
+			fire = 5
+			shock = 5
+			manuever = 5
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.70.opt2" # Advisor (Spymaster)
+		set_global_flag = johnpauljones_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "John Paul Jones"
+			type = spymaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.70.opt3" # Advisor (Trader)
+		set_global_flag = johnpauljones_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "John Paul Jones"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.70.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 71. Erwin Rommel (Ulm)
+country_event = {
+	id = roman_characters_event.71
+	title = "roman_characters_event.71.t"
+	desc = "roman_characters_event.71.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1940
+		NOT = { is_year = 1944 }
+		owns_core_province = 1872 # Ulm
+		NOT = { has_global_flag = rommel_recruited }
+	}
+	mean_time_to_happen = { months = 6 }
+	immediate = { 1872 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.71.opt1" # General
+		set_global_flag = rommel_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Erwin Rommel"
+			fire = 6
+			shock = 6
+			manuever = 6
+			siege = 1
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.71.opt2" # Advisor (Commandant)
+		set_global_flag = rommel_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Erwin Rommel"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.71.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 72. Alan Turing (London)
+country_event = {
+	id = roman_characters_event.72
+	title = "roman_characters_event.72.t"
+	desc = "roman_characters_event.72.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1940
+		NOT = { is_year = 1950 }
+		owns_core_province = 236 # London
+		NOT = { has_global_flag = turing_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 236 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.72.opt1" # Advisor (Spymaster)
+		set_global_flag = turing_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Alan Turing"
+			type = spymaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.72.opt2" # Advisor (Master of Mint)
+		set_global_flag = turing_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Alan Turing"
+			type = master_of_mint
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.72.opt3" # Advisor (Treasurer)
+		set_global_flag = turing_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Alan Turing"
+			type = treasurer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.72.opt4" # Advisor (Natural Scientist)
+		set_global_flag = turing_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Alan Turing"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.72.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 73. Henri de Turenne (Paris)
+country_event = {
+	id = roman_characters_event.73
+	title = "roman_characters_event.73.t"
+	desc = "roman_characters_event.73.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1650
+		NOT = { is_year = 1670 }
+		owns_core_province = 183 # Paris
+		NOT = { has_global_flag = turenne_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 183 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.73.opt1" # General
+		set_global_flag = turenne_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Henri de Turenne"
+			fire = 5
+			shock = 5
+			manuever = 6
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.73.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 74. Cornelius Tacitus (Provence)
+country_event = {
+	id = roman_characters_event.74
+	title = "roman_characters_event.74.t"
+	desc = "roman_characters_event.74.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 90
+		NOT = { is_year = 115 }
+		owns_core_province = 201 # Massilia
+		NOT = { has_global_flag = tacitus_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } } #will be roman hellenic
+	
+	option = {
+		name = "roman_characters_event.74.opt1" # Advisor (Statesman)
+		set_global_flag = tacitus_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Cornelius Tacitus"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.74.opt2" # Advisor (Philosopher)
+		set_global_flag = tacitus_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Cornelius Tacitus"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.74.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 75. Lucius Annaeus Seneca (Cordoba)
+country_event = {
+	id = roman_characters_event.75
+	title = "roman_characters_event.75.t"
+	desc = "roman_characters_event.75.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 40
+		NOT = { is_year = 60 }
+		owns_core_province = 225 # Cordoba
+		NOT = { has_global_flag = seneca_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } } #will be roman hellenic / chalcedonian
+	
+	option = {
+		name = "roman_characters_event.75.opt1" # Advisor (Philosopher)
+		set_global_flag = seneca_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Lucius Annaeus Seneca"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.75.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 76. Gnaeus Julius Agricola (Provence)
+country_event = {
+	id = roman_characters_event.76
+	title = "roman_characters_event.76.t"
+	desc = "roman_characters_event.76.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 75
+		NOT = { is_year = 90 }
+		owns_core_province = 201 # Massilia
+		NOT = { has_global_flag = agricola_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } } #will be roman hellenic
+	
+	option = {
+		name = "roman_characters_event.76.opt1" # General
+		set_global_flag = agricola_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Gnaeus Julius Agricola"
+			fire = 4
+			shock = 4
+			manuever = 3
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.76.opt2" # Advisor (Master Recruiter)
+		set_global_flag = agricola_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gnaeus Julius Agricola"
+			type = army_organiser
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.76.opt3" # Advisor (Statesman)
+		set_global_flag = agricola_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gnaeus Julius Agricola"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.76.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 77. Pliny the Elder (Como)
+country_event = {
+	id = roman_characters_event.77
+	title = "roman_characters_event.77.t"
+	desc = "roman_characters_event.77.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 60
+		NOT = { is_year = 75 }
+		owns_core_province = 104 # Como
+		NOT = { has_global_flag = plinytheelder_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.77.opt1" # Advisor (Natural Scientist)
+		set_global_flag = plinytheelder_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Pliny the Elder"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.77.opt2" # Advisor (Trader)
+		set_global_flag = plinytheelder_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Pliny the Elder"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.77.opt3" # Advisor (Philosopher)
+		set_global_flag = plinytheelder_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Pliny the Elder"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.77.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 78. Boethius (Rome)
+country_event = {
+	id = roman_characters_event.78
+	title = "roman_characters_event.78.t"
+	desc = "roman_characters_event.78.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 500
+		NOT = { is_year = 520 }
+		owns_core_province = 118 # Rome
+		NOT = { has_global_flag = boethius_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.78.opt1" # Advisor (Philosopher)
+		set_global_flag = boethius_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Boethius"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.78.opt2" # Advisor (Statesman)
+		set_global_flag = boethius_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Boethius"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.78.opt3" # Ruler (Boethius)
+		set_global_flag = boethius_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Boethius"
+			dynasty = "Anicius"
+			adm = 6
+			dip = 4
+			mil = 3
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_stability = -2
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.78.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 79. Francesco Petrarca (Siena)
+country_event = {
+	id = roman_characters_event.79
+	title = "roman_characters_event.79.t"
+	desc = "roman_characters_event.79.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1350
+		NOT = { is_year = 1370 }
+		owns_core_province = 117 # Siena
+		NOT = { has_global_flag = petrarca_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 117 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.79.opt1" # Advisor (Philosopher)
+		set_global_flag = petrarca_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Francesco Petrarca"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.79.opt2" # Advisor (Artist)
+		set_global_flag = petrarca_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Francesco Petrarca"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.79.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 80. Sandro Botticelli (Florence)
+country_event = {
+	id = roman_characters_event.80
+	title = "roman_characters_event.80.t"
+	desc = "roman_characters_event.80.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1470
+		NOT = { is_year = 1500 }
+		owns_core_province = 116 # Florence
+		NOT = { has_global_flag = botticelli_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 116 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.80.opt1" # Advisor (Artist)
+		set_global_flag = botticelli_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Sandro Botticelli"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.80.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 81. Titian (Venice)
+country_event = {
+	id = roman_characters_event.81
+	title = "roman_characters_event.81.t"
+	desc = "roman_characters_event.81.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1540
+		NOT = { is_year = 1570 }
+		owns_core_province = 112 # Venice
+		NOT = { has_global_flag = titian_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 112 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.81.opt1" # Advisor (Artist)
+		set_global_flag = titian_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Titian"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.81.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 82. Rene Descartes (Berry/Paris)
+country_event = {
+	id = roman_characters_event.82
+	title = "roman_characters_event.82.t"
+	desc = "roman_characters_event.82.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1620
+		NOT = { is_year = 1645 }
+		owns_core_province = 179 # Berry
+		NOT = { has_global_flag = descartes_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 179 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.82.opt1" # Advisor (Natural Scientist)
+		set_global_flag = descartes_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Rene Descartes"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.82.opt2" # Advisor (Philosopher)
+		set_global_flag = descartes_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Rene Descartes"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.82.opt3" # General
+		set_global_flag = descartes_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Rene Descartes"
+			fire = 4
+			shock = 3
+			manuever = 3
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.82.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 83. Blaise Pascal (Auvergne/Paris)
+country_event = {
+	id = roman_characters_event.83
+	title = "roman_characters_event.83.t"
+	desc = "roman_characters_event.83.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1645
+		NOT = { is_year = 1660 }
+		owns_core_province = 199 # Auvergne
+		NOT = { has_global_flag = pascal_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 199 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.83.opt1" # Advisor (Natural Scientist)
+		set_global_flag = pascal_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Blaise Pascal"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.83.opt2" # Advisor (Inquisitor)
+		set_global_flag = pascal_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Blaise Pascal"
+			type = inquisitor
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.83.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 84. Diego Velazquez (Seville)
+country_event = {
+	id = roman_characters_event.84
+	title = "roman_characters_event.84.t"
+	desc = "roman_characters_event.84.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1630
+		NOT = { is_year = 1655 }
+		owns_core_province = 224 # Seville
+		NOT = { has_global_flag = velazquez_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 224 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.84.opt1" # Advisor (Artist)
+		set_global_flag = velazquez_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Diego Velazquez"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.84.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 85. Francisco Goya (Zaragoza)
+country_event = {
+	id = roman_characters_event.85
+	title = "roman_characters_event.85.t"
+	desc = "roman_characters_event.85.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1795
+		NOT = { is_year = 1820 }
+		owns_core_province = 214 # Zaragoza
+		NOT = { has_global_flag = goya_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 214 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.85.opt1" # Advisor (Artist)
+		set_global_flag = goya_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Francisco Goya"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.85.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 86. Louis Pasteur (Franche-Comte)
+country_event = {
+	id = roman_characters_event.86
+	title = "roman_characters_event.86.t"
+	desc = "roman_characters_event.86.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1870
+		NOT = { is_year = 1890 }
+		owns_core_province = 193 # Franche-Comte/Bourgogne
+		NOT = { has_global_flag = pasteur_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 193 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.86.opt1" # Advisor (Natural Scientist)
+		set_global_flag = pasteur_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Louis Pasteur"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.86.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 87. Victor Hugo (Paris)
+country_event = {
+	id = roman_characters_event.87
+	title = "roman_characters_event.87.t"
+	desc = "roman_characters_event.87.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1845
+		NOT = { is_year = 1880 }
+		owns_core_province = 183 # Paris
+		NOT = { has_global_flag = hugo_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 183 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.87.opt1" # Advisor (Philosopher)
+		set_global_flag = hugo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Victor Hugo"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.87.opt2" # Advisor (Artist)
+		set_global_flag = hugo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Victor Hugo"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.87.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 88. Antoni Gaudi (Barcelona)
+country_event = {
+	id = roman_characters_event.88
+	title = "roman_characters_event.88.t"
+	desc = "roman_characters_event.88.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1900
+		NOT = { is_year = 1925 }
+		owns_core_province = 213 # Barcelona
+		NOT = { has_global_flag = gaudi_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 213 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.88.opt1" # Advisor (Artist)
+		set_global_flag = gaudi_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Antoni Gaudi"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.88.opt2" # Advisor (Military Engineer)
+		set_global_flag = gaudi_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Antoni Gaudi"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.88.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 89. Giacomo Puccini (Pisa)
+country_event = {
+	id = roman_characters_event.89
+	title = "roman_characters_event.89.t"
+	desc = "roman_characters_event.89.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1900
+		NOT = { is_year = 1920 }
+		owns_core_province = 115 # Pisa
+		NOT = { has_global_flag = puccini_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 115 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.89.opt1" # Advisor (Artist)
+		set_global_flag = puccini_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Giacomo Puccini"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.89.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 90. Federico Garcia Lorca (Granada)
+country_event = {
+	id = roman_characters_event.90
+	title = "roman_characters_event.90.t"
+	desc = "roman_characters_event.90.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1925
+		NOT = { is_year = 1935 }
+		owns_core_province = 223 # Granada
+		NOT = { has_global_flag = garcialorca_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 223 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.90.opt1" # Advisor (Artist)
+		set_global_flag = garcialorca_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Federico Garcia Lorca"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.90.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 91. Maria Montessori (Ancona)
+country_event = {
+	id = roman_characters_event.91
+	title = "roman_characters_event.91.t"
+	desc = "roman_characters_event.91.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1900
+		NOT = { is_year = 1930 }
+		owns_core_province = 119 # Ancona
+		NOT = { has_global_flag = montessori_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 119 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.91.opt1" # Advisor (Natural Scientist)
+		set_global_flag = montessori_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Maria Montessori"
+			type = natural_scientist
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.91.opt2" # Advisor (Philosopher)
+		set_global_flag = montessori_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Maria Montessori"
+			type = philosopher
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.91.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 92. Albert Camus (Constantine)
+country_event = {
+	id = roman_characters_event.92
+	title = "roman_characters_event.92.t"
+	desc = "roman_characters_event.92.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1945
+		NOT = { is_year = 1955 }
+		owns_core_province = 340 # Constantine
+		NOT = { has_global_flag = camus_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 340 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.92.opt1" # Advisor (Philosopher)
+		set_global_flag = camus_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Albert Camus"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.92.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 93. Umberto Eco (Turin)
+country_event = {
+	id = roman_characters_event.93
+	title = "roman_characters_event.93.t"
+	desc = "roman_characters_event.93.d"
+	picture = ADVISOR_PHILOSOPHER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1970
+		NOT = { is_year = 1990 }
+		owns_core_province = 103 # Turin
+		NOT = { has_global_flag = eco_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 103 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.93.opt1" # Advisor (Philosopher)
+		set_global_flag = eco_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Umberto Eco"
+			type = philosopher
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.93.opt2" # Advisor (Artist)
+		set_global_flag = eco_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Umberto Eco"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.93.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 94. Septimius Severus (Tripoli)
+country_event = {
+	id = roman_characters_event.94
+	title = "roman_characters_event.94.t"
+	desc = "roman_characters_event.94.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 190
+		NOT = { is_year = 205 }
+		owns_core_province = 354 # Tripoli
+		NOT = { has_global_flag = severus_recruited }
+	}
+	mean_time_to_happen = { months = 6 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.94.opt1" # General
+		set_global_flag = severus_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Septimius Severus"
+			fire = 5
+			shock = 5
+			manuever = 3
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.94.opt2" # Ruler (Septimius)
+		set_global_flag = severus_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Septimius"
+			dynasty = "Severus"
+			adm = 5
+			dip = 4
+			mil = 6
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_general = {
+			name = "Septimius"
+			fire = 5
+			shock = 5
+			manuever = 3
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_stability = -2
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.94.refuse"
+		ai_chance = { factor = 0 }
+		add_prestige = -5
+	}
+}
+
+# 95. George Maniakes (Messina)
+country_event = {
+	id = roman_characters_event.95
+	title = "roman_characters_event.95.t"
+	desc = "roman_characters_event.95.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1030
+		NOT = { is_year = 1040 }
+		owns_core_province = 124 # Messina
+		NOT = { has_global_flag = maniakes_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 124 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.95.opt1" # General
+		set_global_flag = maniakes_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "George Maniakes"
+			fire = 5
+			shock = 4
+			manuever = 4
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.95.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 96. Gonzalo de Cordoba (El Gran Capitan)
+country_event = {
+	id = roman_characters_event.96
+	title = "roman_characters_event.96.t"
+	desc = "roman_characters_event.96.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1495
+		NOT = { is_year = 1510 }
+		owns_core_province = 225 # Cordoba
+		NOT = { has_global_flag = gonzalo_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 225 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.96.opt1" # General
+		set_global_flag = gonzalo_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Gonzalo de Cordoba"
+			fire = 5
+			shock = 4
+			manuever = 4
+			siege = 4
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.96.opt2" # Advisor (Army Reformer)
+		set_global_flag = gonzalo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Gonzalo de Cordoba"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.96.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 97. Alvaro de Bazan (Granada)
+country_event = {
+	id = roman_characters_event.97
+	title = "roman_characters_event.97.t"
+	desc = "roman_characters_event.97.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1570
+		NOT = { is_year = 1585 }
+		owns_core_province = 223 # Granada
+		NOT = { has_global_flag = bazan_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 223 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.97.opt1" # Admiral
+		set_global_flag = bazan_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Alvaro de Bazan"
+			fire = 6
+			shock = 5
+			manuever = 5
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.97.opt2" # Advisor (Trader)
+		set_global_flag = bazan_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Alvaro de Bazan"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.97.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 98. Francesco Morosini (Venice)
+country_event = {
+	id = roman_characters_event.98
+	title = "roman_characters_event.98.t"
+	desc = "roman_characters_event.98.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1685
+		NOT = { is_year = 1694 }
+		owns_core_province = 112 # Venice
+		NOT = { has_global_flag = morosini_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 112 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.98.opt1" # Admiral
+		set_global_flag = morosini_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Francesco Morosini"
+			fire = 5
+			shock = 5
+			manuever = 4
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.98.opt2" # Advisor (Trader)
+		set_global_flag = morosini_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Francesco Morosini"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.98.opt3" # Advisor (Master of Mint)
+		set_global_flag = morosini_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Francesco Morosini"
+			type = master_of_mint
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.98.opt4" # Ruler (Francesco)
+		set_global_flag = morosini_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Francesco"
+			dynasty = "Morosini"
+			adm = 5
+			dip = 4
+			mil = 5
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_admiral = {
+			name = "Francesco Morosini"
+			fire = 5
+			shock = 5
+			manuever = 4
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_stability = -1
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.98.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 99. Lambros Katsonis (Athens)
+country_event = {
+	id = roman_characters_event.99
+	title = "roman_characters_event.99.t"
+	desc = "roman_characters_event.99.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1780
+		NOT = { is_year = 1795 }
+		owns_core_province = 146 # Athens
+		NOT = { has_global_flag = katsonis_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 146 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.99.opt1" # Admiral
+		set_global_flag = katsonis_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Lambros Katsonis"
+			fire = 5
+			shock = 4
+			manuever = 5
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.99.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 100. Ibrahim Pasha (Cairo)
+country_event = {
+	id = roman_characters_event.100
+	title = "roman_characters_event.100.t"
+	desc = "roman_characters_event.100.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1830
+		NOT = { is_year = 1845 }
+		owns_core_province = 361 # Cairo
+		NOT = { has_global_flag = ibrahimpasha_recruited }
+	}
+	mean_time_to_happen = { months = 6 }
+	immediate = { 361 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.100.opt1" # General
+		set_global_flag = ibrahimpasha_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Ibrahim Pasha"
+			fire = 5
+			shock = 5
+			manuever = 5
+			siege = 3
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.100.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 101. Laskarina Bouboulina (Morea)
+country_event = {
+	id = roman_characters_event.101
+	title = "roman_characters_event.101.t"
+	desc = "roman_characters_event.101.d"
+	picture = ADMIRAL_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1815
+		NOT = { is_year = 1825 }
+		owns_core_province = 145 # Morea
+		NOT = { has_global_flag = bouboulina_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 145 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.101.opt1" # Admiral
+		set_global_flag = bouboulina_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Laskarina Bouboulina"
+			fire = 4
+			shock = 4
+			manuever = 5
+			siege = 0
+			culture = event_target:char_origin_province
+			female = yes
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.101.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 102. Emir Abdelkader (Tlemcen)
+country_event = {
+	id = roman_characters_event.102
+	title = "roman_characters_event.102.t"
+	desc = "roman_characters_event.102.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1835
+		NOT = { is_year = 1860 }
+		owns_core_province = 336 # Tlemcen
+		NOT = { has_global_flag = abdelkader_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 336 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.102.opt1" # General
+		set_global_flag = abdelkader_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Emir Abdelkader"
+			fire = 4
+			shock = 4
+			manuever = 5
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.102.opt2" # Advisor (Theologian)
+		set_global_flag = abdelkader_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Emir Abdelkader"
+			type = theologian
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.102.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 103. Italo Balbo (Ferrara)
+country_event = {
+	id = roman_characters_event.103
+	title = "roman_characters_event.103.t"
+	desc = "roman_characters_event.103.d"
+	picture = ADVISOR_STATESMAN_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1930
+		NOT = { is_year = 1940 }
+		owns_core_province = 113 # Ferrara
+		NOT = { has_global_flag = balbo_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 113 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.103.opt1" # General
+		set_global_flag = balbo_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Italo Balbo"
+			fire = 4
+			shock = 4
+			manuever = 5
+			siege = 2
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.103.opt2" # Advisor (Statesman)
+		set_global_flag = balbo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Italo Balbo"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.103.opt3" # Advisor (Diplomat)
+		set_global_flag = balbo_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Italo Balbo"
+			type = diplomat
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.103.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 104. Giacomo de Medici (Florence)
+country_event = {
+	id = roman_characters_event.104
+	title = "roman_characters_event.104.t"
+	desc = "roman_characters_event.104.d"
+	picture = ADVISOR_TRADER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1610
+		NOT = { is_year = 1630 }
+		owns_core_province = 116 # Florence
+		NOT = { has_global_flag = giacomo_medici_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 116 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.104.opt1" # Advisor (Trader)
+		set_global_flag = giacomo_medici_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Giacomo de Medici"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.104.opt2" # Advisor (Statesman)
+		set_global_flag = giacomo_medici_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Giacomo de Medici"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.104.opt3" # Ruler (Giacomo)
+		set_global_flag = giacomo_medici_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Giacomo"
+			dynasty = "Medici"
+			adm = 4
+			dip = 5
+			mil = 3
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_stability = -1
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.104.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 105. Enrico Mattei (Ancona)
+country_event = {
+	id = roman_characters_event.105
+	title = "roman_characters_event.105.t"
+	desc = "roman_characters_event.105.d"
+	picture = ADVISOR_SPYMASTER_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1950
+		NOT = { is_year = 1960 }
+		owns_core_province = 119 # Ancona
+		NOT = { has_global_flag = mattei_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 119 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.105.opt1" # Advisor (Trader)
+		set_global_flag = mattei_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Enrico Mattei"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.105.opt2" # Advisor (Statesman)
+		set_global_flag = mattei_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Enrico Mattei"
+			type = statesman
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.105.opt3" # Advisor (Spymaster)
+		set_global_flag = mattei_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Enrico Mattei"
+			type = spymaster
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.105.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 106. Andrea Palladio (Venice)
+country_event = {
+	id = roman_characters_event.106
+	title = "roman_characters_event.106.t"
+	desc = "roman_characters_event.106.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1560
+		NOT = { is_year = 1575 }
+		owns_core_province = 112 # Venice
+		NOT = { has_global_flag = palladio_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 112 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.106.opt1" # Advisor (Artist)
+		set_global_flag = palladio_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Andrea Palladio"
+			type = artist
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.106.opt2" # Advisor (Military Engineer)
+		set_global_flag = palladio_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Andrea Palladio"
+			type = fortification_expert
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.106.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 107. Giovanni da Verrazzano (Florence)
+country_event = {
+	id = roman_characters_event.107
+	title = "roman_characters_event.107.t"
+	desc = "roman_characters_event.107.d"
+	picture = EXPLORERS_DEPARTING_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1515
+		NOT = { is_year = 1525 }
+		owns_core_province = 116 # Florence
+		NOT = { has_global_flag = verrazzano_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 116 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.107.opt1" # Explorer
+		set_global_flag = verrazzano_recruited
+		add_years_of_income = -0.25
+		define_explorer = {
+			name = "Giovanni da Verrazzano"
+			fire = 4
+			shock = 3
+			manuever = 5
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.107.opt2" # Admiral
+		set_global_flag = verrazzano_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Giovanni da Verrazzano"
+			fire = 4
+			shock = 3
+			manuever = 5
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.107.opt3" # Advisor (Trader)
+		set_global_flag = verrazzano_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Giovanni da Verrazzano"
+			type = trader
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.107.opt4" # Advisor (Navigator)
+		set_global_flag = verrazzano_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Giovanni da Verrazzano"
+			type = navigator
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.107.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 108. Sophia Loren (Naples)
+country_event = {
+	id = roman_characters_event.108
+	title = "roman_characters_event.108.t"
+	desc = "roman_characters_event.108.d"
+	picture = ADVISOR_ARTIST_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 1960
+		NOT = { is_year = 1980 }
+		owns_core_province = 121 # Naples
+		NOT = { has_global_flag = sophialoren_recruited }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = { 121 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.108.opt1" # Advisor (Artist)
+		set_global_flag = sophialoren_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Sophia Loren"
+			type = artist
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.108.opt2" # Advisor (Trader)
+		set_global_flag = sophialoren_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Sophia Loren"
+			type = trader
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.108.opt3" # Advisor (Spymaster)
+		set_global_flag = sophialoren_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Sophia Loren"
+			type = spymaster
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.108.opt4" # Advisor (Diplomat)
+		set_global_flag = sophialoren_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Sophia Loren"
+			type = diplomat
+			skill = 3
+			discount = yes
+			female = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.108.refuse"
+		ai_chance = { factor = 10 }
+		add_prestige = -5
+	}
+}
+
+# 109. Marcus Ulpius Traianus (Sevilla)
+country_event = {
+	id = roman_characters_event.109
+	title = "roman_characters_event.109.t"
+	desc = "roman_characters_event.109.d"
+	picture = WAR_PREPARATIONS_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 95
+		NOT = { is_year = 110 }
+		owns_core_province = 224 # Sevilla
+		NOT = { has_global_flag = trajan_recruited }
+	}
+	mean_time_to_happen = { months = 6 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.109.opt1" # General
+		set_global_flag = trajan_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Marcus Ulpius Traianus"
+			fire = 4
+			shock = 5
+			manuever = 3
+			siege = 5
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.109.opt2" # Admiral
+		set_global_flag = trajan_recruited
+		add_years_of_income = -0.25
+		define_admiral = {
+			name = "Marcus Ulpius Traianus"
+			fire = 4
+			shock = 5
+			manuever = 3
+			siege = 0
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.109.opt3" # Advisor (Army Reformer)
+		set_global_flag = trajan_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Marcus Ulpius Traianus"
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.109.opt4" # Ruler (Trajan)
+		set_global_flag = trajan_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Trajan"
+			dynasty = "Ulpius"
+			adm = 5
+			dip = 4
+			mil = 6
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_general = {
+			name = "Trajan"
+			fire = 4
+			shock = 5
+			manuever = 3
+			siege = 5
+			culture = event_target:char_origin_province
+		}
+		add_stability = -1
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.109.refuse"
+		ai_chance = { factor = 0 }
+		add_prestige = -5
+	}
+}
+
+# 110. Flavius Valerius Constantinus (Serbia)
+country_event = {
+	id = roman_characters_event.110
+	title = "roman_characters_event.110.t"
+	desc = "roman_characters_event.110.d"
+	picture = ADVISOR_COMMANDANT_eventPicture
+	trigger = {
+		tag = ROM
+		is_year = 310
+		NOT = { is_year = 335 }
+		owns_core_province = 3000 # Nis/Serbia
+		NOT = { has_global_flag = constantine_recruited }
+	}
+	mean_time_to_happen = { months = 6 }
+	immediate = { 118 = { save_event_target_as = char_origin_province } }
+	
+	option = {
+		name = "roman_characters_event.110.opt1" # General
+		set_global_flag = constantine_recruited
+		add_years_of_income = -0.25
+		define_general = {
+			name = "Flavius Valerius Constantinus"
+			fire = 4
+			shock = 5
+			manuever = 4
+			siege = 4
+			culture = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.110.opt2" # Advisor (Inquisitor)
+		set_global_flag = constantine_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Flavius Valerius Constantinus"
+			type = inquisitor
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_dip_power = 25
+	}
+	option = {
+		name = "roman_characters_event.110.opt3" # Advisor (Commandant)
+		set_global_flag = constantine_recruited
+		add_years_of_income = -0.25
+		define_advisor = {
+			name = "Flavius Valerius Constantinus"
+			type = commandant
+			skill = 3
+			discount = yes
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		add_mil_power = 25
+	}
+	option = {
+		name = "roman_characters_event.110.opt4" # Ruler (Constantine)
+		set_global_flag = constantine_recruited
+		add_years_of_income = -0.25
+		define_ruler = {
+			name = "Constantine"
+			dynasty = "Valerius"
+			adm = 5
+			dip = 5
+			mil = 6
+			culture = event_target:char_origin_province
+			religion = event_target:char_origin_province
+		}
+		define_general = {
+			name = "Constantine"
+			fire = 4
+			shock = 5
+			manuever = 4
+			siege = 4
+			culture = event_target:char_origin_province
+		}
+		add_stability = -1
+		add_adm_power = 25
+	}
+	option = {
+		name = "roman_characters_event.110.refuse"
+		ai_chance = { factor = 0 }
+		add_prestige = -5
+	}
+}

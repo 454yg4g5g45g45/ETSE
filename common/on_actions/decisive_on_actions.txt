@@ -1,0 +1,94 @@
+#When adding effects directly in on_actions always consider if it would be best to do so through a scripted effect. on_actions with a lot of script in them are harder to get an overview of.
+
+# new now that on_actions are additive in 1.36
+
+# country
+on_startup = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_modifier = decisive_battles_mod_modifier
+			}
+		}
+		add_country_modifier = {
+			name = "decisive_battles_mod_modifier"
+			duration = -1
+			hidden = yes
+		}
+	}
+}
+
+on_country_creation = {		#does not seem to work, might as well keep it
+	if = {
+		limit = {
+			NOT = {
+				has_country_modifier = decisive_battles_mod_modifier
+			}
+		}
+		add_country_modifier = {
+			name = "decisive_battles_mod_modifier"
+			duration = -1
+			hidden = yes
+		}
+	}
+}
+
+on_country_released = {		#does not seem to work, might as well keep it
+	if = {
+		limit = {
+			NOT = {
+				has_country_modifier = decisive_battles_mod_modifier
+			}
+		}
+		add_country_modifier = {
+			name = "decisive_battles_mod_modifier"
+			duration = -1
+			hidden = yes
+		}
+	}
+}
+
+on_create_vassal = {		#works
+	if = {
+		limit = {
+			NOT = {
+				has_country_modifier = decisive_battles_mod_modifier
+			}
+		}
+		add_country_modifier = {
+			name = "decisive_battles_mod_modifier"
+			duration = -1
+			hidden = yes
+		}
+	}
+}
+
+on_create_client_state = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_modifier = decisive_battles_mod_modifier
+			}
+		}
+		add_country_modifier = {
+			name = "decisive_battles_mod_modifier"
+			duration = -1
+			hidden = yes
+		}
+	}
+}
+
+on_new_monarch = {		#guarantees that released countries from stability window gain modifier
+	if = {
+		limit = {
+			NOT = {
+				has_country_modifier = decisive_battles_mod_modifier
+			}
+		}
+		add_country_modifier = {
+			name = "decisive_battles_mod_modifier"
+			duration = -1
+			hidden = yes
+		}
+	}
+}

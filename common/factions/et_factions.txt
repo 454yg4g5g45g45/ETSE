@@ -1,0 +1,136 @@
+conservative_party = {
+	monarch_power = ADM
+	always = yes
+	
+	modifier = {}
+	
+	#triggered_faction_name = {
+	#	name = republican_party
+	#	trigger = {
+	#		is_year = 3854
+	#		primary_culture = american
+	#	}
+	#}
+}
+
+liberal_party = {
+	monarch_power = DIP
+	always = yes
+	
+	modifier = {}
+	
+	#triggered_faction_name = {
+	#	name = democratic_party
+	#	trigger = {
+	#		is_year = 3828
+	#		primary_culture = american
+	#	}
+	#}
+}
+
+nationalist_party = {
+	monarch_power = MIL
+	always = yes
+	
+	modifier = {}
+	
+	triggered_faction_name = {
+		name = royalist_party
+		trigger = {
+			government = monarchy
+			NOT = { has_government_attribute = has_prime_minister }
+		}
+	}
+}
+
+social_democratic_party = {
+	allow = {
+		has_global_flag = etf_socialism_enabled
+	}
+	monarch_power = DIP
+	always = yes
+	
+	modifier = {}
+	
+	triggered_faction_name = {
+		name = socialist_party
+		trigger = {
+			NOT = { has_global_flag = etf_communism_enabled }
+		}
+	}
+}
+
+communist_party = {
+	allow = {
+		has_global_flag = etf_communism_enabled
+	}
+	monarch_power = ADM
+	always = yes
+	
+	modifier = {}
+	
+	triggered_faction_name = {
+		name = baath_party
+		trigger = {
+			OR = { # Arab
+				culture_group = turko_semitic
+				culture_group = maghrebi
+			}
+		}
+	}
+}
+
+national_socialist_party = { # Renamed in-game to "Fascist Party"
+	allow = {
+		has_global_flag = etf_fascism_enabled
+	}
+	monarch_power = MIL
+	always = yes
+	
+	modifier = {}
+	
+	triggered_faction_name = { # These tags use the default ET name and description for "National Socialist Party"
+		name = nazi_party
+		trigger = {
+			OR = {
+				tag = GER
+				tag = DEU
+				tag = WGE
+			}
+		}
+	}
+}
+
+imperials = {
+	monarch_power = ADM
+	always = yes
+	
+	modifier = {
+		stability_cost_modifier = -0.10
+		global_tax_modifier = -0.10
+	}
+}
+
+senators = {
+	monarch_power = DIP
+	always = yes
+	
+	modifier = {
+		global_tax_modifier = 0.10
+		global_prov_trade_power_modifier = 0.1
+		yearly_corruption = -0.2
+		global_own_trade_power = 0.15
+	}
+}
+
+generals = {
+	monarch_power = MIL
+	always = yes
+	
+	modifier = {
+		army_tradition = 0.5
+		land_morale = 0.05
+		discipline = 0.025
+		infantry_power = 0.1
+	}
+}

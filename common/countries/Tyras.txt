@@ -1,0 +1,15 @@
+graphical_culture = westerngfx
+color = { 
+	10 10 84 
+}
+monarch_names = { 
+	"Theseus #0" = 0
+}
+leader_names = { 
+}
+ship_names = { 
+}
+fleet_names = { 
+}
+army_names = { 
+}

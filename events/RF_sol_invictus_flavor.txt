@@ -1,0 +1,212 @@
+namespace = sol_flavor
+
+# --------------------------------------------------
+# EVENT 1: POSITIVE (Powerful) - Dies Natalis Solis Invicti
+# Context: The Birthday of the Unconquered Sun (Dec 25).
+# --------------------------------------------------
+country_event = {
+    id = sol_flavor.1
+    title = "sol_flavor.1.t"
+    desc = "sol_flavor.1.d"
+    picture = RELIGION_eventPicture
+    
+    trigger = {
+        religion = sol_invictus
+        NOT = { has_country_modifier = sol_invictus_triumph }
+    }
+    
+    mean_time_to_happen = { months = 480 }
+    
+    option = {
+        name = "sol_flavor.1.a" # The Sun is reborn!
+        add_stability = 1
+        add_prestige = 50
+        add_mil_power = 100 # Military focus
+		add_republican_tradition = 10
+		add_legitimacy = 15
+		add_devotion = 15
+        
+        add_country_modifier = {
+            name = sol_invictus_triumph
+            duration = 7300 # 20 Years
+        }
+    }
+}
+
+# --------------------------------------------------
+# EVENT 2: NEUTRAL (Theology) - The One or the Many?
+# Context: Is Sol the only god, or just the boss?
+# --------------------------------------------------
+country_event = {
+    id = sol_flavor.2
+    title = "sol_flavor.2.t"
+    desc = "sol_flavor.2.d"
+    picture = POPE_PREACHING_eventPicture
+    
+    trigger = {
+        religion = sol_invictus
+		NOT = { has_country_modifier = sol_monotheism_decree }
+		NOT = { has_country_modifier = sol_syncretic_decree }
+    }
+    
+    mean_time_to_happen = { months = 300 }
+    
+    option = {
+        name = "sol_flavor.2.a" # There is only One Sun. (Monotheism)
+        add_adm_power = 75
+        add_country_modifier = {
+            name = sol_monotheism_decree
+            duration = 3650
+        }
+    }
+    
+    option = {
+        name = "sol_flavor.2.b" # All gods are reflections of the Sun. (Syncretism)
+        add_dip_power = 75
+        add_country_modifier = {
+            name = sol_syncretic_decree
+            duration = 3650
+        }
+    }
+}
+
+# --------------------------------------------------
+# EVENT 3: NEUTRAL (Military) - The Mithraic Rites
+# Context: Secret soldier cults vs State Religion.
+# --------------------------------------------------
+country_event = {
+    id = sol_flavor.3
+    title = "sol_flavor.3.t"
+    desc = "sol_flavor.3.d"
+    picture = REFORM_ARMY_eventPicture
+    
+    trigger = {
+        religion = sol_invictus
+		NOT = { has_country_modifier = mithraic_discipline }
+    }
+    
+    mean_time_to_happen = { months = 240 }
+    
+    option = {
+        name = "sol_flavor.3.a" # Encourage the mysteries. It hardens them.
+        add_years_of_income = -0.2 # Funding secret feasts
+        add_mil_power = 50
+        add_country_modifier = {
+            name = mithraic_discipline
+            duration = 3650
+        }
+    }
+    
+    option = {
+        name = "sol_flavor.3.b" # The Army serves the State, not secret societies.
+        add_army_tradition = 10
+        add_prestige = 10
+        add_manpower = 2 # 2000 men (symbolic recruitment boost)
+    }
+}
+
+# --------------------------------------------------
+# EVENT 4: NEUTRAL (Political) - The Radiate Crown
+# Context: The Emperor depicting himself with sun rays.
+# --------------------------------------------------
+country_event = {
+    id = sol_flavor.4
+    title = "sol_flavor.4.t"
+    desc = "sol_flavor.4.d"
+    picture = COURT_eventPicture
+    
+    trigger = {
+        religion = sol_invictus
+    }
+    
+    mean_time_to_happen = { months = 360 }
+    
+    option = {
+        name = "sol_flavor.4.a" # I am the Vicar of the Sun.
+        add_prestige = 20
+        add_splendor = 50
+        add_republican_tradition = -5 # Very monarchist symbol
+        add_legitimacy = 15
+        add_absolutism = 2
+    }
+    
+    option = {
+        name = "sol_flavor.4.b" # It is a symbol of office, nothing more.
+        add_dip_power = 50
+        add_diplomatic_reputation = 1
+		add_republican_tradition = 5
+		add_prestige = -5
+    }
+}
+
+# --------------------------------------------------
+# EVENT 5: NEGATIVE (Omen) - The Solar Eclipse
+# Context: The Sun disappears. Panic.
+# --------------------------------------------------
+country_event = {
+    id = sol_flavor.5
+    title = "sol_flavor.5.t"
+    desc = "sol_flavor.5.d"
+    picture = COMET_SIGHTED_eventPicture
+    
+    trigger = {
+        religion = sol_invictus
+    }
+    
+    mean_time_to_happen = { months = 450 }
+    
+    option = {
+        name = "sol_flavor.5.a" # The Sun has turned his face from us!
+        add_stability = -1
+    }
+    
+    option = {
+        name = "sol_flavor.5.b" # Bribe the astronomers to explain it away.
+        add_years_of_income = -0.25
+        add_adm_power = -50
+    }
+}
+
+# --------------------------------------------------
+# EVENT 6: NEGATIVE (Zealotry) - Iconoclasm
+# Context: Zealots destroying "lesser" gods' temples.
+# --------------------------------------------------
+country_event = {
+    id = sol_flavor.6
+    title = "sol_flavor.6.t"
+    desc = "sol_flavor.6.d"
+    picture = RELIGIOUS_TURMOIL_eventPicture
+    
+    trigger = {
+        religion = sol_invictus
+        any_owned_province = {
+            NOT = { religion = sol_invictus }
+        }
+    }
+    
+    mean_time_to_happen = { months = 500 }
+    
+    option = {
+        name = "sol_flavor.6.a" # Let them burn the idols!
+        add_prestige = -10
+        add_local_autonomy = 10 # Disorder
+        # Spawns destruction in a random heathen province
+        random_owned_province = {
+            limit = { NOT = { religion = sol_invictus } }
+            add_devastation = 30
+            change_religion = sol_invictus # But it converts!
+        }
+    }
+    
+    option = {
+        name = "sol_flavor.6.b" # Order must be maintained.
+        add_adm_power = -25
+        random_owned_province = {
+            limit = { NOT = { religion = sol_invictus } }
+            spawn_rebels = {
+                type = religious_rebels # Sol Invictus zealots
+                size = 1
+            }
+        }
+    }
+}

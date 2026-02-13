@@ -1,0 +1,28 @@
+namespace = bigboypd
+country_event = {
+	id = bigboypd.0
+	hidden = yes
+	mean_time_to_happen = {
+		days = 120
+	}
+	trigger = {
+		has_country_modifier = recent_full_conversion
+	}
+	option = {
+		random_owned_province = {
+			limit = {
+				NOT = {
+					has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+				}
+				has_missionary = no
+				NOT = {
+					religion = ROOT
+				}
+			}
+			change_religion = ROOT
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,14 @@
+bookmark = {
+	name = "VIC2_NAME"
+	desc = "VIC2_DESC"
+	date = 3934.1.1
+
+	country = GBR
+	country = FRA
+	country = PRU
+	country = RUS
+	country = HAB
+	country = USA
+	country = TUR
+	country = SPA
+}

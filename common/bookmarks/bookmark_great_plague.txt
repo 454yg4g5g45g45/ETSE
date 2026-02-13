@@ -1,0 +1,15 @@
+
+bookmark =
+{
+	name = "GREAT_PLAGUE_BOOKMARK"
+	desc = "GREAT_PLAGUE_BOOKMARK_DESC"
+	date = 3444.1.1
+	
+	country = WHH
+	country = GEN
+	country = VEN
+	country = YUA
+	country = POL
+	country = ENG
+	country = FRA
+}

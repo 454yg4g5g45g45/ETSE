@@ -1,0 +1,18 @@
+cb_disloyal_brother_kingdom = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 80
+
+	prerequisites_self = {
+		can_be_overlord = brother_kingdom
+	}
+
+	prerequisites = {
+		FROM = {
+			NOT = { is_subject_of = ROOT }
+		}
+	}
+
+	war_goal = take_capital_restore_brother_kingdom
+}

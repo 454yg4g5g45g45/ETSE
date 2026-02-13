@@ -1,0 +1,95 @@
+namespace = decisive_battles_mod_events
+
+#replaced with new additive on_action in 1.36
+
+#Edited to keep for savegames to apply to countries that do not already have the modifier mid-game
+country_event = {
+
+	id = decisive_battles_mod_events.1
+	title = decisive_battles_mod_events.1.t
+	desc = decisive_battles_mod_events.1.desc
+	picture = BATTLE_eventPicture
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = decisive_battles_mod_modifier
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	hidden = yes		#triggers in background
+	
+	immediate = {
+		add_country_modifier = {
+			name = "decisive_battles_mod_modifier"
+			duration = -1
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "decisive_battles_mod_events.1.a"
+		
+		ai_chance = { factor = 1 }
+	}
+}
+
+#Warscore Bonus from Battles - Notification
+#country_event = {
+#
+#	id = decisive_battles_mod_events.2
+#	title = decisive_battles_mod_events.2.t
+#	desc = decisive_battles_mod_events.2.desc
+#	picture = BATTLE_eventPicture
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "decisive_battles_mod_events.2.a"
+#		
+#		tooltip = {
+#			add_country_modifier = {
+#				name = "decisive_battles_mod_modifier"
+#				duration = -1
+#				hidden = yes
+#			}
+#		}
+#	}
+#}
+
+#Warscore Bonus from Battles - Applied to New Nations that Spawn in after start
+#country_event = {
+#
+#	id = decisive_battles_mod_events.3
+#	title = decisive_battles_mod_events.2.t
+#	desc = decisive_battles_mod_events.2.desc
+#	picture = BATTLE_eventPicture
+#	
+#	trigger = {
+#		has_global_flag = decisive_battles_warscore_enabled_flag
+#		NOT = {
+#			has_country_modifier = decisive_battles_mod_modifier
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	immediate = {
+#		add_country_modifier = {
+#			name = "decisive_battles_mod_modifier"
+#			duration = -1
+#			hidden = yes
+#		}
+#	}
+#
+#	option = {
+#		name = "decisive_battles_mod_events.2.a"
+#		
+#	}
+#}
+

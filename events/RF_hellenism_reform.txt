@@ -1,0 +1,191 @@
+namespace = hellenic_reform
+
+country_event = {
+    id = hellenic_reform.1
+    title = "hellenic_reform.1.t"
+    desc = "hellenic_reform.1.d"
+    picture = RELIGION_eventPicture
+
+    is_triggered_only = yes 
+
+    option = {
+        name = "hellenic_reform.1.a"   # Exalt the Olympian Pantheon!
+        change_religion = pontifex_maximus
+        add_prestige = 25
+        set_country_flag = olympianism_chosen
+        set_country_flag = hellenic_reform_done
+
+        # Converts all Hellenic provinces to Olympianism
+        every_owned_province = {
+            limit = { religion = hellenism }
+            change_religion = pontifex_maximus
+        }
+
+        # Trigger event for other Hellenic nations
+        every_country = {
+            limit = { 
+                religion = hellenism 
+                NOT = { tag = ROM }
+            }
+            country_event = { id = hellenic_reform.2 }
+        }
+    }
+
+    option = {
+        name = "hellenic_reform.1.b"   # Worship the Unconquered Sun, Sol Invictus!
+        change_religion = sol_invictus
+        add_prestige = 25
+        set_country_flag = sol_invictus_chosen
+        set_country_flag = hellenic_reform_done
+
+        every_owned_province = {
+            limit = { religion = hellenism }
+            change_religion = sol_invictus
+        }
+
+        every_country = {
+            limit = { 
+                religion = hellenism 
+                NOT = { tag = ROM }
+            }
+            country_event = { id = hellenic_reform.3 }
+        }
+    }
+
+    option = {
+        name = "hellenic_reform.1.c"   # Deify the Emperor — The Imperial Cult!
+        change_religion = zz_imperial_cult
+        add_prestige = 25
+        add_absolutism = 10
+        set_country_flag = zz_imperial_cult_chosen
+        set_country_flag = hellenic_reform_done
+
+        every_owned_province = {
+            limit = { religion = hellenism }
+            change_religion = zz_imperial_cult
+        }
+
+        every_country = {
+            limit = { 
+                religion = hellenism 
+                NOT = { tag = ROM }
+            }
+            country_event = { id = hellenic_reform.4 }
+        }
+    }
+}
+
+country_event = {
+    id = hellenic_reform.2
+    title = "hellenic_reform.2.t"
+    desc = "hellenic_reform.2.d"
+    picture = RELIGION_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "hellenic_reform.2.a"   # "We follow the Olympian faith!"
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+				factor = 100
+                is_subject_of = ROM
+			}
+		}
+        change_religion = pontifex_maximus
+        every_owned_province = {
+            limit = { religion = hellenism }
+            change_religion = pontifex_maximus
+        }
+    }
+
+    option = {
+        name = "hellenic_reform.2.b"   # "We will not follow this new faith."
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+				factor = 0
+                is_subject_of = ROM
+			}
+		}
+        add_prestige = -10
+        add_stability = -1
+    }
+}
+
+
+country_event = {
+    id = hellenic_reform.3
+    title = "hellenic_reform.3.t"
+    desc = "hellenic_reform.3.d"
+    picture = RELIGION_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "hellenic_reform.3.a"   # "We embrace the Unconquered Sun!"
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+				factor = 100
+                is_subject_of = ROM
+			}
+		}
+        change_religion = sol_invictus
+        every_owned_province = {
+            limit = { religion = hellenism }
+            change_religion = sol_invictus
+        }
+    }
+
+    option = {
+        name = "hellenic_reform.3.b"   # "We reject this solar cult."
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+				factor = 0
+                is_subject_of = ROM
+			}
+		}
+        add_prestige = -10
+        add_stability = -1
+    }
+}
+
+country_event = {
+    id = hellenic_reform.4
+    title = "hellenic_reform.4.t"
+    desc = "hellenic_reform.4.d"
+    picture = RELIGION_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "hellenic_reform.4.a"   # "The Emperor is divine!"
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+				factor = 100
+                is_subject_of = ROM
+			}
+		}
+        change_religion = zz_imperial_cult
+        every_owned_province = {
+            limit = { religion = hellenism }
+            change_religion = zz_imperial_cult
+        }
+    }
+
+    option = {
+        name = "hellenic_reform.4.b"   # "This is blasphemy!"
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+				factor = 0
+                is_subject_of = ROM
+			}
+		}
+        add_prestige = -10
+        add_stability = -1
+    }
+}

@@ -1,0 +1,144 @@
+# --- Antiquity Modifiers ---
+rome_reinforced_limes = { defensiveness = 0.15 garrison_growth = 0.10 }
+rome_foederati_troops = { manpower_recovery_speed = 0.10 land_forcelimit_modifier = 0.10 }
+rome_greens_support = { land_morale = 0.05 global_unrest = -1 }
+rome_stoic_administration = { technology_cost = -0.05 advisor_cost = -0.10 }
+rome_blues_support = { navy_tradition_decay = -0.01 galley_power = 0.10 }
+rome_serica_trade = { trade_efficiency = 0.10 global_trade_power = 0.05 }
+rome_cursus_publicus_funded = { movement_speed = 0.10 envoy_travel_time = -0.20 }
+rome_codified_laws = { global_autonomy = -0.03 governing_capacity_modifier = 0.10 }
+rome_sol_invictus_edict = { global_missionary_strength = 0.02 }
+rome_local_cult_tolerance = { tolerance_heathen = 2 }
+rome_plague_quarantine = { trade_efficiency = -0.30 global_tax_modifier = -0.20 }
+rome_plague_ravages = { global_manpower_modifier = -0.15 land_morale = -0.10 }
+rome_debased_currency = { inflation_reduction = -0.05 global_unrest = 1 }
+
+# --- Medieval Modifiers ---
+rome_feudal_levies = { land_maintenance_modifier = -0.15 global_manpower_modifier = 0.10 discipline = -0.05 }
+rome_imperial_standing_army = { land_maintenance_modifier = 0.20 discipline = 0.025 land_morale = 0.05 }
+rome_monastic_knowledge = { technology_cost = -0.025 idea_cost = -0.025 }
+rome_coastal_watch = { global_ship_repair = 0.10 defensiveness = 0.10 }
+rome_greek_fire_secret = { galley_power = 0.15 naval_morale = 0.05 }
+rome_noble_feuds = { diplomatic_reputation = -1 global_unrest = 2 }
+rome_norman_mercenaries = { mercenary_maintenance_modifier = -0.10 land_morale = 0.05 }
+rome_crusader_fervor = { land_morale = 0.05 manpower_recovery_speed = 0.10 tolerance_heathen = -2 }
+rome_venetian_rivalry = { global_trade_power = 0.05 embargo_efficiency = 0.15 }
+rome_heraldic_tradition = { prestige = 0.5 diplomatic_upkeep = 1 }
+rome_communal_rights = { global_prov_trade_power_modifier = 0.10 global_tax_modifier = -0.10 }
+rome_legal_renaissance = { state_maintenance_modifier = -0.10 administrative_efficiency = 0.025 }
+
+# --- Modern & Future Modifiers ---
+rome_vitruvian_architecture = { build_cost = -0.10 build_time = -0.10 }
+rome_atlantic_ambition = { range = 0.20 }
+rome_colonial_proconsuls = { global_tariffs = 0.10 global_colonial_growth = 10 }
+rome_colonial_autonomy_deal = { global_tariffs = -0.10 }
+rome_scientific_revolution = { technology_cost = -0.05 idea_cost = -0.05 global_missionary_strength = -0.02 }
+rome_suppressed_science = { technology_cost = 0.05 }
+rome_steam_engines = { production_efficiency = 0.10 global_trade_goods_size_modifier = 0.05 }
+rome_via_ferrea = { movement_speed = 0.15 land_attrition = -0.10 development_cost = -0.05 }
+rome_labor_laws = { global_unrest = -2 production_efficiency = -0.05 }
+rome_scramble_agenda = { colonist_placement_chance = 0.05 global_colonial_growth = 15 }
+rome_universal_suffrage = { stability_cost_modifier = -0.10 global_unrest = -1 max_absolutism = -10 }
+rome_atomic_research = { discipline = 0.025 heavy_ship_power = 0.10 }
+
+# --- Future & Misc ---
+rome_digital_forum = { institution_spread_from_true_faith = 0.25 global_institution_spread = 0.10 technology_cost = -0.05 }
+rome_censored_net = { technology_cost = 0.05 }
+rome_space_program = { prestige = 1 advisor_cost = -0.05 }
+rome_automated_legions = { reinforce_speed = 0.20 land_attrition = -0.10 global_manpower_modifier = -0.33 land_maintenance_modifier = 0.20 discipline = 0.05 }
+rome_human_spirit = { land_morale = 0.10 }
+rome_ai_governance = { all_power_cost = -0.02 min_local_autonomy = -2 administrative_efficiency = 0.02 }
+rome_ai_advisor = { advisor_cost = -0.25 }
+rome_martian_colony = { global_trade_power = 0.05 merchants = 1 global_trade_goods_size_modifier = 0.05 }
+rome_transhumanist_society = { possible_adm_policy = 1 possible_dip_policy = 1 possible_mil_policy = 1 development_efficiency = 0.05 num_accepted_cultures = 2 }
+
+# New Grand Prix Modifiers
+rome_scuderia_blues = { navy_tradition_decay = -0.01 diplomat_chance = 0.5 }
+rome_scuderia_greens = { land_morale = 0.025 global_unrest = -1 }
+
+#Culture Modifiers
+romanized_identity = { local_unrest = -1 culture_conversion_cost = -0.1 }
+italic_unity = { local_tax_modifier = 0.15 local_production_efficiency = 0.15 local_development_cost = -0.05 local_unrest = -1 prosperity_growth = 0.25 }
+
+#Rome Province Specific
+sol_axis_mundi_province_bonus = {
+    local_defensiveness = 0.25
+    local_tax_modifier = 0.50
+    local_manpower_modifier = 0.25
+}
+
+#religion events modifiers
+pax_deorum_secured = {
+    global_unrest = -2
+    tolerance_own = 2
+    stability_cost_modifier = -0.10
+}
+
+hellenic_stoic_ethic = {
+    land_morale = 0.05
+    state_maintenance_modifier = -0.10
+}
+
+blessing_of_the_fourteen = {
+    all_power_cost = -0.02
+    prestige_decay = -0.01
+}
+
+favor_of_mars = {
+    land_morale = 0.05
+    manpower_recovery_speed = 0.10
+}
+
+favor_of_mercury = {
+    global_trade_power = 0.10
+    trade_efficiency = 0.05
+}
+
+saturnalia_festivities = {
+    global_unrest = -2
+    production_efficiency = -0.10
+}
+
+sol_invictus_triumph = {
+    land_morale = 0.10
+    global_missionary_strength = 0.02
+}
+
+sol_monotheism_decree = {
+    tolerance_heathen = -2
+    global_missionary_strength = 0.02
+}
+
+sol_syncretic_decree = {
+    tolerance_heathen = 2
+    diplomatic_reputation = 1
+}
+
+mithraic_discipline = {
+    discipline = 0.025 
+    army_tradition_decay = -0.02
+}
+
+imperial_apotheosis = {
+    global_unrest = -2
+    tolerance_own = 2
+    # Represents the unchallenged divinity of the ruler
+}
+
+cincinnatus_example = {
+    discipline = 0.025
+    land_morale = 0.05
+}
+
+senecan_administration = {
+    development_cost = -0.10
+    advisor_cost = -0.10
+}
+
+ciceronian_diplomacy = {
+    diplomatic_reputation = 1
+}
+
+imperial_belligerence = {
+    diplomatic_reputation = -1
+}

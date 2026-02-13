@@ -1,0 +1,8 @@
+﻿l_english:
+ # Event 1
+ roman_republic_spqr_reform:0 "Roman Senatorial Republic"
+ roman_republic_spqr_reform_desc:0 "The Roman senatorial republic is headed by two imperators, elected by the senate from a pool of possible candidates, the senate is in turn elected by the citizens of major cities or designated senatorial provinces."
+ 
+ ROMAN_SPQR_REPUBBLIC:0 "Res Publica Romana"
+ CONSUL_SPQR_male:0 "Consul Imperator"
+ CONSUL_SPQR_fem:0 "Consul Imperatrix"

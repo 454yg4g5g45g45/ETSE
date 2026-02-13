@@ -1,0 +1,16 @@
+cb_dismantle_gp = {
+	valid_for_subject = no
+	prerequisites_self = {
+		ai = no
+		great_power_rank = 4
+	}
+	prerequisites = {
+		FROM = {
+			NOT = {
+				# rank above 3
+				great_power_rank = 4
+			}
+		}
+	}
+	war_goal = wg_dismantle_gp
+}

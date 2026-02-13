@@ -1,0 +1,1085 @@
+namespace = roman_flavour_mod_event
+
+# ======================================================================
+# ANTIQUITY (50 AD - 600 AD)
+# ======================================================================
+
+country_event = {
+	id = roman_flavour_mod_event.1 # Cura Annonae
+	title = "roman_flavour_mod_event.1.t"
+	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.1.d" }
+	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.1.d_rep" }
+	picture = CITY_DEVELOPMENT_eventPicture
+	trigger = { tag = ROM owns = 118 is_year = 50 NOT = { is_year = 700 } }
+	mean_time_to_happen = { months = 120 }
+
+	option = {
+		name = "roman_flavour_mod_event.1.a"
+		if = { limit = { government = monarchy } add_legitimacy = 5 }
+		if = { limit = { government = republic } add_republican_tradition = 2 }
+		add_prestige = 5
+		118 = { add_unrest = -2 }
+		add_years_of_income = -0.4 # Cost increased
+		ai_chance = { factor = 70 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.1.b"
+		add_years_of_income = 0.3
+		add_prestige = -5
+		118 = { add_unrest = 5 }
+		ai_chance = { factor = 30 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.2 # Limes
+	title = "roman_flavour_mod_event.2.t"
+	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.2.d" }
+	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.2.d_rep" }
+	picture = MILITARY_CAMP_eventPicture
+	trigger = { tag = ROM war = no any_owned_province = { fort_level = 2 } NOT = { is_year = 600 } NOT = { has_country_modifier = rome_reinforced_limes } }
+	mean_time_to_happen = { months = 200 }
+
+	option = {
+		name = "roman_flavour_mod_event.2.a"
+		add_years_of_income = -0.75 # Expensive fortifications
+		add_military_power = 15
+		add_country_modifier = { name = "rome_reinforced_limes" duration = 3650 }
+		ai_chance = { factor = 80 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.2.b"
+		add_yearly_manpower = 0.15 # 15% of yearly cap
+		add_army_tradition = 3
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.3 # Stoics
+	title = "roman_flavour_mod_event.3.t"
+	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.3.d" }
+	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.3.d_rep" }
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = { tag = ROM adm = 3 NOT = { is_year = 700 } NOT = { has_country_modifier = rome_stoic_administration } }
+	mean_time_to_happen = { months = 300 }
+
+	option = {
+		name = "roman_flavour_mod_event.3.a"
+		add_adm_power = 25
+		add_country_modifier = { name = "rome_stoic_administration" duration = 3650 }
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.3.b"
+		add_prestige = 2
+		add_dip_power = 15
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.4 # Foederati
+	title = "roman_flavour_mod_event.4.t"
+	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.4.d" }
+	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.4.d_rep" }
+	picture = ANGRY_MOB_eventPicture
+	trigger = { tag = ROM manpower_percentage = 0.6 NOT = { is_year = 600 } NOT = { has_country_modifier = rome_foederati_troops } }
+	mean_time_to_happen = { months = 240 }
+
+	option = {
+		name = "roman_flavour_mod_event.4.a"
+		add_yearly_manpower = 0.15 # 15% of cap
+		random_owned_province = { limit = { is_core = ROOT } add_local_autonomy = 15 }
+		add_country_modifier = { name = "rome_foederati_troops" duration = 1825 }
+		ai_chance = { factor = 90 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.4.b"
+		if = { limit = { government = monarchy } add_legitimacy = 5 }
+		if = { limit = { government = republic } add_republican_tradition = 2 }
+		add_prestige = 3
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.5 # Praetorian Donation
+	title = "roman_flavour_mod_event.5.t"
+	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.5.d" }
+	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.5.d_rep" }
+	picture = MILITARY_PARADE_eventPicture
+	trigger = { tag = ROM NOT = { is_year = 400 } OR = { AND = { government = monarchy legitimacy = 80 has_heir = no } AND = { government = republic republican_tradition = 80 } } }
+	mean_time_to_happen = { months = 360 }
+
+	option = {
+		name = "roman_flavour_mod_event.5.a"
+		add_years_of_income = -1.25 # Very expensive bribe
+		add_stability = 1
+		add_army_tradition = 3
+		ai_chance = { factor = 80 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.5.b"
+		add_prestige = 5
+		if = { limit = { government = monarchy } add_legitimacy = -15 }
+		if = { limit = { government = republic } add_republican_tradition = -10 }
+		random_owned_province = {
+			limit = {
+				is_capital = yes
+			}
+			spawn_rebels = {
+				type = pretender_rebels 
+				size = 5
+			}
+		}
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.6 # Circus Factions
+	title = "roman_flavour_mod_event.6.t"
+	desc = "roman_flavour_mod_event.6.d"
+	picture = GREAT_BUILDING_eventPicture
+	trigger = { tag = ROM owns = 118 NOT = { is_year = 800 } NOT = { has_country_modifier = rome_blues_support } NOT = { has_country_modifier = rome_greens_support } }
+	mean_time_to_happen = { months = 240 }
+
+	option = {
+		name = "roman_flavour_mod_event.6.a"
+		add_prestige = 5
+		add_dip_power = 15
+		add_country_modifier = { name = "rome_blues_support" duration = 1825 }
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.6.b"
+		add_prestige = 5
+		add_mil_power = 15
+		add_country_modifier = { name = "rome_greens_support" duration = 1825 }
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.7 # Sol Invictus
+	title = "roman_flavour_mod_event.7.t"
+	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.7.d_monarchy" }
+	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.7.d_republic" }
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	trigger = { tag = ROM religion_group = pagan NOT = { is_year = 500 } NOT = { has_country_modifier = rome_sol_invictus_edict } NOT = { has_country_modifier = rome_local_cult_tolerance } }
+	mean_time_to_happen = { months = 300 }
+
+	option = {
+		name = "roman_flavour_mod_event.7.a"
+		# Removed free stability
+		add_years_of_income = -0.25 # Cost of celebrations
+		if = { limit = { government = monarchy } add_legitimacy = 10 }
+		if = { limit = { government = republic } add_republican_tradition = 5 }
+		add_country_modifier = { name = "rome_sol_invictus_edict" duration = 3650 }
+		ai_chance = { factor = 75 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.7.b"
+		add_adm_power = 25
+		add_country_modifier = { name = "rome_local_cult_tolerance" duration = 3650 }
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.8 # Serica
+	title = "roman_flavour_mod_event.8.t"
+	desc = "roman_flavour_mod_event.8.d"
+	picture = MERCHANTS_TALKING_eventPicture
+	trigger = { tag = ROM dip_tech = 3 NOT = { is_year = 600 } NOT = { has_country_modifier = rome_serica_trade } }
+	mean_time_to_happen = { months = 400 }
+
+	option = {
+		name = "roman_flavour_mod_event.8.a"
+		add_years_of_income = 0.1
+		add_dip_power = 25
+		add_country_modifier = { name = "rome_serica_trade" duration = 7300 }
+		ai_chance = { factor = 90 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.8.b"
+		add_years_of_income = 0.5
+		add_mercantilism = 1
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.9 # Cursus Publicus
+	title = "roman_flavour_mod_event.9.t"
+	desc = { trigger = { num_of_cities = 50 } desc = "roman_flavour_mod_event.9.d_large" }
+	desc = { trigger = { NOT = { num_of_cities = 50 } } desc = "roman_flavour_mod_event.9.d_small" }
+	picture = ADVISOR_ADMIN_eventPicture
+	trigger = { tag = ROM is_at_war = no NOT = { is_year = 600 } NOT = { has_country_modifier = rome_cursus_publicus_funded } }
+	mean_time_to_happen = { months = 250 }
+
+	option = {
+		name = "roman_flavour_mod_event.9.a"
+		add_years_of_income = -0.75 # Increased cost
+		add_country_modifier = { name = "rome_cursus_publicus_funded" duration = 3650 }
+		ai_chance = { factor = 80 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.9.b"
+		add_years_of_income = 0.1
+		add_adm_power = 15
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.10 # Codification
+	title = "roman_flavour_mod_event.10.t"
+	desc = { trigger = { ruler_has_personality = scholar_personality } desc = "roman_flavour_mod_event.10.d_scholar" }
+	desc = { trigger = { NOT = { ruler_has_personality = scholar_personality } } desc = "roman_flavour_mod_event.10.d" }
+	picture = COURT_eventPicture
+	trigger = { tag = ROM adm = 4 NOT = { is_year = 650 } NOT = { has_country_modifier = rome_codified_laws } }
+	mean_time_to_happen = { months = 500 }
+
+	option = {
+		name = "roman_flavour_mod_event.10.a"
+		add_adm_power = -75 # Increased mana cost
+		add_country_modifier = { name = "rome_codified_laws" duration = -1 }
+		add_prestige = 10
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.10.b"
+		add_corruption = 1
+		add_adm_power = 50
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.11 # Pestilence
+	title = "roman_flavour_mod_event.11.t"
+	desc = "roman_flavour_mod_event.11.d"
+	picture = PLAGUE_eventPicture
+	trigger = { tag = ROM is_year = 160 NOT = { has_institution = medicine } NOT = { has_country_modifier = rome_plague_quarantine } NOT = { has_country_modifier = rome_plague_ravages } }
+	mean_time_to_happen = { months = 600 }
+
+	option = {
+		name = "roman_flavour_mod_event.11.a"
+		add_years_of_income = -0.5
+		add_dip_power = -50
+		add_country_modifier = { name = "rome_plague_quarantine" duration = 1825 }
+		ai_chance = { factor = 20 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.11.b"
+		add_yearly_manpower = -0.75 # Losing 75% of annual gain
+		add_stability = -1
+		add_country_modifier = { name = "rome_plague_ravages" duration = 1825 }
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.12 # Corruption
+	title = "roman_flavour_mod_event.12.t"
+	desc = "roman_flavour_mod_event.12.d"
+	picture = BAD_WITH_MONEY_eventPicture
+	trigger = { tag = ROM num_of_cities = 20 corruption = 1 NOT = { is_year = 1000 } }
+	mean_time_to_happen = { months = 360 }
+
+	option = {
+		name = "roman_flavour_mod_event.12.a"
+		add_adm_power = -50
+		add_stability = -1
+		add_corruption = -2
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.12.b"
+		add_corruption = 2
+		random_owned_province = { limit = { is_core = ROOT } add_local_autonomy = 15 }
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.13 # Debasement
+	title = "roman_flavour_mod_event.13.t"
+	desc = "roman_flavour_mod_event.13.d"
+	picture = INFLATION_eventPicture
+	trigger = { tag = ROM inflation = 2 NOT = { is_year = 1000 } }
+	mean_time_to_happen = { months = 400 }
+
+	option = {
+		name = "roman_flavour_mod_event.13.a"
+		add_years_of_income = 0.5
+		add_inflation = 5
+		add_country_modifier = { name = "rome_debased_currency" duration = 3650 }
+		ai_chance = { factor = 30 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.13.b"
+		add_inflation = -2
+		add_adm_power = -50
+		add_years_of_income = -0.2
+		ai_chance = { factor = 70 }
+	}
+}
+
+# ======================================================================
+# MIDDLE AGES
+# ======================================================================
+
+country_event = {
+	id = roman_flavour_mod_event.14 # Feudalism
+	title = "roman_flavour_mod_event.14.t"
+	desc = "roman_flavour_mod_event.14.d"
+	picture = MILITARY_CAMP_eventPicture
+	trigger = { tag = ROM is_year = 600 NOT = { is_year = 900 } government = monarchy NOT = { has_country_modifier = rome_feudal_levies } NOT = { has_country_modifier = rome_imperial_standing_army } }
+	mean_time_to_happen = { months = 300 }
+
+	option = {
+		name = "roman_flavour_mod_event.14.a"
+		add_adm_power = -50
+		add_yearly_manpower = 0.1
+		add_years_of_income = 0.25 
+		add_country_modifier = { name = "rome_feudal_levies" duration = -1 }
+		ai_chance = { factor = 60 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.14.b"
+		add_mil_power = 25
+		add_years_of_income = -0.75 
+		add_country_modifier = { name = "rome_imperial_standing_army" duration = -1 }
+		ai_chance = { factor = 40 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.15 # Monastic
+	title = "roman_flavour_mod_event.15.t"
+	desc = "roman_flavour_mod_event.15.d"
+	picture = POPE_PREACHING_eventPicture
+	trigger = { tag = ROM is_year = 650 NOT = { is_year = 1200 } religion_group = christian NOT = { has_country_modifier = rome_monastic_knowledge } }
+	mean_time_to_happen = { months = 400 }
+
+	option = {
+		name = "roman_flavour_mod_event.15.a"
+		add_adm_power = 25
+		add_years_of_income = -0.2
+		add_country_modifier = { name = "rome_monastic_knowledge" duration = 7300 }
+		ai_chance = { factor = 90 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.15.b"
+		add_prestige = -5
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.16 # Saracens
+	title = "roman_flavour_mod_event.16.t"
+	desc = "roman_flavour_mod_event.16.d"
+	picture = BATTLEFIELD_eventPicture
+	trigger = { tag = ROM is_year = 700 NOT = { is_year = 1000 } any_neighbor_country = { religion_group = muslim } }
+	mean_time_to_happen = { months = 240 }
+
+	option = {
+		name = "roman_flavour_mod_event.16.a"
+		add_years_of_income = -0.5
+		add_country_modifier = { name = "rome_coastal_watch" duration = 1825 }
+		ai_chance = { factor = 70 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.16.b"
+		random_owned_province = { limit = { has_port = yes } add_devastation = 30 add_local_autonomy = 10 }
+		add_prestige = -10
+		ai_chance = { factor = 30 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.17 # Carolingian
+	title = "roman_flavour_mod_event.17.t"
+	desc = "roman_flavour_mod_event.17.d"
+	picture = DIPLOMACY_eventPicture
+	trigger = { tag = ROM is_year = 780 NOT = { is_year = 850 } exists = FRA FRA = { is_emperor = no } }
+	mean_time_to_happen = { months = 200 }
+
+	option = {
+		name = "roman_flavour_mod_event.17.a"
+		add_prestige = 5
+		add_dip_power = -25
+		FRA = { add_opinion = { who = ROOT modifier = insult_opinion } }
+		ai_chance = { factor = 80 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.17.b"
+		add_prestige = -10
+		add_dip_power = 15
+		FRA = { add_opinion = { who = ROOT modifier = opinion_neutral } }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.18 # Greek Fire
+	title = "roman_flavour_mod_event.18.t"
+	desc = "roman_flavour_mod_event.18.d"
+	picture = NAVAL_BATTLE_eventPicture
+	trigger = { tag = ROM is_year = 670 NOT = { is_year = 1453 } mil_tech = 5 NOT = { has_country_modifier = rome_greek_fire_secret } }
+	mean_time_to_happen = { months = 500 }
+
+	option = {
+		name = "roman_flavour_mod_event.18.a"
+		add_years_of_income = -0.5
+		add_country_modifier = { name = "rome_greek_fire_secret" duration = -1 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.19 # Noble Feuds
+	title = "roman_flavour_mod_event.19.t"
+	desc = "roman_flavour_mod_event.19.d"
+	picture = COURT_eventPicture
+	trigger = { tag = ROM is_year = 950 NOT = { is_year = 1500 } NOT = { has_country_modifier = rome_noble_feuds } }
+	mean_time_to_happen = { months = 300 }
+
+	option = {
+		name = "roman_flavour_mod_event.19.a"
+		add_dip_power = 25
+		add_corruption = 2
+		add_country_modifier = { name = "rome_noble_feuds" duration = 1825 }
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.19.b"
+		add_stability = -1
+		random_owned_province = {
+			limit = {
+				is_core = ROOT 
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = noble_rebels 
+				size = 1
+			}
+		}
+		add_absolutism = 2 
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.20 # Schism
+	title = "roman_flavour_mod_event.20.t"
+	desc = "roman_flavour_mod_event.20.d"
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	trigger = { tag = ROM is_year = 1054 NOT = { is_year = 1100 } religion_group = christian NOT = { religion = catholic } }
+	mean_time_to_happen = { months = 12 }
+
+	option = {
+		name = "roman_flavour_mod_event.20.a"
+		add_prestige = 10
+		add_adm_power = 25
+		ai_chance = { factor = 90 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.20.b"
+		add_prestige = -10
+		add_dip_power = 25
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.21 # Normans
+	title = "roman_flavour_mod_event.21.t"
+	desc = "roman_flavour_mod_event.21.d"
+	picture = LANDING_eventPicture
+	trigger = { tag = ROM is_year = 1000 NOT = { is_year = 1150 } war = yes }
+	mean_time_to_happen = { months = 180 }
+
+	option = {
+		name = "roman_flavour_mod_event.21.a"
+		add_years_of_income = -0.5
+		add_manpower = 2 # 2000 men
+		add_army_tradition = 5
+		add_country_modifier = { name = "rome_norman_mercenaries" duration = 1825 }
+		ai_chance = { factor = 70 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.21.b"
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.22 # Crusades
+	title = "roman_flavour_mod_event.22.t"
+	desc = "roman_flavour_mod_event.22.d"
+	picture = CRUSADE_eventPicture
+	trigger = { tag = ROM is_year = 1095 NOT = { is_year = 1100 } religion_group = christian }
+	mean_time_to_happen = { months = 6 }
+
+	option = {
+		name = "roman_flavour_mod_event.22.a"
+		add_prestige = 5
+		add_country_modifier = { name = "rome_crusader_fervor" duration = 3650 }
+		ai_chance = { factor = 80 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.22.b"
+		add_adm_power = 25
+		add_prestige = -5
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.23 # Venice
+	title = "roman_flavour_mod_event.23.t"
+	desc = "roman_flavour_mod_event.23.d"
+	picture = TRADE_GOODS_eventPicture
+	trigger = { tag = ROM is_year = 1100 NOT = { is_year = 1500 } exists = VEN NOT = { alliance_with = VEN } }
+	mean_time_to_happen = { months = 360 }
+
+	option = {
+		name = "roman_flavour_mod_event.23.a"
+		add_mercantilism = 1
+		VEN = { add_opinion = { who = ROOT modifier = trade_embargo_opinion } }
+		add_country_modifier = { name = "rome_venetian_rivalry" duration = 3650 }
+		ai_chance = { factor = 40 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.23.b"
+		add_years_of_income = 0.25
+		ai_chance = { factor = 60 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.24 # Heraldry
+	title = "roman_flavour_mod_event.24.t"
+	desc = "roman_flavour_mod_event.24.d"
+	picture = COURT_eventPicture
+	trigger = { tag = ROM is_year = 1150 NOT = { is_year = 1350 } NOT = { has_country_modifier = rome_heraldic_tradition } }
+	mean_time_to_happen = { months = 500 }
+
+	option = {
+		name = "roman_flavour_mod_event.24.a"
+		add_prestige = 10
+		add_legitimacy = 5
+		add_country_modifier = { name = "rome_heraldic_tradition" duration = -1 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.25 # 4th Crusade
+	title = "roman_flavour_mod_event.25.t"
+	desc = "roman_flavour_mod_event.25.d"
+	picture = SACKING_eventPicture
+	trigger = { tag = ROM is_year = 1202 NOT = { is_year = 1205 } owns = 151 }
+	fire_only_once = yes
+	mean_time_to_happen = { months = 3 }
+	
+
+	option = {
+		name = "roman_flavour_mod_event.25.a"
+		add_years_of_income = -3.0 # Crisis level cost
+		add_prestige = -20
+		ai_chance = { factor = 20 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.25.b"
+		add_yearly_manpower = 0.25
+		add_local_defensiveness = 0.25 
+		add_stability = -1
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.26 # Donation Constantine
+	title = "roman_flavour_mod_event.26.t"
+	desc = "roman_flavour_mod_event.26.d"
+	picture = PAPACY_eventPicture
+	trigger = { tag = ROM is_year = 800 religion = catholic NOT = { is_year = 1400 } }
+	mean_time_to_happen = { months = 400 }
+
+	option = {
+		name = "roman_flavour_mod_event.26.a"
+		add_papal_influence = 10
+		add_prestige = -5
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.26.b"
+		add_papal_influence = -10
+		add_prestige = 5
+		add_legitimacy = 5
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.27 # Communes
+	title = "roman_flavour_mod_event.27.t"
+	desc = "roman_flavour_mod_event.27.d"
+	picture = ANGRY_MOB_eventPicture
+	trigger = { tag = ROM is_year = 1100 NOT = { is_year = 1400 } government = monarchy num_of_cities = 10 }
+	mean_time_to_happen = { months = 300 }
+
+	option = {
+		name = "roman_flavour_mod_event.27.a"
+		add_country_modifier = { name = "rome_communal_rights" duration = 3650 }
+		ai_chance = { factor = 60 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.27.b"
+		random_owned_province = {
+			limit = {
+				is_core = ROOT 
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = particularist_rebels 
+				size = 2
+			}
+		}
+		add_absolutism = 2
+		ai_chance = { factor = 40 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.28 # Recovery Law
+	title = "roman_flavour_mod_event.28.t"
+	desc = "roman_flavour_mod_event.28.d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = { tag = ROM is_year = 1080 NOT = { is_year = 1250 } NOT = { has_country_modifier = rome_legal_renaissance } }
+	mean_time_to_happen = { months = 400 }
+
+	option = {
+		name = "roman_flavour_mod_event.28.a"
+		add_years_of_income = -0.4
+		add_adm_power = 50
+		add_country_modifier = { name = "rome_legal_renaissance" duration = -1 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+# ======================================================================
+# MODERN & FUTURE
+# ======================================================================
+
+country_event = {
+	id = roman_flavour_mod_event.29 # Vitruvius
+	title = "roman_flavour_mod_event.29.t"
+	desc = "roman_flavour_mod_event.29.d"
+	picture = GREAT_BUILDING_eventPicture
+	trigger = { tag = ROM is_year = 1400 has_institution = renaissance NOT = { has_country_modifier = rome_vitruvian_architecture } }
+	mean_time_to_happen = { months = 200 }
+
+	option = {
+		name = "roman_flavour_mod_event.29.a"
+		add_adm_power = -50
+		add_prestige = 5
+		add_country_modifier = { name = "rome_vitruvian_architecture" duration = -1 }
+		ai_chance = { factor = 90 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.29.b"
+		add_years_of_income = 0.1
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.30 # Pillars Hercules
+	title = "roman_flavour_mod_event.30.t"
+	desc = "roman_flavour_mod_event.30.d"
+	picture = ADMIRAL_eventPicture
+	trigger = { tag = ROM is_year = 1450 NOT = { is_year = 1600 } dip_tech = 9 NOT = { has_country_modifier = rome_atlantic_ambition } }
+	mean_time_to_happen = { months = 100 }
+
+	option = {
+		name = "roman_flavour_mod_event.30.a"
+		add_dip_power = 25
+		add_country_modifier = { name = "rome_atlantic_ambition" duration = 3650 }
+		ai_chance = { factor = 80 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.30.b"
+		add_prestige = -5
+		add_mercantilism = 1
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.31 # Colonies
+	title = "roman_flavour_mod_event.31.t"
+	desc = "roman_flavour_mod_event.31.d"
+	picture = COLONIZATION_eventPicture
+	trigger = { tag = ROM num_of_subjects = 1 is_year = 1550 NOT = { has_country_modifier = rome_colonial_proconsuls } }
+	mean_time_to_happen = { months = 300 }
+
+	option = {
+		name = "roman_flavour_mod_event.31.a"
+		add_years_of_income = -0.5
+		add_country_modifier = { name = "rome_colonial_proconsuls" duration = -1 }
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.31.b"
+		add_dip_power = 25
+		all_subject_country = { limit = { is_colonial_nation = yes } add_liberty_desire = -5 }
+		add_country_modifier = { name = "rome_colonial_autonomy_deal" duration = 3650 }
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.32 # Heliocentrism
+	title = "roman_flavour_mod_event.32.t"
+	desc = "roman_flavour_mod_event.32.d"
+	picture = ACADEMIA_eventPicture
+	trigger = { tag = ROM has_institution = printing_press is_year = 1600 }
+	mean_time_to_happen = { months = 180 }
+
+	option = {
+		name = "roman_flavour_mod_event.32.a"
+		add_stability = -1
+		add_innovativeness = 1
+		add_country_modifier = { name = "rome_scientific_revolution" duration = 3650 }
+		ai_chance = { factor = 60 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.32.b"
+		add_stability = 1
+		add_adm_power = 25
+		add_country_modifier = { name = "rome_suppressed_science" duration = 1825 }
+		ai_chance = { factor = 40 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.33 # Steam
+	title = "roman_flavour_mod_event.33.t"
+	desc = "roman_flavour_mod_event.33.d"
+	picture = FACTORY_eventPicture
+	trigger = { tag = ROM is_year = 1750 has_institution = manufactories NOT = { has_country_modifier = rome_steam_engines } }
+	mean_time_to_happen = { months = 240 }
+
+	option = {
+		name = "roman_flavour_mod_event.33.a"
+		add_years_of_income = -2.0
+		add_country_modifier = { name = "rome_steam_engines" duration = -1 }
+		add_innovativeness = 2
+		ai_chance = { factor = 90 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.33.b"
+		add_prestige = -10
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.34 # Railroads
+	title = "roman_flavour_mod_event.34.t"
+	desc = "roman_flavour_mod_event.34.d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	trigger = { tag = ROM is_year = 1830 has_country_modifier = rome_steam_engines NOT = { has_country_modifier = rome_via_ferrea } }
+	mean_time_to_happen = { months = 120 }
+
+	option = {
+		name = "roman_flavour_mod_event.34.a"
+		add_years_of_income = -4.0 # Very expensive
+		add_country_modifier = { name = "rome_via_ferrea" duration = -1 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.35 # Factory
+	title = "roman_flavour_mod_event.35.t"
+	desc = "roman_flavour_mod_event.35.d"
+	picture = ANGRY_MOB_eventPicture
+	trigger = { tag = ROM is_year = 1848 has_country_modifier = rome_steam_engines }
+	mean_time_to_happen = { months = 60 }
+
+	option = {
+		name = "roman_flavour_mod_event.35.a"
+		add_years_of_income = -1.0
+		every_owned_province = { add_local_autonomy = -2 }
+		add_country_modifier = { name = "rome_labor_laws" duration = -1 }
+		ai_chance = { factor = 40 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.35.b"
+		add_stability = -1
+		add_absolutism = 5
+		random_owned_province = {
+			limit = {
+				is_capital = yes
+			}
+			spawn_rebels = {
+				type = leadered_peasant_rebels 
+				size = 5
+			}
+		}
+		
+		random_owned_province = {
+			limit = {
+				is_core = ROOT 
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = anti_tax_rebels 
+				size = 3
+			}
+		}
+		
+		random_owned_province = {
+			limit = {
+				is_core = ROOT 
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = anti_tax_rebels  
+				size = 3
+			}
+		}
+		
+		random_owned_province = {
+			limit = {
+				is_core = ROOT 
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = anti_tax_rebels 
+				size = 2
+			}
+		}
+		
+		random_owned_province = {
+			limit = {
+				is_core = ROOT 
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = anti_tax_rebels  
+				size = 2
+			}
+		}
+		
+		random_owned_province = {
+			limit = {
+				is_core = ROOT 
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = anti_tax_rebels 
+				size = 1
+			}
+		}
+		ai_chance = { factor = 60 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.36 # Scramble
+	title = "roman_flavour_mod_event.36.t"
+	desc = "roman_flavour_mod_event.36.d"
+	picture = LANDING_eventPicture
+	trigger = { tag = ROM is_year = 1880 NOT = { has_country_modifier = rome_scramble_agenda } }
+	mean_time_to_happen = { months = 120 }
+
+	option = {
+		name = "roman_flavour_mod_event.36.a"
+		add_dip_power = 50
+		add_country_modifier = { name = "rome_scramble_agenda" duration = 7300 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.37 # Suffrage
+	title = "roman_flavour_mod_event.37.t"
+	desc = "roman_flavour_mod_event.37.d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = { tag = ROM is_year = 1910 government = republic NOT = { has_country_modifier = rome_universal_suffrage } }
+	mean_time_to_happen = { months = 200 }
+
+	option = {
+		name = "roman_flavour_mod_event.37.a"
+		add_republican_tradition = 5
+		add_absolutism = -20
+		add_country_modifier = { name = "rome_universal_suffrage" duration = -1 }
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.37.b"
+		add_republican_tradition = -2
+		add_unrest = 2
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.38 # Atomic
+	title = "roman_flavour_mod_event.38.t"
+	desc = "roman_flavour_mod_event.38.d"
+	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
+	trigger = { tag = ROM is_year = 1945 has_institution = industrialization NOT = { has_country_modifier = rome_atomic_research } }
+	mean_time_to_happen = { months = 120 }
+
+	option = {
+		name = "roman_flavour_mod_event.38.a"
+		add_years_of_income = -5.0 # Huge R&D cost
+		add_innovativeness = 3
+		add_country_modifier = { name = "rome_atomic_research" duration = -1 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.39 # Internet
+	title = "roman_flavour_mod_event.39.t"
+	desc = "roman_flavour_mod_event.39.d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	trigger = { tag = ROM is_year = 1990 NOT = { has_country_modifier = rome_digital_forum } }
+	mean_time_to_happen = { months = 120 }
+
+	option = {
+		name = "roman_flavour_mod_event.39.a"
+		add_unrest = 4
+		add_country_modifier = { name = "rome_digital_forum" duration = -1 }
+		ai_chance = { factor = 80 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.39.b"
+		add_stability = 1
+		add_country_modifier = { name = "rome_censored_net" duration = 3650 }
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.40 # Space
+	title = "roman_flavour_mod_event.40.t"
+	desc = "roman_flavour_mod_event.40.d"
+	picture = ADMIRAL_eventPicture
+	trigger = { tag = ROM is_year = 1960 NOT = { has_country_modifier = rome_space_program } }
+	fire_only_once = yes
+	mean_time_to_happen = { months = 100 }
+
+	option = {
+		name = "roman_flavour_mod_event.40.a"
+		add_years_of_income = -10.0 # Massive prestige project
+		add_prestige = 25
+		add_country_modifier = { name = "rome_space_program" duration = -1 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.41 # Automated
+	title = "roman_flavour_mod_event.41.t"
+	desc = "roman_flavour_mod_event.41.d"
+	picture = MILITARY_CAMP_eventPicture
+	trigger = { tag = ROM is_year = 2040 has_country_modifier = rome_digital_forum NOT = { has_country_modifier = rome_automated_legions } }
+	mean_time_to_happen = { months = 200 }
+
+	option = {
+		name = "roman_flavour_mod_event.41.a"
+		add_country_modifier = { name = "rome_automated_legions" duration = -1 }
+		ai_chance = { factor = 70 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.41.b"
+		add_country_modifier = { name = "rome_human_spirit" duration = 3650 }
+		add_prestige = 5
+		ai_chance = { factor = 30 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.42 # AI
+	title = "roman_flavour_mod_event.42.t"
+	desc = "roman_flavour_mod_event.42.d"
+	picture = COURT_eventPicture
+	trigger = { tag = ROM is_year = 2080 has_country_modifier = rome_digital_forum NOT = { has_country_modifier = rome_ai_governance } }
+	mean_time_to_happen = { months = 300 }
+
+	option = {
+		name = "roman_flavour_mod_event.42.a"
+		add_stability = 1
+		add_corruption = -5
+		add_country_modifier = { name = "rome_ai_governance" duration = -1 }
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.42.b"
+		add_country_modifier = { name = "rome_ai_advisor" duration = 3650 }
+		add_adm_power = 50
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.43 # Mars
+	title = "roman_flavour_mod_event.43.t"
+	desc = "roman_flavour_mod_event.43.d"
+	picture = COLONIZATION_eventPicture
+	trigger = { tag = ROM is_year = 2100 has_country_modifier = rome_space_program NOT = { has_country_modifier = rome_martian_colony } }
+	mean_time_to_happen = { months = 200 }
+
+	option = {
+		name = "roman_flavour_mod_event.43.a"
+		add_years_of_income = -20.0
+		add_country_modifier = { name = "rome_martian_colony" duration = -1 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.44 # Synthetic
+	title = "roman_flavour_mod_event.44.t"
+	desc = "roman_flavour_mod_event.44.d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	trigger = { tag = ROM is_year = 2150 has_country_modifier = rome_ai_governance }
+	mean_time_to_happen = { months = 240 }
+
+	option = {
+		name = "roman_flavour_mod_event.44.a"
+		add_country_modifier = { name = "rome_transhumanist_society" duration = -1 }
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = roman_flavour_mod_event.45 # Grand Prix
+	title = "roman_flavour_mod_event.45.t"
+	desc = "roman_flavour_mod_event.45.d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	trigger = { tag = ROM is_year = 1920 has_country_modifier = rome_steam_engines NOT = { has_country_modifier = rome_scuderia_blues } NOT = { has_country_modifier = rome_scuderia_greens } }
+	mean_time_to_happen = { months = 200 }
+
+	option = {
+		name = "roman_flavour_mod_event.45.a" 
+		add_prestige = 10
+		add_country_modifier = { name = "rome_scuderia_blues" duration = 3650 }
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = "roman_flavour_mod_event.45.b" 
+		add_prestige = 10
+		add_country_modifier = { name = "rome_scuderia_greens" duration = 3650 }
+		ai_chance = { factor = 50 }
+	}
+}

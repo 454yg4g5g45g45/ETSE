@@ -1,0 +1,10 @@
+bookmark = {
+	name = "ENGLISH_PROTECTORATE_NAME"
+	desc = "ENGLISH_PROTECTORATE_DESC"
+	date = 3750.7.10
+	
+	country = ENG
+	country = NED
+	country = SCO
+	
+}

@@ -1,0 +1,4 @@
+natives_protected = {
+	local_colonial_growth = -1000
+	local_colonist_placement_chance = 0
+}

@@ -1,0 +1,70 @@
+# Province Triggered modifiers are here.
+# These are added to provinces through the add_province_triggered_modifier effect
+#
+# Effects are fully scriptable here.
+
+
+###########################################
+# Just random test modifier
+###########################################
+test_modifier = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			stability = 0
+		}
+	}
+
+	local_build_cost = 0.05	
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+
+sol_rome_axis_mundi = {
+    # 1. Who sees this?
+    potential = {
+        #owner = {
+        #    religion = sol_invictus # Only if owner is Sol Invictus
+        #}
+    }
+
+    # 2. When is it active?
+    trigger = {
+        religion = sol_invictus # The province must be converted
+        owner = {
+            religion = sol_invictus
+            118 = {is_capital = yes}
+			tag = ROM
+        }
+    }
+
+    # 3. What does it do? (The Bonus)
+    modifier = {
+		monthly_splendor = 3 
+        prestige_decay = -0.02
+		118 = {
+			#local_missionary_strength = -0.05
+			local_garrison_size = 0.30	
+			local_defensiveness = 0.25	
+		}
+    }
+
+    # 4. Cleanup (removes if conditions fail)
+    on_activation = {
+        # Optional: You can fire an event here if you want a popup
+    }
+    on_deactivation = {
+    }
+}

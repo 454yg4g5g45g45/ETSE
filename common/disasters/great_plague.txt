@@ -1,0 +1,121 @@
+great_plague = {
+	potential = {
+		has_global_flag = great_plague_started
+		has_country_flag = exists_at_plague_start
+		NOT = { has_country_flag = had_the_great_plague }
+		OR = {
+			luck = no
+			total_development=100
+		}
+		#NOT = { has_institution = medicine }
+	}
+	
+	can_start = {
+		#has_any_disaster = no
+		# NOT = {
+		# 	owner = {
+		# 		OR = {
+		# 			technology_group=chinese
+		# 			technology_group=indian
+		# 		}
+				
+		# 	}
+		# }
+		OR = {
+			any_neighbor_country = { has_disaster = great_plague }
+			any_owned_province = { has_province_modifier = great_plague_province }
+			any_country = {
+				has_disaster = great_plague
+				war_with = ROOT
+			}
+			any_ally = {
+				has_disaster = great_plague
+				}
+		}
+		any_owned_province = {
+			development = 8
+		}
+		
+	}
+	
+	can_stop = { 
+		NOT = { any_neighbor_country = { has_disaster = great_plague } }
+		NOT = { any_owned_province = { has_province_modifier = great_plague_province } }
+	}
+	
+	progress = {
+		modifier = {
+			factor = 5
+			any_owned_province = { has_province_modifier = great_plague_province }
+		}
+		modifier = {
+			factor = 5
+			any_owned_province = { development = 30 }
+		} 
+		modifier = {
+			factor = 5
+			any_owned_province = { development = 15 }
+		} 
+		modifier = {
+			factor = 5
+			any_owned_province = { province_has_center_of_trade_of_level = 2 }
+		}
+		modifier = {
+			factor = 10
+			any_neighbor_country = { has_disaster = great_plague }
+		} 
+		modifier = {
+			factor = -5
+			has_institution = medicine
+		} 
+		modifier = {
+			factor = 15
+			any_country = {
+				has_disaster = great_plague
+				war_with = ROOT
+			}
+		}
+		modifier = {
+			factor = 5
+			any_ally = {
+				
+				has_disaster = great_plague
+				}
+		}
+		
+			
+	}
+	
+	can_end = {
+		#NOT = { any_owned_province = { has_province_modifier = great_plague_province } }
+		had_country_flag = { flag = has_the_great_plague days = 3650 }
+		#has_disaster = great_plague
+		#has_institution = medicine
+	}
+
+	modifier = {
+		development_cost=0.5
+		stability_cost_modifier = 0.5
+		trade_efficiency = -0.5
+		manpower_recovery_speed = -0.5
+		global_unrest=5
+		reduced_liberty_desire = -75
+	}	
+	
+	on_start = great_plague.1
+	on_end = great_plague.2
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			1500 = 0
+			10 = great_plague.4
+			40 = great_plague.5
+			10 = great_plague.6
+			200 = great_plague.7
+			100 = great_plague.8
+		}
+	}
+}
+

@@ -1,0 +1,16 @@
+defined_text = {
+    name = GetIfADExists
+	random = no
+	text = {
+        localisation_key = string_ad_exists_without_comma
+        trigger = {
+			exists = yes
+        }
+    }
+	text = {
+        localisation_key = string_ad_does_not_exist
+        trigger = {
+			always = yes
+        }
+    }
+}

@@ -1,0 +1,30 @@
+po_allow_annex = {
+	category = 6
+	power_projection = humiliated_rival
+	power_cost_base = 0
+	prestige_base = 0
+	ae_base = 0
+	warscore_cost = {
+		all_provinces = 100
+		no_provinces = 100
+	}
+	warscore_cap = 100
+	requires_is_allowed = no
+	is_make_subject = no
+	is_visible = {
+		ROOT = {
+			is_in_war = {
+				casus_belli = cb_total_war
+				attacker_leader = ROOT
+			}
+		}
+	}
+	effect = {
+	}
+	ai_weight = {
+		export_to_variable = {
+			variable_name = ai_value
+			value = 0
+		}
+	}
+}

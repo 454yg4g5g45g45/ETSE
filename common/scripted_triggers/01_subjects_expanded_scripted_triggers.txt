@@ -1,0 +1,83 @@
+is_possible_subject_of_subject_type_vassal = {
+	NOT = { is_subject_of_type = vassal }
+	is_possible_vassal = yes
+}
+
+is_possible_subject_of_subject_type_march = {
+	NOT = { is_subject_of_type = march }
+	is_possible_march = yes
+}
+
+is_possible_subject_of_subject_type_daimyo_vassal = {
+	NOT = { is_subject_of_type = daimyo_vassal }
+}
+
+is_possible_subject_of_subject_type_personal_union = {
+	NOT = { is_subject_of_type = personal_union }
+	is_subject = no
+}
+
+is_possible_subject_of_subject_type_client_vassal = {
+	NOT = { is_subject_of_type = client_vassal }
+}
+
+is_possible_subject_of_subject_type_client_march = {
+	NOT = { is_subject_of_type = client_march }
+	is_subject_of = PREV
+	is_subject_of_type = client_vassal
+	primitives = no
+}
+
+is_possible_subject_of_subject_type_colony = {
+	NOT = { is_subject_of_type = colony }
+	is_colonial_subject_type = yes
+}
+
+is_possible_subject_of_subject_type_crown_colony = {
+	NOT = { is_subject_of_type = crown_colony }
+	is_colonial_subject_type = yes
+}
+
+is_possible_subject_of_subject_type_private_enterprise = {
+	NOT = { is_subject_of_type = private_enterprise }
+	is_colonial_subject_type = yes
+}
+
+is_possible_subject_of_subject_type_self_governing_colony = {
+	NOT = { is_subject_of_type = self_governing_colony }
+	is_colonial_subject_type = yes
+}
+
+is_possible_subject_of_subject_type_tributary_state = {
+	has_dlc = "Mandate of Heaven"
+	NOT = { is_subject_of_type = tributary_state }
+}
+
+is_possible_subject_of_subject_type_brother_kingdom = {
+	# PREVs in THIS scope refer to possible overlord
+	NOT = { is_subject_of_type = brother_kingdom }
+	OR = {
+		is_subject = no
+		AND = {
+			is_subject_of = PREV
+			OR = {
+				is_subject_of_type = vassal
+				is_subject_of_type = client_vassal
+				is_subject_of_type = medieval_vassal
+			}
+		}
+	}
+	government = monarchy
+	dynasty = PREV
+	has_regency = no
+}
+
+can_create_subject_type = {
+	can_be_overlord = $subject_type$
+	$subject$ = {
+		custom_trigger_tooltip = {
+			tooltip = IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_$subject_type$
+			is_possible_subject_of_subject_type_$subject_type$ = yes
+		}
+	}
+}

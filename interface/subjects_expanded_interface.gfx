@@ -1,0 +1,24 @@
+spriteTypes = {
+	# Diplomatic Categories:
+	spriteType = {
+		name = "GFX_diplomacy_action_subject_interactions"
+		textureFile = "gfx/interface/icon_diplomacy_subject_interactions.dds"
+	}
+	spriteType = {
+		name = "GFX_cb_disloyal_brother_kingdom"
+		texturefile = "gfx/interface/casus_bellis/cb_disloyal_vassal.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_icon_brother_kingdom"
+		texturefile = "gfx/interface/icon_brother_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_leadbrother_kingdom"
+		texturefile = "gfx//interface//icon_diplomacy_leadbrother_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_ambrother_kingdom"
+		texturefile = "gfx//interface//icon_diplomacy_ambrother_kingdom.dds"
+	}
+}

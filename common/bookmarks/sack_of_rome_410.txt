@@ -1,0 +1,14 @@
+bookmark = {
+	name = "SACK_OF_ROME_NAME"
+	desc = "SACK_OF_ROME_DESC"
+	date = 2508.8.24
+	
+	country = ROW
+	country = VAN
+	country = HNS
+	country = EAL	#Suebia
+	country = FRK
+	country = WEI	#Northern Wei before it unites the north
+	country = GUP	#Chandragupta II high stats
+
+}

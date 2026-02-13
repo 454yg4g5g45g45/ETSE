@@ -1,0 +1,129 @@
+namespace = bookmark_flavortown_events
+
+#Sack of Rome
+country_event = {
+
+	id = bookmark_flavortown_events.1
+	title = bookmark_flavortown_events.EVTNAME1
+	desc = bookmark_flavortown_events.EVTDESC1
+	picture = MMETR_GERMANIC_SACK_OF_ROME_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = ROW
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "bookmark_flavortown_events.EVTOPTA1"
+		
+		add_stability = -1
+	}
+
+}
+
+
+#The Hundred Days
+
+#Napoleon's Return
+country_event = {
+
+	id = bookmark_flavortown_events.2
+	title = bookmark_flavortown_events.EVTNAME2
+	desc = bookmark_flavortown_events.EVTDESC2
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = FRA
+		started_in = 3913.3.20
+		NOT = { started_in = 3913.7.8 }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "bookmark_flavortown_events.EVTOPTA2"
+		
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { tag = FRA }
+					has_discovered = 183	#Paris
+				}
+				country_event = {
+					id = bookmark_flavortown_events.3
+					days = 1
+					random = 1
+				}
+			}
+		}
+	}
+}
+#News of Napoleon's Return
+country_event = {
+
+	id = bookmark_flavortown_events.3
+	title = bookmark_flavortown_events.EVTNAME3
+	desc = bookmark_flavortown_events.EVTDESC3
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { tag = FRA }
+		has_discovered = 183	#Paris
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "bookmark_flavortown_events.EVTOPTA3"
+		
+		
+	}
+
+}
+
+#Empress Wu Zhao of the Zhou (Wu Zetian)
+country_event = {
+
+	id = bookmark_flavortown_events.5
+	title = bookmark_flavortown_events.5.t
+	desc = bookmark_flavortown_events.5.desc
+	picture = MMETR_CHINESE_GENERAL_JOIN_eventPicture
+	
+	is_triggered_only = yes
+	
+	major = yes		#appears for all countries as a notification
+
+	trigger = {
+		tag = TNG
+		started_in = 2788.10.8
+		NOT = { started_in = 2790.2.23 }		#only during Wu Zetian's reign
+	}
+
+	option = {
+		name = "bookmark_flavortown_events.5.a"
+		
+		change_tag = CZH
+		
+		ai_chance = { factor = 1 }
+	}
+	
+	option = {
+		name = "bookmark_flavortown_events.5.b"
+		
+		ai_chance = { factor = 0 }
+	}
+	
+}

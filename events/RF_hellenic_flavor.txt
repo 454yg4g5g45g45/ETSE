@@ -1,0 +1,195 @@
+namespace = reformed_hellenism_religion_flavor
+
+# --------------------------------------------------
+# EVENT 1: POSITIVE (Powerful) - The Golden Auspices
+# --------------------------------------------------
+country_event = {
+    id = reformed_hellenism_religion_flavor.1
+    title = "reformed_hellenism_religion_flavor.1.t"
+    desc = "reformed_hellenism_religion_flavor.1.d"
+    picture = RELIGION_eventPicture
+    
+    trigger = {
+        religion_group = reformed_hellenic
+        is_at_war = no
+        stability = 1
+        NOT = { has_country_modifier = pax_deorum_secured }
+    }
+    
+    mean_time_to_happen = {
+        months = 480
+        modifier = {
+            factor = 0.5
+            owns_core_province = 118 # Rome
+        }
+    }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.1.a"
+        add_stability = 1
+        add_prestige = 50
+		add_republican_tradition = 10
+		add_legitimacy = 15
+		add_devotion = 15
+        
+        add_country_modifier = {
+            name = pax_deorum_secured
+            duration = 7300 # 20 Years
+        }
+    }
+}
+
+# --------------------------------------------------
+# EVENT 2: NEUTRAL (Philosophy) - The Stoic Revival
+# --------------------------------------------------
+country_event = {
+    id = reformed_hellenism_religion_flavor.2
+    title = "reformed_hellenism_religion_flavor.2.t"
+    desc = "reformed_hellenism_religion_flavor.2.d"
+    picture = DEBATE_eventPicture
+    
+    trigger = {
+        religion_group = reformed_hellenic
+    }
+    
+    mean_time_to_happen = { months = 300 }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.2.a" # Embrace Stoic Duty (Modifier)
+        add_adm_power = 75
+        add_country_modifier = {
+            name = hellenic_stoic_ethic
+            duration = 3650 # 10 Years
+        }
+    }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.2.b" # Favor Epicureanism (Instant Instant)
+        add_dip_power = 150
+    }
+}
+
+# --------------------------------------------------
+# EVENT 3: NEUTRAL (Syncretism) - Interpretatio Romana
+# --------------------------------------------------
+country_event = {
+    id = reformed_hellenism_religion_flavor.3
+    title = "reformed_hellenism_religion_flavor.3.t"
+    desc = "reformed_hellenism_religion_flavor.3.d"
+    picture = DIPLOMACY_eventPicture
+    
+    trigger = {
+        religion_group = reformed_hellenic
+        any_owned_province = {
+            NOT = { religion_group = reformed_hellenic }
+        }
+    }
+    
+    mean_time_to_happen = { months = 240 }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.3.a" # They are just Jupiter by another name.
+        add_dip_power = 25
+    }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.3.b" # Enforce the State Rites strictly.
+		add_prestige = 10
+        add_patriarch_authority = 5
+        add_church_power = 25
+    }
+}
+
+# --------------------------------------------------
+# EVENT 4: NEUTRAL (The Games) - The State Spectacle
+# --------------------------------------------------
+country_event = {
+    id = reformed_hellenism_religion_flavor.4
+    title = "reformed_hellenism_religion_flavor.4.t"
+    desc = "reformed_hellenism_religion_flavor.4.d"
+    picture = COURT_eventPicture
+    
+    trigger = {
+        religion_group = reformed_hellenic
+    }
+    
+    mean_time_to_happen = { months = 360 }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.4.a" # Fund the Ludi Maximi
+        add_years_of_income = -0.8
+        add_prestige = 20
+        add_splendor = 50
+		add_republican_tradition = 5
+        add_legitimacy = 10
+    }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.4.b" # The State Treasury comes first.
+        add_years_of_income = 0.2
+        add_prestige = -10
+        add_republican_tradition = -2
+        add_legitimacy = -5
+    }
+}
+
+# --------------------------------------------------
+# EVENT 5: NEGATIVE (Omen) - The Silent Oracles
+# --------------------------------------------------
+country_event = {
+    id = reformed_hellenism_religion_flavor.5
+    title = "reformed_hellenism_religion_flavor.5.t"
+    desc = "reformed_hellenism_religion_flavor.5.d"
+    picture = BAD_WITH_MONARCH_eventPicture
+    
+    trigger = {
+        religion_group = reformed_hellenic
+    }
+    
+    mean_time_to_happen = { months = 400 }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.5.a" # Send offerings to appease the Gods.
+        add_years_of_income = -0.5
+        add_adm_power = -50
+    }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.5.b" # We must endure their silence.
+        add_stability = -1
+        add_prestige = -20
+    }
+}
+
+# --------------------------------------------------
+# EVENT 6: NEGATIVE (Corruption) - Simony in the Temple
+# --------------------------------------------------
+country_event = {
+    id = reformed_hellenism_religion_flavor.6
+    title = "reformed_hellenism_religion_flavor.6.t"
+    desc = "reformed_hellenism_religion_flavor.6.d"
+    picture = SCANDAL_eventPicture
+    
+    trigger = {
+        religion_group = reformed_hellenic
+    }
+    
+    mean_time_to_happen = { months = 500 }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.6.a" # Purge the corrupt priesthood!
+		add_years_of_income = -0.2
+        add_corruption = -2
+        add_estate_loyalty = {
+            estate = estate_church # Or equivalent priesthood estate
+            loyalty = -5
+        }
+    }
+    
+    option = {
+        name = "reformed_hellenism_religion_flavor.6.b" # Look the other way... for a price.
+		add_years_of_income = 0.6
+        add_corruption = 4
+        add_prestige = -20
+    }
+}

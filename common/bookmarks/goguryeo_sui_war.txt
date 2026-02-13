@@ -1,0 +1,14 @@
+bookmark = {
+	name = "GOGURYEO_SUI_WAR_NAME"
+	desc = "GOGURYEO_SUI_WAR_DESC"
+	date = 2696.1.1
+	
+	country = GOG
+	country = SUI
+	country = SLL
+	country = BKJ
+	country = YAM	#Empress Suiko of Yamato
+	country = GOK	#Gokturks
+	country = WGO	#Western Gokturks
+
+}

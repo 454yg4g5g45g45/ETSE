@@ -1,0 +1,5 @@
+
+NDefines.NFrontend.CAMERA_MIN_DIST_FOR_ROTATE = 200.0
+NDefines.NFrontend.CAMERA_MIN_HEIGHT = 35.0
+NDefines.NFrontend.CAMERA_MAX_HEIGHT = 4000.0
+

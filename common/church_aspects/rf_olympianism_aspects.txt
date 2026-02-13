@@ -1,0 +1,151 @@
+# --- THE CAPITOLINE TRIAD ---
+
+# 1. JUPITER (Father of Gods)
+# 5% All Power Cost is rare. 2.5% is the standard "Strong" bonus (e.g., Innovativeness).
+olympian_jupiter = {
+    cost = 100
+    modifier = {
+        all_power_cost = -0.03 
+    }
+    ai_will_do = { factor = 10 }
+}
+
+# 2. JUNO (The Advisor)
+# -15% is respectable. -20% starts getting crazy with Innovativeness.
+olympian_juno = {
+    cost = 100
+    modifier = {
+        advisor_cost = -0.15
+    }
+    ai_will_do = { factor = 10 }
+}
+
+# 3. MINERVA (Wisdom)
+# -10% Idea Cost saves you 280 points per group. Solid.
+olympian_minerva = {
+    cost = 100
+    modifier = {
+        idea_cost = -0.10
+    }
+    ai_will_do = { factor = 15 }
+}
+
+# --- THE WAR GODS ---
+
+# 4. MARS (War)
+# 5% is the Hard Cap for balanced modifiers (Same as Orthodox Icons/Prussian Ambition).
+olympian_mars = {
+    cost = 100
+    modifier = {
+        discipline = 0.075
+    }
+    ai_will_do = { 
+        factor = 10 
+    }
+}
+
+# 5. DIANA (The Hunt)
+# 10% is standard (Drill decay/Maneuver). 15% is fast.
+olympian_diana = {
+    cost = 100
+    modifier = {
+        movement_speed = 0.15
+    }
+    ai_will_do = { factor = 10 }
+}
+
+# --- THE ECONOMIC GODS ---
+
+# 6. VULCAN (Industry)
+# Goods Produced is the best eco stat. 10% is very strong (Hegemon level).
+olympian_vulcan = {
+    cost = 100
+    modifier = {
+        global_trade_goods_size_modifier = 0.10
+    }
+    ai_will_do = { factor = 10 }
+}
+
+# 7. MERCURY (Commerce)
+# 20% Trade Power is a massive boost to node control.
+olympian_mercury = {
+    cost = 100
+    modifier = {
+        global_trade_power = 0.20
+    }
+    ai_will_do = { factor = 10 }
+}
+
+# 8. CERES (Agriculture)
+# -10% is the standard "High Tier" (Orthodox Icon/Maliki School).
+olympian_ceres = {
+    cost = 100
+    modifier = {
+        development_cost = -0.15
+    }
+    ai_will_do = { factor = 10 }
+}
+
+# --- THE SOCIAL GODS ---
+
+# 9. APOLLO (Healing)
+# 15% is noticeable but not instant regeneration.
+olympian_apollo = {
+    cost = 100
+    modifier = {
+        manpower_recovery_speed = 0.15
+    }
+    ai_will_do = { factor = 15 }
+}
+
+# 10. VENUS (Charm)
+# +1 is standard.
+olympian_venus = {
+    cost = 100
+    modifier = {
+        diplomatic_reputation = 1
+        improve_relation_modifier = 0.15
+    }
+    ai_will_do = { factor = 10 }
+}
+
+# 11. BACCHUS (Wine)
+# -10% AE is roughly equivalent to a Scholar trait. 
+olympian_bacchus = {
+    cost = 100
+    modifier = {
+        ae_impact = -0.10
+    }
+    ai_will_do = { factor = 20 }
+}
+
+# 12. NEPTUNE (Sea)
+# 10% Durability is strong (British Ideas). 
+olympian_neptune = {
+    cost = 100
+    modifier = {
+        ship_durability = 0.10
+        navy_tradition = 1
+    }
+    ai_will_do = { factor = 10 }
+}
+
+# 13. PLUTO (Admin/Wealth)
+# Let's switch to Governing Capacity (Administration) + Tax (Wealth).
+olympian_pluto = {
+    cost = 100
+    modifier = {
+        governing_capacity_modifier = 0.2
+    }
+    ai_will_do = { factor = 50 } 
+}
+
+# 14. PROSERPINA (Defense)
+# 20% Defense is solid (Defensive Ideas).
+olympian_proserpina = {
+    cost = 100
+    modifier = {
+        defensiveness = 0.20
+    }
+    ai_will_do = { factor = 10 }
+}

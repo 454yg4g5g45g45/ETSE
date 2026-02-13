@@ -1,0 +1,120 @@
+objectTypes = {
+
+	###########################################################################
+	############												###############
+	############                     Big Ships                  ###############
+	############												###############
+	###########################################################################
+
+	pdxmesh = {
+		name = "western_heavy_ship_carrack"
+		file = "gfx\models\ships\early_carrack.mesh"
+
+		animation = { id = "idle"	type = "early_carrack_idle" }
+		animation = { id = "walk"	type = "early_carrack_walk" }
+		animation = { id = "attack"	type = "early_carrack_attack"}
+		scale = 0.9
+	}	
+	
+	pdxmesh = {
+		name = "unique_POR_heavy_ship_nau"
+		file = "gfx\models\ships\early_carrack.mesh"
+
+		animation = { id = "idle"	type = "early_carrack_idle" }
+		animation = { id = "walk"	type = "early_carrack_walk" }
+		animation = { id = "attack"	type = "early_carrack_attack"}
+		scale = 0.9
+	}	
+	
+	pdxmesh = {
+		name = "unique_MNG_heavy_ship_treasure_junk"
+		file = "gfx\models\ships\early_carrack.mesh"
+
+		animation = { id = "idle"	type = "early_carrack_idle" }
+		animation = { id = "walk"	type = "early_carrack_walk" }
+		animation = { id = "attack"	type = "early_carrack_attack"}
+		scale = 0.9
+	}	
+	
+	pdxmesh = {
+		name = "western_heavy_ship_galleon"
+		file = "gfx\models\ships\galleon.mesh"
+
+		animation = { id = "idle"	type = "galleon_idle" }
+		animation = { id = "walk"	type = "galleon_walk" }
+		animation = { id = "attack"	type = "galleon_attack"}
+		scale = 1.2
+	}
+	
+	pdxmesh = {
+		name = "unique_ENG_heavy_ship_mary_rose"
+		file = "gfx\models\ships\galleon.mesh"
+
+		animation = { id = "idle"	type = "galleon_idle" }
+		animation = { id = "walk"	type = "galleon_walk" }
+		animation = { id = "attack"	type = "galleon_attack"}
+		scale = 1.2
+	}
+	
+	pdxmesh = {
+		name = "western_heavy_ship_heavy_galleon"
+		file = "gfx\models\ships\war_galleon.mesh"
+
+		animation = { id = "attack"	type = "war_galleon_attack" }
+		animation = { id = "idle"	type = "war_galleon_idle" }
+		animation = { id = "walk"	type = "war_galleon_walk"}
+		scale = 1.1
+	}		
+	
+	pdxmesh = {
+		name = "unique_SPA_heavy_ship_manila_galleon"
+		file = "gfx\models\ships\war_galleon.mesh"
+
+		animation = { id = "attack"	type = "war_galleon_attack" }
+		animation = { id = "idle"	type = "war_galleon_idle" }
+		animation = { id = "walk"	type = "war_galleon_walk"}
+		scale = 1.1
+	}		
+	
+	pdxmesh = {
+		name = "western_heavy_ship_two_decker"
+		file = "gfx\models\ships\twodecker.mesh"
+
+		animation = { id = "attack"	type = "twodecker_attack" }
+		animation = { id = "idle"	type = "twodecker_idle" }
+		animation = { id = "walk"	type = "twodecker_walk" }
+
+		scale = 1.1
+	}	
+
+	pdxmesh = {
+		name = "western_heavy_ship_three_decker"
+		file = "gfx\models\ships\Threedecker.mesh"
+
+		animation = { id = "idle"	type = "threedecker_idle" }
+		animation = { id = "walk"	type = "threedecker_walk" }
+		animation = { id = "attack"	type = "threedecker_attack"}
+		scale = 1.1
+	}
+	
+	pdxmesh = {
+		name = "unique_GBR_heavy_ship_victory_class"
+		file = "gfx\models\ships\Threedecker.mesh"
+
+		animation = { id = "idle"	type = "threedecker_idle" }
+		animation = { id = "walk"	type = "threedecker_walk" }
+		animation = { id = "attack"	type = "threedecker_attack"}
+		scale = 1.1
+	}
+	
+	pdxmesh = {
+		name = "western_heavy_ship_steam_battleship"
+		file = "gfx\models\ships\Threedecker.mesh"
+
+		animation = { id = "idle"	type = "threedecker_idle" }
+		animation = { id = "walk"	type = "threedecker_walk" }
+		animation = { id = "attack"	type = "threedecker_attack"}
+		scale = 1.1
+	}
+	
+}

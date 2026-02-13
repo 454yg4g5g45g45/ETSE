@@ -1,0 +1,35 @@
+﻿l_english:
+ # Event 1
+ reformed_hellenism_religion_flavor.1.t:0 "The Golden Auspices"
+ reformed_hellenism_religion_flavor.1.d:0 "The High Augur has approached the Senate floor with trembling hands, not in fear, but in awe. For three days and three nights, every sign observed by the Collegium, from the flight patterns of the eagles to the entrails of the sacred bulls, has been flawlessly auspicious. There is no ambiguity in the heavens: the Gods are united in their favor of our administration. The Pax Deorum, that delicate peace between the mortal and the divine, has been secured with absolute certainty. The people rejoice in the streets, for they know that Jupiter Optimus Maximus himself marches with our legions and blesses our harvest."
+ reformed_hellenism_religion_flavor.1.a:0 "The Gods have ordained our victory!"
+
+ # Event 2
+ reformed_hellenism_religion_flavor.2.t:0 "Resurgence of the Schools"
+ reformed_hellenism_religion_flavor.2.d:0 "As our society modernizes, so too does our understanding of the divine. A rift has formed in the intellectual circles of the capital between two reviving schools of thought. The Neo-Stoics argue that the Gods demand only duty, logic, and the suppression of emotion for the good of the State. Conversely, the Neo-Epicureans argue that the Gods are distant and blissful, and thus the highest form of worship is the cultivation of happiness, art, and stability. The curriculum of the Imperial Academy awaits our decision."
+ reformed_hellenism_religion_flavor.2.a:0 "Duty is the shield of the State. Endorse the Stoics."
+ reformed_hellenism_religion_flavor.2.b:0 "Harmony is the soul of the State. Endorse the Epicureans."
+
+ # Event 3
+ reformed_hellenism_religion_flavor.3.t:0 "Interpretatio Romana"
+ reformed_hellenism_religion_flavor.3.d:0 "As our borders expand, we encounter strange foreign deities worshipped by the subject peoples. Our scholars suggest applying the ancient doctrine of 'Interpretatio Romana', the understanding that these foreign idols are merely our own Gods known by different names. By officially recognizing their Storm God as a local aspect of Jupiter and their Mother Goddess as Ceres, we could integrate them smoothly into the religious hierarchy. However, the orthodox priesthood demands that these barbarian rites be suppressed in favor of the pure Latin liturgy."
+ reformed_hellenism_religion_flavor.3.a:0 "It is all Jupiter in the end. Adapt the rites."
+ reformed_hellenism_religion_flavor.3.b:0 "There is only one true Rite. Enforce orthodoxy."
+
+ # Event 4
+ reformed_hellenism_religion_flavor.4.t:0 "The Ludi Saeculares"
+ reformed_hellenism_religion_flavor.4.d:0 "The turning of the age is upon us. The mob, the army, and the aristocracy alike clamor for the celebration of the Ludi Saeculares, the Centennial Games. It is a time-honored tradition to host spectacles of unimaginable grandeur, featuring chariot races, theatrical performances, and gladiatorial combat to honor the longevity of the State. To host such an event would drain the treasury significantly, but to ignore it would be seen as a sign of weakness and poverty, calling into question the legitimacy of our rule."
+ reformed_hellenism_religion_flavor.4.a:0 "The world shall tremble at our magnificence! Spare no expense!"
+ reformed_hellenism_religion_flavor.4.b:0 "The treasury is for the defense of the realm, not the amusement of the mob."
+
+ # Event 5
+ reformed_hellenism_religion_flavor.5.t:0 "Silence of the Oracles"
+ reformed_hellenism_religion_flavor.5.d:0 "A pall of dread has settled over the capital. Pilgrims returning from the major temples report a terrifying phenomenon: the Oracles have gone silent. The sacred fires gutter and die despite the best fuel, and the sacrificial animals are found with malformed organs. The priesthood is in a panic, whispering that we have somehow offended the divine order. Unless a massive expiatory sacrifice is organized and the temples purified with costly rituals, the morale of the populace will crumble."
+ reformed_hellenism_religion_flavor.5.a:0 "We cannot risk the wrath of Heaven. Pay what is necessary."
+ reformed_hellenism_religion_flavor.5.b:0 "We rule by steel, not by superstition. Ignore the panic."
+
+ # Event 6
+ reformed_hellenism_religion_flavor.6.t:0 "Simony in the Collegium"
+ reformed_hellenism_religion_flavor.6.d:0 "It has come to our attention that positions within the Collegium Pontificum are being treated less as holy burdens and more as lucrative commodities. High-ranking priests are selling junior priesthoods to the highest bidder, regardless of the candidate's piety or lineage. This corruption degrades the sanctity of our rites and angers the devout, yet these illicit transactions have filled the pockets of the clergy with gold that could potentially find its way into the state's coffers if we choose to look the other way."
+ reformed_hellenism_religion_flavor.6.a:0 "This corruption is an insult to the Gods! Root it out!"
+ reformed_hellenism_religion_flavor.6.b:0 "Demand a cut of the profits and silence the investigation."

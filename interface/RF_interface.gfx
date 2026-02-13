@@ -1,0 +1,181 @@
+spriteTypes = {
+	
+	#Holy Sites
+	spriteType = {
+		name = "GFX_holy_site_114"
+		texturefile = "gfx//interface//holy_sites//ravenna.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_354"
+		texturefile = "gfx//interface//holy_sites//leptis.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_227"
+		texturefile = "gfx//interface//holy_sites//lisbon.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_236"
+		texturefile = "gfx//interface//holy_sites//londinium.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_405"
+		texturefile = "gfx//interface//holy_sites//palmyra.dds"
+		loadType = "INGAME"
+	}
+	
+	#Great Projects
+	spriteType = {
+        name = "GFX_great_project_roman_pontifical_palace"	
+        texturefile = "gfx//interface//great_projects//great_project_roman_pontifical_palace.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_great_project_roman_alpine_command"	
+        texturefile = "gfx//interface//great_projects//great_project_roman_alpine_command.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_great_project_roman_academia_florentina"	
+        texturefile = "gfx//interface//great_projects//great_project_roman_academia_florentina.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_great_project_roman_altar_gaul"	
+        texturefile = "gfx//interface//great_projects//great_project_roman_altar_gaul.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_great_project_roman_harbor_tarraco"	
+        texturefile = "gfx//interface//great_projects//great_project_roman_harbor_tarraco.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_great_project_roman_palace_thessalonica"	
+        texturefile = "gfx//interface//great_projects//great_project_roman_palace_thessalonica.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_great_project_roman_temple_heliopolis"	
+        texturefile = "gfx//interface//great_projects//great_project_roman_temple_heliopolis.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_great_project_roman_temple_carthage"	
+        texturefile = "gfx//interface//great_projects//great_project_roman_temple_carthage.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_great_project_roman_oracle_siwa"	
+        texturefile = "gfx//interface//great_projects//great_project_roman_oracle_siwa.dds"
+    }
+	
+	#Missions
+	spriteType = {
+		name = "rf_mission_rom_settlers_north_america"
+		texturefile = "gfx//interface//missions//rf_mission_rom_settlers_north_america.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_aztec_temple"
+		texturefile = "gfx//interface//missions//rf_mission_rom_aztec_temple.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_limes_californianus"
+		texturefile = "gfx//interface//missions//rf_mission_rom_limes_californianus.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_soldiers_boat"
+		texturefile = "gfx//interface//missions//rf_mission_rom_soldiers_boat.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_gold_city"
+		texturefile = "gfx//interface//missions//rf_mission_rom_gold_city.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_galapagos"
+		texturefile = "gfx//interface//missions//rf_mission_rom_galapagos.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_kangaroo"
+		texturefile = "gfx//interface//missions//rf_mission_rom_kangaroo.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_south_america"
+		texturefile = "gfx//interface//missions//rf_mission_rom_south_america.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_world_map"
+		texturefile = "gfx//interface//missions//rf_mission_rom_world_map.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_trade_guinea"
+		texturefile = "gfx//interface//missions//rf_mission_rom_trade_guinea.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_around_africa"
+		texturefile = "gfx//interface//missions//rf_mission_rom_around_africa.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_own_zanzibar"
+		texturefile = "gfx//interface//missions//rf_mission_rom_own_zanzibar.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_africa_magna"
+		texturefile = "gfx//interface//missions//rf_mission_rom_africa_magna.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_build_the_panama"
+		texturefile = "gfx//interface//missions//rf_mission_build_the_panama.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_creator_of_seas"
+		texturefile = "gfx//interface//missions//rf_mission_rom_creator_of_seas.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_red_sea_trade"
+		texturefile = "gfx//interface//missions//rf_mission_rom_red_sea_trade.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_indian_trade"
+		texturefile = "gfx//interface//missions//rf_mission_rom_indian_trade.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_spice_island"
+		texturefile = "gfx//interface//missions//rf_mission_rom_spice_island.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_build_the_suez"
+		texturefile = "gfx//interface//missions//rf_mission_rom_build_the_suez.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_build_the_kiel"
+		texturefile = "gfx//interface//missions//rf_mission_rom_build_the_kiel.dds"
+	}
+	
+	spriteType = {
+		name = "rf_mission_rom_build_the_kra"
+		texturefile = "gfx//interface//missions//rf_mission_rom_build_the_kra.dds"
+	}
+}

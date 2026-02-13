@@ -1,0 +1,161 @@
+##############################
+### Relative Power Classes ###
+##############################
+# 0 = none (vanilla)
+# 1 = only their own (vanilla)
+# 2 = vassals etc. (vanilla)
+# 3 = revolution_subject
+# 4 = persian_satrapy
+# 5 = trade_outpost
+# 6 = stato_da_mar_vassal
+##############################
+
+##############################
+### Diplomacy View Classes ###
+##############################
+# 0 = none (vanilla)
+# 1 = only their own (vanilla)
+# 2 = dominion, dominion_tc
+# 3 = autonomous_dominion, autonomous_dominion_tc
+##############################
+
+# Forward declaring all subject types so they can refer to each other in triggers etc.
+brother_kingdom = { }
+
+# Subjects
+brother_kingdom = {
+	copy_from = default
+	count = personal_union
+
+	# Graphics:
+	sprite = GFX_icon_brother_kingdom
+	diplomacy_overlord_sprite = GFX_diplomacy_leadbrother_kingdom
+	diplomacy_subject_sprite = GFX_diplomacy_ambrother_kingdom
+
+	# Triggers:
+	is_potential_overlord = {
+		is_subject = no
+		government = monarchy
+		has_regency = no
+	}
+
+	# Properties:
+	overlord_can_attack = no
+	can_have_subjects_of_other_types = yes
+	overlord_protects_external = yes
+	gets_help_with_rebels = yes
+	allows_taking_land_without_independence = yes
+	can_concentrate_development = no
+	can_have_great_projects_moved_by_overlord = no
+	extend_trading_range = yes
+	has_power_projection = yes
+
+	max_government_rank = 0
+
+	liberty_desire_negative_prestige = 0.5
+	forcelimit_to_overlord = 0.1
+	military_focus = 0.66
+
+	relative_power_class = 1
+	diplomacy_view_class = 1
+
+	should_quit_wars_on_activation = no
+
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		same_overlord = vassal
+		same_overlord = brother_kingdom
+	}
+	can_marry = {
+		same_overlord = vassal
+		same_overlord = brother_kingdom
+	}
+
+	# Subject Interactions:
+	# (continuous)
+	embargo_rivals = yes
+	send_officers = yes
+	divert_trade = yes
+	# (immediate)
+	enforce_culture = yes
+	enforce_religion = yes
+	grant_core_claim = no
+	grant_province = yes
+	send_additional_troops = yes
+	takeondebt = yes
+	knowledge_sharing = yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+
+	# Modifiers:
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = brother_kingdom_modifier
+	}
+	modifier_subject = {
+		trigger = {
+			NOT = { religion = FROM }
+		}
+		modifier = brother_kingdom_other_religion_modifier
+	}
+	modifier_subject = {
+		trigger = {
+			NOT = { culture_group = FROM }
+		}
+		modifier = brother_kingdom_other_culture_group_modifier
+	}
+
+	modifier_overlord = clear
+	modifier_overlord = {
+		modifier = brother_kingdom_overlord_modifier
+	}
+	modifier_overlord = {
+		modifier = vassal_subject
+	}
+
+	overlord_opinion_modifier = is_brother_kingdom
+	subject_opinion_modifier = is_brother_kingdom
+}
+
+client_vassal = {
+	copy_from = vassal
+	count = vassal
+	
+	# Graphics:
+	diplomacy_overlord_sprite = GFX_diplomacy_leadclients
+	diplomacy_subject_sprite = GFX_diplomacy_areclients
+
+	# Properties:
+	takes_diplo_slot = no
+	created_by_overlord = yes
+	extend_trading_range = yes
+
+	base_liberty_desire = -25.0
+	liberty_desire_revolution = 0
+
+	# Subject Interactions:
+	customize_subject = yes
+}
+
+client_march = {
+	copy_from = march
+	count = march
+
+	# Graphics:
+	diplomacy_overlord_sprite = GFX_diplomacy_leadclients
+	diplomacy_subject_sprite = GFX_diplomacy_areclients
+
+	# Properties:
+	takes_diplo_slot = no
+	created_by_overlord = yes
+	extend_trading_range = yes
+
+	base_liberty_desire = -40.0
+	liberty_desire_revolution = 0
+
+	# Subject Interactions:
+	customize_subject = yes
+}

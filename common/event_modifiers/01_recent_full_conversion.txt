@@ -1,0 +1,5 @@
+recent_full_conversion = {
+	missionary_maintenance_cost = -0.33
+	global_missionary_strength = 0.1
+	missionaries = 1
+}

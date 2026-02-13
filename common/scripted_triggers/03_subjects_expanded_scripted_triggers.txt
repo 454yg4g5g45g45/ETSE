@@ -1,0 +1,19 @@
+is_similar_tributary_subject = {
+	OR = {
+		is_subject_of_type = brother_kingdom
+	}
+}
+
+is_subject_type_that_can_have_subjects = {
+	OR = {
+		is_subject_of_type = brother_kingdom
+	}
+}
+
+is_tributary_or_similar_subject = {
+	OR = {
+		is_subject_of_type = tributary_state
+		is_subject_of_type = cultural_sphere_of_influence_subject
+		is_similar_tributary_subject = yes
+	}
+}
