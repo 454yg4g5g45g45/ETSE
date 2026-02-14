@@ -62,8 +62,8 @@ establish_se_integrated_personal_union = {
 			}
 		}
 		OR = {
-			NOT = { started_in = 1350.1.1 }
-			started_in = 1600.1.1
+			NOT = { started_in = 3448.1.1 }
+			started_in = 3698.1.1
 			NOT = { tag = POL }
 			FROM = {
 				OR = {

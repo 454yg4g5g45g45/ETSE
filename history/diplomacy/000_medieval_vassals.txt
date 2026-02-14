@@ -4,24 +4,24 @@ dependency = {
 	subject_type = "medieval_vassal"
 	first = FKN
 	second = SAX
-	start_date = 911.11.10
-	end_date = 918.12.23
+	start_date = 3009.11.10
+	end_date = 3016.12.23
 }
 
 dependency = {
 	subject_type = "medieval_vassal"
 	first = FKN
 	second = SWA
-	start_date = 911.11.10
-	end_date = 918.12.23
+	start_date = 3009.11.10
+	end_date = 3016.12.23
 }
 
 dependency = {
 	subject_type = "medieval_vassal"
 	first = FKN
 	second = BAV
-	start_date = 911.11.10
-	end_date = 918.12.23
+	start_date = 3009.11.10
+	end_date = 3016.12.23
 }
 
 ## Saxony
@@ -29,32 +29,32 @@ dependency = {
 	subject_type = "medieval_vassal"
 	first = SAX
 	second = FKN
-	start_date = 919.5.1
-	end_date = 962.2.2
+	start_date = 3017.5.1
+	end_date = 3060.2.2
 }
 
 dependency = {
 	subject_type = "medieval_vassal"
 	first = SAX
 	second = SWA
-	start_date = 919.6.1
-	end_date = 962.2.2
+	start_date = 3017.6.1
+	end_date = 3060.2.2
 }
 
 dependency = {
 	subject_type = "medieval_vassal"
 	first = SAX
 	second = BAV
-	start_date = 921.6.1
-	end_date = 962.2.2
+	start_date = 3019.6.1
+	end_date = 3060.2.2
 }
 
 dependency = {
 	subject_type = "medieval_vassal"
 	first = SAX
 	second = LOT
-	start_date = 925.12.1
-	end_date = 962.2.2
+	start_date = 3023.12.1
+	end_date = 3060.2.2
 }
 
 # West Francia
@@ -62,6 +62,6 @@ dependency = {
 	subject_type = "medieval_vassal"
 	first = FRW
 	second = LOT
-	start_date = 921.11.7
-	end_date = 923.1.1
+	start_date = 3019.11.7
+	end_date = 3021.1.1
 }

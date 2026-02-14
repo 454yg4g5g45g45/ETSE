@@ -62,9 +62,9 @@ country_event = {
 		has_global_flag = extended_timeline_mod
 		tag = SAX
 		is_subject = no
-		started_in = 911.11.10
-		NOT = { started_in = 921.11.7 }
-		NOT = { is_year = 930 }
+		started_in = 3009.11.10
+		NOT = { started_in = 3019.11.7 }
+		NOT = { is_year = 3028 }
 		OR = {
 			exists = FRW
 			exists = FRA
@@ -85,11 +85,11 @@ country_event = {
 		months = 24
 		modifier = {
 			factor = 0.5
-			is_year = 920
+			is_year = 3018
 		}
 		modifier = {
 			factor = 0.1
-			is_year = 921
+			is_year = 3019
 		}
 	}
 

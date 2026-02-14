@@ -1339,7 +1339,7 @@ cancel_protectorate = {
 					}
 				}
 				OR = {
-					is_year = 1800
+					is_year = 3898
 					current_age = age_of_revolutions
 				}
 			}

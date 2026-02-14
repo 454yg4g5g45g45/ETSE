@@ -40,6 +40,23 @@ establish_brother_kingdom = {
 			FROM = {
 				NOT = { liberty_desire = 50 }
 			}
+			if = {
+				limit = {
+					FROM = {
+						is_subject_of_type = medieval_vassal
+					}
+				}
+				FROM = {
+					custom_trigger_tooltip = {
+						tooltip = MEDIEVAL_VASSAL_AT_LEAST_SUBJECT_FOR_25_YEARS_TT
+						years_in_vassalage_under = {
+							who = ROOT
+							years = 25
+							all_subject_country = yes
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -984,9 +1001,9 @@ make_brother_kingdom_to_personal_union = {
 		FROM = {
 			is_at_war = no
 		}
-		months_of_ruling = 60
+		months_of_ruling = 24
 		FROM = {
-			months_of_ruling = 60
+			months_of_ruling = 24
 		}
 		FROM = {
 			NOT = { liberty_desire = 50 }
@@ -996,7 +1013,7 @@ make_brother_kingdom_to_personal_union = {
 				tooltip = BROTHER_KINGDOM_AT_LEAST_SUBJECT_FOR_25_YEARS_TT
 				years_in_vassalage_under = {
 					who = ROOT
-					years = 30
+					years = 25
 					all_subject_country = yes
 				}
 			}

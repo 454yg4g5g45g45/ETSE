@@ -100,7 +100,7 @@ make_medieval_vassal = {
 			num_of_free_diplomatic_relations = 1
 			OR = {
 				current_age = age_of_discovery
-				NOT = { is_year = 1450 }
+				NOT = { is_year = 3548 }
 			}
 			NOT = { core_claim = ROOT }
 			NOT = { calc_true_if = { all_subject_country = { is_subject_of_type = medieval_vassal } amount = 5 } }

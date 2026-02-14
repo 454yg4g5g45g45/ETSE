@@ -750,7 +750,7 @@ establish_medieval_vassal = {
 		num_of_free_diplomatic_relations = 1
 		OR = {
 			current_age = age_of_discovery
-			NOT = { is_year = 1450 }
+			NOT = { is_year = 3548 }
 		}
 		NOT = { calc_true_if = { all_subject_country = { is_subject_of_type = medieval_vassal } amount = 5 } }
 		NOT = { core_claim = FROM }
@@ -1082,7 +1082,7 @@ ask_to_become_medieval_vassal = {
 							num_of_free_diplomatic_relations = 1
 							OR = {
 								current_age = age_of_discovery
-								NOT = { is_year = 1450 }
+								NOT = { is_year = 3548 }
 							}
 							NOT = { calc_true_if = { all_subject_country = { is_subject_of_type = medieval_vassal } amount = 5 } }
 							NOT = { core_claim = ROOT }
@@ -1322,7 +1322,7 @@ ask_to_become_medieval_vassal = {
 
 	ai_will_do = {
 		NOT = { current_age = age_of_absolutism }
-		NOT = { is_year = 1700 }
+		NOT = { is_year = 3798 }
 		is_great_power = no
 		OR = {
 			NOT = { has_country_flag = declined_establish_medieval_vassal_@FROM }
@@ -1714,7 +1714,7 @@ cancel_medieval_vassal = {
 					liberty_desire = 70
 					OR = {
 						current_age = age_of_absolutism
-						is_year = 1700
+						is_year = 3798
 						years_in_vassalage_under = {
 							who = ROOT
 							years = 30

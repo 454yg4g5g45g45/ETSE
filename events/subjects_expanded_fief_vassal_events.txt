@@ -47,8 +47,8 @@ country_event = {
 
 	trigger = {
 		tag = FRA
-		started_in = 1444.11.11
-		NOT = { is_year = 1450 }
+		started_in = 3542.11.11
+		NOT = { is_year = 3548 }
 		has_estate = estate_nobles
 		NOT = { has_estate_privilege = estate_nobles_french_strong_duchies }
 		NOT = {
@@ -157,8 +157,8 @@ country_event = {
 
 	trigger = {
 		tag = FRA
-		started_in = 1444.11.11
-		NOT = { is_year = 1450 }
+		started_in = 3542.11.11
+		NOT = { is_year = 3548 }
 		exists = ENG
 		is_in_war = {
 			attacker_leader = ENG

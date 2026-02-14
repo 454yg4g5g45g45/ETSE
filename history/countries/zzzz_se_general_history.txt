@@ -1,5 +1,5 @@
 # Used for history of other countries:
-911.11.10 = {
+3009.11.10 = {
 	FKN = {
 		set_government_rank = 2
 	}
@@ -8,25 +8,25 @@
 	}
 }
 
-918.12.23 = {
+3016.12.23 = {
 	FKN = {
 		set_government_rank = 1
 	}
 }
 
-919.5.1 = {
+3017.5.1 = {
 	SAX = {
 		set_government_rank = 2
 	}
 }
 
-925.12.1 = {
+3023.12.1 = {
 	LOT = {
 		add_liberty_desire = -20
 	}
 }
 
-962.2.2 = {
+3060.2.2 = {
 	BAV = {
 		add_liberty_desire = 35
 	}

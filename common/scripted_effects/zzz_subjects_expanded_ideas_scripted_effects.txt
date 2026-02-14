@@ -250,7 +250,7 @@ set_overlord_idea_groups = {
 	# Ideas
 	if = {
 		limit = {
-			is_year = 1300
+			is_year = 3398
 			NOT = { has_global_flag = idea_variation_voting_started }
 			NOT = { has_global_flag = idea_changing_mod_active }
 		}

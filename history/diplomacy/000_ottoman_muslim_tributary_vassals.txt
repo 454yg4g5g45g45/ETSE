@@ -3,16 +3,16 @@ dependency = {
 	subject_type = "muslim_tributary_vassal"
 	first = TUR
 	second = MOL
-	start_date = 1512.1.1
-	end_date = 1600.1.1
+	start_date = 3610.1.1
+	end_date = 3698.1.1
 }
 
 dependency = {
 	subject_type = "muslim_tributary_vassal"
 	first = TUR
 	second = MOL
-	start_date = 1601.1.1
-	end_date = 1825.5.28
+	start_date = 3699.1.1
+	end_date = 3923.5.28
 }
 
 # Ottoman Wallachia 
@@ -20,48 +20,48 @@ dependency = {
 	subject_type = "muslim_tributary_vassal"
 	first = TUR
 	second = WAL
-	start_date = 1418.1.1
-	end_date = 1443.1.1	# Crusade of Varna
+	start_date = 3516.1.1
+	end_date = 3541.1.1	# Crusade of Varna
 }
 
 dependency = {
 	subject_type = "muslim_tributary_vassal"
 	first = TUR
 	second = WAL
-	start_date = 1445.1.1
-	end_date = 1456.4.1
+	start_date = 3543.1.1
+	end_date = 3554.4.1
 }
 
 dependency = {
 	subject_type = "muslim_tributary_vassal"
 	first = TUR
 	second = WAL
-	start_date = 1418.1.1
-	end_date = 1443.1.1	# Crusade of Varna
+	start_date = 3516.1.1
+	end_date = 3541.1.1	# Crusade of Varna
 }
 
 dependency = {
 	subject_type = "muslim_tributary_vassal"
 	first = TUR
 	second = WAL
-	start_date = 1445.1.1
-	end_date = 1456.4.1
+	start_date = 3543.1.1
+	end_date = 3554.4.1
 }
 
 dependency = {
 	subject_type = "muslim_tributary_vassal"
 	first = TUR
 	second = WAL
-	start_date = 1462.11.1
-	end_date = 1599.1.1
+	start_date = 3560.11.1
+	end_date = 3697.1.1
 }
 
 dependency = {
 	subject_type = "muslim_tributary_vassal"
 	first = TUR
 	second = WAL
-	start_date = 1601.1.1
-	end_date = 1820.1.1
+	start_date = 3699.1.1
+	end_date = 3918.1.1
 }
 
 # Ottoman Transylvania
@@ -69,14 +69,14 @@ dependency = {
 	subject_type = "muslim_tributary_vassal"
 	first = TUR
 	second = TRA
-	start_date = 1528.1.1
-	end_date = 1595.1.28
+	start_date = 3626.1.1
+	end_date = 3693.1.28
 }
 
 dependency = {
 	subject_type = "muslim_tributary_vassal"
 	first = TUR
 	second = TRA
-	start_date = 1599.3.17
-	end_date = 1699.1.1
+	start_date = 3697.3.17
+	end_date = 3797.1.1
 }

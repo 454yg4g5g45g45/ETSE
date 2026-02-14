@@ -3,68 +3,68 @@ dependency = {
 	subject_type = "persian_satrapy"
 	first = PER
 	second = BPI
-	start_date = 1504.1.1
-	end_date = 1579.1.1
+	start_date = 3602.1.1
+	end_date = 3677.1.1
 }
 
 dependency = {
 	subject_type = "persian_satrapy"
 	first = PER
 	second = MSY
-	start_date = 1504.1.1
-	end_date = 1789.12.31
+	start_date = 3602.1.1
+	end_date = 3887.12.31
 }
 
 vassal = {
 	first = PER
 	second = MSY
-	start_date = 1790.1.1
-	end_date = 1830.1.1
+	start_date = 3888.1.1
+	end_date = 3928.1.1
 }
 
 dependency = {
 	subject_type = "persian_satrapy"
 	first = PER
 	second = ARD
-	start_date = 1504.1.1
-	end_date = 1721.1.1
+	start_date = 3602.1.1
+	end_date = 3819.1.1
 }
 
 dependency = {
 	subject_type = "persian_satrapy"
 	first = PER
 	second = ARD
-	start_date = 1730.1.1
-	end_date = 1789.12.31
+	start_date = 3828.1.1
+	end_date = 3887.12.31
 }
 
 vassal = {
 	first = PER
 	second = ARD
-	start_date = 1790.1.1
-	end_date = 1830.1.1
+	start_date = 3888.1.1
+	end_date = 3928.1.1
 }
 
 dependency = {
 	subject_type = "persian_satrapy"
 	first = PER
 	second = MGR
-	start_date = 1612.11.20
-	end_date = 1725.1.1
+	start_date = 3710.11.20
+	end_date = 3823.1.1
 }
 
 dependency = {
 	subject_type = "persian_satrapy"
 	first = PER
 	second = MGR
-	start_date = 1729.1.1
-	end_date = 1747.1.1
+	start_date = 3827.1.1
+	end_date = 3845.1.1
 }
 
 dependency = {
 	subject_type = "persian_satrapy"
 	first = PER
 	second = SIS
-	start_date = 1510.1.1
-	end_date = 1537.1.1
+	start_date = 3608.1.1
+	end_date = 3635.1.1
 }

@@ -856,7 +856,7 @@ return_subject_to_vassal = {
 		OR = {
 			AND = {
 				OR = {
-					is_year = 1700
+					is_year = 3798
 					current_age = age_of_absolutism
 					NOT = { religion = catholic }
 				}

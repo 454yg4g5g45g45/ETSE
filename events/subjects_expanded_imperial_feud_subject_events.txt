@@ -202,8 +202,8 @@ country_event = {
 		is_subject = no
 		is_emperor = no
 		hre_size = 1
-		is_year = 1200
-		NOT = { is_year = 1450 }
+		is_year = 3298
+		NOT = { is_year = 3548 }
 		emperor = {
 			can_create_subject_type = {
 				subject = ROOT
