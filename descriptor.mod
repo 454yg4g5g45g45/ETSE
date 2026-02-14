@@ -17,8 +17,4 @@ tags={
 
 replace_path="map"
 replace_path="history"
-replace_path="common"
-replace_path="events"
-replace_path="decisions"
-replace_path="sound"
-replace_path="interface"
+replace_path="customizable_localization"
