@@ -1,0 +1,33 @@
+# For GE:
+has_noble_privilege_space = {
+	hidden_trigger = {
+		always = yes
+	}
+}
+
+has_maratha_privilege_space = {
+	hidden_trigger = {
+		always = yes
+	}
+}
+
+has_rajput_privilege_space = {
+	hidden_trigger = {
+		always = yes
+	}
+}
+
+# For HREE:
+is_in_war_with_cb_that_disallows_taking_subjects_hree = {
+	always = no
+}
+
+# For PTE:
+is_in_war_with_cb_that_disallows_taking_subjects_pte = {
+	always = no
+}
+
+# For RCE:
+is_in_war_with_cb_that_disallows_taking_subjects_rce = {
+	always = no
+}

@@ -1,0 +1,186 @@
+on_startup = {
+	country_event = { id = subjects_expanded_events.1 } # set global flag
+}
+
+on_monthly_pulse = {
+	events = {
+		subjects_expanded_general_events.7 # remove problematic T1 reform for custom PUs/BKs
+		subjects_expanded_administrative_region_events.4 # make Admin Regions to Vassals, if wrong government
+		subjects_expanded_administrative_region_events.5 # make Admin Regions to Vassals, if more than 1
+		subjects_expanded_banking_family_subject_events.1 # free Banking Family Clans, if invalid
+		subjects_expanded_brother_kingdom_events.1 # free or enforce dynasty in Brother Kingdom, if invalid
+		subjects_expanded_brother_kingdom_events.4 # free or vassalize Brother Kingdom, if invalid
+		subjects_expanded_dominion_events.1 # fix invalid T1 reform and subject type, set flag
+		subjects_expanded_dominion_events.10 # handle dynamic name of dominion
+		subjects_expanded_dominion_events.11 # clear dynamic name, if tag was changed
+		subjects_expanded_dutch_province_subject_events.4 # AI election
+		subjects_expanded_dutch_province_subject_events.10 # release invalid Dutch Provinces
+		subjects_expanded_dutch_province_subject_events.11 # vassalize Dutch Provinces as Netherlands
+		subjects_expanded_imperial_feud_subject_events.9 # Imperial Feud becomes independent, if member of the HRE
+		subjects_expanded_se_integrated_personal_union_events.3 # cede unions to overlord
+		subjects_expanded_integrated_tribe_subject_events.2 # give tribute to overlord, if scutage is enabled
+		subjects_expanded_native_reserve_events.1 # release invalid Native Reservations
+		subjects_expanded_pagan_chiefdom_events.1 # release Pagan Chiefdoms, if overlord is invalid
+		subjects_expanded_papal_sanctuary_subject_events.2 # become independent, if overlord is invalid
+		subjects_expanded_peasant_vassal_events.1 # change T1 reform, if invalid
+		subjects_expanded_persian_satrapy_events.1 # change T1 reform, if invalid
+		subjects_expanded_persian_satrapy_events.4 # vassalize invalid Satrapies
+		subjects_expanded_pirate_brotherhood_vassal_events.1 # change T1 reform, if invalid
+		subjects_expanded_pirate_brotherhood_vassal_events.2 # release invalid Pirate Brotherhoods
+		subjects_expanded_protectorate_events.4 # discover the overlord's capital
+		subjects_expanded_puppet_state_events.1 # change T1 reform, if invalid
+		subjects_expanded_real_union_subject_events.1 # change color to overlord, if necessary
+		subjects_expanded_roman_client_kingdom_events.1000 # set flag, if ever had a colonist
+		subjects_expanded_sister_republic_events.1 # release invalid Sister Republics
+		subjects_expanded_trade_outpost_events.5 # add/clear trade modifiers
+		subjects_expanded_viking_settlement_events.3 # change Viking Settlement to colony if overlord is invalid
+	}
+}
+
+on_emperor_elected = {
+	country_event = { id = subjects_expanded_imperial_feud_subject_events.2 } # transfer Imperial Feuds
+}
+
+on_hre_dismantled = {
+	if = {
+		limit = {
+			OR = {
+				is_subject_of_type = imperial_feud_subject
+				any_country = {
+					is_subject_of_type = imperial_feud_subject
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_subject_of_type = imperial_feud_subject
+			}
+			country_event = { id = subjects_expanded_imperial_feud_subject_events.4 }
+		}
+	}
+}
+
+on_hre_reform_passed = {
+	if = {
+		limit = {
+			has_subject_of_type = imperial_feud_subject
+			OR = {
+				hre_reform_passed = emperor_privilegia_de_non_appelando
+				hre_reform_passed = privilegia_de_non_appelando
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = imperial_feud_subject
+			}
+			country_event = { id = subjects_expanded_imperial_feud_subject_events.7 }
+		}
+	}
+}
+
+on_new_monarch = {
+	country_event = { id = subjects_expanded_administrative_region_events.1 } # set up mana for new ruler from Admin Region
+}
+
+on_monarch_death = {
+	country_event = { id = subjects_expanded_imperial_tributary_state_events.1 } # ruler death of Imperial Tributary State can lead to annexation
+}
+
+on_new_heir = {
+	if = {
+		limit = {
+			is_subject_of_type = imperial_tributary_state
+		}
+		set_heir_flag = imperial_tributary_state_heir_will_be_new_ruler
+	}
+
+	country_event = { id = subjects_expanded_roman_client_kingdom_events.5 } # new heir for Roman Client Kingdom
+}
+
+on_government_change = {
+	events = {
+		subjects_expanded_imperial_tributary_state_events.3 # change government, if invalid
+		subjects_expanded_iqta_vassal_events.3 # change government, if invalid
+		subjects_expanded_muslim_tributary_vassal_events.1 # change government, if invalid
+	}
+}
+
+on_native_change_government = {
+	country_event = { id = subjects_expanded_imperial_tributary_state_events.3 } # change government, if invalid
+}
+
+on_religion_change = {
+	events = {
+		subjects_expanded_iqta_vassal_events.1 # Iqta isn't Muslim anymore
+		subjects_expanded_iqta_vassal_events.2 # Iqta overlord isn't Muslim anymore
+		subjects_expanded_viking_settlement_events.2 # Viking Settlement isn't Norse anymore
+	}
+}
+
+# ROOT = province, FROM = old owner
+on_province_owner_change = {
+	owner = {
+		country_event = { id = subjects_expanded_trade_outpost_events.3 } # give independence to Trade Outpost with more than 1 provinces
+	}
+
+	# cede provinces to dominions in their regions
+	cede_province_to_matching_dominion_subject = yes
+}
+
+on_colony_finished = {
+	# cede provinces to dominions in their regions
+	cede_province_to_matching_dominion_subject = yes
+}
+
+# ROOT = overlord, FROM = subject
+on_dependency_gained = {
+	FROM = {
+		if = {
+			limit = {
+				is_subject_of_type = sister_republic
+			}
+			set_country_flag = in_theocracy_heir_selection # to prevent the theocracy heir event
+		}
+		country_event = { id = subjects_expanded_imperial_tributary_state_events.3 } # change government, if invalid
+		country_event = { id = subjects_expanded_viking_settlement_events.1 } # establish Viking Settlement
+	}
+}
+
+# ROOT = former overlord, FROM = former subject
+on_dependency_lost = {
+	FROM = {
+		if = {
+			limit = {
+				has_country_flag = in_theocracy_heir_selection
+				NOT = { is_subject_of_type = sister_republic }
+			}
+			clr_country_flag = in_theocracy_heir_selection # to no longer prevent the theocracy heir event
+		}
+		else_if = {
+			limit = {
+				NOT = { is_subject_of_type = real_union_subject }
+				has_country_flag = recolored_real_union_subject
+			}
+			restore_country_color = yes
+			clr_country_flag = recolored_real_union_subject
+			every_country = {
+				limit = {
+					ROOT = {
+						has_country_flag = recolored_real_union_subject_@PREV
+					}
+				}
+				ROOT = {
+					clr_country_flag = recolored_real_union_subject_@PREV
+				}
+			}
+		}
+
+		country_event = { id = subjects_expanded_iqta_vassal_events.4 } # remove iqta modifiers
+		country_event = { id = subjects_expanded_persian_satrapy_events.2 } # reset government
+	}
+}
+
+#scope = new country, FROM = parent country
+on_colonial_nation_established = {
+	country_event = { id = subjects_expanded_viking_settlement_events.1 } # establish Viking Settlement
+}

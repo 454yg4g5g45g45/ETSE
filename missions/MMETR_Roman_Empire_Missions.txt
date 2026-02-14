@@ -174,7 +174,7 @@ roman_mmetr_missions_1 = {
 	rom_arabia_petraea_mission = {
 		icon = mission_roman_plunder
 		required_missions = { rom_expand_alexandria_mission rom_raise_the_legions_mission }
-		completed_by = 2204.6.1
+		completed_by = 106.6.1
 		position = 6
 		provinces_to_highlight = {
 			OR = {
@@ -1078,7 +1078,7 @@ roman_2_mmetr_missions_3 = {
 		position = 4
 		trigger = {
 			stability = 2
-			legitimacy = 75
+			legitimacy_equivalent = 75
 		}
 		effect = {
 			add_country_modifier = {
@@ -1587,6 +1587,17 @@ roman_mmetr_missions_5 = {
 			if = {
 				limit = {
 					government = republic
+					NOT = { has_reform = roman_republic_spqr_reform }
+				}
+				hidden_effect = {
+					government = republic
+				}
+				remove_government_reform = roman_republic_reform
+				add_government_reform = roman_republic_spqr_reform
+			}
+			if = {
+				limit = {
+					government = republic
 				}
 				add_republican_tradition = 30
 			}
@@ -1799,7 +1810,7 @@ roman_mmetr_missions_5 = {
 			}
 			tooltip = {
 				236 = {		#Londinium
-					change_culture = romano_briton
+					change_culture = britannian
 				}
 				custom_tooltip = rom_provincia_britannia_mission.tt
 				every_owned_province = {

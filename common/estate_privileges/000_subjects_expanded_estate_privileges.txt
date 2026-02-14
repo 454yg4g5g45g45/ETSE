@@ -1,0 +1,977 @@
+estate_nobles_french_strong_duchies = {
+	icon = privilege_french_strong_duchies
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	loyalty = 0.1
+	influence = 0.1
+	check_valid_when_tag_switching = no
+	is_valid = {
+		OR = {
+			has_estate_privilege = estate_nobles_french_strong_duchies
+			AND = {
+				tag = FRA
+				NOT = { has_estate_privilege = estate_nobles_strong_duchies }
+			}
+		}
+		any_subject_country = {
+			OR = {
+				is_vassal_or_similar_subject = yes
+				is_march_or_similar_subject = yes
+				is_subject_of_type = personal_union
+				is_subject_of_type = theodoro_personal_union
+				is_subject_of_type = integrated_personal_union
+				is_subject_of_type = mongol_brother_realm
+				is_subject_of_type = medieval_vassal
+				is_subject_of_type = se_integrated_personal_union
+				is_subject_of_type = brother_kingdom
+			}
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = estate_nobles_strong_duchies_trigger_tooltip
+			calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+		# has_noble_privilege_space = yes
+	}
+	penalties = {
+	}
+	benefits = {
+		diplomatic_upkeep = 3
+		reduced_liberty_desire_on_same_continent = 10
+	}
+	conditional_modifier = {
+		trigger = { has_government_attribute = buffed_strong_duchies }
+		modifier = {
+			nobles_loyalty_modifier = 0.05
+		}
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 3
+			calc_true_if = {
+				amount = 1
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+	}
+}
+
+estate_nobles_strong_duchies = {
+	icon = privilege_royal_authority
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	influence = 0.1
+	loyalty = 0.05
+	check_valid_when_tag_switching = no
+	is_valid = {
+		any_subject_country = {
+			OR = {
+				is_vassal_or_similar_subject = yes
+				is_march_or_similar_subject = yes
+				is_subject_of_type = personal_union
+				is_subject_of_type = theodoro_personal_union
+				is_subject_of_type = integrated_personal_union
+				is_subject_of_type = mongol_brother_realm
+				is_subject_of_type = medieval_vassal
+				is_subject_of_type = se_integrated_personal_union
+				is_subject_of_type = brother_kingdom
+			}
+		}
+		NOT = { has_estate_privilege = estate_nobles_french_strong_duchies }
+		NOT = {
+			AND = {
+				tag = FRA
+				NOT = { has_estate_privilege = estate_nobles_strong_duchies }
+			}
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = estate_nobles_strong_duchies_trigger_tooltip
+			calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+		# has_noble_privilege_space = yes
+	}
+	penalties = {
+	}
+	benefits = {
+		diplomatic_upkeep = 2
+		reduced_liberty_desire = 10
+	}
+	conditional_modifier = {
+		trigger = { has_government_attribute = buffed_strong_duchies }
+		modifier = {
+			nobles_loyalty_modifier = 0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = { has_government_mechanic = russian_modernization_mechanic }
+		modifier = { monthly_russian_modernization = -0.05 }
+	}
+	conditional_modifier = {
+		trigger = { has_country_flag = hun_upgrade_strong_duchies }
+		modifier = { 	vassal_forcelimit_bonus = 0.5 }
+	}
+	conditional_modifier = {
+		trigger = { has_country_flag = hab_upgraded_strong_duchies }
+		modifier = {
+			vassal_forcelimit_bonus = 0.25
+			vassal_income = 0.1
+		}
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 3
+			calc_true_if = {
+				amount = 1
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+	}
+}
+
+estate_maratha_subject_rights = {
+	icon = privilege_royal_authority
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		any_subject_country = {
+			OR = {
+				is_vassal_or_similar_subject = yes
+				is_march_or_similar_subject = yes
+				is_subject_of_type = personal_union
+				is_subject_of_type = theodoro_personal_union
+				is_subject_of_type = integrated_personal_union
+				is_subject_of_type = mongol_brother_realm
+				is_subject_of_type = medieval_vassal
+				is_subject_of_type = se_integrated_personal_union
+				is_subject_of_type = brother_kingdom
+			}
+		}
+		NOT = { has_estate = estate_nobles }
+		NOT = { has_estate = estate_rajput }
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = estate_nobles_strong_duchies_trigger_tooltip
+			calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+		# has_maratha_privilege_space = yes
+	}
+	penalties = {
+	}
+	benefits = {
+		diplomatic_upkeep = 2
+		reduced_liberty_desire = 10
+	}
+	conditional_modifier = {
+		trigger = { has_government_attribute = buffed_strong_duchies }
+		modifier = {
+			maratha_loyalty_modifier = 0.05
+		}
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 3
+			calc_true_if = {
+				amount = 1
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+	}
+}
+
+estate_rajput_subject_rights = {
+	icon = privilege_royal_authority
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		any_subject_country = {
+			OR = {
+				is_vassal_or_similar_subject = yes
+				is_march_or_similar_subject = yes
+				is_subject_of_type = personal_union
+				is_subject_of_type = theodoro_personal_union
+				is_subject_of_type = integrated_personal_union
+				is_subject_of_type = mongol_brother_realm
+				is_subject_of_type = medieval_vassal
+				is_subject_of_type = se_integrated_personal_union
+				is_subject_of_type = brother_kingdom
+			}
+		}
+		NOT = { has_estate = estate_nobles }
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = estate_nobles_strong_duchies_trigger_tooltip
+			calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+		# has_rajput_privilege_space = yes
+	}
+	penalties = {
+	}
+	benefits = {
+		diplomatic_upkeep = 2
+		reduced_liberty_desire = 10
+	}
+	conditional_modifier = {
+		trigger = { has_government_attribute = buffed_strong_duchies }
+		modifier = {
+			rajput_loyalty_modifier = 0.05
+		}
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 3
+			calc_true_if = {
+				amount = 1
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_vassal_or_similar_subject = yes
+						is_march_or_similar_subject = yes
+						is_subject_of_type = personal_union
+						is_subject_of_type = theodoro_personal_union
+						is_subject_of_type = integrated_personal_union
+						is_subject_of_type = mongol_brother_realm
+						is_subject_of_type = medieval_vassal
+						is_subject_of_type = se_integrated_personal_union
+						is_subject_of_type = brother_kingdom
+					}
+				}
+			}
+		}
+	}
+}
+
+estate_nobles_better_integration = {
+	icon = privilege_better_integration
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	influence = 0.15
+	loyalty = 0.05
+	check_valid_when_tag_switching = no
+	is_valid = {
+		any_subject_country = {
+			OR = {
+				is_subject_type_that_can_be_annexed = yes
+				is_subject_type_that_can_be_integrated = yes
+			}
+		}
+	}
+	can_select = {
+		# has_noble_privilege_space = yes
+	}
+	on_granted = {
+		disable_annexation_penalty = yes
+	}
+	on_revoked = {
+		enable_annexation_penalty = yes
+	}
+	on_invalid = {
+		enable_annexation_penalty = yes
+	}
+	penalties = {
+		reduced_liberty_desire = -15
+	}
+	benefits = {
+		diplomatic_annexation_cost = -0.05
+	}
+	cooldown_years = 10
+	conditional_modifier = {
+		trigger = { has_government_mechanic = russian_modernization_mechanic }
+		modifier = { monthly_russian_modernization = -0.05 }
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_maratha_better_integration = {
+	icon = privilege_better_integration
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	influence = 0.15
+	loyalty = 0.05
+	is_valid = {
+		any_subject_country = {
+			OR = {
+				is_subject_type_that_can_be_annexed = yes
+				is_subject_type_that_can_be_integrated = yes
+			}
+		}
+		NOT = { has_estate = estate_nobles }
+		NOT = { has_estate = estate_rajput }
+	}
+	can_select = {
+		# has_maratha_privilege_space = yes
+	}
+	on_granted = {
+		disable_annexation_penalty = yes
+	}
+	on_revoked = {
+		enable_annexation_penalty = yes
+	}
+	on_invalid = {
+		enable_annexation_penalty = yes
+	}
+	penalties = {
+		reduced_liberty_desire = -15
+	}
+	benefits = {
+		diplomatic_annexation_cost = -0.05
+	}
+	cooldown_years = 10
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_rajput_better_integration = {
+	icon = privilege_better_integration
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	influence = 0.15
+	loyalty = 0.05
+	is_valid = {
+		any_subject_country = {
+			OR = {
+				is_subject_type_that_can_be_annexed = yes
+				is_subject_type_that_can_be_integrated = yes
+			}
+		}
+		NOT = { has_estate = estate_nobles }
+	}
+	can_select = {
+		# has_rajput_privilege_space = yes
+	}
+	on_granted = {
+		disable_annexation_penalty = yes
+	}
+	on_revoked = {
+		enable_annexation_penalty = yes
+	}
+	on_invalid = {
+		enable_annexation_penalty = yes
+	}
+	penalties = {
+		reduced_liberty_desire = -15
+	}
+	benefits = {
+		diplomatic_annexation_cost = -0.05
+	}
+	cooldown_years = 10
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_dhimmi_guaranteed_autonomy = {
+	icon = privilege_grant_autonomy
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.2
+	influence = 0.05
+	is_valid = {
+		any_owned_province = {
+			NOT = { religion_group = root }
+		}
+		NOT = { has_unlocked_estate_privilege = { estate_privilege = estate_dhimmi_guarantee_of_traditions } }
+		NOT = { is_subject_of_type = iqta_vassal }
+		NOT = { is_subject_of_type = religious_march }
+	}
+	can_select = {
+		# has_dhimmi_privilege_space = yes
+	}
+	on_granted = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_effect_tooltip
+		hidden_effect = {
+			set_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				NOT = { religion_group = root }
+			}
+			add_province_modifier = {
+				name = estate_dhimmi_guaranteed_autonomy_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	conditional_modifier = {
+		trigger = { has_government_attribute = free_guarantee_dhimmi_autonomy }
+		modifier = {
+			max_absolutism = 5
+			dhimmi_influence_modifier = -0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = { has_government_mechanic = russian_modernization_mechanic }
+		modifier = { monthly_russian_modernization = -0.03 }
+	}
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_province = {
+					NOT = { religion_group = ROOT }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_subject = yes
+			overlord = {
+				religion = ROOT
+				has_idea_group = religious_ideas
+			}
+		}
+	}
+}
+
+estate_dhimmi_guarantee_of_traditions = {
+	icon = privilege_promoto_dhimmi_nobles
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.1
+	loyalty = 0.25
+	is_valid = {
+		any_owned_province = {
+			NOT = { religion = root }
+		}
+		NOT = { has_estate_privilege = estate_burghers_enforced_interfaith_dialogue }
+		has_unlocked_estate_privilege = { estate_privilege = estate_dhimmi_guarantee_of_traditions }
+		NOT = { is_subject_of_type = iqta_vassal }
+		NOT = { is_subject_of_type = religious_march }
+	}
+	can_select = {
+		NOT = { has_estate_privilege = estate_church_enforced_one_faith }
+		# has_dhimmi_privilege_space = yes
+	}
+	on_granted = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_effect_tooltip
+		hidden_effect = {
+			set_country_flag = dhimmi_tolerates_wrong_religion
+			remove_estate_privilege = estate_dhimmi_guaranteed_autonomy
+			remove_estate_privilege = estate_dhimmi_tolerance
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				NOT = { religion_group = root }
+			}
+			add_province_modifier = {
+				name = estate_dhimmi_guaranteed_autonomy_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	penalties = {
+		church_loyalty_modifier = -0.05
+	}
+	benefits = {
+		tolerance_heathen = 2
+	}
+	conditional_modifier = {
+		trigger = { has_government_attribute = free_guarantee_dhimmi_autonomy }
+		modifier = {
+			max_absolutism = 5
+			dhimmi_influence_modifier = -0.1
+		}
+	}
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 10
+			num_of_owned_provinces_with = {
+				NOT = { religion_group = root }
+				is_state_core = root
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.5
+			estate_influence = {
+				estate = estate_church
+				influence = 75
+			}
+		}
+		modifier = {
+			factor = 0.8
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_province = {
+					NOT = { religion_group = ROOT }
+				}
+			}
+		}
+	}
+}
+
+estate_church_brahmins_at_court = {
+	icon = privilege_seek_support_of_brahmins
+	can_select = {
+		if = {
+			limit = {
+				has_mission = mnd_khm_religion
+			}
+			mission_completed = mnd_khm_religion
+		}
+		else_if = {
+			limit = {
+				has_mission = mnd_khm_religion
+			}
+			mission_completed = mnd_siam_devaraja
+		}
+		else = {
+			has_estate_privilege = estate_church_brahmins_at_court
+		}
+		religion_group = eastern
+	}
+	is_valid = {
+		religion_group = eastern
+		OR = {
+			has_mission = mnd_khm_religion
+			has_mission = mnd_siam_devaraja
+			has_estate_privilege = estate_church_brahmins_at_court
+		}
+		NOT = { is_subject_of_type = iqta_vassal }
+		NOT = { is_subject_of_type = religious_march }
+	}
+	on_granted = {
+		custom_tooltip = estate_brahmins_guaranteed_autonomy_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				religion_group = dharmic
+			}
+			add_province_modifier = {
+				name = estate_brahmins_guaranteed_autonomy_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	conditional_modifier = {
+		trigger = { has_government_mechanic = russian_modernization_mechanic }
+		modifier = { monthly_russian_modernization = -0.03 }
+	}
+	ai_will_do = {
+		factor = 1000
+	}
+}
+
+estate_burghers_orthodox_tolerance = {
+	icon = privilege_tolerance_heretics
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		religion_group = christian
+		NOT = { religion = orthodox }
+		NOT = { religion = coptic }
+		#has_unlocked_estate_privilege = { estate_privilege = estate_burghers_orthodox_tolerance }
+		NOT = { is_subject_of_type = iqta_vassal }
+		NOT = { is_subject_of_type = religious_march }
+	}
+	conditional_modifier = {
+		trigger = { has_country_flag = hun_empower_orthodox_autonomy }
+		modifier = { max_absolutism = 5 church_loyalty_modifier = 0.1 }
+	}
+	can_select = {
+		religion_group = christian
+		NOT = { religion = orthodox }
+		NOT = { religion = coptic }
+		any_owned_province = {
+			OR = {
+				religion = orthodox
+				religion = coptic
+			}
+		}
+	}
+	on_granted = {
+		if = {
+			limit = { has_estate_privilege = estate_church_anti_heresy_act }
+			remove_estate_privilege = estate_church_anti_heresy_act
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -20
+			}
+		}
+		custom_tooltip = estate_burghers_orthodox_tolerance_effect_tooltip
+		hidden_effect = {
+			set_country_flag = burghers_tolerates_orthodoxy
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				OR = {
+					religion = orthodox
+					religion = coptic
+				}
+			}
+			add_province_modifier = {
+				name = estate_burghers_guaranteed_autonomy_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_burghers_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_burghers_guaranteed_autonomy_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_burghers_orthodox_tolerance_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = burghers_tolerates_orthodoxy
+		}
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_burghers_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_burghers_guaranteed_autonomy_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_burghers_orthodox_tolerance_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = burghers_tolerates_orthodoxy
+		}
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_burghers_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_burghers_guaranteed_autonomy_mod
+		}
+	}
+	penalties = {
+		church_loyalty_modifier = -0.1
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_province = {
+					OR = {
+						religion = orthodox
+						religion = coptic
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			government = theocracy
+		}
+		modifier = {
+			factor = 0
+			is_subject = yes
+			overlord = {
+				religion = ROOT
+				has_idea_group = religious_ideas
+			}
+		}
+	}
+}
