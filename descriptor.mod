@@ -3,8 +3,6 @@ supported_version="1.37.*"
 
 name="Extended Timeline Super Expanded (WIP)"
 
-path="C:/Users/j0m_/Documents/Paradox Interactive/Europa Universalis IV/mod/ETSE11"
-
 tags={
     "Total Conversion"
     "Alternative History"
