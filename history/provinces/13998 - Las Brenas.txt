@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = chacoan
 religion = south_american
-capital = "Las BreÃ±as"
+capital = "Las Breñas"
 
 native_size = 5
 native_ferocity =  1

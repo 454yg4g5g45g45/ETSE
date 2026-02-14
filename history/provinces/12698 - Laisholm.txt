@@ -109,7 +109,7 @@ native_hostileness = 1
 4016.2.24 = {
 	owner = EST
 	controller = EST
-	capital = "JÃµgeva"
+	capital = "Jõgeva"
 }
 4016.2.25 = {
 	controller = GER

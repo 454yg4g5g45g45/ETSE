@@ -74,7 +74,7 @@ monarch_names = {
 	"Afyavi #0" = -1
 	"Ahwlikponuwa #0" = -1
 	"Asiba #0" = -1
-	"Ay√†b√† #0" = -1
+	"Ay‡b‡ #0" = -1
 }
 leader_names = { 
 	Ahomadegbe Apithy Dangbo Kerekou Kouandete Kuetey Maga Soglo Trudo Zinsou

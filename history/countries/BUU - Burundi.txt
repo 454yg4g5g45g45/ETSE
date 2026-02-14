@@ -375,7 +375,7 @@ capital = 4070
 
 4118.6.18 = {
 	monarch = {
-		name = "Ã‰variste Ndayishimiye"
+		name = "Évariste Ndayishimiye"
 		birth_date = 4066.1.1
 		adm = 3
 		dip = 4

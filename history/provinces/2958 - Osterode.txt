@@ -114,7 +114,7 @@ discovered_by = PRS
 	controller = POL
 	add_core = POL
 	remove_core = GER
-	capital = "OstrÃ³da"
+	capital = "Ostróda"
 	religion = catholic
 }
 4058.1.1 = {

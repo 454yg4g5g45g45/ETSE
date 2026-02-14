@@ -50,7 +50,7 @@ discovered_by = mesoamerican
 	religion = catholic
 }
 3758.1.1 = {
-	capital = "IzÃºcar de Matamoros"
+	capital = "Izúcar de Matamoros"
 }
 3868.1.1 = {
 	culture = mexican

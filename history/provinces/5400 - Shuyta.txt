@@ -12,7 +12,7 @@ trade_goods = wool
 
 culture = alan
 religion = heptadic
-capital = "ShÃ¼yta"
+capital = "Shüyta"
 
 is_city = yes
 

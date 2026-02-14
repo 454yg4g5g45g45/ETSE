@@ -48,7 +48,7 @@ discovered_by = south_american
 	culture = iberian_la_platan
 }
 3870.1.1 = {
-	capital = "PaysandÃº"
+	capital = "Paysandú"
 }
 3920.9.7 = {
 	owner = BRZ

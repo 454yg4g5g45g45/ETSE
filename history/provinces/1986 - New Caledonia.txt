@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = melanesian
 religion = animism
-capital = "NoumÃ©a"
+capital = "Nouméa"
 
 native_size = 1
 native_ferocity =  1
@@ -39,7 +39,7 @@ discovered_by = polynesian_tech
 	citysize = 500
 }
 3964.1.1 = {
-	capital = "NoumÃ©a"
+	capital = "Nouméa"
 }
 3968.9.4 = {
 	owner = FR2

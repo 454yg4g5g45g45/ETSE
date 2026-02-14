@@ -12,7 +12,7 @@ trade_goods = copper
 
 culture = pannonian
 religion = druidism
-capital = "Spi≈°"
+capital = "Spiö"
 
 is_city = yes
 

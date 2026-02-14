@@ -9,7 +9,7 @@ trade_goods = tea
 
 culture = guarani
 religion = south_american
-capital = "TrÃªs Passos"
+capital = "Três Passos"
 
 native_size = 10
 native_ferocity =  1

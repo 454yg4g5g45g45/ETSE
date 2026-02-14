@@ -240,7 +240,7 @@ discovered_by = eastern
 	controller = FR2
 	add_core = FR2
 	remove_core = FRA
-	capital = "MontÃ©limar"
+	capital = "Montélimar"
 }
 4008.1.1 = {
 	discovered_by = asian

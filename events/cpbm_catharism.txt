@@ -212,7 +212,7 @@ province_event = {
 	}
 }
 
-# Dominique de GuzmÃ¡n
+# Dominique de Guzmán
 
 country_event = {
 	id = cpbm_cathar.12
@@ -259,7 +259,7 @@ country_event = {
 	}
 }
 
-# Dominique de GuzmÃ¡n: The Cathar Books burn
+# Dominique de Guzmán: The Cathar Books burn
 
 country_event = {
 	id = cpbm_cathar.13
@@ -276,7 +276,7 @@ country_event = {
 	}
 }
 
-# Dominique de GuzmÃ¡n: The Bible burns
+# Dominique de Guzmán: The Bible burns
 
 country_event = {
 	id = cpbm_cathar.14
@@ -296,7 +296,7 @@ country_event = {
 	}
 }
 
-# Dominique de GuzmÃ¡n: Everything burns
+# Dominique de Guzmán: Everything burns
 
 country_event = {
 	id = cpbm_cathar.15

@@ -31,7 +31,7 @@ discovered_by = south_american
 	culture = iberian_la_platan
 	religion = catholic
 	trade_goods = livestock
-	capital = "Algarrobo del √Åguila"
+	capital = "Algarrobo del ¡guila"
 }
 3978.1.1 = {
 	discovered_by = eastern

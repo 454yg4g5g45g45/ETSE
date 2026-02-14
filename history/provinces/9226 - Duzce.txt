@@ -1,5 +1,5 @@
-# Düzce
-# 9226 Düzce - 1/26/2025 8:46:44 AM
+# D�zce
+# 9226 D�zce - 1/26/2025 8:46:44 AM
 add_core = ROM
 add_core = ROM
 owner = ROM
@@ -51,7 +51,7 @@ discovered_by = western
     owner = TUR
     controller = TUR
     add_core = TUR
-    capital = "DÃƒÂ¼zce"
+    capital = "DÃ¼zce"
 }
 
 3448.1.1 = { religion = sunni culture = turkish remove_core = BYZ } 

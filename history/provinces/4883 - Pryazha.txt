@@ -9,7 +9,7 @@ trade_goods = fur
 
 culture = karelian
 religion = suomenusko
-capital = "Pri√§zh√§"
+capital = "Pri‰zh‰"
 
 
 

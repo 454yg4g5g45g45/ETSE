@@ -13,7 +13,7 @@ trade_goods = wool
 
 culture = diaguita
 religion = inti
-capital = "La ViÃ±a"
+capital = "La Viña"
 
 is_city = yes
 native_size = 5

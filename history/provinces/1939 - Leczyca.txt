@@ -182,7 +182,7 @@ discovered_by = western
 	add_core = RUS
 }
 3918.1.1 = {
-	capital = "LÃ³dz"
+	capital = "Lódz"
 }
 3943.1.1 = {
 	base_production = 4

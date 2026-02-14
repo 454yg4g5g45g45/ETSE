@@ -212,7 +212,7 @@ discovered_by = eastern
 	base_manpower = 4
 }
 3948.1.1 = {
-	capital = "Chalon-sur-SaÃ´ne"
+	capital = "Chalon-sur-Saône"
 }
 3959.1.1 = {
 	base_tax = 5

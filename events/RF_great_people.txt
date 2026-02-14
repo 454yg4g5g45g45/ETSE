@@ -350,7 +350,7 @@ country_event = {
 	}
 }
 
-# 7. NiccolÃ² Machiavelli (Florence)
+# 7. Niccolò Machiavelli (Florence)
 country_event = {
 	id = roman_characters_event.7
 	title = "roman_characters_event.7.t"
@@ -371,7 +371,7 @@ country_event = {
 		set_global_flag = machiavelli_recruited
 		add_years_of_income = -0.25
 		define_advisor = {
-			name = "NiccolÃ² Machiavelli"
+			name = "Niccolò Machiavelli"
 			type = spymaster
 			skill = 3
 			discount = yes
@@ -385,7 +385,7 @@ country_event = {
 		set_global_flag = machiavelli_recruited
 		add_years_of_income = -0.25
 		define_advisor = {
-			name = "NiccolÃ² Machiavelli"
+			name = "Niccolò Machiavelli"
 			type = statesman
 			skill = 3
 			discount = yes
@@ -399,7 +399,7 @@ country_event = {
 		set_global_flag = machiavelli_recruited
 		add_years_of_income = -0.25
 		define_advisor = {
-			name = "NiccolÃ² Machiavelli"
+			name = "Niccolò Machiavelli"
 			type = diplomat
 			skill = 3
 			discount = yes
@@ -413,7 +413,7 @@ country_event = {
 		set_global_flag = machiavelli_recruited
 		add_years_of_income = -0.25
 		define_ruler = {
-			name = "NiccolÃ²"
+			name = "Niccolò"
 			dynasty = "Machiavelli"
 			adm = 5
 			dip = 6

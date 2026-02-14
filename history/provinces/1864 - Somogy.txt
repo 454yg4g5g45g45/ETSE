@@ -48,7 +48,7 @@ latent_trade_goods = {
 	controller = OST
 	add_core = OST
 	remove_core = ROW
-	capital = "Kaposv√°r"
+	capital = "Kaposv·r"
 }
 2628.1.1 = {
 	owner = GEP
@@ -169,7 +169,7 @@ latent_trade_goods = {
 	base_tax = 5
 }
 3968.1.1 = {
-	capital = "P√©cs"
+	capital = "PÈcs"
 }
 4003.1.1 = {
 	base_production = 4

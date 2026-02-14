@@ -31,7 +31,7 @@ discovered_by = north_american
 	is_city = yes
 	culture = english
 	religion = protestant
-	capital = "Fort EspÃ©rance"
+	capital = "Fort Espérance"
 	trade_goods = fur
 }
 3888.1.1 = {

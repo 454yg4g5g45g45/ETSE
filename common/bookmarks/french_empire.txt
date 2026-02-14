@@ -1,4 +1,4 @@
-﻿bookmark = {
+bookmark = {
 	name = "FRENCH_EMPIRE_NAME"
 	desc = "FRENCH_EMPIRE_DESC"
 	date = 3908.1.1

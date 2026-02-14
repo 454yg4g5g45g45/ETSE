@@ -13,7 +13,7 @@ trade_goods = grain
 
 culture = tepic
 religion = nahuatl
-capital = "BahÃ­a de Banderas"
+capital = "Bahía de Banderas"
 
 is_city = yes
 

@@ -23,7 +23,7 @@ capital = 2752
 
 2648.1.1 = {
 	monarch = {
-		name = "JÃ¶tunbjÃ¶rn"
+		name = "Jötunbjörn"
 		dynasty = "Romsdal"
 		birth_date = 2628.1.1
 		adm = 5
@@ -46,7 +46,7 @@ capital = 2752
 2718.1.1 = { add_government_reform = early_gov_reform_5 }
 2748.1.1 = {
 	monarch = {
-		name = "HrossbjÃ¶rn"
+		name = "Hrossbjörn"
 		dynasty = "Romsdal"
 		birth_date = 2728.1.1
 		adm = 4
@@ -80,7 +80,7 @@ capital = 2752
 
 2898.1.1 = {
 	monarch = {
-		name = "ThÃ³rolf"
+		name = "Thórolf"
 		dynasty = "Romsdal"
 		birth_date = 2878.1.1
 		adm = 1

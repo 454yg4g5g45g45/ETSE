@@ -73,7 +73,7 @@
 2575 = "Sagy Tsots"
 2586 = "Sevanian"
 2587 = "Neghuts Simjian"
-4892 = "Ã”tava"
+4892 = "Ôtava"
 2671 = "Neghuts Nalian"
 2589 = "Sadian"
 999 = "Amrots Moushian"
@@ -98,7 +98,7 @@
 
 #USA
 956 = "Filadelfia"
-957 = "ArmÃªnia"
+957 = "Armênia"
 4872 = "Bufalon"
 958 = "Garegin"
 960 = "Sirakuza"
@@ -108,7 +108,7 @@
 966 = "Tumanyan"
 967 = "Hrrodos Kghzi"
 968 = "Talin"
-969 = "MÃ¢rzayankaghak"
+969 = "Mârzayankaghak"
 2562 = "Hamakhohutyun"
 971 = "Vostan"
 2010 = "Armavir"

@@ -12,7 +12,7 @@ trade_goods = fish
 
 culture = danish
 religion = norse_pagan_reformed
-capital = "HelsingÃ¸r"
+capital = "Helsingør"
 
 is_city = yes
 

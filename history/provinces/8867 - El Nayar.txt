@@ -32,7 +32,7 @@ discovered_by = mesoamerican
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	capital = "JesÃºs MarÃ­a"
+	capital = "Jesús María"
 	religion = catholic
 }
 3856.1.1 = {

@@ -29,7 +29,7 @@ discovered_by = south_american
 3623.1.1 = {
 	owner = SPA
 	controller = SPA
-	capital = "Santa MarÃ­a la Antigua del DariÃ©n"
+	capital = "Santa María la Antigua del Darién"
 	culture = castillian
 	religion = catholic
 	is_city = yes
@@ -39,7 +39,7 @@ discovered_by = south_american
 	add_core = SPA
 }
 3788.1.1 = {
-	capital = "QuibdÃ³"
+	capital = "Quibdó"
 }
 3849.1.1 = {
 	base_manpower = 2

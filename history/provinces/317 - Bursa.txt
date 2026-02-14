@@ -1,5 +1,5 @@
-# HÃ¼davendigar
-# 317 HÃ¼davendigar - 1/26/2025 8:46:43 AM
+# Hüdavendigar
+# 317 Hüdavendigar - 1/26/2025 8:46:43 AM
 add_core = ROM
 add_core = ROM
 add_core = ROM

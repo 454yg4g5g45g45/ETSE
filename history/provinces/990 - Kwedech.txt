@@ -32,7 +32,7 @@ discovered_by = north_american
 	religion = catholic
 	is_city = yes
 	trade_goods = fur
-	capital = "Trois-RiviÃ¨res"
+	capital = "Trois-Rivières"
 }
 3737.1.1 = {
 	unrest = 5

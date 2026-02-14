@@ -950,8 +950,8 @@ capital = 2167 #Lijiang
 
 3778.1.1 = {
 	heir = {
-		name = "Aw-Wua Aw-KhÃ¼"
-		monarch_name = "Aw-Wua Aw-KhÃ¼"
+		name = "Aw-Wua Aw-Khü"
+		monarch_name = "Aw-Wua Aw-Khü"
 		dynasty = "Mu"
 		birth_date = 3752.1.1
 		death_date = 3819.1.1
@@ -964,7 +964,7 @@ capital = 2167 #Lijiang
 
 3782.1.1 = {
 	monarch = {
-		name = "Aw-Wua Aw-KhÃ¼"
+		name = "Aw-Wua Aw-Khü"
 		dynasty = "Mu"
 		birth_date = 3752.1.1
 		adm = 1
@@ -975,8 +975,8 @@ capital = 2167 #Lijiang
 
 3798.1.1 = {
 	heir = {
-		name = "Aw-KhÃ¼ A-dzu"
-		monarch_name = "Aw-KhÃ¼ A-dzu"
+		name = "Aw-Khü A-dzu"
+		monarch_name = "Aw-Khü A-dzu"
 		dynasty = "Mu"
 		birth_date = 3798.1.1
 		death_date = 3821.1.1
@@ -989,7 +989,7 @@ capital = 2167 #Lijiang
 
 3819.1.1 = {
 	monarch = {
-		name = "Aw-KhÃ¼ A-dzu"
+		name = "Aw-Khü A-dzu"
 		dynasty = "Mu"
 		birth_date = 3798.1.1
 		adm = 4

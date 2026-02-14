@@ -64,7 +64,7 @@ discovered_by = eastern
 	add_core = FRK
 	remove_core = GVI
 	culture = occitain
-	capital = "AngoulÃªme"
+	capital = "Angoulême"
 }
 2609.11.27 = {
 	owner = SOI

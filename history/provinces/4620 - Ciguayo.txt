@@ -41,7 +41,7 @@ native_hostileness = 2
 	remove_core = CAS
 }
 3854.1.1 = {
-	capital = "Saman√°"
+	capital = "Saman·"
 }
 3878.1.1 = {
 	culture = iberian_caribbean

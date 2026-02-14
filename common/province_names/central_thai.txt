@@ -174,7 +174,7 @@
 4666 = "Atlin"
 4667 = "Adunyadet"
 4668 = "Makhao"
-4669 = "Ika KÃ¨a"
+4669 = "Ika Kèa"
 4670 = "Meungdaw San"
 4671 = "Phanga"
 4672 = "Sisaket"

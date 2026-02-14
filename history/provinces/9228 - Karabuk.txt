@@ -1,5 +1,5 @@
-# Karabük
-# 9228 Karabük - 1/26/2025 8:46:44 AM
+# Karab�k
+# 9228 Karab�k - 1/26/2025 8:46:44 AM
 add_core = ROM
 add_core = ROM
 owner = ROM
@@ -52,7 +52,7 @@ discovered_by = western
     owner = TUR
     controller = TUR
     add_core = TUR
-    capital = "KarabÃƒÂ¼k"
+    capital = "KarabÃ¼k"
 }
 
 3448.1.1 = { religion = sunni culture = turkish } 

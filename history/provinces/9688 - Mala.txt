@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = sapmi
 religion = suomenusko
-capital = "MalÃ¥"
+capital = "Malå"
 
 native_size = 3
 native_ferocity =  2

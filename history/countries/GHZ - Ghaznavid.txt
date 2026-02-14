@@ -141,8 +141,8 @@ capital = 448 # Ghazni
 
 3064.11.12 = {
 	heir = {
-		name = "BÃ¶ritigin"
-		monarch_name = "BÃ¶ritigin"
+		name = "Böritigin"
+		monarch_name = "Böritigin"
 		dynasty = "Ghaznavid"
 		birth_date = 3038.1.1
 		death_date = 3075.4.20

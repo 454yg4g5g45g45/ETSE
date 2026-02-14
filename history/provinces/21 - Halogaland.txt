@@ -80,7 +80,7 @@ native_hostileness = 4
 	base_tax = 3
 }
 3936.1.1 = {
-	capital = "BodÃ¸"
+	capital = "Bodø"
 }
 3943.1.1 = {
 	base_production = 3

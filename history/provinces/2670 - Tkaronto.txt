@@ -47,7 +47,7 @@ discovered_by = north_american
 	religion = catholic
 }
 3848.1.1 = {
-	capital = "Fort RouillÃ©"
+	capital = "Fort Rouillé"
 }
 3849.1.1 = {
 	base_tax = 4

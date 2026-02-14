@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = blackfoot
 religion = totemism
-capital = "Aps√°alooke"
+capital = "Aps·alooke"
 
 native_size = 1
 native_ferocity =  1

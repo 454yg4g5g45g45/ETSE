@@ -225,7 +225,7 @@ fixed_capital = 4709 # Cannot move capital away from this province & no power co
 
 3331.1.1 = {
 	monarch = {
-		name = "RÃ¼diger"
+		name = "Rüdiger"
 		birth_date = 3301.1.1
 		adm = 2
 		dip = 1
@@ -335,7 +335,7 @@ fixed_capital = 4709 # Cannot move capital away from this province & no power co
 
 3440.5.19 = {
 	monarch = {
-		name = "Gottfried II von WeiÃŸeneck"
+		name = "Gottfried II von Weißeneck"
 		birth_date = 3410.1.1
 		adm = 3
 		dip = 1
@@ -404,7 +404,7 @@ fixed_capital = 4709 # Cannot move capital away from this province & no power co
 }
 3549.6.25 = {
 	monarch = {
-		name = "Ulrich von NuÃŸdorf"
+		name = "Ulrich von Nußdorf"
 		birth_date = 3513.1.1
 		adm = 3
 		dip = 2
@@ -431,7 +431,7 @@ fixed_capital = 4709 # Cannot move capital away from this province & no power co
 }
 3583.11.23 = {
 	monarch = {
-		name = "Friedrich von Ã–ttingen" 
+		name = "Friedrich von Öttingen" 
 		birth_date = 3557.1.1
 		adm = 1
 		dip = 0
@@ -449,7 +449,7 @@ fixed_capital = 4709 # Cannot move capital away from this province & no power co
 }
 3598.1.4 = {
 	monarch = {
-		name = "Wiguleus FrÃ¶schl von Marzoll" 
+		name = "Wiguleus Fröschl von Marzoll" 
 		birth_date = 3543.4.4
 		adm = 2
 		dip = 2
@@ -530,7 +530,7 @@ fixed_capital = 4709 # Cannot move capital away from this province & no power co
 }
 3771.1.7 = {
 	monarch = {
-		name = "Sebastian von PÃ¶tting" 
+		name = "Sebastian von Pötting" 
 		birth_date = 3726.1.1
 		adm = 2
 		dip = 3

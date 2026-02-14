@@ -34,7 +34,7 @@ discovered_by = south_american
 	culture = iberian_colombian
 }
 3875.5.1 = {
-	capital = "MonterÃ­a"
+	capital = "Montería"
 }
 3908.7.20 = {
 	owner = COL

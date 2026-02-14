@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = gutnish
 religion = norse_pagan_reformed
-capital = "Ã…mÃ¥l"
+capital = "Åmål"
 
 native_size = 10
 native_ferocity =  2

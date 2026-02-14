@@ -12,7 +12,7 @@ trade_goods = livestock
 
 culture = circassian
 religion = heptadic
-capital = "ArchikÃ³"
+capital = "Archikó"
 
 is_city = yes
 

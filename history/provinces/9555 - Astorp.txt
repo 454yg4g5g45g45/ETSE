@@ -12,7 +12,7 @@ trade_goods = fish
 
 culture = scanian
 religion = norse_pagan_reformed
-capital = "Ã…storp"
+capital = "Åstorp"
 
 is_city = yes
 

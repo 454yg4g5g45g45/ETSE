@@ -133,7 +133,7 @@ discovered_by = western
 	controller = POL
 	add_core = POL
 	remove_core = GER
-	capital = "GorzÃ³w Wielkopolski"
+	capital = "Gorzów Wielkopolski"
 	culture = polish
 	religion = catholic
 }

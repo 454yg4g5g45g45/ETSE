@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = norwegian
 religion = norse_pagan_reformed
-capital = "GjÃ¸vik"
+capital = "Gjøvik"
 
 native_size = 5
 native_ferocity =  2

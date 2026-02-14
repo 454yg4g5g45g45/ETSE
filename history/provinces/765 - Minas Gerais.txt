@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = ge
 religion = south_american
-capital = "Sabar√°"
+capital = "Sabar·"
 
 native_size = 10
 native_ferocity =  1

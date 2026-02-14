@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = guajiro
 religion = south_american
-capital = "Santa Ana del TÃ¡chira"
+capital = "Santa Ana del Táchira"
 
 native_size = 10
 native_ferocity =  1

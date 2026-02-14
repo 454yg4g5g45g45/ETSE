@@ -154,7 +154,7 @@ discovered_by = western
 	add_core = TUR
 }
 3593.1.1 = {
-	capital = "GÃ¶zleve"
+	capital = "Gözleve"
 }
 3834.6.1 = {
 	controller = RUS

@@ -12,7 +12,7 @@ trade_goods = wool
 
 culture = alan
 religion = heptadic
-capital = "SÃ¶lza Ghala"
+capital = "Sölza Ghala"
 
 is_city = yes
 

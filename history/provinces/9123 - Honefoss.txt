@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = norwegian
 religion = norse_pagan_reformed
-capital = "HÃ¸nefoss"
+capital = "Hønefoss"
 
 native_size = 10
 native_ferocity =  2

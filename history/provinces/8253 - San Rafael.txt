@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = guajiro
 religion = south_american
-capital = "San Rafael del Moj√°n"
+capital = "San Rafael del Moj·n"
 
 native_size = 15
 native_ferocity =  1

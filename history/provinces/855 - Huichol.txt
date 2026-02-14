@@ -31,7 +31,7 @@ discovered_by = mesoamerican
 	is_city = yes
 }
 3629.5.14 = {
-	capital = "Mazatl√°n"
+	capital = "Mazatl·n"
 }
 3676.1.1 = {
 	discovered_by = ENG

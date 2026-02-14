@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = yaqui
 religion = totemism
-capital = "San Ignacio RÃ­o Muerto"
+capital = "San Ignacio Río Muerto"
 
 native_size = 5
 native_ferocity =  1

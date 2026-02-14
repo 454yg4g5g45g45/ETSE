@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = mapuche
 religion = south_american
-capital = "ChaÃ±aral"
+capital = "Chañaral"
 
 native_size = 20
 native_ferocity =  2

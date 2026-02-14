@@ -176,7 +176,7 @@ holding_rome = {
 }
 
 ###########################################
-# KÃ¶ln held by Christian Faiths
+# Köln held by Christian Faiths
 ###########################################
 owning_cologne = {
 	potential = {

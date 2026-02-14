@@ -24,7 +24,7 @@ capital = 171
 
 2578.1.1 = {
 	monarch = {
-		name = "EusÃ¨be"
+		name = "Eusèbe"
 		dynasty = "de Vannes"
 		adm = 2
 		dip = 3
@@ -148,8 +148,8 @@ capital = 171
 
 2911.1.1 = {
 	heir = {
-		name = "NominoÃ«"
-		monarch_name = "NominoÃ«"
+		name = "Nominoë"
+		monarch_name = "Nominoë"
 		dynasty = "de Vannes"
 		birth_date = 2898.1.1
 		death_date = 2944.1.1
@@ -162,7 +162,7 @@ capital = 171
 
 2929.1.1 = {
 	monarch = {
-		name = "NominoÃ«"
+		name = "Nominoë"
 		dynasty = "Nominoid"
 		birth_date = 2898.1.1
 		adm = 5

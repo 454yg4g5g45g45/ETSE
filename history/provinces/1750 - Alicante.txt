@@ -79,7 +79,7 @@ discovered_by = western
 	controller = UMA
 	add_core = UMA
 	remove_core = GVI
-	capital = "Al√†cant"
+	capital = "Al‡cant"
 }
 2848.8.6 = {
 	owner = CRD

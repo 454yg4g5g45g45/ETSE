@@ -30,7 +30,7 @@ discovered_by = south_american
 	citysize = 590
 	religion = catholic
 	trade_goods = grain
-	capital = "ConcepciÃ³n"
+	capital = "Concepción"
 }
 3898.1.1 = {
 	is_city = yes

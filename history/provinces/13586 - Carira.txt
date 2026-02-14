@@ -33,7 +33,7 @@ discovered_by = south_american
 	religion = catholic
 }
 3688.1.1 = {
-	capital = "S√£o Crist√≥v√£o"
+	capital = "S„o CristÛv„o"
 	is_city = yes
 }
 3722.5.1 = {

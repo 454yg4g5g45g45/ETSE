@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = sapmi
 religion = suomenusko
-capital = "KÃ¤ddluhtt"
+capital = "Käddluhtt"
 
 native_size = 2
 native_ferocity =  2

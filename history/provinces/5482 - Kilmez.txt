@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = uralic
 religion = suomenusko
-capital = "KÃ¼l'mÃ¼j"
+capital = "Kül'müj"
 
 native_size = 4
 native_ferocity =  3

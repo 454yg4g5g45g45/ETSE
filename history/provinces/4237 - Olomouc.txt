@@ -12,7 +12,7 @@ trade_goods = grain
 
 culture = quadian
 religion = germanic
-capital = "OlmÃ¼tz"
+capital = "Olmütz"
 
 is_city = yes
 

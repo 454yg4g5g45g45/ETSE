@@ -279,7 +279,7 @@ massif_central_area = {  #3
 	color = { 26 26 217 }
 	190 199 10676 
 }
-savoy_dauphine_area = {  #3 Savoy and DauphinÃ©, Upper Burgundy 
+savoy_dauphine_area = {  #3 Savoy and Dauphiné, Upper Burgundy 
 
 	203 204 205 4391 10677 10678 10679 10680 10681 11698
 }
@@ -552,13 +552,13 @@ skaneland_area = {  #4
 	9559 9560 9561 9562 9563 9564 9565 9566 9567 9568
 	9569 9570 9571 9572 9573 9574 9575 
 }
-gotaland_area = {  #3 Ã–stra GÃ¶taland
+gotaland_area = {  #3 Östra Götaland
 
 	2 3 25 4166 9601 9602 9603 9604 9605 9606
 	9607 9608 9609 9610 9611 9612 9613 9614 9615 9616
 	9617 9618 9619 9620 9621 9622 
 }
-vastra_gotaland_area = {  #VÃ¤stra GÃ¶taland #4
+vastra_gotaland_area = {  #Västra Götaland #4
 
 	7 16 4163 4164 9576 9577 9578 9579 9580 9581
 	9582 9583 9584 9585 9586 9587 9588 9589 9590 9591

@@ -12,7 +12,7 @@ trade_goods = fish
 
 culture = yucatec
 religion = mesoamerican_religion
-capital = "KÃ¹utsmil"
+capital = "Kùutsmil"
 
 is_city = yes
 add_local_autonomy = 25

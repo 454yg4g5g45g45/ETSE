@@ -48,7 +48,7 @@ discovered_by = south_american
 	add_core = POR
 	remove_core = FRA
 	culture = portugese
-	capital = "SÃ£o Luis"
+	capital = "São Luis"
 }
 3739.1.1 = {
 	owner = NED

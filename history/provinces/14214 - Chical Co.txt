@@ -44,7 +44,7 @@ discovered_by = south_american
 	discovered_by = asian
 }
 4002.9.12 = {
-	capital = "Algarrobo del √Åguila"
+	capital = "Algarrobo del ¡guila"
 }
 4003.1.1 = {
 	base_manpower = 2

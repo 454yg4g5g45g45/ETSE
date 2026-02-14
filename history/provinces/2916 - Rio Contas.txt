@@ -36,7 +36,7 @@ discovered_by = south_american
 	add_core = POR
 	religion = catholic
 	culture = portugese
-	capital = "CoitÃ©"
+	capital = "Coité"
 }
 3843.11.27 = {
 	capital = "Rio de Contas"
@@ -48,7 +48,7 @@ discovered_by = south_american
 	culture = brazilian
 }
 3881.1.1 = {
-	capital = "VitÃ³ria da Conquista"
+	capital = "Vitória da Conquista"
 }
 3899.1.1 = {
 	base_production = 2

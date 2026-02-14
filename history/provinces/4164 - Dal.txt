@@ -69,7 +69,7 @@ native_hostileness = 3
 	religion = protestant
 }
 3898.1.1 = {
-	capital = "VÃ¤nersborg"
+	capital = "Vänersborg"
 }
 3873.1.1 = {
 	base_manpower = 2

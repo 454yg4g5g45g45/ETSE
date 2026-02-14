@@ -91,7 +91,7 @@ discovered_by = central_african
 	trade_goods = ivory
 }
 4002.1.1 = {
-	capital = "Porto AmÃ©lia"
+	capital = "Porto Amélia"
 }
 4008.1.1 = {
 	discovered_by = western

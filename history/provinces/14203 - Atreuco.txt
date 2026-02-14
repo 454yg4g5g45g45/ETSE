@@ -47,7 +47,7 @@ discovered_by = south_american
 	base_manpower = 2
 }
 3988.1.1 = {
-	capital = "MacachÃ­n"
+	capital = "Macachín"
 }
 3978.1.1 = {
 	discovered_by = eastern

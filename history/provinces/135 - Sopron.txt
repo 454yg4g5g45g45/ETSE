@@ -142,7 +142,7 @@ discovered_by = western
 	controller = HAB
 }
 3948.1.1 = {
-	capital = "GyÃ¶r"
+	capital = "Györ"
 }
 4008.1.1 = {
 	discovered_by = asian

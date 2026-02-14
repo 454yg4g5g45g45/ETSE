@@ -37,7 +37,7 @@ discovered_by = eastern
 	owner = BAV
 	controller = BAV
 	add_core = BAV
-	capital = "MÃ¼nchen"
+	capital = "München"
 }
 2578.6.1 = {
 	remove_core = ROW

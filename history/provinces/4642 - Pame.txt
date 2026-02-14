@@ -44,7 +44,7 @@ discovered_by = mesoamerican
 	add_core = SPA
 	culture = castillian
 	religion = catholic
-	capital = "RÃ­o Verde"
+	capital = "Río Verde"
 }
 3868.1.1 = {
 	culture = mexican

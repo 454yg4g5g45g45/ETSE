@@ -33,7 +33,7 @@ discovered_by = south_american
 	trade_goods = naval_supplies
 }
 4000.1.1 = {
-	capital = "JunÃ­n de los Andes"
+	capital = "Junín de los Andes"
 }
 4008.1.1 = {
 	discovered_by = western

@@ -799,7 +799,7 @@ add_government_reform = iqta religion = sunni religious_school = shafii_school }
 #Tahirids
 3552.1.1 = {
 	monarch = {
-		name = "Sal√¢h ad-Din 'Amir I"
+		name = "Sal‚h ad-Din 'Amir I"
 		dynasty = "Tahirid"
 		adm = 4
 		dip = 4
@@ -809,8 +809,8 @@ add_government_reform = iqta religion = sunni religious_school = shafii_school }
 
 3552.1.1 = {
 	heir = {
-		name = "'Al√Æ"
-		monarch_name = "'Al√Æ"
+		name = "'AlÓ"
+		monarch_name = "'AlÓ"
 		dynasty = "Tahirid"
 		birth_date = 3518.1.1
 		death_date = 3576.5.12
@@ -823,7 +823,7 @@ add_government_reform = iqta religion = sunni religious_school = shafii_school }
 
 3564.7.2 = {
 	monarch = {
-		name = "'Al√Æ"
+		name = "'AlÓ"
 		dynasty = "Tahirid"
 		adm = 1
 		dip = 1
@@ -833,8 +833,8 @@ add_government_reform = iqta religion = sunni religious_school = shafii_school }
 
 3564.7.2 = {
 	heir = {
-		name = "'Abd al-Wahh√¢b"
-		monarch_name = "'Abd al-Wahh√¢b"
+		name = "'Abd al-Wahh‚b"
+		monarch_name = "'Abd al-Wahh‚b"
 		dynasty = "Tahirid"
 		birth_date = 3548.1.1
 		death_date = 3587.4.9
@@ -847,7 +847,7 @@ add_government_reform = iqta religion = sunni religious_school = shafii_school }
 
 3576.5.12 = {
 	monarch = {
-		name = "'Abd al-Wahh√¢b"
+		name = "'Abd al-Wahh‚b"
 		dynasty = "Tahirid"
 		adm = 2
 		dip = 2
@@ -857,8 +857,8 @@ add_government_reform = iqta religion = sunni religious_school = shafii_school }
 
 3576.5.12 = {
 	heir = {
-		name = "Sal√¢h ad-Din 'Amir"
-		monarch_name = "Sal√¢h ad-Din 'Amir II"
+		name = "Sal‚h ad-Din 'Amir"
+		monarch_name = "Sal‚h ad-Din 'Amir II"
 		dynasty = "Tahirid"
 		birth_date = 3558.1.1
 		death_Date = 3615.5.16
@@ -871,7 +871,7 @@ add_government_reform = iqta religion = sunni religious_school = shafii_school }
 
 3587.4.9 = {
 	monarch = {
-		name = "Sal√¢h ad-Din 'Amir II"
+		name = "Sal‚h ad-Din 'Amir II"
 		dynasty = "Tahirid"
 		adm = 2
 		dip = 3

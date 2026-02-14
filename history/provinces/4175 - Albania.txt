@@ -60,7 +60,7 @@ discovered_by = muslim
 
 3198.1.1 = { base_manpower = 2 } 
 3284.1.1 = { owner = SER controller = SER add_core = SER } 
-3288.1.1 = { capital = "ShkodÃƒÂ«r" add_core = ALB } 
+3288.1.1 = { capital = "ShkodÃ«r" add_core = ALB } 
 3460.1.1 = { owner = MON controller = MON add_core = MON } 
 3466.1.1 = { 
     owner = ALB
@@ -74,7 +74,7 @@ discovered_by = muslim
     owner = ALB
     controller = ALB
     add_core = ALB
-    capital = "LezhÃƒÂ«"
+    capital = "LezhÃ«"
 }
 
 3551.5.29 = { remove_core = BYZ } 
@@ -82,7 +82,7 @@ discovered_by = muslim
     owner = TUR
     controller = TUR
     add_core = TUR
-    capital = "ShkodÃƒÂ«r"
+    capital = "ShkodÃ«r"
 }
 
 3618.1.1 = { religion = sunni } 

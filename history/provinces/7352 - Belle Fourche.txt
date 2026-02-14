@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = pawnee
 religion = totemism
-capital = "Sih√°sapa"
+capital = "Sih·sapa"
 
 native_size = 1
 native_ferocity =  1

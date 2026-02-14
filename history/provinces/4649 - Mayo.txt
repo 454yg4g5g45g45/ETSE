@@ -66,7 +66,7 @@ discovered_by = north_american
 	discovered_by = western
 }
 4025.1.1 = {
-	capital = "Ciudad ObregÃ³n"
+	capital = "Ciudad Obregón"
 }
 4041.1.1 = {
 	base_manpower = 2

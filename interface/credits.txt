@@ -1,768 +1,768 @@
-ï»¿Â§Europa Universalis IV: Winds of Change
+?§Europa Universalis IV: Winds of Change
 
-Â§GAME DIRECTOR
+§GAME DIRECTOR
 
 Johan Andersson
 
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Paradox Tinto
 
 
-Â§TECH DIRECTOR
+§TECH DIRECTOR
 
 Alexander Ivannikov
 
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 
 Jakub Woldon
 Danielius Vitkauskas
 
 
-Â§RELEASE ENGINEER
+§RELEASE ENGINEER
 
 Kuba Gabryel
 
 
-Â§CONTENT DESIGN COORDINATOR
+§CONTENT DESIGN COORDINATOR
 
-Ãlvaro Sanz
+Álvaro Sanz
 
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Ogulcan Yildirim
 Javier Salazar Vilches
-RaÃºl Trullenque
+Raúl Trullenque
 Roger Corominas
 William Samelis
 Markus Hofmann
 
 
-Â§ADDITIONAL CONTENT DESIGN
+§ADDITIONAL CONTENT DESIGN
 
-Hubert â€˜Stiopaâ€™ MusiaÅ‚
-Pavel PoprÃ­k
-Vasileios â€˜LordVarangianâ€™ Magos
+Hubert ‘Stiopa’ Musia?
+Pavel Poprík
+Vasileios ‘LordVarangian’ Magos
 
 
-Â§ART LEAD
+§ART LEAD
 
 David Horler
 
 
-Â§2D ART
+§2D ART
 
 Cristina Arenas
 Mina Noughou
 Matias Tiscornia
 
 
-Â§3D ART
+§3D ART
 
 Artur Augusto
 Javier Izquierdo
 Stefan Vonboe Lang
 
 
-Â§ADDITIONAL ART
-Axel Alba LÃ³pez Morcillo
-Sara MonzÃ³n
+§ADDITIONAL ART
+Axel Alba López Morcillo
+Sara Monzón
 Kaloyan Boychev
 N-iX Game
 
 
-Â§OPERATIONS MANAGER
+§OPERATIONS MANAGER
 
 Sonia Linares
 
 
-Â§ASSOCIATE PRODUCER
+§ASSOCIATE PRODUCER
 
 Arnau Casellas
 
 
-Â§QA PROJECT COORDINATOR
+§QA PROJECT COORDINATOR
 
 Kuba Gabryel
 
 
-Â§QA TESTERS
+§QA TESTERS
 
 Jorge Baringo
 George Fournaris
 
 
-Â§ADDITIONAL QA TESTERS
+§ADDITIONAL QA TESTERS
 
 Marc Ghattas
 Matthias Lamerz
 
 
-Â§LOCALIZATION
+§LOCALIZATION
 
-Nicolas FouquÃ© (French)
+Nicolas Fouqué (French)
 Kai Bagehorn & T-Recs (German)
 Jaime Ortega (Spanish)
 
 
-Â§MUSIC
+§MUSIC
 
 Mangalf
 
 
-Â§BUSINESS OWNER
+§BUSINESS OWNER
 
 Fabricio Santos
 
 
-Â§RELEASE MANAGER
+§RELEASE MANAGER
 
 Niki Savage
 
 
-Â§MARKETING TEAM
+§MARKETING TEAM
 
 
-Â§PRODUCT MARKETING MANAGER
+§PRODUCT MARKETING MANAGER
 
 Alan Mahmodian
 Maciej Kozlowski
 
 
-Â§MARKETING CREATIVE PRODUCTION
+§MARKETING CREATIVE PRODUCTION
 
 Johan Adegran
-Jennie NystrÃ¶m
+Jennie Nyström
 
 
-Â§COMMUNITY MANAGEMENT
+§COMMUNITY MANAGEMENT
 
-BjÃ¶rn Blomberg
+Björn Blomberg
 
 
-Â§COMMUNITY AMBASSADOR
+§COMMUNITY AMBASSADOR
 
 Ryan Booher
 Lia Patsakos
 
 
-Â§PERFORMANCE MARKETING
+§PERFORMANCE MARKETING
 
-Camilla WemmenlÃ¶v
+Camilla Wemmenlöv
 Anton Rask
 Henrik Bonnichsen
 Linn Yngvesson
 
 
-Â§WEB
+§WEB
 Jonas Stenqvist
 Josef Widoff
 
 
-Â§MARKETING AUTOMATION SPECIALIST
+§MARKETING AUTOMATION SPECIALIST
 
-Annie AlstrÃ¶m
-
-
-Â§CRM CONTENT MANAGER
-
-Christopher BorÃ©n
+Annie Alström
 
 
-Â§LIVE CONTENT
+§CRM CONTENT MANAGER
+
+Christopher Borén
+
+
+§LIVE CONTENT
 
 Benjamin Kajfasz
 Alexander Eliasson
 Elia Martinez 
 
 
-Â§USER RESEARCH
+§USER RESEARCH
 
-Hanna LÃ¶hman
+Hanna Löhman
 Jenny Wickman
 
 
-Â§PARTNER MANAGER
+§PARTNER MANAGER
 
 Dennis Johnni
 Jackson Downing
 
 
-Â§COMMERCIAL MANAGER
+§COMMERCIAL MANAGER
 
 Mattias Rengstedt
 
 
-Â§EVENTS MANAGEMENT
+§EVENTS MANAGEMENT
 
 Umy Ng
 
 
-Â§PR
+§PR
 
 Troy Goodfellow
 
 
-Â§QLOC
+§QLOC
 
 
-Â§QA PROJECT MANAGER
+§QA PROJECT MANAGER
 
 Andrzej Tsupko
 
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Krystian Bas
 Maria Latanowicz
 
 
-Â§QA TESTERS
+§QA TESTERS
 
 Robert Lewczuk
 Mateusz Adach
-Norbert GÅ‚owinkowski
-Jakub KoryciÅ„ski
-Jakub PÅ‚omin
-Dawid CegieÅ‚ka
+Norbert G?owinkowski
+Jakub Koryci?ski
+Jakub P?omin
+Dawid Cegie?ka
 Filip Ambroziak
 Gracjan Banaszkiewicz 
 
 
-Â§BETA TESTERS
+§BETA TESTERS
 
 Carl Taylor
-â€˜Sealandâ€™
-Tomasz 'Zwirbaum' Å»wirski
-â€˜Liaâ€™
+‘Sealand’
+Tomasz 'Zwirbaum' ?wirski
+‘Lia’
 Finlay 'Findeath' Patrick
-Janek â€˜Greenyâ€™ Eisinger
-Gary â€˜IamCogsâ€™ Baugher 
+Janek ‘Greeny’ Eisinger
+Gary ‘IamCogs’ Baugher 
 Alexander Salomons
-Zack â€˜ferdy0â€™ Radnan
-Ricardo â€˜Verinity Voidâ€™ Squires
-â€˜LimonenZitroneâ€™
-â€˜Kaiserin_Amyâ€™
+Zack ‘ferdy0’ Radnan
+Ricardo ‘Verinity Void’ Squires
+‘LimonenZitrone’
+‘Kaiserin_Amy’
 Edward 'Uber' Johnston
-â€˜Lot26â€™
-â€˜Twandhiâ€™
-â€˜Tatorsâ€™
+‘Lot26’
+‘Twandhi’
+‘Tators’
 Francesco Teruzzi
 
 
-Â§ADDITIONAL BETA TESTERS
+§ADDITIONAL BETA TESTERS
 
-â€˜Fourtouâ€™
-â€˜Obi wan chernobylâ€™
-â€˜Laladinâ€™
-â€˜antonbarinâ€™
-â€˜MigBatâ€™
-â€˜Aetherumâ€™
-â€˜LemonCakeâ€™
+‘Fourtou’
+‘Obi wan chernobyl’
+‘Laladin’
+‘antonbarin’
+‘MigBat’
+‘Aetherum’
+‘LemonCake’
 
 
-Â§Europa Universalis IV: King of Kings
+§Europa Universalis IV: King of Kings
 
-Â§GAME DIRECTOR
+§GAME DIRECTOR
 
 Johan Andersson
 
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Paradox Tinto
 
 
-Â§TECH DIRECTOR
+§TECH DIRECTOR
 
 Alexander Ivannikov
 
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 
 James Capstick
 Jakub Woldon
 Danielius Vitkauskas
 
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 
 Kuba Gabryel
 
 
-Â§RELEASE ENGINEER
+§RELEASE ENGINEER
 
 Kuba Gabryel
 
 
-Â§CONTENT DESIGN COORDINATOR
+§CONTENT DESIGN COORDINATOR
 
-Ãlvaro Sanz
+Álvaro Sanz
 
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Ogulcan Yildirim
 Javier Salazar Vilches
-RaÃºl Trullenque
+Raúl Trullenque
 Roger Corominas
 William Samelis
-Hubert â€˜Stiopaâ€™ MusiaÅ‚
-Pavel PoprÃ­k
+Hubert ‘Stiopa’ Musia?
+Pavel Poprík
 
 
-Â§ART LEAD
+§ART LEAD
 
 David Horler
 
 
-Â§2D ART
+§2D ART
 
 Cristina Arenas
 Mina Noughou
 Matias Tiscornia
-Axel Alba LÃ³pez Morcillo
-Sara MonzÃ³n
+Axel Alba López Morcillo
+Sara Monzón
 
-Â§3D ART
+§3D ART
 
 Artur Augusto
 Javier Izquierdo
 Stefan Vonboe
 
-Â§CONCEPT ART
+§CONCEPT ART
 
-RubÃ©n PÃ©rez
-Irene RodrÃ­guez
+Rubén Pérez
+Irene Rodríguez
 
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 
 N-iX Game & VR Studio
 Goodname Digital Art Studio
 
 
-Â§OPERATIONS MANAGER
+§OPERATIONS MANAGER
 
 Sonia Linares
 
 
-Â§ASSOCIATE PRODUCER
+§ASSOCIATE PRODUCER
 
-JesÃºs Escribano
+Jesús Escribano
 Arnau Casellas
 
 
-Â§QA PROJECT COORDINATOR
+§QA PROJECT COORDINATOR
 
 Kuba Gabryel
 
 
-Â§QA TESTERS
+§QA TESTERS
 
 Arnau Casellas
 Markus Hofmann
 Jorge Baringo
 
 
-Â§LOCALIZATION
+§LOCALIZATION
 
-Nicolas FouquÃ© (French)
+Nicolas Fouqué (French)
 Kai Bagehorn & T-Recs (German)
 Jaime Ortega (Spanish)
 
 
-Â§MUSIC
+§MUSIC
 
 Mangalf
 
 
-Â§BUSINESS OWNER
+§BUSINESS OWNER
 
 Ryan Sumo
 Fabricio Santos
 
-Â§RELEASE MANAGER
+§RELEASE MANAGER
 
 Alva Hemmingsson
 Niki Savage
 
 
-Â§MARKETING TEAM
+§MARKETING TEAM
 
-Â§PRODUCT MARKETING MANAGER
+§PRODUCT MARKETING MANAGER
 
 Alan Mahmodian
 Maciej Kozlowski
 
 
-Â§MARKETING CREATIVE PRODUCTION
+§MARKETING CREATIVE PRODUCTION
 
 Johan Adegran
 Max Collin
 
 
-Â§COMMUNITY MANAGEMENT
+§COMMUNITY MANAGEMENT
 
-BjÃ¶rn Blomberg
+Björn Blomberg
 
 
-Â§COMMUNITY AMBASSADOR
+§COMMUNITY AMBASSADOR
 
 Ryan Booher
 Lia Patsakos
 
 
-Â§PERFORMANCE MARKETING
+§PERFORMANCE MARKETING
 
-Camilla WemmenlÃ¶v
+Camilla Wemmenlöv
 Anton Rask
 Henrik Bonnichsen
 
 
-Â§WEB
+§WEB
 
 Jonas Stenqvist
 Josef Widoff
 
 
-Â§MARKETING AUTOMATION SPECIALIST
+§MARKETING AUTOMATION SPECIALIST
 
-Annie AlstrÃ¶m
-
-
-Â§CRM CONTENT MANAGER
-
-Christopher BorÃ©n
+Annie Alström
 
 
-Â§LIVE CONTENT
+§CRM CONTENT MANAGER
+
+Christopher Borén
+
+
+§LIVE CONTENT
 
 Benjamin Kajfasz
 Alexander Eliasson
 Elia Martinez 
 
 
-Â§USER RESEARCH
+§USER RESEARCH
 
-Hanna LÃ¶hman
+Hanna Löhman
 Jenny Wickman
 
 
-Â§PARTNER MANAGER
+§PARTNER MANAGER
 
 Dennis Johnni
 Jackson Downing
 
 
-Â§COMMERCIAL MANAGER
+§COMMERCIAL MANAGER
 
 Mattias Rengstedt
 
 
-Â§EVENTS MANAGEMENT
+§EVENTS MANAGEMENT
 
 Umy Ng
 
 
-Â§PR
+§PR
 
 Troy Goodfellow
 
 
-Â§QLOC
+§QLOC
 
-Â§QA PROJECT MANAGER
+§QA PROJECT MANAGER
 
 Andrzej Tsupko
 
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Krystian Bas
 Maria Latanowicz
 
 
-Â§QA TESTERS
+§QA TESTERS
 
 Robert Lewczuk
-Piotr ZaszczyÅ„ski
-StanisÅ‚aw Dul
+Piotr Zaszczy?ski
+Stanis?aw Dul
 Mateusz Adach
-Norbert GÅ‚owinkowski
+Norbert G?owinkowski
 Gracjan Banaszkiewicz
-Jakub KoryciÅ„ski
+Jakub Koryci?ski
 Wiktor Wronowski
 
 
-Â§BETA TESTERS
+§BETA TESTERS
 
 Matthias 'grotaclas' L.
-Luna â€˜Jarvinâ€™ ZiÄ™ba
+Luna ‘Jarvin’ Zi?ba
 Alexander Salomons
 Owen 'Dondie' Mathews  
 Ricky 'Kalafina_'
-â€˜Liaâ€™
-â€˜Kaiserin_amyâ€™
-â€˜Zakathâ€™
-â€™Sealandâ€™ 
+‘Lia’
+‘Kaiserin_amy’
+‘Zakath’
+’Sealand’ 
 Finlay 'Findeath' Patrick
 Canoes 'Vlad'
 Nolan 'Geno' Myrick 
-Manuel KÃ¼ting 'YetiBandito'
+Manuel Küting 'YetiBandito'
 Jonathan Bagley 
-BartÅ‚omiej 'Zlewikk' Zalewski
+Bart?omiej 'Zlewikk' Zalewski
 Francesco 'FrancescoT' Teruzzi
-Tomasz 'Zwirbaum' Å»wirski 
+Tomasz 'Zwirbaum' ?wirski 
 LimonenZitrone
-Carl `Viking_Nephilimâ€™ Taylor
-Cyril â€˜The Turkâ€™ Achcar
-Ricardo â€˜Verinity Voidâ€™ Squires 
+Carl `Viking_Nephilim’ Taylor
+Cyril ‘The Turk’ Achcar
+Ricardo ‘Verinity Void’ Squires 
 
 
-Â§ADDITIONAL BETA TESTERS
+§ADDITIONAL BETA TESTERS
 
 Edward 'Uber' Johnston
-Gilles â€˜Gigauâ€™ Gaudray
+Gilles ‘Gigau’ Gaudray
 Thorfindel [Anbennar]
 Pedrag Markovic
-Richard â€˜Killerhuenchenâ€™ HÃ¼hn
-Kristoffer Ã…strÃ¶m
+Richard ‘Killerhuenchen’ Hühn
+Kristoffer Åström
 Dylan Romans
-â€˜Morskaziemiaâ€™
+‘Morskaziemia’
 Steven Norman Senart
 Emil Larsson
 Stefano Cavenati
 Patrick Haberlag
 David Hazlett
-Runceanu Vlad-NicuÈ™or
+Runceanu Vlad-Nicu?or
 Ricky Hsu
 Jon Paul Hamilton
 Bernd Wolters
 Vasileios Magos
-Ã€lex Motos
+Àlex Motos
 
 
-Â§Europa Universalis IV: Domination
+§Europa Universalis IV: Domination
 
-Â§GAME DIRECTOR
+§GAME DIRECTOR
 
 Johan Andersson
 
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Paradox Tinto
 
 
-Â§TECH DIRECTOR
+§TECH DIRECTOR
 
 Alexander Ivannikov
 
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 
 James Capstick
 Martin Hesselborn
 Jakub Woldon
 
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 
 Kuba Gabryel
 
-Â§RELEASE ENGINEER
+§RELEASE ENGINEER
 
 Kuba Gabryel
 
 
-Â§CONTENT DESIGN COORDINATOR
+§CONTENT DESIGN COORDINATOR
 
-Ãlvaro Sanz
+Álvaro Sanz
 
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Ogulcan Yildirim
 Javier Salazar Vilches
-RaÃºl Trullenque
+Raúl Trullenque
 Roger Corominas
 William Samelis
 
 
-Â§ART LEAD
+§ART LEAD
 
 David Horler
 
 
-Â§2D ART
+§2D ART
 
 Cristina Arenas
 Mina Noughou
 Matias Tiscornia
 
 
-Â§3D ART
+§3D ART
 
 Artur Augusto
 Javier Izquierdo
 Stefan Vonboe
 
 
-Â§CONCEPT ART
+§CONCEPT ART
 
-RubÃ©n PÃ©rez
-Irene RodrÃ­guez
+Rubén Pérez
+Irene Rodríguez
 
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 
 N-iX Game & VR Studio
 
 
-Â§OPERATIONS MANAGER
+§OPERATIONS MANAGER
 
 Sonia Linares
 
 
-Â§ASSOCIATE PRODUCER
+§ASSOCIATE PRODUCER
 
-JesÃºs Escribano
+Jesús Escribano
 
 
-Â§QA PROJECT COORDINATOR
+§QA PROJECT COORDINATOR
 
 Kuba Gabryel
 
 
-Â§QA TESTERS
+§QA TESTERS
 
 Arnau Casellas
 Markus Hofmann
 
 
-Â§LOCALIZATION
+§LOCALIZATION
 
-Nicolas FouquÃ© (French)
+Nicolas Fouqué (French)
 Kai Bagehorn & T-Recs (German)
 Jaime Ortega (Spanish)
 
 
-Â§MUSIC
+§MUSIC
 
 Mangalf
 
 
-Â§BUSINESS OWNER
+§BUSINESS OWNER
 
 Ryan Sumo
 
 
-Â§RELEASE MANAGER
+§RELEASE MANAGER
 
 Ahmed Elsayed
 
 
-Â§MARKETING TEAM
+§MARKETING TEAM
 
-Â§PRODUCT MARKETING MANAGER
+§PRODUCT MARKETING MANAGER
 
 Alan Mahmodian
 
 
-Â§MARKETING CREATIVE PRODUCTION
+§MARKETING CREATIVE PRODUCTION
 
 Johan Adegran
 Max Collin
 
 
-Â§COMMUNITY MANAGEMENT
+§COMMUNITY MANAGEMENT
 
-BjÃ¶rn Blomberg
+Björn Blomberg
 
 
-Â§COMMUNITY AMBASSADOR
+§COMMUNITY AMBASSADOR
 
 Ryan Booher
 Lia Patsakos
 
 
-Â§PERFORMANCE MARKETING
+§PERFORMANCE MARKETING
 
-Camilla WemmenlÃ¶v
-
-
-Â§MARKETING AUTOMATION SPECIALIST
-
-Annie AlstrÃ¶m
+Camilla Wemmenlöv
 
 
-Â§CRM CONTENT MANAGER
+§MARKETING AUTOMATION SPECIALIST
 
-Christopher BorÃ©n
+Annie Alström
 
 
-Â§LIVE CONTENT
+§CRM CONTENT MANAGER
+
+Christopher Borén
+
+
+§LIVE CONTENT
 
 Anders Carlsson
 Jimmy Tisell
 Madeleine Jonsson
 
 
-Â§DATA SCIENTIST
+§DATA SCIENTIST
 
 Katya Boestad
 
 
-Â§USER RESEARCH
+§USER RESEARCH
 
-Hanna LÃ¶hman
+Hanna Löhman
 
 
-Â§PARTNER MANAGER
+§PARTNER MANAGER
 
 Viktor Stadler
 
 
-Â§COMMERCIAL MANAGER
+§COMMERCIAL MANAGER
 
 Mattias Rengstedt
 
 
-Â§TRADE MARKETING MANAGER
+§TRADE MARKETING MANAGER
 
 Jackson Downing
 
 
-Â§EVENTS MANAGEMENT
+§EVENTS MANAGEMENT
 
 Cissi Ramsby
 Veronica Gunlycke
 
 
-Â§PR
+§PR
 
 Troy Goodfellow
 
 
-Â§QLOC
+§QLOC
 
-Â§QA PROJECT MANAGER
+§QA PROJECT MANAGER
 
 Andrzej Tsupko
 Jakub Dudkowski
 
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Adam Nowicki
 Krystian Bas
 
 
-Â§QA TESTERS
+§QA TESTERS
 
 Igor Chrzan
 Robert Lewczuk
@@ -773,19 +773,19 @@ Artur Adamczyk
 Stanislaw Dul
 
 
-Â§BETA TESTERS
+§BETA TESTERS
 
 Carl `Viking_Nephilim' Taylor
 Pedrag Markovic
 Ricardo 'Verinity Void' Squires
 'grotaclas'
-Richard 'Killerhuenchen' HÃ¼hn
-Luna 'Jarvin' ZiÄ™ba
-Kristoffer Ã…strÃ¶m
+Richard 'Killerhuenchen' Hühn
+Luna 'Jarvin' Zi?ba
+Kristoffer Åström
 Finlay 'Findeath' Patrick
 Tomasz 'Zwirbaum' Zwirski
 Francesco 'FrancescoT' Teruzzi
-Manuel 'YetiBandito' KÃ¼ting
+Manuel 'YetiBandito' Küting
 Hubert 'Stiopa' Musial
 Owen 'Dondie' Mathews
 Dylan Romans
@@ -811,7 +811,7 @@ Runceanu Vlad-Nicusor
 Ricky Hsu
 
 
-Â§ADDITIONAL BETA TESTERS
+§ADDITIONAL BETA TESTERS
 
 Nick Giudice
 Rasmus Svensson
@@ -821,226 +821,226 @@ Gilles 'Gigau' Gaudray
 Jon Paul Hamilton
 Billy Jonsson
 Bernd Wolters
-Pavel PoprÃ­k
+Pavel Poprík
 Vasileios Magos
 
 
-Â§Europa Universalis IV: Lions of the North
+§Europa Universalis IV: Lions of the North
 
-Â§GAME DIRECTOR
+§GAME DIRECTOR
 
 Johan Andersson
 
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Paradox Tinto
 
 
-Â§TECH DIRECTOR
+§TECH DIRECTOR
 
 Alexander Ivannikov
 
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 
 James Capstick
 Jordi Santiago
-AdriÃ¡n GonzÃ¡lez
+Adrián González
 Martin Hesselborn
 
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 
 Kuba Gabryel
 
 
-Â§RELEASE ENGINEER
+§RELEASE ENGINEER
 
 Kuba Gabryel
 
 
-Â§CONTENT DESIGN COORDINATOR
+§CONTENT DESIGN COORDINATOR
 
-Ãlvaro Sanz
+Álvaro Sanz
 
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Ogulcan Yildirim
 Javier Salazar Vilches
-RaÃºl Trullenque
+Raúl Trullenque
 Roger Corominas
 William Samelis
 
 
-Â§ART LEAD
+§ART LEAD
 
 David Horler
 
 
-Â§2D ART
+§2D ART
 
-RubÃ©n PÃ©rez
+Rubén Pérez
 Mina Noughou
 
 
-Â§CONCEPT ART
+§CONCEPT ART
 
-Irene RodrÃ­guez
+Irene Rodríguez
 
 
-Â§3D ART
+§3D ART
 
 Eva Ara
 Javier Izquierdo
 Stefan Vonboe
 
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 
 N-iX Game & VR Studio
 
 
-Â§OPERATIONS MANAGER
+§OPERATIONS MANAGER
 
 Sonia Linares
 
 
-Â§PRODUCERS
+§PRODUCERS
 
-Rodrigo MoltÃ³
-JesÃºs Escribano
-
-
-Â§QA PROJECT COORDINATOR
-
-Carlos MuÃ±oz DÃ­az
+Rodrigo Moltó
+Jesús Escribano
 
 
-Â§QA TESTERS
+§QA PROJECT COORDINATOR
+
+Carlos Muñoz Díaz
+
+
+§QA TESTERS
 
 Arnau Casellas
 Markus Hofmann
 
 
-Â§LOCALIZATION
+§LOCALIZATION
 
-Nicolas FouquÃ© (French)
+Nicolas Fouqué (French)
 Kai Bagehorn & T-Recs (German)
 Jaime Ortega (Spanish)
 
 
-Â§MUSIC
+§MUSIC
 
 Mangalf
 
 
-Â§BUSINESS OWNER
+§BUSINESS OWNER
 
 Ryan Sumo
 
 
-Â§RELEASE MANAGER
+§RELEASE MANAGER
 
 Rebecka Bjurgard
 
 
-Â§MARKETING TEAM
+§MARKETING TEAM
 
-Â§PRODUCT MARKETING MANAGER
+§PRODUCT MARKETING MANAGER
 
 Alan Mahmodian
 
 
-Â§MARKETING CREATIVE PRODUCTION
+§MARKETING CREATIVE PRODUCTION
 
 Max Collin
 
 
-Â§COMMUNITY MANAGEMENT
+§COMMUNITY MANAGEMENT
 
-BjÃ¶rn Blomberg
+Björn Blomberg
 
 
-Â§COMMUNITY AMBASSADOR
+§COMMUNITY AMBASSADOR
 
 Ryan Booher
 
 
-Â§PERFORMANCE MARKETING
+§PERFORMANCE MARKETING
 
 Linn Yngvesson
 
 
-Â§MARKETING AUTOMATION SPECIALIST
+§MARKETING AUTOMATION SPECIALIST
 
-Annie AlstrÃ¶m
-
-
-Â§CRM CONTENT MANAGER
-
-Christopher BorÃ©n
+Annie Alström
 
 
-Â§LIVE CONTENT
+§CRM CONTENT MANAGER
+
+Christopher Borén
+
+
+§LIVE CONTENT
 
 Anders Carlsson
 Jimmy Tisell
 Madeleine Jonsson
 
 
-Â§DATA SCIENTIST
+§DATA SCIENTIST
 
 Katya Boestad
 
 
-Â§USER RESEARCH
+§USER RESEARCH
 
-Hanna LÃ¶hman
+Hanna Löhman
 
 
-Â§PARTNER MANAGER
+§PARTNER MANAGER
 
 Viktor Stadler
 
 
-Â§COMMERCIAL MANAGER
+§COMMERCIAL MANAGER
 
 Mattias Rengstedt
 
 
-Â§TRADE MARKETING MANAGER
+§TRADE MARKETING MANAGER
 
 Jackson Downing
 
 
-Â§EVENTS MANAGEMENT
+§EVENTS MANAGEMENT
 
 Cissi Ramsby
 Veronica Gunlycke
 
 
-Â§PR
+§PR
 
 Troy Goodfellow
 
 
-Â§QLOC
+§QLOC
 
-Â§QA PROJECT MANAGER
+§QA PROJECT MANAGER
 
 Andrzej Tsupko
 Jakub Dudkowski
 
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Adam Nowicki
 Krystian Bas
 
 
-Â§QA TESTERS
+§QA TESTERS
 
 Igor Chrzan
 Robert Lewczuk
@@ -1048,26 +1048,26 @@ Piotr Zaszczynski
 Adam Mitkiewicz
 
 
-Â§BETA TESTERS
+§BETA TESTERS
 
 Carl Taylor
 Pedrag Markovic
 Ricardo Squires
 'grotaclas'
-Richard HÃ¼hn
-Antoni ZiÄ™ba
-Kristoffer Ã…strÃ¶m
+Richard Hühn
+Antoni Zi?ba
+Kristoffer Åström
 Finlay Patrick
 Tomasz Zwirski
 Francesco Teruzzi
-Manuel KÃ¼ting
+Manuel Küting
 Hubert Musial
 Owen Mathews
 Dylan Romans
 Cyril Achcar
 
 
-Â§ADDITIONAL BETA TESTERS
+§ADDITIONAL BETA TESTERS
 
 Nick Giudice
 Rasmus Svensson
@@ -1080,201 +1080,201 @@ Billy Jonsson
 Bernd Wolters
 
 
-Â§Europa Universalis IV: Origins
+§Europa Universalis IV: Origins
 
-Â§GAME DIRECTOR
+§GAME DIRECTOR
 
 Johan Andersson
 
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Paradox Tinto
 
 
-Â§TECH DIRECTOR
+§TECH DIRECTOR
 
 Alexander Ivannikov
 
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 
 James Capstick
 Jordi Santiago
-AdriÃ¡n GonzÃ¡lez
+Adrián González
 Martin Hesselborn
 
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 
 Kuba Gabryel
 Valentyn Ivanov
 
 
-Â§RELEASE ENGINEER
+§RELEASE ENGINEER
 
 Kuba Gabryel
 
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Ogulcan Yildirim
-Ãlvaro Sanz
+Álvaro Sanz
 Javier Salazar Vilches
-RaÃºl Trullenque
+Raúl Trullenque
 Roger Corominas
 
 
-Â§ART LEAD
+§ART LEAD
 
 David Horler
 
 
-Â§2D ART
+§2D ART
 
-RubÃ©n PÃ©rez
-
-
-Â§CONCEPT ART
-
-Irene RodrÃ­guez
+Rubén Pérez
 
 
-Â§ADDITIONAL ART
+§CONCEPT ART
+
+Irene Rodríguez
+
+
+§ADDITIONAL ART
 
 N-iX Game & VR Studio
 
 
-Â§OPERATIONS MANAGER
+§OPERATIONS MANAGER
 
 Sonia Linares
 
 
-Â§ASSOCIATE PRODUCER
+§ASSOCIATE PRODUCER
 
-Rodrigo MoltÃ³
-
-
-Â§QA PROJECT COORDINATOR
-
-Carlos Munoz DÃ­az
+Rodrigo Moltó
 
 
-Â§LOCALIZATION
+§QA PROJECT COORDINATOR
 
-Nicolas FouquÃ© (French)
+Carlos Munoz Díaz
+
+
+§LOCALIZATION
+
+Nicolas Fouqué (French)
 Kai Bagehorn & T-Recs (German)
 Jaime Ortega (Spanish)
 
 
-Â§MUSIC
+§MUSIC
 
 Mangalf
 
 
-Â§PRODUCT MANAGER
+§PRODUCT MANAGER
 
 Simon Stackmann
 
 
-Â§RELEASE MANAGER
+§RELEASE MANAGER
 
 Oscar Beiroa
 
 
-Â§MARKETING TEAM
+§MARKETING TEAM
 
-Â§PRODUCT MARKETING MANAGER
+§PRODUCT MARKETING MANAGER
 
 Alan Mahmodian
 
 
-Â§MARKETING CREATIVE PRODUCTION
+§MARKETING CREATIVE PRODUCTION
 
 Max Collin
 
 
-Â§COMMUNITY MANAGEMENT
+§COMMUNITY MANAGEMENT
 
-BjÃ¶rn Blomberg
+Björn Blomberg
 
 
-Â§COMMUNITY AMBASSADOR
+§COMMUNITY AMBASSADOR
 
 Gareth "Mordred Viking" Kay
 
 
-Â§PERFORMANCE MARKETING
+§PERFORMANCE MARKETING
 
 Linn Yngvesson
 
 
-Â§MARKETING AUTOMATION SPECIALIST
+§MARKETING AUTOMATION SPECIALIST
 
-Annie AlstrÃ¶m
-
-
-Â§CRM CONTENT MANAGER
-
-Christopher BorÃ©n
+Annie Alström
 
 
-Â§LIVE CONTENT
+§CRM CONTENT MANAGER
+
+Christopher Borén
+
+
+§LIVE CONTENT
 
 Anders Carlsson
 Jimmy Tisell
 Madeleine Jonsson
 
 
-Â§DATA SCIENTIST
+§DATA SCIENTIST
 
 Katya Boestad
 
 
-Â§USER RESEARCH
+§USER RESEARCH
 
-Hanna LÃ¶hman
+Hanna Löhman
 
 
-Â§PARTNER MANAGER
+§PARTNER MANAGER
 
 Viktor Stadler
 
 
-Â§COMMERCIAL MANAGER
+§COMMERCIAL MANAGER
 
 Mattias Rengstedt
 
 
-Â§TRADE MARKETING MANAGER
+§TRADE MARKETING MANAGER
 
 Jackson Downing
 
 
-Â§EVENTS MANAGEMENT
+§EVENTS MANAGEMENT
 
 Cissi Ramsby
 Veronica Gunlycke
 
 
-Â§PR
+§PR
 
 Troy Goodfellow
 
 
-Â§QLOC
+§QLOC
 
-Â§QA PROJECT MANAGER
+§QA PROJECT MANAGER
 
 Jakub Dudkowski
 
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Adam Nowicki
 
 
-Â§QA TESTERS
+§QA TESTERS
 
 Igor Chrzan
 Robert Lewczuk
@@ -1283,14 +1283,14 @@ Piotr Zaszczynski
 Adam Mitkiewicz
 
 
-Â§BETA TESTERS
+§BETA TESTERS
 
 Carl Taylor
 Pedrag Markovic
 Ricardo Squires
 
 
-Â§ADDITIONAL BETA TESTERS
+§ADDITIONAL BETA TESTERS
 
 Nick Giudice
 Rasmus Svensson
@@ -1298,190 +1298,190 @@ Alexander Wake-Ramos
 Oscar Roberts
 Bartlomiej Zalewski
 Gilles Gaudray
-Antoni ZiÄ™ba
+Antoni Zi?ba
 Jon Paul Hamilton
 
 
-Â§Europa Universalis IV: Leviathan
+§Europa Universalis IV: Leviathan
 
 
-Â§GAME DIRECTOR
+§GAME DIRECTOR
 
 Johan Andersson
 
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Paradox Tinto
 
 
-Â§TECH LEAD
+§TECH LEAD
 
 Alexander Ivannikov
 
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 
 James Capstick
 Jordi Santiago
-AdriÃ¡n GonzÃ¡lez
+Adrián González
 Henrik Hansson
 Johan Andersson
 
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Veronica Pazos
 Javier Salazar Vilches
 Daniel Tolman
 
 
-Â§ADDITIONAL CONTENT DESIGN
+§ADDITIONAL CONTENT DESIGN
 
 James Beaumont
 
 
-Â§ART LEAD
+§ART LEAD
 
 David Horler
 
 
-Â§ARTISTS 2D
+§ARTISTS 2D
 
-RubÃ©n PÃ©rez
+Rubén Pérez
 
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 
 N-iX Game
-Irene RodrÃ­guez
+Irene Rodríguez
 
 
-Â§OPERATIONS MANAGER
+§OPERATIONS MANAGER
 
 Sonia Linares
 
 
-Â§ASSOCIATE PRODUCER
+§ASSOCIATE PRODUCER
 
-Rodrigo MoltÃ³
+Rodrigo Moltó
 
 
-Â§LOCALIZATION
+§LOCALIZATION
 
-Nicolas FouquÃ© (French)
+Nicolas Fouqué (French)
 Kai Bagehorn & t-recs (German)
 Jaime Ortega (Spanish)
 
 
-Â§MUSIC
+§MUSIC
 
 Mangalf
 
-Â§MANUAL
+§MANUAL
 
 Troy Goodfellow
 
 
-Â§PRODUCT MANAGER
+§PRODUCT MANAGER
 
 Simon Stackmann
 
 
-Â§RELEASE MANAGER
+§RELEASE MANAGER
 
 Oscar Beiroa
 
 
-Â§MARKETING TEAM
+§MARKETING TEAM
 
-Â§PRODUCT MARKETING MANAGER
+§PRODUCT MARKETING MANAGER
 
 Pontus Rundqvist
 Alan Mahmodian
 
 
-Â§MARKETING CREATIVE PRODUCTION
+§MARKETING CREATIVE PRODUCTION
 
 Yali Murillo
 
 
-Â§PERFORMANCE MARKETING
+§PERFORMANCE MARKETING
 
 Michiel Van Loo
 Karolina Andersson
 
 
-Â§COMMUNITY MANAGEMENT
+§COMMUNITY MANAGEMENT
 
-BjÃ¶rn Blomberg
+Björn Blomberg
 
 
-Â§COMMUNITY AMBASSADOR
+§COMMUNITY AMBASSADOR
 
 Benjamin Kajfasz
 
 
-Â§LIVE CONTENT
+§LIVE CONTENT
 
 Anders Carlsson
 Jimmy Tisell
 Madeleine Jonsson
 
 
-Â§MARKETING AUTOMATION SPECIALIST
+§MARKETING AUTOMATION SPECIALIST
 
-Annie AlstrÃ¶m
+Annie Alström
 CRM Content Manager
 Johanna Kasurinen
 
 
-Â§DATA SCIENTIST
+§DATA SCIENTIST
 
 Katya Boestad
 
 
-Â§USER RESEARCH
+§USER RESEARCH
 
-Hanna LÃ¶hman
+Hanna Löhman
 
 
-Â§PARTNER MANAGER
+§PARTNER MANAGER
 
 Viktor Stadler
 
 
-Â§COMMERCIAL MANAGER
+§COMMERCIAL MANAGER
 
 Sofie Siggelin
 
 
-Â§TRADE MARKETING MANAGER
+§TRADE MARKETING MANAGER
 
 Jackson Downing
 
 
-Â§EVENTS MANAGEMENT
+§EVENTS MANAGEMENT
 
 Veronica Gunlycke
 
 
-Â§PR
+§PR
 
 Troy Goodfellow
 
-Â§QLOC
+§QLOC
 
-Â§QA PROJECT MANAGER
+§QA PROJECT MANAGER
 
 Jakub Dudkowski
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Adam Nowicki
-Niko ZÃ³lkowski
+Niko Zólkowski
 
-Â§QA TESTERS
+§QA TESTERS
 
 Igor Chrzan
 Robert Lewczuk
@@ -1490,81 +1490,81 @@ Grzegorz Nowicki
 Patryk Patoleta
 
 
-Â§Europa Universalis IV: Emperor
+§Europa Universalis IV: Emperor
 
 
-Â§CREATIVE DIRECTOR
+§CREATIVE DIRECTOR
 
 Johan Andersson
 
-Â§GAME DIRECTOR
+§GAME DIRECTOR
 
 Johan Andersson
 Jake Leiper-Ritchie
 
-Â§PRODUCTION MANAGER
+§PRODUCTION MANAGER
 
 Wendy Young
 
-Â§PRODUCER
+§PRODUCER
 
 Daniel Olsson
-Sofia HÃ¶glund
+Sofia Höglund
 Carmille Gidfors Netzler
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Henrik Hansson
 Jake Leiper-Ritchie
 Johan Andersson
 
-Â§TECH LEAD
+§TECH LEAD
 
-Michael SchieÃŸl
+Michael Schießl
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 
 Henrik Hansson
 Johan Andersson
-Michael SchieÃŸl
+Michael Schießl
 Lorenzo Berni
 Mathieu Ropert
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 Valentyn Ivanov
 Johan Jons
 Roger Weber
-Rikard Ã…slund
+Rikard Åslund
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Daniel Tolman
 Pierre du Plessis
 James Beaumont
 Michael Kundak-Cowall
 
-Â§ADDITIONAL CONTENT DESIGN
+§ADDITIONAL CONTENT DESIGN
 
 Hubert Leung
 
-Â§EMBEDDED QA TESTERS
+§EMBEDDED QA TESTERS
 
 Daniel Olsson
 Carmille Gidfors Netzler
 Byron Aytoun
 
-Â§UX DESIGN
+§UX DESIGN
 
 Valeska Martins
 
-Â§ART PRODUCER
+§ART PRODUCER
 
 Anton Wittberg Letoff
 Philipp Glietsch
 
-Â§ARTISTS 2D
+§ARTISTS 2D
 
 Marie Sommerdahl
 Celine Jensen
@@ -1572,128 +1572,128 @@ Ecbel Oueslati
 Ahmed Albastaki
 Timor Khanagov
 
-Â§ARTISTS 3D
+§ARTISTS 3D
 
 Carlos Lundhall
 Joacim Carlberg
 
-Â§ANIMATION
+§ANIMATION
 
 Niklas Tammpere
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 
 N-iX Game & VR Studio
 
-Â§LOCALIZATION MANAGER
+§LOCALIZATION MANAGER
 
-Sara Wendel-Ã–rtqvist
+Sara Wendel-Örtqvist
 
-Â§LOCALIZATION
+§LOCALIZATION
 
-Nicolas FouquÃ© (French)
+Nicolas Fouqué (French)
 Kai Bagehorn & t-recs (German)
 Jaime Ortega (Spanish)
 
-Â§SOUND
+§SOUND
 
-BjÃ¶rn Iversen
+Björn Iversen
 
-Â§MUSIC
+§MUSIC
 
 Mangalf
 
-Â§MANUAL
+§MANUAL
 
 Troy Goodfellow
 
-Â§QA TEAM LEAD CENTRAL
+§QA TEAM LEAD CENTRAL
 
 Filippa Gannholm Kirsten
 
-Â§PROJECT COORDINATOR
+§PROJECT COORDINATOR
 
 Paul Depre
 Alexander Windahl
 Nicholas Meredith
 
-Â§PRODUCT MANAGER
+§PRODUCT MANAGER
 
 Simon Stackmann
 
-Â§RELEASE MANAGER
+§RELEASE MANAGER
 
 Sonia Linares Martinez
 
 
-Â§MARKETING TEAM
+§MARKETING TEAM
 
-Â§PRODUCT MARKETING MANAGER
+§PRODUCT MARKETING MANAGER
 
 Pontus Rundqvist
 Christian Daflos
 
-Â§MARKETING CREATIVE PRODUCTION
+§MARKETING CREATIVE PRODUCTION
 
 Yali Murillo
 
-Â§PERFORMANCE MARKETING
+§PERFORMANCE MARKETING
 
 Michiel Van Loo
 
-Â§COMMUNITY MANAGEMENT
+§COMMUNITY MANAGEMENT
 
-BjÃ¶rn Blomberg
+Björn Blomberg
 Benjamin Kajfasz
 Josh Bassett
 Gabriel Sanchewski
 
-Â§LIVE CONTENT
+§LIVE CONTENT
 
 Anders Carlsson
 Jimmy Tisell
 
-Â§MARKETING AUTOMATION SPECIALIST
+§MARKETING AUTOMATION SPECIALIST
 
 Alexander Nordkvist
 
-Â§DATA SCIENTIST
+§DATA SCIENTIST
 
 Katya Boestad
 
-Â§COMMERCIAL MANAGER
+§COMMERCIAL MANAGER
 
 Viktor Stadler
 
-Â§TRADE MARKETING MANAGER
+§TRADE MARKETING MANAGER
 
 Jackson Downing
 
-Â§EVENTS MANAGEMENT
+§EVENTS MANAGEMENT
 
 Veronica Gunlycke
 
-Â§PR
+§PR
 
 Troy Goodfellow
 
 
-Â§QLOC
+§QLOC
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Michal Mugerman
 Adam Nowicki
 Kamil Uszynski
 
-Â§QA TESTERS (DEDICATED)
+§QA TESTERS (DEDICATED)
 
 Igor Chrzan
 Grzegorz Nowicki
 Patryk Patoleta
 Dominik Jastrzebski
 
-Â§QA TESTERS (ADDITIONAL)
+§QA TESTERS (ADDITIONAL)
 
 Marek Bombala
 Bartosz Byczynski
@@ -1706,25 +1706,25 @@ Adam Polka
 Damian Szokalski
 
 
-Â§KEYWORDS STUDIOS
+§KEYWORDS STUDIOS
 
-Â§FQA PROJECT MANAGER
+§FQA PROJECT MANAGER
 
 Marcin Jankowski
 
-Â§FQA LEAD
+§FQA LEAD
 
 Kacper Kaczmarzyk
 
-Â§FQA ASSOCIATE LEAD
+§FQA ASSOCIATE LEAD
 
 Marcin Sebesta
 
-Â§FQA SENIOR TESTER
+§FQA SENIOR TESTER
 
 Michal Sosnowski
 
-Â§FQA TESTERS
+§FQA TESTERS
 
 Aleksander Balicki
 Przemyslaw Bednarz
@@ -1753,72 +1753,72 @@ Wirginia Woznica
 Michal Wylag
 
 
-Â§BETA TESTERS
+§BETA TESTERS
 
 Carl Taylor
-Malte â€œStabShotâ€ Nilsson
+Malte “StabShot” Nilsson
 Patrick Haberlag
 Thomas Perkins
 Stuart Fraser
-Richard HÃ¼hn
+Richard Hühn
 Billy "Ezence" Jonsson
-Manuel KÃ¼ting
+Manuel Küting
 Tomasz "Zwirbaum" Zwirski
 Emil "Ailure" Larsson
 Ziad "DragoLEB" Taha
 Cyril Achcar
 Matt "Oxslow" Windsor
-Kristoffer Ã…strÃ¶m
-GeneviÃ¨ve HÃ©bert-Jodoin
+Kristoffer Åström
+Geneviève Hébert-Jodoin
 Christopher Lee
 
 
-Â§Europa Universalis IV: Golden Century
+§Europa Universalis IV: Golden Century
 
 
-Â§CREATIVE DIRECTOR
+§CREATIVE DIRECTOR
 
 Johan Andersson
 
-Â§GAME DIRECTOR
+§GAME DIRECTOR
 
 Jake Leiper-Ritchie
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 
 Joakim Andreasson
 Sam Millen
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Jake Leiper-Ritchie
 Henrik Hansson
 
-Â§TECH LEAD
+§TECH LEAD
 
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 
-Rickard LagerbÃ¤ck
-Michael SchieÃŸl
+Rickard Lagerbäck
+Michael Schießl
 Lorenzo Berni
 Mathieu Ropert
 Henrik Hansson
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Daniel Tolman
 Rufus Tronde
 
-Â§ARTISTS 2D
+§ARTISTS 2D
 
 Mats Virtanen
 Ecbel Oueslati
 Petter Lundh
 Irene Rodriguez
 
-Â§ARTISTS 3D
+§ARTISTS 3D
 
 Joacim Carlberg
 Niklas Tammpere
@@ -1827,141 +1827,141 @@ Johan Lundqvist
 Nils Wadensten
 Carlos Lundhall
 
-Â§EMBEDDED QA TESTERS
+§EMBEDDED QA TESTERS
 
 Daniel Olsson
 Carmille Gidfors Netzler
 
-Â§ASSOCIATE PRODUCER
+§ASSOCIATE PRODUCER
 
-Sara Wendel-Ã–rtqvist
+Sara Wendel-Örtqvist
 Anton Wittberg Letoff
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 
 Fredrik Lie
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 
 Wastelands Interactive
 N-iX
 
-Â§ADDITIONAL CONTENT DESIGN
+§ADDITIONAL CONTENT DESIGN
 
 Peter Nicholson
 Zack Holmgren
-Evie "Evie HJ" HÃ©bert-Jodoin
+Evie "Evie HJ" Hébert-Jodoin
 
-Â§ADDITIONAL RESEARCH
+§ADDITIONAL RESEARCH
 
 Djordje Zivanovic
 
-Â§LOCALIZATION
+§LOCALIZATION
 
-Nicolas FouquÃ© (French)
+Nicolas Fouqué (French)
 Kai Bagehorn (German)
 Jaime Ortega (Spanish)
 
-Â§SOUND
+§SOUND
 
 Tobias Gustavsson
 
-Â§ORIGINAL MUSIC
+§ORIGINAL MUSIC
 
 Mangalf
 
-Â§MANUAL
+§MANUAL
 
 Troy Goodfellow
 Jorunn / An Ordinary Day
 
-Â§QA MANAGER
+§QA MANAGER
 
 Felix Gladitz
 
-Â§QA TEAM LEAD CENTRAL
+§QA TEAM LEAD CENTRAL
 
 Filippa Gannholm Kirsten
 
-Â§PROJECT COORDINATOR
+§PROJECT COORDINATOR
 
 Tegan Harris
 
-Â§QA TESTERS
+§QA TESTERS
 
 Joseph Gardener
 Tegan Harris
 
-Â§TECH QA
+§TECH QA
 
 Albin Wallin
 
-Â§ADDITIONAL QA
+§ADDITIONAL QA
 
 Carsten 't Mannetje
 
 
-Â§MARKETING TEAM
+§MARKETING TEAM
 
-Â§PRODUCT MARKETING MANAGER
+§PRODUCT MARKETING MANAGER
 
 Filip Sirc
 Christian Daflos
 
-Â§CONTENT PRODUCER
+§CONTENT PRODUCER
 
 Max Collin
 
-Â§PERFORMANCE MARKETING MANAGER
+§PERFORMANCE MARKETING MANAGER
 
 Michiel Van Loo
 
-Â§COMMUNITY MANAGER
+§COMMUNITY MANAGER
 
-BjÃ¶rn Blomberg
+Björn Blomberg
 Rodrigue Delrue
 
-Â§PARTNER ACCOUNT MANAGER
+§PARTNER ACCOUNT MANAGER
 
 Viktor Stadler
 
-Â§PR
+§PR
 
 Troy Goodfellow
 
-Â§ANALYTICS
+§ANALYTICS
 
 Steacy McIlwham
 
-Â§USER RESEARCH
+§USER RESEARCH
 
 Tobias Viklund
 
 
-Â§QLOC
+§QLOC
 
-Â§QA PROJECT MANAGER
+§QA PROJECT MANAGER
 
 
 Maciej Grabowski
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Marcin Jankowski
 Justyna Janicka
 
-Â§QA TESTERS (DEDICATED)
+§QA TESTERS (DEDICATED)
 
 Grzegorz Nowicki
 
-Â§QA TESTERS (CORE)
+§QA TESTERS (CORE)
 
 Bartosz Maciejewski
 Gabriel Urban
 Maksymilian Szczepanczyk
-UroÅ¡ Rudolf
+Uroš Rudolf
 
-Â§QA TESTERS (ADDITIONAL)
+§QA TESTERS (ADDITIONAL)
 
 Bartlomiej Wyciszkiewicz
 Dominik Jastrzebski
@@ -1969,17 +1969,17 @@ Arkadiusz Majewski
 Mateusz Marczak
 
 
-Â§BETA TESTERS
+§BETA TESTERS
 
 Byron "Alfray Stryke" Aytoun
-Magne SkjÃ¦ran
+Magne Skjæran
 Gilles "gigau" Gaudray
 Luis Arias
 Matt "Oxslow" Windsor
 Edwin Oakley
 Adam "Kosa" Kosecki
 Brandon Matheson
-Richard HÃ¼hn
+Richard Hühn
 Billy "Ezence" Jonsson
 Cyril Achcar
 Tomasz "Zwirbaum" Zwirski
@@ -1988,47 +1988,47 @@ Alex Williams
 Thomas Perkins
 Rajeev Majumdar
 Stefano Jalinar
-Manuel KÃ¼ting
+Manuel Küting
 
 
-Â§Europa Universalis IV: Dharma
+§Europa Universalis IV: Dharma
 
 
-Â§CREATIVE DIRECTOR
+§CREATIVE DIRECTOR
 
 Johan Andersson
 
-Â§GAME DIRECTOR
+§GAME DIRECTOR
 
 Jake Leiper-Ritchie
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 
 Sam Millen
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Jake Leiper-Ritchie
 Henrik Hansson
 
-Â§TECH LEAD
+§TECH LEAD
 
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 
-Rickard LagerbÃ¤ck
-Michael SchieÃŸl
+Rickard Lagerbäck
+Michael Schießl
 Lorenzo Berni
 Henrik Hansson
 Mathieu Ropert
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Henrik Lohmander
 Daniel Tolman
 
-Â§ARTISTS 2D
+§ARTISTS 2D
 
 Petter Lundh
 Irene Rodriguez
@@ -2036,71 +2036,71 @@ Bjarne Hallberg
 Ylva Ljungqvist
 Timor Khanagov 
 
-Â§ARTISTS 3D
+§ARTISTS 3D
 
 Joacim Carlberg
 Niklas Tammpere
 
-Â§EMBEDDED QA TESTERS
+§EMBEDDED QA TESTERS
 
 Daniel Olsson
 Carmille Gidfors Netzler
 
-Â§ASSOCIATE PRODUCER
+§ASSOCIATE PRODUCER
 
-Sara Wendel-Ã–rtqvist
+Sara Wendel-Örtqvist
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 
 Fredrik Lie
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 
 Wastelands Interactive
 5518 Studios
 N-iX
 Alexander Thornborough
 
-Â§ADDITIONAL RESEARCH
+§ADDITIONAL RESEARCH
 
 Z. "Fryz" YE
 Yoshihiko Hayashi 
-Evie "Evie HJ" HÃ©bert-Jodoin
+Evie "Evie HJ" Hébert-Jodoin
 
-Â§LOCALIZATION
+§LOCALIZATION
 
-Nicolas FouquÃ© (French)
+Nicolas Fouqué (French)
 Kai Bagehorn (German)
 Jaime Ortega (Spanish)
 
-Â§SOUND
+§SOUND
 
 Franco Freda
 Tobias Gustavsson
 
-Â§ORIGINAL MUSIC
+§ORIGINAL MUSIC
 
-Yannick SÃ¼ÃŸ / Audinity
+Yannick Süß / Audinity
 Robin Birner / Audinity
 
-Â§MANUAL
+§MANUAL
 
 Troy Goodfellow
 Jorunn / An Ordinary Day
 
-Â§QA MANAGER
+§QA MANAGER
 
 Felix Gladitz
 
-Â§QA TEAM LEAD CENTRAL
+§QA TEAM LEAD CENTRAL
 
 Filippa Gannholm Kirsten
 
-Â§PRIMARY PROJECT COORDINATOR
+§PRIMARY PROJECT COORDINATOR
 
 Tegan Harris
 
-Â§QA TESTERS
+§QA TESTERS
 
 Albin Wallin
 Ewan Cowhig Croft
@@ -2109,69 +2109,69 @@ Joseph Gardener
 Tegan Harris
 William Riggott
 
-Â§ARCTIC QA
+§ARCTIC QA
 
 Joshua Evans
 
-Â§COMMUNITY QA
+§COMMUNITY QA
 
 Carsten 't Mannetje
 
 
-Â§MARKETING TEAM
+§MARKETING TEAM
 
-Â§PRODUCT MARKETING MANAGER
+§PRODUCT MARKETING MANAGER
 
 Filip Sirc
 
-Â§CONTENT PRODUCER
+§CONTENT PRODUCER
 
 Max Collin
 
-Â§PERFORMANCE MARKETING MANAGER
+§PERFORMANCE MARKETING MANAGER
 
 Michiel Van Loo
 
-Â§COMMUNITY MANAGER
+§COMMUNITY MANAGER
 
 Christian Daflos
-BjÃ¶rn Blomberg
+Björn Blomberg
 Rodrigue Delrue
 
-Â§PARTNER ACCOUNT MANAGER
+§PARTNER ACCOUNT MANAGER
 
 Viktor Stadler
 
-Â§PR
+§PR
 
 Troy Goodfellow
 
-Â§ANALYTICS
+§ANALYTICS
 
 Steacy McIlwham
 
-Â§USER RESEARCH
+§USER RESEARCH
 
 Tobias Viklund
 
 
-Â§QLOC
+§QLOC
 
-Â§QA PROJECT MANAGER
+§QA PROJECT MANAGER
 
 Maciej Grabowski
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Marcin Jankowski
 Karolina Jagnyziak
 Justyna Janicka
 
-Â§QA TESTERS (DEDICATED)
+§QA TESTERS (DEDICATED)
 
 Artur Glegola
 
-Â§QA TESTERS (CORE)
+§QA TESTERS (CORE)
 
 Bartosz Maciejewski
 Gabriel Urban
@@ -2180,7 +2180,7 @@ Maksymilian Szczepanczyk
 Oskar Nowak
 Uros Rudolf
 
-Â§QA TESTERS (ADDITIONAL)
+§QA TESTERS (ADDITIONAL)
 
 Bartlomiej Wyciszkiewicz
 Grzegorz Nowicki
@@ -2188,21 +2188,21 @@ Jakub Potapczyk
 Arkadiusz Majewski
 
 
-Â§BETA TESTERS
+§BETA TESTERS
 
 Dieter 't Mannetje
 Gilles "gigau" Gaudray
 Byron Aytoun
-Magne SkjÃ¦ran
+Magne Skjæran
 Predrag Markovic
 Luis Arias
-GeneviÃ¨ve HÃ©bert-Jodoin
+Geneviève Hébert-Jodoin
 Z. "Fryz" YE
 Raphael Silnicki
-Kristoffer Ã…strÃ¶m
+Kristoffer Åström
 Billy Jonsson
 Christopher Lee
-Richard HÃ¼hn
+Richard Hühn
 Thomas Perkins
 Cyril Achcar
 Francesco Teruzzi
@@ -2218,182 +2218,182 @@ Edwin Oakley
 Michael Kundak-Cowall 
 
 
-Â§Europa Universalis IV: Rule Britannia
+§Europa Universalis IV: Rule Britannia
 
 
-Â§CREATIVE DIRECTOR
+§CREATIVE DIRECTOR
 
 Johan Andersson
 
-Â§GAME DIRECTOR
+§GAME DIRECTOR
 
 Jake Leiper-Ritchie
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 
 Sam Millen
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Jake Leiper-Ritchie
 Johan Andersson
 
-Â§TECH LEAD
+§TECH LEAD
 
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 Henrik Hansson
-Michael SchieÃŸl
+Michael Schießl
 Petter Hansson
 Lorenzo Berni
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Henrik Lohmander
 Daniel Tolman
 Peter Nicholson
 
-Â§ARTISTS 2D
+§ARTISTS 2D
 
 Timor Khaganov
 Bjarne Hallberg
 Petter Lundh
 
-Â§ARTISTS 3D
+§ARTISTS 3D
 
 Joacim Carlberg
 
-Â§EMBEDDED QA TESTERS
+§EMBEDDED QA TESTERS
 
 Daniel Olsson
 Carmille Gidfors Netzler
 
-Â§DLC MANAGER
+§DLC MANAGER
 
 Pernilla Sparrhult
 
-Â§ASSOCIATE PRODUCER
+§ASSOCIATE PRODUCER
 
-Sara Wendel-Ã–rtqvist
+Sara Wendel-Örtqvist
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 
-Magne SkjÃ¦ran
+Magne Skjæran
 Zack Holmgren
 Fredrik Lie
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 
 Wastelands Interactive
 5518 Studios
 Room 8 Studio
 
-Â§ADDITIONAL RESEARCH
+§ADDITIONAL RESEARCH
 
 Z. "Fryz" YE
-Evie "Evie HJ" HÃ©bert-Jodoin
+Evie "Evie HJ" Hébert-Jodoin
 Mef
 Yoshihiko "chatnoir17" Hayashi 
 Dara "macd21" Mac Donnacha 
 
-Â§LOCALIZATION
+§LOCALIZATION
 
-Nicolas FouquÃ© (French)
+Nicolas Fouqué (French)
 Kai Bagehorn (German)
 Jaime Ortega (Spanish)
 
-Â§SOUND
+§SOUND
 
-BjÃ¶rn Iversen
+Björn Iversen
 
-Â§ORIGINAL MUSIC
+§ORIGINAL MUSIC
 
-Yannick SÃ¼ÃŸ / Audinity
+Yannick Süß / Audinity
 Robin Birner / Audinity
 
-Â§MANUAL
+§MANUAL
 
 Troy Goodfellow
 Jorunn / An Ordinary Day
 
-Â§QA MANAGER
+§QA MANAGER
 
 Felix Gladitz
 
-Â§QA TEAM LEAD CENTRAL
+§QA TEAM LEAD CENTRAL
 
 Filippa Gannholm
 
-Â§PRIMARY PROJECT COORDINATOR
+§PRIMARY PROJECT COORDINATOR
 
 Tegan Harris
 
-Â§QA TESTERS
+§QA TESTERS
 
 Albin Wallin
-Daniel SjÃ¶berg
+Daniel Sjöberg
 Eva Mayer
 Jesper Norberg
 Joseph Gardener
 Tegan Harris
 William Riggott
 
-Â§PUBLISHING QA
+§PUBLISHING QA
 
 Niklas Ivarsson
 
-Â§COMMUNITY QA
+§COMMUNITY QA
 
 Carsten 't Mannetje
 
 
-Â§MARKETING TEAM
+§MARKETING TEAM
 
-Â§PRODUCT MARKETING MANAGER
+§PRODUCT MARKETING MANAGER
 
 Filip Sirc
 
-Â§CONTENT PRODUCER
+§CONTENT PRODUCER
 
 Max Collin
 
-Â§PERFORMANCE MARKETING MANAGER
+§PERFORMANCE MARKETING MANAGER
 
 Michiel Van Loo
 
-Â§COMMUNITY MANAGER
+§COMMUNITY MANAGER
 
 Christian Daflos
-BjÃ¶rn Blomberg
+Björn Blomberg
 
-Â§PARTNER ACCOUNT MANAGER
+§PARTNER ACCOUNT MANAGER
 
 Viktor Stadler
 
-Â§PR
+§PR
 
 Troy Goodfellow
 
-Â§ANALYTICS
+§ANALYTICS
 
 Steacy McIlwham
 
 
-Â§QLOC
+§QLOC
 
-Â§QA PROJECT MANAGER
+§QA PROJECT MANAGER
 
 Konrad Kolacki
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Marcin Jankowski
 Karolina Jagnyziak
 
-Â§QA TESTERS
+§QA TESTERS
 
 Bartosz Maciejewski
 Oskar Nowak
@@ -2402,10 +2402,10 @@ Jan Starosz
 Maksymilian Szczepanczyk
 Gabriel Urban
 
-Â§BETA TESTERS
+§BETA TESTERS
 
 Z. "Fryz" YE
-Evie "Evie HJ" HÃ©bert-Jodoin
+Evie "Evie HJ" Hébert-Jodoin
 Mef
 Yoshihiko "chatnoir17" Hayashi 
 Dara "macd21" Mac Donnacha 
@@ -2414,164 +2414,164 @@ Dieter 't Mannetje
 Gilles "gigau" Gaudray
 Thomas Perkins
 Luis Arias
-Alexander KeÃ¼l
+Alexander Keül
 Cyril Achcar
 Djordje Zivanovic
 Francesco Teruzzi
 
 
-Â§Europa Universalis IV: Cradle of Civilization
+§Europa Universalis IV: Cradle of Civilization
 
 
-Â§CREATIVE DIRECTOR
+§CREATIVE DIRECTOR
 
 Johan Andersson
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 
 Linda Tiger
 
-Â§GAME DESIGN
+§GAME DESIGN
 
 Jake Leiper-Ritchie
 Johan Andersson
 
-Â§TECH LEAD
+§TECH LEAD
 
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 
 Johan Andersson
 Martin Hesselborn
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 Henrik Hansson
-Michael SchieÃŸl
+Michael Schießl
 Alexander Ivannikov
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 
 Henrik Lohmander
 
-Â§ARTISTS 2D
+§ARTISTS 2D
 
 Timor Khaganov
 
-Â§ARTISTS 3D
+§ARTISTS 3D
 
 Joacim Carlberg
 
-Â§EMBEDDED QA TESTERS
+§EMBEDDED QA TESTERS
 
 Daniel Olsson
 Carmille Gidfors Netzler
 
-Â§AI PROGRAMMING
+§AI PROGRAMMING
 
 Martin Hesselborn
-Michael SchieÃŸl
+Michael Schießl
 
-Â§DLC MANAGER
+§DLC MANAGER
 
 Pernilla Sparrhult
 
-Â§ASSOCIATE PRODUCER
+§ASSOCIATE PRODUCER
 
-Sara Wendel-Ã–rtqvist
+Sara Wendel-Örtqvist
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 
 Wastelands
 Alexander Thornborough
 Room 8
-Hugo Ã–ringe
+Hugo Öringe
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 
 Hampus Liljekvist
-Fredrik PrÃ¤ntare
+Fredrik Präntare
 James Persaud
 
-Â§ADDITIONAL CONTENT
+§ADDITIONAL CONTENT
 
 Gilles "gigau" Gaudray
 
-Â§ADDITIONAL RESEARCH
+§ADDITIONAL RESEARCH
 
 Christopher Whitehead
 
-Â§LOCALIZATION
+§LOCALIZATION
 
-Nicolas FouquÃ© (French)
+Nicolas Fouqué (French)
 Kai Bagehorn (German)
 Jaime Ortega (Spanish)
 
-Â§SOUND
+§SOUND
 
-BjÃ¶rn Iversen
+Björn Iversen
 David Schlein-Andersen
 
-Â§ORIGINAL MUSIC
+§ORIGINAL MUSIC
 
 Kairi Sawler
 
-Â§MANUAL
+§MANUAL
 
 Troy Goodfellow
 Jorunn / An Ordinary Day
 
-Â§USERMOD COORDINATOR
+§USERMOD COORDINATOR
 
 Joel Hansson 
 
-Â§QA MANAGER
+§QA MANAGER
 
 Felix Gladitz
 
-Â§QA TEST LEAD
+§QA TEST LEAD
 
 Filippa Gannholm
 
-Â§ADDITIONAL TESTERS
+§ADDITIONAL TESTERS
 
 Markus Grebe
 
-Â§QA TESTERS
+§QA TESTERS
 
 Albin Wallin
-Daniel SjÃ¶berg
+Daniel Sjöberg
 Eva Mayer
 Jesper Norberg
 Matt Frary
 Sebastian Borg
 Tegan Harris
 
-Â§PUBLISHING QA
+§PUBLISHING QA
 
 Loke Norman
 Niklas Ivarsson
 Roeland Weckx
 
-Â§COMMUNITY QA
+§COMMUNITY QA
 
 Carsten 't Mannetje
 
-Â§QLOC
+§QLOC
 
-Â§QA TEAM LEADER
+§QA TEAM LEADER
 
 Marcin Jankowski
 
-Â§QA TESTERS
+§QA TESTERS
 
 Bartosz Maciejewski
 Oskar Nowak
-UroÅ¡ Rudolf
+Uroš Rudolf
 Jan Starosz
 Maksymilian Szczepanczyk
 Gabriel Urban
 
-Â§BETA TESTERS
+§BETA TESTERS
 
 Jakub Mozgawa
 Gilles "gigau" Gaudray
@@ -2589,79 +2589,79 @@ Christopher Whitehead
 Anton Panas
 
 
-Â§Europa Universalis IV: Third Rome
+§Europa Universalis IV: Third Rome
 
-Â§CREATIVE DIRECTOR
+§CREATIVE DIRECTOR
 Johan Andersson
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Anna Norrevik
 Linda Tiger
 
-Â§GAME DESIGN
+§GAME DESIGN
 Jake Leiper-Ritchie
 Johan Andersson
 
-Â§TECH LEAD
-Rickard LagerbÃ¤ck
+§TECH LEAD
+Rickard Lagerbäck
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Johan Andersson
 Martin Hesselborn
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 Henrik Hansson
 Marko Korhonen
 
-Â§CONTENT DESIGN
+§CONTENT DESIGN
 Henrik Lohmander
 
-Â§ARTISTS 2D
+§ARTISTS 2D
 Timor Khaganov
 
-Â§EMBEDDED QA TESTERS
+§EMBEDDED QA TESTERS
 Daniel Olsson
 Carmille Gidfors Netzler
 Sebastian Borg
 
-Â§ARTISTS 3D
+§ARTISTS 3D
 Joacim Carlberg
 
-Â§AI DESIGN
+§AI DESIGN
 Martin Hesselborn
 
-Â§DLC MANAGER
+§DLC MANAGER
 Pernilla Sparrhult
 
-Â§LOCALISATION MANAGER
-Sara Wendel-Ã–rtqvist
+§LOCALISATION MANAGER
+Sara Wendel-Örtqvist
 
-Â§USERMOD COORDINATOR
+§USERMOD COORDINATOR
 Joel Hansson 
 
-Â§COVER ART
+§COVER ART
 Timor Khanagov
 
-Â§MANUAL
+§MANUAL
 Troy Goodfellow
 
-Â§QA MANAGERS
+§QA MANAGERS
 Felix Gladitz
 Filippa Gannholm
 
-Â§QA TESTERS
+§QA TESTERS
 Albin Wallin
 Daniel Moore
-Daniel SjÃ¶berg
+Daniel Sjöberg
 Jesper Norberg
 Matt Frary
 Sebastian Borg
 
-Â§COMMUNITY QA
+§COMMUNITY QA
 Carsten 't Mannetje
 
-Â§BETA TESTERS
+§BETA TESTERS
 Lukasz Damentko
-Alexander "Zakath" KeÃ¼l
+Alexander "Zakath" Keül
 Dieter 't Mannetje
 Luis Arias
 Thomas Perkins
@@ -2671,86 +2671,86 @@ Djordje Zivanovic
 Francesco Teruzzi
 Cyril Achcar
 
-Â§LOCALISATION
-Nicolas FouquÃ© (French)
+§LOCALISATION
+Nicolas Fouqué (French)
 Kai Bagehorn (German)
 Jaime Ortega (Spanish)
 
-Â§MANUAL LAYOUT
+§MANUAL LAYOUT
 An Ordinary Day
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 Wastelands
 Alexander Thornborough
 QLOC
 
-Â§MUSIC
+§MUSIC
 Audinity
 
-Â§Europa Universalis IV: Mandate of Heaven
+§Europa Universalis IV: Mandate of Heaven
 
-Â§CREATIVE DIRECTOR
+§CREATIVE DIRECTOR
 Johan Andersson
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Anna Norrevik
 
-Â§GAME DESIGN
+§GAME DESIGN
 Jake Leiper-Ritchie
 Johan Andersson
 
-Â§TECH LEAD
-Rickard LagerbÃ¤ck
+§TECH LEAD
+Rickard Lagerbäck
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Marko Korhonen
 Martin Hesselborn
 Johan Andersson
 
-Â§CONTENT DESIGNERS
+§CONTENT DESIGNERS
 Henrik Lohmander
 Drikus Kuiper
 
-Â§ARTISTS 2D
+§ARTISTS 2D
 Timor Khaganov
 
-Â§EMBEDDED QA TESTERS
+§EMBEDDED QA TESTERS
 Daniel Olsson
 Carmille Gidfors Netzler
 
-Â§ARTISTS 3D
+§ARTISTS 3D
 Joacim Carlberg
 
-Â§ANIMATION
+§ANIMATION
 Niklas Tammpere
 
-Â§AI DESIGN
+§AI DESIGN
 Martin Hesselborn
 
-Â§DLC MANAGER
+§DLC MANAGER
 Pernilla Sparrhult
 
-Â§LOCALISATION MANAGER
-Sara Wendel-Ã–rtqvist
+§LOCALISATION MANAGER
+Sara Wendel-Örtqvist
 
-Â§USERMOD COORDINATOR
+§USERMOD COORDINATOR
 Joel Hansson 
 
-Â§COVER ART
+§COVER ART
 Frida Eriksson
 
-Â§MANUAL
+§MANUAL
 Troy Goodfellow
 
-Â§QA MANAGERS
+§QA MANAGERS
 Felix Gladitz
 Filippa Gannholm
 Mario Lasan
 
-Â§QA TESTERS
+§QA TESTERS
 Albin Wallin
 Daniel Moore
-Daniel SjÃ¶berg
+Daniel Sjöberg
 Jesper Norberg
 Markus Grebe
 Markus Veit
@@ -2759,15 +2759,15 @@ Niall Bird
 Peter Skager
 Sebastian Borg
 
-Â§COMMUNITY QA
+§COMMUNITY QA
 Carsten 't Mannetje
 
-Â§ADDITIONAL SCRIPTING & RESEARCH
+§ADDITIONAL SCRIPTING & RESEARCH
 Yoshihiko Hayashi
 Z. Fryz Ye
 
-Â§BETA TESTERS
-Alexander KeÃ¼l
+§BETA TESTERS
+Alexander Keül
 Anton elmorteUA Panas 
 Cyril Achcar
 David Hazlett
@@ -2784,106 +2784,106 @@ Thomas Perkins
 Yoshihiko Hayashi
 Z. Fryz Ye
 
-Â§LOCALISATION
-Nicolas FouquÃ© (French)
+§LOCALISATION
+Nicolas Fouqué (French)
 Kai Bagehorn (German)
 Jaime Ortega (Spanish)
 
-Â§MANUAL LAYOUT
+§MANUAL LAYOUT
 An Ordinary Day
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 Wastelands
 iLogos
 
-Â§Europa Universalis IV: Rights of Man
+§Europa Universalis IV: Rights of Man
 
-Â§CREATIVE DIRECTOR
+§CREATIVE DIRECTOR
 Johan Andersson
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Anna Norrevik
 
-Â§GAME DESIGN
+§GAME DESIGN
 Johan Andersson
 Jake Leiper-Ritchie
 
-Â§GAME PROGRAMMING
-Rickard LagerbÃ¤ck
+§GAME PROGRAMMING
+Rickard Lagerbäck
 Petter Hansson
 Marko Korhonen
 Martin Hesselborn
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 Johan Andersson
 
-Â§ARTISTS 2D
+§ARTISTS 2D
 Timor Khaganov
 
-Â§ARTISTS 3D
+§ARTISTS 3D
 Joacim Carlberg
 Carlos Lundhall
 
-Â§CONTENT DESIGNERS
+§CONTENT DESIGNERS
 Henrik Lohmander
 Milla Isaksson
 Mathilda Bjarnehed
 
-Â§AI DESIGN
+§AI DESIGN
 Petter Hansson
 
-Â§UI DESIGN
-Jonas WickerstrÃ¶m
+§UI DESIGN
+Jonas Wickerström
 
-Â§DLC MANAGER
+§DLC MANAGER
 Pernilla Sparrhult
 
-Â§LOCALISATION MANAGER
-Sara Wendel-Ã–rtqvist
+§LOCALISATION MANAGER
+Sara Wendel-Örtqvist
 
-Â§USERMOD COORDINATOR
+§USERMOD COORDINATOR
 Joel Hansson
 Niklas Strid
 
-Â§COVER ART
+§COVER ART
 Frida Eriksson
 
-Â§MANUAL
+§MANUAL
 Troy Goodfellow
 
-Â§QA MANAGER
+§QA MANAGER
 Mario Lasan
 
-Â§EMBEDDED QA TESTERS
+§EMBEDDED QA TESTERS
 Daniel Olsson
 Jesper Norberg
 
-Â§QA TESTERS
+§QA TESTERS
 Albin Wallin
 Carmille Gidfors Netzler
-Daniel SjÃ¶berg
+Daniel Sjöberg
 Malin Jakobsson
 Markus Grebe
 Peter Skager
 
-Â§COMMUNITY QA
+§COMMUNITY QA
 Carsten 't Mannetje
 
-Â§ADDITIONAL TILES FOR RNW
+§ADDITIONAL TILES FOR RNW
 Anthony Milton
 Rune Vestergaard Borrits
 
-Â§ADDITIONAL SCRIPTING & RESEARCH
+§ADDITIONAL SCRIPTING & RESEARCH
 Djordje Zivanovic
-Nicolas FouquÃ©
+Nicolas Fouqué
 Zi Fryz YE
 Jakub Mozgawa
 chatnoir17
 Chamboozer
 Mef
 
-Â§BETA TESTERS
-Alexander KeÃ¼l
+§BETA TESTERS
+Alexander Keül
 Ali Alper Duman
 Anton Panas
 Bernd Wolters
@@ -2900,107 +2900,107 @@ Raphael Silnicki
 Rune Vestergaard Borrits
 Thomas Perkins
 
-Â§LOCALISATION
-Nicolas FouquÃ©
+§LOCALISATION
+Nicolas Fouqué
 Evelyn Dahlberg
 Shentloc
 
-Â§MANUAL LAYOUT
+§MANUAL LAYOUT
 An Ordinary Day
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 Wastelands Interactive
 
-Â§Europa Universalis IV: Mare Nostrum
+§Europa Universalis IV: Mare Nostrum
 
-Â§CREATIVE DIRECTOR
+§CREATIVE DIRECTOR
 Johan Andersson
 
-Â§STUDIO MANAGER
+§STUDIO MANAGER
 Thomas Johansson
 
-Â§GAME DIRECTOR
-Henrik FÃ¥hraeus
+§GAME DIRECTOR
+Henrik Fåhraeus
 
-Â§GAME DESIGN
+§GAME DESIGN
 Johan Andersson
 Martin Anward
 
-Â§ADDITIONAL GAME DESIGN
+§ADDITIONAL GAME DESIGN
 Jake Leiper-Ritchie
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Martin Anward
 Anna Norrevik
 
-Â§EXECUTIVE PRODUCER
+§EXECUTIVE PRODUCER
 Linda Kiby
 
-Â§ASSOCIATE PRODUCER
-Sara Wendel-Ã–rtqvist
+§ASSOCIATE PRODUCER
+Sara Wendel-Örtqvist
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Johan Andersson
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 Petter Hansson
-Amanda RÃ¶sler
+Amanda Rösler
 Martin Hesselborn
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 Martin Anward
 Igor Aleksandrowicz
 
-Â§SCRIPTING & RESEARCH
+§SCRIPTING & RESEARCH
 Henrik Lohmander
 Rufus Tronde
 
-Â§ADDITIONAL SCRIPTING & RESEARCH
+§ADDITIONAL SCRIPTING & RESEARCH
 Karim Muammar
-Guillaume HÃ©bert-Jodoin
+Guillaume Hébert-Jodoin
 Djordje Zivanovic
 Michael Kundak-Cowall
 
-Â§DLC MANAGER
+§DLC MANAGER
 Pernilla Sparrhult
 
-Â§USERMOD COORDINATOR
+§USERMOD COORDINATOR
 Niklas Strid
 
-Â§LEAD ARTIST 
+§LEAD ARTIST 
 Fredrik Toll
 
-Â§ARTISTS
+§ARTISTS
 Timor Khaganov
 Carlos Lundhall
 Joakim Larsen
 Frida Eriksson
 
-Â§COVER ART
+§COVER ART
 Pontus Olofsson
 
-Â§MANUAL
+§MANUAL
 Troy Goodfellow
 
-Â§QA MANAGER
+§QA MANAGER
 Mario Lasan
 
-Â§EMBEDDED QA TESTERS
+§EMBEDDED QA TESTERS
 Jesper Norberg
 Jake Leiper-Ritchie
 Daniel Olsson
 
-Â§QA TESTERS
+§QA TESTERS
 Leo Larsson
 Peter Skager
-Daniel SjÃ¶berg
+Daniel Sjöberg
 Patric Lindbergh
 Malin Jakobsson
 Rufus Magnusson
 
-Â§COMMUNITY QA
+§COMMUNITY QA
 Carsten 't Mannetje
 
-Â§ADDITIONAL QA
+§ADDITIONAL QA
 Filippa Gannholm
 Olga Koter
 Zeke Lugmair 
@@ -3008,110 +3008,110 @@ Alexander Oltner
 Emil Tisander
 Aziz Faghihinejad
 
-Â§BETA TESTERS
+§BETA TESTERS
 Francesco Teruzzi
 Thomas Perkins
 Ali Alper Duman
 Bernd Wolters
 Anton Panas
 
-Â§LOCALISATION
-Nicolas FouquÃ©
+§LOCALISATION
+Nicolas Fouqué
 Evelyn Dahlberg
 Shentloc
 
-Â§MANUAL LAYOUT
+§MANUAL LAYOUT
 An Ordinary Day
 
-Â§ADDITIONAL ART
+§ADDITIONAL ART
 Wastelands Interactive
 
-Â§Europa Universalis IV: The Cossacks
+§Europa Universalis IV: The Cossacks
 
-Â§CREATIVE DIRECTOR
+§CREATIVE DIRECTOR
 Johan Andersson
 
-Â§STUDIO MANAGER
+§STUDIO MANAGER
 Thomas Johansson
 
-Â§GAME DIRECTOR
-Henrik FÃ¥hraeus
+§GAME DIRECTOR
+Henrik Fåhraeus
 
-Â§GAME DESIGN
+§GAME DESIGN
 Johan Andersson
 Martin Anward
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Martin Anward
 
-Â§EXECUTIVE PRODUCER
+§EXECUTIVE PRODUCER
 Linda Kiby
 
-Â§PRODUCER
+§PRODUCER
 Anna Norrevik
 
-Â§ASSOCIATE PRODUCER
-Sara Wendel-Ã–rtqvist
+§ASSOCIATE PRODUCER
+Sara Wendel-Örtqvist
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Martin Anward
 Johan Andersson
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 Petter Hansson
-Amanda RÃ¶sler
+Amanda Rösler
 
-Â§ADDITIONAL PROGRAMMING
-Johan LerstrÃ¶m
+§ADDITIONAL PROGRAMMING
+Johan Lerström
 John Wordsworth
-Jonas WickerstrÃ¶m
+Jonas Wickerström
 
-Â§SCRIPTING & RESEARCH
+§SCRIPTING & RESEARCH
 Henrik Lohmander
 
-Â§ADDITIONAL SCRIPTING & RESEARCH
+§ADDITIONAL SCRIPTING & RESEARCH
 Carsten 't Mannetje
 Alexander Oltner
 Djordje Zivanovic
 Rune Vestergaard Borrits
 Zi YE
 Anton Panas
-Guillaume HÃ©bert-Jodoin
+Guillaume Hébert-Jodoin
 Ali Alper Duman
 Cyril Achcar
 Michael Kundak-Cowall
 
-Â§DLC MANAGER
+§DLC MANAGER
 Pernilla Sparrhult
 
-Â§USERMOD COORDINATOR
+§USERMOD COORDINATOR
 Niklas Strid
 
-Â§LEAD ARTIST 
+§LEAD ARTIST 
 Fredrik Toll
 
-Â§ARTISTS
+§ARTISTS
 Timor Khaganov
 
-Â§COVER ART
+§COVER ART
 Pontus Olofsson
 
-Â§MANUAL
+§MANUAL
 Troy Goodfellow
 
-Â§QA MANAGERS
+§QA MANAGERS
 Anna Jenelius
 Mario Lasan
 
-Â§QA LEAD
+§QA LEAD
 Jesper Norberg
 
-Â§QA
+§QA
 Jesper Norberg
 Carsten 't Mannetje
 Emilia Kleinrok
 Jake Leiper-Ritchie
 
-Â§ADDITIONAL QA
+§ADDITIONAL QA
 Anna Jenelius
 Mario Lasan
 Emil Tisander
@@ -3119,14 +3119,14 @@ Zeke Lugmair
 Aziz Faghihinejad
 Olga Koter
 Peter Skager
-Daniel SjÃ¶berg
+Daniel Sjöberg
 Patric Lindbergh
 Filippa Gannholm
 Alexander Oltner
 Leo Larsson
 Karim Muammar
 
-Â§BETA TESTERS
+§BETA TESTERS
 Djordje Zivanovic
 Rune Vestergaard Borrits
 Zi YE
@@ -3138,89 +3138,89 @@ Ex Mudder
 Tom Perkins
 Ali Alper Duman
 Cyril Achcar
-Nicolas FouquÃ©
+Nicolas Fouqué
 
-Â§SPECIAL THANKS
+§SPECIAL THANKS
 Arumba
 Satyrlord
 
-Â§Europa Universalis IV: Common Sense
+§Europa Universalis IV: Common Sense
 
-Â§EVP GAME DEVELOPMENT
+§EVP GAME DEVELOPMENT
 Johan Andersson
 
-Â§STUDIO MANAGER
+§STUDIO MANAGER
 Thomas Johansson
 
-Â§GAME DIRECTOR
-Henrik FÃ¥hraeus
+§GAME DIRECTOR
+Henrik Fåhraeus
 
-Â§GAME DESIGN
+§GAME DESIGN
 Johan Andersson
 Martin Anward
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Martin Anward
 
-Â§EXECUTIVE PRODUCER
+§EXECUTIVE PRODUCER
 Linda Kiby
 
-Â§PRODUCER
+§PRODUCER
 Anna Norrevik
 
-Â§ASSOCIATE PRODUCER
-Sara Wendel-Ã–rtqvist
+§ASSOCIATE PRODUCER
+Sara Wendel-Örtqvist
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Martin Anward
 Johan Andersson
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 Petter Hansson
 
-Â§ADDITIONAL PROGRAMMING
-Johan LerstrÃ¶m
+§ADDITIONAL PROGRAMMING
+Johan Lerström
 
-Â§SCRIPTING & RESEARCH
+§SCRIPTING & RESEARCH
 Henrik Lohmander
-Sara Wendel-Ã–rtqvist
+Sara Wendel-Örtqvist
 
-Â§ADDITIONAL SCRIPTING & RESEARCH
+§ADDITIONAL SCRIPTING & RESEARCH
 Carsten 't Mannetje
 
-Â§DLC MANAGERS
+§DLC MANAGERS
 Pernilla Sparrhult
 Kandra Dahlgren
 
-Â§USERMOD COORDINATOR
+§USERMOD COORDINATOR
 Niklas Strid
 
-Â§LEAD ARTIST 
+§LEAD ARTIST 
 Fredrik Toll
 
-Â§ARTISTS
+§ARTISTS
 Aline Gladh
 Jonas Jakobsson
 
-Â§COVER ART
+§COVER ART
 Aline Gladh
 
-Â§MANUAL
+§MANUAL
 Troy Goodfellow
 
-Â§QA MANAGERS
+§QA MANAGERS
 Anna Jenelius
 Mario Lasan
 
-Â§QA LEAD
+§QA LEAD
 Jesper Norberg
 
-Â§QA
+§QA
 Jesper Norberg
 Carsten 't Mannetje
 Emilia Kleinrok
 Jake Leiper-Ritchie
 
-Â§ADDITIONAL QA
+§ADDITIONAL QA
 Anna Jenelius
 Mario Lasan
 Emil Tisander
@@ -3229,91 +3229,91 @@ Zeke Lugmair
 Aziz Faghihinejad
 Olga Koter
 Peter Skager
-Daniel SjÃ¶berg
+Daniel Sjöberg
 Patric Lindbergh
 Filippa Gannholm
 Alexander Oltner
 Leo Larsson
 Karim Muammar
 
-Â§BETA TESTERS
+§BETA TESTERS
 David Hazlett
 Ali Alper Duman
 Seyfullah Kaya
 Anthony Seekatz
 Thomas Perkins
-Nicolas FouquÃ©
+Nicolas Fouqué
 Keith Bennett
 Djordje Zivanovic
 Francesco Teruzzi
-Alexander KeÃ¼l
+Alexander Keül
 Markus Grebe
-Guillaume HÃ©bert-Jodoin
+Guillaume Hébert-Jodoin
 Cyril Achcar 
 Jakub Mozgawa
-Gudmundur JÃ³nsson
+Gudmundur Jónsson
 Patrick Haberlag
-SÃ¸ren Grove Toft
+Søren Grove Toft
 
 
-Â§Europa Universalis IV: El Dorado
+§Europa Universalis IV: El Dorado
 
-Â§EVP GAME DEVELOPMENT
+§EVP GAME DEVELOPMENT
 Johan Andersson
 
-Â§STUDIO MANAGER
+§STUDIO MANAGER
 Thomas Johansson
 
-Â§GAME DIRECTOR
-Henrik FÃ¥hraeus
+§GAME DIRECTOR
+Henrik Fåhraeus
 
-Â§GAME DESIGN
+§GAME DESIGN
 Johan Andersson
 Martin Anward
 
-Â§EXECUTIVE PRODUCER
+§EXECUTIVE PRODUCER
 Linda Kiby
 
-Â§ASSOCIATE PRODUCER
+§ASSOCIATE PRODUCER
 Anna Norrevik
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Martin Anward
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Martin Anward
 Johan Andersson
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 Petter Hansson
 
-Â§SCRIPTING & RESEARCH
+§SCRIPTING & RESEARCH
 Henrik Lohmander
-Sara Wendel-Ã–rtqvist
+Sara Wendel-Örtqvist
 
-Â§DLC MANAGER
+§DLC MANAGER
 Kandra Dahlgren
 
-Â§USERMOD COORDINATOR
+§USERMOD COORDINATOR
 Niklas Strid
 
-Â§LEAD ARTIST 
+§LEAD ARTIST 
 Fredrik Toll
 
-Â§ARTISTS
+§ARTISTS
 Aline Gladh
 Jonas Jakobsson
 
-Â§COVER ART
+§COVER ART
 Aline Gladh
 
-Â§MANUAL
+§MANUAL
 Troy Goodfellow
 
-Â§QA MANAGERS
+§QA MANAGERS
 Anna Jenelius
 Mario Lasan
 
-Â§QA
+§QA
 Anna Jenelius
 Carsten 't Mannetje
 Mario Lasan
@@ -3324,97 +3324,97 @@ Aziz Faghihinejad
 Olga Koter
 Jesper Norberg
 Peter Skager
-Daniel SjÃ¶berg
+Daniel Sjöberg
 
-Â§ADDITIONAL SCRIPTING & RESEARCH
+§ADDITIONAL SCRIPTING & RESEARCH
 Djordje Zivanovic
 Francesco Teruzzi
-Guillaume HÃ©bert-Jodoin
+Guillaume Hébert-Jodoin
 James Roughton
 
-Â§BETA TESTERS
+§BETA TESTERS
 Mikael Hagman
 Djordje Zivanovic
 Keith Bennett
-Alexander KeÃ¼l
+Alexander Keül
 Bernd Wolters
 Francesco Teruzzi
 Yoshihiko Hayashi
-Guillaume HÃ©bert-Jodoin
+Guillaume Hébert-Jodoin
 James Roughton
 Cyril Achcar
 Thomas Perkins
 Raphael Silnicki 
-GuÃ°mundur Steinar JÃ³nsson
+Guğmundur Steinar Jónsson
 Ali Alper Duman
 Anthony Seekatz
 Tuomas Tirronen
 Rajeev D. Majumda
-Nicolas FouquÃ©
+Nicolas Fouqué
 Seyfullah Kaya
 
 
-Â§Europa Universalis IV: Art of War
+§Europa Universalis IV: Art of War
 
-Â§EVP GAME DEVELOPMENT
+§EVP GAME DEVELOPMENT
 Johan Andersson
 
-Â§STUDIO MANAGER
+§STUDIO MANAGER
 Thomas Johansson
 
-Â§GAME DIRECTOR
-Henrik FÃ¥hraeus
+§GAME DIRECTOR
+Henrik Fåhraeus
 
-Â§GAME DESIGN
+§GAME DESIGN
 Johan Andersson
 
-Â§PRODUCER
+§PRODUCER
 Linda Kiby
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Martin Anward
 Thomas Johansson
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Martin Anward
 Johan Andersson
 Joel Hillman
-Jimmy RÃ¶nn
+Jimmy Rönn
 Mohammed Al-Sader
-Rickard LagerbÃ¤ck
+Rickard Lagerbäck
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 Thomas Johansson
 
-Â§SCRIPTING & RESEARCH
+§SCRIPTING & RESEARCH
 Rufus Tronde
 Henrik Lohmander
 
-Â§DLC MANAGER
+§DLC MANAGER
 Kandra Dahlgren
 
-Â§USERMOD COORDINATOR
+§USERMOD COORDINATOR
 Niklas Strid
 
-Â§LEAD ARTIST 
+§LEAD ARTIST 
 Fredrik Toll
 
-Â§ARTISTS
+§ARTISTS
 Mats Virtanen
 Jenny Holmer
 
-Â§COVER ART
+§COVER ART
 Aline Gladh
 
-Â§MANUAL
+§MANUAL
 Troy Goodfellow
 
-Â§QA MANAGERS
+§QA MANAGERS
 Anna Jenelius
 Carsten 't Mannetje
 Mario Lasan
 
-Â§QA
+§QA
 Anna Jenelius
 Carsten 't Mannetje
 Mario Lasan
@@ -3426,23 +3426,23 @@ Olga Koter
 Jesper Norberg
 Peter Skager
 
-Â§QA INTERNS
-Daniel SjÃ¶berg
+§QA INTERNS
+Daniel Sjöberg
 
-Â§ADDITIONAL SCRIPTING & RESEARCH
+§ADDITIONAL SCRIPTING & RESEARCH
 Anthony Seekatz
 Seyfullah Kaya
 Anton Panas
 Djordje Zivanovic
-Guillaume HÃ©bert-Jodoin
-Can Ã–mer TÃ¼rk
+Guillaume Hébert-Jodoin
+Can Ömer Türk
 Richter Sundeen
 Yoshihiko Hayashi
 Zi YE
 Michael Niezgoda
 Christopher Lee
 
-Â§BETA TESTERS
+§BETA TESTERS
 Anthony Seekatz
 Francesco Teruzzi
 Bill Whelan
@@ -3452,12 +3452,12 @@ Anton Panas
 Djordje Zivanovic
 Bernd Wolters
 Mario Zadravec
-Guillaume HÃ©bert-Jodoin
+Guillaume Hébert-Jodoin
 Rune Vestergaard Borrits
 Stephen Adams
-Can Ã–mer TÃ¼rk
-SÃ¸ren Toft
-Alexander KeÃ¼l
+Can Ömer Türk
+Søren Toft
+Alexander Keül
 Dieter 't Mannetje
 Richter Sundeen
 Markus Grebe
@@ -3476,271 +3476,271 @@ Christopher Lee
 David Hazlett
 James Roughton
 Ali Alper Duman
-Nicolas FouquÃ©
+Nicolas Fouqué
 Utku Aydin
 
 
-Â§Europa Universalis IV: Res Publica
+§Europa Universalis IV: Res Publica
 
-Â§GAME DESIGN
+§GAME DESIGN
 Johan Andersson
 
-Â§PRODUCER
+§PRODUCER
 Linda Kiby
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Johan Andersson
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Martin Anward
 Johan Andersson
 Joel Hillman
 
-Â§ADDITIONAL PROGRAMMING
-Jimmy RÃ¶nn
+§ADDITIONAL PROGRAMMING
+Jimmy Rönn
 Niklas Strid
 
-Â§SCRIPTING
+§SCRIPTING
 Rufus Tronde
 
-Â§DLC MANAGER
+§DLC MANAGER
 Kandra Dahlgren
 
-Â§LEAD ARTIST 
+§LEAD ARTIST 
 Fredrik Toll
 
-Â§ARTISTS
+§ARTISTS
 Mats Virtanen
 
-Â§QA MANAGER
+§QA MANAGER
 Carsten 't Mannetje
 Mario Lasan
 
-Â§QA
+§QA
 Carsten 't Mannetje
 Mario Lasan
 Emil Tisander
 Pernilla Sparrhult
 Zeke Lugmair
 
-Â§QA INTERNS
+§QA INTERNS
 Peter Skager
 Kajsa Falck
 Aziz Faghihinejad
 Jesper Norberg
 
-Â§Europa Universalis IV: Wealth of Nations
+§Europa Universalis IV: Wealth of Nations
 
-Â§GAME DESIGN
+§GAME DESIGN
 Johan Andersson
 
-Â§PRODUCER
+§PRODUCER
 Linda Kiby
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Thomas Johansson
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Thomas Johansson
-Jimmy RÃ¶nn
+Jimmy Rönn
 Johan Andersson
 Martin Anward
 Joel Hillman
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 Niklas Strid
 
-Â§LEAD SCRIPTER
+§LEAD SCRIPTER
 Niklas Strid
 
-Â§SCRIPTER
+§SCRIPTER
 Rufus Tronde
 
-Â§DLC MANAGER
+§DLC MANAGER
 Kandra Dahlgren
 
-Â§LEAD ARTIST 
+§LEAD ARTIST 
 Fredrik Toll
 
-Â§ARTISTS
+§ARTISTS
 Mats Virtanen
 Aline Gladh
 
-Â§PR MANAGER
+§PR MANAGER
 Boel Bermann
 
-Â§MANUAL
+§MANUAL
 Troy Goodfellow
 
-Â§QA MANAGER
+§QA MANAGER
 Carsten 't Mannetje
 Mario Lasan
 
-Â§QA
+§QA
 Carsten 't Mannetje
 Mario Lasan
 Emil Tisander
 Pernilla Sparrhult
 Zeke Lugmair
 
-Â§QA INTERNS
+§QA INTERNS
 Peter Skager
 Kajsa Falck
 
-Â§Europa Universalis IV: Conquest of Paradise
+§Europa Universalis IV: Conquest of Paradise
 
-Â§GAME DESIGN
+§GAME DESIGN
 Johan Andersson
 
-Â§PRODUCER
+§PRODUCER
 Linda Kiby
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Thomas Johansson
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Thomas Johansson
-Rikard Ã…slund
-Jimmy RÃ¶nn
+Rikard Åslund
+Jimmy Rönn
 Johan Andersson
 Martin Anward
 
-Â§ADDITIONAL PROGRAMMING
+§ADDITIONAL PROGRAMMING
 Niklas Strid
 
-Â§LEAD SCRIPTER
+§LEAD SCRIPTER
 Niklas Strid
 
-Â§DLC MANAGER
+§DLC MANAGER
 Kandra Dahlgren
 
-Â§LEAD ARTIST 
+§LEAD ARTIST 
 Fredrik Toll
 
-Â§ARTISTS
+§ARTISTS
 Mats Virtanen
 Aline Gladh
 
-Â§PR MANAGER
+§PR MANAGER
 Boel Bermann
 
-Â§MANUAL
+§MANUAL
 Troy Goodfellow
 
-Â§QA MANAGER
+§QA MANAGER
 Carsten 't Mannetje
 
-Â§QA
+§QA
 Niklas Tammpere
 Rufus Tronde
 Zeke Lugmair
 Mario Lasan
 
-Â§Europa Universalis IV was developed by
+§Europa Universalis IV was developed by
 Paradox Development Studio
 
-Â§GAME DESIGN
+§GAME DESIGN
 Johan Andersson
 
-Â§PRODUCER
+§PRODUCER
 Linda Kiby
 
-Â§PROJECT LEAD
+§PROJECT LEAD
 Thomas Johansson
 
-Â§GAME PROGRAMMING
+§GAME PROGRAMMING
 Thomas Johansson
-Rikard Ã…slund
-Jimmy RÃ¶nn
+Rikard Åslund
+Jimmy Rönn
 Johan Andersson
 Martin Anward
 Gustav Palmqvist
 Tomasz Kowalczyk
 
-Â§ADDITIONAL PROGRAMMING
-Johan LerstrÃ¶m
+§ADDITIONAL PROGRAMMING
+Johan Lerström
 Henrik Hansson
-Henrik FÃ¥hraeus
+Henrik Fåhraeus
 Dan Lind
-Olof BjÃ¶rk
+Olof Björk
 Daniel Eriksson
 
-Â§ENGINE PROGRAMMING
+§ENGINE PROGRAMMING
 Fredrik Zetterman
 
-Â§LEAD SCRIPTER
+§LEAD SCRIPTER
 Niklas Strid
 
-Â§SCRIPTING AND RESEARCH
-Sara Wendel-Ã–rtqvist
+§SCRIPTING AND RESEARCH
+Sara Wendel-Örtqvist
 Johan Andersson
 David Ballantyne
 Chris King
 Henrik Eklund
 
-Â§LEAD ARTIST
+§LEAD ARTIST
 Fredrik Toll
 
-Â§ARTISTS
+§ARTISTS
 Aline Gladh
 Jonas Jakobsson
 Mats Virtanen
 
-Â§ART INTERNS
+§ART INTERNS
 Joakim Olofsson
 
-Â§ANIMATION
+§ANIMATION
 Niklas Tammpere
 
-Â§INTERFACE DESIGN & TUTORIAL
-Daniel MoregÃ¥rd
+§INTERFACE DESIGN & TUTORIAL
+Daniel Moregård
 
-Â§ADDITIONAL GAME DESIGN
+§ADDITIONAL GAME DESIGN
 Chris King
 Thomas Johansson
 
-Â§MUSIC
+§MUSIC
 Andreas Waldetoft
 
-Â§SOUND EFFECTS
+§SOUND EFFECTS
 Tapio Liukkonen
 
-Â§ORCHESTRA
+§ORCHESTRA
 Brandenburger Staatsorchester
 
-Â§CONDUCTOR
+§CONDUCTOR
 Bernd Ruf
 
-Â§LOCALISATION
+§LOCALISATION
 Alchemic Dream
 Evelyn Dahlberg
 
-Â§PR MANAGER
+§PR MANAGER
 Boel Bermann
 
-Â§DLC MANAGER
+§DLC MANAGER
 Kandra Dahlgren
 
-Â§QA
+§QA
 Carsten 't Mannetje
 Niklas Tammpere
 
-Â§QA INTERNS
+§QA INTERNS
 Rufus Tronde
 Erik Elgerot
 
-Â§ALPHA TESTERS & RESEARCH
+§ALPHA TESTERS & RESEARCH
 Henrik Lohmander
 Yoshihiko Hayashi
 Alex Kransman
 Graham Leonard
 Jakub Bohonek
 
-Â§ADDITIONAL RESEARCH
-Guillaume HÃ©bert-Jodoin
-Jorge CÃ¢mara
+§ADDITIONAL RESEARCH
+Guillaume Hébert-Jodoin
+Jorge Câmara
 
-Â§BETA TESTERS
+§BETA TESTERS
 Dieter 't Mannetje
 Lukasz Damentko
 Jens Thorup Jensen
@@ -3749,7 +3749,7 @@ Markus Grebe
 Raphael Silnicki
 Rune Vestergaard Borrits
 Andrew Seale
-Gunnar LindstrÃ¶m
+Gunnar Lindström
 Francesco Teruzzi 
 Djordje Zivanovic
 Seyfullah Kaya
@@ -3768,7 +3768,7 @@ Mateusz Kozlowski
 David Hazlett
 Thomas Perkins
 Ferdy van Diemen 
-Markus MÃ¶ller
+Markus Möller
 Yun Hui-seung
 Frithjof Nikolai Wilborn
 Peter Ebbesen
@@ -3787,179 +3787,179 @@ Andrew Taubman
 Brian Haddad
 Alexander Keul
 Jonathan Sanders
-Jean LÃ©vesque
+Jean Lévesque
 Rikard Blixt
 Dennis Harbich
 Eric Friedman
 Tommi Laukkanen
 Martin Olsen
 Fabian Schneider
-Patrick Viggo MÃ¸ller
+Patrick Viggo Møller
 Joshua Kearns
 
 ------------------
 
-Â§Additional content was developed by Paradox South
+§Additional content was developed by Paradox South
 
 
-Â§STUDIO MANAGER
-Lars HÃ¥hus
+§STUDIO MANAGER
+Lars Håhus
 
-Â§ART LEAD
+§ART LEAD
 Linda Andersson
 
-Â§3D ARTISTS
+§3D ARTISTS
 Linda Andersson
 Markus Krans
-Viktor NystrÃ¶m
-Magnus NystrÃ¶m
+Viktor Nyström
+Magnus Nyström
 Marie Kauffeldt
 Joacim Carlberg
 Tindy Hellman
 
-Â§2D ARTISTS
-Charlotta BÃ¤vholm
+§2D ARTISTS
+Charlotta Bävholm
 Christoffer Fransson
 Aliosha Blombrink
 Tindy Hellman
 
-Â§ANIMATION
+§ANIMATION
 Marie Kauffeldt
 Nancy Lai
 
-Â§ART INTERNS
+§ART INTERNS
 David Horler
 Thomas Allansson
-Joel FÃ¤llbom
+Joel Fällbom
 
 
 ------------------
 
-Â§The game was published by Paradox Interactive.
+§The game was published by Paradox Interactive.
 
-Â§PDX Interactive EU 4 team
+§PDX Interactive EU 4 team
 
-Â§Producer
-JÃ¶rgen BjÃ¶rklund
+§Producer
+Jörgen Björklund
 
-Â§DLC producer
-Andreas RenstrÃ¶m
+§DLC producer
+Andreas Renström
 
-Â§Brand Manager
+§Brand Manager
 Jakob Munthe
 
 
 
-Â§Paradox Interactive
+§Paradox Interactive
 
-Â§CEO
+§CEO
 Fredrik Wester
 
-Â§CFO
+§CFO
 Andras Vajlok
 
-Â§Executive Vice President of Sales
+§Executive Vice President of Sales
 Reena M Miranda
 
-Â§Vice President of Product Aquisition
+§Vice President of Product Aquisition
 Shams Jorjani
 
-Â§Executive Vice President of Production
+§Executive Vice President of Production
 Mattias Lilja
 
-Â§CMO
+§CMO
 Susana Meza Graham
 
-Â§Senior Game Producer
+§Senior Game Producer
 Joe Fricano
 
-Â§Senior Line Producers
-JÃ¶rgen BjÃ¶rklund
-Andreas RenstrÃ¶m
+§Senior Line Producers
+Jörgen Björklund
+Andreas Renström
 
-Â§Game Producer
+§Game Producer
 Robin Cederholm
 
-Â§Brand Manager
+§Brand Manager
 Jakob Munthe
 
-Â§Associate Game Producers
-Staffan BerglÃ©n
+§Associate Game Producers
+Staffan Berglén
 Karl Leino
-Ina BÃ¤ckstrÃ¶m
+Ina Bäckström
 
-Â§QA Producer 
+§QA Producer 
 Erika Kling
 
-Â§QA Manager
+§QA Manager
 Artur Foxander
 
-Â§Associate QA Manager
-Niklas LundstrÃ¶m
+§Associate QA Manager
+Niklas Lundström
 
-Â§QA Testers
+§QA Testers
 Johan Dorell
 Niklas Ivarsson
 Anna Jenelius
 Tobias Viklund
 
-Â§Senior Developer
+§Senior Developer
 Christian Westman
 	
-Â§Junior Developer
+§Junior Developer
 Samuel Haggren
 
-Â§Senior PR Manager
+§Senior PR Manager
 Petra Tell
 
-Â§PR Manager
+§PR Manager
 David Martinez
 
-Â§Marketing Manager
+§Marketing Manager
 Daniela Sjunnesson
 
-Â§Streaming Producer
+§Streaming Producer
 Matthijs Hoving
 
-Â§Trailer & Video Producer
+§Trailer & Video Producer
 Steven Wells
 
-Â§Event Manager
+§Event Manager
 Jeanette Bauer
 
-Â§Community Manager
-BjÃ¶rn Blomberg
+§Community Manager
+Björn Blomberg
 
-Â§Advertising Manager
+§Advertising Manager
 Mats Wall
 
-Â§Social Media & PR
-Malin SÃ¶derberg
+§Social Media & PR
+Malin Söderberg
 
-Â§Community Developer
+§Community Developer
 John Rickne
 
-Â§Support
+§Support
 Johannes Bengtsson
 
-Â§Sales Associates
+§Sales Associates
 Andrew Ciesla
 Jason Ross
 Don Louie
 
-Â§Finance Manager
-Eleonor BergstrÃ¶m
+§Finance Manager
+Eleonor Bergström
 
-Â§Finance
+§Finance
 Angelica Halme
 
-Â§Legal Counsel
+§Legal Counsel
 Juliette Auverny-Bennetot
 
-Â§Marketing Assistant
+§Marketing Assistant
 Veronica Gunlycke
 
-Â§Cover Art
+§Cover Art
 Andreas Bennwik 
 
 Thanks to all our partners worldwide, in particular long-term partners 
@@ -3980,4 +3980,4 @@ who are integral to our success.
 
 
 
-FORZA DJURGÃ…R'N!
+FORZA DJURGÅR'N!

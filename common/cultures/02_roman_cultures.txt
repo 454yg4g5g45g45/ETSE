@@ -10,12 +10,12 @@ latin = {
 			"Felicula" "Candidus" "Paternus" "Seneca" "Pilatus" "Zoticus" "Epiphanus" "Ecletus" "Beatus" "Vaticanus"
 
 			# HYBRID NATIVE-LATIN (40 Names)
-			"Campbellianus" "MacCallumianus" "Lynchianus" "Wallaceus" "MacEwanus" "O‚ÄôDonnellianus" "O‚ÄôRourkius" "Fraserius" "MacGregorinus" "MacDougallianus" "O‚ÄôFlahertius" "MacIntyreus" "MacMillanicus" "McHughius"
-			"MacRaicus" "O‚ÄôCallaghanus" "Boydus" "McNamaraicus" "MacBethus" "MacDuffius" "MacNabinus" "O‚ÄôDwyerius" "O‚ÄôSheaianus" "Fergusonus" "Gallagherius" "MacKenzieus" "Douglasianus" "Bruceus"
+			"Campbellianus" "MacCallumianus" "Lynchianus" "Wallaceus" "MacEwanus" "OíDonnellianus" "OíRourkius" "Fraserius" "MacGregorinus" "MacDougallianus" "OíFlahertius" "MacIntyreus" "MacMillanicus" "McHughius"
+			"MacRaicus" "OíCallaghanus" "Boydus" "McNamaraicus" "MacBethus" "MacDuffius" "MacNabinus" "OíDwyerius" "OíSheaianus" "Fergusonus" "Gallagherius" "MacKenzieus" "Douglasianus" "Bruceus"
 			"Kerrinus" "MacPhersonus" "Moranus" "MacLarenicus" "Innesius" "Sinclairus" "Gordonus" "Hamiltonicus" "Hunterius" "Stewartianus" "McLoughlinus" "Connolliacius"
 
 			# PURE NATIVE (20 Names)
-			"O‚ÄôSullivan" "O‚ÄôMalley" "O‚ÄôMahony" "O‚ÄôKeeffe" "O‚ÄôHara" "O‚ÄôLeary" "O‚ÄôDowd" "O‚ÄôDriscoll" "Byrne" "Kelly" "Murphy" "Doyle" "Nolan" "Walsh"
+			"OíSullivan" "OíMalley" "OíMahony" "OíKeeffe" "OíHara" "OíLeary" "OíDowd" "OíDriscoll" "Byrne" "Kelly" "Murphy" "Doyle" "Nolan" "Walsh"
 			"Brennan" "Flanagan" "McCarthy" "McDonagh" "McGrath" "McGuinness"
 		}
 		
@@ -366,7 +366,7 @@ latin = {
 
 			# PURE NATIVE (20 Names)
 			"Abolhassan" "Amin" "Babak" "Bozorg" "Ebrahim" "Ehsan" "Fariborz" "Farroukh" "Ferdows" "Ghobad" "Kambiz" "Kamran" "Naveed" "Nawid" "Varshasb"
-			"Vishtasb" "Yazdegerd" "Yousef" "Ism√¢'√Æl" "Tam√¢shp"
+			"Vishtasb" "Yazdegerd" "Yousef" "Ism‚'Ól" "Tam‚shp"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -414,8 +414,8 @@ latin = {
 			"Sapur" "Sarvinus" "Savurus" "Sircus" "Iesides" "Cvedadades" "Cursides" "Cusreus" "Casiares" "Sabas" "Sabases"
 
 			# PURE NATIVE (20 Names)
-			"Aram" "Assad" "Behrad" "Behram" "Eskander" "E≈°ot" "Fer√Æd" "Fer√Ædun" "Hedayat" "Hesen" "K√¢vus" "K√ªru≈°√™" "P√Æroz" "Revend" "≈†ahram"
-			"≈†ahryar" "≈†ahrux" "≈†apur" "≈†arvin" "≈†awur"
+			"Aram" "Assad" "Behrad" "Behram" "Eskander" "Eöot" "FerÓd" "FerÓdun" "Hedayat" "Hesen" "K‚vus" "K˚ruöÍ" "PÓroz" "Revend" "äahram"
+			"äahryar" "äahrux" "äapur" "äarvin" "äawur"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -429,8 +429,8 @@ latin = {
 			"Nidara" "Nigara" "Nirojas" "Sivenes" "Atias" "Silanas" "Sinis" "Sevines" "Selasas" "Saperzes" "Serminas"
 
 			# PURE NATIVE (20 Names)
-			"Arezu" "Ariyan" "Baziyan" "Baz√™" "Devken" "Dilar" "Dilgerm" "Dilistan" "Fener" "Fera≈°√Æn" "Helez" "Heliz" "L√™vken" "L√Ælyan" "N√Æsan"
-			"N√Æ≈°t√Æman" "Per√Æ≈°an" "Pex≈°an" "Peyman" "Pir≈°eng"
+			"Arezu" "Ariyan" "Baziyan" "BazÍ" "Devken" "Dilar" "Dilgerm" "Dilistan" "Fener" "FeraöÓn" "Helez" "Heliz" "LÍvken" "LÓlyan" "NÓsan"
+			"NÓötÓman" "PerÓöan" "Pexöan" "Peyman" "Piröeng"
 		}
 		dynasty_names = {
 			# LATIN CORE (40 Names)
@@ -610,7 +610,7 @@ latin = {
 			"Sangipas" "Saros" "Palaco" "Scilurus" "Zorsines" "Sauromantes" "Ispacus" "Partatuas" "Tigranus" "Abazius"
 
 			# PURE NATIVE (20 Names)
-			"Palacus" "Skilurus" "Abazion" "Abdarakos" "Arsalion" "Arseouachos" "Insazagos" "Irbis" "Spaldines" "Tasius" "Bir√¶g" "Boz-Uruz" "G√¶t√¶g" "Georgy" "Soslan"
+			"Palacus" "Skilurus" "Abazion" "Abdarakos" "Arsalion" "Arseouachos" "Insazagos" "Irbis" "Spaldines" "Tasius" "BirÊg" "Boz-Uruz" "GÊtÊg" "Georgy" "Soslan"
 			"Suarn" "Badaskapes" "Madea" "Davit" "Uturku"
 		}
 		female_names = {
@@ -709,7 +709,7 @@ latin = {
 			"Hocas" "Castratis" "Berisius" "Colonas" "Aranitas" "Cateris" "Dodas" "Basas" "Cenas" "Ginius"
 
 			# PURE NATIVE (20 Names)
-			"Dushmani" "Jonima" "Balsha" "Dukagjini" "K√´lcyra" "Topulli" "Quku" "Doda" "√áela" "Deda" "Latifi" "Llapashtica" "Zogu" "Thopia" "Kastrioti"
+			"Dushmani" "Jonima" "Balsha" "Dukagjini" "KÎlcyra" "Topulli" "Quku" "Doda" "«ela" "Deda" "Latifi" "Llapashtica" "Zogu" "Thopia" "Kastrioti"
 			"Vrioni" "Vokshi" "Abazaj" "Hoxha" "Kastrati"
 		}
 		male_names = {
@@ -724,7 +724,7 @@ latin = {
 			"Sirras" "Bardylis" "Gjergjus" "Lecas" "Gjonas" "Costandinus" "Palus" "Hecuranus" "Iliro" "Sadicus"
 
 			# PURE NATIVE (20 Names)
-			"Heracles" "Ionius" "Scordiscus" "Triballus" "Gjergj" "Lek√´" "Filippo" "Adnan" "Fatmir" "Flamur" "P√´llumb" "P√´rparim" "Ali" "Mustafa" "Maedus"
+			"Heracles" "Ionius" "Scordiscus" "Triballus" "Gjergj" "LekÎ" "Filippo" "Adnan" "Fatmir" "Flamur" "PÎllumb" "PÎrparim" "Ali" "Mustafa" "Maedus"
 			"Taulas" "Gjon" "Halil" "Mehmet" "Ramiz"
 		}
 		female_names = {
@@ -804,7 +804,7 @@ latin = {
 			"Wettinus" "Ascanius" "Altifalcis" "Ervus" "Bodenigus" "Ekersperges" "Brandenstinus" "Papenhemius" "Vichus" "Occidentes"
 
 			# PURE NATIVE (20 Names)
-			"von Schwarzburg" "von Sch√∂nburg" "von Falkenhayn" "von Th√ºna" "von Auerswald" "aus dem Winckel" "von Hoym" "Holtzendorff" "von Fritsch" "von Friesen" "von Pflugk" "von P√∂lnitz" "von Kannewurf" "Karras" "von Wettin"
+			"von Schwarzburg" "von Schˆnburg" "von Falkenhayn" "von Th¸na" "von Auerswald" "aus dem Winckel" "von Hoym" "Holtzendorff" "von Fritsch" "von Friesen" "von Pflugk" "von Pˆlnitz" "von Kannewurf" "Karras" "von Wettin"
 			"Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg"
 		}
 		male_names = {
@@ -948,7 +948,7 @@ latin = {
 			"Lilius" "Puco" "Bondas" "Vaseus" "Rosarius" "Sparreus" "Hornas" "Lionis" "Palmio" "Possius"
 
 			# PURE NATIVE (20 Names)
-			"H√•rfagre√¶tta" "Bielke" "Rosenkrantz" "Urne" "Galtung" "Heubsch" "Tott" "Trolle" "Leijonhufvud" "Natt och Dag" "Svinhufvud" "H√•rd" "Hatt" "Marsvin" "Gera"
+			"HÂrfagreÊtta" "Bielke" "Rosenkrantz" "Urne" "Galtung" "Heubsch" "Tott" "Trolle" "Leijonhufvud" "Natt och Dag" "Svinhufvud" "HÂrd" "Hatt" "Marsvin" "Gera"
 			"Gylta" "Vasa" "Tre Rosor" "Sparre" "Sture"
 		}
 		male_names = {
@@ -963,7 +963,7 @@ latin = {
 			"Haraldas" "Ingius" "Aleus" "Alferus" "Andras" "Cettilmondo" "Baldrus" "Bursas" "Philippus" "Georgius"
 
 			# PURE NATIVE (20 Names)
-			"Ale" "Alfr" "Bertil" "Birger" "Eirikr" "Erik" "Haraldr" "Harold" "Kettilmund" "Kjartan" "Sigur√∞r" "Sigurd" "√ûorbj√∂rn" "Torbj√∂rn" "Olav"
+			"Ale" "Alfr" "Bertil" "Birger" "Eirikr" "Erik" "Haraldr" "Harold" "Kettilmund" "Kjartan" "Sigurr" "Sigurd" "ﬁorbjˆrn" "Torbjˆrn" "Olav"
 			"Christoffer" "Anders" "Arni" "Baldr" "Bersi"
 		}
 		female_names = {
@@ -978,7 +978,7 @@ latin = {
 			"Beatrice" "Brigidia" "Elina" "Elisabetas" "Helena" "Olmidia" "Ilianias" "Saras" "Sifas" "Sigrida"
 
 			# PURE NATIVE (20 Names)
-			"Torhild" "Aleta" "Bothild" "Bothildr" "Gunnhildr" "Gunhild" "Ingeborg" "Ingjer√∞r" "Rikissa" "R√∂gnfrid" "Svanhildr" "Svanhild" "Alfhildr" "Alfridh" "Alv√∂r"
+			"Torhild" "Aleta" "Bothild" "Bothildr" "Gunnhildr" "Gunhild" "Ingeborg" "Ingjerr" "Rikissa" "Rˆgnfrid" "Svanhildr" "Svanhild" "Alfhildr" "Alfridh" "Alvˆr"
 			"Asa" "Asta" "Astrid" "Beata" "Birgitta"
 		}
 	}
@@ -1027,8 +1027,8 @@ latin = {
 			"Editia" "Emiliana" "Estera" "Eva" "Ilonia" "Inga" "Ianina" "Iulias" "Cristina" "Leias"
 
 			# PURE NATIVE (20 Names)
-			"Agn√©" "Morta" "Dalia" "Danute" "Gabija" "Gabriele" "Liucija" "Liudvika" "Sofija" "Solveiga" "Vilhelmina" "Viltaute" "Aldona" "Amalija" "Audra"
-			"Aurelija" "Au≈°ra" "Austeja" "Barbora" "Daina"
+			"AgnÈ" "Morta" "Dalia" "Danute" "Gabija" "Gabriele" "Liucija" "Liudvika" "Sofija" "Solveiga" "Vilhelmina" "Viltaute" "Aldona" "Amalija" "Audra"
+			"Aurelija" "Auöra" "Austeja" "Barbora" "Daina"
 		}
 	}
 	deneprian = {
@@ -1145,7 +1145,7 @@ latin = {
 			"Dulus" "Ermeus" "Lalius" "Hannes" "Iacobus" "Ilcas" "Isotales" "Lahtinus" "Cascus" "Sepas"
 
 			# PURE NATIVE (20 Names)
-			"Veps√§" "Rova" "Lauri" "Tuure" "Kukkonen" "Savolainen" "Sarvilahti" "B√°thory" "Eszterh√°zy" "Festetics" "R√≥nai" "Sz√©chenyi" "Both" "R√°k√≥czi" "Thurz√≥"
+			"Veps‰" "Rova" "Lauri" "Tuure" "Kukkonen" "Savolainen" "Sarvilahti" "B·thory" "Eszterh·zy" "Festetics" "RÛnai" "SzÈchenyi" "Both" "R·kÛczi" "ThurzÛ"
 			"Zichy" "Suensaari" "Tamperelainen" "Lalli" "Hannus"
 		}
 		male_names = {
@@ -1161,7 +1161,7 @@ latin = {
 			"Lucas" "Marcus" "Batirius" "Muminius" "Michaelus" "Gabdolus" "Celberus" "Cobrates" "Batbaianus" "Gostas"
 
 			# PURE NATIVE (20 Names)
-			"Kotrag" "Irhan" "Gavril" "Kaloyan" "Antero" "Eino" "Tapani" "Arvo" "Johannes" "John" "Thomas" "Ul√°szl√≥" "Boldizs√°r" "Orb√°n" "Lampert"
+			"Kotrag" "Irhan" "Gavril" "Kaloyan" "Antero" "Eino" "Tapani" "Arvo" "Johannes" "John" "Thomas" "Ul·szlÛ" "Boldizs·r" "Orb·n" "Lampert"
 			"Levente" "Tuqyi" "Aidar" "Silki" "Batyr"
 		}
 		female_names = {
@@ -1177,8 +1177,8 @@ latin = {
 			"Lazara" "Lorencia" "Helmia" "Ilta" "Carina" "Caterinas" "Capia" "Ciela" "Cuca" "Lauha"
 
 			# PURE NATIVE (20 Names)
-			"Tarja" "Aina" "Taimi" "Terhi" "Helen" "Kristiina" "K√´lyamal" "Lyukha" "Patiyer" "Payk√´lti" "Tura" "T√§htani" "Eszter" "Zs√≥fia" "Korn√©l"
-			"Krist√≥f" "Jaana" "Aamu" "Aino" "Hell√§"
+			"Tarja" "Aina" "Taimi" "Terhi" "Helen" "Kristiina" "KÎlyamal" "Lyukha" "Patiyer" "PaykÎlti" "Tura" "T‰htani" "Eszter" "ZsÛfia" "KornÈl"
+			"KristÛf" "Jaana" "Aamu" "Aino" "Hell‰"
 		}
 	}
 	nilassian = {
@@ -1425,8 +1425,8 @@ latin = {
 			"Radas" "Tessemes" "Teodorus" "Iacobus" "Iohanas" "Baedamarius" "Amdesion" "Lebnus" "Sagacrestus" "Amares" "Danaius" "Destus" "Getaces"
 
 			# PURE NATIVE (20 Names)
-			"Taqla H√¢ym√¢n√¥t" "'Amsa G√Æy√¥rg√Æs" "Mika'el" "Antenatewos" "Quastant√Æn√¥s" "Negus" "T√™w√¥fl√¥s" "Y√¥st√¥s" "Hamalmal" "Welde Giyorgis" "Gebre"
-			"Gondar" "Ogbae" "Ogbai" "Tessema" "Tewodros" "Tuqla G√Æy√¥rg√Æs" "Zar'a Y√¢qob" "Ba'eda M√¢ry√¢m" "'Amda Sey√¥n"
+			"Taqla H‚ym‚nÙt" "'Amsa GÓyÙrgÓs" "Mika'el" "Antenatewos" "QuastantÓnÙs" "Negus" "TÍwÙflÙs" "YÙstÙs" "Hamalmal" "Welde Giyorgis" "Gebre"
+			"Gondar" "Ogbae" "Ogbai" "Tessema" "Tewodros" "Tuqla GÓyÙrgÓs" "Zar'a Y‚qob" "Ba'eda M‚ry‚m" "'Amda SeyÙn"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -1479,8 +1479,8 @@ latin = {
 			"Bevino" "Bernardus" "Iosephus" "Cesanes" "Cecenius" "Cibindus" "Naveis" "Mbalas" "Teholus" "Mambenes" "Mabus" "Fimpas" "Matetas"
 
 			# PURE NATIVE (20 Names)
-			"Garcia" "√Ålvaro" "Nzinga" "Nkuwa" "Mavinga" "Malanda" "Kiambukuta" "Nzazi" "Bwena" "Nsimba" "Mayala" "Mavoka" "Pedro"
-			"Afonso" "Ntinu" "Nkuwu" "Henrique" "Ant√≥nio" "Bernardo" "Jos√©"
+			"Garcia" "¡lvaro" "Nzinga" "Nkuwa" "Mavinga" "Malanda" "Kiambukuta" "Nzazi" "Bwena" "Nsimba" "Mayala" "Mavoka" "Pedro"
+			"Afonso" "Ntinu" "Nkuwu" "Henrique" "AntÛnio" "Bernardo" "JosÈ"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -1535,7 +1535,7 @@ latin = {
 
 			# PURE NATIVE (20 Names)
 			"Mbala" "Nkong" "Ndongo" "Ngwa" "Mbangala" "Mbua" "Ndjongo" "Mboumba" "Mballa" "Koyok" "Ngassa-Kamo" "Abakar" "Djiboy"
-			"V√µr√©" "Bouk√©" "Boganda" "Njoya" "Ngum" "Kum" "Lukong"
+			"VırÈ" "BoukÈ" "Boganda" "Njoya" "Ngum" "Kum" "Lukong"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -1716,7 +1716,7 @@ latin = {
 			"Cilia" "Coloncania" "Lorana" "Mariamas" "Furas" "Imanias" "Camariana" "Mariana" "Dinaraia" "Duas"
 
 			# PURE NATIVE (20 Names)
-			"Fatoumata Sall" "Fatim" "Namandj√©" "Namiss" "Mwanajuma" "Nia" "Inira" "Inithia" "Kirima" "Muney"
+			"Fatoumata Sall" "Fatim" "NamandjÈ" "Namiss" "Mwanajuma" "Nia" "Inira" "Inithia" "Kirima" "Muney"
 			"Randa" "Tabassum" "Tislit" "Titbirt" "Fatoumata" "Halima" "Hawa" "Ina" "Kadi" "Kilia"
 		}
 	}
@@ -1738,7 +1738,7 @@ latin = {
 
 			# PURE NATIVE (20 Names)
 			"Magsharen" "Stanbulewa" "Ait Loaien" "Ifergoumessen" "Iriyaken" "Taghat Mellet" "Coulibaly" "Diarra" "Massassi" "ag-Fagaga"
-			"ag-Bahanga" "ag-Intalla" "ag-Idriss" "ag-Boya" "ag-Abdelkarim" "Ma√Øga" "Doumbia" "Traor√©" "Dag Rali" "Iregenaten"
+			"ag-Bahanga" "ag-Intalla" "ag-Idriss" "ag-Boya" "ag-Abdelkarim" "MaÔga" "Doumbia" "TraorÈ" "Dag Rali" "Iregenaten"
 		}
 		male_names = {
 			# LATIN CORE (40 Names)
@@ -1771,7 +1771,7 @@ latin = {
 			"Fidana" "Gunela" "Conulias" "Leilae" "Parvanas" "Parvinia" "Sevdas" "Gaisiria" "Belloas" "Niaca"
 
 			# PURE NATIVE (20 Names)
-			"Tin Hinan" "Takama" "Tanteflest" "Firuza" "Gulnar" "Gulnara" "V√ºsala" "Zemfira" "Zeynab" "Ikeno"
+			"Tin Hinan" "Takama" "Tanteflest" "Firuza" "Gulnar" "Gulnara" "V¸sala" "Zemfira" "Zeynab" "Ikeno"
 			"Inira" "Inithia" "Kirima" "Muney" "Muraty" "Tsholofelo" "Boipelo" "Boitumelo" "Tarayna" "Aygul"
 		}
 	}
@@ -1792,8 +1792,8 @@ latin = {
 			"Mecmes" "Minhagius" "Curisus" "Curumimeas" "Iarages" "Iuparanaus" "Aruanus" "Iraceminas" "Ubirus" "Guarasius"
 
 			# PURE NATIVE (20 Names)
-			"Piratininga" "Tabajara" "Temimin√≥" "Itu√™to" "Futikrak" "Gueren" "Cunhambebe" "Ibirapuera" "Tamoios-√Ågua-Marinha" "Uirapuru"
-			"Xingu" "Aripuan√£" "Yanomami" "Tikuna" "Takrukrak" "Curi√ßa" "Gununusa" "Yanomami-Maku" "Tamoio" "Caet√©"
+			"Piratininga" "Tabajara" "TemiminÛ" "ItuÍto" "Futikrak" "Gueren" "Cunhambebe" "Ibirapuera" "Tamoios-¡gua-Marinha" "Uirapuru"
+			"Xingu" "Aripuan„" "Yanomami" "Tikuna" "Takrukrak" "CuriÁa" "Gununusa" "Yanomami-Maku" "Tamoio" "CaetÈ"
 		}
 		male_names = {
 			# LATIN CORE (40 Names)
@@ -1809,8 +1809,8 @@ latin = {
 			"Cuicurus" "Carapuerus" "Matupiras" "Uirapurus" "Iacuiras" "Cauanikus" "Guaraianus" "Iaraguianus" "Caraiianus" "Banivasus"
 
 			# PURE NATIVE (20 Names)
-			"Cau√£" "Ubirajara" "Moacir" "Jaci-mar√£" "Iara√∫" "Iracema-maru" "Parakan√£" "Jaragu√°" "Xavante" "Baniwa"
-			"Huni Kuin" "Suru√≠" "Kayap√≥" "Macuxi" "Nhamund√°" "Curumim" "Guarani-Mbya" "Guarany-Tup√£" "Guar√°" "Ybyr√°"
+			"Cau„" "Ubirajara" "Moacir" "Jaci-mar„" "Iara˙" "Iracema-maru" "Parakan„" "Jaragu·" "Xavante" "Baniwa"
+			"Huni Kuin" "SuruÌ" "KayapÛ" "Macuxi" "Nhamund·" "Curumim" "Guarani-Mbya" "Guarany-Tup„" "Guar·" "Ybyr·"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -1826,8 +1826,8 @@ latin = {
 			"Refilvae" "Tumeas" "Iracemiana" "Iandiriana" "Ubiranas" "Maraciana" "Xavantiana" "Suruinasa" "Cuicuria" "Imaraes"
 
 			# PURE NATIVE (20 Names)
-			"Iara" "Iracema" "Potira" "Ubirani" "Uirapuru-mirim" "Guaraciara" "Parakana√≠" "Jaragu√°-√≠" "Xavantea" "Baniwa-mirim"
-			"Huni Kuin-a" "Suru√≠na" "Kuikura" "Kayap√≥-mirim" "Macux√≠-a" "Tarum√£-mirim" "Ymar√©-√≠" "Anhang√°-ka" "Jandira" "Yara-√≠ara"
+			"Iara" "Iracema" "Potira" "Ubirani" "Uirapuru-mirim" "Guaraciara" "ParakanaÌ" "Jaragu·-Ì" "Xavantea" "Baniwa-mirim"
+			"Huni Kuin-a" "SuruÌna" "Kuikura" "KayapÛ-mirim" "MacuxÌ-a" "Tarum„-mirim" "YmarÈ-Ì" "Anhang·-ka" "Jandira" "Yara-Ìara"
 		}
 	}
 	argentian = {
@@ -1847,8 +1847,8 @@ latin = {
 			"Cavucus" "Iacairas" "Lautarus" "Paillamachus" "Huenecuras" "Illangulies" "Nancules" "Quilapanilis" "Huenupanes" "Calfumanus"
 
 			# PURE NATIVE (20 Names)
-			"Angatupyry" "Apytere" "Arandu" "Karai" "Katupyry" "Kuarahy" "Ancamilla" "Nampai" "Co√±oep√°n" "Aillavilu"
-			"Catrileo" "√ëanco" "Calfulef" "Huentecol" "Nahuelp√°n" "Antiman" "Coli√±ir" "Antim√°n" "Araresa" "Amaru"
+			"Angatupyry" "Apytere" "Arandu" "Karai" "Katupyry" "Kuarahy" "Ancamilla" "Nampai" "CoÒoep·n" "Aillavilu"
+			"Catrileo" "—anco" "Calfulef" "Huentecol" "Nahuelp·n" "Antiman" "ColiÒir" "Antim·n" "Araresa" "Amaru"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -1865,14 +1865,14 @@ latin = {
 
 			# PURE NATIVE (20 Names)
 			"Bartira" "Potira" "Porasy" "Lefitray" "Leflay" "Llanquipan" "Quimey" "Quintruy" "Quintuqueo" "Huenulef"
-			"Millaray" "A√±i√±ir" "Cuyen" "Anahi" "Ray√©n" "√ëamku" "Nahuelcura" "Paillalef" "Jougousa" "Azelene"
+			"Millaray" "AÒiÒir" "Cuyen" "Anahi" "RayÈn" "—amku" "Nahuelcura" "Paillalef" "Jougousa" "Azelene"
 		}
 		dynasty_names = {
 			# LATIN CORE (40 Names)
 			"Barbatus" "Bulbus" "Caelestius" "Catullus" "Crispus" "Dacicus" "Decembris" "Dolabella" "Eugenius" "Evorius"
 			"Fabullus" "Florus" "Honorinus" "Ianuaria" "Iovus" "Italicus" "Narsica" "Oceanus" "Pantera" "Papus"
 			"Pilatus" "Primianus" "Pupus" "Quadratus" "Serapio" "Severan" "Sidonius" "Superbus" "Taurus" "Thrasea"
-			"Torquatus" "Ursa" "Alb√°nus" "Candidus" "Decius" "Gratus" "Latro" "Montanus" "Rufio" "Sapiens"
+			"Torquatus" "Ursa" "Alb·nus" "Candidus" "Decius" "Gratus" "Latro" "Montanus" "Rufio" "Sapiens"
 
 			# HYBRID NATIVE-LATIN (40 Names)
 			"Mbiguaeus" "Caracaras" "Timbos" "Tucagus" "Pichianus" "Colipis" "Abaius" "Araucanius" "Mapus" "Rucananid"
@@ -1881,8 +1881,8 @@ latin = {
 			"Picunces" "Promaucaeus" "Toquis" "Nuguluces" "Huillices" "Lafquences" "Nahuelceus" "Tehuelcis" "Onasus" "Selcnames"
 
 			# PURE NATIVE (20 Names)
-			"Mbigua" "Caracara" "Timbu" "Pichi√±√°n" "Colip√≠" "Abajino" "Mapu-Che" "Ruca√±anco" "Curihuentro" "√ëanculeo"
-			"Cayupil" "Choll-Choll" "Huenu√±ir" "Almonacid" "Marileo" "Curical" "Quintral" "Nahuelcar" "Tucague" "Calchagui"
+			"Mbigua" "Caracara" "Timbu" "PichiÒ·n" "ColipÌ" "Abajino" "Mapu-Che" "RucaÒanco" "Curihuentro" "—anculeo"
+			"Cayupil" "Choll-Choll" "HuenuÒir" "Almonacid" "Marileo" "Curical" "Quintral" "Nahuelcar" "Tucague" "Calchagui"
 		}
 	}
 	alturian = {
@@ -1902,8 +1902,8 @@ latin = {
 			"Hualpas" "Famas" "Chamicus" "Tancolius" "Tucumaus" "Aioteciapunes" "Docoshamus" "Troinuremo" "Urtiantemus" "Vetsalinunis"
 
 			# PURE NATIVE (20 Names)
-			"Huayna C√°pac" "T√∫pac Hualpa" "Sahuaraura" "Atoc Sopa" "Quispe Titu" "Ruminavi" "Payo" "Tino" "Tancol" "Guari Cur"
-			"Caja C√°pac" "Chumtiku" "Nartamamu" "Pacatmamu" "Viracocha" "Inca Roca" "Huanchicay" "Tucuma" "Huilla" "Orco"
+			"Huayna C·pac" "T˙pac Hualpa" "Sahuaraura" "Atoc Sopa" "Quispe Titu" "Ruminavi" "Payo" "Tino" "Tancol" "Guari Cur"
+			"Caja C·pac" "Chumtiku" "Nartamamu" "Pacatmamu" "Viracocha" "Inca Roca" "Huanchicay" "Tucuma" "Huilla" "Orco"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -1919,7 +1919,7 @@ latin = {
 			"Ilaria" "Illias" "Illapiana" "Indaiae" "Irkas" "Janina" "Jasiras" "Cillae" "Kirina" "Cuianae"
 
 			# PURE NATIVE (20 Names)
-			"Axomamma" "Cavillaca" "Chaska" "Chusqui" "Cuyani" "Esiyana" "Folilla" "Ga√±aya" "Huillacaca" "Illa"
+			"Axomamma" "Cavillaca" "Chaska" "Chusqui" "Cuyani" "Esiyana" "Folilla" "GaÒaya" "Huillacaca" "Illa"
 			"Kuya" "Llullalla" "Nayra" "Panti" "Saylla" "T'ika" "Cora" "Huillca" "K'inti" "Quilla"
 		}
 		dynasty_names = {
@@ -1974,7 +1974,7 @@ latin = {
 			"Indaiae" "Irkas" "Callia" "Cantana" "Cillas" "Kirinae" "Cuyana" "Cuyawias" "Llanca" "Lullallia"
 
 			# PURE NATIVE (20 Names)
-			"Takuiba" "China" "Dacaya" "Dinya" "Ersilia" "Felina" "Ga√±aya" "Huayra" "Illapa" "Jarina"
+			"Takuiba" "China" "Dacaya" "Dinya" "Ersilia" "Felina" "GaÒaya" "Huayra" "Illapa" "Jarina"
 			"Kuya" "Mayta" "Neya" "Pasaqa" "Taki" "Wayra" "Coya" "Epunka" "Leylli" "Quilla"
 		}
 		dynasty_names = {
@@ -1992,7 +1992,7 @@ latin = {
 
 			# PURE NATIVE (20 Names)
 			"Zipacon" "Kankuamo" "Toca" "Miskito" "Canchari" "Chalcuchima" "Tucuycuyche" "Illaquita" "Paullu" "Pomacapi"
-			"Ronpa" "Sahuaraura" "Iraca" "Tanqui" "Soacha" "Tunduma" "Saboy√°" "Tibirita" "Chilche" "Chipat√°"
+			"Ronpa" "Sahuaraura" "Iraca" "Tanqui" "Soacha" "Tunduma" "Saboy·" "Tibirita" "Chilche" "Chipat·"
 		}
 	}
 	itzalian = {
@@ -2047,7 +2047,7 @@ latin = {
 
 			# PURE NATIVE (20 Names)
 			"Atl" "Calli" "Tochtli" "Toltecatl" "Chinkultic" "Chunchucmil" "Gumarcaj" "Hunahpu" "Kabah" "Kiuic"
-			"Mayapan" "Machaquila" "Oxkintok" "Pomon√°" "Xicalango" "Yaxha" "Cipactli" "Ehecatl" "Ollin" "Tikal"
+			"Mayapan" "Machaquila" "Oxkintok" "Pomon·" "Xicalango" "Yaxha" "Cipactli" "Ehecatl" "Ollin" "Tikal"
 		}
 	}
 	pelagian = {
@@ -2067,8 +2067,8 @@ latin = {
 			"Guaiacus" "Guiabus" "Guaiacanus" "Hamurus" "Icaibus" "Iguanabo" "Iriyaricus" "Iauca" "Castas" "Coro"
 
 			# PURE NATIVE (20 Names)
-			"Anani" "Agueybana" "Masapa" "Orocobix" "Yuc√°r" "Amaru" "Gibara" "Icaiba" "Karukamana" "K√©kiri"
-			"Koyama" "Mop√≠" "Onabo" "Panana" "Siris√≠" "Soba" "Hatuey" "K√∫k" "Maraca" "Tamu"
+			"Anani" "Agueybana" "Masapa" "Orocobix" "Yuc·r" "Amaru" "Gibara" "Icaiba" "Karukamana" "KÈkiri"
+			"Koyama" "MopÌ" "Onabo" "Panana" "SirisÌ" "Soba" "Hatuey" "K˙k" "Maraca" "Tamu"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -2084,7 +2084,7 @@ latin = {
 			"Duiana" "Enaia" "Eucaras" "Guabina" "Guarionasa" "Guaricia" "Guarinas" "Gaiaba" "Gaiaria" "Gaienara"
 
 			# PURE NATIVE (20 Names)
-			"Hay√°" "Twengga" "Baracuta" "Bayari" "Ciboney" "Dahaya" "Guayenara" "Harima" "Kamina" "Kaura"
+			"Hay·" "Twengga" "Baracuta" "Bayari" "Ciboney" "Dahaya" "Guayenara" "Harima" "Kamina" "Kaura"
 			"Lubina" "Nahima" "Orawa" "Palima" "Tamaya" "Wayina" "Anacaona" "Deyara" "Ximena" "Zayara"
 		}
 		dynasty_names = {
@@ -2232,7 +2232,7 @@ latin = {
 			"Cicatius" "Ialcus" "Cavcamus" "Cilis" "Covadus" "Valapis" "Lalbic" "Seneges" "Tsuanlus" "Culusas"
 
 			# PURE NATIVE (20 Names)
-			"Pop√©" "Xenome" "Sequoyah" "Comcomly" "Absaquil" "Quiaquatty" "Wallahpicate" "Sallaf" "Konzhontaco" "Bazheech"
+			"PopÈ" "Xenome" "Sequoyah" "Comcomly" "Absaquil" "Quiaquatty" "Wallahpicate" "Sallaf" "Konzhontaco" "Bazheech"
 			"Patkanam" "Chowitshoot" "Snah-talc" "Shehtsoolt" "S'dehapkan" "Stehshail" "Goyaale" "Seattle" "Chlahben" "Hatch"
 		}
 		female_names = {
@@ -2473,7 +2473,7 @@ latin = {
 
 			# PURE NATIVE (20 Names)
 			"Alan" "Hogelun" "Chotan" "Orbei" "Sokhatai" "Yesugun" "Hoelun" "Akgul" "Ilkay" "Ipekel"
-			"Irge" "K√§tyarikka" "Peksen" "Puyantay" "Sati" "Sevilay" "Doregene" "Khogaghchin" "K√´lnissa" "Yasar"
+			"Irge" "K‰tyarikka" "Peksen" "Puyantay" "Sati" "Sevilay" "Doregene" "Khogaghchin" "KÎlnissa" "Yasar"
 		}
 		dynasty_names = {
 			# LATIN CORE (40 Names)
@@ -2511,7 +2511,7 @@ latin = {
 			"Mahmudus" "Mahmudas" "Halimus" "Muradas" "Cirimus" "Safas" "Selametius" "Agius" "Mustalius" "Ulugus"
 
 			# PURE NATIVE (20 Names)
-			"Ghazi" "Haspulad" "Qirim" "Safa" "Selamet" "Abdul-Rahman" "Ak K√∂bek" "Ali Beg" "Cherkes" "Darwish Ali"
+			"Ghazi" "Haspulad" "Qirim" "Safa" "Selamet" "Abdul-Rahman" "Ak Kˆbek" "Ali Beg" "Cherkes" "Darwish Ali"
 			"Jani Beg" "Jumaduq" "Muhammad" "Murtaza" "Qadir Berdi" "Qasim" "Alp" "Hayder" "Ibak" "Nogai"
 		}
 		female_names = {
@@ -2545,8 +2545,8 @@ latin = {
 			"Ceredus" "Coriges" "Iecarus" "Batuus" "Ihsanus" "Cubaius" "Neazis" "Ortalus" "Soisalus" "Zinius"
 
 			# PURE NATIVE (20 Names)
-			"Salmiianov" "Kanin" "Koke Qadan" "Oyugungene" "Suren Unegen" "Altan" "Ziyaeddin" "D√§gci" "Giraybay" "Inalcik"
-			"Tarhan" "Kosay" "Balna" "Ravna" "Arinin" "Tsoy" "Qara Erdene" "Kubay" "Fazil" "T√∂gay"
+			"Salmiianov" "Kanin" "Koke Qadan" "Oyugungene" "Suren Unegen" "Altan" "Ziyaeddin" "D‰gci" "Giraybay" "Inalcik"
+			"Tarhan" "Kosay" "Balna" "Ravna" "Arinin" "Tsoy" "Qara Erdene" "Kubay" "Fazil" "Tˆgay"
 		}
 	}
 	ultarian = {
@@ -2567,8 +2567,8 @@ latin = {
 			"Mulas" "Orugis" "Cossilo" "Sainus" "Suddhipas" "Taisungus" "Uscalis" "Iesunus" "Iaras" "Iavlas"
 
 			# PURE NATIVE (20 Names)
-			"Arigaba" "Bahamu" "Elbeg" "Jorightu" "Mulan" "√ñr√ºg" "Qayshan" "Qoshila" "Temujin" "Tem√ºr"
-			"Tolui" "Toq" "Agbarjin" "Dayan" "G√ºy√ºk" "Mandak" "Nabtiko" "Samatu" "Tatva" "Pudak"
+			"Arigaba" "Bahamu" "Elbeg" "Jorightu" "Mulan" "÷r¸g" "Qayshan" "Qoshila" "Temujin" "Tem¸r"
+			"Tolui" "Toq" "Agbarjin" "Dayan" "G¸y¸k" "Mandak" "Nabtiko" "Samatu" "Tatva" "Pudak"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -2584,7 +2584,7 @@ latin = {
 			"Niaica" "Olotaia" "Ordavas" "Ruzana" "Siniava" "Siamcae" "Slugania" "Tundava" "Utiaia" "Valdavas"
 
 			# PURE NATIVE (20 Names)
-			"B√∂rte" "Mandukhai" "Ilme" "Kat" "Pekshayka" "Pemka" "Potekay" "Potyava" "Shukshtoroyka" "Sinyava"
+			"Bˆrte" "Mandukhai" "Ilme" "Kat" "Pekshayka" "Pemka" "Potekay" "Potyava" "Shukshtoroyka" "Sinyava"
 			"Tikshayka" "Toyaksha" "Naryiaana" "Aiyyna" "Khaarchaana" "Laptsui" "Senda" "Tada" "Vidyava" "Litova"
 		}
 		dynasty_names = {
@@ -2622,8 +2622,8 @@ latin = {
 			"Cundelus" "Lobzangus" "Altas" "Bodicus" "Elbeges" "Ligdanus" "Caisanes" "Cossilo" "Darasungus" "Esenes"
 
 			# PURE NATIVE (20 Names)
-			"Agbarjin" "Adai" "Ejei" "Elbeg" "Manduulun" "√ñljei" "Tolui" "Uskhal" "Abaoii" "Deguang"
-			"Dashi" "Tabuyan" "Zh√≠lugu" "Batula" "Kho" "Sengge" "Altan" "Toghun" "Ariq" "Esen"
+			"Agbarjin" "Adai" "Ejei" "Elbeg" "Manduulun" "÷ljei" "Tolui" "Uskhal" "Abaoii" "Deguang"
+			"Dashi" "Tabuyan" "ZhÌlugu" "Batula" "Kho" "Sengge" "Altan" "Toghun" "Ariq" "Esen"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -2639,7 +2639,7 @@ latin = {
 			"Manducaias" "Samaras" "Aigiarnas" "Zaufisana" "Cocacina" "Cultulunia" "Orcina" "Conchaca" "Hoelunae" "Bortia"
 
 			# PURE NATIVE (20 Names)
-			"B√∂rte" "Zaufishan" "Goland" "Ho'elun" "Tam√ºl√ºn" "Tem√ºlen" "Samar" "Mulan" "Aigiarn" "Borte"
+			"Bˆrte" "Zaufishan" "Goland" "Ho'elun" "Tam¸l¸n" "Tem¸len" "Samar" "Mulan" "Aigiarn" "Borte"
 			"Chabi" "Conchaka" "Doquez-khatum" "Khultulun" "Kokachin" "Mandughai" "Oghul" "Qamish" "Orqina" "Toregene"
 		}
 		dynasty_names = {
@@ -2656,8 +2656,8 @@ latin = {
 			"Encotuius" "Lagvasurus" "Ganzorigis" "Purevsurus" "Moncasetis" "Moncardenus" "Sartulus" "Iliginius" "Ielus" "Tuobus"
 
 			# PURE NATIVE (20 Names)
-			"Onggirat" "Noyan" "Jochid" "Toluid" "Bat-Erdene" "Lkhagvas√ºren" "Ganbaatar" "M√∂nkhbat" "Khatagin" "Qarakhanid"
-			"Naiman" "Uriankhai" "Borjigin" "Chobanid" "Ganbold" "Otgonbayar" "Ganzorig" "M√∂nkh-Erdene" "Sartuul" "Tuoba"
+			"Onggirat" "Noyan" "Jochid" "Toluid" "Bat-Erdene" "Lkhagvas¸ren" "Ganbaatar" "Mˆnkhbat" "Khatagin" "Qarakhanid"
+			"Naiman" "Uriankhai" "Borjigin" "Chobanid" "Ganbold" "Otgonbayar" "Ganzorig" "Mˆnkh-Erdene" "Sartuul" "Tuoba"
 		}
 	}
 	orientan = {
@@ -3083,8 +3083,8 @@ latin = {
 			"Mahapanloies" "Mahmudis" "Mansursas" "Meniseciaus" "Muhammadsas" "Poganuus" "Posactiraius" "Riaiatsas" "Sulaimanbadrsas" "Trahoaus"
 
 			# PURE NATIVE (20 Names)
-			"Po Thuttirai" "Po Ganvuh" "Po Tithuntirai" "Po Chong Chan" "Sam Agi" "Mans√ªr Sh√¢h" "Sulaym√¢n Badr Sh√¢h" "Ibr√¢h√Æm Sh√¢h" "Tsau-Lha" "Mengtsekya"
-			"Po Saktirai" "Po Tithun" "Ko Cheng" "Abu Syahid" "Muhammad Sh√¢h" "Riayat Shah" "'Al√Æ Mug√¢yat" "Iskandar Tan√Æ" "Inayat" "Gadzabadi"
+			"Po Thuttirai" "Po Ganvuh" "Po Tithuntirai" "Po Chong Chan" "Sam Agi" "Mans˚r Sh‚h" "Sulaym‚n Badr Sh‚h" "Ibr‚hÓm Sh‚h" "Tsau-Lha" "Mengtsekya"
+			"Po Saktirai" "Po Tithun" "Ko Cheng" "Abu Syahid" "Muhammad Sh‚h" "Riayat Shah" "'AlÓ Mug‚yat" "Iskandar TanÓ" "Inayat" "Gadzabadi"
 		}
 		female_names = {
 			# LATIN CORE (40 Names)
@@ -3100,8 +3100,8 @@ latin = {
 			"Puaitiae" "Raimeria" "Rainuia" "Raniteias" "Rarahuana" "Raunuias" "Rauriia" "Taniaia" "Tehania" "Teoraia"
 
 			# PURE NATIVE (20 Names)
-			"Metetini" "Nu‚Äôutea" "Ra‚Äôimere" "Rarahu" "Tevai" "Titaina" "Urarii" "Vaea" "Vairea" "Vaitiare"
-			"Moeata" "Moerani" "Orama" "Poehina" "Poenui" "Ra‚Äôinui" "Raunui" "Taina" "Taurua" "Tehea"
+			"Metetini" "Nuíutea" "Raíimere" "Rarahu" "Tevai" "Titaina" "Urarii" "Vaea" "Vairea" "Vaitiare"
+			"Moeata" "Moerani" "Orama" "Poehina" "Poenui" "Raíinui" "Raunui" "Taina" "Taurua" "Tehea"
 		}
 	}
 	insulian = {
@@ -3213,7 +3213,7 @@ latin = {
 
 			# PURE NATIVE (20 Names)
 			"Ken-Dedes" "Sri-Kirani" "Buring" "Ni-Rempyak" "Iling" "Dahiang" "Ajak" "Wursi" "Liku-Liku" "Sri Gitarja"
-			"Moea" "Nu‚Äôutea" "Ranitea" "Tania" "Vaea" "Vaianu" "Dyah-Lestari" "Liyang" "Lulun" "Dayang-Sundang"
+			"Moea" "Nuíutea" "Ranitea" "Tania" "Vaea" "Vaianu" "Dyah-Lestari" "Liyang" "Lulun" "Dayang-Sundang"
 		}
 	}
 	serenian = {
@@ -3472,7 +3472,7 @@ latin = {
 			"Ravius" "Corattius" "Raia Vadiares" "Murthis" "Buccas" "Govindius" "Crisnes" "Rachamallus" "Thimmas" "Aditeus"
 
 			# PURE NATIVE (20 Names)
-			"Ch√¢ma R√¢ja" "Immadai Raja" "Venkayarya" "Asaga" "Durvinita" "Jayasimha" "Khottiga" "Krishna" "Permadi" "Sankama"
+			"Ch‚ma R‚ja" "Immadai Raja" "Venkayarya" "Asaga" "Durvinita" "Jayasimha" "Khottiga" "Krishna" "Permadi" "Sankama"
 			"Sripurusha" "Uchita" "Vishnuvardhana" "Sadashiva" "Kotha Aditya" "Thiruvattar" "Raja Wadiyar" "Govinda" "Ramaraya" "Raman"
 		}
 		female_names = {
@@ -3523,7 +3523,7 @@ latin = {
 			"Cincapaguas" "Coperuncinao" "Naracimavarmanis" "Ranatitas" "Samuoleseus" "Tomasius" "Varagunanis" "Gergesus"
 			
 			# Pure Native (20)
-			"Vira Pandya" "Tirumala" "Ariyanatha" "Dharmapalabahu" "Kitri" "Ananda" "Cimmavisnu" "Seervallabhan" "Ir√¢car√¢ca" "Mak√™ntiravarman" "M√¢tevipattan" "N√¢titta√±c√¢ttan" "Ranat√Æran" "Ravivarman" "Uttama" "Vellant√¢nkin√¢n"
+			"Vira Pandya" "Tirumala" "Ariyanatha" "Dharmapalabahu" "Kitri" "Ananda" "Cimmavisnu" "Seervallabhan" "Ir‚car‚ca" "MakÍntiravarman" "M‚tevipattan" "N‚tittaÒc‚ttan" "RanatÓran" "Ravivarman" "Uttama" "Vellant‚nkin‚n"
 			"Muttu Linga" "Dharmasuriya" "Irattapadikonda" "Varughese"
 		}
 		female_names = {
@@ -3538,8 +3538,8 @@ latin = {
 			"Candiuiae" "Mahadeviara" "Damadiniana" "Rahelamia" "Taturantaciarae" "Vicramatitas" "Menacsiae" "Vanavanmateva"
 			
 			# Pure Native (20)
-			"Accamma" "Amittiravalli" "Ir√¢cinkam" "Ir√¢c√¢ticci" "Kannapparaciy√¢r" "K√¢raikk√¢l" "K√¥yin√¢ccipit√¢riy√¢r" "M√¢nikkam" "Namaiy√¢r" "Damaguta" "Damutara" "Jhotisena" "R√¢cak√™cari" "Teresa" "Utaiyaval" "Viraiy√¢ccilai"
-			"K√¥l√¢liy√¢r" "Netuntukkai" "Sosamma" "Vatav√¢yil"
+			"Accamma" "Amittiravalli" "Ir‚cinkam" "Ir‚c‚ticci" "Kannapparaciy‚r" "K‚raikk‚l" "KÙyin‚ccipit‚riy‚r" "M‚nikkam" "Namaiy‚r" "Damaguta" "Damutara" "Jhotisena" "R‚cakÍcari" "Teresa" "Utaiyaval" "Viraiy‚ccilai"
+			"KÙl‚liy‚r" "Netuntukkai" "Sosamma" "Vatav‚yil"
 		}
 	}
 	caelarian = {
@@ -3572,7 +3572,7 @@ latin = {
 			"Pelcortseus" "Nagavalbarius" "Funtangieo" "Rinseus" "Tenzin Tutopis" "Tasamgias" "Cimedories" "Govotasavaius"
 			
 			# Pure Native (20)
-			"D√∂n-y√∂ Dorje" "Lhabzang" "Kelzang Gyatso" "Sakya Gyantsen" "Bapu Gendun" "Ralpachen" "Gyelwa Tsugpu" "Dro Chungseng" "Zhang Yizong" "Sakya Pandita" "Buton Rinchen Drub" "Sherab Yonten" "Ch√∂drag Yeshe" "Chokden Gyaltsen" "Tsering Palbar" "Lhundrup Gyatso"
+			"Dˆn-yˆ Dorje" "Lhabzang" "Kelzang Gyatso" "Sakya Gyantsen" "Bapu Gendun" "Ralpachen" "Gyelwa Tsugpu" "Dro Chungseng" "Zhang Yizong" "Sakya Pandita" "Buton Rinchen Drub" "Sherab Yonten" "Chˆdrag Yeshe" "Chokden Gyaltsen" "Tsering Palbar" "Lhundrup Gyatso"
 			"Trakpa Chungne" "Gushi" "Tshewang Norbu" "Yutok Yonten"
 		}
 		female_names = {
@@ -3587,7 +3587,7 @@ latin = {
 			"Cocazomiana" "Gialtsenmas" "Dondenia" "Candromas" "Tsomarae" "Iesidronia" "Vanzomas" "Cedona"
 			
 			# Pure Native (20)
-			"Dawa" "Karma" "Dolma" "Sangmo" "Chokzom" "Gyalmo" "Dr√∂lkar" "Rigzinmo" "Sherzom" "Lhamotsochom" "Pemzom" "Seldon" "Tsogyal" "Tsomazom" "Yudon" "Choyingzom"
+			"Dawa" "Karma" "Dolma" "Sangmo" "Chokzom" "Gyalmo" "Drˆlkar" "Rigzinmo" "Sherzom" "Lhamotsochom" "Pemzom" "Seldon" "Tsogyal" "Tsomazom" "Yudon" "Choyingzom"
 			"Tashi" "Nyima" "Choekar" "Dechen"
 		}
 	}
@@ -3600,12 +3600,12 @@ latin = {
 		Arsenio Artemio Ascanio Astorre Arrigo Annibale
 		Atenolfo Attilio Augusto Aurelio Ausilio Ausonio Averado Azzo Azzone Baldassarre 
 		Barnaba Bartolomeo Basilio Basil Bassiano Basso Baldovino
-		Battista Beltrano Benedetto Benvenuto Berardo Bernab√≤ Bernardo Berto 
+		Battista Beltrano Benedetto Benvenuto Berardo BernabÚ Bernardo Berto 
 		Bertoldo Biagio Bonaventura Bonifacio Borso Bruno Bruto Buonconte
 		Buoso Callisto Camillo Candido Cangrande Carlo Cassio Castore Cataldo Catone Cecco 
 		Chiaffredo Chiano Ciro Ciuccio Claudio Clemente Costanzo Cesare
 		Comita Conone Cornelio Corradino Corrado Cosimo Cosma Costante Costantino 
-		Cristoforo Damiano Davide Demetrio Dioniso Dom√©nico 
+		Cristoforo Damiano Davide Demetrio Dioniso DomÈnico 
 		Durante Edoardo Elio Emmanuele Ennio Enrico Enzio Enzo Ercole 
 		Ermenegildo Ettore Eugenio Ezio Ezzelino Fabrizio Fausto Federigo
 		Felice Ferdinando Ferruccio Filippo Fiorello Flavio Folco Fortunato 
@@ -3619,7 +3619,7 @@ latin = {
 		Lealdo Leonardo Leone Leonello Leopoldo Libero Lionello Livio Lodovico Lorenzo Luca Luchino 
 		Lucio Luigi Malacresta Manfredo Manuele
 		Marco Mariano Marino Mario Marsiglio Martino Mastino Matteo 
-		Merigo Michelangelo Michele Napoleone Nazareno Nestore Niccol√≤ Nicola
+		Merigo Michelangelo Michele Napoleone Nazareno Nestore NiccolÚ Nicola
 		Nino Nolfo Oberto Obizzino Obizzo Oddone Omero Onorio Oreste Orlando Ottavio Ottobono Ottone 
 		Pagano Pancrazio Pandolfo Paolo Pasquale Otto
 		Patrizio Pellegrino Pericle Pietro Pio Prospero Rafaello Raimondo 

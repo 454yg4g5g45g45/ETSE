@@ -1,25 +1,25 @@
 province;red;green;blue;x;x
 1;128;34;64;Stockholm;x
-2;0;36;128;√ñsterg√∂tland;x
-3;128;38;192;Sm√•land;x
+2;0;36;128;÷stergˆtland;x
+3;128;38;192;SmÂland;x
 4;0;40;255;Bergslagen;x
-5;128;42;0;V√§rmland;x
-6;0;44;64;Sk√•ne;x
-7;129;46;128;V√§sterg√∂tland;x
+5;128;42;0;V‰rmland;x
+6;0;44;64;SkÂne;x
+7;129;46;128;V‰stergˆtland;x
 8;1;48;192;Dalaskogen;x
-9;129;50;255;H√§lsingland;x
-10;1;52;0;J√§mtland;x
-11;129;54;64;V√§sterbotten;x
-12;1;56;128;Sj√¶lland;x
+9;129;50;255;H‰lsingland;x
+10;1;52;0;J‰mtland;x
+11;129;54;64;V‰sterbotten;x
+12;1;56;128;SjÊlland;x
 13;129;58;192;Slesvig;x
 14;2;60;255;Fyn;x
 15;130;62;0;Midtjylland;x
-16;2;64;64;Bohusl√§n;x
+16;2;64;64;Bohusl‰n;x
 17;130;66;128;Akershus;x
-18;2;68;192;Ume√•;x
-19;130;70;255;√ñsterbotten;x
-20;2;72;0;Tr√∏ndelag;x
-21;131;74;64;H√•logaland;x
+18;2;68;192;UmeÂ;x
+19;130;70;255;÷sterbotten;x
+20;2;72;0;Tr¯ndelag;x
+21;131;74;64;HÂlogaland;x
 22;3;76;128;Oplandene;x
 23;131;78;192;Bergenshus;x
 24;3;80;255;Stavanger;x
@@ -33,7 +33,7 @@ province;red;green;blue;x;x
 32;4;96;128;Kexholm;x
 33;132;98;192;Neva;x
 34;4;100;255;Ingermanland;x
-35;133;102;0;√ñsel;x
+35;133;102;0;÷sel;x
 36;5;104;64;Estland;x
 37;133;106;128;Livland;x
 38;5;108;192;Riga;x
@@ -43,7 +43,7 @@ province;red;green;blue;x;x
 42;6;116;128;Warmia;x
 43;134;118;192;Danzig;x
 44;6;120;255;Hamburg;x
-45;134;122;0;L√ºbeck;x
+45;134;122;0;L¸beck;x
 46;6;124;64;Mecklenburg;x
 47;134;126;128;Stralsund;x
 48;6;128;192;Kolberg;x
@@ -51,10 +51,10 @@ province;red;green;blue;x;x
 50;7;132;0;Berlin;x
 51;135;134;64;Ruppin;x
 52;7;136;128;Magdeburg;x
-53;135;138;192;L√ºneburg;x
+53;135;138;192;L¸neburg;x
 54;7;140;255;Bremen;x
 55;135;142;0;Oldenburg;x
-56;8;144;64;Osnabr√ºck;x
+56;8;144;64;Osnabr¸ck;x
 57;136;146;128;Hannover;x
 58;8;148;192;Anhalt;x
 59;136;150;255;Meissen;x
@@ -63,12 +63,12 @@ province;red;green;blue;x;x
 62;8;156;128;Leipzig;x
 63;137;158;192;Erfurt;x
 64;9;32;255;Niederbayern;x
-65;137;34;0;M√ºnchen;x
+65;137;34;0;M¸nchen;x
 66;9;36;64;Bamberg;x
 67;137;38;128;Franken;x
 68;9;40;192;Memmingen;x
 69;137;42;255;Konstanz;x
-70;10;44;0;W√ºrttemberg;x
+70;10;44;0;W¸rttemberg;x
 71;138;46;64;Leiningen;x
 72;10;48;128;Breisgau;x
 73;138;50;192;Tirol;x
@@ -77,21 +77,21 @@ province;red;green;blue;x;x
 76;10;56;64;Salzburg;x
 77;139;58;128;Worms;x
 78;11;60;192;Pfalz;x
-79;139;62;255;W√ºrzburg;x
+79;139;62;255;W¸rzburg;x
 80;11;64;0;Trier;x
 81;139;66;64;Hessen;x
 82;11;68;128;Lippe;x
 83;139;70;192;Nassau;x
 84;12;72;255;Berg;x
-85;140;74;0;K√∂ln;x
-86;12;76;64;M√ºnster;x
+85;140;74;0;Kˆln;x
+86;12;76;64;M¸nster;x
 87;140;78;128;Calais;x
 88;12;80;192;Artois;x
 89;140;82;255;Picardie;x
 90;12;84;0;Vlaanderen;x
 91;141;86;64;Hainault;x
 92;13;88;128;Brabant;x
-93;141;90;192;Li√®ge;x
+93;141;90;192;LiËge;x
 94;13;92;255;Luxemburg;x
 95;141;94;0;Noord;x
 96;13;96;64;Zeeland;x
@@ -126,7 +126,7 @@ province;red;green;blue;x;x
 125;145;154;0;Palermo;x
 126;18;156;64;Malta;x
 127;146;158;128;Sardinia;x
-128;18;32;192;K√§rnten;x
+128;18;32;192;K‰rnten;x
 129;146;34;255;Krain;x
 130;18;36;0;Istria;x
 131;146;38;64;Croatia;x
@@ -168,21 +168,21 @@ province;red;green;blue;x;x
 167;151;110;128;Caux;x
 168;24;112;192;Normandie;x
 169;152;114;255;Armor;x
-170;24;116;0;Finist√®re;x
+170;24;116;0;FinistËre;x
 171;152;118;64;Morbihan;x
-172;24;120;128;Vend√©e;x
+172;24;120;128;VendÈe;x
 173;152;122;192;Labourd;x
 174;24;124;255;Gascogne;x
 175;153;126;0;Armagnac;x
-176;25;128;64;B√©arn;x
+176;25;128;64;BÈarn;x
 177;153;130;128;Maine;x
 178;25;132;192;Anjou;x
 179;153;134;255;Berry;x
 180;25;136;0;Poitou;x
 181;153;138;64;Valenciennes;x
 182;26;140;128;Vermandois;x
-183;154;142;192;√éle-de-France;x
-184;26;144;255;Orl√©annais;x
+183;154;142;192;Œle-de-France;x
+184;26;144;255;OrlÈannais;x
 185;147;222;218;Nemours;x
 186;26;148;64;Champagne;x
 187;154;150;128;Barrois;x
@@ -191,8 +191,8 @@ province;red;green;blue;x;x
 190;27;156;0;Bourbon;x
 191;155;158;64;Nevers;x
 192;27;32;128;Bourgogne;x
-193;155;34;192;Franche-Comt√©;x
-194;27;36;255;P√©rigord;x
+193;155;34;192;Franche-ComtÈ;x
+194;27;36;255;PÈrigord;x
 195;155;38;0;Limousin;x
 196;28;40;64;Toulouse;x
 197;156;42;128;Roussillon;x
@@ -202,11 +202,11 @@ province;red;green;blue;x;x
 201;156;50;64;Toulon;x
 202;28;52;128;Avignon;x
 203;157;54;192;Lyonnais;x
-204;29;56;255;Dauphin√©;x
+204;29;56;255;DauphinÈ;x
 205;157;58;0;Savoie;x
 206;29;60;64;Galicia;x
 207;157;62;128;Asturias;x
-208;29;64;192;Le√≥n;x
+208;29;64;192;LeÛn;x
 209;157;66;255;Vizcaya;x
 210;30;68;0;Navarra;x
 211;158;70;64;Pirineo;x
@@ -218,19 +218,19 @@ province;red;green;blue;x;x
 217;159;82;128;Madrid;x
 218;31;84;192;Badajoz;x
 219;159;86;255;Toledo;x
-220;31;88;0;Val√®ncia;x
+220;31;88;0;ValËncia;x
 221;159;90;64;Murcia;x
-222;31;92;128;Almer√≠a;x
+222;31;92;128;AlmerÌa;x
 223;159;94;192;Granada;x
-224;32;96;255;Andaluc√≠a;x
-225;160;98;0;C√≥rdoba;x
+224;32;96;255;AndalucÌa;x
+225;160;98;0;CÛrdoba;x
 226;32;100;64;Gibraltar;x
 227;160;102;128;Lisboa;x
 228;32;104;192;Beira;x
 229;160;106;255;Beja;x
 230;32;108;0;Algarve;x
 231;161;110;64;Porto;x
-232;33;112;128;Bragan√ßa;x
+232;33;112;128;BraganÁa;x
 233;166;203;93;Cornwall;x
 234;33;116;255;Wessex;x
 235;161;118;0;Kent;x
@@ -315,12 +315,12 @@ province;red;green;blue;x;x
 314;44;148;255;Ustyug;x
 315;173;150;0;Finnmark;x
 316;45;152;64;Kocaeli;x
-317;173;154;128;H√ºdavendigar;x
+317;173;154;128;H¸davendigar;x
 318;45;156;192;Sugla;x
 319;173;158;255;Mentese;x
 320;45;32;0;Rhodes;x
 321;173;34;64;Cyprus;x
-322;46;36;128;K√ºtahya;x
+322;46;36;128;K¸tahya;x
 323;174;38;192;Konya;x
 324;46;40;255;Karaman;x
 325;174;42;0;Kastamonu;x
@@ -825,7 +825,7 @@ province;red;green;blue;x;x
 824;117;144;255;Mariquita;x
 825;245;146;0;Bogota;x
 826;118;148;64;Choco;x
-827;246;150;128;Antioqu√≠a;x
+827;246;150;128;AntioquÌa;x
 828;118;152;192;Cartagena;x
 829;246;154;255;Magdalena;x
 830;118;156;0;Maracaibo;x
@@ -840,7 +840,7 @@ province;red;green;blue;x;x
 839;128;42;79;Pipil;x
 840;0;44;126;Honduras;x
 841;129;46;173;Guatemala;x
-842;1;48;32;Pet√©n;x
+842;1;48;32;PetÈn;x
 843;129;50;79;Belize;x
 844;1;52;126;Zapotec;x
 845;129;54;173;Campeche;x
@@ -1248,17 +1248,17 @@ province;red;green;blue;x;x
 1247;187;90;79;Corsica;x
 1248;59;92;126;Maldives;x
 1249;187;94;173;Yola;x
-1250;1;200;200;V√§nern;x
-1251;2;200;250;V√§ttern;x
+1250;1;200;200;V‰nern;x
+1251;2;200;250;V‰ttern;x
 1252;3;220;250;Gulf of Bothnia;x
-1253;4;250;250;√Ölands Hav;x
+1253;4;250;250;≈lands Hav;x
 1254;5;200;200;Gulf of Finland;x
 1255;6;200;250;Western Baltic Sea;x
 1256;7;220;250;Gulf of Riga;x
 1257;8;250;250;Southern Baltic Sea;x
-1258;9;200;200;√ñresund;x
+1258;9;200;200;÷resund;x
 1259;10;200;250;Kattegat;x
-1260;11;220;250;Peipsi J√§rv;x
+1260;11;220;250;Peipsi J‰rv;x
 1261;12;250;250;Ladoga;x
 1262;13;200;200;Onega;x
 1263;14;200;250;Barents Sea;x
@@ -1767,7 +1767,7 @@ province;red;green;blue;x;x
 1766;70;116;126;Kosovo;x
 1767;198;118;173;Osijek;x
 1768;70;120;32;Lienz;x
-1769;198;122;79;G√∂rz;x
+1769;198;122;79;Gˆrz;x
 1770;70;124;126;Ostmarch;x
 1771;198;126;173;Erz;x
 1772;70;128;32;Presburg;x
@@ -1803,7 +1803,7 @@ province;red;green;blue;x;x
 1802;203;62;173;Northern Amazonas;x
 1803;75;64;32;Southern Amazonas;x
 1804;203;66;79;Greenland;x
-1805;75;68;126;Qu√©bec;x
+1805;75;68;126;QuÈbec;x
 1806;203;70;173;Weagamow;x
 1807;76;72;32;Baffin Island;x
 1808;204;74;79;Great Basin;x
@@ -1867,7 +1867,7 @@ province;red;green;blue;x;x
 1866;212;62;173;Namur;x
 1867;84;64;32;Freiburg;x
 1868;212;66;79;Augsburg;x
-1869;84;68;126;Z√ºrich;x
+1869;84;68;126;Z¸rich;x
 1870;213;70;173;S:t Gallen;x
 1871;85;72;32;Wallis;x
 1872;86;84;126;Ulm;x
@@ -1879,8 +1879,8 @@ province;red;green;blue;x;x
 1878;214;86;173;Aachen;x
 1879;86;88;32;Alencon;x
 1880;214;90;79;Sundgau;x
-1881;213;74;79;St. Barth√©lemy;x
-1882;214;94;173;B√¥ne;x
+1881;213;74;79;St. BarthÈlemy;x
+1882;214;94;173;BÙne;x
 1883;0;0;232;Western Finish lakes;x
 1884;1;0;236;East Finish lakes;x
 1885;2;0;240;Central finish lakes;x
@@ -1928,7 +1928,7 @@ province;red;green;blue;x;x
 1927;62;218;252;Eastern baltic sea;x
 1928;62;234;252;Western Alands sea;x
 1929;62;210;252;Western Norwegian Sea;x
-1930;237;154;79;√Öland;x
+1930;237;154;79;≈land;x
 1931;130;60;50;East Frisia;x
 1932;49;150;248;Gulf of Satalia;x
 1933;50;0;232;Bari;x
@@ -1975,15 +1975,15 @@ province;red;green;blue;x;x
 1974;215;110;173;Yedishkul;x
 1975;105;225;255;Sea of Jutland;x
 1976;93;0;244;Dead Sea;x
-1977;94;0;248;M√§laren;x
+1977;94;0;248;M‰laren;x
 1978;95;0;232;Shetlands;x
-1979;96;0;236;F√§r√∂arnax;x
+1979;96;0;236;F‰rˆarnax;x
 1980;136;253;253;Sea of Japan;x
 1981;98;0;244;Bornholm;x
 1982;99;0;248;Blekinge;x
 1983;100;0;232;Lolland;x
 1984;101;0;236;Nordjylland;x
-1985;102;240;0;N√§rke;x
+1985;102;240;0;N‰rke;x
 1986;103;0;244;New Caledonia;x
 1987;104;0;248;Society Islands;x
 1988;105;0;232;Rapa Nui;x
@@ -2000,11 +2000,11 @@ province;red;green;blue;x;x
 1999;116;0;236;Cocos Island;x
 2000;60;221;221;Qinghai Lake;x
 2001;95;200;200;Siling Lake;x
-2002;200;135;255;Gal√°pagos Islands;x
+2002;200;135;255;Gal·pagos Islands;x
 2003;120;2;232;Ktunaxa;x
 2004;125;4;236;Niitsitapi;x
 2005;130;8;240;Asinaan;x
-2006;135;16;244;Aps√°alooke;x
+2006;135;16;244;Aps·alooke;x
 2007;140;32;248;Arikara;x
 2008;145;64;232;Yankton;x
 2009;150;128;236;Teton;x
@@ -2651,7 +2651,7 @@ province;red;green;blue;x;x
 2650;25;31;246;Champutun;x
 2651;150;231;196;Ah Canul;x
 2652;87;31;145;Ecab;x
-2653;213;213;95;Iximch√©;x
+2653;213;213;95;IximchÈ;x
 2654;45;131;46;Baracoa;x
 2655;171;31;246;Bayamo;x
 2656;108;31;196;Camaguey;x
@@ -2664,7 +2664,7 @@ province;red;green;blue;x;x
 2663;153;31;95;Nicoya;x
 2664;90;31;46;Veraguas;x
 2665;216;31;246;Ais;x
-2666;48;31;196;Tuintsund√©;x
+2666;48;31;196;TuintsundÈ;x
 2667;174;231;145;Cacaxtes;x
 2668;111;31;95;Borrado;x
 2669;237;31;46;Hasinai;x
@@ -2951,7 +2951,7 @@ province;red;green;blue;x;x
 2950;32;218;173;Buhera;x
 2951;236;57;116;Manikya;x
 2952;236;220;116;Madanda;x
-2953;236;222;116;Hj√§lmaren;x
+2953;236;222;116;Hj‰lmaren;x
 2954;29;59;159;Djerba;x
 2955;107;121;191;Ingolstadt;x
 2956;224;134;54;Straubing;x
@@ -4112,7 +4112,7 @@ province;red;green;blue;x;x
 4111;119;212;150;Saintonge;x
 4112;157;124;213;Aurilac;x
 4113;103;160;108;Uleaborg;x
-4114;145;85;134;Lule√•;x
+4114;145;85;134;LuleÂ;x
 4115;156;39;189;Mazyr;x
 4116;119;162;166;Belyov;x
 4117;205;163;151;Bezhetsk;x
@@ -4126,7 +4126,7 @@ province;red;green;blue;x;x
 4125;210;205;68;Szolnok;x
 4126;229;71;55;Bacs;x
 4127;146;198;217;Turda;x
-4128;142;201;142;Kiralyf√∂ld;x
+4128;142;201;142;Kiralyfˆld;x
 4129;53;164;53;Ust-Vym;x
 4130;222;47;96;Somerset;x
 4131;227;54;54;Nanbu;x
@@ -4137,18 +4137,18 @@ province;red;green;blue;x;x
 4136;45;225;227;Zaysan;x
 4137;79;222;224;Alakol;x
 4138;40;196;198;Issyk-Kul;x
-4139;54;54;236;Ouluj√§rvi;x
+4139;54;54;236;Ouluj‰rvi;x
 4140;34;34;210;Saimaa;x
 4141;207;42;19;Ditmarschen;x
 4142;198;219;57;Aarhus;x
-4143;127;186;98;Sm√•lenene;x
+4143;127;186;98;SmÂlenene;x
 4144;222;69;44;Bratsberg;x
 4145;201;191;169;Agdesiden;x
 4146;225;223;19;Jotenheimen;x
 4147;74;217;74;Rostov;x
 4148;222;151;200;Luki;x
 4149;44;184;44;Kolding;x
-4150;145;151;212;√âvora;x
+4150;145;151;212;…vora;x
 4151;208;10;168;Kuusamo;x
 4152;113;153;0;Enare;x
 4153;225;223;21;Scandes;x
@@ -4163,8 +4163,8 @@ province;red;green;blue;x;x
 4162;231;224;22;Alps5;x
 4163;220;144;23;Elfsborg;x
 4164;150;213;76;Dalsland;x
-4165;220;78;202;G√∂inge;x
-4166;54;157;76;Tioh√§rad/V√§rend;x
+4165;220;78;202;Gˆinge;x
+4166;54;157;76;Tioh‰rad/V‰rend;x
 4167;195;207;97;High Atlas;x
 4168;135;142;79;High Atlas2;x
 4169;222;203;239;Aures;x
@@ -4310,7 +4310,7 @@ province;red;green;blue;x;x
 4309;118;176;123;Aydin;x
 4310;135;155;105;Divrigi;x
 4311;67;121;108;Karahisar;x
-4312;105;195;57;Sultan√∂n√º;x
+4312;105;195;57;Sultanˆn¸;x
 4313;94;189;108;Kangiri;x
 4314;159;73;73;Kirshehir;x
 4315;124;60;86;Tokat;x
@@ -5130,7 +5130,7 @@ province;red;green;blue;x;x
 5129;64;219;167;Darkehmen;x
 5130;238;77;248;Insterburg;x
 5131;138;101;226;Gumbinnen;x
-5132;63;117;197;Stallup√∂nen;x
+5132;63;117;197;Stallupˆnen;x
 5133;130;192;19;Lasdehnen;x
 5134;97;228;29;Ragnit;x
 5135;34;134;87;Heinrichswalde;x
@@ -5304,13 +5304,13 @@ province;red;green;blue;x;x
 5303;65;143;8;Yashkul;x
 5304;240;213;154;Tsagan Aman;x
 5305;152;153;253;Ik Tsaryn;x
-5306;225;97;151;Bah D√∂rvd;x
+5306;225;97;151;Bah Dˆrvd;x
 5307;180;240;155;Sadovoye;x
 5308;188;201;101;Ketchnr;x
 5309;168;17;158;Iki Burul;x
 5310;215;37;123;Prijutn;x
 5311;134;116;193;Yashalt;x
-5312;90;190;152;B√§√§snt√§;x
+5312;90;190;152;B‰‰snt‰;x
 5313;180;252;130;Kazanskaya;x
 5314;172;175;251;Vyoshenskaya;x
 5315;103;238;142;Millerovo;x
@@ -5471,7 +5471,7 @@ province;red;green;blue;x;x
 5470;154;164;186;Serpu;x
 5471;56;26;86;Shentervarri;x
 5472;98;218;118;Iurny;x
-5473;102;193;238;Cikm√§;x
+5473;102;193;238;Cikm‰;x
 5474;8;83;1;Kilemar;x
 5475;121;190;6;Yoshkar-Ola;x
 5476;7;130;237;Provoi;x
@@ -5481,7 +5481,7 @@ province;red;green;blue;x;x
 5480;128;62;188;Mariy Turek;x
 5481;190;5;92;Malmyzh;x
 5482;77;146;66;Kilmez;x
-5483;78;47;59;V√ºrzym;x
+5483;78;47;59;V¸rzym;x
 5484;16;144;60;Verkhoshizhemye;x
 5485;23;111;138;Arbazh;x
 5486;174;225;89;Tuzha;x
@@ -5495,7 +5495,7 @@ province;red;green;blue;x;x
 5494;243;132;103;Kirs;x
 5495;59;98;165;Omutninsk;x
 5496;100;15;244;Orichi;x
-5497;116;175;64;K√§ksh√§r;x
+5497;116;175;64;K‰ksh‰r;x
 5498;174;181;237;Leninskoye;x
 5499;136;88;80;Yurya;x
 5500;130;229;99;Darovskoy;x
@@ -5545,19 +5545,19 @@ province;red;green;blue;x;x
 5544;69;28;6;Ishembay;x
 5545;106;6;96;Beloret;x
 5546;88;72;242;Raevka;x
-5547;140;92;83;Bishb√ºlek;x
+5547;140;92;83;Bishb¸lek;x
 5548;184;208;58;Yermekeyevo;x
 5549;32;95;122;Krasnousol;x
 5550;226;228;36;Qyrmychqaly;x
-5551;106;189;210;D√§wl√§k√§n;x
+5551;106;189;210;D‰wl‰k‰n;x
 5552;178;73;42;Buzdyak;x
 5553;126;224;89;Sharan;x
 5554;215;23;178;Kushnarenkovo;x
 5555;79;142;138;Iglin;x
-5556;7;219;163;D√ºrt√∂yl√∂;x
+5556;7;219;163;D¸rtˆylˆ;x
 5557;229;245;98;Nikolo-Beryozovka;x
 5558;108;223;91;Boray;x
-5559;236;203;108;B√∂r√∂;x
+5559;236;203;108;Bˆrˆ;x
 5560;27;221;37;Blagoveshchen;x
 5561;58;113;222;Ichke Baltas;x
 5562;246;1;91;Qarizel;x
@@ -5651,7 +5651,7 @@ province;red;green;blue;x;x
 5650;106;208;155;Novaya Zemlya;x
 5651;2;60;82;Poltavka;x
 5652;44;92;153;Moskalenki;x
-5653;13;221;247;Sharbaqk√≥l;x
+5653;13;221;247;SharbaqkÛl;x
 5654;133;205;231;Odesskoye;x
 5655;218;56;249;Tavricheskoye;x
 5656;133;166;64;Novovarshavka;x
@@ -5788,7 +5788,7 @@ province;red;green;blue;x;x
 5787;28;107;113;Sug-Aksy;x
 5788;93;212;146;Chadaana;x
 5789;64;212;226;Khandagayty;x
-5790;228;32;198;Chaa Chaa Kh√∂l;x
+5790;228;32;198;Chaa Chaa Khˆl;x
 5791;205;116;166;Shagaan-Aryg;x
 5792;19;99;104;Khovu-Aksy;x
 5793;135;129;138;Samagaltay;x
@@ -5817,13 +5817,13 @@ province;red;green;blue;x;x
 5816;158;62;93;Bratsk;x
 5817;180;209;28;Mama;x
 5818;218;107;68;Bodaybo;x
-5819;157;22;140;√ñrl√∂g;x
+5819;157;22;140;÷rlˆg;x
 5820;220;123;102;Khereen;x
 5821;150;116;227;Zakhaamin;x
 5822;127;15;157;Shivee;x
 5823;116;144;160;Galuutnuur;x
 5824;166;148;239;Khiagt;x
-5825;145;168;226;Besh√º√ºr;x
+5825;145;168;226;Besh¸¸r;x
 5826;33;228;71;Mukhar Sheber;x
 5827;27;18;77;Tarbagatay;x
 5828;51;123;166;Khabaan;x
@@ -5854,7 +5854,7 @@ province;red;green;blue;x;x
 5853;208;155;80;Priargunsk;x
 5854;169;60;103;Gazimursky Zavod;x
 5855;77;191;64;Nerchinsky Zavod;x
-5856;94;220;158;Nersh√º√º;x
+5856;94;220;158;Nersh¸¸;x
 5857;241;189;152;Verkh-Usugli;x
 5858;107;48;217;Sretensk;x
 5859;25;234;7;Mogocha;x
@@ -5926,10 +5926,10 @@ province;red;green;blue;x;x
 5925;1;245;197;Kashiwabara;x
 5926;186;129;29;Suntaar;x
 5927;235;129;60;Nyurba;x
-5928;164;198;154;√ñl√∂√∂n;x
+5928;164;198;154;÷lˆˆn;x
 5929;192;84;26;Saackylakh;x
-5930;110;209;112;√ú√∂hee B√ºl√º√º;x
-5931;136;73;235;B√ºl√º√º;x
+5930;110;209;112;‹ˆhee B¸l¸¸;x
+5931;136;73;235;B¸l¸¸;x
 5932;175;228;78;Berdiigesteekh;x
 5933;149;170;185;Nam;x
 5934;111;203;253;Pokrovskay;x
@@ -5937,12 +5937,12 @@ province;red;green;blue;x;x
 5936;79;216;110;Borogontsy;x
 5937;94;183;235;Amma;x
 5938;87;127;41;Churapcha;x
-5939;221;169;130;Itik K√º√∂l;x
+5939;221;169;130;Itik K¸ˆl;x
 5940;97;105;142;Baatagay Aliita;x
 5941;91;41;35;Edyigeen;x
 5942;186;199;229;Baatagay;x
 5943;131;75;20;Zyryanka;x
-5944;170;179;224;√úr√ºn Khaya;x
+5944;170;179;224;‹r¸n Khaya;x
 5945;11;217;205;Deputatskay;x
 5946;96;173;115;Orto Xalima;x
 5947;117;224;156;Susuman;x
@@ -6050,7 +6050,7 @@ province;red;green;blue;x;x
 6049;165;228;253;Passaic;x
 6050;60;128;104;Unalami;x
 6051;150;107;228;Minisink;x
-6052;210;212;67;Kitaht√´ne;x
+6052;210;212;67;KitahtÎne;x
 6053;201;49;82;Capoolong;x
 6054;234;223;147;Rariton;x
 6055;211;91;117;New Brunswick;x
@@ -6361,7 +6361,7 @@ province;red;green;blue;x;x
 6360;219;236;130;Winamac;x
 6361;163;97;206;La Porte;x
 6362;185;227;22;Gary;x
-6363;134;192;149;Sakiw√§sipi;x
+6363;134;192;149;Sakiw‰sipi;x
 6364;182;159;107;Cassopolis;x
 6365;138;115;99;Centreville;x
 6366;197;73;62;Paw Paw;x
@@ -7121,7 +7121,7 @@ province;red;green;blue;x;x
 7120;100;71;191;Hathawekela;x
 7121;15;111;3;Leavenworth;x
 7122;41;152;25;Atchison;x
-7123;25;35;220;H√°ri W√°ta;x
+7123;25;35;220;H·ri W·ta;x
 7124;150;229;93;Holton;x
 7125;68;154;142;Aahkawirarahkata;x
 7126;36;213;76;Taovaya;x
@@ -7141,9 +7141,9 @@ province;red;green;blue;x;x
 7140;156;190;230;Oakley;x
 7141;214;99;94;Goodland;x
 7142;150;58;25;Atwood;x
-7143;102;6;101;N√≠ M√°ha;x
+7143;102;6;101;NÌ M·ha;x
 7144;255;150;161;Auburn;x
-7145;221;200;129;K√≠cpaaruksti;x
+7145;221;200;129;KÌcpaaruksti;x
 7146;238;83;111;Oto;x
 7147;24;226;65;Fairbury;x
 7148;134;236;72;Wilber;x
@@ -7162,12 +7162,12 @@ province;red;green;blue;x;x
 7161;190;21;103;Chaui;x
 7162;70;152;206;Osceola;x
 7163;105;145;185;Norfolk;x
-7164;61;6;8;N√≠ Ubth√°tha;x
+7164;61;6;8;NÌ Ubth·tha;x
 7165;46;141;56;Center;x
 7166;96;173;87;Skidi;x
 7167;103;180;71;Ord;x
 7168;163;171;107;Bartlett;x
-7169;109;168;186;N√≠braxge;x
+7169;109;168;186;NÌbraxge;x
 7170;63;60;67;Monowi;x
 7171;125;41;176;Broken Bow;x
 7172;166;76;148;Taylor;x
@@ -7182,7 +7182,7 @@ province;red;green;blue;x;x
 7181;133;12;73;Stockville;x
 7182;195;221;156;Benkelman;x
 7183;239;199;206;Hayes Center;x
-7184;91;195;53;K√≠ckatus;x
+7184;91;195;53;KÌckatus;x
 7185;119;220;135;Grant;x
 7186;135;14;4;Tryon;x
 7187;147;127;143;Thedford;x
@@ -7193,10 +7193,10 @@ province;red;green;blue;x;x
 7192;48;163;0;Sidney;x
 7193;35;171;84;Bridgeport;x
 7194;179;61;39;Kimball;x
-7195;116;90;67;Phank√©ska;x
-7196;144;253;114;Ow√°thoksu;x
-7197;56;189;73;Ch√°pa;x
-7198;169;37;212;Bth√°ska;x
+7195;116;90;67;PhankÈska;x
+7196;144;253;114;Ow·thoksu;x
+7197;56;189;73;Ch·pa;x
+7198;169;37;212;Bth·ska;x
 7199;106;160;139;Monona;x
 7200;137;196;162;Carroll;x
 7201;119;48;190;Boone;x
@@ -7255,17 +7255,17 @@ province;red;green;blue;x;x
 7254;170;152;115;Okabena;x
 7255;115;44;25;Waraju;x
 7256;108;214;218;Inyan Shasha;x
-7257;225;149;129;Ouadebamenilsout√©;x
+7257;225;149;129;OuadebamenilsoutÈ;x
 7258;217;100;69;Oceti Sakowin;x
 7259;17;199;216;Pajutazee;x
-7260;197;0;5;Watp√° Mn√≠sota;x
+7260;197;0;5;Watp· MnÌsota;x
 7261;38;106;12;Ishtakhaba;x
 7262;29;42;220;Makato Osa Watapa;x
-7263;236;171;101;Wakp√° Ow√≥thanna;x
+7263;236;171;101;Wakp· OwÛthanna;x
 7264;55;228;174;Mnisota Makoce;x
 7265;36;220;129;Wapka Wazi Oju;x
 7266;252;98;138;Oneota;x
-7267;225;15;21;Mn√≠sosethaka;x
+7267;225;15;21;MnÌsosethaka;x
 7268;205;224;16;Keoxa;x
 7269;33;243;197;Hupahuduta;x
 7270;255;21;132;Sakatah;x
@@ -7320,7 +7320,7 @@ province;red;green;blue;x;x
 7319;156;132;145;Stanton;x
 7320;247;122;94;Amidon;x
 7321;27;187;206;Bowman;x
-7322;113;129;12;Inyanwakagapi Wakp√°;x
+7322;113;129;12;Inyanwakagapi Wakp·;x
 7323;53;172;50;Hettinger;x
 7324;54;199;221;Hunkpapa;x
 7325;112;9;158;Carson;x
@@ -7350,37 +7350,37 @@ province;red;green;blue;x;x
 7349;76;114;184;Rolla;x
 7350;82;78;123;Bottineau;x
 7351;20;94;84;Itazipcho;x
-7352;42;236;72;Sih√°sapa;x
-7353;62;235;110;Ow√°yasuta;x
+7352;42;236;72;Sih·sapa;x
+7353;62;235;110;Ow·yasuta;x
 7354;69;104;174;Bison;x
-7355;114;248;140;Makt√°za;x
-7356;79;175;22;Wakp√° Wast√©;x
-7357;49;211;75;Blech√°n;x
+7355;114;248;140;Makt·za;x
+7356;79;175;22;Wakp· WastÈ;x
+7357;49;211;75;Blech·n;x
 7358;45;2;124;Paha Sapa;x
-7359;80;169;146;Mni Kh√°ta;x
-7360;11;118;163;Waz√≠bl√≥;x
-7361;82;30;170;Mnikh√≥wozu;x
-7362;243;137;171;Wakp√° Sica;x
-7363;98;178;114;Wanbl√≠ Hohpi;x
-7364;231;181;221;Makh√≠zita Wakp√°;x
-7365;136;116;114;Paz√≥la Oth√∫nwahe;x
+7359;80;169;146;Mni Kh·ta;x
+7360;11;118;163;WazÌblÛ;x
+7361;82;30;170;MnikhÛwozu;x
+7362;243;137;171;Wakp· Sica;x
+7363;98;178;114;WanblÌ Hohpi;x
+7364;231;181;221;MakhÌzita Wakp·;x
+7365;136;116;114;PazÛla Oth˙nwahe;x
 7366;160;89;181;Sicangu Oyate;x
-7367;79;174;53;Chankp√© √ìpi Wakp√°la;x
-7368;198;198;119;Khulw√≠chasa;x
-7369;202;30;6;Makh√≠zita;x
+7367;79;174;53;ChankpÈ ”pi Wakp·la;x
+7368;198;198;119;KhulwÌchasa;x
+7369;202;30;6;MakhÌzita;x
 7370;51;218;111;Mnisose;x
 7371;150;121;92;Mound City;x
 7372;220;207;147;Ipswich;x
 7373;16;101;162;Gettysburg;x
 7374;128;107;117;Faulkton;x
 7375;235;207;64;Miller;x
-7376;43;178;30;Abl√≠la;x
+7376;43;178;30;AblÌla;x
 7377;99;63;187;Ateyapiotitanni;x
 7378;107;210;16;Inkpaduta;x
 7379;224;34;108;Redfield;x
 7380;131;212;213;Clark;x
 7381;127;251;43;Kampeska;x
-7382;31;177;106;Md√©za;x
+7382;31;177;106;MdÈza;x
 7383;138;213;166;Huron;x
 7384;109;107;136;De Smet;x
 7385;224;167;228;Brookings;x
@@ -7393,7 +7393,7 @@ province;red;green;blue;x;x
 7392;169;9;50;Olivet;x
 7393;63;50;35;Parker;x
 7394;217;223;179;Tyndall;x
-7395;177;136;94;Was√©oyuze;x
+7395;177;136;94;WasÈoyuze;x
 7396;173;139;53;Plentywood;x
 7397;107;182;76;Scobey;x
 7398;160;21;82;Wolf Point;x
@@ -7432,7 +7432,7 @@ province;red;green;blue;x;x
 7431;246;131;129;Sin Min Koos;x
 7432;175;245;165;Deer Lodge;x
 7433;228;60;175;Philipsburg;x
-7434;150;16;253;Clclcl√©;x
+7434;150;16;253;ClclclÈ;x
 7435;194;9;175;Dillon;x
 7436;81;171;224;Butte;x
 7437;92;169;29;Virginia City;x
@@ -7450,8 +7450,8 @@ province;red;green;blue;x;x
 7449;180;95;252;Douglas;x
 7450;197;107;70;Lusk;x
 7451;21;197;5;Newcastle;x
-7452;195;78;97;Ow√≠wanyang Wach√≠;x
-7453;225;153;111;Basawaxaaw√∫ua;x
+7452;195;78;97;OwÌwanyang WachÌ;x
+7453;225;153;111;Basawaxaaw˙ua;x
 7454;37;164;21;Rawlins;x
 7455;122;238;32;Buffalo;x
 7456;128;7;116;Washakie;x
@@ -7459,10 +7459,10 @@ province;red;green;blue;x;x
 7458;246;192;140;Evanston;x
 7459;27;126;176;Kemmerer;x
 7460;71;238;202;Seedskeedee Agie;x
-7461;14;180;27;H√≥√≥xon√≥'oo;x
-7462;141;15;84;Xono√∫'oo;x
+7461;14;180;27;HÛÛxonÛ'oo;x
+7462;141;15;84;Xono˙'oo;x
 7463;132;249;95;Teewinot;x
-7464;179;51;83;Awaxaawe B√°axxioo;x
+7464;179;51;83;Awaxaawe B·axxioo;x
 7465;63;238;79;Julesburg;x
 7466;168;154;143;Sterling;x
 7467;122;116;21;Greeley;x
@@ -7485,7 +7485,7 @@ province;red;green;blue;x;x
 7484;225;16;244;Walsenburg;x
 7485;178;92;184;Huajatolla;x
 7486;178;140;198;Springfield;x
-7487;128;65;71;Nen√≠is√≥toy√≥√∫'u;x
+7487;128;65;71;NenÌisÛtoyÛ˙'u;x
 7488;232;98;194;Boulder;x
 7489;137;147;79;Nichebechii;x
 7490;241;106;65;Xakxwet;x
@@ -7502,7 +7502,7 @@ province;red;green;blue;x;x
 7501;111;217;247;Uncompahgre;x
 7502;234;79;11;Tomichi;x
 7503;243;222;182;Montrose;x
-7504;138;30;163;Ca√±on City;x
+7504;138;30;163;CaÒon City;x
 7505;216;223;200;Tareewach;x
 7506;203;6;63;Saguache;x
 7507;86;255;106;Lake City;x
@@ -7624,7 +7624,7 @@ province;red;green;blue;x;x
 7623;242;162;133;Shwoyepi;x
 7624;249;3;247;Snpwilx;x
 7625;86;214;69;Schwenetekoo;x
-7626;190;96;139;Clq√©tk;x
+7626;190;96;139;ClqÈtk;x
 7627;117;192;124;Kahmiltpay;x
 7628;237;139;163;Waluulapam;x
 7629;225;75;241;Tuse;x
@@ -7656,13 +7656,13 @@ province;red;green;blue;x;x
 7655;154;36;25;Iwlalloona;x
 7656;43;252;142;Yahuskin;x
 7657;150;177;85;Lohim;x
-7658;108;71;69;Tam√°stslikt;x
+7658;108;71;69;Tam·stslikt;x
 7659;29;241;63;Wayampam;x
 7660;92;97;115;Willewah;x
 7661;155;74;20;Waileptu;x
 7662;12;130;20;Portpellah;x
 7663;154;157;189;Tukspush;x
-7664;136;43;71;W√°ik'a;x
+7664;136;43;71;W·ik'a;x
 7665;162;142;80;Kasalektawi;x
 7666;236;0;238;Hammawi;x
 7667;27;214;145;Do'wilotlding;x
@@ -7709,8 +7709,8 @@ province;red;green;blue;x;x
 7708;56;228;145;Wikwatha Ksik'ita;x
 7709;107;124;51;Sauppag;x
 7710;210;202;34;Nowal;x
-7711;120;227;44;Ts√©zhin Deez√°h√≠;x
-7712;249;100;69;Ich I Nachilt√≠√≠;x
+7711;120;227;44;TsÈzhin Deez·hÌ;x
+7712;249;100;69;Ich I NachiltÌÌ;x
 7713;112;74;141;Babawiko'a;x
 7714;195;153;65;Tsama'onwikeyi;x
 7715;71;230;179;Tsoodzil;x
@@ -7720,12 +7720,12 @@ province;red;green;blue;x;x
 7719;112;62;69;Tompiro;x
 7720;15;124;35;Hawikuh;x
 7721;153;132;143;Bidanku;x
-7722;60;57;11;Paquim√©;x
+7722;60;57;11;PaquimÈ;x
 7723;110;161;187;Chihende;x
 7724;155;156;146;Taos;x
 7725;151;255;87;Tinde;x
 7726;246;35;130;Tsampiye'ip'in;x
-7727;50;251;15;K√°y√°ntinu;x
+7727;50;251;15;K·y·ntinu;x
 7728;60;50;4;Cicuye;x
 7729;120;60;28;Tabira;x
 7730;15;229;195;Tukamukaru;x
@@ -7752,7 +7752,7 @@ province;red;green;blue;x;x
 7751;92;248;171;Guthrie;x
 7752;247;204;213;Sayre;x
 7753;114;54;160;Hobart;x
-7754;215;8;250;Nad√°kuh;x
+7754;215;8;250;Nad·kuh;x
 7755;241;136;206;Chikashsha;x
 7756;78;132;160;Norman;x
 7757;231;232;65;Altus;x
@@ -7919,14 +7919,14 @@ province;red;green;blue;x;x
 7918;182;252;58;Hemphill;x
 7919;99;191;221;Center;x
 7920;121;189;71;Henderson;x
-7921;250;16;51;Kaachxaana√°ak'w;x
-7922;212;98;193;Sh√°an S√©et;x
-7923;150;124;111;Gantiyaakw S√©edi;x
-7924;193;161;247;Sheet'k√°;x
-7925;24;169;42;Shgag√©i;x
-7926;159;32;101;Deish√∫;x
+7921;250;16;51;Kaachxaana·ak'w;x
+7922;212;98;193;Sh·an SÈet;x
+7923;150;124;111;Gantiyaakw SÈedi;x
+7924;193;161;247;Sheet'k·;x
+7925;24;169;42;ShgagÈi;x
+7926;159;32;101;Deish˙;x
 7927;110;50;45;Xunaa;x
-7928;165;177;160;Tthee T'√§wdlenn;x
+7928;165;177;160;Tthee T'‰wdlenn;x
 7929;129;186;244;Tanan;x
 7930;184;4;61;Kahtnu;x
 7931;145;17;73;Dghelaay;x
@@ -8253,11 +8253,11 @@ province;red;green;blue;x;x
 8252;181;107;35;Kununurra;x
 8253;174;118;241;San Rafael;x
 8254;128;208;89;La Villa;x
-8255;166;159;36;La Concepci√≥n;x
+8255;166;159;36;La ConcepciÛn;x
 8256;188;92;85;Machiques;x
 8257;234;35;74;Encontrados;x
 8258;159;183;137;Pueblo Nuevo;x
-8259;102;154;131;T√≠a Juana;x
+8259;102;154;131;TÌa Juana;x
 8260;202;194;0;San Timoteo;x
 8261;250;174;231;Santa Apolonia;x
 8262;211;53;95;El Paradero;x
@@ -8271,12 +8271,12 @@ province;red;green;blue;x;x
 8270;134;4;144;Siquisique;x
 8271;106;134;52;Rubio;x
 8272;183;224;41;Santa Ana;x
-8273;122;234;29;La Fr√≠a;x
+8273;122;234;29;La FrÌa;x
 8274;137;2;20;Abejales;x
 8275;211;39;73;Tovar;x
 8276;136;166;162;Canagua;x
 8277;114;226;59;Lagunillas;x
-8278;231;209;86;Tucan√≠;x
+8278;231;209;86;TucanÌ;x
 8279;112;167;126;Arapuey;x
 8280;117;115;132;Santo Domingo;x
 8281;140;41;44;Guasdualito;x
@@ -8284,23 +8284,23 @@ province;red;green;blue;x;x
 8283;194;185;165;Elorza;x
 8284;62;91;155;Achaguas;x
 8285;202;245;33;San Juan;x
-8286;202;140;23;Santa B√°rbara;x
+8286;202;140;23;Santa B·rbara;x
 8287;67;145;71;Ciudad Bolivia;x
 8288;170;139;193;Barinitas;x
 8289;80;159;110;Ciudad de Nutrias;x
 8290;94;42;150;Arismendi;x
 8291;145;68;38;Biscucuy;x
 8292;24;104;27;Guanare;x
-8293;234;215;108;P√≠ritu;x
+8293;234;215;108;PÌritu;x
 8294;44;81;52;Agua Blanca;x
-8295;7;248;211;El Play√≥n;x
+8295;7;248;211;El PlayÛn;x
 8296;124;95;119;Guanarito;x
 8297;221;98;15;Libertad;x
 8298;137;157;206;Tinaquillo;x
 8299;130;45;119;El Pao;x
-8300;126;34;156;El Ba√∫l;x
+8300;126;34;156;El Ba˙l;x
 8301;209;75;158;Mauroa;x
-8302;119;38;219;Capat√°rida;x
+8302;119;38;219;Capat·rida;x
 8303;188;111;68;Pedregal;x
 8304;200;162;235;San Luis;x
 8305;212;167;38;Churuguara;x
@@ -8308,7 +8308,7 @@ province;red;green;blue;x;x
 8307;210;140;207;Cabure;x
 8308;134;105;120;Puerto Cumarebo;x
 8309;210;188;205;Jacura;x
-8310;198;132;108;P√≠ritu;x
+8310;198;132;108;PÌritu;x
 8311;255;214;245;Yaracal;x
 8312;168;187;56;Tucacas;x
 8313;91;215;157;Aroa;x
@@ -8318,23 +8318,23 @@ province;red;green;blue;x;x
 8317;48;124;47;Bejuma;x
 8318;227;51;212;Naguanagua;x
 8319;240;93;94;Valencia;x
-8320;106;101;135;G√ºig√ºe;x
-8321;21;155;113;San Sebasti√°n;x
+8320;106;101;135;G¸ig¸e;x
+8321;21;155;113;San Sebasti·n;x
 8322;79;212;25;Camatagua;x
 8323;204;231;172;La Guaira;x
 8324;102;244;21;Los Teques;x
 8325;191;83;80;Santa Teresa;x
 8326;54;168;63;Caucagua;x
-8327;184;136;254;C√∫pira;x
+8327;184;136;254;C˙pira;x
 8328;88;195;18;Ortiz;x
 8329;177;30;37;Calabozo;x
 8330;142;148;179;Guayabal;x
 8331;68;50;118;Valle;x
 8332;112;112;201;Chaguaramas;x
-8333;187;203;149;San Jos√©;x
+8333;187;203;149;San JosÈ;x
 8334;171;221;116;El Socorro;x
 8335;196;190;226;Mapire;x
-8336;132;165;105;Pariagu√°n;x
+8336;132;165;105;Pariagu·n;x
 8337;121;208;68;Soledad;x
 8338;93;245;55;Cantaura;x
 8339;76;18;127;El Chaparro;x
@@ -8346,7 +8346,7 @@ province;red;green;blue;x;x
 8345;19;87;46;Quiriquire;x
 8346;12;255;99;Cariaco;x
 8347;231;84;114;Araya;x
-8348;101;46;104;Car√∫pano;x
+8348;101;46;104;Car˙pano;x
 8349;173;9;81;Yaguaraparo;x
 8350;53;82;33;Nueva Esparta;x
 8351;31;192;176;San Juan;x
@@ -8360,8 +8360,8 @@ province;red;green;blue;x;x
 8359;210;128;15;Santa Elena;x
 8360;255;250;196;Pedernales;x
 8361;132;121;121;Curiapo;x
-8362;124;61;90;Ain T√©mouchent;x
-8363;125;177;56;Sidi Bel Abb√®s;x
+8362;124;61;90;Ain TÈmouchent;x
+8363;125;177;56;Sidi Bel AbbËs;x
 8364;160;221;230;Mascara;x
 8365;228;75;207;Saida;x
 8366;37;91;74;Relizane;x
@@ -8371,11 +8371,11 @@ province;red;green;blue;x;x
 8370;196;197;199;Tissemsilt;x
 8371;244;153;87;Blida;x
 8372;112;126;185;El Bayadh;x
-8373;222;127;78;Boumerd√®s;x
+8373;222;127;78;BoumerdËs;x
 8374;162;147;109;Tizi Ouzou;x
 8375;232;122;212;Bouira;x
-8376;240;81;118;Bordj Bou Arr√©ridj;x
-8377;218;222;101;S√©tif;x
+8376;240;81;118;Bordj Bou ArrÈridj;x
+8377;218;222;101;SÈtif;x
 8378;172;48;255;Mila;x
 8379;232;13;247;Oum El Bouaghi;x
 8380;5;144;147;Batna;x
@@ -8386,7 +8386,7 @@ province;red;green;blue;x;x
 8385;146;123;11;Souk Ahras;x
 8386;142;67;177;Djelfa;x
 8387;43;206;237;Khenchela;x
-8388;250;76;81;T√©bessa;x
+8388;250;76;81;TÈbessa;x
 8389;149;200;156;El Oued;x
 8390;105;31;103;Berriane;x
 8391;255;37;195;El Guerrara;x
@@ -8403,11 +8403,11 @@ province;red;green;blue;x;x
 8402;181;25;175;Taibet;x
 8403;191;245;132;El Borma;x
 8404;158;145;222;Abadla;x
-8405;63;136;75;B√©ni Abb√®s;x
-8406;102;251;131;B√©ni Ounif;x
+8405;63;136;75;BÈni AbbËs;x
+8406;102;251;131;BÈni Ounif;x
 8407;159;13;166;El Ouata;x
 8408;59;88;19;Igli;x
-8409;156;20;247;K√©nadsa;x
+8409;156;20;247;KÈnadsa;x
 8410;253;133;142;Kerzaz;x
 8411;175;44;169;Lahmar;x
 8412;214;145;69;Ouled Khoudir;x
@@ -8435,31 +8435,31 @@ province;red;green;blue;x;x
 8434;193;110;118;Djanet;x
 8435;155;93;206;In Amenas;x
 8436;107;37;14;Kemi;x
-8437;210;47;92;Torne√•;x
+8437;210;47;92;TorneÂ;x
 8438;240;58;189;Simo;x
 8439;143;224;128;Ranua;x
-8440;99;216;173;√ñvertorne√•;x
+8440;99;216;173;÷vertorneÂ;x
 8441;99;200;60;Muonionniska;x
-8442;245;153;219;Kittil√§;x
-8443;107;79;70;Enonteki√∂;x
+8442;245;153;219;Kittil‰;x
+8443;107;79;70;Enontekiˆ;x
 8444;106;41;147;Posio;x
-8445;194;60;94;Kemij√§rvi;x
+8445;194;60;94;Kemij‰rvi;x
 8446;16;244;216;Salla;x
 8447;247;87;245;Savukoski;x
 8448;199;13;155;Utsjoki;x
-8449;144;135;36;Norra √ñsterbotten;x
-8450;205;210;199;Mellersta √ñsterbotten;x
-8451;12;200;12;S√∂dra √ñsterbotten;x
-8452;228;23;206;S√∂dra Savolax;x
+8449;144;135;36;Norra ÷sterbotten;x
+8450;205;210;199;Mellersta ÷sterbotten;x
+8451;12;200;12;Sˆdra ÷sterbotten;x
+8452;228;23;206;Sˆdra Savolax;x
 8453;24;51;36;Satakunta;x
-8454;255;76;77;P√§ij√§nne Tavastland;x
+8454;255;76;77;P‰ij‰nne Tavastland;x
 8455;235;235;107;Mellersta Finland;x
 8456;163;109;222;Kymmenedalen;x
-8457;185;42;59;S√∂dra Karelen;x
-8458;48;138;110;J√°nibek;x
+8457;185;42;59;Sˆdra Karelen;x
+8458;48;138;110;J·nibek;x
 8459;77;80;51;Kaztal;x
 8460;246;245;82;Jympity;x
-8461;129;247;201;Qarat√≥be;x
+8461;129;247;201;QaratÛbe;x
 8462;77;122;40;Tasqala;x
 8463;140;77;78;Fedorovka;x
 8464;115;119;5;Qurmangazy;x
@@ -8472,7 +8472,7 @@ province;red;green;blue;x;x
 8471;227;225;164;Temir;x
 8472;133;218;199;Oiyl;x
 8473;129;130;234;Qobda Aydany;x
-8474;131;189;137;M√°rt√≥k;x
+8474;131;189;137;M·rtÛk;x
 8475;165;77;188;Hromtay;x
 8476;232;80;64;Qazaly;x
 8477;227;96;96;Shieli;x
@@ -8604,15 +8604,15 @@ province;red;green;blue;x;x
 8603;65;160;146;Tecate;x
 8604;136;27;112;Kiliwa;x
 8605;198;191;225;Xazl Iimt;x
-8606;190;92;38;Comond√∫;x
+8606;190;92;38;Comond˙;x
 8607;59;53;9;Monqui;x
-8608;150;197;219;A√±i√±i;x
+8608;150;197;219;AÒiÒi;x
 8609;22;102;172;Guadalupe Island;x
 8610;86;248;22;Son Oidag;x
 8611;240;62;32;Ge'e Suidagi;x
 8612;233;53;247;Wawuk;x
 8613;244;5;222;Pitiquito;x
-8614;29;24;85;Tahej√∂c;x
+8614;29;24;85;Tahejˆc;x
 8615;65;114;82;Trincheras;x
 8616;189;213;140;Atil;x
 8617;247;112;255;Tubutama;x
@@ -8620,13 +8620,13 @@ province;red;green;blue;x;x
 8619;134;191;58;Imuris;x
 8620;65;212;190;Santa Ana;x
 8621;139;251;28;Opodepe;x
-8622;242;82;57;Carb√≥;x
-8623;198;183;225;Ray√≥n;x
+8622;242;82;57;CarbÛ;x
+8623;198;183;225;RayÛn;x
 8624;147;37;7;Ures;x
 8625;14;201;94;Cananea;x
 8626;181;219;245;Arizpe;x
 8627;201;123;74;Banamitzi;x
-8628;146;0;23;Bavi√°cora;x
+8628;146;0;23;Bavi·cora;x
 8629;221;185;122;Fronteras;x
 8630;167;192;12;Cumpas;x
 8631;179;242;185;Villa Hidalgo;x
@@ -8637,9 +8637,9 @@ province;red;green;blue;x;x
 8636;75;227;157;Bachicuy;x
 8637;88;42;177;Bavispe;x
 8638;216;105;186;Huachinera;x
-8639;132;195;63;N√°cori Chico;x
+8639;132;195;63;N·cori Chico;x
 8640;239;87;131;Arivechi;x
-8641;25;203;46;Y√©cora;x
+8641;25;203;46;YÈcora;x
 8642;13;69;28;Villa Pesqueira;x
 8643;235;221;17;La Colorada;x
 8644;220;209;189;Suaqui Grande;x
@@ -8647,7 +8647,7 @@ province;red;green;blue;x;x
 8646;4;85;1;Kahe'eme;x
 8647;242;251;65;Rosario de Tesopaco;x
 8648;101;250;165;Navojoa;x
-8649;181;103;78;√Ålamos;x
+8649;181;103;78;¡lamos;x
 8650;222;12;232;Huatabampo;x
 8651;237;134;78;Choix;x
 8652;70;145;66;El Fuerte;x
@@ -8656,10 +8656,10 @@ province;red;green;blue;x;x
 8655;39;207;165;Guasave;x
 8656;69;242;23;Badiraguato;x
 8657;164;233;195;Mocorito;x
-8658;143;156;177;Guam√∫chil;x
+8658;143;156;177;Guam˙chil;x
 8659;157;10;50;Angostura;x
 8660;176;219;251;Navolato;x
-8661;66;146;22;Cosal√°;x
+8661;66;146;22;Cosal·;x
 8662;240;184;60;La Cruz;x
 8663;194;243;162;San Ignacio;x
 8664;170;0;113;Concordia;x
@@ -8667,28 +8667,28 @@ province;red;green;blue;x;x
 8666;140;136;193;Escuinapa de Hidalgo;x
 8667;201;158;76;Tamazula;x
 8668;144;69;182;Topia;x
-8669;33;110;44;Ot√°ez;x
+8669;33;110;44;Ot·ez;x
 8670;242;24;194;Tepehuanes;x
-8671;216;179;245;Guanacev√≠;x
+8671;216;179;245;GuanacevÌ;x
 8672;124;160;210;San Bernardo;x
 8673;77;111;127;El Oro;x
 8674;98;237;81;Villa Hidalgo;x
 8675;100;53;100;Rodeo;x
 8676;63;122;92;Nazas;x
 8677;239;114;35;Lerdo;x
-8678;14;139;48;Mapim√≠;x
+8678;14;139;48;MapimÌ;x
 8679;235;84;183;Tlahualilo;x
 8680;206;234;232;Tayoltita;x
 8681;162;78;143;Nuevo Ideal;x
-8682;198;57;224;Canatl√°n;x
+8682;198;57;224;Canatl·n;x
 8683;88;162;0;El Salto;x
 8684;94;24;66;Mezquital;x
-8685;118;244;48;S√∫chil;x
-8686;124;198;205;Villa Uni√≥n;x
-8687;153;59;46;P√°nuco;x
-8688;139;129;76;Pe√±√≥n Blanco;x
-8689;125;156;137;Cuencam√©;x
-8690;105;79;130;General Sim√≥n;x
+8685;118;244;48;S˙chil;x
+8686;124;198;205;Villa UniÛn;x
+8687;153;59;46;P·nuco;x
+8688;139;129;76;PeÒÛn Blanco;x
+8689;125;156;137;CuencamÈ;x
+8690;105;79;130;General SimÛn;x
 8691;56;191;27;Guadalupe y Calvo;x
 8692;111;155;58;Batopilas;x
 8693;214;67;58;Urike;x
@@ -8697,16 +8697,16 @@ province;red;green;blue;x;x
 8696;164;208;162;Ocampo;x
 8697;55;122;89;Bocoyna;x
 8698;108;92;189;Guerrero;x
-8699;124;106;236;Tem√≥sachic;x
+8699;124;106;236;TemÛsachic;x
 8700;203;77;65;Balleza;x
-8701;194;249;8;Huejotit√°n;x
+8701;194;249;8;Huejotit·n;x
 8702;192;35;208;Parral;x
-8703;0;180;84;L√≥pez;x
+8703;0;180;84;LÛpez;x
 8704;159;197;152;Coronado;x
-8705;139;249;40;Jim√©nez;x
+8705;139;249;40;JimÈnez;x
 8706;201;36;14;Nonoava;x
 8707;44;74;52;San Francisco;x
-8708;81;107;151;Satev√≥;x
+8708;81;107;151;SatevÛ;x
 8709;36;229;139;Valle de Zaragoza;x
 8710;240;61;54;Rosales;x
 8711;143;99;43;Saucillo;x
@@ -8714,7 +8714,7 @@ province;red;green;blue;x;x
 8713;36;185;48;Camargo;x
 8714;130;190;32;Cusihuiriachi;x
 8715;129;156;88;Santa Isabel;x
-8716;219;31;85;Cuauht√©moc;x
+8716;219;31;85;CuauhtÈmoc;x
 8717;167;137;137;Riva Palacio;x
 8718;233;128;24;Namiquipa;x
 8719;163;88;38;Aldama;x
@@ -8724,8 +8724,8 @@ province;red;green;blue;x;x
 8723;229;200;2;Madera;x
 8724;20;157;102;Janos;x
 8725;232;112;170;Galeana;x
-8726;226;32;69;Ascensi√≥n;x
-8727;209;197;101;G√≥mez Far√≠as;x
+8726;226;32;69;AscensiÛn;x
+8727;209;197;101;GÛmez FarÌas;x
 8728;174;25;126;Buenaventura;x
 8729;97;146;227;Ahumada;x
 8730;187;91;199;Guadalupe;x
@@ -8738,56 +8738,56 @@ province;red;green;blue;x;x
 8737;202;225;40;Ramos Arizpe;x
 8738;155;65;18;Arteaga;x
 8739;71;11;77;Sierra Mojada;x
-8740;176;42;248;Cuatro Ci√©negas;x
+8740;176;42;248;Cuatro CiÈnegas;x
 8741;28;123;97;Lamadrid;x
 8742;204;3;116;San Buenaventura;x
-8743;130;236;36;Casta√±os;x
+8743;130;236;36;CastaÒos;x
 8744;6;135;144;Candela;x
 8745;180;47;96;Escobedo;x
 8746;182;76;172;Progreso;x
-8747;174;45;229;M√∫zquiz;x
+8747;174;45;229;M˙zquiz;x
 8748;184;235;250;San Juan de Sabinas;x
-8749;152;83;26;Ju√°rez;x
+8749;152;83;26;Ju·rez;x
 8750;213;17;28;Guerrero;x
-8751;197;205;101;Villa Uni√≥n;x
+8751;197;205;101;Villa UniÛn;x
 8752;195;127;247;Nava;x
-8753;23;170;142;Jim√©nez;x
+8753;23;170;142;JimÈnez;x
 8754;244;214;151;Zaragoza;x
-8755;200;29;166;An√°huac;x
+8755;200;29;166;An·huac;x
 8756;213;28;39;Lampazos;x
 8757;206;72;6;Bustamante;x
 8758;249;151;210;Sabinas Hidalgo;x
 8759;124;111;227;Vallecillo;x
 8760;141;32;71;Salinas Victoria;x
 8761;121;152;221;Agualeguas;x
-8762;59;242;162;Garc√≠a;x
+8762;59;242;162;GarcÌa;x
 8763;207;131;135;Abasolo;x
 8764;151;207;138;General Zuazua;x
-8765;222;134;174;Mar√≠n;x
+8765;222;134;174;MarÌn;x
 8766;95;21;245;Cerralvo;x
 8767;60;82;150;Los Herreras;x
 8768;190;20;168;Los Aldamas;x
 8769;125;133;51;Santiago;x
-8770;56;148;217;Ju√°rez;x
-8771;36;157;63;Doctor Gonz√°lez;x
+8770;56;148;217;Ju·rez;x
+8771;36;157;63;Doctor Gonz·lez;x
 8772;51;211;168;General Bravo;x
-8773;241;22;219;General Ter√°n;x
+8773;241;22;219;General Ter·n;x
 8774;22;76;31;Montemorelos;x
 8775;118;30;83;Hualahuises;x
 8776;163;92;28;Galeana;x
 8777;153;139;78;Doctor Arroyo;x
 8778;121;50;134;Aramberri;x
 8779;150;132;150;Nuevo Laredo;x
-8780;202;117;131;Miguel Alem√°n;x
+8780;202;117;131;Miguel Alem·n;x
 8781;166;234;255;Camargo;x
-8782;108;124;51;R√≠o Bravo;x
+8782;108;124;51;RÌo Bravo;x
 8783;88;85;226;Matamoros;x
-8784;5;61;70;M√©ndez;x
+8784;5;61;70;MÈndez;x
 8785;229;138;81;San Fernando;x
 8786;175;188;225;Burgos;x
 8787;202;10;111;Cruillas;x
 8788;249;200;245;Villagran;x
-8789;126;24;36;San Nicol√°s;x
+8789;126;24;36;San Nicol·s;x
 8790;255;54;216;Abasolo;x
 8791;85;251;26;Hidalgo;x
 8792;192;4;158;Padilla;x
@@ -8797,26 +8797,26 @@ province;red;green;blue;x;x
 8796;89;183;113;Soto la Marina;x
 8797;140;193;205;Tula;x
 8798;150;226;84;Ocampo;x
-8799;199;78;5;Xicot√©ncatl;x
+8799;199;78;5;XicotÈncatl;x
 8800;173;63;164;Antiguo Morelo;x
-8801;49;177;178;Gonz√°le;x
+8801;49;177;178;Gonz·le;x
 8802;109;86;72;Aldama;x
 8803;68;113;201;Tampico;x
-8804;2;255;72;Concepci√≥n del Oro;x
+8804;2;255;72;ConcepciÛn del Oro;x
 8805;233;140;230;Mazapil;x
 8806;164;245;62;Juan Aldama;x
 8807;194;33;136;Villa de Cos;x
 8808;76;249;5;Miguel Auza;x
-8809;43;32;61;R√≠o Grande;x
-8810;42;230;0;Sa√≠n Alto;x
+8809;43;32;61;RÌo Grande;x
+8810;42;230;0;SaÌn Alto;x
 8811;188;35;200;Sombrerete;x
 8812;95;212;134;Chalchihuites;x
 8813;178;126;31;Calera;x
-8814;100;254;35;P√°nuco;x
+8814;100;254;35;P·nuco;x
 8815;113;203;80;Trancoso;x
 8816;157;242;144;Genaro Codina;x
 8817;185;227;105;Ojocaliente;x
-8818;155;30;19;Noria de √Ångeles;x
+8818;155;30;19;Noria de ¡ngeles;x
 8819;114;242;27;Villa Garcia;x
 8820;194;136;2;Pinos;x
 8821;91;99;89;Monte Escobedo;x
@@ -8825,8 +8825,8 @@ province;red;green;blue;x;x
 8824;206;225;239;Villanueva;x
 8825;179;82;54;Tabasco;x
 8826;123;178;162;Atolinga;x
-8827;70;254;73;Tepechitl√°n;x
-8828;197;189;242;Benito Ju√°rez;x
+8827;70;254;73;Tepechitl·n;x
+8828;197;189;242;Benito Ju·rez;x
 8829;107;17;92;Mezquital del Oro;x
 8830;76;59;237;Apozol;x
 8831;151;130;72;Jalpa;x
@@ -8844,22 +8844,22 @@ province;red;green;blue;x;x
 8843;76;169;80;Villa de Arriaga;x
 8844;87;210;139;Villa de Reyes;x
 8845;48;31;188;Villa de Hidalgo;x
-8846;252;115;13;San Nicol√°s Tolentino;x
+8846;252;115;13;San Nicol·s Tolentino;x
 8847;228;6;3;Zaragoza;x
 8848;228;206;24;Tierra Nueva;x
-8849;212;205;139;Guadalc√°zar;x
+8849;212;205;139;Guadalc·zar;x
 8850;223;150;3;Cerritos;x
 8851;58;103;184;San Ciro de Acosta;x
 8852;85;53;192;El Naranjo;x
 8853;147;219;51;Cardenas;x
-8854;9;220;105;Ray√≥n;x
+8854;9;220;105;RayÛn;x
 8855;167;244;192;Lagunillas;x
 8856;186;188;42;Tamasopo;x
 8857;217;224;93;Santa Catarina;x
-8858;140;37;166;Tamu√≠n;x
-8859;82;34;85;Aquism√≥n;x
+8858;140;37;166;TamuÌn;x
+8859;82;34;85;AquismÛn;x
 8860;4;132;41;Xilitla;x
-8861;12;108;124;Tanlaj√°s;x
+8861;12;108;124;Tanlaj·s;x
 8862;225;201;104;Matlapa;x
 8863;211;205;22;Huaxiimi;x
 8864;101;58;39;Acatlpoletltlan;x
@@ -8868,33 +8868,33 @@ province;red;green;blue;x;x
 8867;253;117;185;El Nayar;x
 8868;207;193;141;San Blas;x
 8869;245;231;111;Compostela;x
-8870;195;244;85;Bah√≠a de Banderas;x
+8870;195;244;85;BahÌa de Banderas;x
 8871;19;224;141;Ximochoque;x
-8872;149;153;91;Santa Mar√≠a del Oro;x
-8873;178;76;246;Ahuacatl√°n;x
+8872;149;153;91;Santa MarÌa del Oro;x
+8873;178;76;246;Ahuacatl·n;x
 8874;191;10;27;Xali;x
 8875;132;243;16;La Yesca;x
 8876;238;17;226;Casimiro Castillo;x
-8877;60;239;239;Tecalitl√°n;x
+8877;60;239;239;Tecalitl·n;x
 8878;185;96;97;Chiquilizintli;x
-8879;168;128;111;Amat√≠tlan;x
-8880;144;231;229;Ayotl√°n;x
-8881;122;137;248;San Juli√°n;x
+8879;168;128;111;AmatÌtlan;x
+8880;144;231;229;Ayotl·n;x
+8881;122;137;248;San Juli·n;x
 8882;134;120;244;Ojuelos de Jalisco;x
 8883;151;195;68;Calvillo;x
-8884;162;193;171;Jes√∫s Mar√≠a;x
-8885;219;8;173;Cos√≠o;x
+8884;162;193;171;Jes˙s MarÌa;x
+8885;219;8;173;CosÌo;x
 8886;0;152;185;Asientos;x
 8887;209;227;216;El Llano;x
 8888;208;253;49;Manzanillo;x
 8889;13;200;236;Comala;x
 8890;200;220;6;Tlatoani;x
-8891;71;92;223;Coquimatl√°n;x
-8892;174;205;231;Tecom√°n;x
+8891;71;92;223;Coquimatl·n;x
+8892;174;205;231;Tecom·n;x
 8893;143;127;60;Penlamu;x
 8894;246;196;37;Cuitzeo;x
 8895;101;24;126;Manuel Doblado;x
-8896;142;126;229;Pur√≠sima del Rinc√≥n;x
+8896;142;126;229;PurÌsima del RincÛn;x
 8897;216;101;189;Romita;x
 8898;193;244;31;Yuririhapundaro;x
 8899;69;255;136;Valle de Santiago;x
@@ -8903,31 +8903,31 @@ province;red;green;blue;x;x
 8902;108;60;15;Salvatierra;x
 8903;196;214;135;Tarimoro;x
 8904;153;219;37;Akambarhu;x
-8905;195;44;78;Jer√©cuaro;x
+8905;195;44;78;JerÈcuaro;x
 8906;101;0;140;Apatzeo;x
 8907;162;241;22;Cortazar;x
 8908;87;148;45;Comonfort;x
-8909;73;219;129;Le√≥n;x
+8909;73;219;129;LeÛn;x
 8910;216;178;171;San Felipe;x
-8911;152;214;163;San Diego de la Uni√≥n;x
+8911;152;214;163;San Diego de la UniÛn;x
 8912;211;129;124;Dolores Hidalgo;x
 8913;192;211;116;Chichimeca;x
 8914;209;94;182;San Luis de la Paz;x
 8915;175;209;173;Doctor Mora;x
 8916;209;90;77;Victoria;x
-8917;163;146;209;Xich√∫;x
+8917;163;146;209;Xich˙;x
 8918;255;143;84;Amealco de Bonfil;x
 8919;140;174;147;Pedro Escobedo;x
 8920;182;85;85;Huimilpan;x
-8921;147;124;163;El Marqu√©s;x
+8921;147;124;163;El MarquÈs;x
 8922;198;136;113;Nt'e;x
-8923;163;66;151;Ntolim√§;x
-8924;194;128;128;San Joaqu√≠n;x
+8923;163;66;151;Ntolim‰;x
+8924;194;128;128;San JoaquÌn;x
 8925;58;170;82;Pinal de Amoles;x
 8926;170;47;96;Arroyo Seco;x
 8927;85;168;132;Landa de Matamoros;x
 8928;128;140;190;Tepeji;x
-8929;205;178;66;M√§meni;x
+8929;205;178;66;M‰meni;x
 8930;151;97;155;Nts'utk'ani;x
 8931;109;113;83;Maboza;x
 8932;209;174;143;Nzi'batha;x
@@ -8949,10 +8949,10 @@ province;red;green;blue;x;x
 8948;225;132;128;Lerma;x
 8949;128;174;174;Atlacomulli;x
 8950;209;82;55;Naucalpan;x
-8951;66;167;101;Cuautitl√°n Izcalli;x
+8951;66;167;101;Cuautitl·n Izcalli;x
 8952;167;97;163;Zumpango;x
 8953;201;163;66;Ecatepec;x
-8954;116;35;78;Chimalhuac√°n;x
+8954;116;35;78;Chimalhuac·n;x
 8955;194;201;167;Tlaylloltlacan;x
 8956;147;140;89;Ayala;x
 8957;170;89;109;Tesa'a;x
@@ -8961,30 +8961,30 @@ province;red;green;blue;x;x
 8960;136;28;151;Chololoa;x
 8961;217;155;116;Cuetlaxcoapan;x
 8962;120;82;55;Atlxallipan;x
-8963;209;167;128;Tehuac√°n;x
+8963;209;167;128;Tehuac·n;x
 8964;194;39;82;Chalchicomula;x
-8965;35;205;66;Z√°catl;x
+8965;35;205;66;Z·catl;x
 8966;163;59;89;Zongozotla;x
 8967;213;28;147;Cuauchinanco;x
 8968;201;194;51;Vicente Guerrero;x
 8969;159;51;255;Ptzacalli;x
 8970;140;147;51;Calpollalpan;x
-8971;116;143;136;Cu√°huitl;x
-8972;217;55;97;La Uni√≥n;x
-8973;201;178;31;Phor√© Siranda;x
-8974;28;205;66;Coyuca de Catal√°n;x
+8971;116;143;136;Cu·huitl;x
+8972;217;55;97;La UniÛn;x
+8973;201;178;31;PhorÈ Siranda;x
+8974;28;205;66;Coyuca de Catal·n;x
 8975;194;85;159;Atlxochitltlan;x
 8976;31;182;70;Tecutli;x
 8977;194;78;248;Totolin;x
-8978;205;55;62;Atoyac de √Ålvarez;x
+8978;205;55;62;Atoyac de ¡lvarez;x
 8979;105;116;209;Tixtla de Guerrero;x
 8980;124;82;55;Quechutl;x
-8981;151;51;24;Coyuca de Ben√≠tez;x
+8981;151;51;24;Coyuca de BenÌtez;x
 8982;186;85;240;San Marcos;x
 8983;101;51;39;Ayotltlan;x
 8984;155;143;209;Acatl;x
 8985;232;217;113;Kopalli;x
-8986;217;55;47;Azoy√∫;x
+8986;217;55;47;Azoy˙;x
 8987;151;205;155;Ometepetl;x
 8988;205;24;8;Tlacuatzin;x
 8989;70;151;58;Cochotlapan;x
@@ -8992,7 +8992,7 @@ province;red;green;blue;x;x
 8991;66;101;159;Atlagua;x
 8992;213;62;132;Atlpoyecca;x
 8993;167;167;109;Cuamochitl;x
-8994;132;97;113;Olinal√°;x
+8994;132;97;113;Olinal·;x
 8995;116;151;143;Ahuacuotzingo;x
 8996;178;174;101;Apan o Apantli;x
 8997;105;93;174;Teopanca;x
@@ -9003,7 +9003,7 @@ province;red;green;blue;x;x
 9002;182;174;101;Apaxtli;x
 9003;136;43;132;Arcelia;x
 9004;205;201;194;Tlalchapa;x
-9005;97;205;163;Cotzam√°lotl;x
+9005;97;205;163;Cotzam·lotl;x
 9006;174;116;93;Yucu Dzaa;x
 9007;201;78;113;Pochtl;x
 9008;113;252;74;Poctlan;x
@@ -9017,19 +9017,19 @@ province;red;green;blue;x;x
 9016;51;58;101;Silacayoapam;x
 9017;182;89;70;Nuu dee;x
 9018;12;66;51;Coatl;x
-9019;232;43;136;Cuicatl√°n;x
+9019;232;43;136;Cuicatl·n;x
 9020;74;201;85;Etla;x
-9021;97;51;51;Zimatl√°n;x
+9021;97;51;51;Zimatl·n;x
 9022;205;194;198;Exotl;x
 9023;128;120;167;Tlacolula;x
-9024;198;178;97;Ixtl√°n;x
+9024;198;178;97;Ixtl·n;x
 9025;62;55;24;Zoolaga;x
 9026;97;113;201;Cosolapa;x
 9027;113;31;0;Xolotepec;x
-9028;167;116;101;P√°nuco;x
+9028;167;116;101;P·nuco;x
 9029;116;205;205;Tantuyik;x
 9030;163;70;85;Tochtlipan;x
-9031;221;205;62;Mart√≠nez de la Torre;x
+9031;221;205;62;MartÌnez de la Torre;x
 9032;128;105;58;Misantla;x
 9033;47;151;39;Naucampatepetl;x
 9034;217;28;51;Emiliano Zapata;x
@@ -9041,22 +9041,22 @@ province;red;green;blue;x;x
 9040;182;221;167;Santiago Tuxtla;x
 9041;113;62;58;Cosoleacaque;x
 9042;70;159;201;Acayucan;x
-9043;101;58;163;Minatitl√°n;x
+9043;101;58;163;Minatitl·n;x
 9044;143;105;74;Motozintla;x
-9045;109;43;93;Tonal√°;x
+9045;109;43;93;Tonal·;x
 9046;89;167;82;Cintalapa;x
 9047;109;51;20;Komitltlan;x
 9048;209;209;190;Venustiano Carranza;x
 9049;163;24;55;Jovel;x
-9050;47;209;132;Copainal√°;x
+9050;47;209;132;Copainal·;x
 9051;182;16;151;Pichucalco;x
-9052;120;217;58;Yajal√≥n;x
+9052;120;217;58;YajalÛn;x
 9053;221;167;163;Palenque;x
 9054;93;124;105;Nuevo Orizaba;x
 9055;174;155;58;Ueimanco;x
 9056;128;136;205;Ayahualco;x
 9057;190;85;82;Comalli;x
-9058;78;89;105;Cumuac√°n;x
+9058;78;89;105;Cumuac·n;x
 9059;209;190;132;Nacajuca;x
 9060;140;198;159;Tacotalpa;x
 9061;190;78;51;Cintla;x
@@ -9065,24 +9065,24 @@ province;red;green;blue;x;x
 9064;186;182;198;Chakmool;x
 9065;140;82;55;Tanatsiic;x
 9066;128;78;58;Palizada;x
-9067;201;51;105;Chak√°n Putum;x
-9068;70;190;151;Esc√°rcega;x
+9067;201;51;105;Chak·n Putum;x
+9068;70;190;151;Esc·rcega;x
 9069;182;120;198;Candelaria;x
 9070;116;190;128;Tenabo;x
-9071;205;155;43;Hecelchak√°n;x
-9072;124;70;97;Calkin√≠;x
-9073;85;159;167;Hopelch√©n;x
-9074;205;97;120;Opich√©n;x
+9071;205;155;43;Hecelchak·n;x
+9072;124;70;97;CalkinÌ;x
+9073;85;159;167;HopelchÈn;x
+9074;205;97;120;OpichÈn;x
 9075;82;55;82;Progreso;x
-9076;232;66;39;Hom√∫n;x
-9077;170;209;97;Yaxcab√°;x
+9076;232;66;39;Hom˙n;x
+9077;170;209;97;Yaxcab·;x
 9078;143;85;39;Saki;x
 9079;159;159;58;Bakhalal;x
 9080;120;85;132;Koch Wah;x
 9081;89;201;62;Tulu'um;x
 9082;194;58;78;Sian Ka'an;x
-9083;225;136;113;K√πutsmil;x
-9084;198;178;128;Kantunilk√≠n;x
+9083;225;136;113;K˘utsmil;x
+9084;198;178;128;KantunilkÌn;x
 9085;89;85;24;Ixchel;x
 9086;140;58;105;Takutu;x
 9087;213;201;58;Mazaruni;x
@@ -9092,7 +9092,7 @@ province;red;green;blue;x;x
 9091;124;221;132;Kumaka;x
 9092;190;163;43;Waini;x
 9093;128;124;70;Jendouba;x
-9094;205;43;85;B√©ja;x
+9094;205;43;85;BÈja;x
 9095;163;174;39;Manouba;x
 9096;132;93;113;Ben Arous;x
 9097;198;55;66;Zaghouan;x
@@ -9111,31 +9111,31 @@ province;red;green;blue;x;x
 9110;101;170;47;Halden;x
 9111;209;205;62;Sarpsborg;x
 9112;163;89;109;Ski;x
-9113;178;120;43;Lillestr√∏m;x
+9113;178;120;43;Lillestr¯m;x
 9114;143;62;201;Jessheim;x
 9115;159;213;136;Hedmark;x
 9116;198;66;70;Kongsvinger;x
 9117;159;186;35;Elverum;x
-9118;170;109;101;Gj√∏vik;x
+9118;170;109;101;Gj¯vik;x
 9119;213;182;128;Lillehammer;x
-9120;217;66;182;V√•g√•;x
-9121;167;213;70;Skj√•k;x
+9120;217;66;182;VÂgÂ;x
+9121;167;213;70;SkjÂk;x
 9122;244;14;90;Buskerud;x
-9123;243;163;33;H√∏nefoss;x
+9123;243;163;33;H¯nefoss;x
 9124;169;214;135;Prestfoss;x
 9125;87;249;3;Nesbyen;x
-9126;143;21;158;Tr√∏ym;x
-9127;221;208;110;R√∏dberg;x
+9126;143;21;158;Tr¯ym;x
+9127;221;208;110;R¯dberg;x
 9128;213;223;189;Vestfold;x
-9129;224;209;156;Krager√∏;x
+9129;224;209;156;Krager¯;x
 9130;42;153;183;Notodden;x
 9131;52;212;51;Kviteseid;x
 9132;172;79;162;Rjukan;x
 9133;189;241;129;Treungen;x
-9134;77;92;8;√Ömot;x
+9134;77;92;8;≈mot;x
 9135;8;251;201;Rendalen;x
 9136;218;171;83;Aust Agder;x
-9137;86;202;41;Ris√∏r;x
+9137;86;202;41;Ris¯r;x
 9138;204;162;150;Grimstad;x
 9139;246;13;183;Bygland;x
 9140;29;250;122;Bykle;x
@@ -9149,12 +9149,12 @@ province;red;green;blue;x;x
 9148;250;42;53;Eidfjord;x
 9149;123;104;64;Voss;x
 9150;194;224;164;Kvam;x
-9151;224;221;205;H√∏yanger;x
+9151;224;221;205;H¯yanger;x
 9152;191;132;182;Luster;x
 9153;80;89;7;Gaular;x
 9154;50;200;84;Gloppen;x
 9155;146;40;134;Leikanger;x
-9156;138;101;54;√Ölesund;x
+9156;138;101;54;≈lesund;x
 9157;105;27;108;Kristiansund;x
 9158;61;167;43;Oppdal;x
 9159;90;94;139;Melhus;x
@@ -9164,38 +9164,38 @@ province;red;green;blue;x;x
 9163;60;204;101;Orkanger;x
 9164;10;188;111;Mebonden;x
 9165;121;27;193;Midtbygda;x
-9166;193;76;254;Verdals√∏ra;x
-9167;170;153;161;√Örnset;x
+9166;193;76;254;Verdals¯ra;x
+9167;170;153;161;≈rnset;x
 9168;122;244;249;Roan;x
 9169;202;97;102;Lauvsnes;x
 9170;203;42;82;Malm;x
 9171;215;1;207;Namdalseid;x
 9172;140;244;198;Steinkjer;x
 9173;142;138;248;Ranemsletta;x
-9174;147;128;110;R√∏rvik;x
+9174;147;128;110;R¯rvik;x
 9175;215;246;177;Namsskogan;x
 9176;128;22;171;Sandvika;x
-9177;191;46;252;R√∏yrvik;x
-9178;253;205;69;Br√∏nn√∏ysund;x
+9177;191;46;252;R¯yrvik;x
+9178;253;205;69;Br¯nn¯ysund;x
 9179;200;159;44;Hattfjelldal;x
-9180;63;168;50;Mosj√∏en;x
+9180;63;168;50;Mosj¯en;x
 9181;244;92;146;Leland;x
 9182;101;70;147;Korgen;x
 9183;56;130;80;Mo i Rana;x
-9184;174;101;215;V√•gaholmen;x
+9184;174;101;215;VÂgaholmen;x
 9185;211;43;116;Inndyr;x
-9186;113;172;70;Bod√∏;x
+9186;113;172;70;Bod¯;x
 9187;88;159;188;Fauske;x
-9188;238;37;16;S√∏rfold;x
-9189;162;71;107;Kj√∏psvik;x
+9188;238;37;16;S¯rfold;x
+9189;162;71;107;Kj¯psvik;x
 9190;212;133;188;Narvik;x
-9191;251;90;247;L√∏dingen;x
+9191;251;90;247;L¯dingen;x
 9192;198;76;143;Sortland;x
 9193;218;121;173;Leknes;x
 9194;136;71;110;Reine;x
 9195;224;30;183;Borkenes;x
-9196;162;53;75;√Örstein;x
-9197;30;255;46;Br√∏stadbotn;x
+9196;162;53;75;≈rstein;x
+9197;30;255;46;Br¯stadbotn;x
 9198;227;58;20;Finnsnes;x
 9199;253;40;246;Gryllefjord;x
 9200;148;123;142;Setermoen;x
@@ -9211,40 +9211,40 @@ province;red;green;blue;x;x
 9210;154;84;241;Kvalsund;x
 9211;244;13;101;Lakselv;x
 9212;229;189;175;Karasjok;x
-9213;152;245;31;Kj√∏llefjord;x
+9213;152;245;31;Kj¯llefjord;x
 9214;95;44;203;Tana Bru;x
-9215;239;7;34;B√•tsfjord;x
+9215;239;7;34;BÂtsfjord;x
 9216;92;219;20;Kirkenes;x
 9217;117;246;121;Kirklareli;x
 9218;97;103;33;Tekirdag;x
-9219;98;54;202;√úsk√ºdar;x
+9219;98;54;202;‹sk¸dar;x
 9220;162;63;68;Sakarya;x
 9221;193;81;72;Yalova;x
-9222;186;196;132;√áanakkale;x
+9222;186;196;132;«anakkale;x
 9223;198;89;85;Usak;x
 9224;217;128;105;Isparta;x
 9225;101;89;51;Gelibolu;x
-9226;167;82;89;D√ºzce;x
+9226;167;82;89;D¸zce;x
 9227;209;120;51;Zonguldak;x
-9228;170;82;213;Karab√ºk;x
+9228;170;82;213;Karab¸k;x
 9229;186;105;124;Bartin;x
 9230;221;209;113;Ordu;x
 9231;89;113;70;Bilecik;x
 9232;205;147;143;Kirikkale;x
-9233;213;128;47;√áorum;x
+9233;213;128;47;«orum;x
 9234;174;58;70;Nevsehir;x
 9235;116;190;101;Nigde;x
 9236;213;140;170;Osmaniye;x
 9237;78;158;143;Kilis;x
 9238;136;124;58;Giresun;x
-9239;109;47;97;G√ºm√ºshane;x
+9239;109;47;97;G¸m¸shane;x
 9240;198;74;31;Bayburt;x
 9241;120;209;89;Tunceli;x
 9242;140;82;101;Elazig;x
 9243;213;170;178;Artvin;x
 9244;113;51;66;Ardahan;x
 9245;228;82;85;Igdir;x
-9246;128;159;128;Bing√∂l;x
+9246;128;159;128;Bingˆl;x
 9247;58;198;109;Batman;x
 9248;140;78;43;Siirt;x
 9249;201;140;70;Hakkari;x
@@ -9503,15 +9503,15 @@ province;red;green;blue;x;x
 9502;188;232;115;Agats;x
 9503;0;125;83;Mappi;x
 9504;129;143;117;Boven Digoel;x
-9505;221;136;124;Sayaxch√©;x
+9505;221;136;124;SayaxchÈ;x
 9506;247;55;190;San Benito;x
 9507;218;171;184;Tayasal;x
 9508;100;121;42;Yaxha;x
 9509;255;143;51;San Francisco;x
-9510;128;164;140;Popt√∫n;x
+9510;128;164;140;Popt˙n;x
 9511;127;130;67;San Luis;x
-9512;150;194;185;Utatl√°n;x
-9513;60;218;224;Totonicap√°n;x
+9512;150;194;185;Utatl·n;x
+9513;60;218;224;Totonicap·n;x
 9514;239;7;236;Mataquescuintla;x
 9515;139;229;33;Zacatl;x
 9516;144;132;133;Xinabajul;x
@@ -9521,7 +9521,7 @@ province;red;green;blue;x;x
 9520;182;217;35;Mazatenango;x
 9521;250;124;241;Chimaltenango;x
 9522;176;248;22;Kaqchikel;x
-9523;229;152;243;Itzcuintl√°n;x
+9523;229;152;243;Itzcuintl·n;x
 9524;227;32;7;Atoyac;x
 9525;58;109;66;Poqomam;x
 9526;209;62;28;Chiquimolin;x
@@ -9550,83 +9550,83 @@ province;red;green;blue;x;x
 9549;90;222;58;Egedesminde;x
 9550;230;98;61;Jakobshavn;x
 9551;120;206;6;Ammassalik;x
-9552;197;61;63;Nordgr√∏nland;x
+9552;197;61;63;Nordgr¯nland;x
 9553;86;181;91;Angelholm;x
 9554;155;49;141;Helsingborg;x
-9555;202;88;138;√Östorp;x
+9555;202;88;138;≈storp;x
 9556;221;88;216;Klippan;x
 9557;103;22;28;Lomma;x
-9558;136;246;202;Sval√∂v;x
-9559;232;75;212;Esl√∂v;x
-9560;188;82;53;H√∂rby;x
+9558;136;246;202;Svalˆv;x
+9559;232;75;212;Eslˆv;x
+9560;188;82;53;Hˆrby;x
 9561;179;144;123;Staffanstorp;x
-9562;170;2;9;Sj√∂bo;x
+9562;170;2;9;Sjˆbo;x
 9563;178;153;71;Trelleborg;x
 9564;96;240;35;Ystad;x
 9565;232;170;167;Simrishamn;x
-9566;17;253;177;Brom√∂lla;x
+9566;17;253;177;Bromˆlla;x
 9567;246;179;75;Osby;x
-9568;195;240;157;H√§ssleholm;x
-9569;200;10;121;√ñrkelljunga;x
-9570;214;147;10;S√∂lvesborg;x
+9568;195;240;157;H‰ssleholm;x
+9569;200;10;121;÷rkelljunga;x
+9570;214;147;10;Sˆlvesborg;x
 9571;232;249;238;Karlskrona;x
 9572;167;209;155;Laholm;x
 9573;189;61;4;Falkenberg;x
 9574;223;65;192;Varberg;x
 9575;204;174;88;Kungsbacka;x
-9576;175;86;111;Kung√§lv;x
+9576;175;86;111;Kung‰lv;x
 9577;99;146;99;Uddevalla;x
-9578;74;154;98;Tj√∂rn;x
+9578;74;154;98;Tjˆrn;x
 9579;150;134;164;Munkedal;x
 9580;247;94;72;Tanumshede;x
 9581;159;147;128;Mellerud;x
-9582;217;198;78;√Öm√•l;x
-9583;113;82;20;F√§rgeland;x
+9582;217;198;78;≈mÂl;x
+9583;113;82;20;F‰rgeland;x
 9584;217;132;89;Partille;x
 9585;182;70;124;Lerum;x
-9586;109;117;58;Trollh√§ttan;x
+9586;109;117;58;Trollh‰ttan;x
 9587;186;62;74;Kinna;x
 9588;147;170;167;Nossebro;x
-9589;182;97;39;Bor√•s;x
-9590;147;31;58;V√•rg√•rda;x
+9589;182;97;39;BorÂs;x
+9590;147;31;58;VÂrgÂrda;x
 9591;201;221;35;Svenljunga;x
 9592;101;109;116;Ulricehamn;x
 9593;62;205;74;Vara;x
-9594;217;178;178;Lidk√∂ping;x
-9595;109;97;74;Falk√∂ping;x
+9594;217;178;178;Lidkˆping;x
+9595;109;97;74;Falkˆping;x
 9596;213;78;24;Skara;x
-9597;113;163;97;Sk√∂vde;x
+9597;113;163;97;Skˆvde;x
 9598;213;228;47;Hju;x
-9599;143;128;167;T√∂reboda;x
+9599;143;128;167;Tˆreboda;x
 9600;178;55;51;Mariestad;x
 9601;163;136;74;Ljungby;x
-9602;105;82;143;√Ñlmhult;x
+9602;105;82;143;ƒlmhult;x
 9603;201;178;62;Tingsryd;x
-9604;147;51;28;V√§xj√∂;x
-9605;221;190;143;√Öseda;x
+9604;147;51;28;V‰xjˆ;x
+9605;221;190;143;≈seda;x
 9606;163;101;74;Gislaved;x
 9607;124;39;104;Skillingaryd;x
-9608;209;219;93;N√§ssj√∂;x
+9608;209;219;93;N‰ssjˆ;x
 9609;151;209;205;Vetlanda;x
 9610;190;70;78;Aneby;x
 9611;132;236;205;Habo;x
 9612;228;97;51;Emmaboda;x
-9613;113;132;97;M√∂nster√•s;x
+9613;113;132;97;MˆnsterÂs;x
 9614;217;74;62;Hultsfred;x
-9615;78;159;31;V√§stervik;x
-9616;217;58;62;√ñland;x
-9617;190;147;124;√ñsterbymo;x
+9615;78;159;31;V‰stervik;x
+9616;217;58;62;÷land;x
+9617;190;147;124;÷sterbymo;x
 9618;128;89;74;Boxholm;x
 9619;209;213;85;Vadstena;x
-9620;167;89;182;Finsp√•ng;x
+9620;167;89;182;FinspÂng;x
 9621;201;194;85;Valdemarsvik;x
-9622;159;101;116;Norrk√∂ping;x
+9622;159;101;116;Norrkˆping;x
 9623;58;172;14;Askersund;x
 9624;230;28;211;Hallsberg;x
 9625;234;214;138;Karlskoga;x
 9626;158;168;253;Nora;x
 9627;157;154;44;Kopparberg;x
-9628;149;84;115;S√§ffle;x
+9628;149;84;115;S‰ffle;x
 9629;170;174;108;Charlottenberg;x
 9630;19;247;71;Arvika;x
 9631;185;117;103;Kil;x
@@ -9637,67 +9637,67 @@ province;red;green;blue;x;x
 9636;221;12;45;Torsby;x
 9637;200;247;56;Smedjebacken;x
 9638;72;177;15;Hedemora;x
-9639;225;189;125;Borl√§nge;x
+9639;225;189;125;Borl‰nge;x
 9640;174;104;117;Vansbro;x
 9641;209;198;74;Leksand;x
-9642;140;85;58;R√§ttvik;x
+9642;140;85;58;R‰ttvik;x
 9643;55;205;39;Malung;x
 9644;151;93;82;Mora;x
-9645;128;213;151;√Ñlvdalen;x
+9645;128;213;151;ƒlvdalen;x
 9646;28;145;35;Arboga;x
 9647;186;116;4;Hallstahammar;x
 9648;236;25;125;Surahammar;x
 9649;171;208;90;Norberg;x
 9650;169;236;194;Sala;x
-9651;106;230;11;Nyk√∂ping;x
+9651;106;230;11;Nykˆping;x
 9652;224;203;89;Katrineholm;x
 9653;205;36;120;Flen;x
 9654;137;9;158;Eskilstuna;x
-9655;147;192;159;Str√§ngn√§s;x
+9655;147;192;159;Str‰ngn‰s;x
 9656;253;126;73;Tumba;x
 9657;169;227;69;Gustavsberg;x
-9658;121;177;96;M√§rsta;x
-9659;243;81;70;Norrt√§lje;x
+9658;121;177;96;M‰rsta;x
+9659;243;81;70;Norrt‰lje;x
 9660;34;224;74;Knivsta;x
-9661;231;253;230;Enk√∂ping;x
+9661;231;253;230;Enkˆping;x
 9662;18;222;146;Heby;x
 9663;141;75;74;Uppsala;x
-9664;224;166;100;√ñsthammar;x
+9664;224;166;100;÷sthammar;x
 9665;100;184;29;Tierp;x
 9666;153;44;111;Sandviken;x
 9667;222;252;86;Ockelbo;x
-9668;99;159;56;S√∂derhamn;x
+9668;99;159;56;Sˆderhamn;x
 9669;127;75;220;Edsbyn;x
 9670;124;69;49;Ljusdal;x
 9671;239;7;198;Hudiksvall;x
-9672;213;45;133;Bergsj√∂;x
-9673;136;154;168;√Önge;x
+9672;213;45;133;Bergsjˆ;x
+9673;136;154;168;≈nge;x
 9674;249;148;58;Sundsvall;x
 9675;225;54;134;Kramfors;x
-9676;239;245;144;Sollefte√•;x
-9677;3;177;203;√ñrnsk√∂ldsvik;x
+9676;239;245;144;SollefteÂ;x
+9677;3;177;203;÷rnskˆldsvik;x
 9678;177;145;132;Sveg;x
 9679;172;228;17;Svenstavik;x
-9680;49;231;22;J√§rpen;x
+9680;49;231;22;J‰rpen;x
 9681;125;79;102;Krokom;x
-9682;97;8;164;Str√∂msund;x
+9682;97;8;164;Strˆmsund;x
 9683;218;177;184;Hammarstrand;x
-9684;151;178;128;Br√§cke;x
+9684;151;178;128;Br‰cke;x
 9685;58;244;114;Nordmaling;x
-9686;227;57;231;Skellefte√•;x
+9686;227;57;231;SkellefteÂ;x
 9687;247;128;180;Lycksele;x
-9688;97;207;240;Mal√•;x
+9688;97;207;240;MalÂ;x
 9689;227;178;94;Dorotea;x
 9690;231;134;24;Vilhelmina;x
 9691;165;16;52;Storuman;x
 9692;157;46;146;Sorsele;x
-9693;218;174;148;Pite√•;x
+9693;218;174;148;PiteÂ;x
 9694;201;38;114;Kalix;x
 9695;15;173;145;Haparanda;x
 9696;249;21;74;Arvidsjaur;x
 9697;18;120;108;Arjeplog;x
 9698;143;102;71;Jokkmokk;x
-9699;147;168;152;G√§llivare;x
+9699;147;168;152;G‰llivare;x
 9700;100;121;37;Pajala;x
 9701;115;7;171;Kiruna;x
 9702;155;164;109;Ozurgeti;x
@@ -9767,7 +9767,7 @@ province;red;green;blue;x;x
 9766;5;98;57;Cayo;x
 9767;94;46;49;Holpatin;x
 9768;253;100;42;Corozal;x
-9769;79;143;106;Ahuachap√°n;x
+9769;79;143;106;Ahuachap·n;x
 9770;192;23;240;Tazumal;x
 9771;253;74;110;Sonsonate;x
 9772;222;68;187;Chalatenango;x
@@ -9776,21 +9776,21 @@ province;red;green;blue;x;x
 9775;179;176;145;Zacatecoluca;x
 9776;192;142;185;Nawat;x
 9777;7;185;115;San Vicente;x
-9778;255;162;102;Usulut√°n;x
+9778;255;162;102;Usulut·n;x
 9779;58;148;108;San Miguel;x
 9780;162;160;141;Gotera;x
-9781;242;199;181;La Uni√≥n;x
+9781;242;199;181;La UniÛn;x
 9782;51;240;180;Ocotepeque;x
 9783;38;75;12;Lempira;x
-9784;99;156;61;Intibuc√°;x
+9784;99;156;61;Intibuc·;x
 9785;214;45;108;Santa Rosa;x
-9786;72;44;152;Santa B√°rbara;x
+9786;72;44;152;Santa B·rbara;x
 9787;209;91;47;Comayagua;x
 9788;120;56;214;Yoro;x
 9789;54;254;79;La Ceiba;x
 9790;224;249;155;Trujillo;x
 9791;110;216;200;Bay Islands;x
-9792;112;211;184;Yuscar√°n;x
+9792;112;211;184;Yuscar·n;x
 9793;63;254;36;Nacaome;x
 9794;157;105;171;Choluteca;x
 9795;179;35;39;Loja;x
@@ -9806,7 +9806,7 @@ province;red;green;blue;x;x
 9805;220;177;28;Portoviejo;x
 9806;99;146;106;Santo Domingo;x
 9807;214;177;216;Ibarra;x
-9808;78;157;70;Tulc√°n;x
+9808;78;157;70;Tulc·n;x
 9809;158;134;46;Nueva Loja;x
 9810;161;61;92;Orellana;x
 9811;101;168;123;Puyo;x
@@ -9849,8 +9849,8 @@ province;red;green;blue;x;x
 9848;251;214;30;Kavieng;x
 9849;225;124;87;Lorengau;x
 9850;250;0;20;Chinamitltacalt;x
-9851;116;117;152;Estel√≠;x
-9852;129;31;96;T√©pecxomotl;x
+9851;116;117;152;EstelÌ;x
+9852;129;31;96;TÈpecxomotl;x
 9853;223;135;56;Ocotl;x
 9854;238;204;33;Xinotencatl;x
 9855;230;148;64;Masaya;x
@@ -9868,7 +9868,7 @@ province;red;green;blue;x;x
 9867;197;82;78;El Tortuguero;x
 9868;61;129;85;Kukra Hill;x
 9869;119;44;247;Nueva Guinea;x
-9870;222;32;202;Kon√©;x
+9870;222;32;202;KonÈ;x
 9871;63;239;12;Loyalty Islands;x
 9872;184;71;135;Norfolk Island;x
 9873;73;175;85;Tafea;x
@@ -9889,7 +9889,7 @@ province;red;green;blue;x;x
 9888;93;238;192;Bobonaru;x
 9889;92;152;94;Ainaru;x
 9890;77;135;80;Ermera;x
-9891;192;80;172;Likis√°;x
+9891;192;80;172;Likis·;x
 9892;85;84;2;Manufahi;x
 9893;189;66;187;Aileu;x
 9894;201;215;87;Manatutu;x
@@ -10041,21 +10041,21 @@ province;red;green;blue;x;x
 10040;178;159;41;Cartago;x
 10041;48;167;132;Cubujuqui;x
 10042;212;142;199;Bocas del Toro;x
-10043;116;178;158;Bu√§bti;x
+10043;116;178;158;Bu‰bti;x
 10044;221;62;28;Herrera;x
 10045;255;147;158;Los Santos;x
-10046;244;139;73;Penonom√©;x
+10046;244;139;73;PenonomÈ;x
 10047;82;99;14;La Chorrera;x
-10048;157;50;254;Col√≥n;x
+10048;157;50;254;ColÛn;x
 10049;207;62;136;Guna Yala;x
-10050;24;238;117;Marb√°n;x
+10050;24;238;117;Marb·n;x
 10051;126;117;162;San Ignacio;x
-10052;168;104;194;Jos√© Ballivi√°n;x
-10053;168;180;165;San Joaqu√≠n;x
+10052;168;104;194;JosÈ Ballivi·n;x
+10053;168;180;165;San JoaquÌn;x
 10054;21;205;52;Magdalena;x
 10055;107;201;115;Riberalta;x
-10056;177;140;201;Abun√°;x
-10057;68;180;174;Federico Rom√°n;x
+10056;177;140;201;Abun·;x
+10057;68;180;174;Federico Rom·n;x
 10058;208;31;182;Puerto Rico;x
 10059;35;207;90;Puerto Gonzalo;x
 10060;14;237;107;Ixiamas;x
@@ -10069,9 +10069,9 @@ province;red;green;blue;x;x
 10068;224;144;138;Coro Coro;x
 10069;125;213;131;Waychu;x
 10070;233;104;178;Inquisivi;x
-10071;120;36;127;Poop√≥;x
+10071;120;36;127;PoopÛ;x
 10072;218;208;177;Challapata;x
-10073;172;149;212;Sebasti√°n Pagador;x
+10073;172;149;212;Sebasti·n Pagador;x
 10074;114;133;105;Wayllamarka;x
 10075;218;39;35;Qhurqhi;x
 10076;227;149;57;Wachaqalla;x
@@ -10088,8 +10088,8 @@ province;red;green;blue;x;x
 10087;193;150;88;Monteagudo;x
 10088;213;164;6;Luis Calvo;x
 10089;122;87;183;Uriondo;x
-10090;60;230;197;Entre R√≠os;x
-10091;136;122;114;Yacu√≠ba;x
+10090;60;230;197;Entre RÌos;x
+10091;136;122;114;YacuÌba;x
 10092;83;51;37;Jayupaya;x
 10093;184;69;206;Thapa Qhari;x
 10094;49;150;112;Arque;x
@@ -10104,11 +10104,11 @@ province;red;green;blue;x;x
 10103;186;124;73;Samaypata;x
 10104;253;56;39;Buena Vista;x
 10105;219;173;167;Montero;x
-10106;117;183;63;Ascensi√≥n;x
+10106;117;183;63;AscensiÛn;x
 10107;207;71;20;San Ignacio;x
 10108;217;202;174;Lagunillas;x
-10109;81;219;29;San Mat√≠as;x
-10110;220;104;251;Puerto Su√°rez;x
+10109;81;219;29;San MatÌas;x
+10110;220;104;251;Puerto Su·rez;x
 10111;157;11;150;Rompin;x
 10112;115;148;136;Pekan;x
 10113;226;157;115;Bera;x
@@ -10314,7 +10314,7 @@ province;red;green;blue;x;x
 10313;125;198;36;Gurkfeld;x
 10314;240;123;200;Trifail;x
 10315;219;161;43;Cilli;x
-10316;129;182;102;Windischgr√§tz;x
+10316;129;182;102;Windischgr‰tz;x
 10317;234;147;67;Marpurch;x
 10318;234;42;112;Olsnitz;x
 10319;166;17;76;Rijeka;x
@@ -10387,15 +10387,15 @@ province;red;green;blue;x;x
 10386;125;50;14;Prilep;x
 10387;238;209;99;Ohrid;x
 10388;93;89;77;Tetovo;x
-10389;178;252;67;Tiran√´;x
+10389;178;252;67;TiranÎ;x
 10390;148;14;41;Fier;x
-10391;177;79;142;Shkod√´r;x
-10392;209;67;78;Kuk√´s;x
+10391;177;79;142;ShkodÎr;x
+10392;209;67;78;KukÎs;x
 10393;180;225;90;Peshkopi;x
-10394;168;4;87;Kruj√´;x
+10394;168;4;87;KrujÎ;x
 10395;104;152;247;Berat;x
-10396;165;212;153;Kor√ß√´;x
-10397;182;130;79;Gjirokast√´r;x
+10396;165;212;153;KorÁÎ;x
+10397;182;130;79;GjirokastÎr;x
 10398;119;172;65;Thesprotia;x
 10399;235;67;108;Preveza;x
 10400;107;204;161;Arta;x
@@ -10417,9 +10417,9 @@ province;red;green;blue;x;x
 10416;225;122;2;Siroz;x
 10417;89;97;56;Drama;x
 10418;9;97;72;Kavala;x
-10419;216;123;141;Iske√ße;x
+10419;216;123;141;IskeÁe;x
 10420;62;105;75;Gumulcine;x
-10421;172;41;31;Dedeaga√ß;x
+10421;172;41;31;DedeagaÁ;x
 10422;142;137;115;Karpenisi;x
 10423;72;48;42;Amfissa;x
 10424;212;191;117;Lamia;x
@@ -10472,9 +10472,9 @@ province;red;green;blue;x;x
 10471;180;160;130;Piatra Neamt;x
 10472;188;235;201;Iasi;x
 10473;12;131;121;Botosani;x
-10474;225;179;140;Brass√≥;x
-10475;203;92;125;D√©va;x
-10476;200;124;18;Resicab√°nya;x
+10474;225;179;140;BrassÛ;x
+10475;203;92;125;DÈva;x
+10476;200;124;18;Resicab·nya;x
 10477;252;119;21;Arad;x
 10478;94;6;102;Salaj;x
 10479;67;97;50;Satu Mare;x
@@ -10483,16 +10483,16 @@ province;red;green;blue;x;x
 10482;167;195;91;Miercurea Ciuc;x
 10483;218;231;117;Sfantu Gheorghe;x
 10484;102;203;161;Szeged;x
-10485;166;163;24;Ny√≠regyh√°za;x
+10485;166;163;24;NyÌregyh·za;x
 10486;24;180;1;Eger;x
 10487;218;87;156;Miskolc;x
-10488;186;118;26;Salg√≥tarj√°n;x
-10489;174;152;22;Tatab√°nya;x
-10490;45;156;82;Szeksz√°rd;x
-10491;235;223;75;P√©cs;x
+10488;186;118;26;SalgÛtarj·n;x
+10489;174;152;22;Tatab·nya;x
+10490;45;156;82;Szeksz·rd;x
+10491;235;223;75;PÈcs;x
 10492;169;245;145;Zalaegerszeg;x
 10493;72;138;131;Szombathely;x
-10494;84;44;9;Veszpr√©m;x
+10494;84;44;9;VeszprÈm;x
 10495;181;13;88;Nagyszombat;x
 10496;249;206;59;Zilina;x
 10497;51;172;0;Eperies;x
@@ -10652,8 +10652,8 @@ province;red;green;blue;x;x
 10651;223;35;75;Filingue;x
 10652;9;205;179;Abala;x
 10653;134;157;31;Banibangou;x
-10654;226;201;131;√âvreux;x
-10655;56;121;35;√âpinal;x
+10654;226;201;131;…vreux;x
+10655;56;121;35;…pinal;x
 10656;116;233;171;Besancon;x
 10657;136;111;23;Belfort;x
 10658;145;45;14;Melun;x
@@ -10661,16 +10661,16 @@ province;red;green;blue;x;x
 10660;241;166;176;Vermandois;x
 10661;191;53;152;Cergy;x
 10662;97;195;35;Blois;x
-10663;71;145;192;Ch√¢teauroux;x
+10663;71;145;192;Ch‚teauroux;x
 10664;39;165;86;Laval;x
 10665;168;161;155;Chaumont;x
 10666;135;96;178;Niort;x
-10667;114;143;154;Gu√©ret;x
+10667;114;143;154;GuÈret;x
 10668;207;190;61;Tulle;x
 10669;227;50;222;Agen;x
 10670;200;159;188;Mont de Marsan;x
 10671;157;164;51;Montauban;x
-10672;70;90;154;Loz√®re;x
+10672;70;90;154;LozËre;x
 10673;219;99;167;Foix;x
 10674;114;66;171;Albi;x
 10675;150;149;63;Nimes;x
@@ -10679,7 +10679,7 @@ province;red;green;blue;x;x
 10678;53;195;2;Valence;x
 10679;85;92;50;Annecy;x
 10680;114;94;18;Bourg en Bresse;x
-10681;133;182;16;Saint √âtienne;x
+10681;133;182;16;Saint …tienne;x
 10682;248;71;130;Gap;x
 10683;141;17;36;Toulon;x
 10684;67;40;58;Viana;x
@@ -10690,7 +10690,7 @@ province;red;green;blue;x;x
 10689;247;248;87;Ribatejo;x
 10690;205;88;110;Portalegre;x
 10691;171;198;27;Evora;x
-10692;8;227;62;Set√∫bal;x
+10692;8;227;62;Set˙bal;x
 10693;52;175;45;Plasencia;x
 10694;245;140;53;Guadalajara;x
 10695;175;33;97;Araba;x
@@ -10700,7 +10700,7 @@ province;red;green;blue;x;x
 10699;201;61;92;Mayabeque;x
 10700;175;207;115;Juventud;x
 10701;127;195;142;Cienfuegos;x
-10702;59;23;47;Sancti Spir√≠tus;x
+10702;59;23;47;Sancti SpirÌtus;x
 10703;90;72;73;Las Tunas;x
 10704;155;182;33;Holguin;x
 10705;168;204;93;Cayman Islands;x
@@ -10795,13 +10795,13 @@ province;red;green;blue;x;x
 10794;111;195;148;Al Qadisiyah;x
 10795;135;127;103;Dhi Qar;x
 10796;145;145;223;Maysan;x
-10797;39;189;22;J√©r√©mie;x
+10797;39;189;22;JÈrÈmie;x
 10798;118;29;87;Nippes;x
 10799;85;175;29;Yaquimel;x
-10800;97;133;100;La Gon√¢ve;x
+10800;97;133;100;La Gon‚ve;x
 10801;198;211;56;Hinche;x
-10802;143;94;47;Cap Ha√Øtien;x
-10803;82;221;26;Fort Libert√©;x
+10802;143;94;47;Cap HaÔtien;x
+10803;82;221;26;Fort LibertÈ;x
 10804;56;108;92;Pedernales;x
 10805;80;71;131;Barahona;x
 10806;182;213;20;Ximani;x
@@ -10809,7 +10809,7 @@ province;red;green;blue;x;x
 10808;247;210;144;Comendador;x
 10809;140;27;117;Caonabo;x
 10810;250;225;173;Dahaboon;x
-10811;121;229;35;Santiago Rodr√≠guez;x
+10811;121;229;35;Santiago RodrÌguez;x
 10812;67;60;54;Santiago;x
 10813;91;169;181;Valverde;x
 10814;143;102;137;Monte Cristi;x
@@ -10817,12 +10817,12 @@ province;red;green;blue;x;x
 10816;155;219;109;Espaillat;x
 10817;156;47;91;Hermanas;x
 10818;240;63;214;Bonao;x
-10819;58;73;142;S√°nchez;x
+10819;58;73;142;S·nchez;x
 10820;142;74;96;Duarte;x
-10821;101;206;125;Saman√°;x
+10821;101;206;125;Saman·;x
 10822;164;209;224;Ocoa;x
 10823;44;68;108;Peravia;x
-10824;242;169;41;San Crist√≥bal;x
+10824;242;169;41;San CristÛbal;x
 10825;61;128;141;Monte Plata;x
 10826;165;79;239;Hato Mayor;x
 10827;194;90;154;San Pedro;x
@@ -12933,7 +12933,7 @@ province;red;green;blue;x;x
 12932;211;113;101;Warasz;x
 12933;19;218;37;Sarny;x
 12934;254;36;167;Dubno;x
-12935;77;169;23;Rah√≥;x
+12935;77;169;23;RahÛ;x
 12936;224;103;10;Tecso;x
 12937;249;120;91;Munkacs;x
 12938;98;11;63;Ungvar;x
@@ -12949,7 +12949,7 @@ province;red;green;blue;x;x
 12948;164;197;26;Stryj;x
 12949;11;38;6;Sambor;x
 12950;252;208;127;Jaworow;x
-12951;149;129;48;Zlocz√≥w;x
+12951;149;129;48;ZloczÛw;x
 12952;186;67;116;Ternopil;x
 12953;191;170;53;Chortkiv;x
 12954;114;124;98;Szepetowka;x

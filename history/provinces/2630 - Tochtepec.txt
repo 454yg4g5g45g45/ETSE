@@ -43,7 +43,7 @@ latent_trade_goods = {
 	religion = catholic
 }
 3678.1.1 = {
-	capital = "San AndrÃ©s Tuxtla"
+	capital = "San Andrés Tuxtla"
 }
 3868.1.1 = {
 	culture = mexican

@@ -1,7 +1,7 @@
 ######################################## 
 # Flavor events for Poland
 # 
-# written by Sara Wendel-�rtqvist
+# written by Sara Wendel-?rtqvist
 ######################################## 
 
 namespace = flavor_pol
@@ -1181,7 +1181,7 @@ country_event = {
 	}
 }
 
-# Michal Sedziw�j
+# Michal Sedziw?j
 country_event = {
 	id = flavor_pol.6
 	title = "flavor_pol.EVTNAME6"

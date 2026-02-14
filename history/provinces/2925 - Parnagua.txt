@@ -48,7 +48,7 @@ discovered_by = south_american
 	base_tax = 2
 }
 3964.5.19 = {
-	capital = "Alto ParnaÃ­ba"
+	capital = "Alto Parnaíba"
 }
 4008.1.1 = {
 	discovered_by = western

@@ -38,7 +38,7 @@ discovered_by = western
 	owner = ALM
 	controller = ALM
 	add_core = ALM
-	capital = "DelÃ©mont"
+	capital = "Delémont"
 	culture = swiss
 	religion = germanic
 }

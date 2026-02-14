@@ -69,7 +69,7 @@ native_hostileness = 1
 	controller = SWE
 }
 3719.1.1 = {
-	capital = "GÃ¶teborg"
+	capital = "Göteborg"
 }
 3923.1.1 = {
 	base_production = 5

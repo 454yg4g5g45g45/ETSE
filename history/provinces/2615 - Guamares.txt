@@ -42,7 +42,7 @@ discovered_by = mesoamerican
 	religion = catholic
 }
 3673.1.20 = {
-	capital = "LeÃ³n"
+	capital = "León"
 }
 3848.1.1 = {
 	base_production = 2

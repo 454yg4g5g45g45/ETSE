@@ -66,7 +66,7 @@ discovered_by = eastern
 	add_core = FRK
 	remove_core = SOI
 	culture = cosmopolitan_french
-	capital = "CompiÃ¨gne"
+	capital = "Compiègne"
 }
 2598.1.1 = {
 	base_tax = 2

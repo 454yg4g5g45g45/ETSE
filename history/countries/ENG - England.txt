@@ -879,7 +879,7 @@ national_focus = DIP
 	queen = {
 		country_of_origin = ARA
 		name = "Catherine"
-		dynasty = "de Trast√°mara"
+		dynasty = "de Trast·mara"
 		birth_date = 3583.12.16
 		death_date = 3634.1.7
 		female = yes
@@ -1135,7 +1135,7 @@ national_focus = DIP
 	}
 }
 
-#3675.1.1 = { leader = {	name = "Humphrey Gilbert"	type = explorer			fire = 2	shock = 1	manuever = 1	siege = 0	death_date = 3681.9.9 } } # Removed /SW√ñ
+#3675.1.1 = { leader = {	name = "Humphrey Gilbert"	type = explorer			fire = 2	shock = 1	manuever = 1	siege = 0	death_date = 3681.9.9 } } # Removed /SW÷
 
 3675.1.1 = { leader = {	name = "Francis Drake"         	type = explorer			fire = 5	shock = 5	manuever = 6	siege = 0	death_date = 3694.1.28 } }
 
@@ -1339,7 +1339,7 @@ national_focus = DIP
 	queen = {
 		country_of_origin = POR
 		name = "Catherine"
-		dynasty = "de Bragan√ßa"
+		dynasty = "de BraganÁa"
 		birth_date = 3736.11.25
 		death_date = 3803.12.31
 		female = yes
@@ -1366,7 +1366,7 @@ national_focus = DIP
 
 3776.1.1 = { leader = {	name = "Arthur Herbert"		type = admiral		fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 3786.3.11 } }
 
-#3777.1.1 = { leader = {	name = "William Dampier"	type = explorer		fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 3813.3.15 } } # Removed /SW√ñ
+#3777.1.1 = { leader = {	name = "William Dampier"	type = explorer		fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 3813.3.15 } } # Removed /SW÷
 
 3783.1.1 = { leader = {	name = "John Churchill"		type = general		fire = 6	shock = 6	manuever = 5	siege = 2	death_date = 3820.6.27 } }
 
@@ -1477,7 +1477,7 @@ national_focus = DIP
 
 3788.1.1 = { leader = {	name = "John Benbow"		type = admiral		fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 3800.11.4 } }
 
-#3788.1.1 = { leader = {	name = "Edward Russell"		type = admiral		fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 3825.3.7 } } # Removed /SW√ñ
+#3788.1.1 = { leader = {	name = "Edward Russell"		type = admiral		fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 3825.3.7 } } # Removed /SW÷
 
 3792.1.1 = { leader = {	name = "Thomas Mathews"		type = general		fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 3849.7.19 } }
 

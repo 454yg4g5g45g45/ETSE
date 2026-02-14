@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = guajiro
 religion = south_american
-capital = "San Carlos de RÃ­o Negro"
+capital = "San Carlos de Río Negro"
 
 native_size = 15
 native_ferocity =  1

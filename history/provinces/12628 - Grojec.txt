@@ -1,5 +1,5 @@
-# Grójec
-# 12628 Grójec - 1/26/2025 8:46:45 AM
+# Gr�jec
+# 12628 Gr�jec - 1/26/2025 8:46:45 AM
 add_core = NRI
 owner = NRI
 controller = NRI
@@ -10,7 +10,7 @@ center_of_trade = 1
 trade_goods = cloth
 culture = yotvingian
 religion = germanic
-capital = "GrÃ³jec"
+capital = "Grójec"
 is_city = yes
 discovered_by = VNE
 discovered_by = GCR

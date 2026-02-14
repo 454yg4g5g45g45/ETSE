@@ -1,5 +1,5 @@
-# Kukës
-# 10392 Kukës - 1/26/2025 8:46:44 AM
+# Kuk�s
+# 10392 Kuk�s - 1/26/2025 8:46:44 AM
 add_core = M10
 add_core = ROM
 owner = ROM
@@ -56,14 +56,14 @@ discovered_by = muslim
 
 3198.1.1 = { base_manpower = 2 } 
 3284.1.1 = { owner = SER controller = SER add_core = SER } 
-3288.1.1 = { capital = "KukÃ«s" add_core = ALB } 
+3288.1.1 = { capital = "Kukës" add_core = ALB } 
 3466.1.1 = { owner = ALB controller = ALB remove_core = SER } 
 3535.5.4 = { owner = TUR controller = TUR add_core = TUR } 
 3542.3.2 = { 
     owner = ALB
     controller = ALB
     add_core = ALB
-    capital = "KukÃ«s"
+    capital = "Kukës"
 }
 
 3551.5.29 = { remove_core = BYZ } 
@@ -71,7 +71,7 @@ discovered_by = muslim
     owner = TUR
     controller = TUR
     add_core = TUR
-    capital = "KÃ¶kes"
+    capital = "Kökes"
 }
 
 3618.1.1 = { religion = sunni } 

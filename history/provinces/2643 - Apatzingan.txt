@@ -27,7 +27,7 @@ discovered_by = mesoamerican
 	controller = SPA
 	add_core = SPA
 	religion = catholic
-	capital = "Apatzing√°n"
+	capital = "Apatzing·n"
 }
 3639.1.1 = {
 	culture = castillian

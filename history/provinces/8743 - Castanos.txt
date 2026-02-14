@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = coahuiltecan
 religion = totemism
-capital = "CastaÃ±os"
+capital = "Castaños"
 
 native_size = 5
 native_ferocity =  1

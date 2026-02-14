@@ -214,7 +214,7 @@ national_focus = MIL
 
 3663.1.1 = { leader = { name = "Pedro Menéndez de Avilés" type = conquistador 	 	fire = 3 	shock = 3 	manuever = 3 	siege = 0	death_date = 3672.9.16 } }
 
-3665.11.20 = { leader = { name = "?lvaro de Mendaña" 	type = explorer 	 	fire = 2 	shock = 2 	manuever = 4 	siege = 0	death_date = 3693.11.3 } }
+3665.11.20 = { leader = { name = "??lvaro de Mendaña" 	type = explorer 	 	fire = 2 	shock = 2 	manuever = 4 	siege = 0	death_date = 3693.11.3 } }
 
 3666.1.1 = { leader = {	name = "Juan de Austria"    	type = general			fire = 4	shock = 4	manuever = 2	siege = 0	death_date = 3669.1.1 } }
 

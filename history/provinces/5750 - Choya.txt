@@ -12,7 +12,7 @@ trade_goods = fur
 
 culture = kirgiz
 religion = tengri_pagan_reformed
-capital = "Ã‡oya"
+capital = "Çoya"
 
 is_city = yes
 

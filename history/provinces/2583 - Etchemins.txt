@@ -49,7 +49,7 @@ discovered_by = north_american
 	base_manpower = 2
 }
 3959.1.1 = {
-	capital = "LÃ©vis"
+	capital = "Lévis"
 }
 3965.7.1 = {
 	owner = CAN

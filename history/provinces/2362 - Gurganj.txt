@@ -159,7 +159,7 @@ discovered_by = muslim
 	controller = TRK
 	remove_core = SOV
 	remove_core = RUS
-	capital = "KÃ¶neÃ¼rgench"
+	capital = "Köneürgench"
 }
 
 

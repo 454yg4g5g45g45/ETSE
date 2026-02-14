@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = chacoan
 religion = south_american
-capital = "Villa √Ångela"
+capital = "Villa √?ngela"
 
 native_size = 5
 native_ferocity =  1

@@ -35,7 +35,7 @@ discovered_by = north_american
 	culture = cosmopolitan_french
 	religion = catholic
 	trade_goods = fish
-	capital = "GaspÃ©"
+	capital = "Gaspé"
 }
 3805.5.12 = {
 	discovered_by = GBR

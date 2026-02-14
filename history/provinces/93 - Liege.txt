@@ -56,7 +56,7 @@ discovered_by = eastern
 	controller = FRK
 	add_core = FRK
 	remove_core = ROW
-	capital = "LiÃ¨ge"
+	capital = "Liège"
 }
 2584.6.1 = {
 	culture = wallonian

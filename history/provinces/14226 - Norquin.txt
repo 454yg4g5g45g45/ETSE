@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = patagonian
 religion = south_american
-capital = "Ã‘orquin"
+capital = "Ñorquin"
 
 native_size = 5
 native_ferocity =  2
@@ -48,7 +48,7 @@ discovered_by = south_american
 	discovered_by = western
 }
 4008.1.1 = {
-	capital = "Ã‘orquincÃ³"
+	capital = "Ñorquincó"
 }
 
 

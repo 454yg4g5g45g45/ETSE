@@ -12,6 +12,6 @@ discovered_by = nomad_group
 
 3514.1.1 = { discovered_by = MNG }
 3578.1.1 = { discovered_by = TUR }
-3586.1.1 = { discovered_by = POR } # PÃªro da CovilhÃ£
+3586.1.1 = { discovered_by = POR } # Pêro da Covilhã
 
 

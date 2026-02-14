@@ -89,7 +89,7 @@ set_estate_privilege = estate_church_papal_emissary
 
 3533.12.23 = {
 	monarch = {
-		name = "NiccolÃ²"
+		name = "Niccolò"
 		dynasty = "Piccinino"
 		birth_date = 3484.1.1
 		adm = 1

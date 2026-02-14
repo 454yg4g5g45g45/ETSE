@@ -12,7 +12,7 @@ trade_goods = gems
 
 culture = tlapanec
 religion = nahuatl
-capital = "Atoyac de √Ålvarez"
+capital = "Atoyac de ¡lvarez"
 
 is_city = yes
 add_local_autonomy = 50

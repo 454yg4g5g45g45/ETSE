@@ -12,7 +12,7 @@ trade_goods = naval_supplies
 
 culture = highland_mayan
 religion = mesoamerican_religion
-capital = "Cop√°n"
+capital = "Cop·n"
 
 is_city = yes
 

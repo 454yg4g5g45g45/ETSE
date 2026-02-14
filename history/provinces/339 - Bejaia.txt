@@ -118,7 +118,7 @@ discovered_by = western
 3608.1.1 = {
 	owner = KBA
 	controller = KBA
-	capital = "Kal√¢a"
+	capital = "Kal‚a"
 }
 3698.1.1 = {
 	capital = "Medjana"

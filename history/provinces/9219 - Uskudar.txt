@@ -1,6 +1,6 @@
 # Modified 1/26/2025 8:54:49 AM ###
-# ÃœskÃ¼dar
-# 9219 ÃœskÃ¼dar - 1/26/2025 8:54:49 AM
+# Üsküdar
+# 9219 Üsküdar - 1/26/2025 8:54:49 AM
 owner = ROM
 controller = ROM
 base_tax = 3
@@ -55,7 +55,7 @@ discovered_by = western
 	owner = TUR
 	controller = TUR
 	add_core = TUR
-	capital = "ÃƒÆ’Ã…â€œskÃƒÆ’Ã‚Â¼dar"
+	capital = "ÃƒÅ“skÃƒÂ¼dar"
 }
 3458.1.1 = { religion = sunni culture = turkish }
 3500.1.1 = { controller = REB revolt = { type = pretender_rebels name = "Isa's Faction" size = 1 leader = "Isa Osmanoglu" } }

@@ -1,5 +1,5 @@
-# LukÃƒÂ³w
-# 12621 LukÃƒÂ³w - 1/26/2025 8:46:45 AM
+# LukÃ³w
+# 12621 LukÃ³w - 1/26/2025 8:46:45 AM
 add_core = VNE
 owner = VNE
 controller = VNE
@@ -10,7 +10,7 @@ center_of_trade = 2
 trade_goods = cloth
 culture = polish
 religion = germanic
-capital = "LukÃƒÆ’Ã‚Â³w"
+capital = "LukÃƒÂ³w"
 is_city = yes
 discovered_by = GCR
 discovered_by = GEP

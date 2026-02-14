@@ -37,7 +37,7 @@ discovered_by = south_american
 	religion = catholic
 }
 3649.1.1 = {
-	capital = "VitÃ³ria"
+	capital = "Vitória"
 }
 3678.1.1 = {
 	is_city = yes

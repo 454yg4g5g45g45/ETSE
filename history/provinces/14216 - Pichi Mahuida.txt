@@ -46,7 +46,7 @@ discovered_by = south_american
 	discovered_by = asian
 }
 3999.1.1 = {
-	capital = "RÃ­o Colorado"
+	capital = "Río Colorado"
 }
 4008.1.1 = {
 	discovered_by = western

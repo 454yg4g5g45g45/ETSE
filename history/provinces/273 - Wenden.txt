@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = latvian
 religion = romuva
-capital = "DÃ¼naburg"
+capital = "Dünaburg"
 
 
 

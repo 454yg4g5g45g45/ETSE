@@ -7,7 +7,7 @@ country_decisions = {
 			}
 			OR = {
 				# Northern Europe
-				45 = {	# L�beck
+				45 = {	# L?beck
 					is_strongest_trade_power = ROOT
 				}
 				1926 = { #Baltic Sea
@@ -102,7 +102,7 @@ country_decisions = {
 				custom_trigger_tooltip = {
 					tooltip = confirm_thalassocracy_b_tt
 					AND = {
-						45 = {	# L�beck
+						45 = {	# L?beck
 							is_strongest_trade_power = ROOT
 						}
 						1926 = { #Baltic Sea

@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = gutnish
 religion = norse_pagan_reformed
-capital = "FinspÃ¥ng"
+capital = "Finspång"
 
 native_size = 15
 native_ferocity =  2

@@ -12,7 +12,7 @@ trade_goods = cocoa
 
 culture = lacandon
 religion = mesoamerican_religion
-capital = "Yaxchil√°n"
+capital = "Yaxchil·n"
 
 is_city = yes
 add_local_autonomy = 25

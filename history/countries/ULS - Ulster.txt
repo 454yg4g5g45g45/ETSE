@@ -66,8 +66,8 @@ capital = 4121 # Ulster
 
 4178.1.1 = {
 	heir = {
-		name = "CÃºscraid"
-		monarch_name = "CÃºscraid"
+		name = "Cúscraid"
+		monarch_name = "Cúscraid"
 		dynasty = "Ulster"
 		birth_date = 4168.1.1
 		death_date = 2218.1.1
@@ -81,7 +81,7 @@ capital = 4121 # Ulster
 2198.1.1 = { add_government_reform = early_gov_reform_1 }
 2198.1.1 = {
 	monarch = {
-		name = "CÃºscraid"
+		name = "Cúscraid"
 		dynasty = "Ulster"
 		adm = 1
 		dip = 3
@@ -91,8 +91,8 @@ capital = 4121 # Ulster
 
 2198.1.1 = {
 	heir = {
-		name = "FÃ­atach"
-		monarch_name = "FÃ­atach"
+		name = "Fíatach"
+		monarch_name = "Fíatach"
 		dynasty = "Ulster"
 		birth_date = 4188.1.1
 		death_date = 2238.1.1
@@ -105,7 +105,7 @@ capital = 4121 # Ulster
 
 2218.1.1 = {
 	monarch = {
-		name = "FÃ­atach"
+		name = "Fíatach"
 		dynasty = "Ulster"
 		adm = 4
 		dip = 3
@@ -115,8 +115,8 @@ capital = 4121 # Ulster
 
 2218.1.1 = {
 	heir = {
-		name = "Ã‰llim"
-		monarch_name = "Ã‰llim"
+		name = "Éllim"
+		monarch_name = "Éllim"
 		dynasty = "Ulster"
 		birth_date = 2208.1.1
 		death_date = 2258.1.1
@@ -129,7 +129,7 @@ capital = 4121 # Ulster
 
 2238.1.1 = {
 	monarch = {
-		name = "Ã‰llim"
+		name = "Éllim"
 		dynasty = "Ulster"
 		adm = 4
 		dip = 4
@@ -187,8 +187,8 @@ capital = 4121 # Ulster
 
 2278.1.1 = {
 	heir = {
-		name = "Ãengus Goibnenn"
-		monarch_name = "Ãengus Goibnenn"
+		name = "�engus Goibnenn"
+		monarch_name = "�engus Goibnenn"
 		dynasty = "Ulster"
 		birth_date = 2268.1.1
 		death_date = 2318.1.1
@@ -201,7 +201,7 @@ capital = 4121 # Ulster
 
 2298.1.1 = {
 	monarch = {
-		name = "Ãengus Goibnenn"
+		name = "�engus Goibnenn"
 		dynasty = "Ulster"
 		adm = 1
 		dip = 4
@@ -211,8 +211,8 @@ capital = 4121 # Ulster
 
 2298.1.1 = {
 	heir = {
-		name = "Fergus DubdÃ©tach"
-		monarch_name = "Fergus DubdÃ©tach"
+		name = "Fergus Dubdétach"
+		monarch_name = "Fergus Dubdétach"
 		dynasty = "Ulster"
 		birth_date = 2288.1.1
 		death_date = 2338.1.1
@@ -225,7 +225,7 @@ capital = 4121 # Ulster
 
 2318.1.1 = {
 	monarch = {
-		name = "Fergus DubdÃ©tach"
+		name = "Fergus Dubdétach"
 		dynasty = "Ulster"
 		adm = 3
 		dip = 4
@@ -453,8 +453,8 @@ capital = 4121 # Ulster
 
 2498.1.1 = {
 	heir = {
-		name = "CÃ¡elbad"
-		monarch_name = "CÃ¡elbad"
+		name = "Cáelbad"
+		monarch_name = "Cáelbad"
 		dynasty = "Ulster"
 		birth_date = 2488.1.1
 		death_date = 2538.1.1
@@ -467,7 +467,7 @@ capital = 4121 # Ulster
 
 2518.1.1 = {
 	monarch = {
-		name = "CÃ¡elbad"
+		name = "Cáelbad"
 		dynasty = "Ulster"
 		adm = 3
 		dip = 4
@@ -557,7 +557,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2655.1.1 = {
 	monarch = {
-		name = "DemmÃ¡n mac Cairell"
+		name = "Demmán mac Cairell"
 		dynasty = "MacDonlevy"
 		adm = 2
 		dip = 3
@@ -567,7 +567,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2670.1.1 = {
 	monarch = {
-		name = "BÃ¡etÃ¡n mac Cairill"
+		name = "Báetán mac Cairill"
 		dynasty = "MacDonlevy"
 		adm = 2
 		dip = 3
@@ -577,7 +577,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2679.1.1 = {
 	monarch = {
-		name = "Ãed Dub mac Suibni"
+		name = "�ed Dub mac Suibni"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -587,7 +587,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2686.1.1 = {
 	monarch = {
-		name = "Fiachnae mac SgÃ¡nnail"
+		name = "Fiachnae mac Sgánnail"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -598,7 +598,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 2718.1.1 = { add_government_reform = early_gov_reform_5 }
 2724.1.1 = {
 	monarch = {
-		name = "Fiachnae mac DemmÃ¡in"
+		name = "Fiachnae mac Demmáin"
 		dynasty = "MacDonlevy"
 		adm = 3
 		dip = 4
@@ -608,7 +608,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2725.1.1 = {
 	monarch = {
-		name = "Congal CÃ¡ech"
+		name = "Congal Cáech"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -618,7 +618,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2735.1.1 = {
 	monarch = {
-		name = "DÃºnchad mac Fiachnai"
+		name = "Dúnchad mac Fiachnai"
 		dynasty = "MacDonlevy"
 		adm = 1
 		dip = 1
@@ -628,7 +628,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2742.1.1 = {
 	monarch = {
-		name = "MÃ¡el Cobo mac Fiachnai"
+		name = "Máel Cobo mac Fiachnai"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -638,7 +638,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2745.1.1 = {
 	monarch = {
-		name = "Blathmac mac MÃ¡ele Cobo"
+		name = "Blathmac mac Máele Cobo"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -648,7 +648,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2768.1.1 = {
 	monarch = {
-		name = "Congal Cennfota mac DÃºnchada"
+		name = "Congal Cennfota mac Dúnchada"
 		dynasty = "MacDonlevy"
 		adm = 2
 		dip = 3
@@ -658,7 +658,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2772.1.1 = {
 	monarch = {
-		name = "Fergus mac ÃedÃ¡in"
+		name = "Fergus mac �edáin"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -668,7 +668,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2790.1.1 = {
 	monarch = {
-		name = "BÃ©cc Bairrche mac Blathmaic"
+		name = "Bécc Bairrche mac Blathmaic"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -680,7 +680,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2805.1.1 = {
 	monarch = {
-		name = "CÃº ChuarÃ¡n mac DÃºngal Eilni"
+		name = "Cú Chuarán mac Dúngal Eilni"
 		dynasty = "MacDonlevy"
 		adm = 3
 		dip = 4
@@ -690,7 +690,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2806.1.1 = {
 	monarch = {
-		name = "Ãed RÃ³in mac BÃ©cc Bairrche"
+		name = "�ed Róin mac Bécc Bairrche"
 		dynasty = "MacDonlevy"
 		adm = 1
 		dip = 2
@@ -710,7 +710,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2847.1.1 = {
 	monarch = {
-		name = "Bressal mac Ãedo RÃ³in"
+		name = "Bressal mac �edo Róin"
 		dynasty = "MacDonlevy"
 		adm = 2
 		dip = 3
@@ -721,7 +721,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 2848.1.1 = { add_government_reform = early_gov_reform_6 }
 2848.1.1 = {
 	monarch = {
-		name = "Fiachnae mac Ãedo RÃ³in"
+		name = "Fiachnae mac �edo Róin"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 1
@@ -761,7 +761,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2917.1.1 = {
 	monarch = {
-		name = "MÃ¡el Bressail mac Ailillo"
+		name = "Máel Bressail mac Ailillo"
 		dynasty = "MacDonlevy"
 		adm = 2
 		dip = 3
@@ -781,7 +781,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2937.1.1 = {
 	monarch = {
-		name = "MatudÃ¡n mac Muiredaig"
+		name = "Matudán mac Muiredaig"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -803,7 +803,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2971.1.1 = {
 	monarch = {
-		name = "AinbÃ­th mac Ãedo"
+		name = "Ainbíth mac �edo"
 		dynasty = "MacDonlevy"
 		adm = 3
 		dip = 4
@@ -814,7 +814,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 2978.1.1 = { add_government_reform = early_gov_reform_7 }
 2980.1.1 = {
 	monarch = {
-		name = "AiremÃ³n mac Ãedo"
+		name = "Airemón mac �edo"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -824,7 +824,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2984.1.1 = {
 	monarch = {
-		name = "BÃ©cc mac AiremÃ³in"
+		name = "Bécc mac Airemóin"
 		dynasty = "MacDonlevy"
 		adm = 1
 		dip = 1
@@ -834,7 +834,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2991.1.1 = {
 	monarch = {
-		name = "Muiredach mac EochocÃ¡in"
+		name = "Muiredach mac Eochocáin"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -844,7 +844,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2994.1.1 = {
 	monarch = {
-		name = "AitÃ­th mac Laigni"
+		name = "Aitíth mac Laigni"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -854,7 +854,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 2996.1.1 = {
 	monarch = {
-		name = "Ãed mac EochocÃ¡in"
+		name = "�ed mac Eochocáin"
 		dynasty = "MacDonlevy"
 		adm = 2
 		dip = 3
@@ -864,7 +864,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3017.1.1 = {
 	monarch = {
-		name = "Dubgall mac Ãeda"
+		name = "Dubgall mac �eda"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -894,7 +894,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3035.1.1 = {
 	monarch = {
-		name = "MatudÃ¡n mac Ãeda"
+		name = "Matudán mac �eda"
 		dynasty = "MacDonlevy"
 		adm = 1
 		dip = 2
@@ -904,7 +904,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3048.1.1 = {
 	monarch = {
-		name = "Ardgal mac MatudÃ¡in"
+		name = "Ardgal mac Matudáin"
 		dynasty = "MacDonlevy"
 		adm = 3
 		dip = 1
@@ -914,7 +914,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3068.1.1 = {
 	monarch = {
-		name = "Niall mac Ãeda"
+		name = "Niall mac �eda"
 		dynasty = "MacDonlevy"
 		adm = 2
 		dip = 3
@@ -924,7 +924,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3069.1.1 = {
 	monarch = {
-		name = "Ãed mac Loingsig"
+		name = "�ed mac Loingsig"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 1
@@ -954,7 +954,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3103.1.1 = {
 	monarch = {
-		name = "MÃ¡el Ruanaid mac Ardgail"
+		name = "Máel Ruanaid mac Ardgail"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -995,7 +995,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3163.1.1 = {
 	monarch = {
-		name = "CÃº Ulad Ua FlaithrÃ­"
+		name = "Cú Ulad Ua Flaithrí"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -1005,7 +1005,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3169.1.1 = {
 	monarch = {
-		name = "Donn SlÃ©ibe mac Eochada"
+		name = "Donn Sléibe mac Eochada"
 		dynasty = "MacDonlevy"
 		adm = 3
 		dip = 4
@@ -1015,7 +1015,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3176.1.1 = {
 	monarch = {
-		name = "Ãed Meranach Ua hEochada"
+		name = "�ed Meranach Ua hEochada"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -1035,7 +1035,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3179.1.1 = {
 	monarch = {
-		name = "Donn SlÃ©ibe mac Eochada"
+		name = "Donn Sléibe mac Eochada"
 		dynasty = "MacDonlevy"
 		adm = 3
 		dip = 4
@@ -1045,7 +1045,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3189.1.1 = {
 	monarch = {
-		name = "Donnchad mac Duinn SlÃ©ibe"
+		name = "Donnchad mac Duinn Sléibe"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -1055,7 +1055,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3193.1.1 = {
 	monarch = {
-		name = "Eochaid mac Duinn SlÃ©ibe"
+		name = "Eochaid mac Duinn Sléibe"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -1065,7 +1065,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3206.1.1 = {
 	monarch = {
-		name = "Donnchad mac Duinn SlÃ©ibe"
+		name = "Donnchad mac Duinn Sléibe"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -1075,7 +1075,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3211.1.1 = {
 	monarch = {
-		name = "Ãed mac Duinn SlÃ©ibe"
+		name = "�ed mac Duinn Sléibe"
 		dynasty = "MacDonlevy"
 		adm = 2
 		dip = 3
@@ -1095,7 +1095,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3229.1.1 = {
 	monarch = {
-		name = "CÃº Ulad mac Conchobair Chisenaig"
+		name = "Cú Ulad mac Conchobair Chisenaig"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 3
@@ -1106,7 +1106,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 3238.1.1 = { add_government_reform = early_gov_reform_9 }
 3255.1.1 = {
 	monarch = {
-		name = "Ãed mac Con Ulad"
+		name = "�ed mac Con Ulad"
 		dynasty = "MacDonlevy"
 		adm = 3
 		dip = 4
@@ -1136,7 +1136,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3269.1.1 = {
 	monarch = {
-		name = "Donn SlÃ©ibe mac Con Ulad"
+		name = "Donn Sléibe mac Con Ulad"
 		dynasty = "MacDonlevy"
 		adm = 2
 		dip = 3
@@ -1146,7 +1146,7 @@ add_government_reform = feudalism_reform government_rank = 8 }
 
 3270.1.1 = {
 	monarch = {
-		name = "RuaidrÃ­ mac Con Ulad"
+		name = "Ruaidrí mac Con Ulad"
 		dynasty = "MacDonlevy"
 		adm = 4
 		dip = 1

@@ -62,7 +62,7 @@ discovered_by = mesoamerican
 	add_core = SPA
 	religion = catholic
 	culture = castillian
-	capital = "Ciudad de MÃ©xico"
+	capital = "Ciudad de México"
 }
 3722.1.1 = {
 	unrest = 5

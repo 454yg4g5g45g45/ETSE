@@ -1,6 +1,6 @@
 
 
-# 加入防御战争
+# ??????
 azuki_join_all_defensive_war = {
 	category = alliance
 	require_acceptance = no
@@ -40,7 +40,7 @@ azuki_join_all_defensive_war = {
 	}
 }
 
-# 加入进攻战争
+# ??????
 azuki_join_all_offensive_war = {
 	category = alliance
 	require_acceptance = no

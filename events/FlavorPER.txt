@@ -166,7 +166,7 @@ country_event = {
 ########################################
 # Flavor Events for Persia
 #
-# written by Sara Wendel-Ã–rtqvist & Henrik Lohmander
+# written by Sara Wendel-Örtqvist & Henrik Lohmander
 ########################################
 
 #The Reforms of Ismail

@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = sapmi
 religion = suomenusko
-capital = "Luj√°vri"
+capital = "Luj·vri"
 
 native_size = 2
 native_ferocity =  2

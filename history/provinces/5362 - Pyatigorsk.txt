@@ -12,7 +12,7 @@ trade_goods = livestock
 
 culture = alan
 religion = heptadic
-capital = "PsixwabÃ¦"
+capital = "Psixwabæ"
 
 is_city = yes
 

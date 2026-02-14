@@ -442,7 +442,7 @@ capital = 4119 # Sligo
 
 3562.1.1 = {
 	monarch = {
-		name = "RuaidhrÃ­"
+		name = "Ruaidhrí"
 		dynasty = "O'Conor"
 		adm = 1
 		dip = 3
@@ -462,7 +462,7 @@ capital = 4119 # Sligo
 
 3592.1.1 = {
 	monarch = {
-		name = "RuaidhrÃ­"
+		name = "Ruaidhrí"
 		dynasty = "O'Conor"
 		adm = 3
 		dip = 2
@@ -502,7 +502,7 @@ capital = 4119 # Sligo
 
 3643.1.1 = {
 	monarch = {
-		name = "RuaidhrÃ­"
+		name = "Ruaidhrí"
 		dynasty = "O'Conor"
 		adm = 1
 		dip = 2

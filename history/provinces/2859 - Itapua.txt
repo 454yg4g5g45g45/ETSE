@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = guarani
 religion = south_american
-capital = "ItapÃºa"
+capital = "Itapúa"
 
 native_size = 5
 native_ferocity =  1

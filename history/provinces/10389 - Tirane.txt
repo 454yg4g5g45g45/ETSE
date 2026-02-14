@@ -1,5 +1,5 @@
-# Tiranë
-# 10389 Tiranë - 1/26/2025 8:46:44 AM
+# Tiran�
+# 10389 Tiran� - 1/26/2025 8:46:44 AM
 add_core = ROM
 add_core = ROM
 add_core = ROM
@@ -117,7 +117,7 @@ discovered_by = muslim
     owner = ALB
     controller = ALB
     remove_core = TUR
-    capital = "TiranÃƒÂ«"
+    capital = "TiranÃ«"
 }
 
 4037.4.9 = { owner = ITA controller = ITA } 

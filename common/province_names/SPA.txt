@@ -2,4 +2,4 @@
 213 = "Barcelona"							#Barcelona					|placeholder
 4558 = "Ourense"							#Orense						|			29.09.19
 
-10696 = "GuipÃºzcoa"
+10696 = "Guipúzcoa"

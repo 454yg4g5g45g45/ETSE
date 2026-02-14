@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = shoshone
 religion = totemism
-capital = "CaÃ±on City"
+capital = "Cañon City"
 
 native_size = 90
 native_ferocity = 4.5

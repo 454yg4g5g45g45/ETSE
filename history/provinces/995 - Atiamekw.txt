@@ -57,7 +57,7 @@ discovered_by = north_american
 	remove_core = GBR
 }
 3987.1.1 = {
-	capital = "Saint-EugÃ¨ne-de-Manicouagan"
+	capital = "Saint-Eugène-de-Manicouagan"
 }
 3978.1.1 = {
 	discovered_by = eastern
