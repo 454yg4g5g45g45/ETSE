@@ -1,23 +1,24 @@
 version="1.37"
-replace_path="map/random"
-replace_path="map/random"
-replace_path="map"
-replace_path="missions"
-replace_path="history/provinces"
-replace_path="history"
-replace_path="history/countries"
-replace_path="common/bookmarks"
-tags={
-	"Expansion"
-	"New Nations"
-	"National Ideas"
-	"Religion"
-	"Historical"
-	"Map"
-	"Missions And Decisions"
-	"Alternative History"
-	"Technologies"
-	"Sound"
-}
+supported_version="1.37.*"
+
 name="Extended Timeline Super Expanded (WIP)"
-supported_version="v1.37.5.0"
+
+path="C:/Users/j0m_/Documents/Paradox Interactive/Europa Universalis IV/mod/ETSE11"
+
+tags={
+    "Total Conversion"
+    "Alternative History"
+    "Map"
+    "New Nations"
+    "Missions And Decisions"
+    "Religion"
+    "Technologies"
+}
+
+replace_path="map"
+replace_path="history"
+replace_path="common"
+replace_path="events"
+replace_path="decisions"
+replace_path="sound"
+replace_path="interface"
