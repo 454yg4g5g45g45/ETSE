@@ -10,7 +10,7 @@ country_event = {
 	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.1.d" }
 	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.1.d_rep" }
 	picture = CITY_DEVELOPMENT_eventPicture
-	trigger = { tag = ROM owns = 118 is_year = 50 NOT = { is_year = 700 } }
+	trigger = { tag = ROM owns = 118 is_year = 2148 NOT = { is_year = 2798 } }
 	mean_time_to_happen = { months = 120 }
 
 	option = {
@@ -37,7 +37,7 @@ country_event = {
 	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.2.d" }
 	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.2.d_rep" }
 	picture = MILITARY_CAMP_eventPicture
-	trigger = { tag = ROM war = no any_owned_province = { fort_level = 2 } NOT = { is_year = 600 } NOT = { has_country_modifier = rome_reinforced_limes } }
+	trigger = { tag = ROM war = no any_owned_province = { fort_level = 2 } NOT = { is_year = 2698 } NOT = { has_country_modifier = rome_reinforced_limes } }
 	mean_time_to_happen = { months = 200 }
 
 	option = {
@@ -61,7 +61,7 @@ country_event = {
 	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.3.d" }
 	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.3.d_rep" }
 	picture = DEBATE_REPUBLICAN_eventPicture
-	trigger = { tag = ROM adm = 3 NOT = { is_year = 700 } NOT = { has_country_modifier = rome_stoic_administration } }
+	trigger = { tag = ROM adm = 3 NOT = { is_year = 2798 } NOT = { has_country_modifier = rome_stoic_administration } }
 	mean_time_to_happen = { months = 300 }
 
 	option = {
@@ -83,7 +83,7 @@ country_event = {
 	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.4.d" }
 	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.4.d_rep" }
 	picture = ANGRY_MOB_eventPicture
-	trigger = { tag = ROM manpower_percentage = 0.6 NOT = { is_year = 600 } NOT = { has_country_modifier = rome_foederati_troops } }
+	trigger = { tag = ROM manpower_percentage = 0.6 NOT = { is_year = 2698 } NOT = { has_country_modifier = rome_foederati_troops } }
 	mean_time_to_happen = { months = 240 }
 
 	option = {
@@ -108,7 +108,7 @@ country_event = {
 	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.5.d" }
 	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.5.d_rep" }
 	picture = MILITARY_PARADE_eventPicture
-	trigger = { tag = ROM NOT = { is_year = 400 } OR = { AND = { government = monarchy legitimacy = 80 has_heir = no } AND = { government = republic republican_tradition = 80 } } }
+	trigger = { tag = ROM NOT = { is_year = 2498 } OR = { AND = { government = monarchy legitimacy = 80 has_heir = no } AND = { government = republic republican_tradition = 80 } } }
 	mean_time_to_happen = { months = 360 }
 
 	option = {
@@ -141,7 +141,7 @@ country_event = {
 	title = "roman_flavour_mod_event.6.t"
 	desc = "roman_flavour_mod_event.6.d"
 	picture = GREAT_BUILDING_eventPicture
-	trigger = { tag = ROM owns = 118 NOT = { is_year = 800 } NOT = { has_country_modifier = rome_blues_support } NOT = { has_country_modifier = rome_greens_support } }
+	trigger = { tag = ROM owns = 118 NOT = { is_year = 2898 } NOT = { has_country_modifier = rome_blues_support } NOT = { has_country_modifier = rome_greens_support } }
 	mean_time_to_happen = { months = 240 }
 
 	option = {
@@ -166,7 +166,7 @@ country_event = {
 	desc = { trigger = { government = monarchy } desc = "roman_flavour_mod_event.7.d_monarchy" }
 	desc = { trigger = { government = republic } desc = "roman_flavour_mod_event.7.d_republic" }
 	picture = RELIGIOUS_CONVERSION_eventPicture
-	trigger = { tag = ROM religion_group = pagan NOT = { is_year = 500 } NOT = { has_country_modifier = rome_sol_invictus_edict } NOT = { has_country_modifier = rome_local_cult_tolerance } }
+	trigger = { tag = ROM religion_group = pagan NOT = { is_year = 2598 } NOT = { has_country_modifier = rome_sol_invictus_edict } NOT = { has_country_modifier = rome_local_cult_tolerance } }
 	mean_time_to_happen = { months = 300 }
 
 	option = {
@@ -191,7 +191,7 @@ country_event = {
 	title = "roman_flavour_mod_event.8.t"
 	desc = "roman_flavour_mod_event.8.d"
 	picture = MERCHANTS_TALKING_eventPicture
-	trigger = { tag = ROM dip_tech = 3 NOT = { is_year = 600 } NOT = { has_country_modifier = rome_serica_trade } }
+	trigger = { tag = ROM dip_tech = 3 NOT = { is_year = 2698 } NOT = { has_country_modifier = rome_serica_trade } }
 	mean_time_to_happen = { months = 400 }
 
 	option = {
@@ -215,7 +215,7 @@ country_event = {
 	desc = { trigger = { num_of_cities = 50 } desc = "roman_flavour_mod_event.9.d_large" }
 	desc = { trigger = { NOT = { num_of_cities = 50 } } desc = "roman_flavour_mod_event.9.d_small" }
 	picture = ADVISOR_ADMIN_eventPicture
-	trigger = { tag = ROM is_at_war = no NOT = { is_year = 600 } NOT = { has_country_modifier = rome_cursus_publicus_funded } }
+	trigger = { tag = ROM is_at_war = no NOT = { is_year = 2698 } NOT = { has_country_modifier = rome_cursus_publicus_funded } }
 	mean_time_to_happen = { months = 250 }
 
 	option = {
@@ -238,7 +238,7 @@ country_event = {
 	desc = { trigger = { ruler_has_personality = scholar_personality } desc = "roman_flavour_mod_event.10.d_scholar" }
 	desc = { trigger = { NOT = { ruler_has_personality = scholar_personality } } desc = "roman_flavour_mod_event.10.d" }
 	picture = COURT_eventPicture
-	trigger = { tag = ROM adm = 4 NOT = { is_year = 650 } NOT = { has_country_modifier = rome_codified_laws } }
+	trigger = { tag = ROM adm = 4 NOT = { is_year = 2748 } NOT = { has_country_modifier = rome_codified_laws } }
 	mean_time_to_happen = { months = 500 }
 
 	option = {
@@ -261,7 +261,7 @@ country_event = {
 	title = "roman_flavour_mod_event.11.t"
 	desc = "roman_flavour_mod_event.11.d"
 	picture = PLAGUE_eventPicture
-	trigger = { tag = ROM is_year = 160 NOT = { has_institution = medicine } NOT = { has_country_modifier = rome_plague_quarantine } NOT = { has_country_modifier = rome_plague_ravages } }
+	trigger = { tag = ROM is_year = 2258 NOT = { has_institution = medicine } NOT = { has_country_modifier = rome_plague_quarantine } NOT = { has_country_modifier = rome_plague_ravages } }
 	mean_time_to_happen = { months = 600 }
 
 	option = {
@@ -285,7 +285,7 @@ country_event = {
 	title = "roman_flavour_mod_event.12.t"
 	desc = "roman_flavour_mod_event.12.d"
 	picture = BAD_WITH_MONEY_eventPicture
-	trigger = { tag = ROM num_of_cities = 20 corruption = 1 NOT = { is_year = 1000 } }
+	trigger = { tag = ROM num_of_cities = 20 corruption = 1 NOT = { is_year = 3098 } }
 	mean_time_to_happen = { months = 360 }
 
 	option = {
@@ -308,7 +308,7 @@ country_event = {
 	title = "roman_flavour_mod_event.13.t"
 	desc = "roman_flavour_mod_event.13.d"
 	picture = INFLATION_eventPicture
-	trigger = { tag = ROM inflation = 2 NOT = { is_year = 1000 } }
+	trigger = { tag = ROM inflation = 2 NOT = { is_year = 3098 } }
 	mean_time_to_happen = { months = 400 }
 
 	option = {
@@ -336,7 +336,7 @@ country_event = {
 	title = "roman_flavour_mod_event.14.t"
 	desc = "roman_flavour_mod_event.14.d"
 	picture = MILITARY_CAMP_eventPicture
-	trigger = { tag = ROM is_year = 600 NOT = { is_year = 900 } government = monarchy NOT = { has_country_modifier = rome_feudal_levies } NOT = { has_country_modifier = rome_imperial_standing_army } }
+	trigger = { tag = ROM is_year = 2698 NOT = { is_year = 2998 } government = monarchy NOT = { has_country_modifier = rome_feudal_levies } NOT = { has_country_modifier = rome_imperial_standing_army } }
 	mean_time_to_happen = { months = 300 }
 
 	option = {
@@ -361,7 +361,7 @@ country_event = {
 	title = "roman_flavour_mod_event.15.t"
 	desc = "roman_flavour_mod_event.15.d"
 	picture = POPE_PREACHING_eventPicture
-	trigger = { tag = ROM is_year = 650 NOT = { is_year = 1200 } religion_group = christian NOT = { has_country_modifier = rome_monastic_knowledge } }
+	trigger = { tag = ROM is_year = 2748 NOT = { is_year = 3298 } religion_group = christian NOT = { has_country_modifier = rome_monastic_knowledge } }
 	mean_time_to_happen = { months = 400 }
 
 	option = {
@@ -382,7 +382,7 @@ country_event = {
 	title = "roman_flavour_mod_event.16.t"
 	desc = "roman_flavour_mod_event.16.d"
 	picture = BATTLEFIELD_eventPicture
-	trigger = { tag = ROM is_year = 700 NOT = { is_year = 1000 } any_neighbor_country = { religion_group = muslim } }
+	trigger = { tag = ROM is_year = 2798 NOT = { is_year = 3098 } any_neighbor_country = { religion_group = muslim } }
 	mean_time_to_happen = { months = 240 }
 
 	option = {
@@ -404,7 +404,7 @@ country_event = {
 	title = "roman_flavour_mod_event.17.t"
 	desc = "roman_flavour_mod_event.17.d"
 	picture = DIPLOMACY_eventPicture
-	trigger = { tag = ROM is_year = 780 NOT = { is_year = 850 } exists = FRA FRA = { is_emperor = no } }
+	trigger = { tag = ROM is_year = 2878 NOT = { is_year = 2948 } exists = FRA FRA = { is_emperor = no } }
 	mean_time_to_happen = { months = 200 }
 
 	option = {
@@ -427,7 +427,7 @@ country_event = {
 	title = "roman_flavour_mod_event.18.t"
 	desc = "roman_flavour_mod_event.18.d"
 	picture = NAVAL_BATTLE_eventPicture
-	trigger = { tag = ROM is_year = 670 NOT = { is_year = 1453 } mil_tech = 5 NOT = { has_country_modifier = rome_greek_fire_secret } }
+	trigger = { tag = ROM is_year = 2768 NOT = { is_year = 3551 } mil_tech = 5 NOT = { has_country_modifier = rome_greek_fire_secret } }
 	mean_time_to_happen = { months = 500 }
 
 	option = {
@@ -443,7 +443,7 @@ country_event = {
 	title = "roman_flavour_mod_event.19.t"
 	desc = "roman_flavour_mod_event.19.d"
 	picture = COURT_eventPicture
-	trigger = { tag = ROM is_year = 950 NOT = { is_year = 1500 } NOT = { has_country_modifier = rome_noble_feuds } }
+	trigger = { tag = ROM is_year = 3048 NOT = { is_year = 3598 } NOT = { has_country_modifier = rome_noble_feuds } }
 	mean_time_to_happen = { months = 300 }
 
 	option = {
@@ -476,7 +476,7 @@ country_event = {
 	title = "roman_flavour_mod_event.20.t"
 	desc = "roman_flavour_mod_event.20.d"
 	picture = RELIGIOUS_CONVERSION_eventPicture
-	trigger = { tag = ROM is_year = 1054 NOT = { is_year = 1100 } religion_group = christian NOT = { religion = catholic } }
+	trigger = { tag = ROM is_year = 3152 NOT = { is_year = 3198 } religion_group = christian NOT = { religion = catholic } }
 	mean_time_to_happen = { months = 12 }
 
 	option = {
@@ -498,7 +498,7 @@ country_event = {
 	title = "roman_flavour_mod_event.21.t"
 	desc = "roman_flavour_mod_event.21.d"
 	picture = LANDING_eventPicture
-	trigger = { tag = ROM is_year = 1000 NOT = { is_year = 1150 } war = yes }
+	trigger = { tag = ROM is_year = 3098 NOT = { is_year = 3248 } war = yes }
 	mean_time_to_happen = { months = 180 }
 
 	option = {
@@ -520,7 +520,7 @@ country_event = {
 	title = "roman_flavour_mod_event.22.t"
 	desc = "roman_flavour_mod_event.22.d"
 	picture = CRUSADE_eventPicture
-	trigger = { tag = ROM is_year = 1095 NOT = { is_year = 1100 } religion_group = christian }
+	trigger = { tag = ROM is_year = 3193 NOT = { is_year = 3198 } religion_group = christian }
 	mean_time_to_happen = { months = 6 }
 
 	option = {
@@ -542,7 +542,7 @@ country_event = {
 	title = "roman_flavour_mod_event.23.t"
 	desc = "roman_flavour_mod_event.23.d"
 	picture = TRADE_GOODS_eventPicture
-	trigger = { tag = ROM is_year = 1100 NOT = { is_year = 1500 } exists = VEN NOT = { alliance_with = VEN } }
+	trigger = { tag = ROM is_year = 3198 NOT = { is_year = 3598 } exists = VEN NOT = { alliance_with = VEN } }
 	mean_time_to_happen = { months = 360 }
 
 	option = {
@@ -564,7 +564,7 @@ country_event = {
 	title = "roman_flavour_mod_event.24.t"
 	desc = "roman_flavour_mod_event.24.d"
 	picture = COURT_eventPicture
-	trigger = { tag = ROM is_year = 1150 NOT = { is_year = 1350 } NOT = { has_country_modifier = rome_heraldic_tradition } }
+	trigger = { tag = ROM is_year = 3248 NOT = { is_year = 3448 } NOT = { has_country_modifier = rome_heraldic_tradition } }
 	mean_time_to_happen = { months = 500 }
 
 	option = {
@@ -581,7 +581,7 @@ country_event = {
 	title = "roman_flavour_mod_event.25.t"
 	desc = "roman_flavour_mod_event.25.d"
 	picture = SACKING_eventPicture
-	trigger = { tag = ROM is_year = 1202 NOT = { is_year = 1205 } owns = 151 }
+	trigger = { tag = ROM is_year = 3300 NOT = { is_year = 3303 } owns = 151 }
 	fire_only_once = yes
 	mean_time_to_happen = { months = 3 }
 	
@@ -606,7 +606,7 @@ country_event = {
 	title = "roman_flavour_mod_event.26.t"
 	desc = "roman_flavour_mod_event.26.d"
 	picture = PAPACY_eventPicture
-	trigger = { tag = ROM is_year = 800 religion = catholic NOT = { is_year = 1400 } }
+	trigger = { tag = ROM is_year = 2898 religion = catholic NOT = { is_year = 3498 } }
 	mean_time_to_happen = { months = 400 }
 
 	option = {
@@ -629,7 +629,7 @@ country_event = {
 	title = "roman_flavour_mod_event.27.t"
 	desc = "roman_flavour_mod_event.27.d"
 	picture = ANGRY_MOB_eventPicture
-	trigger = { tag = ROM is_year = 1100 NOT = { is_year = 1400 } government = monarchy num_of_cities = 10 }
+	trigger = { tag = ROM is_year = 3198 NOT = { is_year = 3498 } government = monarchy num_of_cities = 10 }
 	mean_time_to_happen = { months = 300 }
 
 	option = {
@@ -659,7 +659,7 @@ country_event = {
 	title = "roman_flavour_mod_event.28.t"
 	desc = "roman_flavour_mod_event.28.d"
 	picture = DEBATE_REPUBLICAN_eventPicture
-	trigger = { tag = ROM is_year = 1080 NOT = { is_year = 1250 } NOT = { has_country_modifier = rome_legal_renaissance } }
+	trigger = { tag = ROM is_year = 3178 NOT = { is_year = 3348 } NOT = { has_country_modifier = rome_legal_renaissance } }
 	mean_time_to_happen = { months = 400 }
 
 	option = {
@@ -680,7 +680,7 @@ country_event = {
 	title = "roman_flavour_mod_event.29.t"
 	desc = "roman_flavour_mod_event.29.d"
 	picture = GREAT_BUILDING_eventPicture
-	trigger = { tag = ROM is_year = 1400 has_institution = renaissance NOT = { has_country_modifier = rome_vitruvian_architecture } }
+	trigger = { tag = ROM is_year = 3498 has_institution = renaissance NOT = { has_country_modifier = rome_vitruvian_architecture } }
 	mean_time_to_happen = { months = 200 }
 
 	option = {
@@ -702,7 +702,7 @@ country_event = {
 	title = "roman_flavour_mod_event.30.t"
 	desc = "roman_flavour_mod_event.30.d"
 	picture = ADMIRAL_eventPicture
-	trigger = { tag = ROM is_year = 1450 NOT = { is_year = 1600 } dip_tech = 9 NOT = { has_country_modifier = rome_atlantic_ambition } }
+	trigger = { tag = ROM is_year = 3548 NOT = { is_year = 3698 } dip_tech = 9 NOT = { has_country_modifier = rome_atlantic_ambition } }
 	mean_time_to_happen = { months = 100 }
 
 	option = {
@@ -724,7 +724,7 @@ country_event = {
 	title = "roman_flavour_mod_event.31.t"
 	desc = "roman_flavour_mod_event.31.d"
 	picture = COLONIZATION_eventPicture
-	trigger = { tag = ROM num_of_subjects = 1 is_year = 1550 NOT = { has_country_modifier = rome_colonial_proconsuls } }
+	trigger = { tag = ROM num_of_subjects = 1 is_year = 3648 NOT = { has_country_modifier = rome_colonial_proconsuls } }
 	mean_time_to_happen = { months = 300 }
 
 	option = {
@@ -747,7 +747,7 @@ country_event = {
 	title = "roman_flavour_mod_event.32.t"
 	desc = "roman_flavour_mod_event.32.d"
 	picture = ACADEMIA_eventPicture
-	trigger = { tag = ROM has_institution = printing_press is_year = 1600 }
+	trigger = { tag = ROM has_institution = printing_press is_year = 3698 }
 	mean_time_to_happen = { months = 180 }
 
 	option = {
@@ -771,7 +771,7 @@ country_event = {
 	title = "roman_flavour_mod_event.33.t"
 	desc = "roman_flavour_mod_event.33.d"
 	picture = FACTORY_eventPicture
-	trigger = { tag = ROM is_year = 1750 has_institution = manufactories NOT = { has_country_modifier = rome_steam_engines } }
+	trigger = { tag = ROM is_year = 3848 has_institution = manufactories NOT = { has_country_modifier = rome_steam_engines } }
 	mean_time_to_happen = { months = 240 }
 
 	option = {
@@ -793,7 +793,7 @@ country_event = {
 	title = "roman_flavour_mod_event.34.t"
 	desc = "roman_flavour_mod_event.34.d"
 	picture = CITY_DEVELOPMENT_eventPicture
-	trigger = { tag = ROM is_year = 1830 has_country_modifier = rome_steam_engines NOT = { has_country_modifier = rome_via_ferrea } }
+	trigger = { tag = ROM is_year = 3928 has_country_modifier = rome_steam_engines NOT = { has_country_modifier = rome_via_ferrea } }
 	mean_time_to_happen = { months = 120 }
 
 	option = {
@@ -809,7 +809,7 @@ country_event = {
 	title = "roman_flavour_mod_event.35.t"
 	desc = "roman_flavour_mod_event.35.d"
 	picture = ANGRY_MOB_eventPicture
-	trigger = { tag = ROM is_year = 1848 has_country_modifier = rome_steam_engines }
+	trigger = { tag = ROM is_year = 3946 has_country_modifier = rome_steam_engines }
 	mean_time_to_happen = { months = 60 }
 
 	option = {
@@ -896,7 +896,7 @@ country_event = {
 	title = "roman_flavour_mod_event.36.t"
 	desc = "roman_flavour_mod_event.36.d"
 	picture = LANDING_eventPicture
-	trigger = { tag = ROM is_year = 1880 NOT = { has_country_modifier = rome_scramble_agenda } }
+	trigger = { tag = ROM is_year = 3978 NOT = { has_country_modifier = rome_scramble_agenda } }
 	mean_time_to_happen = { months = 120 }
 
 	option = {
@@ -912,7 +912,7 @@ country_event = {
 	title = "roman_flavour_mod_event.37.t"
 	desc = "roman_flavour_mod_event.37.d"
 	picture = DEBATE_REPUBLICAN_eventPicture
-	trigger = { tag = ROM is_year = 1910 government = republic NOT = { has_country_modifier = rome_universal_suffrage } }
+	trigger = { tag = ROM is_year = 4008 government = republic NOT = { has_country_modifier = rome_universal_suffrage } }
 	mean_time_to_happen = { months = 200 }
 
 	option = {
@@ -935,7 +935,7 @@ country_event = {
 	title = "roman_flavour_mod_event.38.t"
 	desc = "roman_flavour_mod_event.38.d"
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
-	trigger = { tag = ROM is_year = 1945 has_institution = industrialization NOT = { has_country_modifier = rome_atomic_research } }
+	trigger = { tag = ROM is_year = 4043 has_institution = industrialization NOT = { has_country_modifier = rome_atomic_research } }
 	mean_time_to_happen = { months = 120 }
 
 	option = {
@@ -952,7 +952,7 @@ country_event = {
 	title = "roman_flavour_mod_event.39.t"
 	desc = "roman_flavour_mod_event.39.d"
 	picture = CITY_DEVELOPMENT_eventPicture
-	trigger = { tag = ROM is_year = 1990 NOT = { has_country_modifier = rome_digital_forum } }
+	trigger = { tag = ROM is_year = 4088 NOT = { has_country_modifier = rome_digital_forum } }
 	mean_time_to_happen = { months = 120 }
 
 	option = {
@@ -974,7 +974,7 @@ country_event = {
 	title = "roman_flavour_mod_event.40.t"
 	desc = "roman_flavour_mod_event.40.d"
 	picture = ADMIRAL_eventPicture
-	trigger = { tag = ROM is_year = 1960 NOT = { has_country_modifier = rome_space_program } }
+	trigger = { tag = ROM is_year = 4058 NOT = { has_country_modifier = rome_space_program } }
 	fire_only_once = yes
 	mean_time_to_happen = { months = 100 }
 
@@ -992,7 +992,7 @@ country_event = {
 	title = "roman_flavour_mod_event.41.t"
 	desc = "roman_flavour_mod_event.41.d"
 	picture = MILITARY_CAMP_eventPicture
-	trigger = { tag = ROM is_year = 2040 has_country_modifier = rome_digital_forum NOT = { has_country_modifier = rome_automated_legions } }
+	trigger = { tag = ROM is_year = 4138 has_country_modifier = rome_digital_forum NOT = { has_country_modifier = rome_automated_legions } }
 	mean_time_to_happen = { months = 200 }
 
 	option = {
@@ -1013,7 +1013,7 @@ country_event = {
 	title = "roman_flavour_mod_event.42.t"
 	desc = "roman_flavour_mod_event.42.d"
 	picture = COURT_eventPicture
-	trigger = { tag = ROM is_year = 2080 has_country_modifier = rome_digital_forum NOT = { has_country_modifier = rome_ai_governance } }
+	trigger = { tag = ROM is_year = 4178 has_country_modifier = rome_digital_forum NOT = { has_country_modifier = rome_ai_governance } }
 	mean_time_to_happen = { months = 300 }
 
 	option = {
@@ -1036,7 +1036,7 @@ country_event = {
 	title = "roman_flavour_mod_event.43.t"
 	desc = "roman_flavour_mod_event.43.d"
 	picture = COLONIZATION_eventPicture
-	trigger = { tag = ROM is_year = 2100 has_country_modifier = rome_space_program NOT = { has_country_modifier = rome_martian_colony } }
+	trigger = { tag = ROM is_year = 4198 has_country_modifier = rome_space_program NOT = { has_country_modifier = rome_martian_colony } }
 	mean_time_to_happen = { months = 200 }
 
 	option = {
@@ -1052,7 +1052,7 @@ country_event = {
 	title = "roman_flavour_mod_event.44.t"
 	desc = "roman_flavour_mod_event.44.d"
 	picture = CITY_DEVELOPMENT_eventPicture
-	trigger = { tag = ROM is_year = 2150 has_country_modifier = rome_ai_governance }
+	trigger = { tag = ROM is_year = 4248 has_country_modifier = rome_ai_governance }
 	mean_time_to_happen = { months = 240 }
 
 	option = {
@@ -1067,7 +1067,7 @@ country_event = {
 	title = "roman_flavour_mod_event.45.t"
 	desc = "roman_flavour_mod_event.45.d"
 	picture = CITY_DEVELOPMENT_eventPicture
-	trigger = { tag = ROM is_year = 1920 has_country_modifier = rome_steam_engines NOT = { has_country_modifier = rome_scuderia_blues } NOT = { has_country_modifier = rome_scuderia_greens } }
+	trigger = { tag = ROM is_year = 4018 has_country_modifier = rome_steam_engines NOT = { has_country_modifier = rome_scuderia_blues } NOT = { has_country_modifier = rome_scuderia_greens } }
 	mean_time_to_happen = { months = 200 }
 
 	option = {

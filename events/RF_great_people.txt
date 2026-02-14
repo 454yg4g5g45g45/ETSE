@@ -10,8 +10,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 150
-		NOT = { is_year = 216 }
+		is_year = 2248
+		NOT = { is_year = 2314 }
 		owns_core_province = 325 # Castamonu
 		NOT = { has_global_flag = galen_recruited }
 	}
@@ -47,8 +47,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 525
-		NOT = { is_year = 565 }
+		is_year = 2623
+		NOT = { is_year = 2663 }
 		owns_core_province = 149 # Edirne
 		NOT = { has_global_flag = belisarius_recruited }
 	}
@@ -98,8 +98,8 @@ country_event = {
 	picture = BAD_WITH_MERCHANT_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1270
-		NOT = { is_year = 1324 }
+		is_year = 3368
+		NOT = { is_year = 3422 }
 		owns_core_province = 112 # Venice
 		NOT = { has_global_flag = marcopolo_recruited }
 	}
@@ -163,8 +163,8 @@ country_event = {
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1300
-		NOT = { is_year = 1321 }
+		is_year = 3398
+		NOT = { is_year = 3419 }
 		owns_core_province = 116 # Florence
 		NOT = { has_global_flag = dante_recruited }
 	}
@@ -214,8 +214,8 @@ country_event = {
 	picture = EXPLORERS_DEPARTING_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1485
-		NOT = { is_year = 1506 }
+		is_year = 3583
+		NOT = { is_year = 3604 }
 		owns_core_province = 101 # Genoa
 		NOT = { has_global_flag = columbus_recruited }
 	}
@@ -293,8 +293,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1475
-		NOT = { is_year = 1515 }
+		is_year = 3573
+		NOT = { is_year = 3613 }
 		owns_core_province = 116
 		NOT = { has_global_flag = leonardo_recruited }
 	}
@@ -358,8 +358,8 @@ country_event = {
 	picture = ADVISOR_STATESMAN_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1500
-		NOT = { is_year = 1525 }
+		is_year = 3598
+		NOT = { is_year = 3623 }
 		owns_core_province = 116
 		NOT = { has_global_flag = machiavelli_recruited }
 	}
@@ -439,8 +439,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1670
-		NOT = { is_year = 1720 }
+		is_year = 3768
+		NOT = { is_year = 3818 }
 		owns_core_province = 236
 		NOT = { has_global_flag = newton_recruited }
 	}
@@ -476,8 +476,8 @@ country_event = {
 	picture = MILITARY_PARADE_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1790
-		NOT = { is_year = 1815 }
+		is_year = 3888
+		NOT = { is_year = 3913 }
 		owns_core_province = 1247
 		NOT = { has_global_flag = napoleon_recruited }
 	}
@@ -566,8 +566,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1910
-		NOT = { is_year = 1950 }
+		is_year = 4008
+		NOT = { is_year = 4048 }
 		owns_core_province = 1872 # Ulm region
 		NOT = { has_global_flag = einstein_recruited }
 	}
@@ -617,8 +617,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 380
-		NOT = { is_year = 410 }
+		is_year = 2478
+		NOT = { is_year = 2508 }
 		owns_core_province = 358 # Alexandria
 		NOT = { has_global_flag = hypatia_recruited }
 	}
@@ -685,8 +685,8 @@ country_event = {
 	picture = ADVISOR_TREASURER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 520
-		NOT = { is_year = 545 }
+		is_year = 2618
+		NOT = { is_year = 2643 }
 		owns_core_province = 151 # Constantinople
 		NOT = { has_global_flag = tribonian_recruited }
 	}
@@ -736,8 +736,8 @@ country_event = {
 	picture = MILITARY_PARADE_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 530
-		NOT = { is_year = 570 }
+		is_year = 2628
+		NOT = { is_year = 2668 }
 		owns_core_province = 151 # Constantinople
 		NOT = { has_global_flag = narses_recruited }
 	}
@@ -815,8 +815,8 @@ country_event = {
 	picture = ADVISOR_THEOLOGIAN_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 590
-		NOT = { is_year = 630 }
+		is_year = 2688
+		NOT = { is_year = 2728 }
 		owns_core_province = 224 # Sevilla
 		NOT = { has_global_flag = isidore_recruited }
 	}
@@ -866,8 +866,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 700
-		NOT = { is_year = 715 }
+		is_year = 2798
+		NOT = { is_year = 2813 }
 		owns_core_province = 334 # Tangier
 		NOT = { has_global_flag = tariq_recruited }
 	}
@@ -931,8 +931,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1150
-		NOT = { is_year = 1195 }
+		is_year = 3248
+		NOT = { is_year = 3293 }
 		owns_core_province = 225 # Cordoba
 		NOT = { has_global_flag = averroes_recruited }
 	}
@@ -982,8 +982,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1160
-		NOT = { is_year = 1200 }
+		is_year = 3258
+		NOT = { is_year = 3298 }
 		owns_core_province = 225 # Cordoba
 		NOT = { has_global_flag = maimonides_recruited }
 	}
@@ -1019,8 +1019,8 @@ country_event = {
 	picture = ADVISOR_TREASURER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1190
-		NOT = { is_year = 1240 }
+		is_year = 3288
+		NOT = { is_year = 3338 }
 		owns_core_province = 115 # Pisa
 		NOT = { has_global_flag = fibonacci_recruited }
 	}
@@ -1084,8 +1084,8 @@ country_event = {
 	picture = ADVISOR_THEOLOGIAN_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1245
-		NOT = { is_year = 1270 }
+		is_year = 3343
+		NOT = { is_year = 3368 }
 		owns_core_province = 121 # Naples
 		NOT = { has_global_flag = aquinas_recruited }
 	}
@@ -1135,8 +1135,8 @@ country_event = {
 	picture = MILITARY_PARADE_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1065
-		NOT = { is_year = 1095 }
+		is_year = 3163
+		NOT = { is_year = 3193 }
 		owns_core_province = 220 # Valencia
 		NOT = { has_global_flag = elcid_recruited }
 	}
@@ -1224,8 +1224,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1360
-		NOT = { is_year = 1400 }
+		is_year = 3458
+		NOT = { is_year = 3498 }
 		owns_core_province = 341 # Tunis
 		NOT = { has_global_flag = khaldun_recruited }
 	}
@@ -1289,8 +1289,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1400
-		NOT = { is_year = 1440 }
+		is_year = 3498
+		NOT = { is_year = 3538 }
 		owns_core_province = 116 # Florence
 		NOT = { has_global_flag = brunelleschi_recruited }
 	}
@@ -1340,8 +1340,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1420
-		NOT = { is_year = 1460 }
+		is_year = 3518
+		NOT = { is_year = 3558 }
 		owns_core_province = 116 # Florence
 		NOT = { has_global_flag = donatello_recruited }
 	}
@@ -1377,8 +1377,8 @@ country_event = {
 	picture = MILITARY_PARADE_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1440
-		NOT = { is_year = 1465 }
+		is_year = 3538
+		NOT = { is_year = 3563 }
 		owns_core_province = 4175 # Lezhe
 		NOT = { has_global_flag = skanderbeg_recruited }
 	}
@@ -1466,8 +1466,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1400
-		NOT = { is_year = 1445 }
+		is_year = 3498
+		NOT = { is_year = 3543 }
 		owns_core_province = 145 # Morea
 		NOT = { has_global_flag = pletho_recruited }
 	}
@@ -1517,8 +1517,8 @@ country_event = {
 	picture = EXPLORERS_DEPARTING_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1490
-		NOT = { is_year = 1510 }
+		is_year = 3588
+		NOT = { is_year = 3608 }
 		owns_core_province = 116 # Florence
 		NOT = { has_global_flag = vespucci_recruited }
 	}
@@ -1582,8 +1582,8 @@ country_event = {
 	picture = EXPLORERS_DEPARTING_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1495
-		NOT = { is_year = 1520 }
+		is_year = 3593
+		NOT = { is_year = 3618 }
 		owns_core_province = 231 # Porto
 		NOT = { has_global_flag = dagama_recruited }
 	}
@@ -1647,8 +1647,8 @@ country_event = {
 	picture = EXPLORERS_DEPARTING_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1510
-		NOT = { is_year = 1520 }
+		is_year = 3608
+		NOT = { is_year = 3618 }
 		owns_core_province = 231 # Porto
 		NOT = { has_global_flag = magellan_recruited }
 	}
@@ -1712,8 +1712,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1515
-		NOT = { is_year = 1540 }
+		is_year = 3613
+		NOT = { is_year = 3638 }
 		owns_core_province = 218 # Badajoz
 		NOT = { has_global_flag = cortes_recruited }
 	}
@@ -1777,8 +1777,8 @@ country_event = {
 	picture = ADVISOR_fortification_expert_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1540
-		NOT = { is_year = 1580 }
+		is_year = 3638
+		NOT = { is_year = 3678 }
 		owns_core_province = 151 # Constantinople
 		NOT = { has_global_flag = sinan_recruited }
 	}
@@ -1828,8 +1828,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1590
-		NOT = { is_year = 1615 }
+		is_year = 3688
+		NOT = { is_year = 3713 }
 		owns_core_province = 217 # Madrid
 		NOT = { has_global_flag = cervantes_recruited }
 	}
@@ -1879,8 +1879,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1610
-		NOT = { is_year = 1640 }
+		is_year = 3708
+		NOT = { is_year = 3738 }
 		owns_core_province = 115 # Pisa
 		NOT = { has_global_flag = galileo_recruited }
 	}
@@ -1916,8 +1916,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1620
-		NOT = { is_year = 1650 }
+		is_year = 3718
+		NOT = { is_year = 3748 }
 		owns_core_province = 118 # Rome
 		NOT = { has_global_flag = artemisia_recruited }
 	}
@@ -1969,8 +1969,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1630
-		NOT = { is_year = 1670 }
+		is_year = 3728
+		NOT = { is_year = 3768 }
 		owns_core_province = 121 # Naples
 		NOT = { has_global_flag = bernini_recruited }
 	}
@@ -2020,8 +2020,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1710
-		NOT = { is_year = 1740 }
+		is_year = 3808
+		NOT = { is_year = 3838 }
 		owns_core_province = 112 # Venice
 		NOT = { has_global_flag = vivaldi_recruited }
 	}
@@ -2057,8 +2057,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1750
-		NOT = { is_year = 1775 }
+		is_year = 3848
+		NOT = { is_year = 3873 }
 		owns_core_province = 183 # Paris
 		NOT = { has_global_flag = voltaire_recruited }
 	}
@@ -2108,8 +2108,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1775
-		NOT = { is_year = 1790 }
+		is_year = 3873
+		NOT = { is_year = 3888 }
 		owns_core_province = 76 # Salzburg
 		NOT = { has_global_flag = mozart_recruited }
 	}
@@ -2145,8 +2145,8 @@ country_event = {
 	picture = ADVISOR_STATESMAN_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1800
-		NOT = { is_year = 1830 }
+		is_year = 3898
+		NOT = { is_year = 3928 }
 		owns_core_province = 1876 # Frankfurt
 		NOT = { has_global_flag = goethe_recruited }
 	}
@@ -2210,8 +2210,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1810
-		NOT = { is_year = 1840 }
+		is_year = 3908
+		NOT = { is_year = 3938 }
 		owns_core_province = 373 # Dublin
 		NOT = { has_global_flag = wellesley_recruited }
 	}
@@ -2289,8 +2289,8 @@ country_event = {
 	picture = MILITARY_PARADE_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1840
-		NOT = { is_year = 1870 }
+		is_year = 3938
+		NOT = { is_year = 3968 }
 		owns_core_province = 102 # Nice
 		NOT = { has_global_flag = garibaldi_recruited }
 	}
@@ -2378,8 +2378,8 @@ country_event = {
 	picture = ADVISOR_STATESMAN_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1848
-		NOT = { is_year = 1860 }
+		is_year = 3946
+		NOT = { is_year = 3958 }
 		owns_core_province = 103 # Turin
 		NOT = { has_global_flag = cavour_recruited }
 	}
@@ -2457,8 +2457,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1855
-		NOT = { is_year = 1880 }
+		is_year = 3953
+		NOT = { is_year = 3978 }
 		owns_core_province = 116 # Florence
 		NOT = { has_global_flag = nightingale_recruited }
 	}
@@ -2525,8 +2525,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1890
-		NOT = { is_year = 1930 }
+		is_year = 3988
+		NOT = { is_year = 4028 }
 		owns_core_province = 1826 # Lika
 		NOT = { has_global_flag = tesla_recruited }
 	}
@@ -2576,8 +2576,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1910
-		NOT = { is_year = 1930 }
+		is_year = 4008
+		NOT = { is_year = 4028 }
 		owns_core_province = 257 # Warsaw
 		NOT = { has_global_flag = curie_recruited }
 	}
@@ -2614,8 +2614,8 @@ country_event = {
 	picture = MILITARY_PARADE_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1920
-		NOT = { is_year = 1935 }
+		is_year = 4018
+		NOT = { is_year = 4033 }
 		owns_core_province = 148 # Thessaloniki
 		NOT = { has_global_flag = mustafakemal_recruited }
 	}
@@ -2703,8 +2703,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1910
-		NOT = { is_year = 1960 }
+		is_year = 4008
+		NOT = { is_year = 4058 }
 		owns_core_province = 4546 # Malaga
 		NOT = { has_global_flag = picasso_recruited }
 	}
@@ -2740,8 +2740,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1900
-		NOT = { is_year = 1935 }
+		is_year = 3998
+		NOT = { is_year = 4033 }
 		owns_core_province = 4730 # Bologna
 		NOT = { has_global_flag = marconi_recruited }
 	}
@@ -2791,8 +2791,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1940
-		NOT = { is_year = 1950 }
+		is_year = 4038
+		NOT = { is_year = 4048 }
 		owns_core_province = 118 # Rome
 		NOT = { has_global_flag = fermi_recruited }
 	}
@@ -2828,8 +2828,8 @@ country_event = {
 	picture = ADVISOR_QUARTERMASTER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1950
-		NOT = { is_year = 1980 }
+		is_year = 4048
+		NOT = { is_year = 4078 }
 		owns_core_province = 106 # Modena
 		NOT = { has_global_flag = ferrari_recruited }
 	}
@@ -2893,8 +2893,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1940
-		NOT = { is_year = 1970 }
+		is_year = 4038
+		NOT = { is_year = 4068 }
 		owns_core_province = 254 # Posen
 		NOT = { has_global_flag = vonbraun_recruited }
 	}
@@ -2929,8 +2929,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 50
-		NOT = { is_year = 65 }
+		is_year = 2148
+		NOT = { is_year = 2163 }
 		owns_core_province = 118 # Rome
 		NOT = { has_global_flag = corbulo_recruited }
 	}
@@ -2994,8 +2994,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 430
-		NOT = { is_year = 450 }
+		is_year = 2528
+		NOT = { is_year = 2548 }
 		owns_core_province = 114 # Ravenna
 		NOT = { has_global_flag = aetius_recruited }
 	}
@@ -3059,8 +3059,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 390
-		NOT = { is_year = 405 }
+		is_year = 2488
+		NOT = { is_year = 2503 }
 		owns_core_province = 104 # Milan
 		NOT = { has_global_flag = stilicho_recruited }
 	}
@@ -3124,8 +3124,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1290
-		NOT = { is_year = 1305 }
+		is_year = 3388
+		NOT = { is_year = 3403 }
 		owns_core_province = 124 # Messina
 		NOT = { has_global_flag = rogerdeflor_recruited }
 	}
@@ -3203,8 +3203,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1520
-		NOT = { is_year = 1550 }
+		is_year = 3618
+		NOT = { is_year = 3648 }
 		owns_core_province = 101 # Genoa
 		NOT = { has_global_flag = andreadoria_recruited }
 	}
@@ -3292,8 +3292,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1525
-		NOT = { is_year = 1545 }
+		is_year = 3623
+		NOT = { is_year = 3643 }
 		owns_core_province = 4700 # Lesbos
 		NOT = { has_global_flag = barbarossa_recruited }
 	}
@@ -3357,8 +3357,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1570
-		NOT = { is_year = 1575 }
+		is_year = 3668
+		NOT = { is_year = 3673 }
 		owns_core_province = 124 # Messina
 		NOT = { has_global_flag = donjohn_recruited }
 	}
@@ -3422,8 +3422,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1445
-		NOT = { is_year = 1455 }
+		is_year = 3543
+		NOT = { is_year = 3553 }
 		owns_core_province = 101 # Genoa
 		NOT = { has_global_flag = giustiniani_recruited }
 	}
@@ -3473,8 +3473,8 @@ country_event = {
 	picture = ADVISOR_fortification_expert_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1680
-		NOT = { is_year = 1700 }
+		is_year = 3778
+		NOT = { is_year = 3798 }
 		owns_core_province = 192 # Bourgogne
 		NOT = { has_global_flag = vauban_recruited }
 	}
@@ -3524,8 +3524,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1660
-		NOT = { is_year = 1675 }
+		is_year = 3758
+		NOT = { is_year = 3773 }
 		owns_core_province = 106 # Modena
 		NOT = { has_global_flag = montecuccoli_recruited }
 	}
@@ -3603,8 +3603,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1700
-		NOT = { is_year = 1730 }
+		is_year = 3798
+		NOT = { is_year = 3828 }
 		owns_core_province = 103 # Turin
 		NOT = { has_global_flag = eugeneofsavoy_recruited }
 	}
@@ -3692,8 +3692,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1650
-		NOT = { is_year = 1670 }
+		is_year = 3748
+		NOT = { is_year = 3768 }
 		owns_core_province = 96 # Zeeland
 		NOT = { has_global_flag = deruyter_recruited }
 	}
@@ -3757,8 +3757,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1795
-		NOT = { is_year = 1805 }
+		is_year = 3893
+		NOT = { is_year = 3903 }
 		owns_core_province = 236 # London
 		NOT = { has_global_flag = nelson_recruited }
 	}
@@ -3808,8 +3808,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1780
-		NOT = { is_year = 1795 }
+		is_year = 3878
+		NOT = { is_year = 3893 }
 		owns_core_province = 295 # Moskva
 		NOT = { has_global_flag = suvorov_recruited }
 	}
@@ -3859,8 +3859,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1815
-		NOT = { is_year = 1830 }
+		is_year = 3913
+		NOT = { is_year = 3928 }
 		owns_core_province = 52 # Magdeburg
 		NOT = { has_global_flag = clausewitz_recruited }
 	}
@@ -3924,8 +3924,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1860
-		NOT = { is_year = 1885 }
+		is_year = 3958
+		NOT = { is_year = 3983 }
 		owns_core_province = 50 # Berlin
 		NOT = { has_global_flag = moltke_recruited }
 	}
@@ -3989,8 +3989,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1860
-		NOT = { is_year = 1865 }
+		is_year = 3958
+		NOT = { is_year = 3963 }
 		owns_core_province = 950 # Chesapeake
 		NOT = { has_global_flag = lee_recruited }
 	}
@@ -4040,8 +4040,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1590
-		NOT = { is_year = 1620 }
+		is_year = 3688
+		NOT = { is_year = 3718 }
 		owns_core_province = 97 # Holland
 		NOT = { has_global_flag = mauriceofnassau_recruited }
 	}
@@ -4105,8 +4105,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1625
-		NOT = { is_year = 1635 }
+		is_year = 3723
+		NOT = { is_year = 3733 }
 		owns_core_province = 1 # Stockholm
 		NOT = { has_global_flag = gustavusadolphus_recruited }
 	}
@@ -4156,8 +4156,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1780
-		NOT = { is_year = 1790 }
+		is_year = 3878
+		NOT = { is_year = 3888 }
 		owns_core_province = 236 # London/Britain
 		NOT = { has_global_flag = johnpauljones_recruited }
 	}
@@ -4221,8 +4221,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1940
-		NOT = { is_year = 1944 }
+		is_year = 4038
+		NOT = { is_year = 4042 }
 		owns_core_province = 1872 # Ulm
 		NOT = { has_global_flag = rommel_recruited }
 	}
@@ -4272,8 +4272,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1940
-		NOT = { is_year = 1950 }
+		is_year = 4038
+		NOT = { is_year = 4048 }
 		owns_core_province = 236 # London
 		NOT = { has_global_flag = turing_recruited }
 	}
@@ -4351,8 +4351,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1650
-		NOT = { is_year = 1670 }
+		is_year = 3748
+		NOT = { is_year = 3768 }
 		owns_core_province = 183 # Paris
 		NOT = { has_global_flag = turenne_recruited }
 	}
@@ -4388,8 +4388,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 90
-		NOT = { is_year = 115 }
+		is_year = 2188
+		NOT = { is_year = 2213 }
 		owns_core_province = 201 # Massilia
 		NOT = { has_global_flag = tacitus_recruited }
 	}
@@ -4439,8 +4439,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 40
-		NOT = { is_year = 60 }
+		is_year = 2138
+		NOT = { is_year = 2158 }
 		owns_core_province = 225 # Cordoba
 		NOT = { has_global_flag = seneca_recruited }
 	}
@@ -4476,8 +4476,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 75
-		NOT = { is_year = 90 }
+		is_year = 2173
+		NOT = { is_year = 2188 }
 		owns_core_province = 201 # Massilia
 		NOT = { has_global_flag = agricola_recruited }
 	}
@@ -4541,8 +4541,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 60
-		NOT = { is_year = 75 }
+		is_year = 2158
+		NOT = { is_year = 2173 }
 		owns_core_province = 104 # Como
 		NOT = { has_global_flag = plinytheelder_recruited }
 	}
@@ -4606,8 +4606,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 500
-		NOT = { is_year = 520 }
+		is_year = 2598
+		NOT = { is_year = 2618 }
 		owns_core_province = 118 # Rome
 		NOT = { has_global_flag = boethius_recruited }
 	}
@@ -4673,8 +4673,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1350
-		NOT = { is_year = 1370 }
+		is_year = 3448
+		NOT = { is_year = 3468 }
 		owns_core_province = 117 # Siena
 		NOT = { has_global_flag = petrarca_recruited }
 	}
@@ -4724,8 +4724,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1470
-		NOT = { is_year = 1500 }
+		is_year = 3568
+		NOT = { is_year = 3598 }
 		owns_core_province = 116 # Florence
 		NOT = { has_global_flag = botticelli_recruited }
 	}
@@ -4761,8 +4761,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1540
-		NOT = { is_year = 1570 }
+		is_year = 3638
+		NOT = { is_year = 3668 }
 		owns_core_province = 112 # Venice
 		NOT = { has_global_flag = titian_recruited }
 	}
@@ -4798,8 +4798,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1620
-		NOT = { is_year = 1645 }
+		is_year = 3718
+		NOT = { is_year = 3743 }
 		owns_core_province = 179 # Berry
 		NOT = { has_global_flag = descartes_recruited }
 	}
@@ -4863,8 +4863,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1645
-		NOT = { is_year = 1660 }
+		is_year = 3743
+		NOT = { is_year = 3758 }
 		owns_core_province = 199 # Auvergne
 		NOT = { has_global_flag = pascal_recruited }
 	}
@@ -4914,8 +4914,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1630
-		NOT = { is_year = 1655 }
+		is_year = 3728
+		NOT = { is_year = 3753 }
 		owns_core_province = 224 # Seville
 		NOT = { has_global_flag = velazquez_recruited }
 	}
@@ -4951,8 +4951,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1795
-		NOT = { is_year = 1820 }
+		is_year = 3893
+		NOT = { is_year = 3918 }
 		owns_core_province = 214 # Zaragoza
 		NOT = { has_global_flag = goya_recruited }
 	}
@@ -4988,8 +4988,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1870
-		NOT = { is_year = 1890 }
+		is_year = 3968
+		NOT = { is_year = 3988 }
 		owns_core_province = 193 # Franche-Comte/Bourgogne
 		NOT = { has_global_flag = pasteur_recruited }
 	}
@@ -5025,8 +5025,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1845
-		NOT = { is_year = 1880 }
+		is_year = 3943
+		NOT = { is_year = 3978 }
 		owns_core_province = 183 # Paris
 		NOT = { has_global_flag = hugo_recruited }
 	}
@@ -5076,8 +5076,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1900
-		NOT = { is_year = 1925 }
+		is_year = 3998
+		NOT = { is_year = 4023 }
 		owns_core_province = 213 # Barcelona
 		NOT = { has_global_flag = gaudi_recruited }
 	}
@@ -5127,8 +5127,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1900
-		NOT = { is_year = 1920 }
+		is_year = 3998
+		NOT = { is_year = 4018 }
 		owns_core_province = 115 # Pisa
 		NOT = { has_global_flag = puccini_recruited }
 	}
@@ -5164,8 +5164,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1925
-		NOT = { is_year = 1935 }
+		is_year = 4023
+		NOT = { is_year = 4033 }
 		owns_core_province = 223 # Granada
 		NOT = { has_global_flag = garcialorca_recruited }
 	}
@@ -5201,8 +5201,8 @@ country_event = {
 	picture = ADVISOR_NATURAL_SCIENTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1900
-		NOT = { is_year = 1930 }
+		is_year = 3998
+		NOT = { is_year = 4028 }
 		owns_core_province = 119 # Ancona
 		NOT = { has_global_flag = montessori_recruited }
 	}
@@ -5254,8 +5254,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1945
-		NOT = { is_year = 1955 }
+		is_year = 4043
+		NOT = { is_year = 4053 }
 		owns_core_province = 340 # Constantine
 		NOT = { has_global_flag = camus_recruited }
 	}
@@ -5291,8 +5291,8 @@ country_event = {
 	picture = ADVISOR_PHILOSOPHER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1970
-		NOT = { is_year = 1990 }
+		is_year = 4068
+		NOT = { is_year = 4088 }
 		owns_core_province = 103 # Turin
 		NOT = { has_global_flag = eco_recruited }
 	}
@@ -5342,8 +5342,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 190
-		NOT = { is_year = 205 }
+		is_year = 2288
+		NOT = { is_year = 2303 }
 		owns_core_province = 354 # Tripoli
 		NOT = { has_global_flag = severus_recruited }
 	}
@@ -5403,8 +5403,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1030
-		NOT = { is_year = 1040 }
+		is_year = 3128
+		NOT = { is_year = 3138 }
 		owns_core_province = 124 # Messina
 		NOT = { has_global_flag = maniakes_recruited }
 	}
@@ -5440,8 +5440,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1495
-		NOT = { is_year = 1510 }
+		is_year = 3593
+		NOT = { is_year = 3608 }
 		owns_core_province = 225 # Cordoba
 		NOT = { has_global_flag = gonzalo_recruited }
 	}
@@ -5491,8 +5491,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1570
-		NOT = { is_year = 1585 }
+		is_year = 3668
+		NOT = { is_year = 3683 }
 		owns_core_province = 223 # Granada
 		NOT = { has_global_flag = bazan_recruited }
 	}
@@ -5542,8 +5542,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1685
-		NOT = { is_year = 1694 }
+		is_year = 3783
+		NOT = { is_year = 3792 }
 		owns_core_province = 112 # Venice
 		NOT = { has_global_flag = morosini_recruited }
 	}
@@ -5631,8 +5631,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1780
-		NOT = { is_year = 1795 }
+		is_year = 3878
+		NOT = { is_year = 3893 }
 		owns_core_province = 146 # Athens
 		NOT = { has_global_flag = katsonis_recruited }
 	}
@@ -5668,8 +5668,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1830
-		NOT = { is_year = 1845 }
+		is_year = 3928
+		NOT = { is_year = 3943 }
 		owns_core_province = 361 # Cairo
 		NOT = { has_global_flag = ibrahimpasha_recruited }
 	}
@@ -5705,8 +5705,8 @@ country_event = {
 	picture = ADMIRAL_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1815
-		NOT = { is_year = 1825 }
+		is_year = 3913
+		NOT = { is_year = 3923 }
 		owns_core_province = 145 # Morea
 		NOT = { has_global_flag = bouboulina_recruited }
 	}
@@ -5743,8 +5743,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1835
-		NOT = { is_year = 1860 }
+		is_year = 3933
+		NOT = { is_year = 3958 }
 		owns_core_province = 336 # Tlemcen
 		NOT = { has_global_flag = abdelkader_recruited }
 	}
@@ -5794,8 +5794,8 @@ country_event = {
 	picture = ADVISOR_STATESMAN_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1930
-		NOT = { is_year = 1940 }
+		is_year = 4028
+		NOT = { is_year = 4038 }
 		owns_core_province = 113 # Ferrara
 		NOT = { has_global_flag = balbo_recruited }
 	}
@@ -5859,8 +5859,8 @@ country_event = {
 	picture = ADVISOR_TRADER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1610
-		NOT = { is_year = 1630 }
+		is_year = 3708
+		NOT = { is_year = 3728 }
 		owns_core_province = 116 # Florence
 		NOT = { has_global_flag = giacomo_medici_recruited }
 	}
@@ -5926,8 +5926,8 @@ country_event = {
 	picture = ADVISOR_SPYMASTER_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1950
-		NOT = { is_year = 1960 }
+		is_year = 4048
+		NOT = { is_year = 4058 }
 		owns_core_province = 119 # Ancona
 		NOT = { has_global_flag = mattei_recruited }
 	}
@@ -5991,8 +5991,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1560
-		NOT = { is_year = 1575 }
+		is_year = 3658
+		NOT = { is_year = 3673 }
 		owns_core_province = 112 # Venice
 		NOT = { has_global_flag = palladio_recruited }
 	}
@@ -6042,8 +6042,8 @@ country_event = {
 	picture = EXPLORERS_DEPARTING_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1515
-		NOT = { is_year = 1525 }
+		is_year = 3613
+		NOT = { is_year = 3623 }
 		owns_core_province = 116 # Florence
 		NOT = { has_global_flag = verrazzano_recruited }
 	}
@@ -6121,8 +6121,8 @@ country_event = {
 	picture = ADVISOR_ARTIST_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 1960
-		NOT = { is_year = 1980 }
+		is_year = 4058
+		NOT = { is_year = 4078 }
 		owns_core_province = 121 # Naples
 		NOT = { has_global_flag = sophialoren_recruited }
 	}
@@ -6204,8 +6204,8 @@ country_event = {
 	picture = WAR_PREPARATIONS_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 95
-		NOT = { is_year = 110 }
+		is_year = 2193
+		NOT = { is_year = 2208 }
 		owns_core_province = 224 # Sevilla
 		NOT = { has_global_flag = trajan_recruited }
 	}
@@ -6293,8 +6293,8 @@ country_event = {
 	picture = ADVISOR_COMMANDANT_eventPicture
 	trigger = {
 		tag = ROM
-		is_year = 310
-		NOT = { is_year = 335 }
+		is_year = 2408
+		NOT = { is_year = 2433 }
 		owns_core_province = 3000 # Nis/Serbia
 		NOT = { has_global_flag = constantine_recruited }
 	}

@@ -3,7 +3,6 @@
 #Ancient Europe
 AL0 = "countries/AlaniaHispania.txt"		#Alans in Hispania
 GLT = "countries/Galatia.txt"
-ILY = "countries/Illyria.txt"
 RO1	= "countries/RomeGermanic.txt"
 MC1 = "countries/MacedoniaAncient.txt"
 
@@ -25,7 +24,6 @@ HOE = "countries/HolyOrientalEmpire.txt"
 HSS	= "countries/Hashashin.txt"
 IT0	= "countries/Italiya.txt"
 PR1	= "countries/PersiaZoroastrian.txt"
-HYR	= "countries/Hyrcania.txt"
 SUQ = "countries/Socotra.txt"
 MD1 = "countries/Media.txt"
 MGN = "countries/Margiana.txt"
@@ -39,14 +37,11 @@ DRR = "countries/Diarra.txt"
 GHY = "countries/Ghiryu.txt"
 
 #Southeast Asia
-THB = "countries/Thonburi.txt"
 PHT = "countries/Phitsanulok.txt"
-SWB = "countries/Sawangburi.txt"
 HTN = "countries/HaTien.txt"
 HLI = "countries/Hlai.txt"
 
 #East Asia
-TYT = "countries/Toyotomi.txt"
 AKE = "countries/Akechi.txt"
 SH1 = "countries/Shibata.txt"
 OD1 = "countries/OdaGifu.txt"
