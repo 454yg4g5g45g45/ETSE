@@ -1,4 +1,4 @@
-version="1.37"
+name="Extended Timeline Super Expanded (WIP)"
 replace_path="customizable_localization"
 replace_path="history/countries"
 replace_path="history/provinces"
@@ -17,6 +17,5 @@ tags={
 	"Technologies"
 	"Sound"
 }
-name="Extended Timeline Super Expanded (WIP)"
-picture="extended_timeline_se.png"
-supported_version="v1.37.5.0"
+picture="thumbnail.png"
+supported_version="v1.37.*"
