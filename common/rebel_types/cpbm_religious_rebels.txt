@@ -1,213 +1,5 @@
 #Bloop
 
-cathar_rebels = {
-
-	area = nation 					# Sticks to provinces of their nation
-	government = theocracy 			# Desires Theocracy
-	religion = cathar
-	defection = none				# Will not defect
-	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
-	independence = none				# Does not strive for independence
-	unit_transfer = no
-	gfx_type = culture_province
-	
-	resilient = no
-	reinforcing = yes
-	general = yes
-	smart = yes
-	
-	artillery = 0.0
-	infantry = 0.7
-	cavalry = 0.3
-	
-	morale = 1.1
-
-	# Possible handle actions
-	handle_action_negotiate = yes
-	handle_action_stability = yes
-	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
-	# The rebel type with the highest modifier for this province gets picked
-	spawn_chance = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			is_overseas = yes
-		}
-		modifier = {
-			factor = 0.0
-			owner = { religion = ROOT }
-		}
-		modifier = {
-			factor = 0.0
-			NOT = { religion = cathar }
-		}
-		modifier = {
-			factor = 0.001
-			tolerance_to_this = 5
-		}
-		modifier = {
-			factor = 0.5
-			tolerance_to_this = 2
-		}
-		modifier = {
-			factor = 5.0
-			owner = { has_country_flag = religious_turmoil }
-		}		
-		modifier = {
-			factor = 2000
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = 1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -2 }
-		}
-	}
- 
- 	# This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			units_in_province = 1
-		}
-		modifier = {
-			factor = 0.001
-			controlled_by = REB
-		}
-		modifier = {
-			factor = 0.0
-			religion = cathar
-			owner = { religion = cathar }
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion = cathar }
-			any_neighbor_province = {
-	 			religion = cathar
-	 			NOT = { has_province_modifier = "forced_conversion" }
-	 		}
-	 	}
-		modifier = {
-			factor = 1.5
-			unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 4
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 6
-		}
-	}
- 
- 	# Province Scope
- 	siege_won_trigger = {
-		NOT = {
-			AND = {
-				owned_by = PAP
-				is_capital = yes
-			}
-		}
- 	}
-	siege_won_effect = {
-		if = {
-			limit = {
-				religion = cathar
-			}
-			add_province_modifier = {
-				name = "religious_violence"
-				duration = 730
-			}
-		}
-		if = {
-			limit = {
-				NOT = { religion = cathar }
-			}
-			change_religion = cathar
-			add_province_modifier = {
-				name = "forced_conversion"
-				duration = 730
-			}
-		}
-	}
-	
-	# Country scope
-	can_negotiate_trigger = {
-		OR = {
-			religion_group = christian
-			dominant_religion = cathar
-		}
-	}
-	
-	# Country scope
-	can_enforce_trigger = {
-		always = yes
-	}
-	
-	# Localisation for their demands
-	demands_description = "cathar_rebels_demand"
-	
-	# Country Scope
-	demands_enforced_effect = {
-		if = {
-			limit = {
-				NOT = { religion_group = christian }
-			}
-			add_prestige = -50
-			every_owned_province = {
-				limit = {
-					has_rebel_faction = REB
-				}
-				add_local_autonomy = 20
-			}
-		}
-		if = {
-			limit = {
-				tag = PAP
-			}
-			add_stability = -1
-		}
-		if = {
-			limit = {
-				religion = cathar
-			}
-			add_country_modifier = {
-				name = "religious_intolerance"
-				duration = 3650
-			}
-		}
-		if = {
-			limit = {
-				NOT = { religion = cathar }
-				dominant_religion = cathar
-			}
-			change_religion = cathar
-			force_converted = yes
-		}
-		if = {
-			limit = {
-				NOT = { religion = cathar }
-				NOT = { dominant_religion = cathar }
-				religion_group = christian
-			}
-			add_country_modifier = {
-				name = "heretic_tolerance"
-				duration = 3650
-			}
-		}
-	}
-}
 
 baptist_rebels = {
 
@@ -840,7 +632,7 @@ hussitism_rebels = {
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = hussitism
+	religion  = hussite
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -877,7 +669,7 @@ hussitism_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = hussitism }
+			NOT = { religion  = hussite }
 		}
 		modifier = {
 			factor = 0.001
@@ -922,14 +714,14 @@ hussitism_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = hussitism
-			owner = { religion = hussitism }
+			religion  = hussite
+			owner = { religion  = hussite }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = hussitism }
+			NOT = { religion  = hussite }
 			any_neighbor_province = {
-	 			religion = hussitism
+	 			religion  = hussite
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
@@ -959,7 +751,7 @@ hussitism_rebels = {
 	siege_won_effect = {
 		if = {
 			limit = {
-				religion = hussitism
+				religion  = hussite
 			}
 			add_province_modifier = {
 				name = "religious_violence"
@@ -968,9 +760,9 @@ hussitism_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = hussitism }
+				NOT = { religion  = hussite }
 			}
-			change_religion = hussitism
+			change_religion  = hussite
 			add_province_modifier = {
 				name = "forced_conversion"
 				duration = 730
@@ -982,7 +774,7 @@ hussitism_rebels = {
 	can_negotiate_trigger = {
 		OR = {
 			religion_group = christian
-			dominant_religion = hussitism
+			dominant_religion  = hussite
 		}
 	}
 	
@@ -1016,7 +808,7 @@ hussitism_rebels = {
 		}
 		if = {
 			limit = {
-				religion = hussitism
+				religion  = hussite
 			}
 			add_country_modifier = {
 				name = "religious_intolerance"
@@ -1025,16 +817,16 @@ hussitism_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = hussitism }
-				dominant_religion = hussitism
+				NOT = { religion  = hussite }
+				dominant_religion  = hussite
 			}
-			change_religion = hussitism
+			change_religion  = hussite
 			force_converted = yes
 		}
 		if = {
 			limit = {
-				NOT = { religion = hussitism }
-				NOT = { dominant_religion = hussitism }
+				NOT = { religion  = hussite }
+				NOT = { dominant_religion  = hussite }
 				religion_group = christian
 			}
 			add_country_modifier = {
@@ -10663,7 +10455,7 @@ tjukurpa_rebels = {
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = tjukurpa
+	religion = dreamtime
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -10700,7 +10492,7 @@ tjukurpa_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = tjukurpa }
+			NOT = { religion = dreamtime }
 		}
 		modifier = {
 			factor = 0.001
@@ -10745,14 +10537,14 @@ tjukurpa_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = tjukurpa
-			owner = { religion = tjukurpa }
+			religion = dreamtime
+			owner = { religion = dreamtime }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = tjukurpa }
+			NOT = { religion = dreamtime }
 			any_neighbor_province = {
-	 			religion = tjukurpa
+	 			religion = dreamtime
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
@@ -10782,7 +10574,7 @@ tjukurpa_rebels = {
 	siege_won_effect = {
 		if = {
 			limit = {
-				religion = tjukurpa
+				religion = dreamtime
 			}
 			add_province_modifier = {
 				name = "religious_violence"
@@ -10791,9 +10583,9 @@ tjukurpa_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = tjukurpa }
+				NOT = { religion = dreamtime }
 			}
-			change_religion = tjukurpa
+			change_religion = dreamtime
 			add_province_modifier = {
 				name = "forced_conversion"
 				duration = 730
@@ -10805,7 +10597,7 @@ tjukurpa_rebels = {
 	can_negotiate_trigger = {
 		OR = {
 			religion_group = pacific_pagan
-			dominant_religion = tjukurpa
+			dominant_religion = dreamtime
 		}
 	}
 	
@@ -10839,7 +10631,7 @@ tjukurpa_rebels = {
 		}
 		if = {
 			limit = {
-				religion = tjukurpa
+				religion = dreamtime
 			}
 			add_country_modifier = {
 				name = "religious_intolerance"
@@ -10848,16 +10640,16 @@ tjukurpa_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = tjukurpa }
-				dominant_religion = tjukurpa
+				NOT = { religion = dreamtime }
+				dominant_religion = dreamtime
 			}
-			change_religion = tjukurpa
+			change_religion = dreamtime
 			force_converted = yes
 		}
 		if = {
 			limit = {
-				NOT = { religion = tjukurpa }
-				NOT = { dominant_religion = tjukurpa }
+				NOT = { religion = dreamtime }
+				NOT = { dominant_religion = dreamtime }
 				religion_group = pacific_pagan
 			}
 			add_country_modifier = {
@@ -12321,215 +12113,6 @@ penguin_rebels = {
 			limit = {
 				NOT = { religion = penguin }
 				NOT = { dominant_religion = penguin }
-				religion_group = fantasy_pagan
-			}
-			add_country_modifier = {
-				name = "heretic_tolerance"
-				duration = 3650
-			}
-		}
-	}
-}
-
-disney_rebels = {
-
-	area = nation 					# Sticks to provinces of their nation
-	government = theocracy 			# Desires Theocracy
-	religion = disney
-	defection = none				# Will not defect
-	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
-	independence = none				# Does not strive for independence
-	unit_transfer = no
-	gfx_type = culture_province
-	
-	resilient = no
-	reinforcing = yes
-	general = yes
-	smart = yes
-	
-	artillery = 0.0
-	infantry = 0.7
-	cavalry = 0.3
-	
-	morale = 1.1
-
-	# Possible handle actions
-	handle_action_negotiate = yes
-	handle_action_stability = yes
-	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
-	# The rebel type with the highest modifier for this province gets picked
-	spawn_chance = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			is_overseas = yes
-		}
-		modifier = {
-			factor = 0.0
-			owner = { religion = ROOT }
-		}
-		modifier = {
-			factor = 0.0
-			NOT = { religion = disney }
-		}
-		modifier = {
-			factor = 0.001
-			tolerance_to_this = 5
-		}
-		modifier = {
-			factor = 0.5
-			tolerance_to_this = 2
-		}
-		modifier = {
-			factor = 5.0
-			owner = { has_country_flag = religious_turmoil }
-		}		
-		modifier = {
-			factor = 2000
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = 1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -2 }
-		}
-	}
- 
- 	# This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			units_in_province = 1
-		}
-		modifier = {
-			factor = 0.001
-			controlled_by = REB
-		}
-		modifier = {
-			factor = 0.0
-			religion = disney
-			owner = { religion = disney }
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion = disney }
-			any_neighbor_province = {
-	 			religion = disney
-	 			NOT = { has_province_modifier = "forced_conversion" }
-	 		}
-	 	}
-		modifier = {
-			factor = 1.5
-			unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 4
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 6
-		}
-	}
- 
- 	# Province Scope
- 	siege_won_trigger = {
-		NOT = {
-			AND = {
-				owned_by = PAP
-				is_capital = yes
-			}
-		}
- 	}
-	siege_won_effect = {
-		if = {
-			limit = {
-				religion = disney
-			}
-			add_province_modifier = {
-				name = "religious_violence"
-				duration = 730
-			}
-		}
-		if = {
-			limit = {
-				NOT = { religion = disney }
-			}
-			change_religion = disney
-			add_province_modifier = {
-				name = "forced_conversion"
-				duration = 730
-			}
-		}
-	}
-	
-	# Country scope
-	can_negotiate_trigger = {
-		OR = {
-			religion_group = fantasy_pagan
-			dominant_religion = disney
-		}
-	}
-	
-	# Country scope
-	can_enforce_trigger = {
-		always = yes
-	}
-	
-	# Localisation for their demands
-	demands_description = "disney_rebels_demand"
-	
-	# Country Scope
-	demands_enforced_effect = {
-		if = {
-			limit = {
-				NOT = { religion_group = fantasy_pagan }
-			}
-			add_prestige = -50
-			every_owned_province = {
-				limit = {
-					has_rebel_faction = REB
-				}
-				add_local_autonomy = 20
-			}
-		}
-		if = {
-			limit = {
-				tag = PAP
-			}
-			add_stability = -1
-		}
-		if = {
-			limit = {
-				religion = disney
-			}
-			add_country_modifier = {
-				name = "religious_intolerance"
-				duration = 3650
-			}
-		}
-		if = {
-			limit = {
-				NOT = { religion = disney }
-				dominant_religion = disney
-			}
-			change_religion = disney
-			force_converted = yes
-		}
-		if = {
-			limit = {
-				NOT = { religion = disney }
-				NOT = { dominant_religion = disney }
 				religion_group = fantasy_pagan
 			}
 			add_country_modifier = {
@@ -15261,7 +14844,7 @@ chamanism_rebels = {
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 				# Desires Theocracy
-	religion = chamanism
+	religion = shamanist
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -15298,7 +14881,7 @@ chamanism_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = chamanism }
+			NOT = { religion = shamanist }
 		}
 		modifier = {
 			factor = 0.001
@@ -15344,13 +14927,13 @@ chamanism_rebels = {
 		modifier = {
 			factor = 0.0
 			religion = cthulhu
-			owner = { religion = chamanism }
+			owner = { religion = shamanist }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = chamanism }
+			NOT = { religion = shamanist }
 			any_neighbor_province = {
-	 			religion = chamanism
+	 			religion = shamanist
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
@@ -15380,7 +14963,7 @@ chamanism_rebels = {
 	siege_won_effect = {
 		if = {
 			limit = {
-				religion = chamanism
+				religion = shamanist
 			}
 			add_province_modifier = {
 				name = "religious_violence"
@@ -15391,7 +14974,7 @@ chamanism_rebels = {
 			limit = {
 				NOT = { religion = cthulhu }
 			}
-			change_religion = chamanism
+			change_religion = shamanist
 			add_province_modifier = {
 				name = "forced_conversion"
 				duration = 730
@@ -15403,7 +14986,7 @@ chamanism_rebels = {
 	can_negotiate_trigger = {
 		OR = {
 			religion_group = pagan
-			dominant_religion = chamanism
+			dominant_religion = shamanist
 		}
 	}
 	
@@ -15437,7 +15020,7 @@ chamanism_rebels = {
 		}
 		if = {
 			limit = {
-				religion = chamanism
+				religion = shamanist
 			}
 			add_country_modifier = {
 				name = "religious_intolerance"
@@ -15446,16 +15029,16 @@ chamanism_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = chamanism }
-				dominant_religion = chamanism
+				NOT = { religion = shamanist }
+				dominant_religion = shamanist
 			}
 			change_religion = cthulhu
 			force_converted = yes
 		}
 		if = {
 			limit = {
-				NOT = { religion = chamanism }
-				NOT = { dominant_religion = chamanism }
+				NOT = { religion = shamanist }
+				NOT = { dominant_religion = shamanist }
 				religion_group = pagan
 			}
 			add_country_modifier = {

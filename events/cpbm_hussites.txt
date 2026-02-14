@@ -16,7 +16,7 @@ province_event = {
 
 	trigger = {
 		is_religion_enabled = catholic
-		NOT = { is_religion_enabled = hussitism }
+		NOT = { is_religion_enabled  = hussite }
 		is_year = 3498
 		OR = {
 			area = bohemia_area
@@ -31,8 +31,8 @@ province_event = {
 
 	option = {
 		name = cpbm_hussitism.EVTOPT1
-		enable_religion = hussitism
-		change_religion = hussitism
+		enable_religion  = hussite
+		change_religion  = hussite
 		add_province_modifier = {
 				name = "religious_zeal_at_conv"
 				duration = 3650
@@ -51,9 +51,9 @@ province_event = {
 
 	trigger = {
 		any_neighbor_province = {
-			religion = hussitism
+			religion  = hussite
 		}
-		NOT = { religion = hussitism }
+		NOT = { religion  = hussite }
 		NOT = { is_year = 3608 }
 	}
 
@@ -74,7 +74,7 @@ province_event = {
 
 	option = {
 		name = cpbm_hussitism.EVTOPT2
-		change_religion = hussitism
+		change_religion  = hussite
 		add_province_modifier = {
 			name = religious_zeal_at_conv
 			duration = 3650

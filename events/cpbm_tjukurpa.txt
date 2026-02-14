@@ -15,7 +15,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		religion = tjukurpa
+		religion = dreamtime
 		ai = no
 	}
 
@@ -39,7 +39,7 @@ country_event = {
 	fire_only_once = no
 
 	trigger = {
-		religion = tjukurpa
+		religion = dreamtime
 		ruler_age = 16
 		NOT = { has_ruler_modifier = walkabout }
 		NOT = { has_ruler_modifier = no_walkabout }
@@ -124,7 +124,7 @@ province_event = {
 	picture = CPBM_CORROBOREE_eventPicture
 
 	trigger = {
-		religion = tjukurpa
+		religion = dreamtime
 	}
 
 	mean_time_to_happen = {
@@ -154,7 +154,7 @@ country_event = {
 	picture = CPBM_ULURU_eventPicture
 
 	trigger = {
-		religion = tjukurpa
+		religion = dreamtime
 		primary_culture = aboriginal
 		owns = 3054
 		NOT = { has_country_modifier = owns_uluru }
@@ -183,7 +183,7 @@ country_event = {
 	picture = CPBM_ULURU_eventPicture
 
 	trigger = {
-		religion = tjukurpa
+		religion = dreamtime
 		primary_culture = aboriginal
 		NOT = { owns = 3054 }
 		has_country_modifier = owns_uluru
@@ -209,7 +209,7 @@ province_event = {
 	picture = CPBM_RELIGION_TJUKURPA_eventPicture
 
 	trigger = {
-		religion = tjukurpa
+		religion = dreamtime
 		culture = aboriginal
 		any_neighbor_province = {
 			is_colony = yes
