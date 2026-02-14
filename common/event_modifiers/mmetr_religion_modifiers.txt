@@ -303,7 +303,7 @@ elqonera_cult_aspect_modifier = {
 	naval_tradition_from_trade = 0.5
 	religion = yes
 }
-nike_cult_aspect = {
+nike_cult_aspect_modifier = {
 	army_tradition_decay = -0.01
 	prestige_from_land = 0.5
 	religion = yes
