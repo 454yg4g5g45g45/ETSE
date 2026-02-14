@@ -1,8 +1,8 @@
 ﻿l_german:
  # Countries:
- DA1: "Britisch Ostafrika"
- DA1_ADJ: "Britisch-Ostafrikanisch"
- DA2: "Germanisch Ostafrika"
+ DB1: "Britisch Ostafrika"
+ DB1_ADJ: "Britisch-Ostafrikanisch"
+ DB2: "Germanisch Ostafrika"
  DA2_ADJ: "Germanisch-Ostafrikanisch"
  DA3: "Iberisch Ostafrika"
  DA3_ADJ: "Iberisch-Ostafrikanisch"

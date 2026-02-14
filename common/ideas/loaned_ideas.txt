@@ -186,7 +186,11 @@ PTH_ideas = {
 	}
 
 	trigger = {
-		tag = PRT
+		OR = {
+			tag = PRT
+			tag = MD1	#added
+			tag = DHE
+		}
 	}
 
 	free = yes	 #will be added at load.

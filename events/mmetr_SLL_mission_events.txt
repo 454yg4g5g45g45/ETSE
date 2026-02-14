@@ -1,0 +1,97 @@
+namespace = mmetr_SLL_mission_events
+
+# The Question of Buddhism
+country_event = {
+	id = mmetr_SLL_mission_events.1
+	title = "mmetr_SLL_mission_events.1.t"
+	desc = "mmetr_SLL_mission_events.1.desc"
+	picture = MMETR_CHINESE_COURT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_SLL_mission_events.1.a"	#Mahayana Pure Land
+		
+		set_country_flag = silla_mmetr_buddhist_path_chosen_flag
+		if = {
+			limit = {
+				has_country_flag = silla_mmetr_muist_path_chosen_flag
+			}
+			clr_country_flag = silla_mmetr_muist_path_chosen_flag
+		}
+		
+		if = {
+			NOT =  {
+				religion = mahayana
+			}
+			change_religion = mahayana
+			add_country_modifier = {
+				name = "me_sll_state_sponsored_mission"
+				duration = 10950
+			}
+		}
+		
+		custom_tooltip = mmetr_SLL_mission_events.1.tt1
+		swap_non_generic_missions = yes
+	}
+	
+	option = {
+		name = "mmetr_SLL_mission_events.1.b"	#Dharmaguptaka
+		
+		set_country_flag = silla_mmetr_buddhist_path_chosen_flag
+		if = {
+			limit = {
+				has_country_flag = silla_mmetr_muist_path_chosen_flag
+			}
+			clr_country_flag = silla_mmetr_muist_path_chosen_flag
+		}
+		if = {
+			NOT =  {
+				religion = dharmaguptaka
+			}
+			change_religion = dharmaguptaka
+			add_country_modifier = {
+				name = "me_sll_state_sponsored_mission"
+				duration = 10950
+			}
+		}
+		custom_tooltip = mmetr_SLL_mission_events.1.tt1
+		swap_non_generic_missions = yes
+	}
+	
+	option = {
+		name = "mmetr_SLL_mission_events.1.c"	#Muist
+		
+		set_country_flag = silla_mmetr_muist_path_chosen_flag
+		if = {
+			limit = {
+				has_country_flag = silla_mmetr_buddhist_path_chosen_flag
+			}
+			clr_country_flag = silla_mmetr_buddhist_path_chosen_flag
+		}
+		if = {
+			NOT =  {
+				religion = muism
+			}
+			change_religion = muism
+			add_country_modifier = {
+				name = "me_sll_state_sponsored_mission"
+				duration = 10950
+			}
+		}
+		custom_tooltip = mmetr_SLL_mission_events.1.tt2
+		swap_non_generic_missions = yes
+	}
+	
+	option = {
+		name = "mmetr_SLL_mission_events.1.d"	#Status quo - if is not Buddhist or Muist
+		
+		trigger = {
+			NOT = { religion = mahayana }
+			NOT = { religion = dharmaguptaka }
+			NOT = { religion = muism }
+		}
+		
+		custom_tooltip = mmetr_SLL_mission_events.1.tt3
+	}
+}

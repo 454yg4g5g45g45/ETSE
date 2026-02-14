@@ -736,6 +736,103 @@ country_event = {
 	}
 }
 
+# An Emir of Italiya?
+country_event = {
+	id = mmetr_FAT_mission_events.24
+	title = "mmetr_FAT_mission_events.24.t"
+	desc = "mmetr_FAT_mission_events.24.desc"
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_FAT_mission_events.24.a"	#Just in northern Italy
+		
+		tuscany_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = IT0		#new Sultanate of Italiya tag
+			add_core = IT0
+		}
+		emilia_romagna_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = IT0		#new Sultanate of Italiya tag
+			add_core = IT0
+		}
+		
+		vassalize = IT0
+		
+		IT0 = {
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+			if = {
+				limit = {
+					religion = shiite
+				}
+				change_religion = shiite
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_FAT_mission_events.24.b"	#Grant it Rome / Central Italy
+		
+		tuscany_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = IT0		#new Sultanate of Italiya tag
+			add_core = IT0
+		}
+		emilia_romagna_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = IT0		#new Sultanate of Italiya tag
+			add_core = IT0
+		}
+		lazio_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = IT0		#new Sultanate of Italiya tag
+			add_core = IT0
+		}
+		central_italy_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = IT0		#new Sultanate of Italiya tag
+			add_core = IT0
+		}
+		
+		vassalize = IT0
+		
+		IT0 = {
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+			if = {
+				limit = {
+					religion = shiite
+				}
+				change_religion = shiite
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_FAT_mission_events.24.c"		#status quo
+		
+	}
+}
+
 # The Descendants of Ali
 country_event = {
 	id = mmetr_FAT_mission_events.25

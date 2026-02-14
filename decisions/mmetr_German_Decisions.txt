@@ -74,13 +74,13 @@ country_decisions = {
 				province_id = 50	#Berlin
 				province_id = 57	#Brunswick
 				province_id = 1758	#Hannover
-				province_id = 41 	# KÃ¶nigsberg
+				province_id = 41 	# Königsberg
 				province_id = 1876 	# Frankfurt
 				province_id = 49	# Neumark
 				province_id = 61	# Dresden
-				province_id = 63	# ThÃ¼ringen
+				province_id = 63	# Thüringen
 				province_id = 81	# Hessen
-				province_id = 85	# KÃ¶ln
+				province_id = 85	# Köln
 				province_id = 44	# Hamburg
 			}
 			NOT = { owned_by = ROOT }
@@ -94,13 +94,13 @@ country_decisions = {
 			owns_core_province = 50			#Berlin
 			owns_core_province = 57			#Brunswick
 			owns_core_province = 1758		#Hannover
-			owns_core_province = 41 		# KÃ¶nigsberg
+			owns_core_province = 41 		# Königsberg
 			owns_core_province = 1876 		# Frankfurt
 			owns_core_province = 49			# Neumark
 			owns_core_province = 61			# Dresden
-			owns_core_province = 63			# ThÃ¼ringen
+			owns_core_province = 63			# Thüringen
 			owns_core_province = 81			# Hessen
-			owns_core_province = 85			# KÃ¶ln
+			owns_core_province = 85			# Köln
 			owns_core_province = 44			# Hamburg
 			num_of_owned_provinces_with = {
 				is_core = ROOT
@@ -258,9 +258,9 @@ country_decisions = {
 			set_country_flag = formed_austria_hungary_flag
 			if = {
 				limit = {
-					NOT = { government_rank = 10 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 4
+				set_government_rank = 3
 			}
 		}
 		ai_will_do = {

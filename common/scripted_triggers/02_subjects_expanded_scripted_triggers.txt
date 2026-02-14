@@ -37,8 +37,8 @@ is_former_autonomous_dominion = {
 
 is_dominion_tag_in_east_africa = {
 	OR = {
-		tag = DA1
-		tag = DA2
+		tag = DB1
+		tag = DB2
 		tag = DA3
 		tag = DA4
 		tag = DA5
@@ -127,8 +127,8 @@ is_dominion_tag_in_philippines = {
 
 was_dominion_tag_in_east_africa = {
 	OR = {
-		was_tag = DA1
-		was_tag = DA2
+		was_tag = DB1
+		was_tag = DB2
 		was_tag = DA3
 		was_tag = DA4
 		was_tag = DA5

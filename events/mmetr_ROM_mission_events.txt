@@ -1,0 +1,576 @@
+namespace = mmetr_ROM_mission_events
+
+# Roman Assyria
+country_event = {
+	id = mmetr_ROM_mission_events.1
+	title = "mmetr_ROM_mission_events.1.t"
+	desc = "mmetr_ROM_mission_events.1.desc"
+	picture = MMETR_CAESARS_LEGIONS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_ROM_mission_events.1.a"
+		
+		al_jazira_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = OSR
+			add_core = OSR
+		}
+		vassalize = OSR
+		OSR = {
+			change_government = monarchy
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.1.b"
+		
+		al_jazira_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = ADB
+			add_core = ADB
+		}
+		vassalize = ADB
+		ADB = {
+			change_government = monarchy
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.1.c"
+		
+		
+	}
+}
+
+# Romano-Briton Culture
+country_event = {
+	id = mmetr_ROM_mission_events.2
+	title = "mmetr_ROM_mission_events.2.t"		#same title and description localization as ROW mission 
+	desc = "mmetr_ROM_mission_events.2.desc"
+	picture = IMPORTANT_STATUE_eventPicture
+
+	is_triggered_only = yes
+	 
+	
+	option = {
+		name = "mmetr_ROM_mission_events.2.a"
+		
+		236 = {		#Londinium
+			change_culture = romano_briton
+		}
+		every_owned_province = {
+			limit = {
+				fort_level = 1
+				region = british_isles_region
+			}
+			add_province_modifier = {
+				name = "me_rom_roman_castra"
+				duration = -1
+			}
+		}
+	}
+}
+
+# Roman Caledonia
+country_event = {
+	id = mmetr_ROM_mission_events.3
+	title = "mmetr_ROM_mission_events.3.t"
+	desc = "mmetr_ROM_mission_events.3.desc"
+	picture = MMETR_CAESARS_LEGIONS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_ROM_mission_events.3.a"
+		
+		lowlands_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = CLD
+			add_core = CLD
+		}
+		highlands_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = CLD
+			add_core = CLD
+		}
+		create_subject = {
+			subject_type = client_kingdom
+			subject = CLD
+		}
+		custom_tooltip = mmetr_ROM_mission_events.3.tt
+		CLD = {
+			change_government = monarchy
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.3.b"
+		
+		
+	}
+}
+
+# Roman Armenia
+country_event = {
+	id = mmetr_ROM_mission_events.4
+	title = "mmetr_ROM_mission_events.4.t"
+	desc = "mmetr_ROM_mission_events.4.desc"
+	picture = MMETR_CAESARS_LEGIONS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_ROM_mission_events.4.a"
+		
+		armenia_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = ARM
+			add_core = ARM
+		}
+		samtskhe_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = ARM
+			add_core = ARM
+		}
+		create_subject = {
+			subject_type = client_kingdom
+			subject = ARM
+		}
+		custom_tooltip = mmetr_ROM_mission_events.3.tt
+		ARM = {
+			change_government = monarchy
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.4.b"
+		
+		armenia_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = ARM
+			add_core = ARM
+		}
+		samtskhe_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = ARM
+			add_core = ARM
+		}
+		vassalize = ARM
+		ARM = {
+			change_government = monarchy
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.3.c"
+		
+		
+	}
+}
+
+# Philhellenism in the Roman Empire
+country_event = {
+	id = mmetr_ROM_mission_events.5
+	title = "mmetr_ROM_mission_events.5.t"
+	desc = "mmetr_ROM_mission_events.5.desc"
+	picture = CPBM_ROMAN_TEMPLE_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_ROM_mission_events.5.a"
+		
+		define_advisor = {
+			type = philosopher
+			skill = 2
+			culture = greek
+			discount = yes
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.5.b"
+		
+		define_advisor = {
+			type = artist
+			skill = 2
+			culture = greek
+			discount = yes
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.5.c"
+		
+		define_advisor = {
+			type = natural_scientist
+			skill = 2
+			culture = greek
+			discount = yes
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.5.d"
+		
+		define_advisor = {
+			type = diplomat
+			skill = 2
+			culture = greek
+			discount = yes
+		}
+	}
+}
+
+# Triumph in Ctesiphon
+country_event = {
+	id = mmetr_ROM_mission_events.6
+	title = "mmetr_ROM_mission_events.6.t"
+	desc = "mmetr_ROM_mission_events.6.desc"
+	picture = MMETR_CAESARS_LEGIONS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_ROM_mission_events.6.a"
+		
+		basra_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = CRC
+			add_core = CRC
+		}
+		bahrain_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = CRC
+			add_core = CRC
+		}
+		create_subject = {
+			subject_type = client_kingdom
+			subject = CRC
+		}
+		custom_tooltip = mmetr_ROM_mission_events.3.tt
+		CRC = {
+			change_government = monarchy
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.6.b"
+		
+		basra_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = CRC
+			add_core = CRC
+		}
+		bahrain_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = CRC
+			add_core = CRC
+		}
+		vassalize = CRC
+		CRC = {
+			change_government = monarchy
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.6.c"
+		
+		basra_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = CRC
+			add_core = CRC
+		}
+		bahrain_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = CRC
+			add_core = CRC
+		}
+		create_march = CRC
+		CRC = {
+			change_government = monarchy
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.6.d"
+		
+		
+	}
+}
+
+# The Faith of the Empire
+country_event = {
+	id = mmetr_ROM_mission_events.7
+	title = "mmetr_ROM_mission_events.7.t"
+	desc = "mmetr_ROM_mission_events.7.desc"
+	picture = CPBM_ROMAN_TEMPLE_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "mmetr_ROM_mission_events.7.a"	#if is neither Christian nor Hellenic - if player decides to go other religion
+		
+		highlight = yes
+		trigger = {
+			NOT = {
+				religion_group = christian
+				religion = hellenism
+			}
+		}
+		
+		add_country_modifier = {
+			name = "me_rom_true_piety"
+			duration = 10950
+		}
+		swap_non_generic_missions = yes
+		
+		ai_chance = {		#ai will not convert
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					religion_group = christian
+					religion = hellenism
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.7.b"	#Christian path, if started BEFORE Rome converted to Christianity
+		
+		trigger = {
+			NOT = { started_in = 2478.2.27 }
+		}
+		
+		if = {
+			NOT =  {
+				religion_group = christian
+			}
+			change_religion = chalcedonism
+			custom_tooltip = mmetr_ROM_mission_events.7.tt		#tooltip for new branching missions
+		}
+		add_country_modifier = {
+			name = "me_rom_christian_mission"
+			duration = 10950
+		}
+		swap_non_generic_missions = yes
+		
+		ai_chance = {		#ai will not convert
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { religion_group = christian }
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.7.c"	#Christian path, if AFTER Roman conversion to Christianity
+		
+		trigger = {
+			started_in = 2478.2.27
+		}
+		
+		if = {
+			NOT =  {
+				religion_group = christian
+			}
+			change_religion = chalcedonism
+			custom_tooltip = mmetr_ROM_mission_events.7.tt		#tooltip for new branching missions
+		}
+		add_country_modifier = {
+			name = "me_rom_christianity_affirmed"
+			duration = 10950
+		}
+		swap_non_generic_missions = yes
+		
+		ai_chance = {		#ai will not convert
+			factor = 1
+			modifier = {
+				factor = 0
+				religion_group = christian
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.7.d"	#Hellenic path, started AFTER Rome converted to Christianity - ex: Julian the Apostate
+		
+		trigger = {
+			started_in = 2478.2.27
+		}
+		
+		if = {
+			NOT =  {
+				religion = hellenism
+			}
+			change_religion = hellenism
+			custom_tooltip = mmetr_ROM_mission_events.7.tt		#tooltip for new branching missions
+		}
+		add_country_modifier = {
+			name = "me_rom_pagan_survival"
+			duration = 10950
+		}
+		swap_non_generic_missions = yes
+		
+		ai_chance = {		#ai will not convert
+			factor = 1
+			modifier = {
+				factor = 0
+				religion_group = christian
+			}
+		}
+	}
+
+	option = {
+		name = "mmetr_ROM_mission_events.7.e"	#Hellenic path, if BEFORE Roman conversion to Christianity
+		
+		trigger = {
+			NOT = { started_in = 2478.2.27 }
+		}
+		
+		if = {
+			NOT =  {
+				religion = hellenism
+			}
+			change_religion = hellenism
+			custom_tooltip = mmetr_SLL_mission_events.1.tt1		#tooltip for new branching missions
+		}
+		add_country_modifier = {
+			name = "me_rom_imposed_imperial_pantheon"
+			duration = 10950
+		}
+		swap_non_generic_missions = yes
+		
+		ai_chance = {		#ai will not convert
+			factor = 1
+			modifier = {
+				factor = 0
+				religion_group = christian
+			}
+		}
+	}
+}
+
+# The King of Prosperous Palmyra
+country_event = {
+	id = mmetr_ROM_mission_events.8
+	title = "mmetr_ROM_mission_events.8.t"
+	desc = "mmetr_ROM_mission_events.8.desc"
+	picture = MMETR_SOUTH_ARABIAN_KING_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_ROM_mission_events.8.a"
+		
+		405 = {
+			cede_province = PLM
+			add_core = PLM
+		}
+		vassalize = PLM
+		PLM = {
+			change_government = monarchy
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+			add_country_modifier = {
+				name = "me_fun_palmyrene_army"
+				duration = 7300
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.8.b"
+		
+		405 = {
+			cede_province = PLM
+			add_core = PLM
+		}
+		create_march = PLM
+		PLM = {
+			change_government = monarchy
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+			add_country_modifier = {
+				name = "me_fun_palmyrene_army"
+				duration = 7300
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROM_mission_events.8.c"
+		
+		
+	}
+}
+

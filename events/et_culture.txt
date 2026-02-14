@@ -13,6 +13,7 @@ province_event = {
 
 	trigger = {
 		culture = aramaic
+		NOT = { area = palestine_area }
 		owner = {
 			religion_group = muslim
 		}
@@ -5684,4 +5685,30 @@ province_event = {
         name = culture.22.a
         decolonize = THIS
     }
+}
+
+#Aramaic into Palestinian
+province_event = {
+	id = culture.24
+	title = culture.1.t
+	desc = culture.24.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = aramaic
+		area = palestine_area
+		owner = {
+			religion_group = muslim
+		}
+		religion_group = muslim
+	}
+
+	mean_time_to_happen = {
+		years = 50
+	}
+
+	option = {
+		name = culture.1.a
+		change_culture = al_suryah_arabic
+	}
 }

@@ -191,7 +191,9 @@ country_event = { #Traditionalists Oppose new ideas
 		months = 200
 		modifier = {
 			factor = 0.6
-			 	current_institution = 30
+			all_owned_province = {			#MMETR added bug fix, changed from country to province scope for current_institution
+				current_institution = 30
+			}
 		}
 	}
 	

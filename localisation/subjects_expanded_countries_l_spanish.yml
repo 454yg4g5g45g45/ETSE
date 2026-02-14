@@ -1,8 +1,8 @@
 ﻿l_spanish:
  # Countries:
- DA1: "British East Africa"
- DA1_ADJ: "British East African"
- DA2: "Germanic East Africa"
+ DB1: "British East Africa"
+ DB1_ADJ: "British East African"
+ DB2: "Germanic East Africa"
  DA2_ADJ: "Germanic East African"
  DA3: "Iberian East Africa"
  DA3_ADJ: "Iberian East African"

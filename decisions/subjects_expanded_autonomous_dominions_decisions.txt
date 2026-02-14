@@ -5910,7 +5910,7 @@ country_decisions = {
 						tag = GBR
 						tag = ENG
 					}
-					NOT = { exists = DA1 }
+					NOT = { exists = DB1 }
 				}
 				AND = {
 					OR = {
@@ -5918,7 +5918,7 @@ country_decisions = {
 						tag = GER
 						tag = PRU
 					}
-					NOT = { exists = DA2 }
+					NOT = { exists = DB2 }
 				}
 				AND = {
 					OR = {
@@ -6088,7 +6088,7 @@ country_decisions = {
 						tag = GBR
 						tag = ENG
 					}
-					NOT = { exists = DA1 }
+					NOT = { exists = DB1 }
 				}
 				hidden_effect = {
 					trade_company_east_africa = {
@@ -6101,9 +6101,9 @@ country_decisions = {
 								is_core = ROOT
 							}
 							remove_core = ROOT
-							add_core = DA1
+							add_core = DB1
 						}
-						cede_province = DA1
+						cede_province = DB1
 					}
 					trade_company_zambezi = {
 						limit = {
@@ -6115,9 +6115,9 @@ country_decisions = {
 								is_core = ROOT
 							}
 							remove_core = ROOT
-							add_core = DA1
+							add_core = DB1
 						}
-						cede_province = DA1
+						cede_province = DB1
 					}
 					trade_company_great_lakes = {
 						limit = {
@@ -6129,9 +6129,9 @@ country_decisions = {
 								is_core = ROOT
 							}
 							remove_core = ROOT
-							add_core = DA1
+							add_core = DB1
 						}
-						cede_province = DA1
+						cede_province = DB1
 					}
 					trade_company_ethiopia = {
 						limit = {
@@ -6143,9 +6143,9 @@ country_decisions = {
 								is_core = ROOT
 							}
 							remove_core = ROOT
-							add_core = DA1
+							add_core = DB1
 						}
-						cede_province = DA1
+						cede_province = DB1
 					}
 					trade_company_gulf_of_aden = {
 						limit = {
@@ -6158,19 +6158,19 @@ country_decisions = {
 								is_core = ROOT
 							}
 							remove_core = ROOT
-							add_core = DA1
+							add_core = DB1
 						}
-						cede_province = DA1
+						cede_province = DB1
 					}
 					create_subject = {
-						subject = DA1
+						subject = DB1
 						subject_type = dominion
 					}
 					create_subject = {
-						subject = DA1
+						subject = DB1
 						subject_type = dominion_tc
 					}
-					DA1 = {
+					DB1 = {
 						rename_dominion_accordingly_to_overlord = { dominion_region = EAST_AFRICA }
 						add_treasury = 3000
 						add_truce_with = ROOT
@@ -6217,7 +6217,7 @@ country_decisions = {
 						tag = GER
 						tag = PRU
 					}
-					NOT = { exists = DA2 }
+					NOT = { exists = DB2 }
 				}
 				hidden_effect = {
 					trade_company_east_africa = {
@@ -6230,9 +6230,9 @@ country_decisions = {
 								is_core = ROOT
 							}
 							remove_core = ROOT
-							add_core = DA2
+							add_core = DB2
 						}
-						cede_province = DA2
+						cede_province = DB2
 					}
 					trade_company_zambezi = {
 						limit = {
@@ -6244,9 +6244,9 @@ country_decisions = {
 								is_core = ROOT
 							}
 							remove_core = ROOT
-							add_core = DA2
+							add_core = DB2
 						}
-						cede_province = DA2
+						cede_province = DB2
 					}
 					trade_company_great_lakes = {
 						limit = {
@@ -6258,9 +6258,9 @@ country_decisions = {
 								is_core = ROOT
 							}
 							remove_core = ROOT
-							add_core = DA2
+							add_core = DB2
 						}
-						cede_province = DA2
+						cede_province = DB2
 					}
 					trade_company_ethiopia = {
 						limit = {
@@ -6272,9 +6272,9 @@ country_decisions = {
 								is_core = ROOT
 							}
 							remove_core = ROOT
-							add_core = DA2
+							add_core = DB2
 						}
-						cede_province = DA2
+						cede_province = DB2
 					}
 					trade_company_gulf_of_aden = {
 						limit = {
@@ -6287,19 +6287,19 @@ country_decisions = {
 								is_core = ROOT
 							}
 							remove_core = ROOT
-							add_core = DA2
+							add_core = DB2
 						}
-						cede_province = DA2
+						cede_province = DB2
 					}
 					create_subject = {
-						subject = DA2
+						subject = DB2
 						subject_type = dominion
 					}
 					create_subject = {
-						subject = DA2
+						subject = DB2
 						subject_type = dominion_tc
 					}
-					DA2 = {
+					DB2 = {
 						rename_dominion_accordingly_to_overlord = { dominion_region = EAST_AFRICA }
 						add_treasury = 3000
 						add_truce_with = ROOT

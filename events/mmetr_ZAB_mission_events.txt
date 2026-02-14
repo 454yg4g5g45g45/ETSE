@@ -71,7 +71,7 @@ country_event = {
 	id = mmetr_ZAB_mission_events.3
 	title = "mmetr_ZAB_mission_events.3.t"
 	desc = "mmetr_ZAB_mission_events.3.desc"
-	picture = NUSANTARA_THRONE_eventPicture
+	picture = MMETR_ZUNIST_eventPicture
 
 	is_triggered_only = yes
 	
@@ -92,7 +92,7 @@ country_event = {
 	id = mmetr_ZAB_mission_events.4
 	title = "mmetr_ZAB_mission_events.4.t"
 	desc = "mmetr_ZAB_mission_events.4.desc"
-	picture = NUSANTARA_THRONE_eventPicture
+	picture = MMETR_ZUNIST_eventPicture
 
 	is_triggered_only = yes
 	
@@ -130,7 +130,7 @@ country_event = {
 	id = mmetr_ZAB_mission_events.6
 	title = "mmetr_ZAB_mission_events.6.t"
 	desc = "mmetr_ZAB_mission_events.6.desc"
-	picture = NUSANTARA_THRONE_eventPicture
+	picture = MMETR_ZUNIST_eventPicture
 
 	is_triggered_only = yes
 	
@@ -149,7 +149,7 @@ country_event = {
 	id = mmetr_ZAB_mission_events.7
 	title = "mmetr_ZAB_mission_events.7.t"
 	desc = "mmetr_ZAB_mission_events.7.desc"
-	picture = NUSANTARA_THRONE_eventPicture
+	picture = MMETR_ZUNIST_eventPicture
 
 	is_triggered_only = yes
 	
@@ -380,7 +380,7 @@ country_event = {
 	id = mmetr_ZAB_mission_events.15
 	title = "mmetr_ZAB_mission_events.15.t"
 	desc = "mmetr_ZAB_mission_events.15.desc"
-	picture = NUSANTARA_THRONE_eventPicture
+	picture = MMETR_ZUNIST_eventPicture
 
 	is_triggered_only = yes
 	

@@ -410,13 +410,11 @@ country_event = {
 		name = "mmetr_FUN_mission_events.11.a"
 		
 		599 = {
-			if = {
-				limit = {
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				cede_province = CTU		#Chi-Tu
-				add_core = CTU
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
 			}
+			cede_province = CTU		#Chi-Tu
+			add_core = CTU
 		}
 		
 		vassalize = CTU
@@ -512,7 +510,7 @@ country_event = {
 	option = {
 		name = "mmetr_FUN_mission_events.14.a"
 		
-		set_government_rank = 4
+		set_government_rank = 3
 		add_country_modifier = {
 			name = "me_fun_maharajadhiraja"
 			duration = -1
@@ -604,11 +602,23 @@ country_event = {
 		name = "mmetr_FUN_mission_events.18.a"
 		
 		change_primary_culture = sino_khmer_new		#New in mod MMETR
+		
+		custom_tooltip = mmetr_FUN_mission_events.18.tt
+		
+		custom_tooltip = has_happened_tt		#Generic tooltip for "Has happened" text
+		tooltip = {
+			set_government_rank = 3
+		}
 	}
 	
 	option = {
 		name = "mmetr_FUN_mission_events.18.b"
 		
 		add_prestige = 5
+		
+		custom_tooltip = has_happened_tt
+		tooltip = {
+			set_government_rank = 3
+		}
 	}
 }

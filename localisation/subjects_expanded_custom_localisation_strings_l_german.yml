@@ -14,8 +14,8 @@
 
  string_demote_to_vassal_stab_hit: "Euch §R-1§! Stabilität kosten und "
 
- string_created_ad_name_east_africa_1: "@DA1 §Y[DA1.GetName]§!"
- string_created_ad_name_east_africa_2: "@DA2 §Y[DA2.GetName]§!"
+ string_created_ad_name_east_africa_1: "@DB1 §Y[DB1.GetName]§!"
+ string_created_ad_name_east_africa_2: "@DB2 §Y[DB2.GetName]§!"
  string_created_ad_name_east_africa_3: "@DA3 §Y[DA3.GetName]§!"
  string_created_ad_name_east_africa_4: "@DA4 §Y[DA4.GetName]§!"
  string_created_ad_name_east_africa_5: "@DA5 §Y[DA5.GetName]§!"

@@ -353,7 +353,7 @@ religion_decisions = {
 	convert_to_arevakhach = {
 		major = yes
 		potential = {
-			NOT = { religion = arevakhach }
+			NOT = { religion = armenian_religion }
 			NOT = { religion = secularism }
 			NOT = { government = theocracy }
 			primary_culture = armenian
@@ -363,7 +363,7 @@ religion_decisions = {
 			is_at_war = no
 		}
 		effect = {
-			change_religion = arevakhach
+			change_religion = armenian_religion
 			add_stability = -4
 			add_country_modifier = {
 				name = "recent_conversion"

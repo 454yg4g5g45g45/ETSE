@@ -7,29 +7,6 @@
 ###########################################
 # Just random test modifier
 ###########################################
-test_modifier = {
-	potential = {
-		always = yes
-	}
-
-	trigger = {
-		owner = {
-			stability = 0
-		}
-	}
-
-	local_build_cost = 0.05	
-	
-	#Province scope
-	on_activation = {
-	
-	}
-	
-	on_deactivation = {
-	
-	}
-	
-}
 
 
 sol_rome_axis_mundi = {
@@ -42,7 +19,6 @@ sol_rome_axis_mundi = {
 
     # 2. When is it active?
     trigger = {
-        religion = sol_invictus # The province must be converted
         owner = {
             religion = sol_invictus
             118 = {is_capital = yes}

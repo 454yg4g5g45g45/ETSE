@@ -3,14 +3,25 @@ harmonized_confucianism = {
 	harmonization_speed = 0.1
 	religion = yes
 }
-
 harmonized_daoism = {
 	harmonization_speed = 0.1
 	religion = yes
 }
+harmonized_sasanea_yang = {
+	build_cost = -0.1
+	religion = yes
+}
+harmonized_natic = {
+	tolerance_heretic = 1
+	religion = yes
+}
+harmonized_moism = {
+	tolerance_heretic = 1
+	religion = yes
+}
 
 
-#Religious Mechanics Modifiers
+#Religious Mechanics / Events Modifiers
 
 #Muism
 hwanin_kut_modifier = {
@@ -31,7 +42,7 @@ yeongdeung_kut_modifier = {
 	religion = yes
 }
 samsin_halmeoni_kut_modifier = {
-	heir_chance = 0.7
+	heir_chance = 0.8
 	monarch_lifespan = 0.1
 	religion = yes
 }
@@ -143,21 +154,168 @@ waaqism_arawelo_mod = {
 	religion = yes
 }
 
-#Mithraic
-mithraic_parthian_nobles_own_mod = {
-	religious_unity = 0.1
+#Sasanea Yang
+sacrificed_to_yang_mod = {
+	stability_cost_modifier = -0.1
+	global_unrest = -1
+}
+feast_rice_yang_mod = {
+	production_efficiency = 0.15
+	advisor_pool = 1
+}
+ritual_laeng_neak_ta_mod = {
+	war_exhaustion = -0.1
+	global_monthly_devastation = -0.05
+	hostile_attrition = 1
+}
+
+#Zurvaniyyan
+ahuramazda_yazata_aspect_modifier = {
+	improve_relation_modifier = 0.2
+}
+anahita_yazata_aspect_modifier = {
+	heir_chance = 0.9
+}
+atar_yazata_aspect_modifier = {
+	global_missionary_strength = 0.02
+}
+rashnu_yazata_aspect_modifier = {
+	tolerance_own = 1
+}
+sraosha_yazata_aspect_modifier = {
+	advisor_cost = -0.1
+}
+verethragna_yazata_aspect_modifier = {
+	army_tradition_from_battle = 0.25
+}
+
+#Hunnic Religion
+hunnic_promoted_local_religion = {
+	local_tolerance_of_heretics = 1
+	local_tolerance_of_heathens = 1
 	religion = yes
 }
-mithraic_parthian_nobles_heretic_mod = {
-	religious_unity = -0.1
+hunnic_zun_button_modifier = {
+	legitimacy = 1
+	horde_unity = 0.5
+}
+hunnic_buddhist_button_modifier = {
+	build_cost = -0.1
+}
+hunnic_hindu_button_modifier = {
+	adm_advisor_cost = -0.1
+}
+hunnic_fire_temple_button_modifier = {
+	stability_cost_modifier = -0.1
+}
+hunnic_jain_button_modifier = {
+	improve_relation_modifier = 0.1
+}
+hunnic_tengri_button_modifier = {
+	global_regiment_cost = -0.1
+}
+hunnic_tabiti_button_modifier = {
+	cavalry_power = 0.05
+}
+hunnic_nestorian_button_modifier = {
+	diplomats = 1
+}
+hunnic_muslim_merchant_button_modifier = {
+	dip_advisor_cost = -0.1
+}
+hunnic_eastern_schools_button_modifier = {
+	idea_cost = -0.05
+}
+
+#Canaanite
+bel_cult_aspect_modifier = {
+	trade_goods_size_modifier = 0.15
+	global_tax_modifier = 0.1
 	religion = yes
 }
-mithraic_roman_generals_own_mod = {
-	religious_unity = 0.05
-	general_cost = -0.1
+yarhibol_cult_aspect_modifier = {
+	stability_cost_modifier = -0.1
+	tolerance_own = 1
 	religion = yes
 }
-mithraic_roman_generals_heathen_mod = {
-	religious_unity = -0.05
+aglibol_and_malakbel_cult_aspect_modifier = {
+	defensiveness = 0.1
+	improve_relation_modifier = 0.1
 	religion = yes
 }
+baal_shamin_cult_aspect_modifier = {
+	development_cost = -0.1
+	production_efficiency = 0.1
+	religion = yes
+}
+astarte_cult_aspect_modifier = {
+	land_morale = 0.1
+	religion = yes
+}
+shadrafa_cult_aspect_modifier = {
+	manpower_recovery_speed = 0.1
+	global_monthly_devastation = -0.1
+	religion = yes
+}
+maan_and_saad_cult_aspect_modifier = {
+	cavalry_cost = -0.1
+	mercenary_discipline = 0.05
+	religion = yes
+}
+maan_and_saad_cult_aspect_modifier = {
+	cavalry_cost = -0.1
+	mercenary_discipline = 0.05
+	religion = yes
+}
+ginnaye_of_the_clan_cult_aspect_modifier = {
+	hostile_attrition = 1
+	heir_chance = 0.8
+	religion = yes
+}
+nabu_cult_aspect_modifier = {
+	adm_advisor_cost = -0.1
+	dip_advisor_cost = -0.1
+	idea_cost = -0.05
+	religion = yes
+}
+shamash_cult_aspect_modifier = {
+	global_unrest = -1
+	harsh_treatment_cost = -0.2
+	religion = yes
+}
+nergal_cult_aspect_modifier = {
+	morale_damage_received = -0.1
+	land_attrition = -0.2
+	religion = yes
+}
+shai_al_qaum_cult_aspect_modifier = {
+	caravan_power = 0.1
+	trade_efficiency = 0.1
+	religion = yes
+}
+nebo_cult_aspect_modifier = {
+	prestige_decay = -0.01
+	build_cost = -0.1
+	religion = yes
+}
+elqonera_cult_aspect_modifier = {
+	galley_cost = -0.15
+	naval_tradition_from_trade = 0.5
+	religion = yes
+}
+nike_cult_aspect = {
+	army_tradition_decay = -0.01
+	prestige_from_land = 0.5
+	religion = yes
+}
+
+
+
+
+
+
+
+
+
+
+

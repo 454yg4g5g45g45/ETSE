@@ -3,7 +3,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -37,7 +36,6 @@ country_decisions = {
 		effect = {
 			add_prestige = 25
 			change_tag = WLS
-			on_change_tag_effect = yes
 			british_isles_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -61,7 +59,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -69,6 +66,9 @@ country_decisions = {
 			NOT = { exists = KEN }
 			NOT = { tag = GBR }
 			NOT = { tag = ENG }
+			NOT = { tag = EN0 }	#added Anglo-Saxon England tag
+			NOT = { tag = DM1 }	#added Dual Monarchy English
+			NOT = { tag = DM2 }	#added Dual Monarchy French
 			NOT = { tag = SCO }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -86,7 +86,6 @@ country_decisions = {
 		effect = {
 			add_prestige = 10
 			change_tag = KEN
-			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { primary_culture = anglo_saxon }
@@ -110,7 +109,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -118,6 +116,9 @@ country_decisions = {
 			NOT = { exists = ESX }
 			NOT = { tag = GBR }
 			NOT = { tag = ENG }
+			NOT = { tag = EN0 }	#added Anglo-Saxon England tag
+			NOT = { tag = DM1 }	#added Dual Monarchy English
+			NOT = { tag = DM2 }	#added Dual Monarchy French
 			NOT = { tag = SCO }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -138,7 +139,6 @@ country_decisions = {
 		effect = {
 			add_prestige = 10
 			change_tag = ESX
-			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { primary_culture = anglo_saxon }
@@ -162,7 +162,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -170,6 +169,9 @@ country_decisions = {
 			NOT = { exists = MRC }
 			NOT = { tag = GBR }
 			NOT = { tag = ENG }
+			NOT = { tag = EN0 }	#added Anglo-Saxon England tag
+			NOT = { tag = DM1 }	#added Dual Monarchy English
+			NOT = { tag = DM2 }	#added Dual Monarchy French
 			NOT = { tag = SCO }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -188,7 +190,6 @@ country_decisions = {
 		effect = {
 			add_prestige = 10
 			change_tag = MRC
-			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { primary_culture = anglo_saxon }
@@ -212,7 +213,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -220,6 +220,9 @@ country_decisions = {
 			NOT = { exists = WSX }
 			NOT = { tag = GBR }
 			NOT = { tag = ENG }
+			NOT = { tag = EN0 }	#added Anglo-Saxon England tag
+			NOT = { tag = DM1 }	#added Dual Monarchy English
+			NOT = { tag = DM2 }	#added Dual Monarchy French
 			NOT = { tag = SCO }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -237,7 +240,6 @@ country_decisions = {
 		effect = {
 			add_prestige = 10
 			change_tag = WSX
-			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { primary_culture = anglo_saxon }
@@ -261,7 +263,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -269,6 +270,9 @@ country_decisions = {
 			NOT = { exists = NOL }
 			NOT = { tag = GBR }
 			NOT = { tag = ENG }
+			NOT = { tag = EN0 }	#added Anglo-Saxon England tag
+			NOT = { tag = DM1 }	#added Dual Monarchy English
+			NOT = { tag = DM2 }	#added Dual Monarchy French
 			NOT = { tag = SCO }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -298,7 +302,6 @@ country_decisions = {
 		effect = {
 			add_prestige = 10
 			change_tag = NOL
-			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { primary_culture = anglo_saxon }
@@ -322,7 +325,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -330,6 +332,9 @@ country_decisions = {
 			NOT = { exists = EAN }
 			NOT = { tag = GBR }
 			NOT = { tag = ENG }
+			NOT = { tag = EN0 }	#added Anglo-Saxon England tag
+			NOT = { tag = DM1 }	#added Dual Monarchy English
+			NOT = { tag = DM2 }	#added Dual Monarchy French
 			NOT = { tag = SCO }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -345,7 +350,6 @@ country_decisions = {
 		effect = {
 			add_prestige = 10
 			change_tag = EAN
-			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { primary_culture = anglo_saxon }
@@ -369,7 +373,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -377,6 +380,9 @@ country_decisions = {
 			NOT = { exists = LIN }
 			NOT = { tag = GBR }
 			NOT = { tag = ENG }
+			NOT = { tag = EN0 }	#added Anglo-Saxon England tag
+			NOT = { tag = DM1 }	#added Dual Monarchy English
+			NOT = { tag = DM2 }	#added Dual Monarchy French
 			NOT = { tag = SCO }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -394,7 +400,6 @@ country_decisions = {
 		effect = {
 			add_prestige = 10
 			change_tag = LIN
-			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { primary_culture = anglo_saxon }
@@ -418,7 +423,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -426,6 +430,9 @@ country_decisions = {
 			NOT = { exists = DEI }
 			NOT = { tag = GBR }
 			NOT = { tag = ENG }
+			NOT = { tag = EN0 }	#added Anglo-Saxon England tag
+			NOT = { tag = DM1 }	#added Dual Monarchy English
+			NOT = { tag = DM2 }	#added Dual Monarchy French
 			NOT = { tag = SCO }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -447,7 +454,6 @@ country_decisions = {
 		effect = {
 			add_prestige = 10
 			change_tag = DEI
-			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { primary_culture = anglo_saxon }
@@ -471,7 +477,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -479,6 +484,9 @@ country_decisions = {
 			NOT = { exists = BRN }
 			NOT = { tag = GBR }
 			NOT = { tag = ENG }
+			NOT = { tag = EN0 }	#added Anglo-Saxon England tag
+			NOT = { tag = DM1 }	#added Dual Monarchy English
+			NOT = { tag = DM2 }	#added Dual Monarchy French
 			NOT = { tag = SCO }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -500,7 +508,6 @@ country_decisions = {
 		effect = {
 			add_prestige = 10
 			change_tag = BRN
-			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { primary_culture = anglo_saxon }

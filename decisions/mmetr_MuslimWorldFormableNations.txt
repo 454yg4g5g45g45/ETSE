@@ -68,9 +68,9 @@ country_decisions = {
 			change_tag = IT0
 			if = {
 				limit = {
-					NOT = { government_rank = 8 }
+					NOT = { government_rank = 2 }
 				}
-				set_government_rank = 8
+				set_government_rank = 2
 			}
 			hidden_effect = {
 				set_country_flag = sultanate_of_italy_formed_flag
@@ -117,7 +117,7 @@ country_decisions = {
 				dynasty = "Sa'ud"		#for any of the Saudi dynasty
 				AND = {			#Historical
 					tag = NAJ
-					started_in = 3479.1.1
+					started_in = 3478.1.1
 					dynasty = "Sa'ud"
 				}
 			}
@@ -200,9 +200,9 @@ country_decisions = {
 			change_tag = SAU	#Saudi Arabia
 			if = {
 				limit = {
-					NOT = { government_rank = 8 }
+					NOT = { government_rank = 2 }
 				}
-				set_government_rank = 8
+				set_government_rank = 2
 			}
 			hidden_effect = {
 				set_country_flag = saudi_arabia_formed_flag
@@ -233,7 +233,7 @@ country_decisions = {
 	almohad_caliphate_formable_nation = {
 		major = yes
 		potential = {
-			dynasty = "Almohad"		#for any of the Saudi dynasty
+			dynasty = "Almohad"		#for any of the Almohad dynasty
 			OR = {
 				tag = MOR
 				was_tag = MOR
@@ -267,7 +267,7 @@ country_decisions = {
 			religion_group = muslim
 			OR = {
 				has_reform = caliphate_reform
-				government_rank = 10
+				government_rank = 3
 				is_defender_of_faith = yes
 			}
 		}
@@ -276,9 +276,9 @@ country_decisions = {
 			custom_tooltip = almohad_caliphate_formable_nation.tt
 			if = {
 				limit = {
-					NOT = { government_rank = 10 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 4
+				set_government_rank = 3
 			}
 			if = {
 				NOT = {

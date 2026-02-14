@@ -1,0 +1,198 @@
+namespace = mmetr_MLB_mission_events
+
+# New Ruler in India
+country_event = {
+	id = mmetr_MLB_mission_events.1
+	title = "mmetr_MLB_mission_events.1.t"
+	desc = "mmetr_MLB_mission_events.1.desc"
+	picture = NUSANTARA_QUEEN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_MLB_mission_events.1.a"
+		
+		add_country_modifier = {
+			name = "me_mlb_ningthou_of_vanga"
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = {
+					government = monarchy
+				}
+			}
+			country_event = {
+				id = mmetr_MLB_mission_events.6
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_MLB_mission_events.1.b"
+		
+		add_country_modifier = {
+			name = "me_mlb_raja_of_vanga"
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = {
+					government = monarchy
+				}
+			}
+			country_event = {
+				id = mmetr_MLB_mission_events.6
+			}
+		}
+	}
+	
+}
+
+# The Meitei Constitution
+country_event = {
+	id = mmetr_MLB_mission_events.2
+	title = "mmetr_MLB_mission_events.2.t"
+	desc = "mmetr_MLB_mission_events.2.desc"
+	picture = NUSANTARA_QUEEN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_MLB_mission_events.2.a"
+		
+		add_country_modifier = {
+			name = "me_mlb_loiyumpa_silyel"
+			duration = -1
+		}
+	}
+	
+}
+
+# Kangla Fort
+country_event = {
+	id = mmetr_MLB_mission_events.3
+	title = "mmetr_MLB_mission_events.3.t"
+	desc = "mmetr_MLB_mission_events.3.desc"
+	picture = FORT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_MLB_mission_events.3.a"
+		
+		add_prestige = 10
+		2041 = {
+			add_province_modifier = {
+				name = "me_mlb_kangla_palace"
+				duration = -1
+			}
+		}
+	}
+	
+}
+
+# Pheiya, the Sacred Stone
+country_event = {
+	id = mmetr_MLB_mission_events.4
+	title = "mmetr_MLB_mission_events.4.t"
+	desc = "mmetr_MLB_mission_events.4.desc"
+	picture = NUSANTARA_QUEEN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_MLB_mission_events.4.a"
+		
+		add_manpower = 2
+		add_country_modifier = {
+			name = "me_mlb_the_sacred_stone_pheiya"
+			duration = 10950
+		}
+	}
+	
+}
+
+# Reform of Kingship - Mandala
+country_event = {
+	id = mmetr_MLB_mission_events.5
+	title = "mmetr_MLB_mission_events.5.t"
+	desc = "mmetr_MLB_mission_events.5.desc"
+	picture = MMETR_KHMER_KING_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_MLB_mission_events.5.a"
+		
+		if = {
+			limit = {
+				NOT = {
+					government = monarchy
+				}
+			}
+			change_government = monarchy
+		}
+		add_government_reform = mandala_reform
+	}
+	
+	option = {
+		name = "mmetr_MLB_mission_events.5.b"
+		
+		add_prestige = 10
+	}
+	
+}
+
+# Reform of Kingship - India
+country_event = {
+	id = mmetr_MLB_mission_events.6
+	title = "mmetr_MLB_mission_events.6.t"
+	desc = "mmetr_MLB_mission_events.6.desc"
+	picture = NUSANTARA_QUEEN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_MLB_mission_events.6.a"
+		
+		if = {
+			limit = {
+				NOT = {
+					government = monarchy
+				}
+			}
+			change_government = monarchy
+		}
+		add_government_reform = autocracy_reform
+	}
+	
+	option = {
+		name = "mmetr_MLB_mission_events.6.b"
+		
+		add_prestige = 10
+	}
+	
+}
+
+# Ancestral Kingdom of Kangleipak
+country_event = {
+	id = mmetr_MLB_mission_events.7
+	title = "mmetr_MLB_mission_events.7.t"
+	desc = "mmetr_MLB_mission_events.7.desc"
+	picture = NUSANTARA_QUEEN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_MLB_mission_events.7.a"
+		
+	}
+	
+	option = {
+		name = "mmetr_MLB_mission_events.7.b"
+		
+		override_country_name = KANGLEIPAK_NAME
+	}
+	
+}

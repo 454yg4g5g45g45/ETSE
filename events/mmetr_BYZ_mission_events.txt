@@ -616,10 +616,11 @@ country_event = {
 	option = {
 		name = "mmetr_BYZ_mission_events.18.a"
 		
-		add_ruler_modifier = {
-			name = "me_byz2_iconoclasm"
-			duration = -1
-		}
+		change_religion = iconoclast		#MMETR new religion
+		#add_ruler_modifier = {
+		#	name = "me_byz2_iconoclasm"
+		#	duration = -1
+		#}
 	}
 	
 	option = {

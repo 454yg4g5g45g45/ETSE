@@ -1443,6 +1443,101 @@ christian = {
 		date = 3475.1.1
 	}
 	
+	#New added in MMETR
+	montanism = {
+		color = { 255 86 89 }
+		icon = 38
+		allowed_conversion = {
+			chalcedonism
+		}
+		country = {
+			tolerance_own = 2
+			missionaries = 1
+			female_advisor_chance = 0.25
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			missionaries = 1
+			female_advisor_chance = 0.2
+		}
+		province = {
+			local_missionary_strength = 0.01
+		}
+
+		on_convert = {
+			change_religion = montanism
+			add_prestige = -30
+		}
+
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+
+		date = 135.1.1	#Montanus, Maximilia and Prisca begin prophesying
+	}
+	
+	paulician = {
+		color = { 127 0 76 }
+		icon = 38
+		country = {
+            stability_cost_modifier = -0.2
+			tolerance_heathen = 2
+		}
+		country_as_secondary = {
+			global_regiment_cost = -0.1
+			merc_maintenance_modifier = -0.1
+			cb_on_religious_enemies = yes		#can launch Crusades, as they did historically from their state in Tephrike
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY }
+		
+		has_patriarchs = yes        # Uses patriarch authority
+	}
+	
+	donatist = {
+		color = { 69 130 183 }
+		icon = 38
+		country = {
+            tolerance_own = 2
+            defensiveness = 0.1
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+			defensiveness = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY }
+		
+		has_patriarchs = yes        # Uses patriarch authority
+	}
+	
+	iconoclast = {
+		color = { 117 0 52 }
+		icon = 38
+		country = {
+            tolerance_own = 4
+            global_tax_modifier = 0.1
+			tolerance_heretic = -2
+		}
+		country_as_secondary = {
+			raze_power_gain = 0.2
+            global_missionary_strength = 0.01
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY }
+		
+		has_patriarchs = yes        # Uses patriarch authority
+        misguided_heretic = yes        # Other christians hate them less
+	}
+	
+	
 	harmonized_modifier = harmonized_christian
 	
 	crusade_name = CRUSADE
@@ -2383,6 +2478,139 @@ buddhic = {
 		uses_karma = yes
 	}
 	
+	#New added MMETR Early Buddhist Schools
+	
+	sarvastivada = {
+		color = { 204 97 84 }
+		icon = 44		#unused religious icon in ET, Dharmachakra to represent the school's theory of everything
+		allowed_conversion = {
+			vajrayana
+			buddhism #Theravada
+			pudgalavada
+			dharmaguptaka
+			mahasamghika
+		}
+		country = {
+			tolerance_own = 1
+			build_cost = -0.1
+		}
+		country_as_secondary = {
+			build_cost = -0.1
+			adm_advisor_cost = -0.1
+		}
+		on_convert = {
+			add_prestige = -50
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		misguided_heretic = yes		# Other in religion group dislike them less
+		
+		heretic = { KASYAKIYA SAUTRANTIKA VAIBHASIKA }
+		
+		uses_karma = yes
+	}
+	pudgalavada = {
+		color = { 240 141 220 }
+		icon = 44
+		allowed_conversion = {
+			buddhism #Theravada
+			sarvastivada
+			dharmaguptaka
+			mahasamghika
+		}
+		country = {
+			tolerance_own = 2
+			land_morale = 0.05
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			global_unrest = -1
+		}
+		on_convert = {
+			add_prestige = -50
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		misguided_heretic = yes		# Other in religion group dislike them less
+		
+		heretic = { VATSIPUTRIYA SAMMITIYA }
+		
+		uses_karma = yes
+	}
+	dharmaguptaka = {
+		color = { 150 88 121 }
+		icon = 44
+		allowed_conversion = {
+			buddhism #Theravada
+			pudgalavada
+			sarvastivada
+			mahasamghika
+		}
+		country = {
+			tolerance_heretic = 1
+			global_heathen_missionary_strength = 0.01
+		}
+		country_as_secondary = {
+			global_heathen_missionary_strength = 0.01
+			diplomats = 1
+		}
+		on_convert = {
+			add_prestige = -50
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		misguided_heretic = yes		# Other in religion group dislike them less
+		
+		heretic = { MAHISASAKA }
+		
+		uses_karma = yes
+	}
+	mahasamghika = {
+		color = { 224 24 51 }
+		icon = 71
+		allowed_conversion = {
+			buddhism #Theravada
+			mahayana
+			sarvastivada
+			pudgalavada
+			dharmaguptaka
+		}
+		country = {
+			tolerance_heretic = 2
+			advisor_pool = 1
+		}
+		country_as_secondary = {
+			tolerance_heathen = 1
+			global_tax_modifier = 0.1
+		}
+		on_convert = {
+			add_prestige = -50
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		misguided_heretic = yes		# Other in religion group dislike them less
+		
+		heretic = { GOKULIKA CAITIKA }
+		
+		uses_karma = yes
+	}
+	
 	harmonized_modifier = harmonized_mahayana
 
 	crusade_name = CRUSADE
@@ -2393,6 +2621,202 @@ dharmic = {
 
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
+
+	#New MMETR Jain schools
+	religious_schools = {
+		svetambara_school = {
+			potential_invite_scholar = {
+				religion = jainism
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				religion = jainism
+				OR = {
+					AND = {
+						reverse_has_opinion = { who = FROM value = 150 }
+						OR = {
+							alliance_with = FROM
+							is_subject_of = FROM
+							overlord_of = FROM
+						}
+					}
+					AND = {
+						karma = 10	#must have positive karma
+						any_owned_province = {
+							religion = jainism
+							is_core = THIS
+							OR = {
+								region = bengal_region
+								region = hindusthan_region
+								area = marwar_area
+								area = mewar_area
+								area = malwa_area
+								area = jangladesh_area
+								area = jaipur_area
+								area = ahmednagar_area
+								area = saurashtra_area
+							}
+						}
+					}
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = svetambara_scholar_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = svetambara_scholar_modifier
+
+			picture = "GFX_icon_jainism_school_svetambara"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			diplomatic_reputation = 1
+			female_advisor_chance = 0.25
+		}
+		digambara_school = {
+			potential_invite_scholar = {
+				religion = jainism
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				religion = jainism
+				OR = {
+					AND = {
+						reverse_has_opinion = { who = FROM value = 150 }
+						OR = {
+							alliance_with = FROM
+							is_subject_of = FROM
+							overlord_of = FROM
+						}
+					}
+					AND = {
+						karma = 10	#must have positive karma
+						any_owned_province = {
+							religion = jainism
+							is_core = THIS
+							OR = {
+								area = desh_area
+								area = maidan_area
+								area = ahmednagar_area
+								area = saurashtra_area
+								area = tapti_area
+								area = patan_area
+								area = ahmedabad_area
+								area = khandesh_area
+								area = sindh_area
+								area = northern_sindh_area
+							}
+						}
+					}
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = digambara_scholar_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = digambara_scholar_modifier
+
+			picture = "GFX_icon_jainism_school_digambara"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			ae_impact = -0.1
+		}
+		yapaniya_school = {
+			potential_invite_scholar = {
+				religion = jainism
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				religion = jainism
+				OR = {
+					AND = {
+						reverse_has_opinion = { who = FROM value = 150 }
+						OR = {
+							alliance_with = FROM
+							is_subject_of = FROM
+							overlord_of = FROM
+						}
+					}
+					AND = {
+						karma = 10	#must have positive karma
+						any_owned_province = {
+							religion = jainism
+							is_core = THIS
+							OR = {
+								area = mysore_area
+								area = raichur_doab_area
+								area = kanara_area
+								area = rayalaseema_area
+								area = malabar_area
+								region = coromandel_region
+							}
+						}
+					}
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				if = {
+					limit = {
+						NOT = {
+							reverse_has_opinion = { who = FROM value = 150 }
+							OR = {
+								alliance_with = FROM
+								is_subject_of = FROM
+								overlord_of = FROM
+							}
+						}
+					}
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = yapaniya_scholar_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = yapaniya_scholar_modifier
+
+			picture = "GFX_icon_jainism_school_yapaniya"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			tolerance_heathen = 2
+			female_advisor_chance = 0.25
+		}
+	}
 
 	hinduism = {
 		color = { 0 204 204 }
@@ -3309,10 +3733,32 @@ eastern = {
 	}
 
 	
+	satsana_phi = {
+		color = { 180 130 50 }
+		icon = 54
+		province = {
+			local_missionary_strength = 0.01
+		}
+		country = {
+			tolerance_heretic = 2
+			tolerance_heathen = 1
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+			loot_amount = 0.25
+		}
+		
+		ancestors = yes		#MMETR added, from Totemist mechanic
+		
+		harmonized_modifier = harmonized_satsana_phi
+		
+		heretic = { SNAKE_CLAN }
+	}
+	
 	#New added in MMETR
 	daoism = {
 		color = { 196 146 36 }
-		icon = 127				#since left is blank for irreligious, is 60 out of 61 as of adding this
+		icon = 33				#since left is blank for irreligious, is 60 out of 61 as of adding this
 		allowed_conversion = {
 			confucianism
 		}
@@ -3327,17 +3773,61 @@ eastern = {
 		
 		on_convert = {		#new added in MMETR
 			change_religion = daoism
-			add_stability = -3
+			add_stability = -1
 		}
 		
-		heretic = { TIANSHIDAO WUDOUMIDAO ZHENGYIDAO  }
+		heretic = { TIANSHIDAO WUDOUMIDAO ZHENGYIDAO }
+		
+		misguided_heretic = yes		# Other in religion group dislike them less
 		
 		uses_harmony = yes
 		
 		harmonized_modifier = harmonized_daoism		#added MMETR, since can now be harmonized by confucianism
 	}
 	
-	crusade_name = CRUSADE
+	sasanea_yang = {
+		color = { 111 153 60 }
+		icon = 73
+		province = {
+			local_missionary_strength = 0.01
+		}
+		country = {
+			tolerance_own = 1
+			defensiveness = 0.1
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+			defensiveness = 0.1
+		}
+		
+		ancestors = yes
+		
+		harmonized_modifier = harmonized_sasanea_yang
+		
+		heretic = { SNAKE_CLAN }
+	}
+	
+	natic = {
+		color = { 107 93 99 }
+		icon = 74
+		province = {
+			local_missionary_strength = 0.01
+		}
+		country = {
+			tolerance_own = 1
+			tolerance_heathen = 2
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+			tolerance_heathen = 1
+		}
+		
+		ancestors = yes
+		
+		harmonized_modifier = harmonized_natic
+		
+		heretic = { SNAKE_CLAN }
+	}
 }
 
 pagan = {
@@ -3378,6 +3868,43 @@ pagan = {
 			loot_amount = 0.25
 		}
 		heretic = { GOAT_SKULL }
+	}
+	
+	harmonized_modifier = harmonized_pagan
+	
+	crusade_name = CRUSADE
+	
+	shamanist = {
+		color = { 100 60 60 }
+		icon = 18
+		country = {
+			tolerance_heathen = 2
+			diplomatic_reputation = 1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			loot_amount = 0.25
+		}
+		heretic = { GOAT_SKULL }
+	}
+	
+	dreamtime = {
+		icon = 18
+		color = { 197 133 43 }
+		country = {
+			shock_damage_received = -0.05
+			diplomatic_reputation = 1
+		}
+		country_as_secondary = {
+			shock_damage = 0.1
+			hostile_attrition = 2
+		}
+		
+		fetishist_cult = yes
+		heretic = { WAGYLKOOP MOORAMOORA GINGARRURNDE }
 	}
 	
 	harmonized_modifier = harmonized_pagan

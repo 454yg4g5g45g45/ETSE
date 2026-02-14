@@ -60,6 +60,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//missions//middle_east//mission_muslim_prayer.dds"
 	}
 	spriteType = {
+		name = "mission_nestorian_cross"
+		texturefile = "gfx//interface//missions//middle_east//mission_nestorian_cross.dds"
+	}
+	spriteType = {
 		name = "mission_ottoman_army_1830s"
 		texturefile = "gfx//interface//missions//middle_east//mission_ottoman_army_1830s.dds"
 	}
@@ -167,6 +171,10 @@ spriteTypes = {
 	spriteType = {
 		name = "mission_chinese_harvest"
 		texturefile = "gfx//interface//missions//east_asian//mission_chinese_harvest.dds"
+	}
+	spriteType = {
+		name = "mission_chinese_imperial_seal"
+		texturefile = "gfx//interface//missions//east_asian//mission_chinese_imperial_seal.dds"
 	}
 	spriteType = {
 		name = "mission_chinese_land_survey"
@@ -451,8 +459,8 @@ spriteTypes = {
 		texturefile = "gfx//interface//missions//steppe//mission_cuman_kipchak_confederacy.dds"
 	}
 	spriteType = {
-		name = "mission_genghis_khan"
-		texturefile = "gfx//interface//missions//steppe//mission_genghis_khan.dds"
+		name = "mission_genghis_khan_2"		#renamed since vanilla added its own with same name
+		texturefile = "gfx//interface//missions//steppe//mission_genghis_khan_2.dds"
 	}
 	spriteType = {
 		name = "mission_gokturks_gobi"

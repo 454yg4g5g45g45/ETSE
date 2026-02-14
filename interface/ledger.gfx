@@ -92,7 +92,7 @@ spriteTypes = {
 		name = "GFX_religion_icon_strip"
 		texturefile = "gfx\\interface\\icon_religion_small.dds"
 		transparencecheck = yes
-		noofFrames = 135
+		noOfFrames = 81		#New MMETR, original ET is 63 - latest is Iconoclast
 	}
 	spriteType = {
 		name = "GFX_ledger_bg"

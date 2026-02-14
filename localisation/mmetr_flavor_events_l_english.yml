@@ -5,6 +5,15 @@
  mmetrFlavor_JAP.1.desc: "Our prestige has allowed us to petition the Imperial Court to grant us a court rank. Although the Emperor himself does not possess much in the way of political or martial power, the renown carried by possessing a court rank granted to us by the Emperor himself continues to be a symbol of eminence and honor, separating us from all of the other lot who wish to seek glory in this period of uncertainty and chaos."
  mmetrFlavor_JAP.1.a: "Send our thanks to the Emperor."
  
+ mmetrFlavor_China.1.t: "Tensions Between [Root.GetName] Princes"
+ mmetrFlavor_China.1.desc: "Although our [Root.Monarch.GetTitle] had officially declared Li Jiancheng as the undisputed heir to the throne, a fierce rivalry has emerged between Jiancheng and his younger brother Li Shimin. Li Shimin himself was instrumental in defeating many Tang rivals, overshadowing his brother in skill and cunning, even being the one to urge his father Li Yuan to first rebel against the Sui dynasty.\n\nThese two princes' quarrels have escalated as of late, dividing the court into two factions which scheme and plot to remove officials from the other from power. Accusations of corruption and incapability have now twisted into accusations of attempting to poison royalty and plotting treason against the [Root.Monarch.GetTitle] [Root.Monarch.GetHerHim]self. Those who are less partial in this succession crisis fear that before long, one brother may take more drastic - and deadly - action against their own kin..."
+ mmetrFlavor_China.1.a: "This news is troubling..."
+ mmetrFlavor_China.2.t: "Incident at Xuanwu Gate"
+ mmetrFlavor_China.2.desc: "Shocking news! The intense rivalry between the princes Jiancheng and Shimin has escalated into the shedding of royal blood!\n\nWhen Li Jiancheng and his brother Prince Li Yuanji arrived at the Xuanwu Gate of Chang'an to dispel a rumor spread by Li Shimin, the two princes were ambushed by forces led by Li Yuanji, and both Prince Jiancheng and Prince Yuanji were killed! Distraught by this event and the murder of brothers by brother, the [Root.Monarch.GetTitle] [Root.Monarch.Dynasty.GetName] [Root.Monarch.GetName] is now consulting his officials for advice on how to respond to this difficult situation, though many of these officials are themselves supporters of Li Shimin, and those who plotted with Li Shimin would also willingly join the court as loyal advisors should he be exonerated..."
+ mmetrFlavor_China.2.a: "Pardon Li Shimin to keep the peace."
+ mmetrFlavor_China.2.b: "Declare Li Shimin a traitor!"
+ mmetrFlavor_China.2.c: "Abdicate to the ambitious prince."
+ 
  mmetrFlavor_War.1.t: "Sack of Basra"
  mmetrFlavor_War.1.desc: "The Qarmatians have broken through the walls and gates of Basra - while the Basrans have fought bravely, many have fallen to the Qarmatians. The Qarmatians pillaged the city for days, the defenders of the city have been massacred without mercy, and many of the city's inhabitants have been taken by the Qarmatians as slaves."
  mmetrFlavor_War.1.a: "How horrible!"
@@ -12,6 +21,14 @@
  mmetrFlavor_War.2.t: "Sack of Basra"
  mmetrFlavor_War.2.desc: "After a long siege, we Qarmati have broken through the walls of the opulent city of Basra. The Basrans were no match for our warriors, proving that we truly are backed by God Himself in our revolution against the false Caliphs. Our soldiers have pillaged the city for days, the defenders of the city have been massacred without mercy, and many of the city's inhabitants have been taken by the Qarmatians as slaves."
  mmetrFlavor_War.2.a: "The revolution is unstoppable!"
+ mmetrFlavor_War.3.t: "Province Defects to Palmyra!"
+ mmetrFlavor_War.3.desc: "The treacherous Palmyrans have coerced the province of [Root.GetName] to defect by using their claim as the Corrector Totius Orientis, the overall commander over the armies and governors of the eastern empire."
+ mmetrFlavor_War.3.a: "The traitors will pay!"
+ mmetrFlavor_War.3.tt: "Has happened: [Root.GetName] defects to the Palmyrans and is no longer owned by us"
+ mmetrFlavor_War.4.t: "Province Defects to Palmyra!"
+ mmetrFlavor_War.4.desc: "Because the territory of [From.GetName] is within the provinces claimed by our [Root.Monarch.GetTitle] as the Corrector Totius Orientis, the overall commander over the armies and governors of the eastern empire, the people of [From.GetName] have willingly and fully surrendered to our forces. As a result, we may directly annex the territory, its people, its supplies and its taxes before the war has even ended."
+ mmetrFlavor_War.4.a: "We welcome [From.GetName]"
+ mmetrFlavor_War.4.tt: "Has happened:"
  
  
  #Government-Related Events

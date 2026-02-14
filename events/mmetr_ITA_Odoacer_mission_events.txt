@@ -1,5 +1,24 @@
 namespace = mmetr_ITA_Odoacer_mission_events
 
+# Germanic Kingdom of Rome
+country_event = {
+	id = mmetr_ITA_Odoacer_mission_events.1
+	title = "mmetr_ITA_Odoacer_mission_events.1.t"
+	desc = "mmetr_ITA_Odoacer_mission_events.1.desc"
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "mmetr_ITA_Odoacer_mission_events.1.a"
+		
+		change_tag = RO1
+		set_government_rank = 3
+		add_prestige = 30
+	}
+}
 
 # Question of the State Religion
 country_event = {

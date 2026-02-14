@@ -128,3 +128,103 @@ province_event = {
 		}
 	}
 }
+
+# Province Defects to Palmyra - Rome POV
+province_event = {
+	id = mmetrFlavor_War.3
+	title = "mmetrFlavor_War.3.t"
+	desc = "mmetrFlavor_War.3.desc"
+	picture = SIEGE_eventPicture
+	
+	trigger = {
+		controller = {
+			is_in_war = {
+				casus_belli = cb_claim_eastern_provinces
+				defenders = ROM
+			}
+		}
+		owner = {
+			OR = {
+				tag = ROM
+				tag = BYZ
+				tag = ROW
+			}
+		}
+		OR = {
+			region = egypt_region
+			region = anatolia_region
+			region = mashriq_region
+		}
+	}
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				owner = {
+					is_in_war = {
+						casus_belli = cb_claim_eastern_provinces
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			all_neighbor_province = {
+				controller = { 
+					is_in_war = {
+						casus_belli = cb_claim_eastern_provinces
+					}
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			controller = {
+				country_event = {
+					id = mmetrFlavor_War.4
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetrFlavor_War.3.a"
+		
+		owner = { add_prestige = -5 }
+		custom_tooltip = mmetrFlavor_War.3.tt
+	}
+}
+
+# Province Defects to Palmyra - Palmyra POV
+country_event = {
+	id = mmetrFlavor_War.4
+	title = "mmetrFlavor_War.4.t"
+	desc = "mmetrFlavor_War.4.desc"
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetrFlavor_War.4.a"
+		add_prestige = 5
+		custom_tooltip = mmetrFlavor_War.4.tt
+		tooltip = {
+			FROM = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+	}
+}

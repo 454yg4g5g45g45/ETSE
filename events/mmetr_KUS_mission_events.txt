@@ -43,6 +43,30 @@ country_event = {
 	}
 }
 
+# Ancestral Traditions of the Greater Yuezhi
+country_event = {
+	id = mmetr_KUS_mission_events.3
+	title = "mmetr_KUS_mission_events.3.t"
+	desc = "mmetr_KUS_mission_events.3.desc"
+	picture = MMETR_NOMAD_ATTACK_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_KUS_mission_events.3.a"
+		
+		set_country_flag = yuezhi_confederation_restored
+		add_government_reform = yuezhi_confederation_reform
+	}
+	
+	option = {
+		name = "mmetr_KUS_mission_events.3.b"
+		
+		set_country_flag = yuezhi_confederation_restored
+		custom_tooltip = mmetr_KUS_mission_events.3.tt
+	}
+}
+
 # Decimation of the Wusun
 country_event = {
 	id = mmetr_KUS_mission_events.4
@@ -132,14 +156,12 @@ country_event = {
 			discover_country = ROOT
 		}
 		707 = {		#Yumen
-			if = {
-				limit = {
-					NOT = {
-						has_discovered = ROOT
-					}
+			limit = {
+				NOT = {
+					has_discovered = ROOT
 				}
-				discover_country = ROOT
 			}
+			discover_country = ROOT
 		}
 	}
 }
@@ -182,9 +204,6 @@ country_event = {
 			type = artist
 			skill = 3
 			culture = bactrian
-			culture = greco_bactrian
-			culture = greco_indian
-			culture = bactrian01
 			religion = hellenism
 			discount = yes
 		}
@@ -254,9 +273,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				government_rank = 10
+				government_rank = 3
 			}
-			set_government_rank = 4
+			set_government_rank = 3
 		}
 		if = {
 			limit = {
@@ -405,6 +424,69 @@ country_event = {
 				override_country_name = SAKASTAN_NAME
 			}
 		}
+	}
+}
+
+# The Kings of Tamilakam
+country_event = {
+	id = mmetr_KUS_mission_events.16
+	title = "mmetr_KUS_mission_events.16.t"
+	desc = "mmetr_KUS_mission_events.16.desc"
+	picture = 12_Maratha_Estate_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_KUS_mission_events.16.a"
+		
+		custom_tooltip =  mmetr_KUS_mission_events.16.tt
+		
+		south_carnatic_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = TML
+			add_core = TML
+		}
+		kongu_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = TML
+			add_core = TML
+		}
+		tanjore_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = TML
+			add_core = TML
+		}
+		madura_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = TML
+			add_core = TML
+		}
+		malabar_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = TML
+			add_core = TML
+		}
+		
+		create_subject = {
+			subject_type = client_kingdom
+			subject = TML
+		}
+	}
+	
+	option = {
+		name = "mmetr_KUS_mission_events.16.b"
+		
+		
 	}
 }
 

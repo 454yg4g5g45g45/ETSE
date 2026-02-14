@@ -21,7 +21,7 @@ country_decisions = {
 			}
 			religion = catholic
 			NOT = { exists = HOE }
-			NOT = { tag = LAE }
+			NOT = { tag = LAT }
 			NOT = { tag = PAP }
 			NOT = { tag = GER }
 			NOT = { tag = HLR }
@@ -51,7 +51,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = HOE
-			set_government_rank = 4
+			set_government_rank = 3
 			hidden_effect = {
 				set_country_flag = holyorientalempireformed
 			}

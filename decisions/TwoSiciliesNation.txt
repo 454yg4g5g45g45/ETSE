@@ -92,10 +92,10 @@ country_decisions = {
 			if = {
 				limit = {
 					NOT = {
-						government_rank = 8
+						government_rank = 2
 					}
 				}
-				set_government_rank = 8
+				set_government_rank = 2
 			}
 			set_country_flag = formed_two_sicilies_flag
 			add_prestige = 10
@@ -109,6 +109,10 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+	 			factor = 0
+	 			is_year = 3380	#New added in MMETR - When Kingdom of Naples was founded separately from crown in Sicily, prevents Norman Sicily or united Naples from always forming Two Sicilies
+			}
 		}
 		ai_importance = 400
 	}

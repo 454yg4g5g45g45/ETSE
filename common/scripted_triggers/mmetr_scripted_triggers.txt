@@ -43,29 +43,187 @@ has_any_skill_3_advisor = {
 
 has_two_hired_advisors = {
 	OR = {
-		philosopher = 3
-		natural_scientist = 3
-		artist  = 3
-		treasurer = 3
-		theologian = 3
-		master_of_mint = 3
-		inquisitor = 3
-		
-		statesman = 3
-		naval_reformer = 3
-		trader = 3
-		spymaster = 3
-		colonial_governor = 3
-		diplomat = 3
-		navigator = 3
-		
-		army_reformer = 3
-		army_organiser = 3
-		commandant = 3
-		quartermaster = 3
-		recruitmaster = 3
-		fortification_expert = 3
-		grand_captain = 3
+		AND = {
+			OR = {
+				philosopher = 1
+				natural_scientist = 1
+				artist  = 1
+				treasurer = 1
+				theologian = 1
+				master_of_mint = 1
+				inquisitor = 1
+			}
+			OR = {
+				statesman = 1
+				naval_reformer = 1
+				trader = 1
+				spymaster = 1
+				colonial_governor = 1
+				diplomat = 1
+				navigator = 1
+			}
+		}
+		AND = {
+			OR = {
+				philosopher = 1
+				natural_scientist = 1
+				artist  = 1
+				treasurer = 1
+				theologian = 1
+				master_of_mint = 1
+				inquisitor = 1
+			}
+			OR = {
+				army_reformer = 1
+				army_organiser = 1
+				commandant = 1
+				quartermaster = 1
+				recruitmaster = 1
+				fortification_expert = 1
+				grand_captain = 1
+			}
+		}
+		AND = {
+			OR = {
+				statesman = 1
+				naval_reformer = 1
+				trader = 1
+				spymaster = 1
+				colonial_governor = 1
+				diplomat = 1
+				navigator = 1
+			}
+			OR = {
+				army_reformer = 1
+				army_organiser = 1
+				commandant = 1
+				quartermaster = 1
+				recruitmaster = 1
+				fortification_expert = 1
+				grand_captain = 1
+			}
+		}
+	}
+}
+
+has_two_hired_skill_3_advisors = {
+	OR = {
+		AND = {
+			OR = {
+				philosopher = 3
+				natural_scientist = 3
+				artist  = 3
+				treasurer = 3
+				theologian = 3
+				master_of_mint = 3
+				inquisitor = 3
+			}
+			OR = {
+				statesman = 3
+				naval_reformer = 3
+				trader = 3
+				spymaster = 3
+				colonial_governor = 3
+				diplomat = 3
+				navigator = 3
+			}
+		}
+		AND = {
+			OR = {
+				philosopher = 3
+				natural_scientist = 3
+				artist  = 3
+				treasurer = 3
+				theologian = 3
+				master_of_mint = 3
+				inquisitor = 3
+			}
+			OR = {
+				army_reformer = 3
+				army_organiser = 3
+				commandant = 3
+				quartermaster = 3
+				recruitmaster = 3
+				fortification_expert = 3
+				grand_captain = 3
+			}
+		}
+		AND = {
+			OR = {
+				statesman = 3
+				naval_reformer = 3
+				trader = 3
+				spymaster = 3
+				colonial_governor = 3
+				diplomat = 3
+				navigator = 3
+			}
+			OR = {
+				army_reformer = 3
+				army_organiser = 3
+				commandant = 3
+				quartermaster = 3
+				recruitmaster = 3
+				fortification_expert = 3
+				grand_captain = 3
+			}
+		}
+	}
+}
+
+is_chinese_dynasty_tag = {
+	OR = {
+		tag = HND
+		tag = LNG
+		tag = NNY
+		tag = COU
+		tag = SLI
+		tag = SUI
+		tag = YOU
+		tag = QIN
+		tag = YAN
+		tag = JNG
+		tag = XIA
+		tag = JGN
+		tag = HNX
+		tag = YUE
+		tag = CJN
+		tag = JI0
+		tag = CXI
+		tag = WYA
+		tag = CMI
+		tag = MIN
+		tag = SHU
+		tag = ZAO
+		tag = JIN
+		tag = MNG
+		tag = CSH
+		tag = WEI
+		tag = CEG
+		tag = NLI
+		tag = TNG
+		tag = NNG
+		tag = LSO
+		tag = CEN
+		tag = ZHO
+		tag = XIN
+		tag = SNG
+		tag = QIC
+		tag = WLI
+		tag = CZH
+		tag = XU0
+		tag = CHC
+		tag = WUY
+		tag = WUU
+		tag = HUA
+		tag = SNY	#Shanyue
+		#MMETR tags
+		tag = YNG
+		tag = HNZ
+		tag = ZH1
+		tag = MYU	#Minyue
+		tag = NYU	#Nanyue
+		tag = NNY	#Nanyang
 	}
 }
 

@@ -205,6 +205,14 @@ estate_maratha = {
 		estate_maratha_fire_advisor
 	}
 
+	#New added in MMETR
+	custom_name = {
+		desc = estate_vellalar
+		trigger = {
+			primary_culture = tamil
+		}
+	}
+	
 	color = { 230 145 20 }
 	
 	influence_from_dev_modifier = 1.0

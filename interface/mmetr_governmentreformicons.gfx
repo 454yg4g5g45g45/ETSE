@@ -100,5 +100,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reform_icons//hunnic_confederation.dds"
 	}
 	
+	spriteType = {
+		name = "government_reform_roman_dominate"
+		texturefile = "gfx//interface//government_reform_icons//roman_dominate.dds"
+	}
+	
 	
 }

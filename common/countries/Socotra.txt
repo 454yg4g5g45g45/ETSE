@@ -1,42 +1,87 @@
-graphical_culture = easterngfx
-color = { 
-	180 220 196 
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 255 42 0 }
+
+historical_idea_groups = {
+	early_religious_ideas
+	early_trade_ideas
+	early_mil_ideas
+	early_adm_ideas
+	defensive_ideas
+	maritime_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
 }
-monarch_names = { 
-	"Miltiades #0" = 20
-	"Kebes #0" = 20
-	"Phaedon #0" = 20
-	"Kallikrates #0" = 20
-	"Lykophron #0" = 20
-	"Athenodoros #0" = 20
-	"Eutykhedes #0" = 20
-	"Tessares #0" = 20
-	"Belos #0" = 20
-	"Adrastos #0" = 20
-	"Bitoneus #0" = 20
-	"Bupalos #0" = 20
-	"Khersiphron #0" = 20
-	"Cylarbes #0" = 30
-	"Amminapes #0" = 30
-	"Anyseus #0" = 30
-	"Amyteus #0" = 30
-	"Apame #0" = -50
-	"Ariaratus #0" = 20
-	"Xenopharnes #0" = 20
-	"Spadarxes #0" = 20
-	"Tyzanes #0" = 20
-	"Ormedes #0" = 20
-	"Parozanes #0" = 20
-	"Sparodames #0" = 20
-	"Mitradrases #0" = 20
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
 }
-leader_names = { 
-	Anysseidae 
+
+monarch_names = {
+	"Jafar #0" = 40
+	"Abdallah #0" = 30
+	"Amr #0" = 20
+	"Muhsin #0" = 10
+	"Ghalib #0" = 10
+	"al-Mansur #0" = 10
+	"Ali #0" = 10
+	"Husayn #0" = 10
+	
+	"Hiba #0" = -1
+	"Fatimah #0" = -1
+	"Walida #0" = -1
+	"Tahani #0" = -1
+	"Safaa  #0" = -1
+	"Randa #0" = -1
+	"Qismah #0" = -1
+	"Nadirah #0" = -1
+	"Maram #0" = -1
+	"Layla #0" = -1
+	"Kamilah #0" = -1
+	"Jabirah #0" = -1
+	"Hudun #0" = -1
+	"Fadwa #0" = -1
+	"Daliyah #0" = -1
+	"Amirah #0" = -1
+	"Abal #0" = -1
+	"Nadiyya #0" = -1
+	"Norah #0" = -1
+	"Fahda #0" = -1
 }
-ship_names = { 
-	Agthakleous Mayx Menander Achilles Atlas Libyos Euxinus Aethiopikos 
+
+leader_names = {
+	Ali
+	Ibrahim
+	Issa
+	Jomaa
+	Khalil
+	Mansour
+	Saad
+	Shammas
+	Saleh
+	Saab
 }
-fleet_names = { 
-}
-army_names = { 
+
+ship_names = {
+	"Ali ibn Rasul" "Mansur Umar" Zaizz Zabid
+	"Muzaffar Yusuf" "Malik al-Mujahid" 
+	"Shaykh Uthman" "Al-Kawd" Whaqra "Wadi Bana"
+	Ta'izz "At-Tubah" Dhubab "Jabal Kharaz" Musaymir
+	Mawiyah "Jabal al-Hasha" Ibb Qa'tabah "Jabal Thamar"
 }

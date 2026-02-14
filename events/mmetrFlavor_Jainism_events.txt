@@ -1,0 +1,226 @@
+namespace = mmetrFlavor_jainism_events
+
+# Considering the Jain Schools
+country_event = {
+	id = mmetrFlavor_jainism_events.1
+	title = "mmetrFlavor_jainism_events.1.t"
+	desc = "mmetrFlavor_jainism_events.1.desc"
+	picture = CHURCH_ESTATE_2_eventPicture
+	
+	trigger = {
+		religion = jainism
+		NOT = {
+			religious_school = {
+				group = dharmic
+				school = svetambara_school
+			}
+		}
+		NOT = {
+			religious_school = {
+				group = dharmic
+				school = digambara_school
+			}
+		}
+		NOT = {
+			religious_school = {
+				group = dharmic
+				school = yapaniya_school
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetrFlavor_jainism_events.1.a"
+		
+		set_religious_school = {
+			group = dharmic
+			school = svetambara_school
+		}
+		
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { tag = GJR }
+				NOT = { tag = KNN }
+				NOT = { tag = JPR }
+				NOT = { tag = GRJ }
+			}
+			modifier = {
+				factor = 0.5
+				capital_scope = {
+					OR = {
+						region = bengal_region
+						region = hindusthan_region
+						area = marwar_area
+						area = mewar_area
+						area = malwa_area
+						area = jangladesh_area
+						area = jaipur_area
+						area = desh_area
+						area = maidan_area
+						area = ahmednagar_area
+						area = saurashtra_area
+						area = tapti_area
+						area = patan_area
+						area = ahmedabad_area
+						area = khandesh_area
+						area = sindh_area
+						area = northern_sindh_area
+					}
+				}
+			}
+			modifier = {
+				factor = 50
+				OR = {
+					tag = GJR
+					tag = KNN
+					tag = JPR
+					tag = GRJ
+					capital_scope = {
+						OR = {
+							region = bengal_region
+							region = hindusthan_region
+							area = marwar_area
+							area = mewar_area
+							area = malwa_area
+							area = jangladesh_area
+							area = jaipur_area
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetrFlavor_jainism_events.1.b"
+		
+		set_religious_school = {
+			group = dharmic
+			school = digambara_school
+		}
+		
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { tag = KLI }
+				NOT = { tag = TOS }
+				NOT = { tag = RSH }
+				NOT = { tag = PRD }
+				NOT = { tag = KLC }
+				NOT = { tag = KAD }
+				NOT = { tag = GUJ }
+				NOT = { tag = CLY }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					capital_scope = {
+						OR = {
+							area = desh_area
+							area = maidan_area
+							area = ahmednagar_area
+							area = saurashtra_area
+							area = tapti_area
+							area = patan_area
+							area = ahmedabad_area
+							area = khandesh_area
+							area = sindh_area
+							area = northern_sindh_area
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 50
+				OR = {
+					tag = KLI
+					tag = TOS
+					tag = RSH
+					tag = PRD
+					tag = KLC
+					tag = KAD
+					tag = GUJ
+					tag = CLY
+					capital_scope = {
+						OR = {
+							area = desh_area
+							area = maidan_area
+							area = ahmednagar_area
+							area = saurashtra_area
+							area = tapti_area
+							area = patan_area
+							area = ahmedabad_area
+							area = khandesh_area
+							area = sindh_area
+							area = northern_sindh_area						
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetrFlavor_jainism_events.1.c"
+		
+		trigger = {
+			is_year = 2498
+			NOT = {
+				started_in = 3498.1.1		#last inscription mentioning the Yapaniyas was in 1394 CE
+			}
+		}
+		
+		set_religious_school = {
+			group = dharmic
+			school = yapaniya_school
+		}
+		
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { tag = PLL }
+				NOT = { tag = HOY }
+				NOT = { tag = GAN }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					capital_scope = {
+						OR = {
+							area = mysore_area
+							area = raichur_doab_area
+							area = kanara_area
+							area = rayalaseema_area
+							area = malabar_area
+							region = coromandel_region
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 50
+				OR = {
+					tag = PLL
+					tag = HOY
+					tag = GAN
+					capital_scope = {
+						OR = {
+							area = mysore_area
+							area = raichur_doab_area
+							area = kanara_area
+							area = rayalaseema_area
+							area = malabar_area
+							region = coromandel_region
+						}
+					}
+				}
+			}
+		}
+	}
+}

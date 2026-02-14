@@ -13171,7 +13171,7 @@ arevakhach_rebels = {
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = arevakhach
+	religion = armenian_religion
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -13208,7 +13208,7 @@ arevakhach_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = arevakhach }
+			NOT = { religion = armenian_religion }
 		}
 		modifier = {
 			factor = 0.001
@@ -13253,14 +13253,14 @@ arevakhach_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = arevakhach
-			owner = { religion = arevakhach }
+			religion = armenian_religion
+			owner = { religion = armenian_religion }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = arevakhach }
+			NOT = { religion = armenian_religion }
 			any_neighbor_province = {
-	 			religion = arevakhach
+	 			religion = armenian_religion
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
@@ -13290,7 +13290,7 @@ arevakhach_rebels = {
 	siege_won_effect = {
 		if = {
 			limit = {
-				religion = arevakhach
+				religion = armenian_religion
 			}
 			add_province_modifier = {
 				name = "religious_violence"
@@ -13299,9 +13299,9 @@ arevakhach_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = arevakhach }
+				NOT = { religion = armenian_religion }
 			}
-			change_religion = arevakhach
+			change_religion = armenian_religion
 			add_province_modifier = {
 				name = "forced_conversion"
 				duration = 730
@@ -13313,7 +13313,7 @@ arevakhach_rebels = {
 	can_negotiate_trigger = {
 		OR = {
 			religion_group = hellenic
-			dominant_religion = arevakhach
+			dominant_religion = armenian_religion
 		}
 	}
 	
@@ -13347,7 +13347,7 @@ arevakhach_rebels = {
 		}
 		if = {
 			limit = {
-				religion = arevakhach
+				religion = armenian_religion
 			}
 			add_country_modifier = {
 				name = "religious_intolerance"
@@ -13356,16 +13356,16 @@ arevakhach_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = arevakhach }
-				dominant_religion = arevakhach
+				NOT = { religion = armenian_religion }
+				dominant_religion = armenian_religion
 			}
-			change_religion = arevakhach
+			change_religion = armenian_religion
 			force_converted = yes
 		}
 		if = {
 			limit = {
-				NOT = { religion = arevakhach }
-				NOT = { dominant_religion = arevakhach }
+				NOT = { religion = armenian_religion }
+				NOT = { dominant_religion = armenian_religion }
 				religion_group = hellenic
 			}
 			add_country_modifier = {

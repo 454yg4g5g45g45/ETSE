@@ -81,6 +81,44 @@ country_event = {
 	}
 }
 
+# Hashashin Spawn Option
+country_event = {
+	id = mmetr_EGY_mission_events.2
+	title = "mmetr_EGY_mission_events.2.t"
+	desc = "mmetr_EGY_mission_events.2.desc"
+	picture = ASSASSINATION_eventPicture
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "mmetr_EGY_mission_events.2.a"
+		
+		1849 = {
+			cede_province = HSS
+			add_core = HSS
+		}
+		HSS = {
+			change_religion = shiite
+		}
+		create_march = HSS
+		hidden_effect = {
+			every_province = {
+				limit = {
+					has_discovered = ROOT		#Shares Map with Subject
+				}
+				discover_country = HSS
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_EGY_mission_events.2.b"
+		
+	}
+}
+
 # Christian Refugees Sent Home
 country_event = {
 	id = mmetr_EGY_mission_events.3

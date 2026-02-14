@@ -1,6 +1,3 @@
-# CPBM EDIT - religion = african_pagan for estate_tengbiise
-# MMETR additions
-
 estate_church = {
 	icon = 1
 
@@ -18,6 +15,7 @@ estate_church = {
 			}
 		}
 		OR = {
+			has_country_flag = mmetr_enable_church_estate_flag	#MMETR added to enable by effect
 			has_government_attribute = enables_estate_church
 			has_enabled_estate = { estate = estate_church }
 			has_unlocked_estate = { estate = estate_church }
@@ -124,7 +122,7 @@ estate_church = {
 	}
 	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
-		trigger = {   
+		trigger = {
 			has_any_estate_disaster_active = yes
 			has_not_own_estate_disaster_active = { estate = estate_church }
 		}
@@ -215,17 +213,13 @@ estate_church = {
 		desc = estate_tengbiise
 		trigger = {
 			primary_culture = mossi
-			religion = african_pagan
+			religion = shamanism
 		}
 	}
 	custom_name = {
 		desc = estate_monasteries
 		trigger = {
-			OR = {
-				religion = buddhism #Theravada
-				religion = mahayana
-				religion = vajrayana
-			}
+			religion_group = buddhic	#MMETR changed
 		}
 	}
 	custom_name = {
@@ -294,6 +288,10 @@ estate_church = {
 				religion = egyptian
 				religion = ashurism
 				religion = south_arabian
+				religion = shamanism		#MMETR added
+				religion = satsana_phi		#MMETR added
+				religion = sasanea_yang		#MMETR added
+				religion = natic			#MMETR added
 			}
 		}
 	}
@@ -505,6 +503,7 @@ estate_church = {
 		estate_church_synods_of_francia
 		estate_royal_abbots_francia
 		estate_church_vow_of_ahimsa
+		estate_church_lesser_vehicles
 	}
 
 	agendas = {

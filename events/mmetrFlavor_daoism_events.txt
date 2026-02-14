@@ -5,12 +5,12 @@ province_event = {
 	id = mmetrFlavor_daoism_events.1
 	title = "mmetrFlavor_daoism_events.1.t"
 	desc = "mmetrFlavor_daoism_events.1.desc"
-	picture = RELIGIOUS_CONVERSION_eventPicture
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
 	
 	trigger = {
 		province_id = 2169		#Langzhong, close to where it was founded before spreading to Hanzhong
 		is_year = 2238
-		NOT = { started_in = 2241.1.1 }
+		NOT = { started_in = 2240.1.1 }
 		NOT = { religion = daoism }		#province trigger
 		owner = {
 			num_of_cities = 5
@@ -67,12 +67,12 @@ province_event = {
 	id = mmetrFlavor_daoism_events.2
 	title = "mmetrFlavor_daoism_events.2.t"
 	desc = "mmetrFlavor_daoism_events.2.desc"
-	picture = RELIGIOUS_CONVERSION_eventPicture
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
 	
 	trigger = {
 		OR = {
 			has_global_flag = five_pecks_of_rice_founded_flag
-			started_in = 2241.1.1
+			started_in = 2240.1.1
 		}
 		province_id = 689		#Hanzhong
 		NOT = { religion = daoism }		#province trigger
@@ -131,7 +131,7 @@ province_event = {
 	id = mmetrFlavor_daoism_events.3
 	title = "mmetrFlavor_daoism_events.3.t"
 	desc = "mmetrFlavor_daoism_events.3.desc"
-	picture = RELIGIOUS_CONVERSION_eventPicture
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
 	
 	trigger = {
 		province_id = 689		#Hanzhong
@@ -172,7 +172,7 @@ province_event = {
 	id = mmetrFlavor_daoism_events.4
 	title = "mmetrFlavor_daoism_events.4.t"
 	desc = "mmetrFlavor_daoism_events.4.desc"
-	picture = RELIGIOUS_CONVERSION_eventPicture
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
 	
 	trigger = {
 		is_capital = no
@@ -197,18 +197,18 @@ province_event = {
 			OR = {
 				is_emperor_of_china = yes
 				AND = {
-					government_rank = 10
+					government_rank = 3
 					culture_group = east_asian
 				}
 				AND = {
 					culture_group = east_asian
-					government_rank = 8
+					government_rank = 2
 					num_of_cities = 20
 				}
 			}
 			OR = {
 				AND = {
-					NOT = { imperial_mandate = 30 }
+					NOT = { imperial_mandate = 2128 }
 					is_emperor_of_china = yes
 				}
 				NOT = { stability = 0 }
@@ -217,10 +217,14 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1200
+		months = 1800
 		modifier = {
 			factor = 0.8
 			any_neighbor_province = { religion = daoism }
+		}
+		modifier = {
+			factor = 0.9
+			has_country_flag = mmetr_daoist_resurgence_flag
 		}
 	}
 	
@@ -240,7 +244,7 @@ country_event = {
 	id = mmetrFlavor_daoism_events.5
 	title = "mmetrFlavor_daoism_events.5.t"
 	desc = "mmetrFlavor_daoism_events.5.desc"
-	picture = ADVISOR_eventPicture
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
 	
 	trigger = {
 		NOT = {
@@ -250,7 +254,7 @@ country_event = {
 		has_heir = yes
 		OR = {
 			AND = {
-				NOT = { imperial_mandate = 40 }
+				NOT = { imperial_mandate = 2138 }
 				is_emperor_of_china = yes
 			}
 			NOT = { stability = 0 }
@@ -262,7 +266,11 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 500
+		months = 700
+		modifier = {
+			factor = 0.7
+			has_country_flag = mmetr_daoist_resurgence_flag
+		}
 	}
 	
 	option = {
@@ -294,7 +302,7 @@ country_event = {
 	id = mmetrFlavor_daoism_events.6
 	title = "mmetrFlavor_daoism_events.6.t"
 	desc = "mmetrFlavor_daoism_events.6.desc"
-	picture = ADVISOR_eventPicture
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
 	
 	trigger = {
 		OR = {
@@ -349,7 +357,7 @@ country_event = {
 	id = mmetrFlavor_daoism_events.7
 	title = "mmetrFlavor_daoism_events.7.t"
 	desc = "mmetrFlavor_daoism_events.7.desc"
-	picture = BIG_BOOK_eventPicture
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
 	
 	trigger = {
 		has_dlc = "Mandate of Heaven"
@@ -363,7 +371,7 @@ country_event = {
 		}
 		OR = {
 			AND = {
-				NOT = { imperial_mandate = 40 }
+				NOT = { imperial_mandate = 2138 }
 				is_emperor_of_china = yes
 			}
 			NOT = { stability = 0 }
@@ -394,7 +402,7 @@ country_event = {
 	id = mmetrFlavor_daoism_events.8
 	title = "mmetrFlavor_daoism_events.8.t"
 	desc = "mmetrFlavor_daoism_events.8.desc"
-	picture = ADVISOR_eventPicture
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
 	
 	trigger = {
 		religion = daoism
@@ -412,7 +420,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 200
+		days = 400
 	}
 	
 	option = {
@@ -434,3 +442,59 @@ country_event = {
 	}
 }
 
+
+# Daoist Resurgence in [Root.GetName]
+province_event = {
+	id = mmetrFlavor_daoism_events.9
+	title = "mmetrFlavor_daoism_events.9.t"
+	desc = "mmetrFlavor_daoism_events.9.desc"
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
+	
+	trigger = {
+		religion = confucianism
+		superregion = china_superregion
+		is_year = 2298
+		owner = {
+			NOT = { has_country_flag = mmetr_daoist_resurgence_flag }
+			OR = {
+				religion = confucianism
+				dominant_religion = confucianism
+			}
+		}
+		OR = {
+			NOT = { stability = 0 }
+			legitimacy_equivalent = 80
+			average_unrest = 3
+			AND = {
+				is_emperor_of_china = yes
+				NOT = { imperial_mandate = 2168 } 
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1000
+
+		modifier = {
+			factor = 0.5
+			is_year = 2598
+		}
+		modifier = {
+			factor = 0.5
+			owner = {
+				is_emperor_of_china = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetrFlavor_daoism_events.9.a"
+		change_religion = daoism
+		add_province_modifier = {
+			name = "religious_zeal_at_conv"
+			duration = 3650
+		}
+		owner = {
+			set_country_flag = mmetr_daoist_resurgence_flag
+		}
+	}
+}

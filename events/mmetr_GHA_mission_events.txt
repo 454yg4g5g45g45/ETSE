@@ -1,0 +1,53 @@
+namespace = mmetr_GHA_mission_events
+
+# The Question of Islam
+country_event = {
+	id = mmetr_GHA_mission_events.1
+	title = "mmetr_GHA_mission_events.1.t"
+	desc = "mmetr_GHA_mission_events.1.desc"
+	picture = PRAYING_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_GHA_mission_events.1.a"
+		
+		set_country_flag = gha_tolerant_policy_flag
+		if = {
+			limit = {
+				has_country_flag = gha_intolerant_policy_flag
+			}
+			clr_country_flag = gha_intolerant_policy_flag
+		}
+		custom_tooltip = mmetr_GHA_mission_events.1.tt1
+		swap_non_generic_missions = yes
+		
+		define_advisor = {
+			type = trader
+			skill = 2
+			religion = sunni
+			age = 35
+			cost_multiplier = 0.7
+		}
+	}
+	
+	option = {
+		name = "mmetr_GHA_mission_events.1.b"
+		
+		set_country_flag = gha_intolerant_policy_flag
+		if = {
+			limit = {
+				has_country_flag = gha_tolerant_policy_flag
+			}
+			clr_country_flag = gha_tolerant_policy_flag
+		}
+		custom_tooltip = mmetr_GHA_mission_events.1.tt2
+		swap_non_generic_missions = yes
+		
+		add_country_modifier = {
+			name = "me_gha_religious_hostility"
+			duration = 10950
+		}
+	}
+}
+

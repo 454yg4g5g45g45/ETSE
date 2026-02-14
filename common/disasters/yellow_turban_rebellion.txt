@@ -1,27 +1,36 @@
 yellow_turban_rebellion = {
 	potential = {
-		tag = HND
+		OR = {
+			tag = HND
+			was_tag = HND		#added in case Han tag switches via events for new ruler
+		}
 		NOT = { has_country_flag = yellow_turban_rebellion_happened }
 		normal_or_historical_nations = yes
 		is_year = 2248
-		NOT = { started_in = 2288.9.28 } 
+		NOT = { started_in = 2287.9.28 }		#when Han fractures after Dong Zhuo's rise
 	}
 	
 	can_start = {
 		has_any_disaster = no
 		is_year = 2268
-		NOT = { is_year = 2348 }
+		NOT = { is_year = 2498 }
 		if = {
 			limit = {	
 				has_dlc = "Mandate of Heaven"
 			}
 			OR = {
 				AND = {
-					NOT = { imperial_mandate = 50 }
+					NOT = { imperial_mandate = 2148 }
 					is_emperor_of_china = yes
 				}
 				NOT = { is_emperor_of_china = yes }
-				NOT = { stability = -2 }
+				NOT = { stability = -1 }		#changed from -2 to -1
+				
+				#only for AI
+				hidden_trigger = {
+					ai = yes
+					NOT = { stability = 2 }		#triggers more frequently for AI
+				}
 			}
 		}
 		else = {
@@ -29,24 +38,23 @@ yellow_turban_rebellion = {
 				has_country_modifier = the_mandate_of_heaven_lost
 				has_country_modifier = lost_mandate_of_heaven
 				AND = {
-					NOT = { stability = -2 }
+					NOT = { stability = -1 }		#changed from -2 to -1
 					NOT = { legitimacy = 50 }
+				}
+				
+				#only for AI
+				hidden_trigger = {
+					ai = yes
+					NOT = { stability = 2 }		#triggers more frequently for AI
 				}
 			}
 		}
 	}
 	
 	can_stop = {
-		has_any_disaster = yes
-		if = {
-			limit = {
-				has_dlc = "Mandate of Heaven"
-			}
-			imperial_mandate = 50
-		}
-		else = {
-			NOT = { has_country_modifier = the_mandate_of_heaven_lost }
-			NOT = { has_country_modifier = lost_mandate_of_heaven }
+		OR = {
+			has_any_disaster = yes
+			stability = 3
 		}
 	}
 	
@@ -58,17 +66,17 @@ yellow_turban_rebellion = {
 		}
 		modifier = {
 			factor = 2
-			NOT = { imperial_mandate = 50 }
-			imperial_mandate = 30
+			NOT = { imperial_mandate = 2148 }
+			imperial_mandate = 2128
 		}
 		modifier = {
 			factor = 3
-			NOT = { imperial_mandate = 30 }
-			imperial_mandate = 10
+			NOT = { imperial_mandate = 2128 }
+			imperial_mandate = 2108
 		}
 		modifier = {
 			factor = 10
-			NOT = { imperial_mandate = 10 }
+			NOT = { imperial_mandate = 2108 }
 		}
 		modifier = {
 			factor = 1
@@ -111,7 +119,7 @@ yellow_turban_rebellion = {
 				has_dlc = "Mandate of Heaven"
 			}
 			OR = {
-				imperial_mandate = 70
+				imperial_mandate = 2168
 				is_emperor_of_china = no
 			}
 		}

@@ -1,6 +1,6 @@
 # Autonomous Dominions
-DA1 = "countries/BritishEastAfrica.txt"
-DA2 = "countries/GermanicEastAfrica.txt"
+DB1 = "countries/BritishEastAfrica.txt"
+DB2 = "countries/GermanicEastAfrica.txt"
 DA3 = "countries/IberianEastAfrica.txt"
 DA4 = "countries/FrenchEastAfrica.txt"
 DA5 = "countries/ChristianEastAfrica.txt"

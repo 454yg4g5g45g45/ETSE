@@ -189,6 +189,65 @@ country_event = {
 	}
 }
 
+# Romano-Briton Culture
+country_event = {
+	id = mmetr_ROW_mission_events.8
+	title = "mmetr_ROW_mission_events.8.t"
+	desc = "mmetr_ROW_mission_events.8.desc"
+	picture = IMPORTANT_STATUE_eventPicture
+
+	is_triggered_only = yes
+	 
+	
+	option = {
+		name = "mmetr_ROW_mission_events.8.a"
+		
+		custom_tooltip = row_here_to_stay_mission.tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					region = british_isles_region
+					development = 8
+					has_owner_culture = no
+				}
+				change_culture = romano_briton
+			}
+		}
+	}
+}
+
+# The Augustus Enters Nova Roma
+country_event = {
+	id = mmetr_ROW_mission_events.9
+	title = "mmetr_ROW_mission_events.9.t"
+	desc = "mmetr_ROW_mission_events.9.desc"
+	picture = ROMAN_ROAD_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			151 = {
+				save_event_target_as = constantinople_rename_target
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROW_mission_events.9.a"
+		
+		151 = {
+			change_province_name = "Nova Roma"
+		}
+	}
+	
+	option = {
+		name = "mmetr_ROW_mission_events.9.b"
+		
+		
+	}
+}
+
 # Imperator of Rome
 country_event = {
 	id = mmetr_ROW_mission_events.10

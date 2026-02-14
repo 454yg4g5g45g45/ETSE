@@ -284,6 +284,28 @@ country_event = {
 	}
 }
 
+# Heirs of Achaemenid Persia
+country_event = {
+	id = mmetr_PAR_mission_events.10
+	title = "mmetr_PAR_mission_events.10.t"
+	desc = "mmetr_PAR_mission_events.10.desc"
+	picture = MMETR_SASSANID_AHURA_MAZDA_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_PAR_mission_events.10.a"
+		
+		change_tag = PR1	#form Zoroastrian Persia, only possible for Parthia by mission tree, available to others by decision
+	}
+	
+	option = {
+		name = "mmetr_PAR_mission_events.10.b"
+		
+		
+	}
+}
+
 # Great City of Ctesiphon
 country_event = {
 	id = mmetr_PAR_mission_events.11
@@ -424,3 +446,36 @@ country_event = {
 		add_prestige = 15
 	}
 }
+
+# The Dahae Confederation
+country_event = {
+	id = mmetr_PAR_mission_events.16
+	title = "mmetr_PAR_mission_events.16.t"
+	desc = "mmetr_PAR_mission_events.16.desc"
+	picture = MMETR_STEPPE_CAVALRY_ANCIENT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_PAR_mission_events.16.a"
+		
+		438 = {
+			cede_province = DHE
+			add_core = DHE
+		}
+		439 = {
+			cede_province = DHE
+			add_core = DHE
+		}
+		2349 = {
+			cede_province = DHE
+			add_core = DHE
+		}
+		create_subject = {
+			subject_type = client_kingdom
+			subject = DHE
+		}
+	}
+}
+
+

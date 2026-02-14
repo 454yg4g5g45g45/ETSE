@@ -370,7 +370,7 @@ defined_text = {
 				tag = GBR
 				tag = ENG
 			}
-			NOT = { exists = DA1 }
+			NOT = { exists = DB1 }
         }
     }
 	text = {
@@ -381,7 +381,7 @@ defined_text = {
 				tag = GER
 				tag = PRU
 			}
-			NOT = { exists = DA2 }
+			NOT = { exists = DB2 }
         }
     }
 	text = {

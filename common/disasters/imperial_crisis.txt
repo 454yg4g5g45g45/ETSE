@@ -39,9 +39,36 @@ imperial_crisis = {
 	}
 	
 	can_start = {
-		NOT = { stability = 2 }
-		NOT = { legitimacy_equivalent = 80 }
-		NOT = { adm_tech = 26 }
+		if = {	#MMETR, changed so historical outcome for AI is guaranteed, since AI is always at high stability in ET
+			limit = {
+				ai = no
+			}
+			NOT = { stability = 2 }
+			NOT = { legitimacy_equivalent = 80 }
+			NOT = { adm_tech = 26 }
+		}
+		if = {
+			limit = {
+				ai = yes
+			}
+			OR = {
+				AND = {
+					NOT = { stability = 2 }
+					NOT = { legitimacy_equivalent = 80 }
+					NOT = { adm_tech = 26 }
+				}
+				AND = {
+					NOT = { adm_tech = 26 }
+					OR = {
+						NOT = { mil = 4 }
+						NOT = { adm = 3 }
+						NOT = { legitimacy_equivalent = 80 }
+					}
+					is_year = 2333
+					NOT = { started_in = 2384.1.1 }
+				}
+			}
+		}
 	}
 	
 	can_stop = { 

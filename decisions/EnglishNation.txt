@@ -18,6 +18,7 @@ country_decisions = {
 				primary_culture = english
 				primary_culture = anglo_saxon
 				primary_culture = normand
+				tag = KOI					#added in 1.35 vanilla
 			}
 			is_colonial_nation = no
 			OR = {
@@ -27,6 +28,9 @@ country_decisions = {
 					ai = no
 				}
 			}
+			
+			NOT = { tag = DM1 }		#New added in MMETR mod tags
+			NOT = { tag = DM2 }
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -72,9 +76,9 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					NOT = { government_rank = 8 }
+					NOT = { government_rank = 2 }
 				}
-				set_government_rank = 8
+				set_government_rank = 2
 			}
 			home_counties_area = {
 				limit = {
@@ -149,6 +153,10 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				tag = EN0		#AI will not form if is already Anglo-Saxon England
+			}
 		}
 		ai_importance = 400
 	}

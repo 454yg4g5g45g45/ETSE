@@ -72,6 +72,8 @@ country_event = {
 		ai_chance = { 
 			factor = 100
 		}
+		
+		swap_non_generic_missions = yes		#New added in MMETR mod, changes to Sassanid missions
 	}
 	option = {
 		name = "et_sas.1.b"
@@ -145,6 +147,8 @@ country_event = {
 		ai_chance = { 
 			factor = 100
 		}
+		
+		swap_non_generic_missions = yes		#New added in MMETR mod, changes to Sassanid missions
 	}
 	option = {
 		name = "et_sas.2.b"

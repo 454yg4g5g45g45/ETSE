@@ -89,7 +89,7 @@ country_decisions = {
 				add_stability = -2
 				if = {
 					limit = {
-						remove_country_modifier = three_sons
+						has_country_modifier = three_sons
 					}
 					remove_country_modifier = three_sons
 				}
@@ -98,8 +98,6 @@ country_decisions = {
 				}
 			}
 			custom_tooltip = estate_church_send_son_to_monastery_decision.tt
-			
-			#set_country_flag = estate_church_sent_son_to_monastery_flag		#potential to trigger pretender rebels upon monarch death; whether or not rebels spawn, the on_action must remove this flag anyways
 		}
 		ai_will_do = {
 			factor = 0

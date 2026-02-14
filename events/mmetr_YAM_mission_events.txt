@@ -1,5 +1,27 @@
 namespace = mmetr_YAM_mission_events
 
+# A Spiritual and Temporal Leader
+country_event = {
+	id = mmetr_YAM_mission_events.1
+	title = "mmetr_YAM_mission_events.1.t"
+	desc = "mmetr_YAM_mission_events.1.desc"
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_YAM_mission_events.1.a"
+		
+		add_government_reform = shaman_monarchy_reform
+	}
+	
+	option = {
+		name = "mmetr_YAM_mission_events.1.b"
+		
+		
+	}
+}
+
 # Uji Members Offer Service
 country_event = {
 	id = mmetr_YAM_mission_events.2

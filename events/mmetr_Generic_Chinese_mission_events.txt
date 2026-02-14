@@ -1,0 +1,291 @@
+namespace = mmetr_Generic_Chinese_mission_events
+
+# [Root.Monarch.Dynasty.GetName] [Root.Monarch.GetName] Writes Military Treaties
+country_event = {
+	id = mmetr_Generic_Chinese_mission_events.1
+	title = "mmetr_Generic_Chinese_mission_events.1.t"
+	desc = "mmetr_Generic_Chinese_mission_events.1.desc"
+	picture = MMETR_CHINESE_GENERAL_JOIN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.1.a"
+		
+		add_country_modifier = {
+			name = "me_genchnw_military_treatises"
+			duration = 10950
+		}
+	}
+}
+
+# Economics of the Modernists and the Reformists
+country_event = {
+	id = mmetr_Generic_Chinese_mission_events.2
+	title = "mmetr_Generic_Chinese_mission_events.2.t"
+	desc = "mmetr_Generic_Chinese_mission_events.2.desc"
+	picture = MMETR_CHINESE_COURT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.2.a"
+		
+		add_country_modifier = {
+			name = "me_genchnw_state_monopolies_policy"
+			duration = 10950
+		}
+	}
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.2.b"
+		
+		add_country_modifier = {
+			name = "me_genchnw_relaxed_market_policy"
+			duration = 10950
+		}
+	}
+}
+
+# The Great Conqueror
+country_event = {
+	id = mmetr_Generic_Chinese_mission_events.3
+	title = "mmetr_Generic_Chinese_mission_events.3.t"
+	desc = "mmetr_Generic_Chinese_mission_events.3.desc"
+	picture = MMETR_CHINESE_COURT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.3.a"
+		
+		add_prestige = 10
+		add_ruler_modifier = {
+			name = "me_genchnw_great_conqueror"
+			duration = -1
+		}
+	}
+}
+
+# The Book of Changes
+country_event = {
+	id = mmetr_Generic_Chinese_mission_events.4
+	title = "mmetr_Generic_Chinese_mission_events.4.t"
+	desc = "mmetr_Generic_Chinese_mission_events.4.desc"
+	picture = MMETR_CHINESE_COURT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.4.a"
+		
+		add_country_modifier = {
+			name = "me_genchnw_adherance_to_the_i_ching"
+			duration = 10950
+		}
+	}
+}
+
+# The Great Wall
+country_event = {
+	id = mmetr_Generic_Chinese_mission_events.5
+	title = "mmetr_Generic_Chinese_mission_events.5.t"
+	desc = "mmetr_Generic_Chinese_mission_events.5.desc"
+	picture = MMETR_GREAT_WALL_CONSTRUCTION_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.5.a"
+		
+		add_country_modifier = {
+			name = "me_genchnw_great_wall_expanded"
+			duration = 10950
+		}
+	}
+}
+
+# Gunpowder Warfare
+country_event = {
+	id = mmetr_Generic_Chinese_mission_events.6
+	title = "mmetr_Generic_Chinese_mission_events.6.t"
+	desc = "mmetr_Generic_Chinese_mission_events.6.desc"
+	picture = SIEGE_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.6.a"
+		
+		add_country_modifier = {
+			name = "me_genchnw_gunpowder_fire_lances"
+			duration = 10950
+		}
+	}
+}
+
+# A New Path to Harmony? - only for players, not for AI
+country_event = {
+	id = mmetr_Generic_Chinese_mission_events.7
+	title = "mmetr_Generic_Chinese_mission_events.7.t"
+	desc = "mmetr_Generic_Chinese_mission_events.7.desc"
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.7.a"	#keep the same faith
+		
+		
+	}
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.7.b"	#Legalist path
+		
+		if = {
+			limit = {
+				NOT = { religion = confucianism }
+			}
+			change_religion = confucianism
+			capital_scope = {
+				change_religion = confucianism
+			}
+		}
+		add_country_modifier = {
+			name = "me_genchnw_legalist_policies"
+			duration = 9125
+		}
+	}
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.7.c"	#Daoism
+		
+		trigger = {
+			NOT = { religion = daoism }
+		}
+		change_religion = daoism
+		capital_scope = {
+			change_religion = daoism
+		}
+		add_country_modifier = {
+			name = "me_genchnw_daoist_masters"
+			duration = 9125
+		}
+	}
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.7.d"	#Buddhism - Pure Land Mahayana
+		
+		trigger = {
+			NOT = { religion = mahayana }
+			is_year = 2198
+		}
+		change_religion = mahayana
+		capital_scope = {
+			change_religion = mahayana
+		}
+		add_country_modifier = {
+			name = "me_genchnw_buddhist_doctrines"
+			duration = 9125
+		}
+	}
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.7.e"	#Buddhism - Dharmaguptaka
+		
+		trigger = {
+			NOT = { religion = dharmaguptaka }
+			NOT = { is_year = 2898 }
+		}
+		change_religion = dharmaguptaka
+		capital_scope = {
+			change_religion = dharmaguptaka
+		}
+		add_country_modifier = {
+			name = "me_genchnw_buddhist_doctrines"
+			duration = 9125
+		}
+	}
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.7.f"	#Buddhism - Mahasamghika
+		
+		trigger = {
+			NOT = { religion = mahasamghika }
+			NOT = { is_year = 2500 }
+		}
+		change_religion = mahasamghika
+		capital_scope = {
+			change_religion = mahasamghika
+		}
+		add_country_modifier = {
+			name = "me_genchnw_buddhist_doctrines"
+			duration = 9125
+		}
+	}
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.7.g"	#Buddhism - Vajrayana
+		
+		trigger = {
+			NOT = { religion = vajrayana }
+			is_year = 2698
+		}
+		change_religion = vajrayana
+		capital_scope = {
+			change_religion = vajrayana
+		}
+		add_country_modifier = {
+			name = "me_genchnw_buddhist_doctrines"
+			duration = 9125
+		}
+	}
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.7.h"	#Buddhism - Theravada
+		
+		trigger = {
+			NOT = { religion = buddhism }	#Theravada
+			OR = {
+				any_owned_province = {
+					religion = buddhism
+				}
+				any_subject_country = {
+					religion = buddhism
+				}
+				any_ally = {
+					religion = buddhism
+				}
+			}
+		}
+		change_religion = buddhism
+		capital_scope = {
+			change_religion = buddhism
+		}
+		add_country_modifier = {
+			name = "me_genchnw_buddhist_doctrines"
+			duration = 9125
+		}
+	}
+}
+
+
+# Yu the Great
+country_event = {
+	id = mmetr_Generic_Chinese_mission_events.8
+	title = "mmetr_Generic_Chinese_mission_events.8.t"
+	desc = "mmetr_Generic_Chinese_mission_events.8.desc"
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_Generic_Chinese_mission_events.8.a"
+		
+		add_country_modifier = {
+			name = "me_genchnw_a_new_great_yu"
+			duration = 10950
+		}
+	}
+}
+

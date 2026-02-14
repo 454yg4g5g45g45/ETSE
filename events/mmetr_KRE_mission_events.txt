@@ -1,0 +1,218 @@
+namespace = mmetr_KRE_mission_events
+
+# Khan of the Khamag Mongol
+country_event = {
+	id = mmetr_KRE_mission_events.1
+	title = "mmetr_KRE_mission_events.1.t"
+	desc = "mmetr_KRE_mission_events.1.desc"
+	picture = MMETR_MONGOL_THRONEROOM_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_KRE_mission_events.1.a"
+		
+		add_horde_unity = 15
+		add_country_modifier = {
+			name = "me_kre_khamag_mongol_khan"
+			duration = 10950
+		}		
+	}
+}
+
+# Restored Zubu Hegemony
+country_event = {
+	id = mmetr_KRE_mission_events.2
+	title = "mmetr_KRE_mission_events.2.t"
+	desc = "mmetr_KRE_mission_events.2.desc"
+	picture = MMETR_MONGOL_THRONEROOM_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_KRE_mission_events.2.a"
+		
+		add_horde_unity = 20
+		add_country_modifier = {
+			name = "me_kre_zubu_khagan"
+			duration = -1
+		}
+	}
+}
+
+# Restructuring the Mongol Clans
+country_event = {
+	id = mmetr_KRE_mission_events.3
+	title = "mmetr_KRE_mission_events.3.t"
+	desc = "mmetr_KRE_mission_events.3.desc"
+	picture = MONGOL_BANNERS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_KRE_mission_events.3.a"
+		
+		add_country_modifier = {
+			name = "me_kre_aristocratic_structure"
+			duration = 14600
+		}
+	}
+	
+	option = {
+		name = "mmetr_KRE_mission_events.3.b"
+		
+		add_country_modifier = {
+			name = "me_kre_meritocratic_structure"
+			duration = 14600
+		}
+		if = {
+			limit = {
+				has_estate = estate_nomadic_tribes
+			}
+			add_estate_loyalty = {
+				estate = estate_nomadic_tribes
+				loyalty = -10
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						is_capital_of = ROOT
+					}
+				}
+				spawn_rebels = {
+					type = tribal_rebels
+					size = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_estate = estate_nobles
+			}
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -10
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						is_capital_of = ROOT
+					}
+				}
+				spawn_rebels = {
+					type = noble_rebels
+					size = 1
+				}
+			}
+		}
+	}
+}
+
+# Nestorian Legacy of the [Root.Adjective]s - post-Nestorian adoption
+country_event = {
+	id = mmetr_KRE_mission_events.4
+	title = "mmetr_KRE_mission_events.4.t"
+	desc = "mmetr_KRE_mission_events.4.desc"
+	picture = PRAYING_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_KRE_mission_events.4.a"
+		
+		
+		custom_tooltip = mmetr_KRE_mission_events.4.tt
+		hidden_effect = {
+			add_stability = 1	#negates stability hit from conversion
+		}
+		
+		add_country_modifier = {
+			name = "me_kre_religious_fervor"
+			duration = 9125
+		}
+		
+		custom_tooltip = kre_descendants_of_three_magi_mission.tt3
+		hidden_effect = {
+			capital_scope = {
+				change_religion = nestorian
+			}
+			random_owned_province = {
+				limit = {
+					NOT = { is_capital = yes }
+					OR = {
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+				change_religion = nestorian
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_KRE_mission_events.4.b"
+		
+		add_country_modifier = {
+			name = "me_kre_religious_fervor"
+			duration = 9125
+		}
+		
+		custom_tooltip = kre_descendants_of_three_magi_mission.tt3
+		hidden_effect = {
+			capital_scope = {
+				change_religion = nestorian
+			}
+			random_owned_province = {
+				limit = {
+					NOT = { is_capital = yes }
+					OR = {
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+				change_religion = nestorian
+			}
+		}
+	}
+}
+
+# Nestorian Legacy of the [Root.Adjective]s - pre-Nestorian adoption
+country_event = {
+	id = mmetr_KRE_mission_events.5
+	title = "mmetr_KRE_mission_events.5.t"
+	desc = "mmetr_KRE_mission_events.5.desc"
+	picture = PRAYING_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_KRE_mission_events.5.a"
+		
+		custom_tooltip = mmetr_KRE_mission_events.4.tt
+		hidden_effect = {
+			add_stability = 1	#negates stability hit from conversion
+		}
+		
+		add_country_modifier = {
+			name = "me_kre_religious_fervor"
+			duration = 9125
+		}
+		
+		custom_tooltip = kre_descendants_of_three_magi_mission.tt3
+		hidden_effect = {
+			capital_scope = {
+				change_religion = nestorian
+			}
+			random_owned_province = {
+				limit = {
+					NOT = { is_capital = yes }
+					OR = {
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+				change_religion = nestorian
+			}
+		}
+	}
+}

@@ -2,7 +2,9 @@
 # Create new diplomatic actions like this. AI will currently never send them.
 
 #Turning Client Kingdom to a standard Vassal
-make_client_kingdom_direct_vassal = {
+#make_client_kingdom_direct_vassal		#removed for redundancy, since was added to base ET
+	
+mmetr_da_send_tribute_mission = {
 	category = influence
 
 	alert_index = 40
@@ -11,32 +13,149 @@ make_client_kingdom_direct_vassal = {
 	require_acceptance = no 	#Whether the recipient gets an option to decline
 
 	is_visible = {
+		NOT = { is_subject_of = FROM }
 		FROM = {
-			is_subject_of_type_with_overlord = { 
-				who = ROOT
-				type = client_kingdom
+			ai = yes
+			can_be_overlord = tributary_state
+			OR = {
+				is_emperor_of_china = yes
+				AND = {
+					government_rank = 3
+					culture_group = east_asian
+					capital_scope = {
+						superregion = china_superregion
+					}
+				}
+				AND = {
+					num_of_cities = 50
+					culture_group = east_asian
+					capital_scope = {
+						superregion = china_superregion
+					}
+				}
 			}
+		}
+		capital_scope = {
+			OR = {
+				superregion = east_indies_superregion
+				area = west_gansu_area
+				area = yun_gui_area
+				area = yun_gui_borderland_area
+			}
+		}
+		NOT = {
+			total_development = FROM
+		}
+		NOT = {
+			num_of_cities = FROM
+		}
+		OR = {
+			technology_group = chinese
+			technology_group = early_chinese
+			technology_group = nomad_group
+			technology_group = eastern_nomad_group
+			technology_group = western_nomad_group
 		}
 	}
 	is_allowed = {
-		FROM = {
-			is_subject_of_type_with_overlord = { 
-				who = ROOT
-				type = client_kingdom
-			}
+		NOT = { is_subject_of = FROM }
+		NOT = {
+			total_development = FROM
 		}
-		FROM = { NOT = { liberty_desire = 25 } }
+		NOT = {
+			num_of_cities = FROM
+			num_of_cities = 40
+		}
 		reverse_has_opinion = {
 			who = FROM
-			value = 175
+			value = 120
+		}
+		capital_scope = {
+			OR = {
+				superregion = east_indies_superregion
+				area = west_gansu_area
+				area = yun_gui_area
+				area = yun_gui_borderland_area
+			}
+		}
+		OR = {
+			is_neighbor_of = FROM
+			any_neighbor_country = {
+				is_subject_of = FROM
+			}
 		}
 	}
 	on_accept = {
-		custom_tooltip = make_client_kingdom_direct_vassal.tt
-		create_subject = {
-			subject_type = vassal
-			subject = FROM
+		FROM = {
+			create_subject = {
+				subject_type = tributary_state
+				subject = ROOT
+			}
 		}
+		add_prestige = -30
+	}
+	on_decline = {
+	}
+
+	ai_acceptance = {
+	}
+
+	ai_will_do = { # this is a trigger
+		always = no
+	}
+}
+
+mmetr_da_swear_fealty_to_shogun = {
+	category = influence
+
+	alert_index = 40
+	alert_tooltip = demand_dummy_alert_tooltip
+
+	require_acceptance = no 	#Whether the recipient gets an option to decline
+
+	is_visible = {
+		NOT = { is_subject_of = FROM }
+		FROM = {
+			can_be_overlord = daimyo_vassal
+			has_reform = shogunate
+		}
+		capital_scope = {
+			region = japan_region
+		}
+		NOT = {
+			total_development = FROM
+		}
+		NOT = {
+			num_of_cities = FROM
+		}
+	}
+	is_allowed = {
+		NOT = { is_subject_of = FROM }
+		has_reform = indep_daimyo
+		FROM = {
+			can_be_overlord = daimyo_vassal
+			has_reform = shogunate
+		}
+		capital_scope = {
+			region = japan_region
+		}
+		NOT = {
+			total_development = FROM
+		}
+		NOT = {
+			num_of_cities = FROM
+		}
+	}
+	on_accept = {
+		FROM = {
+			create_subject = {
+				subject_type = daimyo_vassal
+				subject = ROOT
+			}
+		}
+		add_prestige = -50
+		remove_government_reform = indep_daimyo
+		add_government_reform = daimyo
 	}
 	on_decline = {
 	}

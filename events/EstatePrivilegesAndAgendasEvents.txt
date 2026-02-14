@@ -242,6 +242,8 @@ country_event = {
 		clr_country_flag = estate_qizilbash_present_agenda
 		clr_country_flag = estate_ghulams_present_agenda
 		clear_estate_agenda_cache = ROOT
+		#New added MMETR
+		clr_country_flag = estate_scholars_present_agenda
 	}
 
 	option = {
@@ -943,6 +945,54 @@ country_event = {
 				}
 				estate_loyalty = {
 					estate = estate_ghulams
+					higher_than_influence = no
+				}
+			}
+		}
+	}
+	
+	#New added MMETR
+	option = {
+		name = estate_privileges_and_agendas_events.3.a2
+		trigger = { has_country_flag = estate_scholars_present_agenda }
+		start_estate_agenda = estate_scholars
+		goto = estate_scholars
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						loyalty = 30
+						estate = estate_scholars
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					estate_loyalty = {
+						loyalty = 20
+						estate = estate_scholars
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					influence = 70
+					estate = estate_scholars
+				}
+			}
+			modifier = {
+				factor = 2
+				is_absolutism_active = yes
+				num_of_estate_privileges = {
+					estate = estate_scholars
+					value = 1
+				}
+				estate_loyalty = {
+					estate = estate_scholars
 					higher_than_influence = no
 				}
 			}

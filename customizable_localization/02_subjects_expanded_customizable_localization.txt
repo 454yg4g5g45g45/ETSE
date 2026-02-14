@@ -9,9 +9,9 @@ defined_text = {
 			OR = {
 				# East African Dominions
 				AND = {
-					tag = DA1
+					tag = DB1
 					OR = {
-						exists = DA2
+						exists = DB2
 						exists = DA3
 						exists = DA4
 						exists = DA5
@@ -20,7 +20,7 @@ defined_text = {
 					}
 				}
 				AND = {
-					tag = DA2
+					tag = DB2
 					OR = {
 						exists = DA3
 						exists = DA4

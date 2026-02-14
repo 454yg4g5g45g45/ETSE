@@ -1,15 +1,15 @@
-# For Government Reforms to identify properly influence and loyalty modifiers, remember to put disqualifying triggers before the has_reform
-
 estate_eunuchs = {
 	icon = 13
 
 	# If true, country will get estate
 	trigger = {
-		has_dlc = "Domination"
+		has_dlc = "Domination"		#added so is available only to Domination owners
 		NOT = { has_disabled_estate = { estate = estate_eunuchs } }
+		government = monarchy
 		OR = {
 			has_enabled_estate = { estate = estate_eunuchs }
-			is_emperor_of_china = yes 
+			technology_group = chinese
+			technology_group = early_chinese
 			AND = {
 				has_unlocked_estate = { estate = estate_eunuchs }
 				NOT = { has_government_attribute = is_pirate_republic_reform }
@@ -17,21 +17,42 @@ estate_eunuchs = {
 				NOT = { has_reform = siberian_tribe }
 				NOT = { is_revolutionary_republic_trigger = yes }
 				NOT = { has_reform = revolutionary_empire_reform }
-				NOT = { has_reform = roman_empire_reform }
-				NOT = { has_reform = multi_party_system }
-				NOT = { has_reform = single_party_system }
-				NOT = { has_reform = military_government }
-				NOT = { has_reform = communist_government }
-				NOT = { has_reform = fascist_government }
 				is_nomad = no
 				is_colonial_nation = no
 			}
 		}
+		OR = {
+			has_enabled_estate = { estate = estate_eunuchs }
+			has_unlocked_estate = { estate = estate_eunuchs }
+			AND = {
+				culture_group = east_asian
+				government_rank = 3
+			}
+			is_emperor_of_china = yes
+			has_reform = celestial_empire
+			has_reform = chinese_claimant_empire_reform
+		}
+		NOT = { has_government_attribute = is_merchant_republic }
+		NOT = { has_reform = trading_city }
+		NOT = { is_revolutionary_republic_trigger = yes }
+		NOT = { government = native }
+		NOT = { has_reform = cossacks_reform }
+		NOT = { has_reform = siberian_tribe }
+		NOT = { has_reform = veche_republic }
+		NOT = { has_reform = pirate_republic_reform }
+		NOT = { has_reform = roman_empire_reform }
+		NOT = { has_reform = multi_party_system }
+		NOT = { has_reform = single_party_system }
+		NOT = { has_reform = military_government }
+		NOT = { has_reform = communist_government }
+		NOT = { has_reform = fascist_government }
+		is_nomad = no
+		is_colonial_nation = no
+		NOT = { has_reform = revolutionary_empire_reform }
 	}
 
-	# These scale with loyalty & power
 	country_modifier_happy = {
-		#manpower_recovery_speed = 0.2 
+		#manpower_recovery_speed = 0.2 		#changed to vanilla modifiers
 		#fort_maintenance_modifier = -0.1
 		reduced_liberty_desire = 20
 		yearly_corruption = -0.15
@@ -47,9 +68,26 @@ estate_eunuchs = {
 	land_ownership_modifier = {
 		eunuchs_loyalty_modifier = 0.2
 	}
-	
+
 	province_independence_weight = {
 		factor = 1
+		modifier = {
+			factor = 1.5
+			culture_group = owner
+			religion_group = owner
+		}
+		modifier = {
+			factor = 1.5
+			base_tax = 5
+		}
+		modifier = {
+			factor = 0.75
+			development = 20
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { is_state_core = owner }
+		}
 		modifier = {
 			factor = 1.25
 			development = 25 
@@ -63,19 +101,37 @@ estate_eunuchs = {
 			base_tax = 8 
 		}
 	}
-
-	# Influence modifiers
-	base_influence = 10
+	
+	#Influence Modifiers
+	
+	influence_modifier = {
+		desc = EST_VAL_EMPEROR_OF_CHINA
+		trigger = {
+			is_emperor_of_china = yes
+		}
+		influence = 5
+	}
+	influence_modifier = {
+		desc = EST_VAL_EMPEROR_OF_CHINA_LOW_MANDATE
+		trigger = {
+			is_emperor_of_china = yes
+			NOT = { imperial_mandate = 2148 }
+		}
+		influence = 10
+	}
+	
 	influence_modifier = {
 		desc = EST_VAL_LOW_MANDATE
 		trigger = {
-			NOT = { imperial_mandate = 50 }
+			is_emperor_of_china = yes		#MMETR added, since now part of non-Emperor countries
+			NOT = { imperial_mandate = 2148 }
 		}
 		influence = 20		
 	}
 	influence_modifier = {
 		desc = EST_VAL_LOW_MERITOCRACY
 		trigger = {
+			is_emperor_of_china = yes		#MMETR added, since now part of non-Emperor countries
 			NOT = { meritocracy = 50 }
 		}
 		influence = 20
@@ -130,12 +186,27 @@ estate_eunuchs = {
 		influence = 5
 	}
 	
-	#Loyalty Modifiers
+	#Loyalty Modifers
+	loyalty_modifier = {
+		desc = EST_VAL_EMPEROR_OF_CHINA_LOW_MANDATE_LOYALTY
+		trigger = {
+			is_emperor_of_china = yes
+			NOT = { imperial_mandate = 2148 }
+		}
+		loyalty = -10
+	}
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
-			has_any_estate_disaster_active = yes
-			has_not_own_estate_disaster_active = { estate = estate_eunuchs }
+			OR = {
+				has_disaster = estate_nobility_disaster
+				has_disaster = estate_church_disaster
+				has_disaster = estate_burghers_disaster
+				has_disaster = estate_brahmins_disaster
+				has_disaster = estate_vaisyas_disaster
+				has_disaster = estate_jains_disaster
+				has_disaster = estate_nomadic_tribes_disaster
+			}
 		}
 		loyalty = -20
 	}
@@ -197,8 +268,21 @@ estate_eunuchs = {
 		trigger = { NOT = { power_projection = 50 } }
 		loyalty = -5
 	}
-
+	
+	#Alternative naming of estates - none
+	
+	color = { 146 64 87 }		#changed to vanilla color
+	
 	privileges = {
+		estate_eunuchs_land_rights
+		estate_eunuchs_noble_titles
+		estate_eunuchs_inner_circle
+		estate_eunuchs_limit_rights_to_counsel
+		estate_eunuchs_bureaucracy
+		estate_eunuchs_command_palace_guard
+		estate_eunuchs_royal_tutor
+		
+		#added in vanilla
 		estate_eunuchs_bookkeepers_privilege
 		estate_eunuchs_outwards_perfection_privilege
 		estate_eunuchs_palace_bureaucracy_privilege
@@ -218,7 +302,7 @@ estate_eunuchs = {
 	}
 
 	agendas = {
-		estate_eunuchs_develop_x_agenda
+		estate_eunuchs_develop_x_agenda				#vanilla agendas
 		estate_eunuchs_gather_x_gov_reform_agenda
 		estate_eunuchs_have_x_decree_agenda
 		estate_eunuchs_monthly_adm_agenda
@@ -233,8 +317,6 @@ estate_eunuchs = {
 		estate_eunuchs_porcelain_tower_agenda
 		estate_eunuchs_subsidize_subjects_agenda
 	}
-
-	color = { 146 64 87 }
 	
 	influence_from_dev_modifier = 1.0
 }

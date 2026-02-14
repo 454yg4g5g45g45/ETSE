@@ -6,7 +6,7 @@ country_event = {
 	id = mmetr_harmonization.1
 	title = "mmetr_harmonization.1.t"
 	desc = "mmetr_harmonization.1.desc"
-	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -61,6 +61,105 @@ country_event = {
 		tooltip = {
 			add_country_modifier = {
 				name = "harmonized_confucianism"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Sasanea Yang Harmonization
+country_event = {
+	id = mmetr_harmonization.3
+	title = "mmetr_harmonization.3.t"
+	desc = "mmetr_harmonization.3.desc"
+	picture = NUSANTARA_QUEEN_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { religion = sasanea_yang }
+				save_event_target_as = sasanea_yang_province
+			}
+			clr_country_flag = harmonization_shangdi_conflict
+			clr_country_flag = harmonization_han_kitab
+			clr_country_flag = harmonization_fate_of_advisor
+			clr_country_flag = harmonization_empowering_ceremonies
+		}
+	}
+	
+	option = {
+		name = "mmetr_harmonization.3.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_sasanea_yang"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Natic Harmonization
+country_event = {
+	id = mmetr_harmonization.4
+	title = "mmetr_harmonization.4.t"
+	desc = "mmetr_harmonization.4.desc"
+	picture = NUSANTARA_QUEEN_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { religion = natic }
+				save_event_target_as = natic_province
+			}
+			clr_country_flag = harmonization_shangdi_conflict
+			clr_country_flag = harmonization_han_kitab
+			clr_country_flag = harmonization_fate_of_advisor
+			clr_country_flag = harmonization_empowering_ceremonies
+		}
+	}
+	
+	option = {
+		name = "mmetr_harmonization.4.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_natic"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Moist Harmonization
+country_event = {
+	id = mmetr_harmonization.5
+	title = "mmetr_harmonization.5.t"
+	desc = "mmetr_harmonization.5.desc"
+	picture = NUSANTARA_QUEEN_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { religion = moism }
+				save_event_target_as = moism_province
+			}
+			clr_country_flag = harmonization_shangdi_conflict
+			clr_country_flag = harmonization_han_kitab
+			clr_country_flag = harmonization_fate_of_advisor
+			clr_country_flag = harmonization_empowering_ceremonies
+		}
+	}
+	
+	option = {
+		name = "mmetr_harmonization.5.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_moism"
 				duration = -1
 			}
 		}

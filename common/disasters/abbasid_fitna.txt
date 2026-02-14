@@ -5,7 +5,7 @@ abbasid_fitna = {
 		normal_or_historical_nations = yes
 		is_year = 2898
 		NOT = { is_year = 3098 }
-		NOT = { started_in = 3049.1.1 } 
+		NOT = { started_in = 3048.1.1 } 
 		num_of_cities = 100
 	}
 	
@@ -18,8 +18,10 @@ abbasid_fitna = {
 	}
 	
 	can_stop = {
-		has_any_disaster = yes
-		stability = 3
+		OR = {
+			has_any_disaster = yes
+			stability = 3
+		}
 	}
 	
 	progress = {

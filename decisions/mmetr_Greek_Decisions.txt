@@ -33,7 +33,7 @@ country_decisions = {
 					ai = no
 				}
 			}
-			NOT = { started_in = 2575.9.4 }	#Fall of Rome, rough beginning of Middle Ages
+			NOT = { started_in = 2574.9.4 }	#Fall of Rome, rough beginning of Middle Ages
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -60,9 +60,9 @@ country_decisions = {
 			if = {
 				limit = {
 					NOT = {
-						government_rank = 8
+						government_rank = 2
 					}
-					set_government_rank = 8
+					set_government_rank = 2
 				}
 			}
 			add_country_modifier = {

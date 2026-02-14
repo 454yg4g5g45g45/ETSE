@@ -707,7 +707,6 @@ colonial_brazil = {
 				owns = 744
 				owns = 746
 				owns = 2826
-				name = "COLONIAL_GUYANA_Root_Culture_GetName_Guyana"
 			}
 		}
 	}

@@ -1,0 +1,186 @@
+namespace = mmetr_PLM_mission_events
+
+# Righter of the Entire East
+country_event = {
+	id = mmetr_PLM_mission_events.1
+	title = "mmetr_PLM_mission_events.1.t"
+	desc = "mmetr_PLM_mission_events.1.desc"
+	picture = MMETR_CAESARS_LEGIONS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_PLM_mission_events.1.a"
+		
+		custom_tooltip = plm_corrector_totius_orientis_mission.tt
+		set_country_flag = plm_corrector_totius_orientis_flag
+		add_casus_belli = {
+			target = ROM
+			type = cb_claim_eastern_provinces
+			months = 600
+		}
+		add_country_modifier = {
+			name = "me_plm_corrector_totius_orientis"
+			duration = 10950
+		}
+	}
+}
+
+# Jewish Communities of Palmyra
+country_event = {
+	id = mmetr_PLM_mission_events.2
+	title = "mmetr_PLM_mission_events.2.t"
+	desc = "mmetr_PLM_mission_events.2.desc"
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_PLM_mission_events.2.a"
+		
+		add_country_modifier = {
+			name = "me_plm_jewish_community_appeased"
+			duration = 10950
+		}
+		if = {
+			limit = {
+				379 = {
+					NOT = { religion = jewish }
+				}
+			}
+			379 = {
+				change_religion = jewish
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_PLM_mission_events.2.a"
+		
+		add_country_modifier = {
+			name = "me_plm_pantheon_supremacy"
+			duration = 10950
+		}
+		every_owned_province = {
+			limit = {
+				religion = jewish
+			}
+			add_unrest = 5
+		}
+	}
+}
+
+# Triumph in Rome
+country_event = {
+	id = mmetr_PLM_mission_events.3
+	title = "mmetr_PLM_mission_events.3.t"
+	desc = "mmetr_PLM_mission_events.3.desc"
+	picture = MMETR_CAESARS_LEGIONS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_PLM_mission_events.3.a"
+		
+		if = {
+			limit = {
+				NOT = {
+					capital = 118	#Roma
+				}
+			}
+			118 = {
+				add_base_production = -1
+			}
+			capital_scope = {
+				add_base_production = 1
+			}
+		}
+		add_treasury = 200
+		118 = {
+			add_unrest = 10
+		}
+	}
+	
+	option = {
+		name = "mmetr_PLM_mission_events.3.b"
+		
+		add_treasury = 150
+		118 = {
+			add_unrest = 5
+		}
+	}
+	
+	option = {
+		name = "mmetr_PLM_mission_events.3.c"
+		
+		118 = {
+			add_unrest = -1
+		}
+	}
+}
+
+# To Govern the Palmyrenes
+country_event = {
+	id = mmetr_PLM_mission_events.4
+	title = "mmetr_PLM_mission_events.4.t"
+	desc = "mmetr_PLM_mission_events.4.desc"
+	picture = MMETR_SOUTH_ARABIAN_KING_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_PLM_mission_events.4.a"
+		
+		ai_chance = { factor = 100 }
+		
+		if = {
+			limit = {
+				NOT = {
+					government = monarchy
+				}
+			}
+			change_government = monarchy
+			add_government_reform = autocracy_reform
+			add_legitimacy = 40
+			add_country_modifier = {
+				name = "me_plm_royal_family_strengthened"
+				duration = 10950
+			}
+		}
+		else = {
+			add_legitimacy = 40
+			add_country_modifier = {
+				name = "me_plm_royal_family_strengthened"
+				duration = 10950
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_PLM_mission_events.4.b"
+		
+		ai_chance = { factor = 0 }
+		
+		if = {
+			limit = {
+				NOT = {
+					government = republic
+				}
+			}
+			change_government = republic
+			add_government_reform = oligarchic_republic
+			add_republican_tradition = 30
+			add_country_modifier = {
+				name = "me_plm_senatorial_restoration"
+				duration = 10950
+			}
+		}
+		else = {
+			add_republican_tradition = 30
+			add_country_modifier = {
+				name = "me_plm_senatorial_restoration"
+				duration = 10950
+			}
+		}
+	}
+}

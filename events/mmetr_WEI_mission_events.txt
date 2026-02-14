@@ -1,0 +1,337 @@
+namespace = mmetr_WEI_mission_events
+
+# The Nine Bestowments
+country_event = {
+	id = mmetr_WEI_mission_events.1
+	title = "mmetr_WEI_mission_events.1.t"
+	desc = "mmetr_WEI_mission_events.1.desc"
+	picture = MMETR_CHINESE_COURT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.1.a"
+		
+		add_legitimacy = 25
+		add_country_modifier = {
+			name = "me_wei_nine_bestowments"
+			duration = 10950
+		}
+	}
+}
+
+# Palace Renovations
+country_event = {
+	id = mmetr_WEI_mission_events.2
+	title = "mmetr_WEI_mission_events.2.t"
+	desc = "mmetr_WEI_mission_events.2.desc"
+	picture = MMETR_GREAT_WALL_CONSTRUCTION_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.2.a"
+		
+		add_legitimacy = 25
+		add_country_modifier = {
+			name = "me_wei_palace_renovations"
+			duration = 10950
+		}
+	}
+	
+	option = {
+		name = "mmetr_WEI_mission_events.2.b"
+		
+		add_years_of_income = -0.7
+		add_prestige = 10
+		add_legitimacy = 25
+		add_country_modifier = {
+			name = "me_wei_palace_renovations"
+			duration = 10950
+		}
+	}
+}
+
+# Education Policy
+country_event = {
+	id = mmetr_WEI_mission_events.3
+	title = "mmetr_WEI_mission_events.3.t"
+	desc = "mmetr_WEI_mission_events.3.desc"
+	picture = MMETR_CHINESE_GENERAL_JOIN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.3.a"
+		
+		add_country_modifier = {
+			name = "me_wei_edict_for_talents"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "me_wei_meritocratic_education"
+			duration = 10950
+		}
+	}
+}
+
+# Seven Steps Poem
+country_event = {
+	id = mmetr_WEI_mission_events.4
+	title = "mmetr_WEI_mission_events.4.t"
+	desc = "mmetr_WEI_mission_events.4.desc"
+	picture = MMETR_CHINESE_COURT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.4.a"
+		
+		add_country_modifier = {
+			name = "me_wei_cadet_branches_of_wei"
+			duration = 10950
+		}
+	}
+}
+
+# The Fall of Wu
+country_event = {
+	id = mmetr_WEI_mission_events.5
+	title = "mmetr_WEI_mission_events.5.t"
+	desc = "mmetr_WEI_mission_events.5.desc"
+	picture = MMETR_CHINESE_GENERAL_JOIN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.5.a"
+		
+		add_country_modifier = {
+			name = "me_wei_southern_integration"
+			duration = 10950
+		}
+	}
+	
+	option = {
+		name = "mmetr_WEI_mission_events.5.b"
+		
+		add_years_of_income = -0.25
+		add_country_modifier = {
+			name = "me_wei_rewarded_generals"
+			duration = 10950
+		}
+		add_country_modifier = {
+			name = "me_wei_southern_integration"
+			duration = 10950
+		}
+	}
+}
+
+# Talents North of the Yellow River
+country_event = {
+	id = mmetr_WEI_mission_events.6
+	title = "mmetr_WEI_mission_events.6.t"
+	desc = "mmetr_WEI_mission_events.6.desc"
+	picture = MMETR_CHINESE_GENERAL_JOIN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.6.a"
+		
+		add_army_tradition = 15
+		add_country_modifier = {
+			name = "me_wei_officials_of_jizhou"
+			duration = 10950
+		}
+	}
+}
+
+# Palace in Yecheng
+country_event = {
+	id = mmetr_WEI_mission_events.7
+	title = "mmetr_WEI_mission_events.7.t"
+	desc = "mmetr_WEI_mission_events.7.desc"
+	picture = MMETR_GREAT_WALL_CONSTRUCTION_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.7.a"
+		
+		south_hebei_area = {
+			limit = {
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = "me_wei_yecheng_canals"
+				duration = -1
+			}
+		}
+		4195 = {
+			add_province_modifier = {
+				name = "me_wei_hall_of_civil_splendor"
+				duration = -1
+			}
+		}
+	}
+}
+
+# Way of the Five Pecks of Rice Sect
+country_event = {
+	id = mmetr_WEI_mission_events.8
+	title = "mmetr_WEI_mission_events.8.t"
+	desc = "mmetr_WEI_mission_events.8.desc"
+	picture = MMETR_DAOIST_ALCHEMIST_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.8.a"
+		
+		689 = {
+			add_province_modifier = {
+				name = "me_wei_resettled_sect_followers"
+				duration = 10950
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_WEI_mission_events.8.b"
+		
+		689 = {
+			add_province_modifier = {
+				name = "me_wei_way_of_five_pecks_of_rice_sect"
+				duration = -1
+			}
+		}
+	}
+}
+
+# The Conquest of Shu
+country_event = {
+	id = mmetr_WEI_mission_events.9
+	title = "mmetr_WEI_mission_events.9.t"
+	desc = "mmetr_WEI_mission_events.9.desc"
+	picture = MMETR_CHINESE_GENERAL_JOIN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.9.a"
+		
+		add_adm_power = 100
+		add_prestige = 15
+		add_ruler_modifier = {
+			name = "me_wei_great_conqueror"
+			duration = -1
+		}
+	}
+}
+
+# Bronze Bird Terrace
+country_event = {
+	id = mmetr_WEI_mission_events.10
+	title = "mmetr_WEI_mission_events.10.t"
+	desc = "mmetr_WEI_mission_events.10.desc"
+	picture = MMETR_CHINESE_COURT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.10.a"
+		
+		add_prestige = 15
+		4195 = {
+			add_province_modifier = {
+				name = "me_wei_a_new_changan"
+				duration = 10950
+			}
+		}
+		if = {
+			limit = { 
+				has_dlc = "Rights of Man" 
+				NOT = { num_of_ruler_traits = { amount = 3 } }
+			}
+			add_ruler_personality = architectural_visionary_personality
+		}
+	}
+}
+
+# The Fall of Hwando
+country_event = {
+	id = mmetr_WEI_mission_events.11
+	title = "mmetr_WEI_mission_events.11.t"
+	desc = "mmetr_WEI_mission_events.11.desc"
+	picture = MMETR_CHINESE_GENERAL_JOIN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_WEI_mission_events.11.a"
+		
+		korea_region = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			add_province_modifier = {
+				name = "me_wei_goguryeo_autonomy"
+				duration = 10950
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_WEI_mission_events.11.b"
+		
+		korea_region = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			add_province_modifier = {
+				name = "me_wei_goguryeo_integration"
+				duration = 10950
+			}
+		}
+	}
+	
+	option = {
+		name = "mmetr_WEI_mission_events.11.c"
+		
+		trigger = {
+			OR = {
+				NOT = { exists = GOG }
+				overlord_of = GOG
+			}
+		}
+		hamgyeong_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = GOG
+			add_core = GOG
+		}
+		eastern_korea_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = GOG
+			add_core = GOG
+		}
+		south_korea_area = {
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cede_province = GOG
+			add_core = GOG
+		}
+		create_march = GOG
+		GOG = {
+			add_country_modifier = {
+				name = "me_fun_granted_autonomy"
+				duration = 1825
+			}
+		}
+	}
+}

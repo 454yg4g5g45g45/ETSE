@@ -1,5 +1,48 @@
 namespace = mmetr_SUK_mission_events
 
+# The Father of the People
+country_event = {
+	id = mmetr_SUK_mission_events.1
+	title = "mmetr_SUK_mission_events.1.t"
+	desc = "mmetr_SUK_mission_events.1.desc"
+	picture = NUSANTARA_THRONE_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_SUK_mission_events.1.a"
+		
+		if = {
+			limit = {
+				NOT = {
+					OR = {	
+						has_reform = paternal_monarchy_reform
+						has_reform = paternal_monarchy
+					}
+				}
+			}
+			add_government_reform = paternal_monarchy_reform
+		}
+		else = {
+			add_adm_power = 75
+		}
+	}
+	
+	option = {
+		name = "mmetr_SUK_mission_events.1.b"
+		
+		trigger = {
+			NOT = {
+				OR = {	
+					has_reform = paternal_monarchy_reform
+					has_reform = paternal_monarchy
+				}
+			}
+		}
+		add_adm_power = 75
+	}
+}
+
 # An Elephant for the [Root.Monarch.GetTitle]
 country_event = {
 	id = mmetr_SUK_mission_events.2

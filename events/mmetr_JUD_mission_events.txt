@@ -1,0 +1,180 @@
+namespace = mmetr_JUD_mission_events
+
+# The Walls of King Herod
+country_event = {
+	id = mmetr_JUD_mission_events.1
+	title = "mmetr_JUD_mission_events.1.t"
+	desc = "mmetr_JUD_mission_events.1.desc"
+	picture = FORT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_JUD_mission_events.1.a"
+		
+		379 = {
+			add_province_modifier = {
+				name = "me_jud_herodian_walls"
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				has_estate = estate_church
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
+			}
+		}
+		else = {
+			add_prestige = 10
+			add_church_power = 10
+		}
+	}
+	
+	option = {
+		name = "mmetr_JUD_mission_events.1.b"
+		
+		379 = {
+			add_province_modifier = {
+				name = "me_jud_herodian_walls"
+				duration = -1
+			}
+		}
+		add_manpower = 5
+	}
+}
+
+# The Greek Question
+country_event = {
+	id = mmetr_JUD_mission_events.2
+	title = "mmetr_JUD_mission_events.2.t"
+	desc = "mmetr_JUD_mission_events.2.desc"
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_JUD_mission_events.2.a"
+		
+		add_faction_influence = {
+			faction = pharisees
+			influence = 15
+		}
+		add_country_modifier = {
+			name = "me_jud_hellenes_rejected"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "mmetr_JUD_mission_events.2.b"
+		
+		add_faction_influence = {
+			faction = sadducees
+			influence = 15
+		}
+		add_country_modifier = {
+			name = "me_jud_hellenes_embraced"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "mmetr_JUD_mission_events.2.c"
+		
+		add_faction_influence = {
+			faction = zealots
+			influence = 15
+		}
+		add_country_modifier = {
+			name = "me_jud_hellenes_vehemently_rejected"
+			duration = -1
+		}
+	}
+}
+
+# Allies of the Romans
+country_event = {
+	id = mmetr_JUD_mission_events.3
+	title = "mmetr_JUD_mission_events.3.t"
+	desc = "mmetr_JUD_mission_events.3.desc"
+	picture = MMETR_CAESARS_LEGIONS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_JUD_mission_events.3.a"
+		
+		custom_tooltip = pon_amicitia_of_rome_mission.tt
+		add_country_modifier = {
+			name = "me_pon_trustworthy_friend"
+			duration = 14600	#40 years
+		}
+		random_known_country = {
+			limit = {
+				OR = {
+					tag = ROM
+					tag = ROW
+					tag = BYZ
+					was_tag = ROM
+					was_tag = ROW
+					was_tag = BYZ
+				}
+				overlord_of = ROOT
+			}
+			create_subject = {
+				subject_type = foederatus_subject
+				subject = ROOT
+			}
+		}
+	}
+}
+
+# Avenging the Destruction of the Second Temple
+country_event = {
+	id = mmetr_JUD_mission_events.4
+	title = "mmetr_JUD_mission_events.4.t"
+	desc = "mmetr_JUD_mission_events.4.desc"
+	picture = MMETR_CAESARS_LEGIONS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_JUD_mission_events.4.a"
+		
+		add_prestige = 20
+	}
+}
+
+# The Old Kingdom of Judah
+country_event = {
+	id = mmetr_JUD_mission_events.5
+	title = "mmetr_JUD_mission_events.5.t"
+	desc = "mmetr_JUD_mission_events.5.desc"
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "mmetr_JUD_mission_events.5.a"
+		
+		add_faction_influence = {
+			faction = sadducees
+			influence = 10
+		}
+		ai_chance = { factor = 1 }
+	}
+	
+	option = {
+		name = "mmetr_JUD_mission_events.5.b"
+		
+		override_country_name = JUDAH_COUNTRY_NAME
+		add_faction_influence = {
+			faction = zealots
+			influence = 10
+		}
+		ai_chance = { factor = 0 }
+	}
+}

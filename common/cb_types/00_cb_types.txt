@@ -1476,6 +1476,7 @@ cb_take_mandate = {
 		NOT = { has_reform = shogunate }
 		is_revolutionary = no
 		OR = {
+			has_country_flag = mmetr_can_claim_mandate_of_heaven_cb_flag 	#MMETR added for unlocking CB
 			religion_group = pagan
 			religion_group = eastern
 			religion_group = buddhic
@@ -1897,35 +1898,36 @@ cb_enforce_electorate_right = {
 	war_goal = war_goal_usurp_electorate
 }
 
-
-cb_grand_crusade = {
-	valid_for_subject = no
-	holy_war = yes
-
-	prerequisites = {
-		religion = catholic
-		has_country_flag = can_declare_grand_crusade_wars
-		FROM = { 
-			total_development = 300
-			any_owned_province = {
-				OR = {
-					area = palestine_area
-					area = syria_area
-					area = aleppo_area
-					continent = europe
-				}
-			}
-		}
-		NOT = { religion_group = FROM }
-		NOT = {	has_matching_religion = FROM }
-		is_revolutionary = no
-	}
-
-	war_goal = superiority_grand_crusade
-}
-
+#Cut because the Grand Crusade war doesn't really have any place in the current content, but it could be very useful for the future.
+#Also modders should have the chance to just uncomment it all so they can experience the great 30 Years War like Crusade.
+# Grand Crusade
+#cb_grand_crusade = {
+#	valid_for_subject = no
+#	holy_war = yes
+#
+#	prerequisites = {
+#		religion = catholic
+#		has_country_flag = can_declare_grand_crusade_wars
+#		FROM = { 
+#			total_development = 300
+#			any_owned_province = {
+#				OR = {
+#					area = palestine_area
+#					area = syria_area
+#					area = aleppo_area
+#					continent = europe
+#				}
+#			}
+#		}
+#		NOT = { religion_group = FROM }
+#		NOT = {	has_matching_religion = FROM }
+#		is_revolutionary = no
+#	}
+#
+#	war_goal = superiority_grand_crusade
+#}
 #cb_grand_crusade: "Grand Crusade"
-#cb_grand_crusade_desc: "They are accursed yet powerful infidels, and a threat to the Christian world!\nÂ§YCatholic and the enemy's brethren of faith can join their respected side mid this war.Â§!\nÂ§RCannot declare other wars while using this casus belli.Â§!"
+#cb_grand_crusade_desc: "They are accursed yet powerful infidels, and a threat to the Christian world!\n§YCatholic and the enemy's brethren of faith can join their respected side mid this war.§!\n§RCannot declare other wars while using this casus belli.§!"
 
 # Unite the Balkans cb - dangerously close to fantasy here
 cb_unite_balkans = {
@@ -2227,4 +2229,45 @@ cb_salic_reunification = {
 	}
 
 	war_goal = take_capital_salic
+}
+
+
+#New added MMETR
+
+cb_conclude_civil_war = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 600
+	
+	prerequisites_self = {
+		is_subject = no
+	}
+
+	prerequisites = {
+		FROM = {
+			has_country_flag = civil_war_breakaway_country_flag
+		}
+	}
+
+	war_goal = civil_war_wargoal
+}
+cb_claim_eastern_provinces = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 600
+	
+	prerequisites_self = {
+		has_country_flag = plm_corrector_totius_orientis_flag
+	}
+
+	prerequisites = {
+		FROM = {
+			NOT = { is_subject_of = ROOT }
+		}
+		is_neighbor_of = FROM
+	}
+
+	war_goal = take_capital_palmyra
 }

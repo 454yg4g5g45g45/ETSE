@@ -1,0 +1,409 @@
+#Palmyrene Gods
+
+bel_cult_aspect = {
+	sprite = "GFX_bel_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {
+		OR = {
+			has_terrain = desert
+			has_terrain = coastal_desert
+		}
+	}
+	effect = {
+		custom_tooltip = bel_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "bel_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+yarhibol_cult_aspect = {
+	sprite = "GFX_yarhibol_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {
+		OR = {
+			owns_or_subject_of = 405	#location of Efga Spring
+			405 = {
+				religion = canaanite_religion
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = yarhibol_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "yarhibol_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+aglibol_and_malakbel_cult_aspect = {
+	sprite = "GFX_aglibol_and_malakbel_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {}
+	effect = {
+		custom_tooltip = aglibol_and_malakbel_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "aglibol_and_malakbel_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+baal_shamin_cult_aspect = {
+	sprite = "GFX_baal_shamin_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {}
+	effect = {
+		custom_tooltip = baal_shamin_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "baal_shamin_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+astarte_cult_aspect = {
+	sprite = "GFX_astarte_cult_aspect_icon"
+	cost = 120
+	potential = {
+		always = yes
+	}
+	trigger = {}
+	effect = {
+		custom_tooltip = astarte_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "astarte_cult_aspect_modifier"
+				duration = 5475
+			}
+			add_war_exhaustion = -1
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+shadrafa_cult_aspect = {
+	sprite = "GFX_shadrafa_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {}
+	effect = {
+		custom_tooltip = shadrafa_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "shadrafa_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+maan_and_saad_cult_aspect = {
+	sprite = "GFX_maan_and_saad_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {
+		OR = {
+			has_terrain = desert
+			has_terrain = coastal_desert
+		}
+	}
+	effect = {
+		custom_tooltip = maan_and_saad_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "maan_and_saad_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+ginnaye_of_the_clan_cult_aspect = {
+	sprite = "GFX_ginnaye_of_the_clan_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {
+		legitimacy_equivalent = 60
+	}
+	effect = {
+		custom_tooltip = ginnaye_of_the_clan_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "ginnaye_of_the_clan_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+#Mesopotamian Gods
+
+nabu_cult_aspect = {
+	sprite = "GFX_nabu_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {
+		OR = {
+			accepted_culture = babylonian
+			accepted_culture = assyrian
+			any_owned_province = {
+				OR = {
+					religion = ashurism
+					culture = babylonian
+					culture = assyrian
+				}
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = nabu_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "nabu_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+shamash_cult_aspect = {
+	sprite = "GFX_shamash_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {
+		OR = {
+			accepted_culture = babylonian
+			accepted_culture = assyrian
+			any_owned_province = {
+				OR = {
+					religion = ashurism
+					culture = babylonian
+					culture = assyrian
+					culture_group = turko_semitic
+				}
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = shamash_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "shamash_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+nergal_cult_aspect = {
+	sprite = "GFX_nergal_cult_aspect_icon"
+	cost = 120
+	potential = {
+		always = yes
+	}
+	trigger = {
+		OR = {
+			had_recent_war = 15
+			is_at_war = yes
+		}
+		OR = {
+			accepted_culture = babylonian
+			accepted_culture = assyrian
+			any_owned_province = {
+				OR = {
+					religion = ashurism
+					culture = babylonian
+					culture = assyrian
+					culture_group = turko_semitic
+				}
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = nergal_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "nergal_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+shai_al_qaum_cult_aspect = {
+	sprite = "GFX_shai_al_qaum_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {
+		OR = {
+			accepted_culture = nabataean_culture
+			primary_culture = nabataean_culture
+			any_owned_province = {
+				OR = {
+					religion = nabataean
+					culture = nabataean_culture
+				}
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = shai_al_qaum_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "shai_al_qaum_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+#Hellenic Gods
+
+nebo_cult_aspect = {	#Apollo
+	sprite = "GFX_nebo_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {
+		any_owned_province = {
+			OR = {
+				religion = hellenic
+				culture_group = byzantine
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = nebo_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "nebo_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+elqonera_cult_aspect = {	#Poseidon
+	sprite = "GFX_elqonera_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {
+		any_owned_province = {
+			has_port = yes
+		}
+		any_owned_province = {
+			OR = {
+				religion = hellenic
+				culture_group = byzantine
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = elqonera_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "elqonera_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+nike_cult_aspect = {	#Nike
+	sprite = "GFX_nike_cult_aspect_icon"
+	cost = 100
+	potential = {
+		always = yes
+	}
+	trigger = {
+		OR = {
+			had_recent_war = 15
+			is_at_war = yes
+		}
+		any_owned_province = {
+			OR = {
+				religion = hellenic
+				culture_group = byzantine
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = nike_cult_aspect.tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = "nike_cult_aspect_modifier"
+				duration = 5475
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
