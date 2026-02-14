@@ -1,11 +1,11 @@
 version="1.37"
-replace_path="customizable_localization"
-replace_path="map"
 replace_path="map/random"
+replace_path="map/random"
+replace_path="map"
 replace_path="missions"
+replace_path="history/provinces"
 replace_path="history"
 replace_path="history/countries"
-replace_path="history/provinces"
 replace_path="common/bookmarks"
 tags={
 	"Expansion"
@@ -20,6 +20,4 @@ tags={
 	"Sound"
 }
 name="Extended Timeline Super Expanded (WIP)"
-picture="extended_timeline_se.png"
 supported_version="v1.37.5.0"
-remote_file_id="3390614528"
