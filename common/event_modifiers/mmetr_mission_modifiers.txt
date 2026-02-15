@@ -1781,7 +1781,7 @@ me_kha_et_great_yassa = {
 me_kha_et_tumen_system = {
 	army_tradition_decay = -0.01
 	nomadic_tribes_loyalty_modifier = 0.10
-	nomadic_tribes_influence_modifier = 0.1 = -0.10
+	nomadic_tribes_influence_modifier = -0.10
 }
 me_kha_et_extended_khaganate_dynasty = {
 	heir_chance = 0.5

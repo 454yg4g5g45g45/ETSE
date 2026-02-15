@@ -417,7 +417,7 @@ country_event = {
 	trigger = {
 		technology_group = western
 		NOT = { capital_scope = { continent = north_america } }
-		NOT = { capital_scope = { continent = south_america }
+		NOT = { capital_scope = { continent = south_america } }
 		is_institution_enabled = new_world_i
 		OR = {
 			north_america = { has_discovered = ROOT }

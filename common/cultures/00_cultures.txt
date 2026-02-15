@@ -12,8 +12,6 @@
 
 germanic = {
 	graphical_culture = westerngfx
-
-	male_names = { Gunther Rolf }
 	
 	pommeranian = {
 		primary = POM
@@ -545,7 +543,7 @@ germanic = {
 	}
 	
 	male_names = { 
-		Gunther Rolf 
+		Gunther Rolf Walther Svendius Karlus
 	}
 	female_names = {
 		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda 
@@ -3467,11 +3465,8 @@ latin = {
 
 iberian	= {
 	graphical_culture = westerngfx
-
-	country = { }
 	province = { local_has_tercio = yes }
-	castillian = {
-		country = { } 
+	castillian = { 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = CAS
 		dynasty_names = {
@@ -3502,8 +3497,7 @@ iberian	= {
 			Isabel
 		}
 	}
-	leonese = {
-		country = { } 
+	leonese = { 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = LON
 		dynasty_names = {
@@ -3533,8 +3527,7 @@ iberian	= {
 			Mayor Mencía Milia Emily Sancha Teresa Toda Urraca Isabela
 		}
 	}
-	aragonese = {
-		country = { } 
+	aragonese = { 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = ARA
 		dynasty_names = {
@@ -3560,8 +3553,7 @@ iberian	= {
 			Maria Marquesa Marquise Sança Sancha Sibila Sibylla Teresa Toda Violant Yolanda
 		}
 	}
-	catalan = {
-		country = { } 
+	catalan = { 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = CAT
 		dynasty_names = {
@@ -3584,8 +3576,7 @@ iberian	= {
 			Montserrat Núria Octàvia Prudència Roberta Rodolfa
 		}
 	}
-	galician = {
-		country = { } 
+	galician = { 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = GAL
 		dynasty_names = {
@@ -3607,8 +3598,7 @@ iberian	= {
 			Blanche Antía Carme Catarina Dores Iria Lía Margarida María Noela Rosalía Sabela Uxía Xoana
 		}
 	}
-	portugese = {
-		country = { } 
+	portugese = { 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = POR
 		dynasty_names = {
@@ -3655,8 +3645,7 @@ iberian	= {
 			Madalena Gabriela
 		}
 	}
-	lusitanian = {
-		country = { } 
+	lusitanian = { 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = LUS
 		dynasty_names = {
@@ -3672,8 +3661,7 @@ iberian	= {
 			Nabia Coventina Stena
 		}
 	}
-	turduli = {
-		country = { } 
+	turduli = { 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		dynasty_names = {
 			Celtiberi Carpetani Vaccaei Turduli Celtici Callaeci Bastetani Edetani Ilercavone
@@ -3688,8 +3676,7 @@ iberian	= {
 			Nabia Coventina Stena
 		}
 	}
-	iberi = {
-		country = { } 
+	iberi = { 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		dynasty_names = {
 			Oretani Bastetani Contestani Edetani Ilercavone Ilergean Indikete Cessetani Lacetani Ausetani
@@ -4071,16 +4058,12 @@ iberian	= {
 
 basque_group = {
 	graphical_culture = westerngfx
-
-	country = { }
 	province = { local_has_tercio = yes }
 	basque = {
-		primary = VAS
-		country = { } 
+		primary = VAS 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 	}
-	aquitanian = {
-		country = { } 
+	aquitanian = { 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = AQT
 		dynasty_names = { "de Navarra" "de Beaumont" "de Lerín" "de Monteagudo" }
