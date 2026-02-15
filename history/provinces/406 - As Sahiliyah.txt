@@ -8,6 +8,7 @@
  
 owner = A7T
 controller = A7T
+add_core = A7T
 base_tax = 3
 base_production = 2
 base_manpower = 2
@@ -32,10 +33,10 @@ discovered_by = middle_eastern
 discovered_by = muslim
 
 
-
 2100.1.1 = {
 	owner = A7T
 	controller = A7T
+	add_core = PRT
 }
 2214.1.1 = {
 	owner = ROM
