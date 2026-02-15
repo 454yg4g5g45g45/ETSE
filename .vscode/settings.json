@@ -1,0 +1,6 @@
+{
+    "cwtools.errors.vanilla": true,
+    "cwtools.debug_mode": true,
+    "cwtools.maxFileSize": 8,
+    "cwtools.trace.server": "messages"
+}
