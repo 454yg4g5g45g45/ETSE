@@ -862,7 +862,7 @@ hsn_first_branch_2 = {
 		}
 		
 		effect = {
-			set_government_rank = 10
+			set_government_rank = 3
 			custom_tooltip = hsn_empty
 			country_event = { id = flavor_hsn.3 }
 			custom_tooltip = hsn_caliphate_insight_tt

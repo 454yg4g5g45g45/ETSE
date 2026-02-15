@@ -12,7 +12,7 @@ trade_goods = livestock
 
 culture = hannoverian
 religion = germanic
-capital = "Bremervörde"
+capital = "BremervÃ¶rde"
 
 is_city = yes
 

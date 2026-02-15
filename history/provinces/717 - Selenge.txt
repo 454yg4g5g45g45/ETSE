@@ -131,7 +131,7 @@ discovered_by = early_chinese
 3938.1.1 = {
 	add_core = KHA
 	remove_core = OIR
-	capital = "Öndörkhaan"
+	capital = "Ã–ndÃ¶rkhaan"
 }
 4008.1.1 = {
 	discovered_by = western

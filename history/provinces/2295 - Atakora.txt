@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = dagomba
 religion = shamanism
-capital = "Sansanné Mango"
+capital = "SansannÃ© Mango"
 
 native_size = 60
 native_ferocity = 4.5
@@ -34,7 +34,7 @@ discovered_by = sub_saharan
 	owner = GER
 	controller = GER
 	add_core = GER
-	capital = "Sokodé"
+	capital = "SokodÃ©"
 }
 4017.6.28 = {
 	owner = FR2

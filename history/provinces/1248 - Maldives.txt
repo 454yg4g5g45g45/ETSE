@@ -12,7 +12,7 @@ trade_goods = gems
 
 culture = sinhala
 religion = mahayana
-capital = "Malé"
+capital = "MalÃ©"
 
 is_city = yes
 

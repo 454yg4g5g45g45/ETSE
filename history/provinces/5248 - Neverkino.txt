@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = mordvin
 religion = tengri_pagan_reformed
-capital = "Çarttala"
+capital = "Ã‡arttala"
 
 
 

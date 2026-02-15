@@ -32,8 +32,8 @@ capital = 1137
 
 3312.1.1 = {
 	heir = {
-		name = "Naskiemdé"
-		monarch_name = "Naskiemdé"
+		name = "NaskiemdÃ©"
+		monarch_name = "NaskiemdÃ©"
 		dynasty = "Oubritenga"
 		birth_date = 3312.1.1
 		death_date = 3384.1.1
@@ -46,7 +46,7 @@ capital = 1137
 
 3342.1.1 = {
 	monarch = {
-		name = "Naskiemdé"
+		name = "NaskiemdÃ©"
 		dynasty = "Oubritenga"
 		birth_date = 3312.1.1
 		adm = 3
@@ -57,8 +57,8 @@ capital = 1137
 
 3354.1.1 = {
 	heir = {
-		name = "Nasbiré"
-		monarch_name = "Nasbiré"
+		name = "NasbirÃ©"
+		monarch_name = "NasbirÃ©"
 		dynasty = "Oubritenga"
 		birth_date = 3354.1.1
 		death_date = 3405.1.1
@@ -73,7 +73,7 @@ capital = 1137
 
 3384.1.1 = {
 	monarch = {
-		name = "Nasbiré"
+		name = "NasbirÃ©"
 		dynasty = "Oubritenga"
 		birth_date = 3354.1.1
 		adm = 4
@@ -134,8 +134,8 @@ capital = 1137
 
 3421.1.1 = {
 	heir = {
-		name = "Koundoumié"
-		monarch_name = "Koundoumié"
+		name = "KoundoumiÃ©"
+		monarch_name = "KoundoumiÃ©"
 		dynasty = "Oubritenga"
 		birth_date = 3405.1.1
 		death_date = 3456.1.1
@@ -148,7 +148,7 @@ capital = 1137
 
 3435.1.1 = {
 	monarch = {
-		name = "Koundoumié"
+		name = "KoundoumiÃ©"
 		dynasty = "Oubritenga"
 		birth_date = 3405.1.1
 		adm = 4
@@ -209,8 +209,8 @@ capital = 1137
 
 3499.1.1 = {
 	heir = {
-		name = "Zoétré Bousma"
-		monarch_name = "Zoétré Bousma"
+		name = "ZoÃ©trÃ© Bousma"
+		monarch_name = "ZoÃ©trÃ© Bousma"
 		dynasty = "Oubritenga"
 		birth_date = 3477.1.1
 		death_date = 3539.1.1
@@ -223,7 +223,7 @@ capital = 1137
 
 3507.1.1 = {
 	monarch = {
-		name = "Zoétré Bousma"
+		name = "ZoÃ©trÃ© Bousma"
 		dynasty = "Oubritenga"
 		birth_date = 3477.1.1
 		adm = 0
@@ -284,8 +284,8 @@ capital = 1137
 
 3609.1.1 = {
 	heir = {
-		name = "Namégué"
-		monarch_name = "Namégué"
+		name = "NamÃ©guÃ©"
+		monarch_name = "NamÃ©guÃ©"
 		dynasty = "Oubritenga"
 		birth_date = 3609.1.1
 		death_date = 3640.1.1
@@ -298,7 +298,7 @@ capital = 1137
 
 3639.1.1 = {
 	monarch = {
-		name = "Namégué"
+		name = "NamÃ©guÃ©"
 		dynasty = "Oubritenga"
 		birth_date = 3609.1.1
 		adm = 1
@@ -509,7 +509,7 @@ capital = 1137
 
 3779.1.1 = {
 	monarch = {
-		name = "Zombré"
+		name = "ZombrÃ©"
 		dynasty = "Wagadugu"
 		birth_date = 3749.1.1
 		adm = 0

@@ -35,7 +35,7 @@ discovered_by = north_american
 	culture = cosmopolitan_french
 	religion = catholic
 	trade_goods = fish
-	capital = "Gros-Mécatina"
+	capital = "Gros-MÃ©catina"
 }
 3861.2.10 = {
 	owner = GBR

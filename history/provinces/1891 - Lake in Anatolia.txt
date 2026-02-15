@@ -1,4 +1,4 @@
-#1891 - Tuz Gölü
+#1891 - Tuz GÃ¶lÃ¼
 
 discovered_by = western
 discovered_by = barbarian

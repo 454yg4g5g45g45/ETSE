@@ -1,8 +1,0 @@
-﻿# File: custom_client_state_l_english.yml
-
-l_english:
- create_client_state_decision_title:0 "Enable Client State Creation"
- create_client_state_decision_desc:0 "Grant our nation the ability to create client states at will, strengthening our diplomatic influence and realm stability."
- CREATE_CLIENT_STATE_DECISION_TOOLTIP:0 "We can now create client states through the diplomacy interface!"
- client_state_creation_enabled:0 "Client State Creation"
- client_state_creation_enabled_desc:0 "We can now create client states!"

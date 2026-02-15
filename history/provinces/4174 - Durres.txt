@@ -121,7 +121,7 @@ discovered_by = muslim
     owner = ALB
     controller = ALB
     remove_core = TUR
-    capital = "DurrÃ«s"
+    capital = "DurrÃƒÂ«s"
 }
 
 4037.4.9 = { owner = ITA controller = ITA } 

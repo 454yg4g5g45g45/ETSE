@@ -2856,7 +2856,7 @@ province;red;green;blue;x;x
 2855;175;213;219;Misiones;x
 2856;80;211;231;Highveld;x
 2857;131;154;204;Rio Grande do Sul;x
-2858;138;169;13;Santiago;x
+2858;138;169;13;Santiago (Misiones);x
 2859;243;235;206;Itapua;x
 2860;179;64;89;Querandi;x
 2861;130;104;224;Sauce;x
@@ -2938,8 +2938,8 @@ province;red;green;blue;x;x
 2937;225;45;45;Suriname;x
 2938;236;171;15;Oiapoque;x
 2939;236;78;0;Zaraza;x
-2940;167;186;36;Chichas;x
-2941;12;149;188;Choquechaca;x
+2940;167;186;36;Chichas (Tupiza);x
+2941;12;149;188;Choquechaca (Caracaras);x
 2942;31;124;26;Charcas;x
 2943;45;116;57;Chachapoyas;x
 2944;219;84;58;Ucayali;x

@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = piman
 religion = totemism
-capital = "Añiñi"
+capital = "AÃ±iÃ±i"
 
 native_size = 5
 native_ferocity =  1
@@ -27,7 +27,7 @@ discovered_by = north_american
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	capital = "San José del Cabo"
+	capital = "San JosÃ© del Cabo"
 	culture = castillian
 	religion = catholic
 	is_city = yes

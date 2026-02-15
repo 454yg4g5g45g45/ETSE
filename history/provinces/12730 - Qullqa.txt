@@ -60,7 +60,7 @@ discovered_by = andean
 	religion = catholic
 }
 3632.1.1 = {
-	capital = "Julc·n"
+	capital = "Julc√°n"
 }
 3635.1.1 = {
 	unrest = 8

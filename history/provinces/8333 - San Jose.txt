@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = carib
 religion = south_american
-capital = "San José de Guaribe"
+capital = "San JosÃ© de Guaribe"
 
 native_size = 15
 native_ferocity =  2

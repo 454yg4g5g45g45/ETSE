@@ -28,8 +28,8 @@ capital = 2128
 
 3008.1.1 = {
 	heir = {
-		name = "Tashigön"
-		monarch_name = "Tashigön"
+		name = "TashigÃ¶n"
+		monarch_name = "TashigÃ¶n"
 		dynasty = "Yarlung"
 		birth_date = 2998.1.1
 		death_date = 3057.1.1
@@ -42,7 +42,7 @@ capital = 2128
 
 3028.1.1 = {
 	monarch = {
-		name = "Tashigön"
+		name = "TashigÃ¶n"
 		dynasty = "Yarlung"
 		birth_date = 2998.1.1
 		adm = 0
@@ -53,8 +53,8 @@ capital = 2128
 
 3028.1.1 = {
 	heir = {
-		name = "Yeshe-Ö"
-		monarch_name = "Yeshe-Ö"
+		name = "Yeshe-Ã–"
+		monarch_name = "Yeshe-Ã–"
 		dynasty = "Yarlung"
 		birth_date = 3027.1.1
 		death_date = 3086.1.1
@@ -67,7 +67,7 @@ capital = 2128
 
 3057.1.1 = {
 	monarch = {
-		name = "Yeshe-Ö"
+		name = "Yeshe-Ã–"
 		dynasty = "Yarlung"
 		birth_date = 3027.1.1
 		adm = 2

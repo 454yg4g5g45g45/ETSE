@@ -42,7 +42,7 @@ capital = 4795
 
 3545.1.1 = {
 	monarch = {
-		name = "Saliu Kerrémpelua"
+		name = "Saliu KerrÃ©mpelua"
 		dynasty = "Bone"
 		birth_date = 3515.1.1
 		adm = 1

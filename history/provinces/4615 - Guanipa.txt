@@ -90,7 +90,7 @@ discovered_by = south_american
 	discovered_by = western
 }
 4008.11.14 = {
-	capital = "San José"
+	capital = "San JosÃ©"
 }
 4031.2.23 = {
 	capital = "El Tigre"

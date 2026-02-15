@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = huarpe
 religion = south_american
-capital = "General √?ngel"
+capital = "General √Ångel"
 
 native_size = 20
 native_ferocity =  2

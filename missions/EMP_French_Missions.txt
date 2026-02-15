@@ -1695,9 +1695,9 @@ emp_france_missions_4 = {
 		effect = {
 			if = {
 				limit = {
-					NOT = { government_rank = 10 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 10
+				set_government_rank = 3
 			}
 			if = {
 				limit = {
@@ -2059,10 +2059,10 @@ emp_france_missions_5 = {
 			if = {
 				limit = {
 					NOT = {
-						government_rank = 10
+						government_rank = 3
 					}
 				}
-				set_government_rank = 10
+				set_government_rank = 3
 			}
 		}
 	}

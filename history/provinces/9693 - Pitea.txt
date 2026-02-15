@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = finnish
 religion = suomenusko
-capital = "Piteå"
+capital = "PiteÃ¥"
 
 native_size = 15
 native_ferocity =  2

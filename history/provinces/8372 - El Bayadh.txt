@@ -150,7 +150,7 @@ discovered_by = muslim
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	capital = "Géryville"
+	capital = "GÃ©ryville"
 }
 3968.9.4 = {
 	owner = FR2

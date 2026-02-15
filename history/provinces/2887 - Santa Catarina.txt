@@ -39,7 +39,7 @@ latent_trade_goods = {
 	is_city = yes
 }
 3824.3.23 = {
-	capital = "Florianópolis"
+	capital = "FlorianÃ³polis"
 }
 3849.1.1 = {
 	base_tax = 2

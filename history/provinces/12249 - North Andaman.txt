@@ -47,7 +47,7 @@ discovered_by = early_indian
 	owner = DAN
 	controller = DAN
 	add_core = DAN
-	capital = "Frederiksøerne"
+	capital = "FrederiksÃ¸erne"
 	citysize = 150
 }
 3857.4.14 = {
@@ -64,7 +64,7 @@ discovered_by = early_indian
 	controller = DAN
 	add_core = DAN
 	citysize = 150
-	capital = "Frederiksøerne"
+	capital = "FrederiksÃ¸erne"
 }
 3876.6.1 = {
 	owner = HAB

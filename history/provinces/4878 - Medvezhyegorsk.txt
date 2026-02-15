@@ -10,7 +10,7 @@ trade_goods = unknown
 
 culture = karelian
 religion = suomenusko
-capital = "Karhum‰gi"
+capital = "Karhum√§gi"
 
 
 

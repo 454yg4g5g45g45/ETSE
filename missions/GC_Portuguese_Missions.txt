@@ -1546,10 +1546,10 @@ gc_por_4 = {
 			if = {
 				limit = {
 					NOT = {
-						government_rank = 10
+						government_rank = 3
 					}
 				}
-				set_government_rank = 10
+				set_government_rank = 3
 			}
 			add_prestige_or_monarch_power = { amount = 50 }
 			add_power_projection = { 

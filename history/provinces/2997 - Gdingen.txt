@@ -12,7 +12,7 @@ trade_goods = grain
 
 culture = gothic
 religion = germanic
-capital = "Oxhöft"
+capital = "OxhÃ¶ft"
 
 is_city = yes
 
@@ -103,7 +103,7 @@ discovered_by = western
 	owner = TEU
 	controller = TEU
 	add_core = TEU
-	capital = "Schöneck"
+	capital = "SchÃ¶neck"
 }
 3478.1.1 = {
 	remove_core = POL

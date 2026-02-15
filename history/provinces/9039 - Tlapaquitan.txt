@@ -50,7 +50,7 @@ latent_trade_goods = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	capital = "Boca del Río"
+	capital = "Boca del RÃ­o"
 	culture = castillian
 	religion = catholic
 }

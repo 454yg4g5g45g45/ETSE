@@ -29,7 +29,7 @@ zealots = {
 
 	modifier = {
 		defensiveness = 0.2
-		land_morale = 0.05
+		land_morale = 0.1
 		infantry_power = 0.1
 		global_heathen_missionary_strength = 0.02
 		tolerance_heretic = -2

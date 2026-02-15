@@ -1,5 +1,0 @@
-# File: client_state_modifiers.txt
-
-client_state_creation_enabled = {
-	allow_client_states = yes
-}

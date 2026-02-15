@@ -3468,9 +3468,9 @@ woc_hun_fifth_branch = {
 		effect = {
 			if = {
 				limit = {
-					NOT = { government_rank = 10 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 10
+				set_government_rank = 3
 			}
 			custom_tooltip = hun_empty
 			country_event = { id = flavor_hun.41 }

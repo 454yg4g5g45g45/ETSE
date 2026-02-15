@@ -1,4 +1,4 @@
-#3077 - Ouluj‰rvi
+#3077 - Ouluj√§rvi
 
 2847.1.1 = { discovered_by = KKS discovered_by = TAV discovered_by = SMI }
 3198.1.1 = { discovered_by = western discovered_by = eastern }

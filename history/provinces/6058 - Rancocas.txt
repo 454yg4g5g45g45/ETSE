@@ -32,7 +32,7 @@ discovered_by = north_american
 	culture = swedish
 	religion = protestant
 	trade_goods = tobacco
-	capital = "Montera Järnek"
+	capital = "Montera JÃ¤rnek"
 }
 3753.9.15 = {
 	owner = NED

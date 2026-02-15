@@ -1,5 +1,5 @@
-# Gjirokast�r
-# 10397 Gjirokast�r - 1/26/2025 8:46:44 AM
+# Gjirokastër
+# 10397 Gjirokastër - 1/26/2025 8:46:44 AM
 add_core = ROM
 add_core = ROM
 add_core = ROM
@@ -107,7 +107,7 @@ discovered_by = muslim
     owner = TUR
     controller = TUR
     add_core = TUR
-    capital = "GjirokastÃ«r"
+    capital = "GjirokastÃƒÂ«r"
 }
 
 3551.5.29 = { remove_core = BYZ } 

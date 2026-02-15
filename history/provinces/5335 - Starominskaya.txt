@@ -12,7 +12,7 @@ trade_goods = livestock
 
 culture = circassian
 religion = heptadic
-capital = "Palaiós"
+capital = "PalaiÃ³s"
 
 is_city = yes
 

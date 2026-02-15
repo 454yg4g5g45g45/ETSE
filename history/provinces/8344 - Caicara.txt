@@ -12,7 +12,7 @@ trade_goods = coffee
 
 culture = carib
 religion = south_american
-capital = "Caicara de Maturín"
+capital = "Caicara de MaturÃ­n"
 
 is_city = yes
 native_size = 15

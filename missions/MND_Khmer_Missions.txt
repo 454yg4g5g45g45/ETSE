@@ -749,10 +749,10 @@ mnd_khmer_5 = {
 			if = {
 				limit = {
 					NOT = {
-						government_rank = 10
+						government_rank = 3
 					}
 				}
-				set_government_rank = 10
+				set_government_rank = 3
 			}
 			burma_region = {
 				limit = {

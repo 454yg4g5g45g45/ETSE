@@ -54,7 +54,7 @@ discovered_by = south_american
 	base_tax = 2
 }
 3951.9.7 = {
-	capital = "Teófilo Otoni"
+	capital = "TeÃ³filo Otoni"
 }
 3973.1.1 = {
 	base_production = 2

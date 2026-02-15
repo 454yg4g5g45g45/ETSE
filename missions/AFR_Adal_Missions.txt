@@ -785,8 +785,8 @@ adal_unification_missions_slot = {
 		}
 		effect = {
 			if = {
-				limit = { NOT = { government_rank = 10 } }
-				set_government_rank = 10
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = ada_imperial_adal_sultanate

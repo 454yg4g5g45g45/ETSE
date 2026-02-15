@@ -134,7 +134,7 @@ discovered_by = western
 	base_production = 6
 }
 3943.1.1 = {
-	capital = "Ústí nad Labem"
+	capital = "ÃšstÃ­ nad Labem"
 }
 3958.1.1 = {
 	culture = saxon

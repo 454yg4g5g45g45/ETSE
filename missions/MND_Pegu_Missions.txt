@@ -570,10 +570,10 @@ mnd_pegu_4 = {
 			if = {
 				limit = {
 					NOT = {
-						government_rank = 10
+						government_rank = 3
 					}
 				}
-				set_government_rank = 10
+				set_government_rank = 3
 			}
 			add_adm_power = 100
 			add_dip_power = 100

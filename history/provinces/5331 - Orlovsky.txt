@@ -12,7 +12,7 @@ trade_goods = livestock
 
 culture = alan
 religion = heptadic
-capital = "Orlóf"
+capital = "OrlÃ³f"
 
 is_city = yes
 

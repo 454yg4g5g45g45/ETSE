@@ -82,7 +82,7 @@ discovered_by = western
 	revolt = {
 		type = pretender_rebels
 		size = 2
-		leader = "Judicaël"
+		leader = "JudicaÃ«l"
 	}
 
 	controller = REB

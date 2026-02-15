@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = siberian
 religion = shamanist
-capital = "Shçuçye"
+capital = "ShÃ§uÃ§ye"
 
 native_size = 50
 native_ferocity =  2

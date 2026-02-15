@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = sapmi
 religion = suomenusko
-capital = "Vardø"
+capital = "VardÃ¸"
 
 native_size = 5
 native_ferocity =  2
@@ -80,7 +80,7 @@ native_hostileness = 2
 }
 3998.1.1 = {
 	culture = norwegian
-	capital = "Tromsø"
+	capital = "TromsÃ¸"
 }
 4008.1.1 = {
 	discovered_by = muslim

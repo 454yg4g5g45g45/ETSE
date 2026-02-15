@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = yaqui
 religion = totemism
-capital = "Santa Rosalía de Camargo"
+capital = "Santa RosalÃ­a de Camargo"
 
 
 discovered_by = north_american

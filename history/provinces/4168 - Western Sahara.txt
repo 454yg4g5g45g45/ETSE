@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = atlas
 religion = amanaiism
-capital = "El Aaiún"
+capital = "El AaiÃºn"
 
 native_size = 40
 native_ferocity =  4

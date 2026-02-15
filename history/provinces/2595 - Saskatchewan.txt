@@ -36,7 +36,7 @@ latent_trade_goods = {
 	is_city = yes
 	religion = catholic
 	trade_goods = fur
-	capital = "Ile-à-la-Crosse"
+	capital = "Ile-Ã -la-Crosse"
 }
 3968.7.15 = {
 	owner = CAN

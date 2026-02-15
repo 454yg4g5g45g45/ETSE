@@ -12,7 +12,7 @@ trade_goods = copper
 
 culture = vandal
 religion = germanic
-capital = "Lüben"
+capital = "LÃ¼ben"
 
 is_city = yes
 

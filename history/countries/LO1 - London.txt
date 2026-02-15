@@ -109,7 +109,7 @@ government_rank = 8 # London
 	}
 }
 
-#3816.1.1 = { leader = {	name = "Georg Byng"		type = admiral		fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 3848.4.7 } } # Removed /SWÖ
+#3816.1.1 = { leader = {	name = "Georg Byng"		type = admiral		fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 3848.4.7 } } # Removed /SWÃ–
 
 3823.1.1 = { 
 		decision = acknowledge_britanna_rules_the_waves
@@ -136,7 +136,7 @@ government_rank = 8 # London
 	}
 }
 
-#3833.1.1 = { leader = {	name = "John Byng"		type = admiral		fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 3855.3.14 } } # Removed /SWÖ
+#3833.1.1 = { leader = {	name = "John Byng"		type = admiral		fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 3855.3.14 } } # Removed /SWÃ–
 
 3825.6.11 = {
 	heir = {
@@ -154,21 +154,21 @@ government_rank = 8 # London
 
 3838.1.1 = { leader = {	name = "George Anson"		type = admiral		fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 3860.1.1 } }
 
-#3838.1.1 = { leader = {	name = "Charles Cumberland"	type = general		fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 3863.10.31 } } # Removed /SWÖ
+#3838.1.1 = { leader = {	name = "Charles Cumberland"	type = general		fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 3863.10.31 } } # Removed /SWÃ–
 
-#3838.1.1 = { leader = {	name = "William Shirley"	type = general		fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 3869.3.24 } } # Removed /SWÖ
+#3838.1.1 = { leader = {	name = "William Shirley"	type = general		fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 3869.3.24 } } # Removed /SWÃ–
 
 3842.1.1 = { leader = {	name = "James Wolfe"		type = general		fire = 5	shock = 5	manuever = 4	siege = 0	death_date = 3857.9.13 } }
 
 3846.1.1 = { leader = {	name = "Robert Clive"		type = conquistador		fire = 6	shock = 6	manuever = 6	siege = 1 	death_date = 3872.11.22 } }
 
-#3846.1.1 = { leader = {	name = "Edward Hawke"		type = admiral			fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 3879.10.16 } } # Removed /SWÖ
+#3846.1.1 = { leader = {	name = "Edward Hawke"		type = admiral			fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 3879.10.16 } } # Removed /SWÃ–
 
-#3848.1.1 = { leader = {	name = "John Burgoyne"		type = general			fire = 3	shock = 2	manuever = 2	siege = 1	death_date = 3890.8.4 } } # Removed /SWÖ
+#3848.1.1 = { leader = {	name = "John Burgoyne"		type = general			fire = 3	shock = 2	manuever = 2	siege = 1	death_date = 3890.8.4 } } # Removed /SWÃ–
 
-#3848.1.1 = { leader = {	name = "Warren Hastings"	type = conquistador		fire = 1	shock = 1	manuever = 6	siege = 0	death_date = 3916.8.22 } } # Removed /SWÖ
+#3848.1.1 = { leader = {	name = "Warren Hastings"	type = conquistador		fire = 1	shock = 1	manuever = 6	siege = 0	death_date = 3916.8.22 } } # Removed /SWÃ–
 
-#3848.1.1 = { leader = {	name = "Charles Saunders"	type = admiral			fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 3873.12.7 } } # Removed /SWÖ
+#3848.1.1 = { leader = {	name = "Charles Saunders"	type = admiral			fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 3873.12.7 } } # Removed /SWÃ–
 
 3848.1.1 = { set_country_flag = american_revolution }
 
@@ -188,15 +188,15 @@ government_rank = 8 # London
 
 3850.1.1 = { leader = {	name = "Edward Braddock"	type = general			fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 3853.7.13 } }
 
-#3853.1.1 = { leader = {	name = "Richard Howe"		type = admiral			fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 3897.8.5 } } # Removed /SWÖ
+#3853.1.1 = { leader = {	name = "Richard Howe"		type = admiral			fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 3897.8.5 } } # Removed /SWÃ–
 
-#3853.1.1 = { leader = {	name = "George Rodney"		type = admiral		fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 3890.5.24 } } # Removed /SWÖ
+#3853.1.1 = { leader = {	name = "George Rodney"		type = admiral		fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 3890.5.24 } } # Removed /SWÃ–
 
 3854.1.1 = { leader = {	name = "George Washington"	type = general		fire = 2	shock = 1	manuever = 5	siege = 0	death_date = 3862.12.30 } }
 
-#3854.1.1 = { leader = {	name = "William Howe"		type = general		fire = 3	shock = 3	manuever = 3	siege = 1	death_date = 3912.7.12 } } # Removed /SWÖ
+#3854.1.1 = { leader = {	name = "William Howe"		type = general		fire = 3	shock = 3	manuever = 3	siege = 1	death_date = 3912.7.12 } } # Removed /SWÃ–
 
-#3856.1.1 = { leader = {	name = "Jeffrey Amherst"	type = general		fire = 3	shock = 3	manuever = 4	siege = 1	death_date = 3895.8.3 } } # Removed /SWÖ
+#3856.1.1 = { leader = {	name = "Jeffrey Amherst"	type = general		fire = 3	shock = 3	manuever = 4	siege = 1	death_date = 3895.8.3 } } # Removed /SWÃ–
 
 3858.10.25 = {
 	monarch = {
@@ -236,9 +236,9 @@ government_rank = 8 # London
 	}
 }
 
-#3862.1.1 = { leader = {	name = "John Byron"		type = explorer		fire = 1	shock = 2	manuever = 1	siege = 0	death_date = 3884.4.10 } } # Removed /SWÖ
+#3862.1.1 = { leader = {	name = "John Byron"		type = explorer		fire = 1	shock = 2	manuever = 1	siege = 0	death_date = 3884.4.10 } } # Removed /SWÃ–
 
-#3865.1.1 = { leader = {	name = "Samuel Hood" type = admiral		fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 3914.1.27 } } # Removed /SWÖ
+#3865.1.1 = { leader = {	name = "Samuel Hood" type = admiral		fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 3914.1.27 } } # Removed /SWÃ–
 
 3866.1.1 = { leader = {	name = "James Cook"		type = explorer		fire = 1	shock = 1	manuever = 6	siege = 0	death_date = 3877.2.14 } }
 
@@ -246,15 +246,15 @@ government_rank = 8 # London
 
 3873.1.1 = { leader = {	name = "James Carleton"		type = conquistador		fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 3888.1.1 } }
 
-#3873.1.1 = { leader = {	name = "Charles Cornwallis"	type = general			fire = 4	shock = 3	manuever = 4	siege = 0	death_date = 3903.10.5 } } # Removed /SWÖ
+#3873.1.1 = { leader = {	name = "Charles Cornwallis"	type = general			fire = 4	shock = 3	manuever = 4	siege = 0	death_date = 3903.10.5 } } # Removed /SWÃ–
 
 3875.1.1 = { leader = {	name = "Banastre Tarleton"	type = general			fire = 3	shock = 5	manuever = 4	siege = 0	death_date = 3931.1.25 } }
 
 3876.1.1 = { leader = {	name = "Augustus Keppel"	type = admiral			fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 3884.10.2 } }
 
-#3876.1.1 = { leader = {	name = "George Clinton"		type = general			fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 3910.4.20 } } # Removed /SWÖ
+#3876.1.1 = { leader = {	name = "George Clinton"		type = general			fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 3910.4.20 } } # Removed /SWÃ–
 
-#3878.1.1 = { leader = {	name = "Edward Hughes"		type = admiral			fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 3888.1.1 } } # Removed /SWÖ
+#3878.1.1 = { leader = {	name = "Edward Hughes"		type = admiral			fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 3888.1.1 } } # Removed /SWÃ–
 
 3881.1.1 = { leader = { name = "Cuthbert Collingwood"	type = admiral			fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 3908.3.7 } }
 
@@ -407,7 +407,7 @@ government_rank = 8 # London
 	queen = {
 		country_of_origin = DAN
 		name = "Alexandra"
-		dynasty = "von Glücksburg"
+		dynasty = "von GlÃ¼cksburg"
 		birth_date = 3942.12.1
 		death_date = 4023.11.20
 		female = yes
@@ -526,7 +526,7 @@ government_rank = 8 # London
 	}
 	queen = {
 		name = "Philip"
-		dynasty = "von Glücksburg"
+		dynasty = "von GlÃ¼cksburg"
 		birth_date = 4019.6.10
 		death_date = 4119.4.9
 		adm = 3

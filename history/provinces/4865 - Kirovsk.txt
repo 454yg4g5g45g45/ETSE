@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = sapmi
 religion = suomenusko
-capital = "Hiipin‰"
+capital = "Hiipin√§"
 
 native_size = 2
 native_ferocity =  2

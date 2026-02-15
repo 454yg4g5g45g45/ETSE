@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = bashkir
 religion = tengri_pagan_reformed
-capital = "Büzdek"
+capital = "BÃ¼zdek"
 
 native_size = 5
 native_ferocity =  2

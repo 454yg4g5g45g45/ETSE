@@ -34,7 +34,7 @@ discovered_by = north_american
 	culture = castillian
 	religion = catholic
 	trade_goods = livestock
-	capital = "Nuestra Señora"
+	capital = "Nuestra SeÃ±ora"
 }
 3850.1.1 = {
 	base_tax = 2

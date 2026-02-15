@@ -52,7 +52,7 @@ discovered_by = north_american
 	base_tax = 2
 }
 3982.1.1 = {
-	capital = "Santa Rosalía"
+	capital = "Santa RosalÃ­a"
 	trade_goods = copper
 }
 3978.1.1 = {

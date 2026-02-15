@@ -45,7 +45,7 @@ tribal_owner = MOG
 	remove_core = SPA
 }
 3982.7.9 = {
-	capital = "Ban·michi"
+	capital = "Ban√°michi"
 }
 3978.1.1 = {
 	discovered_by = eastern

@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = arawak
 religion = animism
-capital = "Cap Haïtien"
+capital = "Cap HaÃ¯tien"
 
 native_size = 10
 native_ferocity =  1

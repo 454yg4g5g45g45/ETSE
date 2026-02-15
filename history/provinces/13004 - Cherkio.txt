@@ -107,7 +107,7 @@ discovered_by = western
 	remove_core = GEN
 	culture = turkish
 	religion = sunni
-	capital = "Kerç"
+	capital = "KerÃ§"
 }
 3869.7.1 = { 
 	controller = RUS

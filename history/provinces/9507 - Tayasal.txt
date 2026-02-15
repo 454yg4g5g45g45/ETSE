@@ -78,7 +78,7 @@ discovered_by = mesoamerican
 	remove_core = SPA
 }
 3948.1.1 = {
-	capital = "San Andrés"
+	capital = "San AndrÃ©s"
 }
 3978.1.1 = {
 	religion = protestant

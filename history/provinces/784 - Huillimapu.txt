@@ -28,7 +28,7 @@ discovered_by = south_american
 	discovered_by = SPA
 }
 3648.10.5 = {
-	capital = "Concepción"
+	capital = "ConcepciÃ³n"
 	owner = SPA
 	controller = SPA
 	citysize = 100

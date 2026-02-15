@@ -37,7 +37,7 @@ discovered_by = south_american
 	controller = SPA
 	add_core = SPA
 	remove_core = CAS
-	capital = "Juradó"
+	capital = "JuradÃ³"
 }
 3908.7.20 = {
 	owner = COL

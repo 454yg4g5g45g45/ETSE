@@ -63,7 +63,7 @@ discovered_by = polynesian_tech
 	controller = USA
 }
 4096.1.1 = {
-	capital = "Hagatña"
+	capital = "HagatÃ±a"
 }
 
 

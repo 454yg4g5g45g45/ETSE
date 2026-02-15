@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = sapmi
 religion = suomenusko
-capital = "Kjøllefjord"
+capital = "KjÃ¸llefjord"
 
 native_size = 5
 native_ferocity =  2

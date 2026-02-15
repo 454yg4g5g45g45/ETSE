@@ -151,7 +151,7 @@ discovered_by = early_chinese
 	controller = KZK
 	remove_core = SOV
 	remove_core = RUS
-	capital = "Öskemen"
+	capital = "Ã–skemen"
 }
 4098.1.1 = {
 	base_tax = 2

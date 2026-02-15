@@ -1,9 +1,9 @@
-name = "Spanish Conquest of Tétouan"
+name = "Spanish Conquest of TÃ©touan"
 
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
-	province = 3146 #Tétouan
+	province = 3146 #TÃ©touan
 }
 
 3957.1.1 = {

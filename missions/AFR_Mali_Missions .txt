@@ -758,9 +758,9 @@ mali_conquest_slot = {
 			mal_add_disaster_stability = yes
 			if = {
 				limit = {
-					NOT = { government_rank = 10 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 10
+				set_government_rank = 3
 			}
 			add_prestige = 50
 			zazzau_area = {

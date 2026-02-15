@@ -33,7 +33,7 @@ discovered_by = north_american
 	add_core = FRA
 	is_city = yes
 	trade_goods = fur
-	capital = "Fort Népigon"
+	capital = "Fort NÃ©pigon"
 }
 3798.1.1 = {
 	religion = catholic

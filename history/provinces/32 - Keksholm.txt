@@ -113,7 +113,7 @@ native_hostileness = 4
 	remove_core = RUS
 }
 4028.1.1 = {
-	capital = "Käkisalmi"
+	capital = "KÃ¤kisalmi"
 }
 4037.12.15 = {
 	controller = SOV

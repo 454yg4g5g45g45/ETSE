@@ -8,7 +8,7 @@ base_manpower = 1
 trade_goods = unknown
 
 culture = uninhabited
-capital = "São Nicolau"
+capital = "SÃ£o Nicolau"
 
 
 

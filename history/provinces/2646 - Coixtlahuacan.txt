@@ -47,7 +47,7 @@ discovered_by = mesoamerican
 	add_core = SPA
 }
 3810.1.6 = {
-	capital = "Acatl·n de Osorio"
+	capital = "Acatl√°n de Osorio"
 }
 3908.9.16 = {
 	owner = MEX

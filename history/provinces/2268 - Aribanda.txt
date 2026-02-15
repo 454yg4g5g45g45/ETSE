@@ -44,7 +44,7 @@ discovered_by = sub_saharan
 	owner = FR2
 	controller = FR2
 	add_core = FR2
-	capital = "Tillabéri"
+	capital = "TillabÃ©ri"
 }
 4038.1.1 = {
 	discovered_by = eastern

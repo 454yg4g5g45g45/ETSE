@@ -1,4 +1,4 @@
-#1292 - Gulf of Cádiz
+#1292 - Gulf of CÃ¡diz
 
 discovered_by = western
 discovered_by = barbarian

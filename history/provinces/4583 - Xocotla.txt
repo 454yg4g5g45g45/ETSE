@@ -58,7 +58,7 @@ discovered_by = mesoamerican
 	religion = catholic
 }
 3650.1.1 = {
-	capital = "Teziutl·n"
+	capital = "Teziutl√°n"
 }
 3868.1.1 = {
 	culture = mexican

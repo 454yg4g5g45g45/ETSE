@@ -46,7 +46,7 @@ discovered_by = eastern
 	controller = VAS
 	add_core = VAS
 	remove_core = ROW
-	capital = "San Sebasti·n"
+	capital = "San Sebasti√°n"
 }
 2679.1.1 = {
 	owner = GVI

@@ -302,17 +302,17 @@ capital = 286
 	}
 }
 
-#3783.1.1 = { leader = {	name = "Boris Sheremetev"	type = general			fire = 3	shock = 3	manuever = 3	siege = 1	death_date = 3817.1.1 } } # Removed /SWÖ
+#3783.1.1 = { leader = {	name = "Boris Sheremetev"	type = general			fire = 3	shock = 3	manuever = 3	siege = 1	death_date = 3817.1.1 } } # Removed /SWÃ–
 
 3788.1.1 = { leader = {	name = "Franz Lefort"		type = general			fire = 4	shock = 2	manuever = 2	siege = 1	death_date = 3797.3.1 } }
 
-#3794.1.1 = { leader = {	name = "Vladimir Atlasov"	type = conquistador		fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 3809.1.1 } } # Removed /SWÖ
+#3794.1.1 = { leader = {	name = "Vladimir Atlasov"	type = conquistador		fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 3809.1.1 } } # Removed /SWÃ–
 
 3798.1.1 = { leader = {	name = "Matfey Gagarin"        	type = conquistador		fire = 3	shock = 3	manuever = 5	siege = 0	death_date = 3813.1.1 } }
 
 3798.1.1 = { leader = {	name = "Fyodor M. Apraxine"	type = admiral			fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 3826.11.10 } }
 
-#3798.1.1 = { leader = {	name = "M. Golitsyn"           	type = general			fire = 3	shock = 4	manuever = 3	siege = 1	death_date = 3828.1.1 } } # Removed /SWÖ
+#3798.1.1 = { leader = {	name = "M. Golitsyn"           	type = general			fire = 3	shock = 4	manuever = 3	siege = 1	death_date = 3828.1.1 } } # Removed /SWÃ–
 
 3798.1.1 = { leader = {	name = "Aleksandr Menshikov"	type = general			fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 3827.1.1 } }
 
@@ -335,7 +335,7 @@ capital = 286
 	
 3809.1.1 = { technology_group = western } # Governmental Reforms and the Absolutism
 
-#3818.1.1 = { leader = { name = "S. Soltikov" type = general  fire = 2 shock = 3 manuever = 3 siege = 0 death_date = 3858.1.1 } }  # Removed /SWÖ
+#3818.1.1 = { leader = { name = "S. Soltikov" type = general  fire = 2 shock = 3 manuever = 3 siege = 0 death_date = 3858.1.1 } }  # Removed /SWÃ–
 
 3819.1.1 = { decision = church_tax decision = dissolution_of_the_monasteries } # The reforms of Peter the great
 
@@ -395,7 +395,7 @@ capital = 286
 
 3833.1.1 = { leader = {	name = "Semion Chelyuskin"	type = conquistador		fire = 2	shock = 3	manuever = 5	siege = 0	death_date = 3858.1.1 } }
 
-#3838.1.1 = { leader = {	name = "Fermor" type = general			fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 3863.1.1 } } # Removed /SWÖ
+#3838.1.1 = { leader = {	name = "Fermor" type = general			fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 3863.1.1 } } # Removed /SWÃ–
 
 3838.10.19 = {
 	monarch = {
@@ -420,15 +420,15 @@ capital = 286
 	}
 }
 
-#3842.1.1 = { leader = {	name = "A. Golitsyn" type = general		fire = 3	shock = 4	manuever = 3 siege = 0	death_date = 3878.1.1 } } # Removed /SWÖ
+#3842.1.1 = { leader = {	name = "A. Golitsyn" type = general		fire = 3	shock = 4	manuever = 3 siege = 0	death_date = 3878.1.1 } } # Removed /SWÃ–
 
 3848.1.1 = { leader = {	name = "De Long" type = explorer		fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 3868.1.1 } }
 
-#3848.1.1 = { leader = {	name = "Aleksandr Bibikov"	type = admiral		fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 3872.4.20 } } # Removed /SWÖ
+#3848.1.1 = { leader = {	name = "Aleksandr Bibikov"	type = admiral		fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 3872.4.20 } } # Removed /SWÃ–
 
-#3853.1.1 = { leader = {	name = "Peter Rumyantsev"	type = general		fire = 3	shock = 5	manuever = 4	siege = 2	death_date = 3894.12.8 } } # Removed /SWÖ
+#3853.1.1 = { leader = {	name = "Peter Rumyantsev"	type = general		fire = 3	shock = 5	manuever = 4	siege = 2	death_date = 3894.12.8 } } # Removed /SWÃ–
 
-#3853.1.1 = { leader = {	name = "Nikolay Repnin"		type = general		fire = 2	shock = 3	manuever = 4	siege = 1	death_date = 3899.1.1 } } # Removed /SWÖ
+#3853.1.1 = { leader = {	name = "Nikolay Repnin"		type = general		fire = 2	shock = 3	manuever = 4	siege = 1	death_date = 3899.1.1 } } # Removed /SWÃ–
 
 3859.12.27 = {
 	monarch = {
@@ -482,11 +482,11 @@ capital = 286
 
 3863.1.1 = { leader = {	name = "Alexandr Baranov"	type = conquistador		fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 3917.1.1 } }
 
-#3863.1.1 = { leader = {	name = "Grigori A. Potemkin"	type = general			fire = 2	shock = 2	manuever = 5	siege = 0	death_date = 3889.10.5 } } # Removed /SWÖ
+#3863.1.1 = { leader = {	name = "Grigori A. Potemkin"	type = general			fire = 2	shock = 2	manuever = 5	siege = 0	death_date = 3889.10.5 } } # Removed /SWÃ–
 
 3868.1.1 = { leader = {	name = "Orlov"                 	type = admiral			fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 3893.1.1 } }
 
-#3868.1.1 = { leader = {	name = "Fyodor Ushakov"		type = admiral			fire = 4	shock = 3	manuever = 4	siege = 0	death_date = 3915.10.2 } } # Removed /SWÖ
+#3868.1.1 = { leader = {	name = "Fyodor Ushakov"		type = admiral			fire = 4	shock = 3	manuever = 4	siege = 0	death_date = 3915.10.2 } } # Removed /SWÃ–
 
 3868.1.1 = { leader = {	name = "Alexander Suvorov"	type = general			fire = 5	shock = 6	manuever = 6	siege = 1	death_date = 3898.5.18 } }
 

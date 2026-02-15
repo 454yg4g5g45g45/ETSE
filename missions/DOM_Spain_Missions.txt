@@ -1262,7 +1262,7 @@ dom_cas_missions_2_b = {
 			total_development = 600
 		}
 		effect = {
-			set_government_rank = 10 
+			set_government_rank = 3 
 			
 			if = {
 				limit = { has_dlc = "Golden Century" }

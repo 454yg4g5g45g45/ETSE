@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = carib
 religion = south_american
-capital = "Santa Elena de Uairén"
+capital = "Santa Elena de UairÃ©n"
 
 native_size = 15
 native_ferocity =  1

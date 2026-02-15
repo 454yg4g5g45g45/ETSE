@@ -52,7 +52,7 @@ discovered_by = mesoamerican
 	base_production = 3
 }
 3932.1.1 = {
-	capital = "Juchit·n de Zaragoza"
+	capital = "Juchit√°n de Zaragoza"
 }
 3978.1.1 = {
 	discovered_by = eastern

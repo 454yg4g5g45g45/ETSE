@@ -46,7 +46,7 @@ discovered_by = mesoamerican
 	remove_core = SPA
 }
 3948.1.1 = {
-	capital = "Atoyac de ¡lvarez"
+	capital = "Atoyac de √Ålvarez"
 }
 3978.1.1 = {
 	discovered_by = eastern

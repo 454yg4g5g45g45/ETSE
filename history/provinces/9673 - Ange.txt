@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = swedish
 religion = norse_pagan_reformed
-capital = "Ånge"
+capital = "Ã…nge"
 
 native_size = 10
 native_ferocity =  2

@@ -59,7 +59,7 @@ native_hostileness = 5
 	controller = MEX
 }
 3921.3.16 = {
-	capital = "San José"
+	capital = "San JosÃ©"
 }
 3921.7.1 = {
 	owner = CAM

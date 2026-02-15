@@ -31,7 +31,7 @@ discovered_by = south_american
 	is_city = yes
 }
 3802.1.1 = {
-	capital = "Santa Bárbara"
+	capital = "Santa BÃ¡rbara"
 }
 3868.1.1 = {
 	culture = iberian_colombian

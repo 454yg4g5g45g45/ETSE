@@ -41,7 +41,7 @@ latent_trade_goods = {
 	add_core = POR
 }
 3779.1.1 = {
-	capital = "São Paulo"
+	capital = "SÃ£o Paulo"
 }
 3848.1.1 = {
 	add_core = POR

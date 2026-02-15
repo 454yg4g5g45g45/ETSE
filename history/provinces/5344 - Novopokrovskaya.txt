@@ -12,7 +12,7 @@ trade_goods = livestock
 
 culture = circassian
 religion = heptadic
-capital = "Novokókof"
+capital = "NovokÃ³kof"
 
 is_city = yes
 

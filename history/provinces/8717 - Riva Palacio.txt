@@ -9,7 +9,7 @@ trade_goods = wool
 
 culture = yaqui
 religion = totemism
-capital = "San Andrés"
+capital = "San AndrÃ©s"
 
 tribal_owner = MOG
 

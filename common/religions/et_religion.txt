@@ -322,92 +322,10 @@ zoroastrian_group = {
 		heretic = { MAZDAKI }
 	}
 	
-	zurvaniyyan = {		#Zurvanist
-		color = { 153 147 0 }
-		icon = 21
-		allowed_conversion = {
-			zoroastrian
-			mithraic
-		}
-		province = {
-			local_missionary_strength = 0.01
-		}
-		country = {
-			tolerance_heretic = 1
-			land_morale = 0.05
-		}
-		country_as_secondary = {
-			land_morale = 0.05
-			global_unrest = -1
-		}
-		
-		on_convert = {		#new added in MMETR
-			change_religion = zurvaniyyan
-			add_stability = -1
-		}
-		
-		#New Kut aspects added in MMETR
-		uses_anglican_power = yes				# Uses church power/aspect mechanics
-		aspects_name = YAZATA_ASPECTS
-		
-		aspects = {
-			ahuramazda_yazata_aspect
-			mithra_yazata_aspect
-			anahita_yazata_aspect
-			atar_yazata_aspect
-			rashnu_yazata_aspect
-			sraosha_yazata_aspect
-			verethragna_yazata_aspect
-		}
-
-		heretic = { MAZDAKI }
-		
-		misguided_heretic = yes		# Other in religion group dislike them less
-		
-	}
-	
-	hunnic_religion = {		#Xionite/Hephthalite
-		color = { 218 224 238 }
-		icon = 21
-		country = {
-			tolerance_heretic = 2
-			tolerance_heathen = 2
-			cav_to_inf_ratio = 0.2
-			religious_unity = 0.2
-		}
-		#can_have_secondary_religion = yes	#removed, since would override valuable tolerance bonuses for gameplay
-		
-		country_as_secondary = {
-			cav_to_inf_ratio = 0.1
-			tolerance_heathen = 2
-		}
-		
-		heretic = { SOLAR_CULT }
-	}
-	
-	khurmazta = {		#Sogdian Zoroastrianism
-		color = { 145 142 0 }
-		icon = 21
-		country = {
-			global_tax_modifier = 0.1
-			tolerance_heretic = 1
-		}
-		country_as_secondary = {
-			global_tax_modifier = 0.1
-			tolerance_heathen = 1
-		}
-		
-		heretic = { NANAIST BACTRIAN_PANTHEON }
-		
-		misguided_heretic = yes		# Other in religion group dislike them less
-		
-	}
-	
 	harmonized_modifier = harmonized_zoroastrian_group
 
-	crusade_name = CRUSADE
+	crusade_name = HOLY_WAR
 }
-
 
 jewish_group = {
 
@@ -1311,6 +1229,25 @@ african_pagan = {
 		heretic = { BEAR_SPIRIT SNAKE_CLAN }
 	}
 
+	canaanite_religion  = {
+		color = { 138 51 36 }
+		icon = 95
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country = {
+			trade_range_modifier = 0.25
+			global_tax_modifier = 0.05
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+			trade_range_modifier = 0.25
+		}
+		
+		fetishist_cult = yes
+		heretic = { BEAR_SPIRIT SNAKE_CLAN CULT_OF_YARHIBOL CULT_OF_ALLAT CULT_OF_POSEIDON }
+	}
+
 	fat_roog  = {
 		color = { 115 189 82 }
 		icon = 97
@@ -1606,7 +1543,7 @@ mesopotamian = {
 
 	akattu  = {
 		color = { 173 166 122 }
-		icon = 95
+		icon = 96
 		province = {
 			local_missionary_strength = 0.04
 		}
@@ -1623,7 +1560,7 @@ mesopotamian = {
 
 	natib_quadish  = {
 		color = { 145 110 38 }
-		icon = 95
+		icon = 106
 		country = {
 			tolerance_heathen = 2
 			global_unrest = -1
@@ -1633,50 +1570,6 @@ mesopotamian = {
 			global_unrest = -1
 		}		
 		heretic = { ATHEIST }
-	}
-	
-	#New MMETR
-	
-	canaanite_religion = {
-		color = { 77 50 229 }
-		icon = 95
-		province = {
-			local_missionary_strength = 0.02
-		}
-		country = {
-			tolerance_heathen = 2
-			trade_efficiency = 0.1
-		}
-		country_as_secondary = {
-			trade_efficiency = 0.1
-			production_efficiency = 0.05
-		}
-		
-		#New Kut aspects added in MMETR
-		uses_anglican_power = yes				# Uses church power/aspect mechanics
-		aspects_name = CANAANITE_ASPECTS
-		
-		aspects = {
-			bel_cult_aspect
-			yarhibol_cult_aspect
-			aglibol_and_malakbel_cult_aspect
-			baal_shamin_cult_aspect
-			astarte_cult_aspect
-			shadrafa_cult_aspect
-			maan_and_saad_cult_aspect
-			ginnaye_of_the_clan_cult_aspect
-			nabu_cult_aspect
-			shamash_cult_aspect
-			nergal_cult_aspect
-			shai_al_qaum_cult_aspect
-			nebo_cult_aspect
-			elqonera_cult_aspect
-			nike_cult_aspect
-		}
-		
-		heretic = { CULT_OF_YARHIBOL CULT_OF_ALLAT CULT_OF_POSEIDON }
-		
-		annex = yes
 	}
 	
 	harmonized_modifier = harmonized_mesopotamian

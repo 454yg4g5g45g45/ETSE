@@ -12,7 +12,7 @@ trade_goods = cloth
 
 culture = frankish
 religion = germanic
-capital = "Düsseldorf"
+capital = "DÃ¼sseldorf"
 
 is_city = yes
 

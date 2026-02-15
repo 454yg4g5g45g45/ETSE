@@ -1,5 +1,5 @@
-# Kruj�
-# 10394 Kruj� - 1/26/2025 8:46:44 AM
+# Krujë
+# 10394 Krujë - 1/26/2025 8:46:44 AM
 add_core = ROM
 add_core = ROM
 owner = ROM
@@ -49,7 +49,7 @@ discovered_by = muslim
     remove_core = BUL
 }
 
-3288.1.1 = { capital = "KrujÃ«" } 
+3288.1.1 = { capital = "KrujÃƒÂ«" } 
 3302.4.13 = { owner = VEN controller = VEN add_core = VEN } 
 3311.1.1 = { owner = EPI controller = EPI add_core = EPI } 
 3322.1.1 = { owner = THS controller = THS add_core = THS } 

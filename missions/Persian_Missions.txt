@@ -107,9 +107,9 @@ per_western_branch = {
 			tooltip = {
 				if = {
 					limit = {
-						NOT = { government_rank = 10 }
+						NOT = { government_rank = 3 }
 					}
-					set_government_rank = 10
+					set_government_rank = 3
 				}
 				416 = { #Tabriz
 					add_base_tax = 2

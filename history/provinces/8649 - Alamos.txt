@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = yaqui
 religion = totemism
-capital = "√?lamos"
+capital = "√Ålamos"
 
 native_size = 5
 native_ferocity =  1

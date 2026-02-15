@@ -32,7 +32,7 @@ discovered_by = central_african
 	discovered_by = POR
 }
 3658.1.1 = {
-	capital = "São Salvador do Congo"
+	capital = "SÃ£o Salvador do Congo"
 }
 3763.10.30 = {
 	unrest = 8

@@ -35,7 +35,7 @@ discovered_by = north_american
 	religion = catholic
 	trade_goods = fish
 	is_city = yes
-	capital = "Rivière-du-Loup"
+	capital = "RiviÃ¨re-du-Loup"
 }
 3861.2.10 = {
 	owner = GBR
@@ -65,7 +65,7 @@ discovered_by = north_american
 	discovered_by = western
 }
 4017.1.1 = {
-	capital = "Rivière-du-Loup"
+	capital = "RiviÃ¨re-du-Loup"
 }
 4078.5.20 = {
 	add_core = QUE

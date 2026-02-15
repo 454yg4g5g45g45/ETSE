@@ -46,7 +46,7 @@ discovered_by = north_american
 	remove_core = SPA
 }
 3982.7.9 = {
-	capital = "Sáric"
+	capital = "SÃ¡ric"
 }
 3978.1.1 = {
 	discovered_by = eastern

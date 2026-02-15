@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = finnish
 religion = suomenusko
-capital = "Luleå"
+capital = "LuleÃ¥"
 
 native_size = 15
 native_ferocity =  2

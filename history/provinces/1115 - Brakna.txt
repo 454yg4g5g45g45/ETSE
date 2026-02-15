@@ -69,7 +69,7 @@ discovered_by = sub_saharan
 	controller = FR2
 	add_core = FR2
 	remove_core = SOF
-	capital = "Kaédi"
+	capital = "KaÃ©di"
 }
 4018.1.1 = {
 	discovered_by = western

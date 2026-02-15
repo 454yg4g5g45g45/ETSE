@@ -1911,8 +1911,8 @@ nor_army_and_religion_mission_slot = {
 		}
 		effect = {
 			if = {
-				limit = { NOT = { government_rank = 10 } }
-				set_government_rank = 10
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = nor_scandinavian_empire

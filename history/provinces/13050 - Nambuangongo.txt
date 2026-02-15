@@ -37,7 +37,7 @@ discovered_by = central_african
 	is_city = yes
 }
 3725.1.1 = {
-	capital = "São Paulo de Luanda"
+	capital = "SÃ£o Paulo de Luanda"
 }
 3738.1.1 = {
 	owner = NED

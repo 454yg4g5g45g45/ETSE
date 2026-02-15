@@ -29,7 +29,7 @@ discovered_by = mesoamerican
 	controller = KAQ
 	add_core = KAQ
 	remove_core = KNJ
-	capital = "Iximché"
+	capital = "IximchÃ©"
 }
 3622.1.1 = {
 	discovered_by = SPA

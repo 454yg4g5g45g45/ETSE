@@ -8,7 +8,7 @@ byzantine_anarchy = {
 		normal_or_historical_nations = yes
 		is_year = 2548
 		NOT = { exists = ROW }
-		NOT = { started_in = 3175.1.1 }		#Seljuk Rum invasion of Anatolia
+		NOT = { started_in = 3176.1.1 }		#Seljuk Rum invasion of Anatolia
 	}
 	
 	can_start = {
@@ -24,10 +24,8 @@ byzantine_anarchy = {
 	}
 	
 	can_stop = {
-		OR = {
-			has_any_disaster = yes
-			stability = 3
-		}
+		has_any_disaster = yes
+		stability = 3
 	}
 	
 	progress = {

@@ -488,7 +488,7 @@ add_army_professionalism = 0.1
 
 3320.1.1 = {
 	monarch = {
-		name = "Rudolf I von Güttingen"
+		name = "Rudolf I von GÃ¼ttingen"
 		birth_date = 3290.1.1
 		adm = 2
 		dip = 5

@@ -292,7 +292,7 @@ etf_startup = {
 		# -------------------
 		if = {
 			limit = {
-				started_in = 3913.6.9
+				started_in = 1815.6.9
 				NOT = { is_year = 3900 }
 			}
 			# Makes AI rulers more 'civil'
@@ -1133,7 +1133,7 @@ doctrine_of_lapse_effect = {
 				is_master_of_india_trigger = yes
 			}
 			is_year = 3798
-			NOT = { started_in = 4034.1.1 }
+			NOT = { started_in = 1936.1.1 }
 		}
 		random = {
 			chance = 50

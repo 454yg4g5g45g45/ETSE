@@ -36,7 +36,7 @@ discovered_by = mesoamerican
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	capital = "Chapotón"
+	capital = "ChapotÃ³n"
 }
 3659.1.1 = {
 	religion = catholic

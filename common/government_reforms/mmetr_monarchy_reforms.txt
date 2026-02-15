@@ -648,6 +648,7 @@ militant_japanese_empire = {
 	
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }	#Prussian mechanics
+		militarised_society = yes
 	}
 }
 

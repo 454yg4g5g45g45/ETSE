@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = bulgar
 religion = tengri_pagan_reformed
-capital = "Serpü"
+capital = "SerpÃ¼"
 
 native_size = 4
 native_ferocity =  3

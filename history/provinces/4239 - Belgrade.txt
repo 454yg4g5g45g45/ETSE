@@ -138,7 +138,7 @@ discovered_by = western
 	owner = HUN
 	controller = HUN
 	add_core = HUN
-	capital = "N·ndorfehÈrv·r"
+	capital = "N√°ndorfeh√©rv√°r"
 }
 3619.8.29 = { 
 	owner = TUR

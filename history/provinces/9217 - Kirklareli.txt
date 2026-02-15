@@ -58,7 +58,7 @@ discovered_by = western
     remove_core = ROM
 }
 
-2498.1.1 = { capital = "SarÃƒÂ nta EkklisiÃƒÂ¨s" } 
+2498.1.1 = { capital = "SarÃƒÆ’Ã‚Â nta EkklisiÃƒÆ’Ã‚Â¨s" } 
 2911.1.1 = { controller = BUL } 
 2913.1.1 = { controller = BYZ } 
 2965.1.1 = { religion = orthodox } 
@@ -73,8 +73,8 @@ discovered_by = western
     capital = "Kirklareli"
 }
 
-3500.1.1 = { revolt = { type = pretender_rebels size = 1 name = "SÃƒÂ¼leyman's Faction" leader = "SÃƒÂ¼leyman Osmanoglu" } controller = REB } 
-3508.1.1 = { revolt = { } revolt = { type = pretender_rebels size = 1 name = "MÃƒÂ»sa's Faction" leader = "MÃƒÂ»sa Osmanoglu" } controller = REB } 
+3500.1.1 = { revolt = { type = pretender_rebels size = 1 name = "SÃƒÆ’Ã‚Â¼leyman's Faction" leader = "SÃƒÆ’Ã‚Â¼leyman Osmanoglu" } controller = REB } 
+3508.1.1 = { revolt = { } revolt = { type = pretender_rebels size = 1 name = "MÃƒÆ’Ã‚Â»sa's Faction" leader = "MÃƒÆ’Ã‚Â»sa Osmanoglu" } controller = REB } 
 3511.1.1 = { revolt = { } controller = TUR } 
 3557.1.1 = { culture = turkish religion = sunni } 
 3600.1.1 = { remove_core = BYZ } 

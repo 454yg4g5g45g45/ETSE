@@ -45,7 +45,7 @@ discovered_by = mesoamerican
 	religion = catholic
 }
 3629.6.24 = {
-	capital = "San Juan del Río"
+	capital = "San Juan del RÃ­o"
 }
 3848.1.1 = {
 	base_production = 2

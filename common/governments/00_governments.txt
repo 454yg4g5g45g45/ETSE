@@ -708,8 +708,6 @@ republic = {
 				pisan_podesteria_reform
 				#CRW
 				roman_republic
-				#
-				roman_republic_spqr_reform
 				#ETF
 				islamic_republic_reform
 				chinese_warlord_clique

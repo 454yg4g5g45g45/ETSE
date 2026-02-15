@@ -47,7 +47,7 @@ discovered_by = eastern
 	controller = FRK
 	add_core = FRK
 	remove_core = GVI
-	capital = "Lozère"
+	capital = "LozÃ¨re"
 }
 2609.11.27 = {
 	owner = AUT

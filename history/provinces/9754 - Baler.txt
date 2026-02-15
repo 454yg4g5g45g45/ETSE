@@ -50,7 +50,7 @@ discovered_by = early_chinese
 	revolt = {
 		type = nationalist_rebels
 		size = 2
-		leader = "Agustín de Legazpi"
+		leader = "AgustÃ­n de Legazpi"
 	}
 
 	controller = REB

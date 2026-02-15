@@ -32,7 +32,7 @@ discovered_by = andean
 	trade_goods = grain
 }
 3669.8.2 = {
-	capital = "Tapacarí"
+	capital = "TapacarÃ­"
 }
 3698.1.1 = {
 	is_city = yes

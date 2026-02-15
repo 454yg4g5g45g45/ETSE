@@ -1,5 +1,5 @@
-# Shkod�r
-# 10391 Shkod�r - 1/26/2025 8:46:44 AM
+# Shkodër
+# 10391 Shkodër - 1/26/2025 8:46:44 AM
 add_core = ROM
 add_core = ROM
 owner = ROM
@@ -58,14 +58,14 @@ discovered_by = muslim
 
 3198.1.1 = { base_manpower = 2 } 
 3284.1.1 = { owner = SER controller = SER add_core = SER } 
-3288.1.1 = { capital = "ShkodÃ«r" add_core = ALB } 
+3288.1.1 = { capital = "ShkodÃƒÂ«r" add_core = ALB } 
 3466.1.1 = { owner = ALB controller = ALB remove_core = SER } 
 3535.5.4 = { owner = TUR controller = TUR add_core = TUR } 
 3542.3.2 = { 
     owner = ALB
     controller = ALB
     add_core = ALB
-    capital = "LezhÃ«"
+    capital = "LezhÃƒÂ«"
 }
 
 3551.5.29 = { remove_core = BYZ } 
@@ -73,7 +73,7 @@ discovered_by = muslim
     owner = TUR
     controller = TUR
     add_core = TUR
-    capital = "ShkodÃ«r"
+    capital = "ShkodÃƒÂ«r"
 }
 
 3618.1.1 = { religion = sunni } 

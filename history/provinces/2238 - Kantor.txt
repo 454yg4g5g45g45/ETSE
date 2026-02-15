@@ -41,7 +41,7 @@ latent_trade_goods = {
 	remove_core = MAL
 }
 3853.1.1 = {
-	capital = "Labé"
+	capital = "LabÃ©"
 }
 3878.1.1 = {
 	religion = sunni

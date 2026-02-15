@@ -1,5 +1,5 @@
-# KÃƒÂ¼tahya
-# 322 KÃƒÂ¼tahya - 1/26/2025 8:46:43 AM
+# KÃƒÆ’Ã‚Â¼tahya
+# 322 KÃƒÆ’Ã‚Â¼tahya - 1/26/2025 8:46:43 AM
 add_core = ROM
 add_core = ROM
 add_core = ROM
@@ -66,7 +66,7 @@ discovered_by = western
     owner = RUM
     controller = RUM
     add_core = RUM
-    capital = "KÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼tahaya"
+    capital = "KÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼tahaya"
 }
 
 3302.4.13 = { owner = NCA controller = NCA add_core = NCA } 

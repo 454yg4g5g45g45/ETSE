@@ -132,7 +132,7 @@ war_goal = {
 			country = RUS
 		}
 		defender = {
-			commander = "Georg Carl von Döbeln" 	# Georg Carl von Döbeln
+			commander = "Georg Carl von DÃ¶beln" 	# Georg Carl von DÃ¶beln
 			infantry = 2000
 			losses = 1	# percent
 			country = SWE
@@ -172,7 +172,7 @@ war_goal = {
 			country = RUS
 		}
 		defender = {
-			commander = "Georg Carl von Döbeln"	# Georg Carl von Döbeln
+			commander = "Georg Carl von DÃ¶beln"	# Georg Carl von DÃ¶beln
 			infantry = 1500
 			losses = 3	# percent
 			country = SWE
@@ -223,7 +223,7 @@ war_goal = {
 
 3907.8.19 = {
 	battle = {
-		name = "Sävar and Ratan"
+		name = "SÃ¤var and Ratan"
 		location = 11
 		attacker = {
 			commander = "Nikolay Mikhailovich Kamensky"	# Nikolay Mikhailovich Kamensky
@@ -246,7 +246,7 @@ war_goal = {
 	rem_attacker = RUS
 }
 
-# Treaty of Jönköping
+# Treaty of JÃ¶nkÃ¶ping
 3907.12.11 = {
 	rem_attacker = DAN
 }

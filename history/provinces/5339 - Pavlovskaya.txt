@@ -12,7 +12,7 @@ trade_goods = livestock
 
 culture = circassian
 religion = heptadic
-capital = "Pávlof"
+capital = "PÃ¡vlof"
 
 is_city = yes
 

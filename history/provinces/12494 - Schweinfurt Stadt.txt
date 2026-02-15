@@ -123,7 +123,7 @@ discovered_by = eastern
 	religion = catholic
 }
 2998.1.1 = {
-	capital = "Würzburg"
+	capital = "WÃ¼rzburg"
 }
 3006.8.3 = {
 	owner = FRE

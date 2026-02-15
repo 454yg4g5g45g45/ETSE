@@ -159,7 +159,7 @@ latent_trade_goods = {
 	controller = POL
 	add_core = POL
 	remove_core = GER
-	capital = "Tarnowskie Góry"
+	capital = "Tarnowskie GÃ³ry"
 }
 4048.1.1 = {
 	religion = catholic

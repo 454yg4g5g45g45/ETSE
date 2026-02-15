@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = finnish
 religion = suomenusko
-capital = "Åbo"
+capital = "Ã…bo"
 
 native_size = 10
 native_ferocity =  2

@@ -82,7 +82,7 @@ native_hostileness = 3
 	controller = SWE
 }
 3877.1.1 = {
-	capital = "Björneborg"
+	capital = "BjÃ¶rneborg"
 }
 3906.2.21 = {
 	controller = RUS

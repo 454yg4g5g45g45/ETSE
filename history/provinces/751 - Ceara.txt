@@ -38,7 +38,7 @@ discovered_by = south_american
 	owner = POR
 	controller = POR
 	add_core = POR
-	capital = "São Tiago"
+	capital = "SÃ£o Tiago"
 	culture = portugese
 	religion = catholic
 }

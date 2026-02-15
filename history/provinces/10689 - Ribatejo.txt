@@ -129,7 +129,7 @@ discovered_by = western
 	owner = POR
 	controller = POR
 	add_core = POR
-	capital = "Santarém"
+	capital = "SantarÃ©m"
 	culture = portugese
 }
 3248.1.1 = {

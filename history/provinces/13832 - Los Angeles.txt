@@ -9,7 +9,7 @@ trade_goods = fish
 
 culture = mapuche
 religion = south_american
-capital = "Los √?ngeles"
+capital = "Los √Ångeles"
 
 native_size = 10
 native_ferocity =  2

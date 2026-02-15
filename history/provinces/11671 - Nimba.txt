@@ -27,7 +27,7 @@ native_hostileness = 9
 	controller = FR2
 	add_core = FR2
 	is_city = yes
-	capital = "San-Pédro"
+	capital = "San-PÃ©dro"
 	trade_goods = fish
 }
 4008.1.1 = {

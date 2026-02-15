@@ -34,7 +34,7 @@ discovered_by = south_american
 3714.1.12 = {
 	owner = POR
 	controller = POR
-	capital = "Belém"
+	capital = "BelÃ©m"
 	culture = portugese
 	religion = catholic
 }

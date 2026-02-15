@@ -12,7 +12,7 @@ trade_goods = wool
 
 culture = guamares
 religion = nahuatl
-capital = "Víctor Rosales"
+capital = "VÃ­ctor Rosales"
 
 is_city = yes
 native_size = 5

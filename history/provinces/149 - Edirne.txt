@@ -63,7 +63,7 @@ discovered_by = western
 	add_core = TUR
 	capital = "Edirne"
 }
-3500.1.1 = { controller = REB revolt = { type = pretender_rebels name = "SÃƒÂ¼leyman's Faction" size = 1 leader = "SÃƒÂ¼leyman Osmanoglu" } }
+3500.1.1 = { controller = REB revolt = { type = pretender_rebels name = "SÃƒÆ’Ã‚Â¼leyman's Faction" size = 1 leader = "SÃƒÆ’Ã‚Â¼leyman Osmanoglu" } }
 3508.1.1 = { controller = REB revolt = { size = 1 } }
 3511.1.1 = { controller = TUR revolt = { size = 1 } }
 3557.1.1 = { culture = turkish religion = sunni }

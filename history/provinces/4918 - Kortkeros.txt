@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = uralic
 religion = suomenusko
-capital = "Körtkerös"
+capital = "KÃ¶rtkerÃ¶s"
 
 native_size = 25
 native_ferocity =  2

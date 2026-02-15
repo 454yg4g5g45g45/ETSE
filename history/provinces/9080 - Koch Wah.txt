@@ -54,7 +54,7 @@ discovered_by = mesoamerican
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	capital = "José María Morelos"
+	capital = "JosÃ© MarÃ­a Morelos"
 	unrest = 5
 }
 3670.1.1 = {

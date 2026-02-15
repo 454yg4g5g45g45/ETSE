@@ -99,7 +99,7 @@ discovered_by = western
 	controller = VAL
 	add_core = VAL
 	remove_core = CRD
-	capital = "València"
+	capital = "ValÃ¨ncia"
 }
 3163.1.1 = {
 	owner = TOL

@@ -63,7 +63,7 @@ discovered_by = andean
 	remove_core = SPA
 }
 3948.1.1 = {
-	capital = "San José de Chiquitos"
+	capital = "San JosÃ© de Chiquitos"
 }
 4008.1.1 = {
 	discovered_by = western

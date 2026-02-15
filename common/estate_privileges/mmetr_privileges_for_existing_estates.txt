@@ -93,42 +93,6 @@ estate_church_vow_of_ahimsa = {
 	}
 }
 
-estate_church_lesser_vehicles = {
-	icon = privilege_estate_church_karma
-	loyalty = -0.05
-	influence = -0.05
-	is_valid = {
-		religion_group = buddhic
-	}
-	can_select = {
-		is_at_war = no
-		any_owned_province = {
-			religion_group = buddhic
-			has_owner_religion = no
-		}
-	}
-	on_granted = {
-	}
-	on_revoked = {
-	}
-	on_invalid = {
-	}
-	penalties = {
-		global_heretic_missionary_strength = -0.02
-	}
-	benefits = {
-		tolerance_heretic = 1
-		relation_with_heretics = 10
-		reverse_relation_with_heretic_religion = 10
-	}
-	mechanics = {
-	}
-	cooldown_years = 3		#must wait 3 years
-	ai_will_do = {
-		factor = 0
-	}
-}
-
 
 #########################################
 #Nobles

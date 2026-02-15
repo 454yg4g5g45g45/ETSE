@@ -1,5 +1,5 @@
-# Kor��
-# 10396 Kor�� - 1/26/2025 8:46:44 AM
+# Korçë
+# 10396 Korçë - 1/26/2025 8:46:44 AM
 add_core = ROM
 add_core = ROM
 add_core = ROM
@@ -108,7 +108,7 @@ discovered_by = muslim
     owner = TUR
     controller = TUR
     add_core = TUR
-    capital = "KorÃ§Ã«"
+    capital = "KorÃƒÂ§ÃƒÂ«"
 }
 
 3551.5.29 = { remove_core = BYZ } 

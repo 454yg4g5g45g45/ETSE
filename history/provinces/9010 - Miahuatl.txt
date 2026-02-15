@@ -33,7 +33,7 @@ discovered_by = mesoamerican
 	add_core = SPA
 }
 3698.1.1 = {
-	capital = "Miahuatl·n de Porfirio DÌaz"
+	capital = "Miahuatl√°n de Porfirio D√≠az"
 }
 3889.1.1 = {
 	base_manpower = 2

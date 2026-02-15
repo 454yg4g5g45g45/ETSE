@@ -52,7 +52,7 @@ discovered_by = north_american
 	add_core = USA
 	remove_core = MEX
 	remove_core = SPA
-	capital = "La Nouvelle-Ibérie"
+	capital = "La Nouvelle-IbÃ©rie"
 }
 3949.1.1 = {
 	base_manpower = 2

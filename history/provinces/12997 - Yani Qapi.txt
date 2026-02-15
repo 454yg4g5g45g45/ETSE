@@ -90,7 +90,7 @@ discovered_by = western
 	controller = PEC
 	add_core = PEC
 	remove_core = KHZ
-	capital = "Yañi Qapi"
+	capital = "YaÃ±i Qapi"
 	culture = pecheneg
 }
 3098.1.1 = {

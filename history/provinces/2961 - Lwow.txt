@@ -13,7 +13,7 @@ trade_goods = dyes
 
 culture = pannonian
 religion = druidism
-capital = "Lwów"
+capital = "LwÃ³w"
 
 is_city = yes
 

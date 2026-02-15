@@ -83,7 +83,7 @@ discovered_by = south_american
 	remove_core = COL
 }
 3944.1.1 = {
-	capital = "Ciudad Bolívar"
+	capital = "Ciudad BolÃ­var"
 }
 3949.1.1 = {
 	base_production = 4

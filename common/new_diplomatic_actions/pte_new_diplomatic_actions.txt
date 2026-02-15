@@ -29,7 +29,7 @@ pte_start_border_friction = {
 			}
 			if = {
 				limit = {
-					started_in = 3498.1.1
+					started_in = 1400.1.1
 				}
 				dip_tech = 50
 			}
@@ -74,11 +74,11 @@ pte_start_border_friction = {
 						has_global_flag = extended_timeline_mod
 						OR = {
 							AND = {
-								started_in = 3542.11.11
+								started_in = 1444.11.11
 								dip_tech = 50
 							}
 							AND = {
-								NOT = { started_in = 3542.11.11 }
+								NOT = { started_in = 1444.11.11 }
 								dip_tech = 30
 							}
 						}
@@ -195,7 +195,7 @@ pte_start_succession_crisis = {
 			}
 			if = {
 				limit = {
-					started_in = 3498.1.1
+					started_in = 1400.1.1
 				}
 				adm_tech = 57
 			}
@@ -427,7 +427,7 @@ pte_start_succession_crisis = {
 					}
 					if = {
 						limit = {
-							started_in = 3498.1.1
+							started_in = 1400.1.1
 						}
 						adm_tech = 57
 					}
@@ -688,7 +688,7 @@ pte_start_succession_crisis = {
 					}
 					if = {
 						limit = {
-							started_in = 3498.1.1
+							started_in = 1400.1.1
 						}
 						adm_tech = 57
 					}

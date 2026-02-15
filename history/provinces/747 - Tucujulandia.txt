@@ -42,7 +42,7 @@ discovered_by = south_american
 	add_core = POR
 }
 3786.1.1 = {
-	capital = "Macap·"
+	capital = "Macap√°"
 }
 3878.1.1 = {
 	culture = brazilian

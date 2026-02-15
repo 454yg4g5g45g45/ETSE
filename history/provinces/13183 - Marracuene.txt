@@ -46,7 +46,7 @@ native_hostileness = 9
 	religion = protestant
 }
 3996.1.1 = {
-	capital = "Vila Luísa"
+	capital = "Vila LuÃ­sa"
 }
 4008.1.1 = {
 	discovered_by = western

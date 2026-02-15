@@ -1,4 +1,4 @@
-#1258 - Öresund
+#1258 - Ã–resund
 
 discovered_by = western
 discovered_by = barbarian

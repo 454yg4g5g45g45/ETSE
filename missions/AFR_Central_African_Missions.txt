@@ -164,7 +164,7 @@ central_africa_military_missions = {
 		trigger = { 
 			if = {
 				limit = { has_dlc = "Common Sense" }
-				government_rank = 10 
+				government_rank = 3 
 			}
 			else = { total_development = 1000 }		
 		}

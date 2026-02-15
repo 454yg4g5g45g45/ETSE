@@ -32,8 +32,8 @@ capital = 1970 # Syghnak
 
 3358.1.1 = {
 	heir = {
-		name = "Köchü"
-		monarch_name = "Köchü"
+		name = "KÃ¶chÃ¼"
+		monarch_name = "KÃ¶chÃ¼"
 		dynasty = "Borjigin"
 		birth_date = 3348.1.1
 		death_date = 3400.1.1
@@ -48,7 +48,7 @@ capital = 1970 # Syghnak
 
 3378.1.1 = {
 	monarch = {
-		name = "Köchü"
+		name = "KÃ¶chÃ¼"
 		dynasty = "Borjigin"
 		birth_date = 3348.1.1
 		adm = 1

@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = volga_finnic
 religion = suomenusko
-capital = "Sh‰r‰ng"
+capital = "Sh√§r√§ng"
 
 native_size = 4
 native_ferocity =  3

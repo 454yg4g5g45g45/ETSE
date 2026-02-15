@@ -60,7 +60,7 @@ discovered_by = south_american
 	discovered_by = western
 }
 4055.2.3 = {
-	capital = "Caazap·"
+	capital = "Caazap√°"
 }
 4098.1.1 = {
 	base_production = 2

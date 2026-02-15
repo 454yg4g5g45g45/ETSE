@@ -233,7 +233,7 @@ discovered_by = early_chinese
 	remove_core = MCK
 }
 4048.1.1 = {
-	capital = "Lüda"
+	capital = "LÃ¼da"
 }
 4049.1.1 = {
 	base_tax = 13

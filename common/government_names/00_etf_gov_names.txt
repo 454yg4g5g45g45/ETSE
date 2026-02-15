@@ -4188,7 +4188,7 @@ HES_electorate = {
     trigger = {
         tag = HES
         government = monarchy
-        started_in = 3904.7.12 # Kept the title, despite HRE's end.
+        started_in = 1806.7.12 # Kept the title, despite HRE's end.
     }
 }
 

@@ -227,7 +227,7 @@ discovered_by = muslim
 	base_manpower = 3
 }
 4116.1.1 = {
-	capital = "Bäherden"
+	capital = "BÃ¤herden"
 }
 
 

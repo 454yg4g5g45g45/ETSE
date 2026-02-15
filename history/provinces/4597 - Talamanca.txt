@@ -65,7 +65,7 @@ native_hostileness = 2
 	remove_core = SPA
 }
 3968.1.1 = {
-	capital = "Limón"
+	capital = "LimÃ³n"
 }
 3978.1.1 = {
 	discovered_by = eastern

@@ -73,7 +73,7 @@ discovered_by = eastern
 	controller = FRK
 	add_core = FRK
 	remove_core = SOI
-	capital = "Orléans"
+	capital = "OrlÃ©ans"
 	culture = cosmopolitan_french
 }
 2609.11.27 = {

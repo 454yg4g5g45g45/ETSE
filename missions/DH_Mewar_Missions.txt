@@ -867,8 +867,8 @@ mer_restore_kannauj_empire = {
 			set_capital = 4497
 			add_prestige = 20
 			if = {
-				limit = { NOT = { government_rank = 10 } }
-				set_government_rank = 10
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
 			}
 			4497 = {
 				add_base_production = 3

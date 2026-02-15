@@ -46,7 +46,7 @@ discovered_by = early_chinese
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	capital = "Dadiang·s"
+	capital = "Dadiang√°s"
 }
 3970.1.1 = {
 	add_core = PHI

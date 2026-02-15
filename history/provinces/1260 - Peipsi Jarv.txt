@@ -1,4 +1,4 @@
-#1260 - Peipsi Järv
+#1260 - Peipsi JÃ¤rv
 
 2898.1.1 = { discovered_by = western discovered_by = eastern }
 

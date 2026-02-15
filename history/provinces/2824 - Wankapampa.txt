@@ -65,7 +65,7 @@ discovered_by = andean
 	unrest = 0
 }
 3919.6.4 = {
-	capital = "Jaén"
+	capital = "JaÃ©n"
 }
 3919.7.28 = {
 	owner = PEU

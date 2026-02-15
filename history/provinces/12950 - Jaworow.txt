@@ -13,7 +13,7 @@ trade_goods = dyes
 
 culture = pannonian
 religion = druidism
-capital = "Jaworów"
+capital = "JaworÃ³w"
 
 is_city = yes
 

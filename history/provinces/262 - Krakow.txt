@@ -13,7 +13,7 @@ trade_goods = salt
 
 culture = quadian
 religion = germanic
-capital = "Kraków"
+capital = "KrakÃ³w"
 
 is_city = yes
 

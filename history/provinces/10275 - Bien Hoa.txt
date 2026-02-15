@@ -12,7 +12,7 @@ trade_goods = tropical_wood
 
 culture = khmer
 religion = hinduism
-capital = "Changvea? Trapang"
+capital = "Changvea​ Trapang"
 
 is_city = yes
 

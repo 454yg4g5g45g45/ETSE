@@ -1,4 +1,4 @@
-#1928 - Western Sea of Åland
+#1928 - Western Sea of Ã…land
 
 2448.1.1 = { discovered_by = GEE discovered_by = GEW discovered_by = SVE }
 2848.1.1 = { discovered_by = western discovered_by = eastern }

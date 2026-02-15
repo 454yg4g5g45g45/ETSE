@@ -148,8 +148,8 @@ niger_region = {
 		manding_area tekrur_area cameroon_area jenne_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.9.3
+		2099.06.01
+		2099.09.30
 	}
 }
 guinea_region = { 
@@ -157,8 +157,8 @@ guinea_region = {
 		benin_area cap_verde_area guinea_coast_area gulf_of_guinea_area futa_jallon_area west_africa_coast_area jolof_area sao_tome_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.9.3
+		2099.06.01
+		2099.09.30
 	}
 }
 sahel_region = { 
@@ -167,8 +167,8 @@ sahel_region = {
 		borkou_ennedi_tibesti south_sudan_area chari_logone_area east_azbin_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.9.3
+		2099.06.01
+		2099.09.30
 	}
 }
 horn_of_africa_region = { 
@@ -183,12 +183,12 @@ east_africa_region = {
 		sakalava_area southern_madagascar uticulo_makuana_area jubba_area shire_area mombasa_area 
 	}
 	monsoon = { 
-		2099.1.1
-		2099.1.3
+		2099.11.01
+		2099.12.30
 	}
 	monsoon = { 
-		2099.1.1
-		2099.4.3
+		2099.01.01
+		2099.04.30
 	}
 }
 central_africa_region = { 
@@ -197,12 +197,12 @@ central_africa_region = {
 		chokwe_area bunyoro_area 
 	}
 	monsoon = { 
-		2099.1.1
-		2099.1.3
+		2099.10.01
+		2099.12.30
 	}
 	monsoon = { 
-		2099.1.1
-		2099.4.3
+		2099.01.01
+		2099.04.30
 	}
 }
 kongo_region = { 
@@ -211,8 +211,8 @@ kongo_region = {
 		southern_angola_area equatorial_kongo_area 
 	}
 	monsoon = { 
-		2099.2.1
-		2099.4.3
+		2099.02.01
+		2099.04.30
 	}
 }
 central_asia_region = { 
@@ -227,12 +227,12 @@ south_africa_region = {
 		limpopo_area transvaal_area 
 	}
 	monsoon = { 
-		2099.1.1
-		2099.1.3
+		2099.11.01
+		2099.12.30
 	}
 	monsoon = { 
-		2099.1.1
-		2099.4.3
+		2099.01.01
+		2099.04.30
 	}
 }
 west_siberia_region = { 
@@ -261,8 +261,8 @@ korea_region = {
 		pyongan_area hamgyeong_area western_korea_area eastern_korea_area south_korea_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.7.3
+		2099.06.01
+		2099.07.30
 	}
 }
 tibet_region = { 
@@ -276,8 +276,8 @@ hindusthan_region = {
 		kashmir_area mithila_area baghelkhand_area gird_area katehar_area baisi_rajya_area bundelkhand_area sind_sagar_area 
 	}
 	monsoon = { 
-		2099.7.1
-		2099.8.3
+		2099.07.01
+		2099.08.30
 	}
 }
 bengal_region = { 
@@ -286,8 +286,8 @@ bengal_region = {
 		tripura_area 
 	}
 	monsoon = { 
-		2099.7.1
-		2099.8.3
+		2099.07.01
+		2099.08.30
 	}
 }
 west_india_region = { 
@@ -296,8 +296,8 @@ west_india_region = {
 		patan_area jangladesh_area 
 	}
 	monsoon = { 
-		2099.7.1
-		2099.8.3
+		2099.07.01
+		2099.08.30
 	}
 }
 deccan_region = { 
@@ -306,8 +306,8 @@ deccan_region = {
 		golconda_area berar_area ahmednagar_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.9.3
+		2099.06.01
+		2099.09.30
 	}
 }
 coromandel_region = { 
@@ -315,8 +315,8 @@ coromandel_region = {
 		andhra_area madura_area lanka_area south_lanka_area tanjore_area kongu_area south_carnatic_area north_carnatic_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.9.3
+		2099.06.01
+		2099.09.30
 	}
 }
 burma_region = { 
@@ -324,8 +324,8 @@ burma_region = {
 		kachin_area upper_burma_area lower_burma_area shan_hill_area karenni_area arakan_area central_burma_area chindwin_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.9.3
+		2099.06.01
+		2099.09.30
 	}
 }
 japan_region = { 
@@ -334,8 +334,8 @@ japan_region = {
 		sanindo_area shikoku_area northern_kyushu 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.7.3
+		2099.06.01
+		2099.07.30
 	}
 }
 australia_region = { 
@@ -344,12 +344,12 @@ australia_region = {
 		pilbara_area tasmania_area goldfields_esperance_area eastern_outback_area 
 	}
 	monsoon = { 
-		2099.1.1
-		2099.1.3
+		2099.10.01
+		2099.12.30
 	}
 	monsoon = { 
-		2099.1.1
-		2099.3.3
+		2099.01.01
+		2099.03.30
 	}
 }
 south_china_region = { 
@@ -358,8 +358,8 @@ south_china_region = {
 		guangxi_area 
 	}
 	monsoon = { 
-		2099.5.1
-		2099.6.3
+		2099.05.01
+		2099.06.30
 	}
 }
 xinan_region = { 
@@ -380,12 +380,12 @@ brazil_region = {
 		west_sao_paolo_area 
 	}
 	monsoon = { 
-		2099.1.1
-		2099.1.3
+		2099.12.01
+		2099.12.30
 	}
 	monsoon = { 
-		2099.1.1
-		2099.4.3
+		2099.01.01
+		2099.04.30
 	}
 }
 la_plata_region = { 
@@ -400,8 +400,8 @@ colombia_region = {
 		maracaibo_area central_llanos_area cordillera_occidental_area colombian_amazonas_area 
 	}
 	monsoon = { 
-		2099.5.1
-		2099.11.3
+		2099.05.01
+		2099.11.30
 	}
 }
 peru_region = { 
@@ -409,8 +409,8 @@ peru_region = {
 		kuntisuyu_area chimor_area ucayali_area cajamarca_area huanuco_area antisuyu_area quito_area iquitos_area peruan_coast 
 	}
 	monsoon = { 
-		2099.5.1
-		2099.11.3
+		2099.05.01
+		2099.11.30
 	}
 }
 upper_peru_region = { 
@@ -425,12 +425,12 @@ malaya_region = {  #Western Indonesia Malaya.
 		malacca_area batak_area minangkabau_area indonesian_islands_area 
 	}
 	monsoon = { 
-		2099.1.1
-		2099.1.3
+		2099.10.01
+		2099.12.30
 	}
 	monsoon = { 
-		2099.1.1
-		2099.3.3
+		2099.01.01
+		2099.03.30
 	}
 }
 moluccas_region = { 
@@ -439,12 +439,12 @@ moluccas_region = {
 		northern_papua_area timor_area south_sulawesi_area ceram_area makassar_area spice_islands_area 
 	}
 	monsoon = { 
-		2099.1.1
-		2099.1.3
+		2099.10.01
+		2099.12.30
 	}
 	monsoon = { 
-		2099.1.1
-		2099.3.3
+		2099.01.01
+		2099.03.30
 	}
 }
 indonesia_region = {  #Eastern Indonesian/Malayan Islands.
@@ -454,12 +454,12 @@ indonesia_region = {  #Eastern Indonesian/Malayan Islands.
 		banten_area 
 	}
 	monsoon = { 
-		2099.1.1
-		2099.1.3
+		2099.11.01
+		2099.12.30
 	}
 	monsoon = { 
-		2099.1.1
-		2099.3.3
+		2099.01.01
+		2099.03.30
 	}
 }
 oceanea_region = { 
@@ -467,8 +467,8 @@ oceanea_region = {
 		polynesia_area micronesia_area west_micronesia_area melanesia_area fiji_area te_ika_a_maui_hauauru_area te_ika_a_maui_waho_area te_waipounamu_area northern_polynesia_area eastern_polynesia_area
 	}
 	monsoon = { 
-		2099.7.1
-		2099.1.3
+		2099.07.01
+		2099.10.30
 	}
 }
 indo_china_region = { 
@@ -477,8 +477,8 @@ indo_china_region = {
 		tay_nguyen_area red_river_delta_area sukhothai_area champasak_area vientiane_area 
 	}
 	monsoon = { 
-		2099.5.1
-		2099.8.3
+		2099.05.01
+		2099.08.30
 	}
 }
 canada_region = { 
@@ -504,8 +504,8 @@ southeast_america_region = {
 		south_carolina_piedmont_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.11.3
+		2099.06.01
+		2099.11.30
 	}
 }
 mississippi_region = { 
@@ -514,8 +514,8 @@ mississippi_region = {
 		ozarks_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.11.3
+		2099.06.01
+		2099.11.30
 	}
 }
 great_plains_region = { 
@@ -548,8 +548,8 @@ mexico_region = {
 		tierra_caliente_area puebla_area huasteca_area mixteca_area guanajuato_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.11.3
+		2099.06.01
+		2099.11.30
 	}
 }
 rio_grande_region = { 
@@ -557,8 +557,8 @@ rio_grande_region = {
 		rio_grande_area northeast_mexico_area texas_area coastal_prarie_area pecos_area llano_estacado_area chihuahua_area texas_plains_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.11.3
+		2099.06.01
+		2099.11.30
 	}
 }
 central_america_region = { 
@@ -566,8 +566,8 @@ central_america_region = {
 		guatemala_area honduras_area nicaragua_area yucatan_area east_yucatan_area chiapas_area guatemala_lowlands_area costa_rica_area campeche_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.11.3
+		2099.06.01
+		2099.11.30
 	}
 }
 carribeans_region = { 
@@ -575,8 +575,8 @@ carribeans_region = {
 		cuba_area east_cuba_area hispaniola_area dominica_area greater_antilles_area leeward_islands_area windward_islands_area lucayan_area 
 	}
 	monsoon = { 
-		2099.6.1
-		2099.11.3
+		2099.06.01
+		2099.11.30
 	}
 }
 #Sea Regions

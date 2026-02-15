@@ -1,190 +1,68 @@
 spriteTypes = {
-	
-	#Church Aspects
+	#Mechanics
 	spriteType = {
 		name = "GFX_hwanin_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/hwanin_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_dangun_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/dangun_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_munsin_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/munsin_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_yeongdeung_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/yeongdeung_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_samsin_halmeoni_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/samsin_halmeoni_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_bari_gongju_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/bari_gongju_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_naerim_kut_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/naerim_kut_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_sinjang_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/sinjang_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_sansin_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/sansin_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_buddha_kut_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/buddha_kut_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_jade_emperor_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/jade_emperor_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_tengri_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/tengri_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	spriteType = {
 		name = "GFX_indra_aspect_icon"
 		texturefile = "gfx/interface/church_aspects/indra_aspect_icon.dds"
-		legacy_lazy_load=no
 	}
 	
-	spriteType = {
-		name = "GFX_ahuramazda_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/zurvaniyyan/ahuramazda_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_anahita_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/zurvaniyyan/anahita_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_atar_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/zurvaniyyan/atar_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_mithra_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/zurvaniyyan/mithra_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_rashnu_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/zurvaniyyan/rashnu_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_sraosha_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/zurvaniyyan/sraosha_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_verethragna_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/zurvaniyyan/verethragna_aspect_icon.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_aglibol_and_malakbel_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/aglibol_and_malakbel_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_astarte_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/astarte_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_baal_shamin_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/baal_shamin_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_bel_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/bel_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_elqonera_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/elqonera_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_ginnaye_of_the_clan_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/ginnaye_of_the_clan_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_maan_and_saad_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/maan_and_saad_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_nabu_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/nabu_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_nebo_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/nebo_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_nergal_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/nergal_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_nike_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/nike_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_shadrafa_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/shadrafa_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_shai_al_qaum_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/shai_al_qaum_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_shamash_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/shamash_cult_aspect_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_yarhibol_cult_aspect_icon"
-		texturefile = "gfx/interface/church_aspects/canaanite/yarhibol_cult_aspect_icon.dds"
-	}
-	
-	
-	
-	
-	#Religious Schools
 	spriteType = {
 		name = "GFX_icon_muslim_school_qarmatian"
 		texturefile = "gfx/interface/icon_muslim_school_qarmatian.dds"
 	}
-	spriteType = {
-		name = "GFX_icon_jainism_school_svetambara"
-		texturefile = "gfx/interface/icon_jainism_school_svetambara.dds"
-	}
-	spriteType = {
-		name = "GFX_icon_jainism_school_digambara"
-		texturefile = "gfx/interface/icon_jainism_school_digambara.dds"
-	}
-	spriteType = {
-		name = "GFX_icon_jainism_school_yapaniya"
-		texturefile = "gfx/interface/icon_jainism_school_yapaniya.dds"
-	}
 	
 	
 	
-	#####################################################################
+	
 	#Custom_gui GFX
-	#####################################################################
 	
-	#Zalmoxis
 	spriteType = {
 		name = "GFX_sacrifice_messenger_button"
 		texturefile = "gfx//interface//custom_gui//zalmoxism//sacrifice_messenger_button.dds"
@@ -248,7 +126,6 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	
-	#Waaqism
 	spriteType = {
 		name = "GFX_waaqism_amel_ali_button"
 		texturefile = "gfx//interface//custom_gui//waaqism//amel_ali_button.dds"
@@ -291,102 +168,6 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-	
-	#Sasanea Yang
-	spriteType = {
-		name = "GFX_sacrifice_to_yang_button"
-		texturefile = "gfx//interface//custom_gui//zalmoxism//sacrifice_messenger_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_feast_rice_yang_button"
-		texturefile = "gfx//interface//custom_gui//sasanea_yang//feast_rice_yang_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_ritual_laeng_neak_ta_button"
-		texturefile = "gfx//interface//custom_gui//sasanea_yang//ritual_laeng_neak_ta_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	
-	#Hunnic Religion
-	spriteType = {
-		name = "GFX_hunnic_zun_button"
-		texturefile = "gfx//interface//custom_gui//hunnic_religion//hunnic_zun_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_hunnic_buddhist_button"
-		texturefile = "gfx//interface//custom_gui//hunnic_religion//hunnic_buddhist_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_hunnic_eastern_schools_button"
-		texturefile = "gfx//interface//custom_gui//hunnic_religion//hunnic_eastern_schools_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_hunnic_fire_temple_button"
-		texturefile = "gfx//interface//custom_gui//hunnic_religion//hunnic_fire_temple_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_hunnic_hindu_button"
-		texturefile = "gfx//interface//custom_gui//hunnic_religion//hunnic_hindu_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_hunnic_jain_button"
-		texturefile = "gfx//interface//custom_gui//hunnic_religion//hunnic_jain_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_hunnic_muslim_merchant_button"
-		texturefile = "gfx//interface//custom_gui//hunnic_religion//hunnic_muslim_merchant_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_hunnic_nestorian_button"
-		texturefile = "gfx//interface//custom_gui//hunnic_religion//hunnic_nestorian_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_hunnic_tabiti_button"
-		texturefile = "gfx//interface//custom_gui//hunnic_religion//hunnic_tabiti_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_hunnic_tengri_button"
-		texturefile = "gfx//interface//custom_gui//hunnic_religion//hunnic_tengri_button.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		loadType = "INGAME"
-	}
-	
 	
 }	
 

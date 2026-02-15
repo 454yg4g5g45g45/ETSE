@@ -4,19 +4,8 @@
  CB_ALLOWED_po_conclude_civil_war: "Concluded a Civil War"
  po_conclude_civil_war_desc: "§YFully annexes§! target: Annex and gain §Mcores§! on §Yall§! target provinces, and target §Yloses cores§! on all of its provinces"
  
- #wargoals
  civil_war_wargoal: "Conclude the Civil War"
- civil_war_wargoal_desc: "Conclude the Civil War"
  CIVIL_WAR_NAME: "$ORDER$$FIRST$ Civil War"
  
- take_capital_palmyra: "Claim the Eastern Provinces"
- take_capital_palmyra_desc: "Claim the Eastern Provinces"
- CAPITAL_PALMYRA_NAME: "$ORDER$$FIRST$ Roman-Palmyrene War"
- 
- #cb types
  cb_conclude_civil_war: "Conclude the Civil War"
  cb_conclude_civil_war_desc: "Our realm, once united, is now divided in a period of civil war. Both sides of the civil war wish to put an end to the disunity and unite all of the land under one ruling power once more. With this casus belli, we can fully annex our enemy - on the other hand, they shall have the same justification to do the same to us should we lose."
- 
- cb_claim_eastern_provinces: "Claim the Eastern Provinces"
- cb_claim_eastern_provinces_desc: "As the Corrector Totius Orientis, or Righter of the Entire East, we are de jure the overall commander of all Roman armies and provincial governors in the eastern provinces including Anatolia and Egypt. §OWith this casus belli, Roman provinces controlled by us in the Egypt, Mashriq or Anatolia regions will automatically defect to us after being controlled for about 6 months.§!"
- 

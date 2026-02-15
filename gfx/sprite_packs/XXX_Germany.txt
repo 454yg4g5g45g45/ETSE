@@ -276,6 +276,7 @@ Rhenish_Minors_units = {
 	}
 	
 	sprite_infantry = {
+	sprite_infantry = {
 		0 = FRN_INFANTRY_1
 		1 = FRN_INFANTRY_2
 		2 = FRN_INFANTRY_3

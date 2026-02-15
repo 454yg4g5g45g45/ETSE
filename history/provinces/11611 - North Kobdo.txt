@@ -12,7 +12,7 @@ trade_goods = livestock
 
 culture = oirats
 religion = heptadic
-capital = "Ölgii"
+capital = "Ã–lgii"
 
 is_city = yes
 

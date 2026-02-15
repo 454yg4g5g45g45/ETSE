@@ -33,7 +33,7 @@ capital = 163 # Heraklion
 
 3996.12.9 = {
 	monarch = {
-		name = "Georgios von Glücksburg"
+		name = "Georgios von GlÃ¼cksburg"
 		adm = 4
 		dip = 3
 		mil = 3

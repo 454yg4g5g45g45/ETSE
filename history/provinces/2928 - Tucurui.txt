@@ -54,7 +54,7 @@ discovered_by = south_american
 	discovered_by = western
 }
 4011.4.5 = {
-	capital = "Marab·"
+	capital = "Marab√°"
 }
 4018.1.1 = {
 	discovered_by = eastern

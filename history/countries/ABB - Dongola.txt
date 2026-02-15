@@ -53,7 +53,7 @@ religious_school = ismaili_school
 
 3668.1.1 = {
 	monarch = {
-		name = "Bâdî" #Fictional Name for Maliks of Dongola subservient to the Funj
+		name = "BÃ¢dÃ®" #Fictional Name for Maliks of Dongola subservient to the Funj
 		dynasty = "Barabara"
 		adm = 3
 		dip = 3

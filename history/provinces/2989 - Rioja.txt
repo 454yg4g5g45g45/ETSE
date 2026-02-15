@@ -59,7 +59,7 @@ discovered_by = western
 	controller = UMA
 	add_core = UMA
 	remove_core = GVI
-	capital = "Nájera"
+	capital = "NÃ¡jera"
 }
 2848.8.6 = {
 	owner = CRD
@@ -94,7 +94,7 @@ discovered_by = western
 }
 3348.1.1 = {
 	culture = castillian
-	capital = "Logroño"
+	capital = "LogroÃ±o"
 }
 3562.5.1 = {
 	unrest = 3

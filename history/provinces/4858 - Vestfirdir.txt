@@ -9,7 +9,7 @@ trade_goods = unknown
 
 culture = uninhabited
 religion = shamanist
-capital = "Vestfirğir"
+capital = "VestfirÃ°ir"
 
 
 

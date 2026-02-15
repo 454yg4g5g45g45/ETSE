@@ -65,7 +65,7 @@ discovered_by = eastern
 	controller = FRK
 	add_core = FRK
 	remove_core = SOI
-	capital = "Alençon"
+	capital = "AlenÃ§on"
 }
 2598.1.1 = {
 	base_tax = 2

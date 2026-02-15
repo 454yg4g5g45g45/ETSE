@@ -9,7 +9,7 @@ trade_goods = fur
 
 culture = sapmi
 religion = suomenusko
-capital = "Muon·"
+capital = "Muon√°"
 
 native_size = 5
 native_ferocity =  2

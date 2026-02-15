@@ -1,5 +1,5 @@
-# Lubartów
-# 12622 Lubartów - 1/26/2025 8:46:45 AM
+# LubartÃ³w
+# 12622 LubartÃ³w - 1/26/2025 8:46:45 AM
 add_core = VNE
 owner = VNE
 controller = VNE
@@ -10,7 +10,7 @@ center_of_trade = 2
 trade_goods = cloth
 culture = polish
 religion = slavic
-capital = "LubartÃ³w"
+capital = "LubartÃƒÂ³w"
 is_city = yes
 discovered_by = GCR
 discovered_by = GEP

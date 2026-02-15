@@ -34,36 +34,3 @@ civil_war_wargoal = {
 	
 	war_name = CIVIL_WAR_NAME
 }
-
-take_capital_palmyra = {
-	type = superiority
-	
-	attacker = {
-		badboy_factor = 1
-		prestige_factor = 2
-		peace_cost_factor = 0.5
-
-		peace_options = {
-			po_become_vassal
-			po_demand_provinces
-			po_revoke_cores
-			po_release_vassals
-			po_release_annexed
-			po_gold
-			po_concede_defeat
-			po_annul_treaties
-		}
-	}
-	
-	defender = {
-		badboy_factor = 1
-		prestige_factor = 1
-		peace_cost_factor = 1
-	
-		peace_options = {
-			po_demand_provinces
-		}
-	}
-	
-	war_name = CAPITAL_PALMYRA_NAME
-}

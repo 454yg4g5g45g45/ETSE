@@ -69,7 +69,7 @@ discovered_by = south_american
 	discovered_by = western
 }
 4041.1.1 = {
-	capital = "Quirinópolis"
+	capital = "QuirinÃ³polis"
 }
 4098.1.1 = {
 	base_tax = 3

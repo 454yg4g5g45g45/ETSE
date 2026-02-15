@@ -44,7 +44,7 @@ discovered_by = mesoamerican
 	controller = SPA
 	add_core = SPA
 	religion = catholic
-	capital = "Cob·n"
+	capital = "Cob√°n"
 }
 3908.9.16 = {
 	owner = MEX

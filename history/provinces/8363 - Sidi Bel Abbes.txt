@@ -63,7 +63,7 @@ discovered_by = western
 	owner = UMA
 	controller = UMA
 	add_core = UMA
-	capital = "Sidi Bel Abbès"
+	capital = "Sidi Bel AbbÃ¨s"
 }
 2823.1.1 = {
 	religion = sunni

@@ -223,7 +223,7 @@ moravia_nitra_missions_1 = {
 				type = mission_rewards_power_projection
 				amount = 50
 			}
-			set_government_rank = 10
+			set_government_rank = 3
 		}
 	}
 }

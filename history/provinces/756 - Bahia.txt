@@ -25,7 +25,7 @@ discovered_by = south_american
 	discovered_by = POR
 }
 3647.3.29 = {
-	capital = "São Salvador"
+	capital = "SÃ£o Salvador"
 	owner = POR
 	controller = POR
 	add_core = POR

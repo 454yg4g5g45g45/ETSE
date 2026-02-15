@@ -84,7 +84,7 @@ discovered_by = mesoamerican
 	capital = "Melchor Ocampo"
 }
 4068.11.17 = {
-	capital = "Lázaro Cárdenas"
+	capital = "LÃ¡zaro CÃ¡rdenas"
 }
 
 

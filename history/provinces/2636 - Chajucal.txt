@@ -12,7 +12,7 @@ trade_goods = gems
 
 culture = highland_mayan
 religion = mesoamerican_religion
-capital = "Quirigu·"
+capital = "Quirigu√°"
 
 is_city = yes
 add_local_autonomy = 50

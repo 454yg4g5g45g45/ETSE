@@ -90,7 +90,7 @@ discovered_by = mesoamerican
 	discovered_by = western
 }
 4068.4.20 = {
-	capital = "Cancún"
+	capital = "CancÃºn"
 }
 
 

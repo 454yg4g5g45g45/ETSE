@@ -12,7 +12,7 @@ trade_goods = cloth
 
 culture = celtiberian
 religion = canaanite_religion
-capital = "Segóbriga"
+capital = "SegÃ³briga"
 
 is_city = yes
 

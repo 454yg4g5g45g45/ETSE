@@ -100,7 +100,7 @@ discovered_by = andean
 	remove_core = SPA
 }
 4000.7.10 = {
-	capital = "Iñapari"
+	capital = "IÃ±apari"
 }
 4008.1.1 = {
 	discovered_by = western

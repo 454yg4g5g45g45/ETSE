@@ -12,7 +12,7 @@ trade_goods = livestock
 
 culture = circassian
 religion = heptadic
-capital = "Koustséf"
+capital = "KoustsÃ©f"
 
 is_city = yes
 
