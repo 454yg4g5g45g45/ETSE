@@ -1,19 +1,38 @@
-yellow_turban_rebellion = {
+uprising_of_five_hu = {
 	potential = {
-		OR = {
-			tag = HND
-			was_tag = HND		#added in case Han tag switches via events for new ruler
-		}
-		NOT = { has_country_flag = yellow_turban_rebellion_happened }
+		NOT = { has_country_flag = uprising_of_five_hu_happened }
 		normal_or_historical_nations = yes
-		is_year = 2248
-		NOT = { started_in = 2287.9.28 }		#when Han fractures after Dong Zhuo's rise
+		is_year = 2378
+		NOT = { started_in = 2414.1.1 }
+		OR = {
+			is_emperor_of_china = yes
+			government_rank = 10
+			tag = JIN
+			was_tag = JIN
+		}
 	}
 	
 	can_start = {
 		has_any_disaster = no
-		is_year = 2268
-		NOT = { is_year = 2498 }
+		num_of_cities = 60
+		num_of_owned_provinces_with = {
+			value = 20
+			region = north_china_region
+		}
+		OR = {
+			is_emperor_of_china = yes
+			government_rank = 10
+		}
+		OR = {
+			NOT = { stability = 0 }
+			estate_influence = {
+				estate = estate_nobles
+				influence = 75
+			}
+			NOT = { adm = 2 }
+			NOT = { mil = 2 }
+			has_regency = yes
+		}
 		if = {
 			limit = {	
 				has_dlc = "Mandate of Heaven"
@@ -23,8 +42,9 @@ yellow_turban_rebellion = {
 					NOT = { imperial_mandate = 2148 }
 					is_emperor_of_china = yes
 				}
-				NOT = { is_emperor_of_china = yes }
 				NOT = { stability = -1 }		#changed from -2 to -1
+				has_regency = yes
+				is_bankrupt = yes
 				
 				#only for AI
 				hidden_trigger = {
@@ -37,10 +57,10 @@ yellow_turban_rebellion = {
 			OR = {
 				has_country_modifier = the_mandate_of_heaven_lost
 				has_country_modifier = lost_mandate_of_heaven
-				AND = {
-					NOT = { stability = -1 }		#changed from -2 to -1
-					NOT = { legitimacy = 50 }
-				}
+				NOT = { legitimacy = 50 }
+				NOT = { stability = -1 }		#changed from -2 to -1
+				has_regency = yes
+				is_bankrupt = yes
 				
 				#only for AI
 				hidden_trigger = {
@@ -126,6 +146,7 @@ yellow_turban_rebellion = {
 		else = {
 			stability = 3
 		}
+		stability = 2
 		is_bankrupt = no
 		NOT = { num_of_loans = 5 }
 		NOT = { corruption = 5 }
@@ -135,36 +156,29 @@ yellow_turban_rebellion = {
 	
 	modifier = {
 		land_morale = -0.15
-		technology_cost = 0.2
-		global_unrest = 15
-		global_monthly_devastation = 0.08
-		global_tax_modifier = -0.4
-		global_trade_goods_size_modifier = -0.3
+		technology_cost = 0.1
+		global_unrest = 12
+		global_tax_modifier = -0.25
+		global_trade_goods_size_modifier = -0.2
 	}
 	
-	on_start = yellow_turban_rebellion.1
-	on_end = yellow_turban_rebellion.2
+	on_start = uprising_of_five_hu.1
+	on_end = uprising_of_five_hu.2
 	
 	on_monthly = {
 		events = {
-			yellow_turban_rebellion.4		#Governors Granted Autonomy
-			yellow_turban_rebellion.3		#Liang Province Rebellion
-			yellow_turban_rebellion.13		#Gongsun Du Liaodong Autonomy
-			yellow_turban_rebellion.17		#The Yellow Sky Reigns - Zhang brothers succeed
+			uprising_of_five_hu.3	#Qi Wannian Rebels
+			uprising_of_five_hu.4	#Li Te Rebels in Bashu
+			uprising_of_five_hu.5	#Li Clan Establishes Cheng-Han
+			uprising_of_five_hu.11	#Liu Yuan Conquers Luoyang / Disaster of Yongjia
 		}
 		random_events = {
-			3000 = 0
-			100 = yellow_turban_rebellion.5		#Yellow Turbans in Jing
-			100 = yellow_turban_rebellion.6		#Yellow Turbans in Yi
-			100 = yellow_turban_rebellion.7		#White Wave Bandits
-			100 = yellow_turban_rebellion.8		#Advisor Suspected of Treason
-			100 = yellow_turban_rebellion.9		#Generic peasant revolt event, repeatable
-			50 = yellow_turban_rebellion.10		#Nomad Raid - repeatable
-			100 = yellow_turban_rebellion.11	#Local Militias Support the Han
-			50 = yellow_turban_rebellion.12		#Local Prefect Recruits Han Loyalists
-			100 = yellow_turban_rebellion.14	#Ma Xiang Pretender Emperor
-			100 = yellow_turban_rebellion.15	#Ou Xing Invades Changsha
-			50 = yellow_turban_rebellion.16		#Eunuchs Ignore Rebel Reports
+			2500 = 0
+			100 = uprising_of_five_hu.6		#Rebellions in Hebei
+			100 = uprising_of_five_hu.7		#Rebel Remnants Strike Qing and Xu
+			100 = uprising_of_five_hu.8		#Chen Min Revolts in Jiangnan
+			100 = uprising_of_five_hu.9		#Zhang Chang Rebels in Jingzhou
+			300 = uprising_of_five_hu.10	#Liu Yuan Invades the North
 		}
 	}
 }

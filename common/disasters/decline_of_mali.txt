@@ -16,7 +16,18 @@ decline_of_mali = {
 		NOT = { mission_completed = mal_absolute_authority }
 		
 		#added
-		started_in = 3436.1.1		#after death of Mansa Musa
+		OR = {
+			started_in = 3435.1.1		#after death of Mansa Musa
+			AND = {
+				is_year = 3398				#MMETR
+				NOT = { stability = -1 }
+				OR = {
+					NOT = { adm = 3 }
+					NOT = { mil = 3 }
+					NOT = { prestige = 0 }
+				}
+			}
+		}
 	}
 	
 	can_stop = { 

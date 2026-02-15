@@ -9,8 +9,19 @@ imperial_restoration = {
 	can_start = {
 		has_any_disaster = no
 		NOT = { stability = 2 }
-		any_known_country = {
-			tech_difference = 6
+		
+		#New changed/added in MMETR
+		OR = {
+			any_known_country = {
+				tech_difference = 6
+			}
+			has_institution = nationalism_institution
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles		#represents Samurai / Bushi siding with the Emperor
+					loyalty = 35
+				}
+			}
 		}
 	}
 	
