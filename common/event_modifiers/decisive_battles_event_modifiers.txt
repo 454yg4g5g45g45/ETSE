@@ -1,0 +1,4 @@
+
+decisive_battles_mod_modifier = {
+	warscore_from_battles_modifier = 3
+}

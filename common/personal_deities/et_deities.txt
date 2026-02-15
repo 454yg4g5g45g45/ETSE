@@ -708,7 +708,7 @@ taranis = {
 	}	
 }
 
-taranis = {
+taranis_01 = {
 	discipline = 0.08
 	leader_land_shock = 1.2
 	
@@ -750,7 +750,7 @@ lugus = {
 	}	
 }
 
-lugus = {
+lugus_01 = {
 	global_tax_modifier = 0.19
 	global_trade_goods_size_modifier = 0.1
 	

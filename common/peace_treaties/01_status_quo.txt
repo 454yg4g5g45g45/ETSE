@@ -1,0 +1,71 @@
+po_status_quo = {
+	category = 6
+	power_projection = humiliated_rival
+	power_cost_base = 0
+	prestige_base = 1
+	ae_base = 1
+	warscore_cost = {
+		no_provinces = 100
+	}
+	warscore_cap = 20
+	requires_is_allowed = no
+	is_allowed = {
+		NOT = {
+			war_score = 25
+		}
+		OR = {
+			ROOT = {
+				war_exhaustion = 5
+			}
+			FROM = {
+				war_exhaustion = 5
+			}
+		}
+	}
+	effect = {
+		# Defender
+		FROM = {
+			every_subject_country = {
+				every_owned_province = {
+					limit = {
+						controlled_by = ROOT
+						is_in_capital_area = yes
+					}
+					cede_province = ROOT
+				}
+			}
+			every_owned_province = {
+				limit = {
+					controlled_by = ROOT
+					is_in_capital_area = yes
+				}
+				cede_province = ROOT
+			}
+		}
+		# Attacker
+		ROOT = {
+			every_subject_country = {
+				every_owned_province = {
+					limit = {
+						controlled_by = FROM
+						is_in_capital_area = yes
+					}
+					cede_province = FROM
+				}
+			}
+			every_owned_province = {
+				limit = {
+					controlled_by = FROM
+					is_in_capital_area = yes
+				}
+				cede_province = FROM
+			}
+		}
+	}
+	ai_weight = {
+		export_to_variable = {
+			variable_name = ai_value
+			value = 100
+		}
+	}
+}

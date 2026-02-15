@@ -1,0 +1,18 @@
+
+bookmark =
+{
+	name = "RIVAL_WARLORDS_BOOKMARK_NAME"
+	desc = "RIVAL_WARLORDS_BOOKMARK_DESC"
+	date = 2291.1.1
+	
+	country = WEI
+	country = JI0
+	country = YOU
+	country = ZHO
+	country = HNZ
+	country = SHU
+	country = HND
+	country = CEN
+	country = YAN
+	country = GOG
+}

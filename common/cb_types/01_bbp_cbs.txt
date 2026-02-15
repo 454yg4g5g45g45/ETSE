@@ -1,0 +1,98 @@
+cb_total_war = {
+	valid_for_subject = no
+	prerequisites_self = {
+		ai = no
+	}
+	prerequisites = {
+		OR = {
+			claim = FROM
+			core_claim = FROM
+		}
+	}
+	war_goal = wg_fully_annex
+}
+
+cb_convert_anyone = {
+	valid_for_subject = no
+	prerequisites_self = {
+		ai = no
+		is_defender_of_faith = yes
+	}
+	prerequisites = {
+		OR = {
+			NOT = {
+				religion_group = FROM
+			}
+			NOT = {
+				has_matching_religion = FROM
+			}
+		}
+	}
+	war_goal = wg_fully_convert
+}
+
+cb_banish_colonizer = {
+	valid_for_subject = no
+	prerequisites_self = {
+		ai = no
+	}
+	prerequisites = {
+		OR = {
+			technology_group = high_american
+			technology_group = south_american
+			technology_group = north_american
+			technology_group = andean
+			technology_group = mesoamerican
+			technology_group = polynesian_tech
+		}
+	}
+	war_goal = wg_banish_colonizer
+}
+
+cb_raid_pillage = {
+	valid_for_subject = no
+	prerequisites_self = {
+		technology_group = nomad_group
+	}
+	prerequisites = {
+		FROM = {
+			OR = {
+				is_neighbor_of = ROOT
+				any_neighbor_country = {
+					OR = {
+						is_subject_of = ROOT
+						root = {
+							has_casus_belli = {
+								type = cb_raid_pillage
+								target = THIS
+							}
+						}
+						gives_military_access_to = ROOT
+					}
+				}
+			}
+		}
+	}
+	war_goal = wg_raid_pillage
+}
+
+cb_expand_tributary = {
+	valid_for_subject = no
+	prerequisites_self = {
+		tributary_state = 1
+	}
+	prerequisites = {
+		FROM = {
+			NOT = {
+				is_subject_of_type = tributary_state
+			}
+			OR = {
+				is_neighbor_of = ROOT
+				any_neighbor_country = {
+					is_subject_of = ROOT
+				}
+			}
+		}
+	}
+	war_goal = wg_expand_tributary
+}

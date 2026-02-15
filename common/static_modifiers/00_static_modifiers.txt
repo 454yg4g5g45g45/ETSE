@@ -18,7 +18,7 @@ difficulty_very_easy_player = {
 	global_regiment_cost = -0.33
 	global_ship_cost = -0.33
 	inflation_reduction = 0.05
-	global_unrest = -5000
+	global_unrest = -5
 	war_exhaustion = -0.05
 	core_creation = -0.25
 	advisor_pool = 1
@@ -35,21 +35,17 @@ difficulty_easy_player = {
 	manpower_recovery_speed = 0.50
 	global_unrest = -5
 	interest = -2
-	global_unrest = -5000
 	ae_impact = -0.33
 	yearly_corruption = -1.0
 }
 
 difficulty_normal_player = {
-	global_unrest = -5000
 }
 
 difficulty_hard_player = {
-	global_unrest = -5000
 }
 
 difficulty_very_hard_player = {
-	global_unrest = -5000
 }
 
 ##########################################################################
@@ -57,22 +53,18 @@ difficulty_very_hard_player = {
 ##########################################################################
 
 difficulty_very_easy_ai = {
-	global_unrest = -5000
 }
 
 difficulty_easy_ai = {
-	global_unrest = -5000	
 }
 
 difficulty_normal_ai = {
-	global_unrest = -5000	
 }
 
 difficulty_hard_ai = {
 	manpower_recovery_speed = 0.50
 	global_unrest = -1
 	war_exhaustion = -0.05
-	global_unrest = -5000
 	interest = -1
 	ae_impact = -0.33
 	missionary_maintenance_cost = -0.15
@@ -87,7 +79,7 @@ difficulty_very_hard_ai = {
 	global_regiment_cost = -0.33
 	global_ship_cost = -0.33
 	inflation_reduction = 0.05
-	global_unrest = -5000	
+	global_unrest = -2
 	war_exhaustion = -0.05
 	core_creation = -0.25
 	idea_cost = -0.25
@@ -653,6 +645,8 @@ positive_stability = {
 	yearly_harmony = 0.25
 	monthly_ottoman_decadence = -0.05
 	monthly_authority_power = -0.01
+	
+	monthly_mandala_domination_gov_mech = 0.01		#added MMETR, meaning 0.01 for EACH value of +stability (max of 0.03)
 }
 
 privateering = {
@@ -670,6 +664,8 @@ negative_stability = {
 	monthly_russian_modernization = 0.03
 	monthly_ottoman_decadence = -0.15
 	monthly_authority_power = 0.05
+	
+	monthly_mandala_domination_gov_mech = 0.03		#added MMETR, reversed value, meaning -0.03 for EACH value of +stability (max of 0.09)
 }
 
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
@@ -759,6 +755,8 @@ bankruptcy = {
 	great_project_upgrade_cost = 0.5
 	monthly_russian_modernization = -1
 	monthly_authority_power = 0.25
+	
+	monthly_mandala_domination_gov_mech = -0.1		#added MMETR
 }
 
 
@@ -815,6 +813,8 @@ war_exhaustion = {
 	monthly_arabic_trade_influence_power = -0.05
 	monthly_cultural_unity = -0.05
 	monthly_authority_power = 0.01
+	
+	monthly_mandala_domination_gov_mech = -0.1		#added MMETR
 }
 
 doom = {
@@ -969,6 +969,8 @@ num_of_marriages = {
 	legitimacy = 0.10
 	heir_chance = 0.05
 	improve_relation_modifier = 0.01
+	
+	monthly_mandala_domination_gov_mech = 0.01		#added MMETR
 }
 
 num_of_provinces = {
@@ -1152,6 +1154,8 @@ over_extension = {
 	mr_guilds_influence = 0.5
 	yearly_corruption = 0.5
 	ottoman_decadence_gain_modifier = 0.25
+	
+	monthly_mandala_domination_gov_mech = -0.025		#added MMETR
 }
 
 prestige = {
@@ -1188,6 +1192,8 @@ prestige = {
 	monthly_divine_authority = 0.1
 	monthly_authority_power = -0.2
 	monthly_barbarian_glory = 0.5
+	
+	monthly_mandala_domination_gov_mech = 0.1		#added MMETR
 }
 
 no_debate_in_parliament = {
@@ -1534,10 +1540,14 @@ self_governing_colony_subject = {
 
 march_subject = {
 	land_forcelimit = 1
+	
+	monthly_mandala_domination_gov_mech = 0.01		#added MMETR
 }
 
 vassal_subject = {
 	land_forcelimit = 1
+	
+	monthly_mandala_domination_gov_mech = 0.01		#added MMETR
 }
 
 daimyo_subject = {
@@ -2065,6 +2075,40 @@ sufri_scholar_modifier = {
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
 	infantry_power = 0.10
+}
+
+#New added MMETR
+qarmati_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	cavalry_power = 0.1
+	may_perform_slave_raid_on_same_religion = yes
+}
+
+svetambara_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	diplomatic_reputation = 1
+	female_advisor_chance = 0.25
+}
+digambara_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	ae_impact = -0.1
+}
+yapaniya_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	tolerance_heathen = 2
+	female_advisor_chance = 0.25
 }
 
 ########################################

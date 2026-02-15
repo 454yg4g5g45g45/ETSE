@@ -622,7 +622,7 @@ NCountry = {
 	PRESTIGE_GAIN_FOR_GOV_RANK_X = 25,					-- Prestige gained on upgrading to government rank above 3
 	MIN_PRESTIGE_FOR_GOV_RANK_X = 75,					-- Required prestige to to upgrade to government above 3
 	ADDITIONAL_MIN_DEVELOPMENT_FOR_GOV_RANK_X = 500,	-- ADDITIONAL development needed to upgrade to government rank above 3
-	MAX_GOV_RANK = 3,									-- Max possible is 10
+	MAX_GOV_RANK = 10,									-- Max possible is 10
 
 
 	PARLIAMENT_BACKING_PERCENTAGE = 25,			-- average percent of seats backing an issue (0-100)
@@ -2704,7 +2704,7 @@ NNationDesigner = {
 	DEFAULT_MALE_CHANCE = 75,				-- Default chance for males if ruler and heir start genders aren't the same.
 	ALL_FEMALE_MALE_CHANCE = 0,				-- Chance for males if starting ruler and heir were both female.
 	ALL_MALE_MALE_CHANCE = 100,				-- Chance for females if starting ruler and heir were both male.
-	MAX_GOVERNMENT_RANK = 3,
+	MAX_GOVERNMENT_RANK = 10,
 	GOVERNMENT_RANK_COST_1 = -10,
 	GOVERNMENT_RANK_COST_2 = 0,
 	GOVERNMENT_RANK_COST_3 = 30,

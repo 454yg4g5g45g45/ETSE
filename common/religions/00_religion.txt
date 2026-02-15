@@ -1442,6 +1442,100 @@ christian = {
 
 		date = 3475.1.1
 	}
+
+	#New added in MMETR
+	montanism = {
+		color = { 255 86 89 }
+		icon = 38
+		allowed_conversion = {
+			chalcedonism
+		}
+		country = {
+			tolerance_own = 2
+			missionaries = 1
+			female_advisor_chance = 0.25
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			missionaries = 1
+			female_advisor_chance = 0.2
+		}
+		province = {
+			local_missionary_strength = 0.01
+		}
+
+		on_convert = {
+			change_religion = montanism
+			add_prestige = -30
+		}
+
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+
+		date = 135.1.1	#Montanus, Maximilia and Prisca begin prophesying
+	}
+	
+	paulician = {
+		color = { 127 0 76 }
+		icon = 38
+		country = {
+            stability_cost_modifier = -0.2
+			tolerance_heathen = 2
+		}
+		country_as_secondary = {
+			global_regiment_cost = -0.1
+			merc_maintenance_modifier = -0.1
+			cb_on_religious_enemies = yes		#can launch Crusades, as they did historically from their state in Tephrike
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY }
+		
+		has_patriarchs = yes        # Uses patriarch authority
+	}
+	
+	donatist = {
+		color = { 69 130 183 }
+		icon = 38
+		country = {
+            tolerance_own = 2
+            defensiveness = 0.1
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+			defensiveness = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY }
+		
+		has_patriarchs = yes        # Uses patriarch authority
+	}
+	
+	iconoclast = {
+		color = { 117 0 52 }
+		icon = 38
+		country = {
+            tolerance_own = 4
+            global_tax_modifier = 0.1
+			tolerance_heretic = -2
+		}
+		country_as_secondary = {
+			raze_power_gain = 0.2
+            global_missionary_strength = 0.01
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY }
+		
+		has_patriarchs = yes        # Uses patriarch authority
+        misguided_heretic = yes        # Other christians hate them less
+	}
 	
 	harmonized_modifier = harmonized_christian
 	
@@ -2055,6 +2149,45 @@ muslim = {
 					NOT = { has_country_modifier = has_invited_scholar_recently }
 				}
 				NOT = { has_country_modifier = sufri_scholar_modifier }
+			}
+
+		#Added in MMETR - Qarmatian revolutionary school
+		qarmati_school = {
+			potential_invite_scholar = {
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					tag = QRM
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				if = {
+					limit = {
+						NOT = { religion = shiite }
+					}
+					NOT = { piety = -0.5 }
+				}
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = qarmati_scholar_modifier }
 			}
 
 			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
@@ -3336,6 +3469,66 @@ eastern = {
 		
 		harmonized_modifier = harmonized_daoism		#added MMETR, since can now be harmonized by confucianism
 	}
+
+	sasanea_yang = {
+		color = { 111 153 60 }
+		icon = 15
+		province = {
+			local_missionary_strength = 0.01
+		}
+		country = {
+			tolerance_own = 1
+			defensiveness = 0.1
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+			defensiveness = 0.1
+		}
+		
+		harmonized_modifier = harmonized_sasanea_yang
+		
+		heretic = { SNAKE_CLAN }
+	}
+
+	satsana_phi = {
+		color = { 180 130 50 }
+		icon = 15
+		province = {
+			local_missionary_strength = 0.01
+		}
+		country = {
+			tolerance_heretic = 2
+			tolerance_heathen = 1
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+			loot_amount = 0.25
+		}		#MMETR added, from Totemist mechanic
+		
+		harmonized_modifier = harmonized_satsana_phi
+		
+		heretic = { SNAKE_CLAN }
+	}
+	
+	natic = {
+		color = { 107 93 99 }
+		icon = 15
+		province = {
+			local_missionary_strength = 0.01
+		}
+		country = {
+			tolerance_own = 1
+			tolerance_heathen = 2
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+			tolerance_heathen = 1
+		}
+		
+		harmonized_modifier = harmonized_natic
+		
+		heretic = { SNAKE_CLAN }
+	}
 	
 	crusade_name = CRUSADE
 }
@@ -3379,6 +3572,23 @@ pagan = {
 		}
 		heretic = { GOAT_SKULL }
 	}
+
+	dreamtime = {
+		icon = 18
+		color = { 197 133 43 }
+		country = {
+			shock_damage_received = -0.05
+			diplomatic_reputation = 1
+		}
+		country_as_secondary = {
+			shock_damage = 0.1
+			hostile_attrition = 2
+		}
+		
+		fetishist_cult = yes
+		heretic = { WAGYLKOOP MOORAMOORA GINGARRURNDE }
+	}
+	
 	
 	harmonized_modifier = harmonized_pagan
 	

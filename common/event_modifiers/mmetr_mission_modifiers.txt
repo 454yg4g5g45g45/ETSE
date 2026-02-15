@@ -357,6 +357,10 @@ me_sas_steadfast_mowbed = {
 me_sas_chinese_diplomatic_ties = {
 	placed_merchant_power = 10
 }
+me_sas_mowbed_loyalty = {
+	church_loyalty_modifier = 0.15
+	advisor_pool = 1
+}
 me_sas_azar_goshnasp = {
 	local_unrest = -1
 	local_religious_unity_contribution = 0.1
@@ -453,11 +457,11 @@ me_sas_sasanian_egyptian_administrators = {
 	local_development_cost = -0.1
 	local_governing_cost = -0.3
 }
-me_sas_azar_farnbag = { #associated with the magi
+me_sas_azar_farnbag = {			#associated with the magi
 	local_unrest = -1
 	missionaries = 1	#global modifier if own province
 }
-me_sas_azar_barzin = { #associated with lowest class, farmers and herdsmen
+me_sas_azar_barzin = {	me_sas_azar_barzin		#associated with lowest class, farmers and herdsmen
 	local_unrest = -1
 	production_efficiency = 0.05		#global modifier if own province
 }
@@ -1326,7 +1330,7 @@ me_par_lord_of_asia = {
 }
 me_par_loyal_clients = {
 	vassal_income = 0.1
-	reduced_liberty_desire = -5
+	reduced_liberty_desire = 5
 }
 me_par_persian_integration = {
 	num_accepted_cultures = 1
@@ -1620,6 +1624,72 @@ me_hnd_imperial_scions_of_the_han = {
 me_hnd_golden_age_of_china = {
 	prestige_decay = -0.01
 }
+me_hnd_last_han_armies = {
+	land_morale = 0.05
+	infantry_cost = -0.1
+}
+me_hnd_forward_momentum = {
+	recover_army_morale_speed = 0.1
+	movement_speed = 0.1
+}
+me_hnd_yuan_armies_absorbed = {
+	manpower_recovery_speed = 0.1
+	diplomatic_reputation = 1
+}
+me_hnd_northern_frontier_cavalry = {
+	cavalry_cost = -0.1
+}
+me_hnd_yellow_river_control = {
+	production_efficiency = 0.1
+	trade_goods_size_modifier = 0.1
+}
+me_hnd_tower_ship_navy = {
+	naval_tradition_from_battle = 1
+	navy_tradition_decay = -0.01
+}
+me_hnd_qiang_auxiliaries = {
+	army_tradition_decay = -0.01
+}
+me_hnd_western_armies = {
+	manpower_recovery_speed = 0.1
+	reinforce_cost_modifier = -0.1
+	recover_army_morale_speed = 0.05
+}
+me_hnd_successor_of_ancestral_emperors = {
+	prestige_decay = -0.01
+}
+me_hnd_plundering_armies = {
+	available_province_loot = 0.3
+}
+me_hnd_renovation_projects = {
+	build_cost = -0.1
+	build_time = -0.2
+}
+me_hnd_heir_of_liu_bang = {
+	republican_tradition = 0.2
+	legitimacy = 0.5
+	devotion = 0.5
+	ae_impact = -0.05
+}
+me_hnd_disloyalty_curtailed = {
+	harsh_treatment_cost = -0.25
+	reduced_liberty_desire = 10		#positive integer decreases value
+}
+me_hnd_loyal_court = {
+	advisor_cost = -0.1
+}
+me_hnd_undisputed_hegemon = {
+	years_of_nationalism = -3
+	advisor_pool = 1
+}
+me_hnd_han_restoration = {
+	prestige = 1
+	ae_impact = -0.05
+}
+me_hnd_great_restorer = {
+	diplomatic_upkeep = 1
+	core_creation = -0.1
+}
 
 
 #################################################################
@@ -1711,7 +1781,7 @@ me_kha_et_great_yassa = {
 me_kha_et_tumen_system = {
 	army_tradition_decay = -0.01
 	nomadic_tribes_loyalty_modifier = 0.10
-	nomadic_tribes_influence_modifier = 0.1
+	nomadic_tribes_influence_modifier = -0.10
 }
 me_kha_et_extended_khaganate_dynasty = {
 	heir_chance = 0.5
@@ -2336,6 +2406,8 @@ me_shu_wooden_ox_and_flowing_horse = {
 }
 me_shu_tuntian_system = {
 	global_supply_limit_modifier = 0.1
+	development_cost = -0.1
+	global_rebel_suppression_efficiency = 0.5
 }
 me_shu_shu_steelmaking = {
 	shock_damage = 0.1
@@ -2883,7 +2955,7 @@ me_fat_turkish_ghulam = {
 }
 
 #################################################################
-# LAE Latin Empire of Constantinople
+# LAT Latin Empire of Constantinople
 #################################################################
 me_lat_greek_reintegration = {
 	local_unrest = -3
@@ -3444,7 +3516,7 @@ me_rum_overflowing_treasury = {
 }
 me_rum_loyal_emirates = {
 	vassal_manpower_bonus = 0.1
-	reduced_liberty_desire = -10
+	reduced_liberty_desire = 10
 	diplomatic_annexation_cost = -0.2
 	annexation_relations_impact = -0.1
 }
@@ -4104,7 +4176,158 @@ me_cls_srivijaya_autonomy = {
 #################################################################
 # JUD Judea
 #################################################################
-
+me_jud_approval_of_the_kohanim = {
+	adm_advisor_cost = -0.15
+	church_power_modifier = 0.1
+}
+me_jud_herodian_walls = {
+	local_defensiveness	= 0.25
+	local_hostile_attrition = 2
+}
+me_jud_allies_of_judea = {
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.2
+}
+me_jud_hellenes_rejected = {
+	culture_conversion_cost = -0.1
+}
+me_jud_hellenes_embraced = {
+	num_accepted_cultures = 1
+	promote_culture_cost = -0.1
+}
+me_jud_hellenes_vehemently_rejected = {
+	culture_conversion_cost = -0.15
+	promote_culture_cost = 0.2
+}
+me_jud_overseas_trade_networks = {
+	trade_efficiency = 0.2
+	global_own_trade_power = 0.1
+}
+me_jud_devout_visionary = {
+	tolerance_own = 1
+	missionaries = 1
+	global_heathen_missionary_strength = 0.01
+	build_cost = -0.2
+}
+me_jud_devout_warriors = {
+	land_morale = 0.2
+	manpower_recovery_speed = 0.2
+}
+me_jud_victorious_army = {
+	global_manpower = 0.1
+	army_tradition_decay = -0.01
+}
+me_jud_pious_harvest = {
+	production_efficiency = 0.15
+	global_tax_modifier = 0.15
+}
+me_jud_innovative_engineering = {
+	build_cost = -0.15
+	build_time = -0.2
+}
+me_jud_idumean_subjects = {
+	global_manpower_modifier = 0.15
+}
+me_jud_moab_assimilation = {
+	culture_conversion_time = -0.1
+	global_missionary_strength = 0.01
+}
+me_jud_masada = {
+	local_defensiveness = 0.3
+	local_garrison_size = 0.1
+	hostile_attrition = 5
+	max_attrition = 5
+}
+me_jud_messengers_of_our_lord = {
+	global_heathen_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.1
+}
+me_jud_great_sea_navy = {
+	naval_morale = 0.1
+	naval_maintenance_modifier = -0.1
+	naval_forcelimit_modifier = 0.1
+}
+me_jud_successful_revolution = {
+	legitimacy = 1
+	prestige = 1
+	diplomatic_reputation = 2
+}
+me_jud_king_of_syria = {
+	core_creation = -0.1
+	fabricate_claims_cost = -0.1
+}
+me_jud_babylonian_revenge = {
+	global_heathen_missionary_strength = 0.02
+	harsh_treatment_cost = -0.1
+}
+me_jud_multilingual_bibles = {
+	global_heathen_missionary_strength = 0.01
+	num_accepted_cultures = 1
+}
+me_jud_religious_fervor = {
+	global_missionary_strength = 0.02
+	same_religion_advisor_cost = -0.15
+}
+me_jud_mesopotamian_empire = {
+	governing_capacity = 100
+}
+me_jud_return_to_egypt = {
+	manpower_recovery_speed = 0.1
+	land_morale = 0.05
+	global_missionary_strength = 0.02
+}
+me_jud_king_of_two_thrones = {
+	governing_capacity_modifier = 0.15
+	vassal_income = 0.2
+	num_accepted_cultures = 1
+}
+me_jud_roman_war = {
+	land_morale = 0.1
+	land_forcelimit_modifier = 0.1
+	manpower_recovery_speed = 0.1
+	defensiveness = 0.1
+}
+me_jud_judean_resistance = {
+	liberty_desire = 75
+	global_unrest = -1
+}
+me_jud_incense_route = {
+	caravan_power = 0.1
+	trade_efficiency = 0.1
+}
+me_jud_coastal_trade_network = {
+	global_foreign_trade_power = 0.15
+	light_ship_cost = -0.1
+	global_ship_recruit_speed = -0.1
+}
+me_jud_heirs_of_old_lineage = {
+	diplomatic_reputation = 1
+	global_autonomy = -0.05
+	tolerance_own = 1
+}
+me_jud_valor_of_the_maccabees = {
+	army_tradition_decay = -0.01
+	leader_land_shock = 1
+}
+me_jud_jewish_communites_in_arabia = {
+	local_unrest = -2
+	local_missionary_strength = 0.01
+}
+me_jud_ark_of_the_covenant = {
+	monthly_church_power = 0.5
+}
+me_jud_empire_of_david = {
+	governing_capacity = 100
+	diplomatic_upkeep = 1
+	administrative_efficiency = 0.05
+}
+me_jud_rising_empire = {
+	diplomatic_reputation = 2
+	diplomatic_annexation_cost = -0.1
+}
+me_jud_temple_network = {
+	missionaries = 1
+}
 
 
 #################################################################
@@ -4229,6 +4452,91 @@ me_gog_era_of_eternal_rejoicing = {
 	diplomatic_reputation = 1
 	prestige_decay = -0.01
 }
+me_gog_nomad_cavalry = {
+	manpower_in_accepted_culture_provinces = 0.1
+	cavalry_cost = -0.1
+}
+me_gog_king_of_the_steppes = {
+	num_accepted_cultures = 1
+	cav_to_inf_ratio = 0.2
+}
+me_gog_overseas_dominion = {
+	naval_morale_damage = 0.1
+	regiment_disembark_speed = 0.2
+}
+me_gog_emperor_of_goryeo_and_wa = {
+	num_accepted_cultures = 1
+	tolerance_heretic = 1
+}
+me_gog_missionary_traditions = {
+	global_missionary_strength = 0.01
+	global_heathen_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.1
+}
+me_gog_center_of_the_korean_realm = {
+	advisor_pool = 1
+	adm_advisor_cost = -0.1
+}
+me_gog_king_of_gojoseon = {
+	legitimacy = 1
+	same_culture_advisor_cost = -0.2
+}
+me_gog_king_of_yan = {
+	local_unrest = -5
+	local_years_of_nationalism = -5
+	local_manpower_modifier = 0.25
+}
+me_gog_great_endeavor_era = {
+	development_cost = -0.15
+}
+me_gog_exalted_martial_era = {
+	manpower_recovery_speed = 0.1
+}
+me_gog_great_peace_era = {
+	diplomatic_reputation = 1
+}
+me_gog_chinese_recruitment = {
+	manpower_in_accepted_culture_provinces = 0.1
+	adm_advisor_cost = -0.1
+	advisor_pool = 1
+}
+me_gog_yellow_sea_merchants = {
+	trade_efficiency = 0.1
+}
+me_gog_conqueror_of_ji = {
+	siege_ability = 0.1
+	movement_speed = 0.1
+	reinforce_cost_modifier = -0.1
+}
+me_gog_sea_trade_monopoly = {
+	trade_efficiency = 0.1
+	trade_steering = 0.1
+	trade_range_modifier = 0.2
+}
+me_gog_tribute_to_the_throne = {
+	monarch_power_tribute = 1
+	tributary_conversion_cost_modifier = -0.1
+}
+me_gog_imperial_glory = {
+	governing_capacity = 100
+	prestige = 1
+}
+me_gog_heavens_blessing = {
+	advisor_pool = 1
+	prestige = 1
+	imperial_mandate = 2098.03
+}
+me_gog_wajin_subjects = {
+	local_manpower_modifier = 0.2
+	local_tax_modifier = 0.15
+	local_unrest = -1
+}
+me_gog_tomb_of_king_dongmyeong = {
+	legitimacy = 0.5
+	monthly_heir_claim_increase = 0.1
+	religious_unity = 0.1
+}
+
 
 #################################################################
 # BYZ Byzantium
@@ -4448,6 +4756,1309 @@ me_byz2_icons_protected = {
 	reverse_relation_with_same_religion = 10
 }
 
+#################################################################
+# PON BSP Pontus and Bosporus
+#################################################################
+me_pon_trustworthy_friend = {
+	diplomatic_reputation = 1
+}
+me_pon_pontic_cities = {
+	global_tax_modifier = 0.2
+	prestige = 0.5
+}
+me_pon_pontic_army = {
+	land_morale = 0.1
+	recover_army_morale_speed = 0.05
+	manpower_in_own_culture_provinces = 0.1
+}
+me_pon_siraci_vassals = {
+	cavalry_cost = -0.1
+	trade_efficiency = 0.2
+}
+me_pon_alani_mounted_archers = {
+	cavalry_power = 0.1
+	cavalry_flanking = 0.1
+}
+me_pon_caucasian_fortresses = {
+	defensiveness = 0.15
+}
+me_pon_gem_of_the_bosporus = {
+	local_development_cost = -0.1
+	province_trade_power_modifier = 0.1
+}
+me_pon_bosporan_unity = {
+	light_ship_cost = -0.1
+	naval_morale = 0.1
+}
+me_pon_glorious_campaign = {
+	land_morale = 0.05
+	core_creation = -0.1
+}
+me_pon_king_of_the_sarmatians = {
+	num_accepted_cultures = 1
+	cav_to_inf_ratio = 0.1
+}
+me_pon_dacian_falx = {
+	infantry_power = 0.1
+}
+me_pon_dacian_fortress_techniques = {
+	fort_maintenance_modifier = -0.1
+	defensiveness = 0.1
+}
+me_pon_temple_states = {
+	missionaries = 1
+	church_loyalty_modifier = 0.2
+	tolerance_own = 1
+}
+me_pon_roman_aqueducts = {
+	development_cost = -0.1
+	manpower_recovery_speed = 0.1
+}
+me_pon_hellenistic_king = {
+	num_accepted_cultures = 1
+}
+me_pon_hellenistic_governance = {
+	administrative_efficiency = 0.05
+}
+me_pon_pontic_merchants = {
+	global_ship_trade_power = 0.2
+	trade_efficiency = 0.1
+	global_own_trade_power = 0.1
+}
+me_pon_pontic_monopoly = {
+	trade_steering = 0.1
+	naval_maintenance_modifier = -0.05
+	naval_tradition_from_trade = 0.5
+}
+me_pon_pontic_restoration = {
+	land_morale = 0.15
+	naval_morale = 0.2
+	manpower_recovery_speed = 0.2
+}
+me_pon_hellenistic_city = {
+	province_trade_power_modifier = 0.1
+	local_defensiveness = 0.2
+}
+me_pon_pontic_realm_restored = {
+	prestige_from_land = 0.5
+	army_tradition_decay = -0.01
+}
+me_pon_aegean_trade = {
+	trade_efficiency = 0.1
+}
+me_pon_heritage_of_persia = {
+	province_warscore_cost = -0.1
+	unjustified_demands = -0.1
+}
+me_pon_king_of_kings = {
+	num_accepted_cultures = 2
+	prestige = 0.5
+	legitimacy = 1
+}
+me_pon_lord_of_asia_minor = {
+	num_accepted_cultures = 1
+	global_manpower_modifier = 0.1
+	diplomatic_reputation = 1
+}
+me_pon_victorious_army = {
+	siege_ability = 0.1
+	movement_speed = 0.1
+	land_morale = 0.05
+}
+me_pon_heir_of_alexander = {
+	infantry_power = 0.1
+	promote_culture_cost = -0.25
+}
+me_pon_greek_liberator = {
+	relation_with_same_culture_group = 15
+	same_culture_advisor_cost = -0.2
+}
+me_pon_silver_shields_of_macedon = {
+	infantry_power = 0.1
+	land_maintenance_modifier = -0.1
+}
+me_pon_ptolemaic_legacy = {
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	core_creation = -0.1
+}
+me_pon_scythian_neapolis = {
+	cavalry_cost = -0.1
+	local_defensiveness = 0.1
+	local_friendly_movement_speed = 0.25
+}
+me_pon_hospitable_emporia = {
+	global_own_trade_power = 0.1
+	placed_merchant_power = 2
+	trade_steering = 0.1
+}
+
+#################################################################
+# ROM Roman Empire
+#################################################################
+me_rom_recognized_metropolis = {
+	local_development_cost = -0.1
+	local_unrest = -2
+}
+me_rom_goddess_of_roma = {
+	statewide_governing_cost = -0.25
+	local_religious_unity_contribution = 0.5
+}
+me_rom_roman_coloniae = {
+	manpower_in_culture_group_provinces = 0.1
+}
+me_rom_roman_militarism = {
+	army_tradition_decay = -0.01
+}
+me_rom_librarys_prominence_restored = {
+	advisor_pool = 1
+	province_trade_power_modifier = 0.1
+}
+me_rom_abundant_supplies = {
+	land_attrition = -0.1
+	production_efficiency = 0.1
+}
+me_rom_auxilia = {
+	cavalry_flanking = 0.2
+	cavalry_power = 0.05
+	is_mercenary_modifier = yes
+}
+me_rom_southern_supply_network = {
+	caravan_power = 0.1
+	merc_maintenance_modifier = -0.1
+}
+me_rom_dacia_felix = {
+	local_development_cost = -0.2
+	local_autonomy = -0.05
+	local_defensiveness = 0.1
+}
+me_rom_hiberno_roman_commerce = {
+	local_production_efficiency = 0.1
+	province_trade_power_modifier = 0.1
+}
+me_rom_roman_castra = {
+	local_culture_conversion_cost = -0.15
+	local_defensiveness = 0.1
+}
+me_rom_kingmakers_curbed = {
+	harsh_treatment_cost = -0.25
+	stability_cost_modifier = -0.1
+	mil_advisor_cost = -0.1
+}
+me_rom_a_new_alexandros = {
+	years_of_nationalism = -5
+	ae_impact = -0.1
+}
+me_rom_persian_administrators = {
+	governing_capacity = 150
+}
+me_rom_great_conqueror = {
+	years_of_nationalism = -5
+	governing_capacity = 150
+	prestige = 1
+}
+me_rom_magna_germania = {
+	manpower_recovery_speed = 0.1
+}
+me_rom_philhellenes_of_rome = {
+	build_time = -0.1
+	advisor_pool = 1
+	same_religion_advisor_cost = -0.1
+}
+me_rom_temple_of_asclepius = {
+	local_monthly_devastation = -0.2
+	local_unrest = -1
+}
+me_rom_caesar_of_mesopotamia = {
+	trade_efficiency = 0.1
+	advisor_pool = 1
+}
+me_rom_caesar_of_babylonia = {
+	prestige = 0.5
+	governing_capacity = 50
+}
+me_rom_third_odyssey = {
+	global_colonial_growth = 10
+	trade_range_modifier = 0.25
+	trade_steering = 0.1
+	expel_minorities_cost = -0.1
+}
+me_rom_eastern_trade_routes = {
+	trade_steering = 0.2
+	placed_merchant_power = 5
+	caravan_power = 0.1
+}
+rom_piety_to_the_gods = {
+	tolerance_own = 1
+	global_heathen_missionary_strength = 0.01
+	reverse_relation_with_same_religion = 20
+}
+rom_faith_in_god = {
+	global_heathen_missionary_strength = 0.02
+	reverse_relation_with_same_religion = 20
+}
+me_rom_collegium_of_the_pontifices = {
+	missionaries = 1
+	global_heathen_missionary_strength = 0.02
+}
+me_rom_roman_orthodox_canon = {
+	missionaries = 1
+	global_heretic_missionary_strength = 0.02
+}
+me_rom_christian_mission = {
+	missionaries = 1
+	global_heathen_missionary_strength = 0.01
+}
+me_rom_christianity_affirmed = {
+	global_heathen_missionary_strength = 0.01
+}
+me_rom_imposed_imperial_pantheon = {
+	global_heathen_missionary_strength = 0.01
+}
+me_rom_pagan_survival = {
+	missionaries = 1
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+}
+me_rom_true_piety = {
+	missionaries = 1
+	tolerance_own = 1
+}
+me_rom_our_sea = {
+	naval_morale = 0.05
+	trade_steering = 0.1
+	ship_power_propagation = 0.25
+	navy_tradition_decay = -0.01
+}
+rom_united_in_faith = {
+	tolerance_own = 1
+	same_religion_advisor_cost = -0.2
+}
+me_rom_via_nova = {
+	local_friendly_movement_speed = 0.1
+	supply_limit = 1
+}
+me_fun_palmyrene_army = {
+	global_manpower_modifier = 0.1
+	land_morale = 0.05
+	attack_bonus_in_capital_terrain = 1
+	movement_speed = 0.1
+}
+me_rom_roman_road_network = {
+	local_friendly_movement_speed = 0.1
+	supply_limit = 2
+}
+
+
+#################################################################
+# PLM Palmyra / Palmyrene Empire
+#################################################################
+me_plm_palmyrene_merchant_network = {
+	trade_range_modifier = 0.25
+	improve_relation_modifier = 0.25
+	global_trade_power = 0.1
+}
+me_plm_merchant_escort_guard = {
+	global_own_trade_power = 0.15
+	caravan_power = 0.2
+}
+me_plm_empire_of_commerce = {
+	trade_efficiency = 0.05
+	trade_range_modifier = 0.25
+}
+me_plm_agora_of_palmyra = {
+	allowed_num_of_buildings = 1
+	province_trade_power_value = 5
+	picture = "province_trade_power_value"
+}
+me_plm_blooming_intellectualism = {
+	global_institution_spread = 0.05
+	idea_cost = -0.1
+	advisor_pool = 1
+}
+me_plm_aristocratic_administrators = {
+	adm_advisor_cost = -0.1
+	development_cost = -0.1
+}
+me_plm_ancestral_gods_of_the_noble_clans = {
+	stability_cost_modifier = -0.1
+	missionaries = 1
+	tolerance_own = 1
+}
+me_plm_gods_of_palmyra = {
+	prestige_per_development_from_conversion = 0.25
+	enforce_religion_cost = -0.1
+}
+me_plm_incorporation_of_regional_deities = {
+	tolerance_heathen = 1
+	global_missionary_strength = 0.02
+}
+me_plm_temple_of_bel = {
+	tolerance_own = 1
+	stability_cost_modifier = -0.1
+	religion = yes
+}
+me_plm_great_builder = {
+	build_cost = -0.15
+	build_time = -0.2
+}
+me_plm_sparta_of_the_orient = {
+	land_morale = 0.15
+	land_forcelimit_modifier = 0.3
+}
+me_plm_sparta_of_the_orient_late_palmyra = {
+	land_morale = 0.05
+	land_forcelimit_modifier = 0.2
+}
+me_plm_elite_camel_cavalry = {
+	cavalry_power = 0.1
+	cavalry_flanking = 0.1
+	cav_to_inf_ratio = 0.25
+}
+me_plm_mlk_mlk_dy_mdnh = {
+	governing_capacity = 100
+}
+me_plm_king_of_syria = {
+	manpower_recovery_speed = 0.15
+	global_manpower_modifier = 0.1
+}
+me_plm_corrector_totius_orientis = {
+	land_forcelimit_modifier = 0.1
+	land_morale = 0.05
+	global_manpower_modifier = 0.1
+}
+me_plm_persian_war_spoils = {
+	production_efficiency = 0.1
+	cavalry_cost = -0.1
+}
+me_plm_king_in_ctesiphon = {
+	prestige = 0.5
+	cavalry_fraction = 0.1
+}
+me_plm_persian_merchant_networks = {
+	trade_range_modifier = 0.25
+	merchants = 1
+}
+me_plm_victory_over_petra = {
+	global_own_trade_power = 0.1
+	prestige_decay = -0.01
+}
+me_plm_thriving_alexandria = {
+	local_institution_spread = 0.1
+	dip_advisor_cost = -0.1
+}
+me_plm_shared_religious_ties = {
+	tolerance_own = 1
+}
+me_plm_ruler_of_asia = {
+	num_accepted_cultures = 1
+}
+me_plm_egyptian_subjects = {
+	promote_culture_cost = -0.15
+	advisor_pool = 1
+}
+me_plm_king_of_the_nile = {
+	num_accepted_cultures = 1
+}
+me_plm_emperor_of_palmyra = {
+	diplomatic_reputation = 1
+	num_accepted_cultures = 1
+}
+me_plm_conquering_the_conquerors = {
+	army_tradition_from_battle = 0.5
+	army_tradition_decay = -0.01
+}
+me_plm_the_new_alexandros = {
+	siege_ability = 0.1
+}
+me_plm_greek_seafarers = {
+	galley_cost = -0.1
+	global_ship_recruit_speed = -0.1
+}
+me_plm_tanukhid_mercenaries = {
+	merc_maintenance_modifier = -0.1
+}
+me_plm_jewish_community_appeased = {
+	tolerance_heathen = 2
+}
+me_plm_pantheon_supremacy = {
+	global_heathen_missionary_strength = 0.02
+}
+me_plm_king_in_roma = {
+	diplomatic_reputation = 2
+	legitimacy = 1
+	build_time = -0.1
+}
+me_plm_royal_family_strengthened = {
+	legitimacy = 0.5
+	heir_chance = 0.3
+	harsh_treatment_cost = -0.25
+}
+me_plm_senatorial_restoration = {
+	republican_tradition = 0.5
+	all_estate_loyalty_equilibrium = 0.05
+	adm_advisor_cost = -0.1
+	advisor_pool = 1
+	
+}
+
+
+#################################################################
+# FRK Merovingian Francia - United and Generic
+#################################################################
+me_frk_mer_ambassador_artists = {
+	improve_relation_modifier = 0.15
+	prestige_decay = -0.01
+}
+me_frk_mer_nicene_doctrine = {
+	global_heathen_missionary_strength = 0.02
+	diplomatic_reputation = 1
+}
+me_frk_mer_arian_doctrine = {
+	global_heathen_missionary_strength = 0.02
+	nobles_loyalty_modifier = 0.1
+	mil_advisor_cost = -0.05
+}
+me_frk_mer_piety_to_the_old_faith = {
+	tolerance_own = 1
+	global_heathen_missionary_strength = 0.01
+	church_loyalty_modifier = 0.1
+}
+me_frk_mer_frankish_synods = {
+	church_influence_modifier = -0.05
+	adm_advisor_cost = -0.1
+	loyalty_change_on_revoked = 0.05
+}
+me_frk_mer_centralized_religious_institutions = {
+	church_influence_modifier = -0.05
+	adm_advisor_cost = -0.1
+	loyalty_change_on_revoked = 0.05
+}
+me_frk_mer_loyal_abbots = {
+	church_loyalty_modifier = 0.05
+	missionary_maintenance_cost = -0.2
+}
+me_frk_mer_sacred_groves = {
+	church_loyalty_modifier = 0.05
+	religious_unity = 0.1
+}
+me_frk_mer_thriving_fisc = {
+	build_cost = -0.1
+	build_time = -0.2
+	global_tax_modifier = 0.1
+}
+me_frk_mer_vassal_milites = {
+	vassal_manpower_bonus = 0.2
+}
+me_frk_mer_support_from_the_nobility = {
+	cavalry_cost = -0.1
+	global_manpower_modifier = 0.1
+}
+me_frk_mer_lex_salica = {
+	local_unrest = -2
+	local_autonomy = -0.05
+}
+me_frk_mer_multae_leges = {
+	num_accepted_cultures = 1
+}
+me_frk_mer_latin_educated_scholars = {
+	advisor_pool = 1
+}
+me_frk_mer_frankish_saints = {
+	legitimacy = 0.5
+	papal_influence = 0.2
+}
+me_frk_mer_davidic_kingship = {
+	enforce_religion_cost = -0.25
+	relation_with_same_religion = 10
+	reverse_relation_with_same_religion = 10
+}
+me_frk_mer_bees_of_artemis = {
+	legitimacy = 0.5
+	fabricate_claims_cost = -0.2
+}
+me_frk_mer_frankish_warbands = {
+	land_morale = 0.05
+	recover_army_morale_speed = 0.1
+	legitimacy = 0.25
+}
+me_frk_mer_frankish_rule = {
+	local_autonomy = -0.05
+	local_tax_modifier = 0.2
+}
+me_frk_mer_thuringian_autonomy = {
+	local_unrest = -3
+	local_build_cost = -0.1
+}
+me_frk_mer_thuringian_royal_consort = {
+	local_unrest = -3
+	local_years_of_nationalism = -5
+}
+me_frk_mer_ripuarian_warbands = {
+	manpower_in_own_culture_provinces = 0.15
+}
+me_frk_mer_gallic_ambitions = {
+	unjustified_demands = -0.1
+}
+me_frk_mer_basilicae_of_parisius = {
+	local_tax_modifier = 0.25
+	development_cost_in_primary_culture = -0.1
+	build_cost = -0.1
+}
+me_frk_mer_restoration_of_parisius = {
+	local_tax_modifier = 0.25
+	development_cost_in_primary_culture = -0.1
+	build_cost = -0.1
+}
+me_frk_mer_saxon_cow_tribute = {
+	global_manpower_modifier = 0.1
+}
+me_frk_mer_king_of_the_franks = {
+	legitimacy = 1
+	prestige = 1
+}
+me_frk_mer_gallic_expertise = {
+	state_governing_cost = -0.1
+	manpower_in_accepted_culture_provinces = 0.1
+}
+me_frk_mer_armorican_ships = {
+	galley_power = 0.1
+	galley_cost = -0.1
+	transport_cost = -0.2
+	recover_navy_morale_speed = 0.1
+}
+me_frk_mer_messengers_of_the_faith = {
+	global_heathen_missionary_strength = 0.02
+}
+me_frk_mer_devotion_to_the_gods = {
+	global_heathen_missionary_strength = 0.02
+	global_heretic_missionary_strength = 0.01
+}
+me_frk_mer_warrior_of_wodan = {
+	warscore_cost_vs_other_religion = -0.2
+}
+me_frk_mer_heroes_of_the_crusade = {
+	warscore_cost_vs_other_religion = -0.1
+}
+me_frk_mer_alemanni_integration = {
+	vassal_manpower_bonus = 0.1
+	harsh_treatment_cost = -0.25
+}
+me_frk_mer_empowered_nobles = {
+	local_manpower_modifier = 0.2
+	local_regiment_cost = -0.1
+	local_fort_maintenance_modifier = -0.1
+}
+me_frk_mer_harsh_integration = {
+	local_autonomy = -0.1
+	local_missionary_strength = 0.02
+}
+me_frk_mer_bavarian_ruler = {
+	local_unrest = -5
+	local_years_of_nationalism = -5
+	local_tax_modifier = 0.1
+}
+me_frk_mer_granted_autonomy = {
+	liberty_desire = -40
+	land_forcelimit = 2
+}
+me_frk_mer_king_of_burgundy = {
+	tolerance_heathen = 1
+}
+me_frk_mer_king_of_all_gaul = {
+	governing_capacity = 100
+}
+me_frk_mer_great_liberators = {
+	diplomatic_reputation = 1
+}
+me_frk_mer_aquitaine_liberated = {
+	local_unrest = -5
+}
+me_frk_mer_great_conquerors = {
+	available_province_loot = 0.1
+	years_of_nationalism = -5
+}
+me_frk_mer_aquitaine_pillaged = {
+	local_unrest = 5
+}
+me_frk_mer_hispani_subjects = {
+	local_development_cost = -0.1
+	local_build_cost = -0.1
+	local_build_time = -0.25
+}
+me_frk_mer_commerce_resumed = {
+	trade_efficiency = 0.1
+}
+me_frk_mer_emperor_of_francia = {
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+	governing_capacity = 100
+}
+me_frk_mer_wendish_crusade = {
+	global_heathen_missionary_strength = 0.02
+}
+me_frk_mer_slavic_marches = {
+	manpower_recovery_speed = 0.1
+}
+me_frk_mer_expanding_empire = {
+	core_creation = -0.1
+}
+me_frk_mer_latin_subjects = {
+	adm_advisor_cost = -0.1
+}
+me_frk_mer_king_of_roma = {
+	diplomatic_reputation = 1
+	prestige_decay = -0.01
+}
+me_frk_mer_benevolent_devotee = {
+	diplomatic_reputation = 1
+	prestige_per_development_from_conversion = 0.25
+}
+me_frk_mer_royal_authority = {
+	all_estate_loyalty_equilibrium = 0.1
+	stability_cost_modifier = -0.1
+}
+me_frk_mer_frankish_raiding = {
+	may_perform_slave_raid_on_same_religion = yes
+}
+me_frk_mer_expanded_royal_household = {
+	advisor_pool = 1
+	same_culture_advisor_cost = -0.1
+}
+me_frk_mer_wine_industry = {
+	province_trade_power_modifier = 0.1
+	trade_goods_size_modifier = 0.25
+}
+me_frk_mer_king_in_paris = {
+	development_cost_in_primary_culture = -0.1
+}
+me_frk_mer_king_of_austrasia = {
+	advisor_pool = 1
+}
+me_frk_mer_great_builder = {
+	build_cost = -0.1
+	build_time = -0.1
+	global_tax_modifier = 0.1
+}
+me_frk_mer_vassal_autonomy = {
+	reduced_liberty_desire = 5
+}
+me_frk_mer_family_feuding = {
+	spy_offence = 0.1
+}
+me_frk_mer_edict_of_paris = {
+	global_autonomy = -0.03
+	stability_cost_modifier = -0.05
+}
+me_frk_mer_resilience_of_the_vascones = {
+	local_defensiveness = 0.25
+	local_hostile_attrition = 2
+}
+me_frk_mer_frankish_marches = {
+	local_hostile_movement_speed = -0.1
+	garrison_growth = 0.05
+	local_fort_maintenance_modifier = -0.2
+}
+me_frk_mer_victor_of_iberia = {
+	unjustified_demands = -0.1
+}
+me_frk_mer_germanic_goldsmithing = {
+	prestige = 0.5
+	production_efficiency = 0.1
+}
+me_frk_mer_lex_francorum = {
+	num_accepted_cultures = 1
+}
+
+#################################################################
+# GLL Gallia
+#################################################################
+me_gll_good_omens_prophesied = {
+	tolerance_own = 1
+	religious_unity = 0.1
+	religion = yes
+}
+me_gll_romanization_of_the_empire = {
+	global_heretic_missionary_strength = 0.03
+	global_heathen_missionary_strength = 0.02
+	religion = yes
+}
+me_gll_institutionalization_of_the_gallic_faith = {
+	global_missionary_strength = 0.03
+	tolerance_heretic = 1
+	religion = yes
+}
+me_gll_sacred_trees_of_the_gods = {
+	prestige_per_development_from_conversion = 0.1
+	missionaries = 1
+	religion = yes
+}
+me_gll_imperial_cult = {
+	prestige_per_development_from_conversion = 0.1
+	tolerance_own = 1
+	religion = yes
+}
+me_gll_battle_for_the_gallic_homeland = {
+	land_morale = 0.05
+	recover_army_morale_speed = 0.1
+}
+me_gll_restitutor_galliarum = {
+	manpower_in_own_culture_provinces = 0.1
+}
+me_gll_restitutor_galliarum_accepted = {
+	manpower_in_accepted_culture_provinces = 0.1
+}
+me_gll_gallia_belgica = {
+	sailors_recovery_speed = 0.1
+	naval_morale = 0.05
+}
+me_gll_italian_campaign = {
+	siege_ability = 0.1
+}
+me_gll_emperor_of_roma = {
+	unjustified_demands = -0.1
+	prestige_decay = -0.01
+}
+me_gll_italian_cities = {
+	trade_efficiency = 0.1
+	manpower_recovery_speed = 0.1
+}
+me_gll_strength_of_hercules = {
+	infantry_power = 0.1
+	religion = yes
+}
+me_gll_vitality_of_lenus_mars = {
+	defensiveness = 0.1
+	manpower_recovery_speed = 0.1
+	infantry_power = 0.05
+	religion = yes
+}
+me_gll_defense_in_depth = {
+	defensiveness = 0.05
+	rival_border_fort_maintenance = -0.1
+}
+me_gll_germanicus_maximus = {
+	prestige_from_land = 0.5
+	army_tradition_decay = -0.01
+}
+me_gll_germanic_resettlement = {
+	manpower_in_accepted_culture_provinces = 0.1
+	production_efficiency = 0.1
+}
+me_gll_germanic_integration = {
+	num_accepted_cultures = 1
+}
+me_ita_germanic_foederati = {
+	vassal_manpower_bonus = 0.1
+}
+me_gll_britannian_subjects = {
+	local_manpower_modifier = 0.1
+	regiment_recruit_speed = -0.2
+}
+me_gll_supporters_in_hispania = {
+	advisor_pool = 1
+	adm_advisor_cost = -0.1
+	mil_advisor_cost = -0.1
+}
+me_gll_gallo_roman_administration = {
+	state_maintenance_modifier = -0.25
+}
+me_gll_gallic_coins = {
+	prestige = 0.5
+	inflation_action_cost = -0.1
+	monthly_gold_inflation_modifier = -0.2
+}
+me_gll_gallic_villas = {
+	global_trade_goods_size_modifier = 0.1
+}
+me_gll_lord_of_celtic_britannia = {
+	manpower_in_culture_group_provinces = 0.1
+	promote_culture_cost = -0.2
+}
+me_gll_gallic_empire = {
+	governing_capacity = 100
+}
+me_gll_empire_of_celtica = {
+	governing_capacity_modifier = 0.15
+	num_accepted_cultures = 2
+	legitimacy = 0.5
+}
+me_gll_emperor_of_germania = {
+	diplomatic_upkeep = 1
+	culture_conversion_time = -0.1
+	culture_conversion_cost = -0.1
+}
+me_gll_imperator_romanorum = {
+	prestige = 1
+	administrative_efficiency = 0.05
+}
+
+
+#################################################################
+# WEI Cao Wei - Three Kingdoms
+#################################################################
+me_wei_custodian_of_the_han_capitals = {
+	prestige_decay = -0.01
+	advisor_pool = 1
+}
+me_wei_cao_clan_ancestral_capital = {
+	local_unrest = -5
+	local_development_cost = -0.1
+	same_culture_advisor_cost = -0.1
+	heir_chance = 0.15
+}
+me_wei_nine_rank_system = {
+	nobles_loyalty_modifier = 0.1
+	adm_advisor_cost = -0.1
+}
+me_wei_nine_bestowments = {
+	legitimacy = 1
+	prestige = 0.5
+}
+me_wei_palace_renovations = {
+	legitimacy = 1
+	build_cost = -0.1
+}
+me_wei_wei_emperor = {
+	all_estate_loyalty_equilibrium = 0.05
+	prestige_decay = -0.01
+}
+me_wei_edict_for_talents = {
+	advisor_pool = 1
+}
+me_wei_meritocratic_education = {
+	meritocracy = 1
+	idea_cost = -0.1
+}
+me_wei_cadet_branches_of_wei = {
+	heir_chance = 0.75
+	nobles_loyalty_modifier = 0.05
+	nobles_influence_modifier = -0.1
+}
+me_wei_wu_marines = {
+	navy_tradition_decay = -0.01
+	movement_speed_onto_off_boat_modifier = 0.33
+}
+me_wei_southern_integration = {
+	core_creation = -0.1
+}
+me_wei_rewarded_generals = {
+	war_exhaustion = -0.1
+}
+me_wei_officials_of_jizhou = {
+	advisor_cost = -0.2
+}
+me_wei_yecheng_canals = {
+	local_friendly_movement_speed = 0.15
+	supply_limit = 1
+}
+me_wei_hall_of_civil_splendor = {
+	statewide_governing_cost = -0.1
+}
+me_genchnw_tiger_and_leopard_cavalry = {
+	cavalry_power = 0.1
+}
+me_wei_wuhuan_auxiliaries = {
+	cavalry_cost = -0.1
+	manpower_recovery_speed = 0.05
+}
+me_wei_hu_subjects = {
+	vassal_income = 0.15
+	diplomatic_annexation_cost = -0.1
+}
+me_wei_tong_gate = {
+	local_defensiveness = 0.1
+}
+me_wei_xiliang_frontier = {
+	local_defensiveness = 0.05
+	local_fort_maintenance_modifier = -0.1
+	local_hostile_movement_speed = -0.1
+}
+me_wei_hu_negotiator = {
+	mercenary_cost = -0.1
+}
+me_wei_hefei_xincheng = {
+	local_defensiveness = 0.15
+	local_hostile_attrition = 2
+	local_garrison_damage = 0.5
+}
+me_wei_harmonious_empire = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+}
+me_wei_southern_merchants = {
+	trade_efficiency = 0.05
+	trade_steering = 0.1
+}
+me_wei_overseas_embassies = {
+	diplomatic_reputation = 1
+	diplomats = 1
+}
+me_wei_resettled_sect_followers = {
+	local_years_of_nationalism = -5
+}
+me_wei_way_of_five_pecks_of_rice_sect = {
+	local_years_of_nationalism = -10
+	local_defensiveness = 0.1
+	min_local_autonomy = 10
+	local_autonomy = 0.2
+}
+me_wei_great_conqueror = {
+	years_of_nationalism = -5
+}
+me_wei_a_new_changan = {
+	local_development_cost = -0.15
+	local_build_cost = -0.2
+	local_institution_spread = 1
+}
+me_wei_goguryeo_autonomy = {
+	local_unrest = -3
+	local_build_cost = -0.1
+}
+me_wei_goguryeo_integration = {
+	local_autonomy = -0.05
+	local_tax_modifier = 0.1
+	local_manpower_modifier = 0.1
+	local_unrest = 1
+}
+
+#################################################################
+# CMB Khmer Empire
+#################################################################
+me_cmb_dharmic_coexistence = {
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+	religion = yes
+}
+me_cmb_dharmasala = {
+	global_monthly_devastation = -0.1
+}
+
+
+#################################################################
+# GHA Ghana Empire, SSO Sosso and Ghana Successor States
+#################################################################
+me_gha_religious_hostility = {
+	tolerance_heathen = -1
+	global_heathen_missionary_strength = 0.03
+	religion = yes
+}
+me_gha_wagadu_trade_routes = {
+	trade_efficiency = 0.1
+}
+me_gha_soninke_cavalry = {
+	land_morale = 0.05
+	cavalry_flanking = 0.1
+}
+me_gha_soninke_armies = {
+	manpower_recovery_speed = 0.1
+}
+
+#################################################################
+# MLB Manipur
+#################################################################
+me_mlb_trustworthy_king = {
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.25
+}
+me_mlb_meitei_mandala = {
+	vassal_manpower_bonus = 0.2
+	diplomatic_upkeep = 1
+}
+me_mlb_huiyen_lallong = {
+	infantry_power = 0.1
+	max_general_shock = 1
+}
+me_mlb_shipbuilders_of_arakan = {
+	naval_forcelimit_modifier = 0.2
+	naval_maintenance_modifier = -0.1
+	galley_cost = -0.1
+}
+me_mlb_ningthou_of_vanga = {
+	legitimacy = 0.5
+	global_heretic_missionary_strength = 0.02
+}
+me_mlb_raja_of_vanga = {
+	legitimacy = 0.5
+	num_accepted_cultures = 1
+}
+me_mlb_multi_ethnic_kingdom = {
+	num_accepted_cultures = 1
+}
+me_mlb_land_of_many_gods = {
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+}
+me_mlb_lallup_system_expanded = {
+	land_morale = 0.1
+	cavalry_power = 0.1
+	global_manpower_modifier = 0.1
+}
+me_mlb_waters_of_the_brahmaputra = {
+	global_tax_modifier = 0.15
+	manpower_recovery_speed = 0.1
+}
+me_mlb_martial_tripuri = {
+	army_tradition_from_battle = 0.5
+	defensiveness = 0.1
+}
+me_mlb_greater_ambitions = {
+	land_morale = 0.1
+	unjustified_demands = -0.1
+}
+me_mlb_lord_of_kalinga = {
+	naval_tradition_from_trade = 0.5
+	naval_maintenance_modifier = -0.05
+	trade_efficiency = 0.05
+}
+me_mlb_meitei_vaishnavists = {
+	tolerance_heretic = 1
+}
+me_mlb_meitei_vaishnava_doctrine = {
+	tolerance_own = 1
+}
+me_mlb_maharaja = {
+	num_accepted_cultures = 1
+	diplomatic_upkeep = 1
+	legitimacy = 0.5
+}
+me_mlb_legacy_of_empire = {
+	years_of_nationalism = -5
+	core_creation = -0.1
+}
+me_mlb_hill_clans_united = {
+	same_culture_advisor_cost = -0.2
+	all_estate_loyalty_equilibrium = 0.05
+	hostile_attrition = 2
+}
+me_mlb_loiyumpa_silyel = {
+	stability_cost_modifier = -0.1
+	global_autonomy = -0.02
+}
+me_mlb_protection_of_the_apokpa = {
+	defensiveness = 0.1
+	global_missionary_strength = 0.02
+}
+me_mlb_spice_merchants = {
+	trade_range_modifier = 0.1
+	trade_efficiency = 0.1
+}
+me_mlb_kangla_palace = {
+	local_defensiveness = 0.2
+}
+me_mlb_cheitharol_kumbaba = {
+	prestige_decay = -0.01
+	legitimacy = 1
+}
+me_mlb_imoinu_of_the_hearth = {
+	heir_chance = 0.5
+	production_efficiency = 0.1
+	female_advisor_chance = 0.1
+}
+me_mlb_wisdom_of_the_maiba = {
+	global_monthly_devastation = -0.1
+	tolerance_own = 1
+}
+me_mlb_spreading_the_pantheon = {
+	global_missionary_strength = 0.02
+}
+me_mlb_the_sacred_stone_pheiya = {
+	global_tax_modifier = 0.2
+	recover_army_morale_speed = 0.1
+}
+me_mlb_land_of_a_million_rice_fields = {
+	land_attrition = -0.2
+	production_efficiency = 0.1
+}
+me_mlb_land_of_a_million_elephants = {
+	cavalry_shock = 0.25
+	cavalry_cost = -0.1
+}
+me_mlb_koupalus_white_elephant = {
+	leader_land_shock = 1
+}
+me_mlb_hill_expert = {
+	land_attrition = -0.2
+	siege_ability = 0.1
+}
+me_mlb_burmese_kingship = {
+	prestige_decay = -0.01
+	land_morale = 0.05
+}
+me_mlb_pegu_commerce = {
+	trade_efficiency = 0.15
+	global_trade_power = 0.1
+}
+me_mlb_war_elephants_of_siam = {
+	cavalry_power = 0.2
+}
+me_mlb_chakravartin_of_angkor = {
+	prestige = 0.5
+	global_autonomy = -0.03
+}
+me_mlb_mahadhiraja_of_the_ganges = {
+	diplomatic_reputation = 2
+	diplomatic_upkeep = 1
+}
+me_mlb_respected_conqueror = {
+	ae_impact = -0.1
+}
+
+#################################################################
+# KRE NAI Kereites Naimans
+#################################################################
+me_kre_sworn_brotherhood = {
+	diplomatic_reputation = 1
+}
+me_kre_sphere_of_influence = {
+	diplomatic_upkeep = 1
+	diplomatic_annexation_cost = -0.1
+}
+me_kre_intellectual_tribute = {
+	development_cost = -0.1
+	global_institution_spread = 0.1
+	advisor_pool = 1
+}
+me_kre_three_merkits = {
+	global_manpower_modifier = 0.1
+}
+me_kre_agricultural_colonies = {
+	development_cost_in_primary_culture = -0.1
+}
+me_kre_ong_khan = {
+	prestige_from_land = 0.5
+	diplomats = 1
+}
+me_kre_samarkand_artisans = {
+	prestige = 1
+	trade_efficiency = 0.15
+}
+me_kre_mongol_caravans = {
+	caravan_power = 0.1
+	trade_efficiency = 0.1
+}
+me_kre_khagan_of_turan = {
+	unjustified_demands = -0.1
+	manpower_recovery_speed = 0.1
+}
+me_kre_archbishop_of_merv = {
+	global_heathen_missionary_strength = 0.03
+	missionary_maintenance_cost = -0.1
+	reverse_relation_with_same_religion = 15
+}
+me_kre_universal_khagan = {
+	prestige = 1
+	tributary_conversion_cost_modifier = -0.1
+}
+me_kre_loyal_outer_faction = {
+	manpower_in_culture_group_provinces = 0.1
+	all_estate_loyalty_equilibrium = 0.05
+	global_unrest = -2
+}
+me_kre_patriarch_of_baghdad = {
+	reverse_relation_with_same_religion = 20
+	tolerance_own = 1
+}
+me_kre_doctrine_of_nestorius = {
+	global_missionary_strength = 0.02
+}
+me_kre_mongol_building_projects = {
+	build_cost = -0.15
+	global_heathen_missionary_strength = 0.02
+}
+me_kre_mongol_mission = {
+	enforce_religion_cost = -0.25
+}
+me_kre_prester_john = {
+	reverse_relation_with_heretic_religion = 10
+	relation_with_heretics = 10
+	missionaries = 1
+}
+me_kre_khamag_mongol_khan = {
+	manpower_in_culture_group_provinces = 0.15
+	cavalry_cost = -0.1
+}
+me_kre_zubu_confederation = {
+	num_accepted_cultures = 1
+}
+me_kre_tatar_mercenaries = {
+	merc_maintenance_modifier = -0.2
+}
+me_kre_jurchen_iron_pagoda_cavalry = {
+	cavalry_shock = 0.25
+}
+me_kre_christian_horde = {
+	tolerance_own = 1
+	manpower_recovery_speed = 0.1
+}
+me_kre_newly_acquired_siegecraft = {
+	siege_ability = 0.1
+}
+me_kre_church_of_the_east_in_persia = {
+	global_heathen_missionary_strength = 0.03
+	prestige_per_development_from_conversion = 0.3
+}
+me_kre_divine_khagan = {
+	governing_capacity = 200
+}
+me_kre_chinese_subjects = {
+	global_manpower = 0.15
+	land_maintenance_modifier = -0.1
+}
+me_kre_khagan_of_the_middle_kingdom = {
+	adm_advisor_cost = -0.1
+	num_accepted_cultures = 1
+}
+me_kre_empire_of_heaven = {
+	prestige = 1
+	num_accepted_cultures = 2
+}
+me_kre_protector_of_the_church = {
+	warscore_cost_vs_other_religion = -0.1
+}
+me_kre_great_pilgrimage = {
+	global_heathen_missionary_strength = 0.02
+}
+me_kre_reunification_of_eastern_churches = {
+	church_loyalty_modifier = 0.1
+	global_heretic_missionary_strength = 0.02
+}
+me_kre_loyal_army_of_the_khan = {
+	land_morale = 0.05
+	recover_army_morale_speed = 0.1
+	cavalry_cost = -0.1
+}
+me_kre_united_mongolia = {
+	army_tradition_from_battle = 0.5
+	cavalry_power = 0.1
+}
+me_kre_aristocratic_structure = {
+	stability_cost_modifier = -0.1
+}
+me_kre_meritocratic_structure = {
+	leader_land_shock = 1
+	advisor_pool = 1
+}
+me_kre_religious_fervor = {
+	religious_unity = 0.2
+	global_heathen_missionary_strength = 0.03
+}
+me_kre_mongol_crusade = {
+	extra_manpower_at_religious_war = yes
+	warscore_cost_vs_other_religion = -0.1
+}
+me_kha_beth_sinaye = {
+	missionaries = 1
+	improve_relation_modifier = 0.1
+}
+
+#################################################################
+# SLL Silla
+#################################################################
+me_sll_state_sponsored_mission = {
+	global_missionary_strength = 0.02
+	missionaries = 1
+}
 
 
 #################################################################
@@ -4596,7 +6207,7 @@ me_gertribe_expanding_capital = {
 }
 me_gertribe_hillfort = {
 	local_defensiveness = 0.1
-	local_hostile_movement_speed = 0.1
+	local_hostile_movement_speed = -0.1
 	local_hostile_attrition = 1
 }
 me_gertribe_hillforts = {
@@ -4690,6 +6301,180 @@ me_gertribe_king_of_italy = {
 	unjustified_demands = -0.1
 	diplomatic_reputation = 1
 }
+
+#################################################################
+# Generic Chinese Warlords
+#################################################################
+me_genchnw_just_cause_for_reunification = {
+	land_morale = 0.05
+	manpower_recovery_speed = 0.15
+}
+me_genchnw_self_appointed_duke = {
+	core_creation = -0.1
+	war_exhaustion = -0.02
+}
+me_genchnw_temples_of_the_three_teachings = {
+	build_cost = -0.1
+	tolerance_own = 1
+}
+me_genchnw_lending_a_knife_to_a_friend = {
+	diplomatic_reputation = 1
+}
+me_genchnw_growth_in_the_outer_wall = {
+	local_tax_modifier = 0.5
+	local_manpower_modifier = 0.25
+}
+me_genchnw_defensive_stratagems = {
+	defensiveness = 0.1
+	rival_border_fort_maintenance = -0.1
+}
+me_genchnw_satisfied_commonfolk = {
+	global_unrest = -1
+	reduced_liberty_desire_on_same_continent = 10
+}
+me_genchnw_bountiful_harvests = {
+	production_efficiency = 0.1
+}
+me_genchnw_trade_embassies = {
+	trade_efficiency = 0.1
+	improve_relation_modifier = 0.1
+}
+me_genchnw_thriving_economy = {
+	global_tax_modifier = 0.15
+}
+me_genchnw_imperial_examinations = {
+	advisor_pool = 1
+	same_religion_advisor_cost = -0.1
+}
+me_genchnw_herbal_medicine = {
+	monarch_lifespan = 0.1
+	global_monthly_devastation = -0.1
+	manpower_recovery_speed = 0.05
+}
+me_genchnw_harmony_restored = {
+	harmonization_speed = 0.1
+	prestige_decay = -0.01
+	tolerance_own = 1
+	tolerance_heretic = 1
+	tolerance_of_heretics_capacity = 1
+}
+me_genchnw_military_treatises = {
+	army_tradition_decay = -0.01
+	prestige_from_land = 0.5
+}
+me_genchnw_paper_economy = {
+	global_tax_modifier	= 0.15
+	global_institution_spread = 0.1
+	advisor_pool = 1
+}
+me_genchnw_equal_field_system = {
+	global_unrest = -1
+	global_autonomy = -0.05
+	production_efficiency = 0.1
+}
+me_genchnw_state_monopolies_policy = {
+	production_efficiency = 0.1
+	global_autonomy = -0.02
+}
+me_genchnw_relaxed_market_policy = {
+	production_efficiency = 0.05
+	development_cost = -0.1
+	build_cost = -0.15
+}
+me_genchnw_great_conqueror = {
+	years_of_nationalism = -5
+	army_tradition_from_battle = 0.25
+}
+me_genchnw_soaring_dragon = {
+	years_of_nationalism = -3
+	unjustified_demands = -0.1
+}
+me_genchnw_war_by_espionage = {
+	siege_ability = 0.1
+	global_spy_defence = 0.1
+	discovered_relations_impact = -0.1
+}
+me_genchnw_tower_ship_fleet = {
+	naval_tradition_from_battle = 0.5
+	sailors_recovery_speed = 0.1
+}
+me_genchnw_adherance_to_the_i_ching = {
+	diplomatic_reputation = 2
+	tolerance_own = 1
+}
+me_genchnw_king = {
+	manpower_in_culture_group_provinces = 0.1
+	diplomatic_reputation = 1
+}
+me_genchnw_chinese_war_elephants = {
+	cavalry_power = 0.1
+}
+me_genchnw_korean_integration = {
+	local_unrest = -1
+	local_manpower_modifier = 0.2
+}
+me_genchnw_korean_vassals = {
+	global_sailors_modifier = 0.15
+	galley_cost = -0.1
+	recover_navy_morale_speed = 0.1
+}
+me_genchnw_marriage_diplomacy = {
+	heir_chance = 0.5
+	diplomatic_reputation = 1
+}
+me_genchnw_foreign_tribute = {
+	vassal_income = 0.2
+	tributary_conversion_cost_modifier = -0.25
+}
+me_genchnw_middle_kingdom = {
+	governing_capacity_modifier = 0.2
+}
+me_genchnw_western_embassies = {
+	global_institution_spread = 0.1
+	spy_offence = 0.1
+}
+me_genchnw_five_hu_subjugated = {
+	cavalry_cost = -0.1
+	global_manpower_modifier = 0.1
+}
+me_genchnw_great_wall_expanded = {
+	defensiveness = 0.05
+}
+me_genchnw_treasure_fleet = {
+	may_explore = yes
+	trade_steering = 0.1
+	global_ship_trade_power = 0.1
+}
+me_genchnw_overseas_colonies_policy = {
+	range = 0.1
+	expel_minorities_cost = -0.2
+	colonist_placement_chance = 0.05
+}
+me_genchnw_overseas_exchange = {
+	global_foreign_trade_power = 0.1
+	trade_efficiency = 0.1
+}
+me_genchnw_gunpowder_fire_lances = {
+	fire_damage = 0.1
+}
+me_genchnw_a_new_great_yu = {
+	production_efficiency = 0.1
+	global_monthly_devastation = -0.05
+}
+me_genchnw_legalist_policies = {
+	global_autonomy = -0.05
+}
+me_genchnw_daoist_masters = {
+	advisor_cost = -0.1
+	global_heretic_missionary_strength = 0.01
+}
+me_genchnw_buddhist_doctrines = {
+	global_unrest = -1
+	global_heathen_missionary_strength = 0.01
+}
+
+
+
 
 
 

@@ -17227,7 +17227,7 @@ USA_ideas = {
 		min_autonomy_in_territories = -0.10
 		global_colonial_growth = 20
 	}
-	overarching_unifying_identity = {f
+	overarching_unifying_identity = {
 		num_accepted_cultures = 2
 	}
 	militia_to_continental_to_legion_to_army = {

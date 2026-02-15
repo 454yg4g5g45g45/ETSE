@@ -296,19 +296,12 @@ papal_subjugation = {
 		has_discovered = 118	# Roma
 		religion = catholic
 		NOT = { tag = PAP }
-		NOT = { tag = RMR }
 	}
 
 	trigger = {	
 		overlord_of = PAP
-		NOT = {
-			OR = {
-				country_is = { tag = ITA }
-				country_is = { tag = HLR }
-				tag = ROW # Created errors
-				country_is = { tag = ROM }
-			}
-		}
+		NOT = { tag = ITA }
+		NOT = { tag = HLR }
 		if = {
 			limit = {
 				is_emperor = yes
@@ -392,7 +385,7 @@ submission_to_emperor = {
 		has_global_flag = italians_leave_hre
 		NOT = { has_country_flag = reined_in_for_shadow_kingdom }
 		is_emperor = no
-		NOT = { is_year = 3550 }
+		NOT = { is_year = 3648 }
 		culture_group = latin
 		OR = {
 			is_subject = no
@@ -404,7 +397,7 @@ submission_to_emperor = {
 		is_part_of_hre = yes
 		NOT = { tag = ITA }
 		NOT = { emperor = { alliance_with = ROOT } }
-		NOT = { is_year = 3550 } # Duplicating so it shows in tooltip
+		NOT = { is_year = 3648 } # Duplicating so it shows in tooltip
 	}
 
 	global_unrest = 3
@@ -615,6 +608,8 @@ ai_wants_chinese_capitals = {
 			owns = 1816
 			owns = 1821
 			owns = 667
+			owns = 1836		#MMETR added Luoyang and Chang'an
+			owns = 700
 		}
 		has_dlc = "Mandate of Heaven"
 		capital_scope = {
@@ -625,6 +620,8 @@ ai_wants_chinese_capitals = {
 		owns = 1816
 		owns = 1821
 		owns = 667
+		owns = 1836		#MMETR added Luoyang and Chang'an
+		owns = 700
 	}
 
 	ai_weight = {
@@ -705,7 +702,7 @@ waging_war_for_china = {
 		}
 	}
 	
-	imperial_mandate = 0.05
+	imperial_mandate = 2098.05
 }
 
 ##################################################
