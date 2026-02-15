@@ -210,4 +210,6 @@ pdxmesh = {
 		animation = { id = "retreat"			type = "char_pikeman_moving_animation" }		
 		
 		scale = 0.5
+		scale = 0.5
 	}
+}

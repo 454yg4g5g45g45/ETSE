@@ -186,4 +186,5 @@ pdxmesh = {
 		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }			
 		
 		scale = 0.5
-	}	
+	}
+}
