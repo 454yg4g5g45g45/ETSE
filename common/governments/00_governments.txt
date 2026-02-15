@@ -708,7 +708,7 @@ republic = {
 				pisan_podesteria_reform
 				#CRW
 				roman_republic
-				#RF
+				#
 				roman_republic_spqr_reform
 				#ETF
 				islamic_republic_reform
