@@ -10,7 +10,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_country_flag= has_the_great_plague
 		random_owned_province = {
 			set_country_flag = had_the_great_plague
 			limit = { 
@@ -75,7 +74,7 @@ country_event = {
 
 	option = {
 		name = "great_plague.1.a"
-		add_stability = -2
+		add_stability = -1
 	}
 }
 
@@ -91,7 +90,6 @@ country_event = {
 	option = {
 		name = "great_plague.2.a"
 		set_country_flag = had_the_great_plague
-		clr_country_flag= has_the_great_plague
 		add_country_modifier = {
 			name = aftermath_of_the_plague
 			duration = 3650
@@ -100,7 +98,6 @@ country_event = {
 			every_owned_province = {
 				limit = { has_province_flag = had_great_plague }
 				clr_province_flag = had_great_plague
-				clr_province_flag= great_plague_peasants_revolt
 			}
 		}
 	}
@@ -112,237 +109,98 @@ province_event = {
 	title = "great_plague.3.t"
 	desc = "great_plague.3.d"
 	picture = PLAGUE_eventPicture
-	#hidden=yes
+	
 	trigger = {
 		owner = { has_disaster = great_plague }
-		AND = {
-			# NOT = {
-			# 	owner = {
-			# 		OR = {
-			# 			technology_group=chinese
-			# 		    technology_group=indian
-			# 		}
-					
-			# 	}
-			# }
-			OR = {
-				province_has_center_of_trade_of_level = 1
-				AND = {
-					# Previously infected provinces can be reinfected, the chance of it happening is just lower.
-					NOT = { has_province_modifier = great_plague_province }
-					#NOT = { has_province_flag = had_great_plague }
-	
-					OR = {
-						any_neighbor_province = { has_province_modifier = great_plague_province }
-						AND = { 
-							has_port = yes
-							any_province = { 
-								region = ROOT
-								has_province_modifier = great_plague_province
-							}
-						}
-					}
+		NOT = { has_province_flag = had_great_plague }
+		OR = {
+			development = 14
+			province_has_center_of_trade_of_level = 1
+		}
+		OR = {
+			any_neighbor_province = { has_province_modifier = great_plague_province }
+			AND = { 
+				has_port = yes
+				any_province = { 
+					region = ROOT
+					has_province_modifier = great_plague_province
 				}
-				owner = { #Trigger plague spread in random provinces if disaster is active, but not plague provinces exist in nation. Important for island nations like England, which can only transfer the disease through alliances with mainland European nations.
-					has_disaster = great_plague
-					NOT = {
-						any_owned_province = {
-							has_province_flag=had_great_plague
-						}
-					}
 			}
-			}
-			#NOT = {
-			#	owner = {
-			#		
-			#	}
-			#}
-			
 		}
 	}
-
-	# delta-n is the number of provinces an infected province can infect before it's no longer infected.
-	# If delta-n <1, the disease will die out, else, it grows.
-	# 5 years is ~ 60 months
-	# Assuming each province has 4 uninfected neighbors (I have not verified this)
-	#When mtth = 3 
-	# delta-n = 
-
-	#Factors of spread
-	#Higher development increases spread
-	#Previously infected reduces spread
-	#Having medicine reduces spread
-	#If dev > 60, infection is instant.
+	
 	mean_time_to_happen = {
-		months = 48
-		modifier = {
-			factor = 0.5
-			development = 5
-		}
-		modifier = {
-			factor = 0.5
-			development = 10
-		}
+		months = 36
+		
 		modifier = {
 			factor = 0.5
 			development = 20
 		}
 		modifier = {
 			factor = 0.5
+			development = 25
+		}
+		modifier = {
+			factor = 0.5
 			development = 30
 		}
-		modifier = {
-			factor = 0.5
-			development = 40
-		}
-		modifier = {
-			factor = 0.5
-			development = 50
-		}
-		modifier = {
-			factor = 0.01
-			development = 60
-		}
-		modifier = {
-			factor = 8
-			has_province_flag = had_great_plague
-		}
-		modifier = {
-			factor = 5
-			owner = {
-				has_institution= medicine
-			}
-		}
 	}
-	immediate = {
+	
+	option = {
+		name = "great_plague.3.a"
 		set_province_flag = had_great_plague
+		add_devastation = 25
 		if = {
-			limit = {is_emperor_of_china=no}
-			add_devastation = 25
-		}
-		else = {
-			add_devastation = 5 #Emperor of China is uniquely vulnerable to high devastation, so to prevent devastation so high that it prevents a new chinese dynasty from rising and surviving, we must apply less devastation to the China region.
-		}
-		if = {
-			limit = {
-
-				owner = {
-					OR ={
-						is_elector = yes
-						is_emperor = yes
-					}
-				}
-
-
-			}
-			#emperor = {
-				#add_imperial_influence=-5
-			#}
-		}
-		if = { #The great Plague hit Europe particularly hard.
-			limit = {continent = europe}
-			add_random_development = -2
-		}
-		if = { #The great Plague hit Europe particularly hard.
-			limit = {continent = africa}
-			add_random_development = -1
-		}
-		
-		#if = {
-		#	limit = { base_tax = 2 NOT = { base_tax = 4 } }
-		#	add_base_tax = -1
-		#}
-		if = {
-			limit = { base_tax = 4 NOT = { base_tax = 7 } }
+			limit = { base_tax = 2 NOT = { base_tax = 4 } }
 			add_base_tax = -1
 		}
 		if = {
-			limit = { base_tax = 8 NOT = { base_tax = 10 } }
+			limit = { base_tax = 4 NOT = { base_tax = 7 } }
 			add_base_tax = -2
 		}
 		if = {
-			limit = { base_tax = 11 NOT = { base_tax = 13 } }
+			limit = { base_tax = 8 NOT = { base_tax = 11 } }
 			add_base_tax = -3
 		}
 		if = {
-			limit = { base_tax = 14 NOT = { base_tax = 100 } }
+			limit = { base_tax = 12 }
 			add_base_tax = -4
 		}
-		#if = {
-		#	limit = { base_production = 2 NOT = { base_production = 4 } }
-		#	add_base_production = -1
-		#}
 		if = {
-			limit = { base_production = 4 NOT = { base_production = 7 } }
+			limit = { base_production = 2 NOT = { base_production = 4 } }
 			add_base_production = -1
 		}
 		if = {
-			limit = { base_production = 8 NOT = { base_production = 10 } }
+			limit = { base_production = 4 NOT = { base_production = 7 } }
 			add_base_production = -2
 		}
 		if = {
-			limit = { base_production = 11 NOT = { base_production = 13 } }
+			limit = { base_production = 8 NOT = { base_production = 11 } }
 			add_base_production = -3
 		}
 		if = {
-			limit = { base_production = 14 NOT = { base_production = 100 } }
+			limit = { base_production = 12 }
 			add_base_production = -4
 		}
-		#if = {
-		#	limit = { base_manpower = 2 NOT = { base_manpower = 4 } }
-		#	add_base_manpower = -1
-		#}
 		if = {
-			limit = { base_manpower = 4 NOT = { base_manpower = 7 } }
+			limit = { base_manpower = 2 NOT = { base_manpower = 4 } }
 			add_base_manpower = -1
 		}
 		if = {
-			limit = { base_manpower = 8 NOT = { base_manpower = 10 } }
+			limit = { base_manpower = 4 NOT = { base_manpower = 7 } }
 			add_base_manpower = -2
 		}
 		if = {
-			limit = { base_manpower = 11 NOT = { base_manpower = 13 } }
+			limit = { base_manpower = 8 NOT = { base_manpower = 11 } }
 			add_base_manpower = -3
 		}
 		if = {
-			limit = { base_manpower = 14 NOT = { base_manpower = 100 } }
+			limit = { base_manpower = 12 }
 			add_base_manpower = -4
-		}
-		
-	}
-	#After disease strikes province, country can either let the province spread more disease, or quarantine the province to limit the damage to other provinces.
-	#If nation has the ability to, they will quarantine the province 5/6 times.
-	option = {
-		name = "great_plague.3.a"
-		ai_chance = { factor = 10
 		}
 		add_province_modifier = {
 			name = great_plague_province
 			duration = 1825
-		}
-	}
-	option = {
-		name="great_plague.3.b"
-		highlight = yes
-		ai_chance = {factor = 50}
-		trigger = {
-			adm_power=50
-			OR = {
-				
-				religion = jewish
-				tech_group=indian
-				owner = {
-					OR = {
-						ruler_has_personality= scholar_personality
-						has_institution=medicine
-					}
-					
-				}
-			}
-			
-		}
-		owner = {
-			add_adm_power=-50
 		}
 	}
 }
@@ -362,7 +220,6 @@ country_event = {	 #Plague kills ruler
 	option = {
 		name = great_plague.4.a
 		kill_ruler = yes
-		add_stability=-1
 	}
 }
 
@@ -399,7 +256,6 @@ country_event = {	 #Plague kills heir
 	option = {
 		name = great_plague.6.a
 		kill_heir = {}
-		add_stability=-1
 	}
 }
 	
@@ -443,8 +299,7 @@ country_event = {	 #black death disrupts trade
 	}
 }
 
-
-country_event = {	 #Black Plague begins
+country_event = {	 #Black Plague
 	id = great_plague.10
 	title = great_plague.10.t
 	desc = great_plague.10.d
@@ -454,22 +309,19 @@ country_event = {	 #Black Plague begins
 	fire_only_once = yes
 	
 	trigger = {
-		owns = 464 # Asterhan, north of Caspian Sea, instead of 112 Venice
-		is_year = 3443 # 1280
-		NOT = { started_in = 3443.1.1 }
+		owns = 112
+		is_year = 3378
+		NOT = { started_in = 3452.1.1 }
 	}
 	
 	mean_time_to_happen = {
-		months = 1 #400
+		months = 400
 	}
 	
 	option = {
 		name = great_plague.10.a
 		set_global_flag = great_plague_started
-		every_country = {
-			set_country_flag = exists_at_plague_start #Prevents countries that declare independence after beginning of plague(Like new Chinese Kingdoms) from getting infected later than the others.
-		}
-		464 = {
+		112 = {
 			add_devastation = 25
 			if = {
 				limit = { base_tax = 2 NOT = { base_tax = 4 } }
@@ -529,143 +381,6 @@ country_event = {	 #Black Plague begins
 		}
 	}
 }
-province_event = { #Peasants demand rights due to labor shortages
-	id = great_plague.9
-	title = great_plague.9.t
-	desc = great_plague.9.d
-	picture = MARCHING_PEASANTS_eventPicture
-	is_triggered_only = yes #Event currently broken.
-	trigger = {
-		owner = {has_disaster=great_plague}
-		has_province_flag = great_plague_province
-		NOT = {has_province_flag = great_plague_peasants_revolt}
-		
-		
-	}
-	mean_time_to_happen = {
-		months= 12
-	}
-	immediate = {
-		add_province_flag= great_plague_peasants_revolt
-	}
-	option = { #Offer autonomy
-		name = great_plague.9.a
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 25
-				owner = {has_ruler_personality=careful_personality}
-			}
-		}
-
-		add_local_autonomy = 30
-	}
-	option = { #Offer money
-		name = great_plague.9.b
-		trigger = {
-
-		}
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = -10
-				owner = {
-					num_of_loans = 1
-				}
-			}
-			modifier = {
-				factor = -15
-				owner = {
-					num_of_loans = 5
-				}
-			}
-			modifier = {
-				factor = -100
-				owner = {
-					num_of_loans = 10
-				}
-			}
-			modifier = {
-				factor = 25
-				owner = {has_ruler_personality=kind_hearted_personality}
-			}
-		}
-		
-			add_years_of_owned_provinces_production_income = { #Pay an amount of ducats equivalent to 2 years of this province's income.
-				years = -2
-				trigger = ROOT
-			}
-		
-	}
-	option = { #Reject demands
-		name = great_plague.9.c
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 50
-				owner = {has_ruler_personality=cruel_personality}
-			}
-			modifier = {
-				factor = -25
-				owner = {NOT = {years_of_manpower = 1}}
-			}
-		}
-		spawn_rebels = {
-			type = anti_tax_rebels
-			size = 6
-		}
-	}
-}
-
-country_event = { #Crisis of faith
-	id = great_plague.13
-	title = great_plague.13.t
-	desc = great_plague.13.d
-	picture = RELIGIOUS_TURMOIL_eventPicture
-	is_triggered_only = yes #Event currently broken.
-	trigger = {
-		has_disaster=great_plague
-		NOT = {has_country_flag = great_plague_faith_crisis}
-		NOT = {
-			religion=jewish
-		}
-	}
-	immediate = {
-		add_country_flag= great_plague_faith_crisis
-	}
-	option = {
-		name = great_plague.13.a
-		ai_chance = {
-			factor=100
-			modifier = {
-				factor =-100
-				has_ruler_personality=tolerant_personality
-			}
-		}
-		add_country_flag = great_plague_faith_crisis
-		add_country_modifier = {
-			name = great_plague_faith_crisis_modifier
-			desc = great_plague.13.d
-			duration = 10950
-
-		}
-	}
-	option = {
-		name = great_plague.13.b
-		highlight = yes
-		ai_chance = {
-			factor=100
-		}
-		trigger = {
-			has_ruler_personality=tolerant_personality
-			dip_power=100
-		}
-		add_dip_power=-100
-	}
-	mean_time_to_happen = {
-		months=36
-	}
-}
 
 #country_event = {	 #Antonine Plague start
 #	id = great_plague.11
@@ -678,8 +393,8 @@ country_event = { #Crisis of faith
 #	
 #	trigger = {
 #		owns = 118
-#		is_year = 150
-#		NOT = { started_in = 180.1.1 }
+#		is_year = 2248
+#		NOT = { started_in = 2279.1.1 }
 #	}
 #	
 #	mean_time_to_happen = {
@@ -702,8 +417,8 @@ country_event = { #Crisis of faith
 #	
 #	trigger = {
 #		owns = 151
-#		is_year = 500
-#		NOT = { started_in = 542.1.1 }
+#		is_year = 2598
+#		NOT = { started_in = 2641.1.1 }
 #	}
 #	
 #	mean_time_to_happen = {

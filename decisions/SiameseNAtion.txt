@@ -92,8 +92,6 @@ country_decisions = {
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			set_country_flag = formed_siam_flag
-			
-			restore_country_name = yes			#New added in MMETR for Rattanakosin / other name changes added in mod
 		}		
 		ai_will_do = {
 			factor = 1

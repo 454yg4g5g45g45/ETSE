@@ -105,7 +105,7 @@
 2603 = "Benteng Santo Yohanes"
 2604 = "Pangeran Inayat"
 2605 = "Lengan Salmon"
-2609 = "Pangeran 'Alî"
+2609 = "Pangeran 'AlÃ®"
 4146 = "Pulau Tebing"
 4178 = "Ulukhaktok"
 4179 = "Teluk Suharto"

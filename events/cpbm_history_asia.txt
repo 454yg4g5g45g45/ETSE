@@ -169,6 +169,7 @@ country_event = {
 		OR = { owns = 4279 owns = 390 owns = 4283 owns = 4284 }
 		is_year = 2898
 		NOT = { is_year = 2998 }
+		NOT = { culture = yemeni_culture }
 		NOT = {
 			OR = {
 				tag = YEM
@@ -325,79 +326,61 @@ country_event = {
 	}
 }
 
-# Rassids
+#Rassids
 country_event = {
-    id = cpbm_history_asia.6
-    title = cpbm_history_asia.6.t
-    desc = cpbm_history_asia.6.d
-    picture = BORDER_TENSION_eventPicture
+	id = cpbm_history_asia.6
+	title = cpbm_history_asia.6.t
+	desc = cpbm_history_asia.6.d
+	picture = BORDER_TENSION_eventPicture
 
-    trigger = {
-        OR = {
-            owns = 386
-            owns = 391
-            owns = 4282
-        }
-
-        is_year = 2948
-        NOT = { is_year = 3448 }
-
-        any_owned_province = {
-            area = asir_area
-            religion = shiite
-        }
-
-        NOT = { religion = shiite }
-        capital_scope = { NOT = { area = asir_area } }
-        NOT = { tag = RAS }
-        NOT = { has_country_flag = rassids_rebelled }
-    }
-
-    mean_time_to_happen = {
-        years = 50
-    }
-
-    option = {
-        name = cpbm_history_asia.6.a
-
-        add_legitimacy = -20
-
-        every_owned_province = {
-            limit = { area = asir_area }
-            cede_province = RAS
-            add_core = RAS
-        }
-
-        RAS = {
-            define_ruler = {
-                dynasty = "Rassid"
-            }
-            change_religion = shiite
-            every_neighbor_country = {
-                add_truce_with = RAS
-            }
-        }
-
-        arabia_region = {
-            discover_country = RAS
-        }
-
-        set_country_flag = rassids_rebelled
-    }
-
-    option = {
-        name = cpbm_history_asia.6.b
-
-        every_owned_province = {
-            limit = { area = asir_area }
-            spawn_rebels = {
-                type = nationalist_rebels
-                size = 2
-            }
-        }
-
-        set_country_flag = rassids_rebelled
-    }
+	trigger = {
+		OR = { owns = 386 owns = 391 owns = 4282 }
+		is_year = 2948
+		NOT = { is_year = 3448 }
+		any_owned_province = {
+			AND = {
+				area = asir_area }
+				religion = shiite
+			}
+		}
+		NOT = { religion = shiite }
+		capital_scope = { NOT = { area = asir_area } }
+		NOT = { tag = RAS }
+		NOT = { has_country_flag = rassids_rebelled }
+	}
+	
+	mean_time_to_happen = {
+		years = 50	
+	}
+	
+	option = {
+		name = cpbm_history_asia.6.a
+		add_legitimacy = -20
+		every_owned_province = { 
+			limit = { area = asir_area }
+			cede_province = RAS
+			add_core = RAS
+		}
+		RAS = {
+			define_ruler = { dynasty = "Rassid" }
+			change_religion = shiite
+			every_neighbor_country = { add_truce_with = RAS }
+		}
+		arabia_region = { discover_country = RAS }
+		set_country_flag = rassids_rebelled
+	}
+	
+	option = {
+		name = cpbm_history_asia.6.b
+		every_owned_province = { 
+			limit = { area = asir_area }
+			spawn_rebels = {
+    				type = religious_rebels
+    				size = 3
+			}
+		}
+		set_country_flag = rassids_rebelled
+	}
 }
 
 #Aden
@@ -478,6 +461,7 @@ country_event = {
 		NOT = { is_year = 3328 }
 		NOT = { tag = YEM }
 		NOT = { tag = AF2 }
+		NOT = { culture = yemeni_culture }
 		capital_scope = { 
 			NOT = { 
 				OR = {
@@ -709,6 +693,7 @@ country_event = {
 		NOT = { tag = YEM }
 		NOT = { tag = AF2 }
 		NOT = { tag = RAS }
+		NOT = { culture = yemeni_culture }
 		capital_scope = { 
 			NOT = { 
 				OR = {

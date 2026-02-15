@@ -18,6 +18,7 @@ historical_idea_groups = {
 historical_units = { 
 	south_american_spearmen
 	south_american_horsemen
+	south_american_warfare
 	south_american_forest_warfare
 	south_american_gunpowder_warfare
 	south_american_reformed_gunpowder_warfare

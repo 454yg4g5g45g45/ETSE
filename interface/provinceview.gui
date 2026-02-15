@@ -592,15 +592,6 @@ guiTypes = {
 				fixedsize = yes
 			}
 
-			guiButtonType = {
-				name ="transfer_occupation_from_ally_button"
-				scripted = yes
-				quadTextureSprite = "GFX_request_occupation_button"
-				buttonFont = "vic_18"
-
-				position = { x= 320 y = 245 }
-			}
-
 			guiButtonType =
 			{
 				name ="tax_base_increase_button"

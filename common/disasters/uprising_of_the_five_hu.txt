@@ -6,7 +6,7 @@ uprising_of_five_hu = {
 		NOT = { started_in = 2414.1.1 }
 		OR = {
 			is_emperor_of_china = yes
-			government_rank = 3
+			government_rank = 10
 			tag = JIN
 			was_tag = JIN
 		}
@@ -21,7 +21,7 @@ uprising_of_five_hu = {
 		}
 		OR = {
 			is_emperor_of_china = yes
-			government_rank = 3
+			government_rank = 10
 		}
 		OR = {
 			NOT = { stability = 0 }

@@ -108,7 +108,7 @@ country_event = {
 	}
 }
 
-#Johann Friedrich Böttger
+#Johann Friedrich BÃ¶ttger
 country_event = {
 	id = prices.3
 	title = prices.3.t

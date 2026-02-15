@@ -2891,7 +2891,7 @@ mount_fuji = {
 	start = 1029
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1293.1.1 #806.1.1 when the Fujisan Hong? Sengen Taisha shrine was built
+	date = 1293.1.1 #806.1.1 when the Fujisan HongÅ« Sengen Taisha shrine was built
 	
 	#time to build
 	time = { months = 120 }
@@ -7711,7 +7711,7 @@ kiev_pechersk_lavra = {
 	}
 }
 
-#pena_palace = { #Replaced by Belém Tower, as requested by community
+#pena_palace = { #Replaced by BelÃ©m Tower, as requested by community
 	# province it starts in
 	# start = 227
 	
@@ -10300,7 +10300,7 @@ bara_katra = {
 }
 
 bran_castle = {
-	start = 4128 #Királyföld
+	start = 4128 #KirÃ¡lyfÃ¶ld
 	date = 3455.1.1
 	time = { months = 120 }
 	build_cost = 1000
@@ -15126,7 +15126,7 @@ white_house = {
 }
 
 tikal = {
-	start = 842 #Petén
+	start = 842 #PetÃ©n
 	date = 2268.1.1
 	time = { months = 120 }
 	build_cost = 1000
@@ -18058,7 +18058,7 @@ imperial_city_kyoto = {
 
 kazan_kremlin = {
 	start = 1082 
-	date = 3312.12.2 #Built: 10th?16th centuries
+	date = 3312.12.2 #Built: 10thï¿½16th centuries
 	time = { months = 120 }
 	build_cost = 1000
 	can_be_moved = no

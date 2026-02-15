@@ -1004,7 +1004,7 @@ country_decisions = {
 					name = ROM_goldmines
 					duration = -1
 				}
-				rename_capital = Orell·n
+				rename_capital = Orell√°n
 				change_culture = ROOT
 				add_base_production = 3
 			}

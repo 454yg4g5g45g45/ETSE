@@ -706,10 +706,10 @@ republic = {
 				samurai_republic_government_reform
 				pisan_consulate_reform
 				pisan_podesteria_reform
-				#RF
-				roman_republic_spqr_reform
 				#CRW
 				roman_republic
+				#RF
+				roman_republic_spqr_reform
 				#ETF
 				islamic_republic_reform
 				chinese_warlord_clique

@@ -2,6 +2,7 @@ country_decisions = {
 	SM_config_decision = {
 		major = yes
 		potential = {
+			has_dlc = Leviathan
 			NOT = { has_global_flag = SM_open_config_menu_flag }
 			has_global_flag = SM_initial_set_up_global_flag
 			ai = no

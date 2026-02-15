@@ -95,9 +95,9 @@ country_decisions = {
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 8 }
 				}
-				set_government_rank = 2
+				set_government_rank = 8
 			}
 			france_region = {
 				limit = {
@@ -122,11 +122,7 @@ country_decisions = {
 			factor = 1
 			modifier = {
 	 			factor = 0
-	 			OR = {
-					dynasty = "Carolingian"		#New added in MMETR, prevents West Francia from always forming France
-					dynasty = "Merovingian"
-					religion_group = german_pagan
-				}
+	 			dynasty = "Carolingian"		#prevents West Francia from always forming France
 			}
 		}
 	}

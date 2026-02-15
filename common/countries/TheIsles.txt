@@ -97,7 +97,7 @@ monarch_names = {
 leader_names = { 
 	Arascain Anrias Airchart Ambarsan Aonghais Beitean Blacathathir Banach Blar Braigheach
 	Brun Buiseid Caimbeulach Comyn Camshron Calder "de Charteris" Cochran Colquhoun Canowan
-	Ceiteach Cearr Crob·n Ciogach Druimeanach Dunchad Dughallach Dalais Deoir Fearsithe
+	Ceiteach Cearr Crob√°n Ciogach Druimeanach Dunchad Dughallach Dalais Deoir Fearsithe
 	Frisealach Fingon Folais Forsaidh Flimean Fearghasdan Galbraith Greumach Grannd Guinne
 	Gutraidh Geadais Gilios Glas Gobha Guaire Giobsan Haig Kincaid Kinloch
 	Kinnaird Kinnear Kinninmont Lamont Loganach Liobhunn Labhruinn Lathurna Lutair MacLeoid
@@ -111,7 +111,7 @@ leader_names = {
 	Tulach Talmhach Udny Uallas Urchardan 
 }
 ship_names = { 
-	Alba Asainte "Abscissa Virescit" "Amo Probos" "Aonaibh Ri ChÈile" Avance "Accendit Cantu" Audaciter "Andreas de Atholia" Abraruadh
+	Alba Asainte "Abscissa Virescit" "Amo Probos" "Aonaibh Ri Ch√©ile" Avance "Accendit Cantu" Audaciter "Andreas de Atholia" Abraruadh
 	"Baile Inneraora" Baideanach Berowald "Buaidh No Bas" Caledonia Cruachan "Consilio Non Petu" Confido "Clar Innes" Clut
 	"Caisteal Dhuni" "Cair Chaladain" "Calum Cille" "Dun Bheagain" "Donnchadh na-Adh" "Dominus Fecit" "De Bonnaire" "Diriget Deus" Deoradh "Donnchadh Reamhar"
 	Dalriada "Domhnall mac Raghnaill" "Deus Juvat" Earra-Ghaidheal "Fide Et Opera" Fuimus "Feros Ferio" Freskin "Fergus Mor" "Fraoch Eilean"

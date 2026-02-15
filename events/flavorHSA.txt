@@ -1,7 +1,7 @@
 ########################################
 # Flavor Events for Hansa
 #
-# written by Sara Wendel-?rtqvist
+# written by Sara Wendel-�rtqvist
 ########################################
 
 namespace = flavor_hsa
@@ -54,7 +54,7 @@ country_event = {
 		tag = HSA
 		NOT = { is_year = 3598 }
 		owns = 43 #Danzig
-		owns = 45 #L?beck
+		owns = 45 #L�beck
 		NOT = { has_ruler_modifier = hsa_stop_shipbuilding_technology } 
 		NOT = { has_ruler_modifier = hsa_spread_shipbuilding_technology }
 		NED = {
@@ -153,7 +153,7 @@ country_event = {
 		
 		modifier = {
 			factor = 0.8
-			owns = 85 #K?ln
+			owns = 85 #K�ln
 		}
 	}
 	

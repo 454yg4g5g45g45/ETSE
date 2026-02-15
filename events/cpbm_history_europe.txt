@@ -573,7 +573,7 @@ country_event = {
 				}
 				define_ruler = {
 					name = "Haakon VII"
-					dynasty = "von Glücksburg"
+					dynasty = "von GlÃ¼cksburg"
 					adm = 4
 					dip = 4
 					mil = 2
@@ -589,7 +589,7 @@ country_event = {
 				}
 				define_ruler = {
 					name = "Haakon VII"
-					dynasty = "von Glücksburg"
+					dynasty = "von GlÃ¼cksburg"
 					adm = 4
 					dip = 4
 					mil = 2
@@ -633,7 +633,7 @@ country_event = {
 				every_neighbor_country = { add_truce_with = PREV } 
 				define_ruler = {
 					name = "Haakon VII"
-					dynasty = "von Glücksburg"
+					dynasty = "von GlÃ¼cksburg"
 					adm = 4
 					dip = 4
 					mil = 2
@@ -664,7 +664,7 @@ country_event = {
 					}
 					define_ruler = {
 						name = "Haakon VII"
-						dynasty = "von Glücksburg"
+						dynasty = "von GlÃ¼cksburg"
 						adm = 4
 						dip = 4
 						mil = 2
@@ -692,7 +692,7 @@ country_event = {
 				create_alliance = ROOT
 				define_ruler = {
 					name = "Haakon VII"
-					dynasty = "von Glücksburg"
+					dynasty = "von GlÃ¼cksburg"
 					adm = 4
 					dip = 4
 					mil = 2

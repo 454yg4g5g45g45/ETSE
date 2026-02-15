@@ -272,7 +272,7 @@ country_event = {
 	}
 }
 
-# Soirée
+# SoirÃ©e
 country_event = {
 	id = 9455
 	title = "EVTNAME9455"
@@ -1761,7 +1761,7 @@ country_event = {
 	}
 }
 
-### Suggestions by Ex Mudder, scripted by Sara Wendel-Örtqvist
+### Suggestions by Ex Mudder, scripted by Sara Wendel-Ã–rtqvist
 
 namespace = dynastic_events
 

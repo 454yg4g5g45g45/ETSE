@@ -6,11 +6,11 @@
 2961 = "Ilbav"							#Lwow						|			16.09.20
 4542 = "Lubni"							#Lubny						|			24.10.20
 
-12997 = "Yañi Qapi"
-12998 = "Canköy"
+12997 = "YaÃ±i Qapi"
+12998 = "CankÃ¶y"
 12999 = "Kezlev"
 13000 = "Qurman"
 13001 = "Qarasuvbazar"
-13002 = "Bagçasaray"
+13002 = "BagÃ§asaray"
 13003 = "Yalta"
-13004 = "Keriç"						
+13004 = "KeriÃ§"						

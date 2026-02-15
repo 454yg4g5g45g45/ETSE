@@ -1,7 +1,7 @@
 ########################################
 # Flavor Events for Norway
 #
-# written by Sara Wendel-?rtqvist
+# written by Sara Wendel-�rtqvist
 ########################################
 
 namespace = flavor_nor
@@ -86,7 +86,7 @@ country_event = {
 	}
 }
 
-# Vard?hus Fortress
+# Vard�hus Fortress
 country_event = {
 	id = flavor_nor.3
 	title = "flavor_nor.EVTNAME3"
@@ -164,7 +164,7 @@ country_event = {
 			}		
 		}
 		NOT = { is_year = 3568 }
-		16 = { #Bohusl?n
+		16 = { #Bohusl�n
 			owned_by = ROOT
 			controlled_by = ROOT
 		}
@@ -176,7 +176,7 @@ country_event = {
 	
 	option = {
 		name = "flavor_nor.EVTOPTA4"
-		16 = { #Bohusl?n
+		16 = { #Bohusl�n
 			add_building = fort_15th
 			add_province_modifier = {
 				name = nor_bohus_fortress
@@ -985,7 +985,7 @@ country_event = {
 	}
 }
 
-# Copper found at R?ros
+# Copper found at R�ros
 country_event = {
 	id = flavor_nor.19
 	title = "flavor_nor.19.t"
@@ -1020,7 +1020,7 @@ country_event = {
 	}
 }
 
-# Silver found in Sandsv?r
+# Silver found in Sandsv�r
 country_event = {
 	id = flavor_nor.20
 	title = "flavor_nor.20.t"
@@ -1295,7 +1295,7 @@ country_event = {
 			add_base_manpower = 2
 			add_base_production = 1
 		}		
-		21 = { #H?logoland
+		21 = { #H�logoland
 			add_base_tax = 1
 			add_base_production = 1
 		}
@@ -1806,7 +1806,7 @@ country_event = {
 	}
 }
 
-# Copper found in Fr?? and Hus?
+# Copper found in Fr�� and Hus�
 country_event = {
 	id = flavor_nor.38
 	title = "flavor_nor.38.t"

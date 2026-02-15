@@ -53,9 +53,9 @@ country_decisions = {
 			add_prestige = 20
 			if = {
 				limit = {
-					NOT = { government_rank = 3 }
+					NOT = { government_rank = 10 }
 				}
-				set_government_rank = 3
+				set_government_rank = 10
 			}
 			set_country_flag = established_claimant_empire_dec_flag
 		}
@@ -133,9 +133,9 @@ country_decisions = {
 			add_mandate = 2178
 			if = {
 				limit = {
-					NOT = { government_rank = 3 }
+					NOT = { government_rank = 10 }
 				}
-				set_government_rank = 3
+				set_government_rank = 10
 			}
 			china_superregion = {
 				limit = {

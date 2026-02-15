@@ -776,9 +776,9 @@ palmyrene_missions_3 = {
 		effect = {
 			if = {
 				NOT = {
-					government_rank = 3
+					government_rank = 10
 				}
-				set_government_rank = 3
+				set_government_rank = 10
 			}
 			add_country_modifier = {
 				name = "me_plm_emperor_of_palmyra"
@@ -883,13 +883,13 @@ palmyrene_missions_4 = {
 		trigger = {
 			if = {
 				limit = {
-					NOT = { government_rank = 3 }	#when small as a kingdom
+					NOT = { government_rank = 10 }	#when small as a kingdom
 				}
 				army_size_percentage = 1.0
 			}
 			if = {
 				limit = {
-					government_rank = 3		#when largest size under Zenobia
+					government_rank = 10		#when largest size under Zenobia
 				}
 				OR {
 					army_size_percentage = 0.90

@@ -279,7 +279,7 @@ massif_central_area = {  #3
 	color = { 26 26 217 }
 	190 199 10676 
 }
-savoy_dauphine_area = {  #3 Savoy and Dauphiné, Upper Burgundy 
+savoy_dauphine_area = {  #3 Savoy and DauphinÃ©, Upper Burgundy 
 
 	203 204 205 4391 10677 10678 10679 10680 10681 11698
 }
@@ -552,13 +552,13 @@ skaneland_area = {  #4
 	9559 9560 9561 9562 9563 9564 9565 9566 9567 9568
 	9569 9570 9571 9572 9573 9574 9575 
 }
-gotaland_area = {  #3 Östra Götaland
+gotaland_area = {  #3 Ã–stra GÃ¶taland
 
 	2 3 25 4166 9601 9602 9603 9604 9605 9606
 	9607 9608 9609 9610 9611 9612 9613 9614 9615 9616
 	9617 9618 9619 9620 9621 9622 
 }
-vastra_gotaland_area = {  #Västra Götaland #4
+vastra_gotaland_area = {  #VÃ¤stra GÃ¶taland #4
 
 	7 16 4163 4164 9576 9577 9578 9579 9580 9581
 	9582 9583 9584 9585 9586 9587 9588 9589 9590 9591
@@ -1132,7 +1132,7 @@ morea_area = {  #4 Central Greece & Crete
 	10427 10428 10429 10430 10431 10432 10433 14400 14401 14402
 	14403 14404 14405 14406 14407 14408 14409 14410 14412 14413
 	14414 14415 14416 14417 14418 14419 14420 14421 14425 14426
-	146 14423 14468 14465 14463 14464 14433 14466 14411 14467 
+	146 14423 14468 14465 14463 14464 14433 14466 14411 
 }
 northern_greece_area = {  #3 #Northern Greece
 
@@ -1223,7 +1223,7 @@ transdanubia_area = {  #5
 	10493 10494 
 }
 ########################################
-# Caucasia #							   #
+# Caucasia 							   #
 ########################################
 imereti_area = {  #3
 
@@ -4571,6 +4571,8 @@ western_aegean_area = {
 }
 odishi_area = { 
 }
+georgia_area = { 
+}
 rakka_area = { 
 }
 south_kurdistan_area = { 
@@ -4584,6 +4586,10 @@ arabian_sea_islands_area = {
 baltic_islands_area = { 
 }
 east_altishahr_area = { 
+}
+amnok_area = { 
+}
+north_korea_area = { 
 }
 hejaz_area = { 
 }
@@ -4618,5 +4624,6 @@ maharashtra_area = {
 gujarat_area = { }
 central_doab_area = { 
 }
+nepalese_area = { }
 pomerelia_area = { }
 sonora_y_sinaloa_area = { }

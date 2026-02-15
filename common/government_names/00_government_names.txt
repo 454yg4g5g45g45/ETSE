@@ -1682,7 +1682,7 @@ nahuatl_localisation = {
 		7 = ARCHDUKE
 		8 = TLAHTLOANI
 		9 = HUEYITLAHTLOANI
-		10 = HUEYITLAHTLOANI #Hu?yi Tlahtlo?ni
+		10 = HUEYITLAHTLOANI #Huēyi Tlahtloāni
 	}
 
 	ruler_female = {
@@ -3735,10 +3735,10 @@ frisian_localisation = {
 
 schlesian_localisation = {
 	rank = {
-  1 = BARONSTWO #Bar??stwo
-  2 = GROFSTWO #Gr?fstwo
+  1 = BARONSTWO #Barōństwo
+  2 = GROFSTWO #Grŏfstwo
   3 = MARKGRAWIAT #Margrawiat
-  4 = KSIYNOT #KSIYN?T
+  4 = KSIYNOT #KSIYNŌT
   5 = KRINCODOM
   6 = WARZKONZYJO
   7 = ARCHDUCHYJO
@@ -3748,16 +3748,16 @@ schlesian_localisation = {
   }
 
   ruler_male = {
-  1 = BARON_SIL #Bar?n
-  1 = BARON_SIL #Bar?n
+  1 = BARON_SIL #Barōn
+  1 = BARON_SIL #Barōn
   2 = HRABIJA
   3 = MARGRAW #Margraw
   4 = PRINC
   5 = PRINCY
   6 = WIELKIKSIYNB #WIELKI KSIYNB
   7 = ARCIKNIYK
-  8 = KROL #Kr?l
-  9 = WYSOKIKROL #Wysoki Kr?l
+  8 = KROL #Krōl
+  9 = WYSOKIKROL #Wysoki Krōl
   10 = CYSORZ
   }
 
@@ -3765,12 +3765,12 @@ schlesian_localisation = {
   1 = BARONSKA
   2 = HRABINO
   3 = MARGRAWINA
-  4 = KSYLONKA #KSY??NKA
+  4 = KSYLONKA #KSYŁŌNKA
   5 = PRYNCESA
-  6 = WIELKOKSYNZOS #WIELKO KSYNZO?
+  6 = WIELKOKSYNZOS #WIELKO KSYNZOŚ
   7 = ARCHDUCHESKA
-  8 = KROLOWO #KR?LOWO
-  9 = WYSOKOKROLOWO #Wysoko Kr?lowo
+  8 = KROLOWO #KRŌLOWO
+  9 = WYSOKOKROLOWO #Wysoko Krōlowo
   10 = CYSORZOWO #Cysorzowo
 }
 

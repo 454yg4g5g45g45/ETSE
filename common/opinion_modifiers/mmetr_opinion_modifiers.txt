@@ -32,8 +32,3 @@ frk_sent_monetary_aid = {
 	yearly_decay = 1
 }
 
-frk_liberated_us = {
-	opinion = 50
-	yearly_decay = 1
-}
-

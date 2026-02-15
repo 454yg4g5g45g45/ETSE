@@ -36,7 +36,7 @@ xinhai_revolution = {
 			superregion = china_superregion
 		}
 		is_year = 3998
-		NOT = {  = 4010.1.1 }
+		NOT = { started_in = 4010.1.1 }
 		NOT = { has_global_flag = chinese_revolution_flag }
 	}
 

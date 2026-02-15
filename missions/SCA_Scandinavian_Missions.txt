@@ -213,7 +213,7 @@ sca_conquqest_slot_3 = {
 		}
 		trigger = {
 			total_own_and_non_tributary_subject_development = 3000
-			government_rank = 3
+			government_rank = 10
 			stability = 3
 			has_any_disaster = no
 		}
@@ -722,8 +722,8 @@ sca_development_slot_2 = {
 		}
 		effect = {
 			if = {
-				limit = { NOT = { government_rank = 3 } }
-				set_government_rank = 3
+				limit = { NOT = { government_rank = 10 } }
+				set_government_rank = 10
 			}
 			add_country_modifier = {
 				name = sca_scandinavian_tenacity

@@ -26,7 +26,7 @@ estate_eunuchs = {
 			has_unlocked_estate = { estate = estate_eunuchs }
 			AND = {
 				culture_group = east_asian
-				government_rank = 3
+				government_rank = 10
 			}
 			is_emperor_of_china = yes
 			has_reform = celestial_empire

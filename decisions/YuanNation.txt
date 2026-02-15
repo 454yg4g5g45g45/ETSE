@@ -96,7 +96,7 @@ country_decisions = {
 				limit = {
 					has_dlc = "Common Sense"
 				}
-				government_rank = 3
+				government_rank = 10
 			}
 			else = {
 				total_development = 1000
@@ -119,12 +119,6 @@ country_decisions = {
 			change_tag = YUA
 			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
-			if = {		#added MMETR
-				limit = {
-					NOT = { government_rank = 3 }
-				}
-				set_government_rank = 3
-			}
 			china_superregion = {
 				limit = {
 					NOT = { owned_by = ROOT }

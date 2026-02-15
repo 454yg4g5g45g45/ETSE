@@ -390,9 +390,9 @@ provence_missions_2 = {
 		effect = {
 			if = {	
 				limit = {
-					NOT = { government_rank = 3 }
+					NOT = { government_rank = 10 }
 				}
-				set_government_rank = 3
+				set_government_rank = 10
 			}
 			add_country_modifier = {
 				name = "pro_king_of_kings"

@@ -1,7 +1,7 @@
 ########################################
 # USA DLC Events
 #
-# written by Sara Wendel-Örtqvist
+# written by Sara Wendel-Ã–rtqvist
 ########################################
 
 namespace = usa_dlc
@@ -3124,7 +3124,7 @@ country_event = {
 	}
 }
 
-# Adam-Onís Treaty
+# Adam-OnÃ­s Treaty
 country_event = {
 	id = usa_dlc.71
 	title = "usa_dlc.EVTNAME71"

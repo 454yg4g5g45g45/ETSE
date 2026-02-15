@@ -997,7 +997,7 @@ feo_3 = {
 		} 
 
 		trigger = {  
-			government_rank = 3
+			government_rank = 10
 			if = {
 				limit = {
 					hre_size = 1

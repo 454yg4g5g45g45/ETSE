@@ -882,9 +882,9 @@ judean_missions_4 = {
 		effect = {
 			if = {
 				limit = {
-					NOT = { government_rank = 3 }
+					NOT = { government_rank = 10 }
 				}
-				set_government_rank = 3
+				set_government_rank = 10
 			}
 			add_country_modifier = {
 				name = "me_jud_empire_of_david"

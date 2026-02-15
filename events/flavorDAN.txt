@@ -1,7 +1,7 @@
 ########################################
 # Flavor Events for Denmark
 #
-# written by Sara Wendel-?rtqvist
+# written by Sara Wendel-�rtqvist
 ########################################
 
 namespace = flavor_dan
@@ -456,7 +456,7 @@ country_event = {
 			}
 		}
 		SWE = {
-			owns = 6 #Sk?ne
+			owns = 6 #Sk�ne
 			OR = {
 				owns = 26 #Halland
 				any_owned_province = {
@@ -476,7 +476,7 @@ country_event = {
 	
 	option = {
 		name = "flavor_dan.EVTOPTA3300"
-		add_core = 6 #Sk?ne
+		add_core = 6 #Sk�ne
 		SWE = {
 			add_opinion = {
 				who = DAN
@@ -539,7 +539,7 @@ country_event = {
 		add_navy_tradition = 20
 		if = {
 			limit = {
-				owns = 6 #Sk?ne
+				owns = 6 #Sk�ne
 			}
 			6 = {
 				add_base_tax = 1
@@ -1461,7 +1461,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		owns = 6 #Sk?ne
+		owns = 6 #Sk�ne
 		is_year = 3648
 		NOT = { is_year = 3698 }
 		6 = {
@@ -1708,7 +1708,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "flavor_dan.15.a" #?Du hedder Lax - s? kan du vel sv?mme??
+		name = "flavor_dan.15.a" #�Du hedder Lax - s� kan du vel sv�mme��
 		custom_tooltip = flavor_dan.15.a.tt
 		add_adm_power = 75
 		add_years_of_income = 0.5

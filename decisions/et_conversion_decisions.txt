@@ -370,13 +370,6 @@ country_decisions = {
 				factor = 0
 				NOT = { dominant_religion = sunni }
 			}
-			modifier = {		#New added in MMETR
-				factor = 0
-				OR = {
-					tag = FAT
-					tag = PER		#Safavids if non-Sunni already
-				}
-			}
 		}
 	}
 
@@ -426,6 +419,10 @@ country_decisions = {
 				factor = 0
 				is_subject = yes
 				overlord = { NOT = { religion = secularism } }
+			}
+			modifier = {
+				factor = 0
+				has_reform = authoritarian_rule
 			}
 		}
 	}
