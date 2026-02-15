@@ -1,6 +1,0 @@
-union = {
-	first = GBR
-	second = IRE
-	start_date = 4020.12.6
-	end_date = 4036.6.25
-}
