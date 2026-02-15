@@ -3622,11 +3622,11 @@ latin = {
 		Merigo Michelangelo Michele Napoleone Nazareno Nestore Niccolò Nicola
 		Nino Nolfo Oberto Obizzino Obizzo Oddone Omero Onorio Oreste Orlando Ottavio Ottobono Ottone 
 		Pagano Pancrazio Pandolfo Paolo Pasquale Otto
-		Patrizio Pellegrino Pericle Pietro Pio Prospero Rafaello Raimondo 
+		Patrizio Pellegrino Pericle Pietro Pio Prospero Rafaello Raimondo Serdicus Itanius
 		Ranerio Raniero Riccardo Rinaldo Rizzardo Roberto Rodolfo Rolando
 		Rosso Ruggiero Salinguerra Salvatore Salvestro Sante Sancho Saverio Sciarra Sebastiano 
 		Secondotto Serafino Sergio Sesto Settimio Severino Severo
-		Silvano Silvestro Simone Simonetto Sinibaldo Sinucello Sozzo Spinetto Stefano
+		Silvano Silvestro Simone Simonetto Sinibaldo Sinucello Sozzo Spinetto Stefano Rossalianus
 		Taddeo Tedaldo Tedice Teodoro Tibaldo Tiziano Tommaso Lupo
 	}
 	female_names = {
