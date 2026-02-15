@@ -1,5 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-6;11373;sea;1258;2837;1948;2832;1946;Sk?ne-Faxe
+6;11373;sea;1258;2837;1948;2832;1946;Sk�ne-Faxe
 11369;11350;sea;1258;2809;1946;2805;1946;Slagelse-Svendborg
 14;4142;sea;1258;2796;1951;2795;1956;Fyn-Aarhus
 4149;11348;sea;1258;-1;-1;-1;-1;Kolding-Middelfart
@@ -19,8 +19,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 123;124;sea;1307;2880;1623;2877;1621;Calabria-Messina
 151;9219;sea;1320;3090;1676;3092;1675;Thrace-Uskudar
 9222;9225;sea;1320;-1;-1;-1;-1;Canakkale-Gelibolu
-9659;1930;sea;1928;2931;2041;2941;2044;Norrtalje-?land
-1930;27;sea;1253;2953;2047;2968;2058;?land-Finland
+9659;1930;sea;1928;2931;2041;2941;2044;Norrtalje-�land
+1930;27;sea;1253;2953;2047;2968;2058;�land-Finland
 10398;142;sea;1311;2952;1651;2948;1650;Thesprotia-Corfu
 146;164;sea;1319;3018;1615;3029;1605;Athens-Naxos
 4110;253;sea;1283;-1;-1;-1;-1;Sutherland-Outer Hebrides
@@ -47,9 +47,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2149;11772;sea;1373;-1;-1;-1;-1;Ningbo-Yongdong
 2425;9964;sea;1263;-1;-1;-1;-1;Nenjocije-Vaygach
 4656;4664;sea;1558;-1;-1;-1;-1;Yutlinuk-Kwakwakawakw
-12702;12705;sea;1926;3003;2017;2997;2017;Wiek-Dag?
-12705;35;sea;1926;-1;-1;-1;-1;Dag?-?sel
-35;12681;sea;1256;2990;2004;2989;1995;?sel-Windau
+12702;12705;sea;1926;3003;2017;2997;2017;Wiek-Dag�
+12705;35;sea;1926;-1;-1;-1;-1;Dag�-�sel
+35;12681;sea;1256;2990;2004;2989;1995;�sel-Windau
 9278;596;sea;1361;4231;1030;4237;1039;Bengkalis-Malacca
 659;9292;sea;1361;4268;997;4266;991;Riau-Tanjung Jabung Timur
 2675;9279;sea;1361;-1;-1;-1;-1;Rokan-Pulau Rupat
@@ -62,7 +62,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7600;7610;sea;1558;-1;-1;-1;-1;Klallam-Ktsap
 7610;874;sea;1558;-1;-1;-1;-1;Ktsap-Salish
 8604;8605;sea;1553;-1;-1;-1;-1;Kiliwa-Xazl Iimt
-9082;9083;sea;1512;-1;-1;-1;-1;Sian Ka'an-K?utsmil
+9082;9083;sea;1512;-1;-1;-1;-1;Sian Ka'an-K�utsmil
 2021;7670;sea;1556;-1;-1;-1;-1;Miwok-Awaniwi
 2021;7689;sea;1556;-1;-1;-1;-1;Miwok-Supemenenu
 4653;973;sea;1558;697;1826;710;1828;Snuneymuxw-Squamish
@@ -86,9 +86,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 10434;2296;sea;1319;3047;1649;3047;1647;Lesbos-Biga
 13004;2447;sea;1323;3206;1753;3210;1752;Kaffa-Cherkio
 2022;976;sea;1559;-1;-1;-1;-1;Haida-Tlingit
-7922;7921;sea;1559;-1;-1;-1;-1;Sh?an-Kaachxaana?ak'w
+7922;7921;sea;1559;-1;-1;-1;-1;Sh�an-Kaachxaana�ak'w
 7942;7936;sea;1677;-1;-1;-1;-1;Nunivaaq-Mamterilleq
-862;8614;sea;1553;-1;-1;-1;-1;Yaqui-Tahej?c
+862;8614;sea;1553;-1;-1;-1;-1;Yaqui-Tahej�c
 2587;2671;sea;1661;-1;-1;-1;-1;Odawa-Missisage
 2587;1001;sea;1661;1339;1766;1338;1770;Odawa-Soto
 2576;2578;sea;1490;-1;-1;-1;-1;Mingan-Anticosti
@@ -165,7 +165,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 830;2807;sea;1519;-1;-1;-1;-1;Maracaibo-Altagracia
 14261;1095;sea;1595;-1;-1;-1;-1;West Falkland-Falklands
 13838;13840;sea;1541;-1;-1;-1;-1;Meli Pulli-Ancud
-13839;13840;sea;1541;-1;-1;-1;-1;Futaleuf?-Ancud
+13839;13840;sea;1541;-1;-1;-1;-1;Futaleuf�-Ancud
 13845;783;sea;1539;-1;-1;-1;-1;Punta Arenas-Kawesqar
 491;8306;sea;1519;-1;-1;-1;-1;Curacao-Pueblo Nuevo
 -1;-1;;-1;-1;-1;-1;-1;-1;
