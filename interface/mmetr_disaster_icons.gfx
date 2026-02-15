@@ -42,5 +42,11 @@ spriteTypes = {
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_disaster_uprising_of_five_hu"
+		texturefile = "gfx//interface//disasters//uprising_of_five_hu.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
 	
 }

@@ -124,7 +124,7 @@ gen_europe_hre = {
 				is_emperor = yes
 			}
 			else = {
-				government_rank = 3
+				government_rank = 10
 			}
 		}
 		

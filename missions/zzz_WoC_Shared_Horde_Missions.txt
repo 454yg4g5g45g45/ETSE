@@ -1048,7 +1048,7 @@ woc_flavor_hordes_4 = {
 				AND = {
 					if = {
 						limit = { has_dlc = "Common Sense" }
-						government_rank = 3
+						government_rank = 10
 					}
 					if = {
 						limit = {
@@ -1103,7 +1103,7 @@ woc_flavor_hordes_4 = {
 					
 					second_custom_tooltip = HORDES_IF_COMPLETED_VIA_GREAT_POWER
 					second_limit = "
-						government_rank = 3
+						government_rank = 10
 						NOT = { great_power_rank = 4 }
 						OR = {
 							NOT = { num_of_subjects = 5 }

@@ -365,9 +365,9 @@ fin_missions_2 = {
 		effect = { 
 			if = { 
 				limit = { 
-					NOT = { government_rank = 3 } 
+					NOT = { government_rank = 10 } 
 				}
-				set_government_rank = 3 
+				set_government_rank = 10 
 			}
 			else = { add_prestige = 50 }
 			custom_tooltip = fin_baltic_empire_tt

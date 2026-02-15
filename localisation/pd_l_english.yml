@@ -1,0 +1,72 @@
+﻿l_english:
+  cb_total_war:0 "Full Annexation"
+  cb_total_war_desc:0 "Annex them"
+
+  cb_convert_anyone:0 "Forced Conversion"
+  cb_convert_anyone_desc:0 "Convert them to the True Faith"
+
+  cb_dismantle_gp:0 "Dismantle"
+  cb_dismantle_gp_desc:0 "Dismantle their Empire"
+
+  cb_banish_colonizer:0 "Banish Colonizer"
+  cb_banish_colonizer_desc:0 "Banish the Colonizers!"
+
+  cb_raid_pillage:0 "Raid and Pillage"
+  cb_raid_pillage_desc:0 "Raid and Pillage the enemy's provinces"
+
+  cb_expand_tributary:0 "Expand Tributary Network"
+  cb_expand_tributary_desc:0 "Expand our Tributary State network."
+
+  wg_fully_annex:0 "Take capital"
+  wg_fully_annex_desc:0 "War goal is to take their capital"
+
+  wg_fully_convert:0 "Take capital"
+  wg_fully_convert_desc:0 "War goal is to take their capital"
+
+  wg_dismantle_gp:0 "Take capital"
+  wg_dismantle_gp_desc:0 "War goal is to take their capital"
+
+  wg_banish_colonizer:0 "Take capital"
+  wg_banish_colonizer_desc:0 "War goal is to take their capital"
+
+  wg_raid_pillage:0 "Show superiority"
+  wg_raid_pillage_desc:0 "War goal is to show superiority by winning battles"
+
+  wg_expand_tributary:0 "Show superiority"
+  wg_expand_tributary_desc:0 "War goal is to show superiority by winning battles"
+
+  po_allow_annex:0 "Allow Annexation"
+  po_allow_annex_desc:0 "Allows annexation of [From.GetName]"
+  CB_ALLOWED_po_allow_annex:0 "Full Annexation"
+  PEACE_po_allow_annex:0 "Allow Annexation"
+
+  po_fully_convert:0 "Force Religion"
+  po_fully_convert_desc:0 "Convert [From.GetName] to [This.Religion.GetName]"
+  CB_ALLOWED_po_fully_convert:0 "Religious Conversion"
+  PEACE_po_fully_convert:0 "Force Religion"
+
+  recent_full_conversion:0 "Recent Full Conversion"
+  desc_recent_full_conversion:0 "Due to our recent peace agreements, foreign missionaries have spread throughout our country and are converting our people."
+
+  po_status_quo:0 "Status Quo"
+  po_status_quo_desc:0 "Cede every occupied province to their respective occupier"
+  CB_ALLOWED_po_status_quo:0 "Status Quo"
+  PEACE_po_status_quo:0 "Status Quo"
+
+  po_raid_pillage:0 "Raid and Pillage"
+  po_raid_pillage_desc:0 "Raid and Pillage every occupied province"
+  CB_ALLOWED_po_raid_pillage:0 "Raid and Pillage"
+  PEACE_po_raid_pillage:0 "Raid and Pillage"
+
+  po_banish_colonizer:0 "Banish Colonizer"
+  po_banish_colonizer_desc:0 "Banish [From.GetName] from the lands and make all owned provinces uncolonizable for 5 years."
+  CB_ALLOWED_po_banish_colonizer:0 "Banish Colonizer"
+  PEACE_po_banish_colonizer:0 "Banish"
+
+  natives_protected:0 "Natives Protected"
+  desc_natives_protected:0 "The natives of this area are protected. None shall invade their lands."
+
+  ANNEX_WAR_NAME:0 "$ORDER$$FIRST$ Annexation of $SECOND_NAME$"
+  CONVERSION_WAR_NAME:0 "$ORDER$$FIRST$ Conversion of $SECOND_NAME$"
+  DISMANTLE_WAR_NAME:0 "$ORDER$$FIRST$ Dismantling of $SECOND_NAME$"
+  RAID_WAR_NAME:0 "$ORDER$$FIRST$ Raid of $SECOND_NAME$"

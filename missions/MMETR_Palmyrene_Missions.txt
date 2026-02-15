@@ -1,0 +1,1302 @@
+palmyrene_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = PLM
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	plm_ally_the_merchant_class_mission = {
+		icon = mission_trade_in_gold_coast
+		required_missions = {  }
+		position = 1
+		trigger = {
+			OR = {
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 70
+				}
+				num_of_estate_agendas_completed = {
+					estate = estate_burghers
+					value = 3
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_palmyrene_merchant_network"
+				duration = 10950
+			}
+		}
+	}
+	plm_protect_the_desert_trade_mission = {
+		icon = mission_merchant_of_gujarat
+		required_missions = { plm_ally_the_merchant_class_mission plm_expand_the_agora_mission }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 405
+			NOT = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			is_at_war = no
+			stability = 2
+			NOT = {
+				corruption = 1
+			}
+			owns_core_province = 405	#Palmyra
+			405 = {
+				num_of_buildings_in_province = 2
+			}
+			405 = {
+				fort_level = 1
+			}
+			405 = {
+				NOT = {
+					devastation = 1
+				}
+			}
+			405 = {
+				units_in_province = 10
+			}
+		}
+		effect = {
+			405 = {
+				add_building = armory
+			}
+			add_country_modifier = {
+				name = "me_plm_merchant_escort_guard"
+				duration = 10950
+			}
+		}
+	}
+	plm_mercantile_hegemon_mission = {
+		icon = mission_greco_roman_market
+		required_missions = { plm_protect_the_desert_trade_mission }
+		position = 3
+		trigger = {
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 70
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_empire_of_commerce"
+				duration = -1
+			}
+			hidden_effect = {
+				home_trade_node_effect_scope = {
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							is_capital = yes
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 20
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 25
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 30
+						}
+						save_event_target_as = reward_province
+					}
+				}
+			}
+			if = {
+				limit = { has_saved_event_target = reward_province }
+				event_target:reward_province = {
+					add_province_modifier = {
+						name = "dominant_trade_hub"
+						duration = -1
+					}
+				}
+			}
+			else = {
+				custom_tooltip = dominant_home_node_reward_tooltip
+			}
+			custom_tooltip = " "
+			add_mercantilism_or_monarch_power = { amount = 3 }
+		}
+	}
+	plm_king_of_kings_of_the_east_mission = {
+		icon = mission_persianate_empire
+		required_missions = { plm_corrector_totius_orientis_mission }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				region = egypt_region
+				region = mashriq_region
+				region = anatolia_region
+			}
+			NOT = {
+				is_state_core = ROOT
+			}
+			is_empty = no
+			has_discovered = ROOT
+		}
+		trigger = {
+			stability = 1
+			grown_by_states = 5
+			num_of_owned_provinces_with = {
+				value = 30
+				is_state_core = ROOT
+				OR = {
+					region = egypt_region
+					region = mashriq_region
+					region = anatolia_region
+				}
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = "me_plm_mlk_mlk_dy_mdnh"
+				duration = -1
+			}
+		}
+	}
+	plm_hellenic_campaign_mission = {
+		icon = mission_alexander_macedonian_flag
+		required_missions = { plm_lord_of_asia_minor_mission }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = central_greece_area
+				area = morea_area
+				area = northern_greece_area		#Epirus
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			central_greece_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			morea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_greece_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_navy_tradition = 20
+			add_manpower = 2
+			add_country_modifier = {
+				name = "me_plm_conquering_the_conquerors"
+				duration = 10950
+			}
+		}
+	}
+	plm_besiege_the_eternal_city_mission = {
+		icon = mission_roman_forum_imperial
+		required_missions = { plm_hellenic_campaign_mission }
+		position = 9
+		provinces_to_highlight = {
+			province_id = 118
+			NOT = {
+				owned_by = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			owns = 118	#Roma
+		}
+		effect = {
+			country_event = {
+				id = mmetr_PLM_mission_events.3
+			}
+			add_prestige = 40
+			add_country_modifier = {
+				name = "me_plm_king_in_roma"
+				duration = -1
+			}
+		}
+	}
+}
+
+palmyrene_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = PLM
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	plm_expand_the_agora_mission = {
+		icon = arb_riyadh
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+			province_id = 405
+			NOT = {
+				num_of_times_improved_by_owner = 3
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			owns_core_province = 405	#Palmyra
+			405 = {
+				num_of_times_improved_by_owner = 3
+			}
+			405 = {
+				higher_development_than = 2327 	#Petra, rival trade city that Palmyra later surpassed
+			}
+		}
+		effect = {
+			add_prestige = 5
+			405 = {
+				add_building = marketplace
+				add_base_tax = 1
+				add_province_modifier = {
+					name = "me_plm_agora_of_palmyra"
+					duration = -1
+				}
+			}
+		}
+	}
+	plm_promote_intellectualism_mission = {
+		icon = mission_court_education		#most resembles an early Roman codex
+		required_missions = { plm_expand_the_agora_mission }
+		position = 2
+		trigger = {
+			OR = {
+				has_adm_advisor_of_level = 3
+				has_dip_advisor_of_level = 3
+				AND = {
+					prestige = 50
+					has_adm_advisor_of_level = 2
+					has_dip_advisor_of_level = 2
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_blooming_intellectualism"
+				duration = 10950
+			}
+		}
+	}
+	plm_corrector_totius_orientis_mission = {
+		icon = mission_roman_caesars_legions
+		required_missions = {  }
+		position = 4
+		trigger = {
+			OR = {
+				reverse_has_opinion = {
+					who = ROM
+					value = 100
+				}
+				has_spy_network_in = {
+					who = ROM
+					value = 50
+				}
+				AND = {
+					NOT = { exists = ROM }
+					dip_power = 200
+					prestige = 20
+				}
+			}
+		}
+		effect = {
+			set_country_flag = plm_corrector_totius_orientis_flag	#for CB to be valid
+			if = {
+				limit = {
+					exists = ROM
+					ai = no		#cb with auto-defecting provinces is only for players
+				}
+				egypt_region = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+						is_empty = no
+					}
+					add_permanent_claim = ROOT
+				}
+				custom_tooltip = plm_corrector_totius_orientis_mission.tt2
+				hidden_effect = {
+					mashriq_region = {
+						limit = {
+							owned_by = ROM
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+				custom_tooltip = plm_corrector_totius_orientis_mission.tt
+				country_event = {
+					id = mmetr_PLM_mission_events.1
+				}
+				tooltip = {
+					add_country_modifier = {
+						name = "me_plm_corrector_totius_orientis"
+						duration = 10950
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { exists = ROM }
+					ai = no
+				}
+				add_dip_power = -200
+				add_country_modifier = {
+					name = "me_plm_corrector_totius_orientis"
+					duration = 10950
+				}
+				egypt_region = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+						is_empty = no
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			else = {	#for AI
+				add_country_modifier = {
+					name = "me_plm_corrector_totius_orientis"
+					duration = 10950
+				}
+			}
+		}
+	}
+	plm_lord_of_asia_minor_mission = {
+		icon = mission_mithridates
+		required_missions = { plm_corrector_totius_orientis_mission plm_suzerain_of_syria_mission }
+		position = 6
+		provinces_to_highlight = {
+			region = anatolia_region
+			has_discovered = ROOT
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 25
+				region = anatolia_region
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_ruler_of_asia"
+				duration = -1
+			}
+		}
+	}
+	plm_onwards_to_the_aegean_mission = {
+		icon = mission_greek_city_coastal
+		required_missions = { plm_lord_of_asia_minor_mission }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = aydin_area
+				area = aegean_archipelago_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			aydin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			aegean_archipelago_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_navy_tradition = 20
+			add_sailors = 1000
+			add_country_modifier = {
+				name = "me_plm_greek_seafarers"
+				duration = -1
+			}
+		}
+	}
+	plm_hegemon_of_the_east_mission = {
+		icon = mission_imperator_rome
+		required_missions = { plm_onwards_to_the_aegean_mission plm_egyptian_annexation_mission plm_hellenic_campaign_mission }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				province_id = 151	#Constantinople
+				area = macedonia_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 151
+			macedonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_the_new_alexandros"
+				duration = -1
+			}
+		}
+	}
+}
+
+palmyrene_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = PLM
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	plm_appease_the_aristocracy_mission = {
+		icon = mission_interfaith_relations
+		required_missions = {  }
+		position = 1
+		trigger = {
+			OR = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 70
+				}
+				num_of_estate_agendas_completed = {
+					estate = estate_nobles
+					value = 3
+				}
+				NOT = {
+					estate_influence = {
+						estate = estate_nobles
+						influence = 15
+					}
+				}
+				crown_land_share = 60
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_aristocratic_administrators"
+				duration = 10950
+			}
+		}
+	}
+	plm_the_right_to_rule_mission = {
+		icon = mission_the_ganges_campaign
+		required_missions = { plm_appease_the_aristocracy_mission  }
+		position = 3
+		trigger = {
+			stability = 3
+			adm_power = 100
+			NOT = { average_unrest = 7 }
+		}
+		effect = {
+			add_adm_power = -100
+			custom_tooltip = plm_the_right_to_rule_mission.tt
+			country_event = {
+				id = mmetr_PLM_mission_events.4
+			}
+		}
+	}
+	plm_suzerain_of_syria_mission = {
+		icon = mission_growth_of_ahmedabad
+		required_missions = { plm_peerless_might_mission }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = syria_area
+				area = aleppo_area
+				area = syrian_desert_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			is_empty = no
+			has_discovered = ROOT
+		}
+		trigger = {
+			syria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			aleppo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			syrian_desert_area = {
+				type = all
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					is_empty = yes
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_king_of_syria"
+				duration = 10950
+			}
+			palestine_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			cukurova_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			karaman_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			dulkadir_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			rum_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			ankara_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			germiyan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	plm_march_to_palestina_mission = {
+		icon = mission_sassanid_golden_cataphract
+		required_missions = { plm_suzerain_of_syria_mission }
+		position = 6
+		provinces_to_highlight = {
+			area = palestine_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			palestine_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			country_event = {
+				id = mmetr_PLM_mission_events.2
+			}
+			delta_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			bahari_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	plm_egyptian_annexation_mission = {
+		icon = mission_conquer_alexandria
+		required_missions = { plm_march_to_palestina_mission }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = delta_area
+				area = bahari_area
+			}
+			NOT = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			delta_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			bahari_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_egyptian_subjects"
+				duration = 10950
+			}
+			vostani_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			said_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	plm_control_the_nile_mission = {
+		icon = mission_nubian_pyramids
+		required_missions = { plm_egyptian_annexation_mission }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = vostani_area
+				area = said_area
+			}
+			NOT = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			vostani_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			said_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_king_of_the_nile"
+				duration = -1
+			}
+		}
+	}
+	plm_empire_of_the_palmyrenes_mission = {
+		icon = a_real_roman_empire
+		required_missions = { plm_control_the_nile_mission plm_hegemon_of_the_east_mission }
+		position = 9
+		trigger = {
+			total_development = 700
+		}
+		effect = {
+			if = {
+				NOT = {
+					government_rank = 10
+				}
+				set_government_rank = 10
+			}
+			add_country_modifier = {
+				name = "me_plm_emperor_of_palmyra"
+				duration = -1
+			}
+		}
+	}
+}
+
+palmyrene_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = PLM
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	plm_gods_of_the_palmyrenes_mission = {
+		icon = mission_pagan_religious_rite
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = {
+				religion = canaanite_religion
+			}
+		}
+		trigger = {
+			religion = canaanite_religion
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 25
+				religion = canaanite_religion
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_incorporation_of_regional_deities"
+				duration = 10950
+			}
+		}
+	}
+	plm_the_great_colonnade_mission = {
+		icon = mission_renovate_kannauj
+		required_missions = { plm_gods_of_the_palmyrenes_mission }
+		position = 2
+		provinces_to_highlight = {
+			owned_by = ROOT
+			OR = {
+				NOT = { has_building = ROOT }
+				NOT = {
+					OR = {
+						has_building = glorious_monument
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+			}
+		}
+		trigger = {
+			religion = canaanite_religion
+			capital_scope = {
+				religion = canaanite_religion
+				has_building = road
+				OR = {
+					has_building = glorious_monument
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 10
+				religion = canaanite_religion
+				has_building = road
+				OR = {
+					has_building = glorious_monument
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			capital_scope = {
+				add_permanent_province_modifier = {
+					name = "me_plm_temple_of_bel"
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = "me_plm_great_builder"
+				duration = 10950
+			}
+		}
+	}
+	plm_peerless_might_mission = {
+		icon = per_create_the_ghulams
+		required_missions = {  }
+		position = 4
+		trigger = {
+			if = {
+				limit = {
+					NOT = { government_rank = 10 }	#when small as a kingdom
+				}
+				army_size_percentage = 1.0
+			}
+			if = {
+				limit = {
+					government_rank = 10		#when largest size under Zenobia
+				}
+				OR {
+					army_size_percentage = 0.90
+					AND = {
+						army_size_percentage = 0.80
+						is_monarch_leader = yes
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {	#early Palmyra before expansion into Egypt, bigger morale buff of 0.15
+					NOT = { start_date = 2368.12.1 }
+				}
+				add_country_modifier = {
+					name = "me_plm_sparta_of_the_orient"
+					duration = 18250	#50 years
+				}
+			}
+			else_if = {
+				limit = {	#late Palmyra empire at conquest of Alexandria, smaller morale buff of 0.05
+					start_date = 2368.12.1
+				}
+				add_country_modifier = {
+					name = "me_plm_sparta_of_the_orient"
+					duration = 18250	#50 years
+				}
+			}	
+			syria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			aleppo_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			syrian_desert_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_empty = no
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	plm_camel_cavalry_mission = {
+		icon = mission_camel_cataphracts_prt_sas
+		required_missions = { plm_peerless_might_mission }
+		position = 5
+		trigger = {
+			OR = {
+				num_of_cavalry = 10
+				cavalry_fraction = 0.5
+			}
+			num_of_owned_provinces_with = {
+				value = 5
+				is_core = ROOT
+				OR = {
+					has_terrain = desert
+					has_terrain = coastal_desert
+				}
+			}
+			OR = {
+				army_tradition = 50
+				army_professionalism = 0.40
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_elite_camel_cavalry"
+				duration = -1
+			}
+		}
+	}
+	plm_tame_the_tanukhids_mission = {
+		icon = mission_turning_the_tables
+		required_missions = { plm_suzerain_of_syria_mission }
+		position = 6
+		provinces_to_highlight = {
+			area = trans_jordan_area
+			NOT = {
+				owned_by = ROOT
+			}
+			unrest = 5
+			has_discovered = ROOT
+		}
+		trigger = {
+			trans_jordan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			trans_jordan_area = {
+				type = all
+				NOT = { unrest = 5 }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_tanukhid_mercenaries"
+				duration = 10950
+			}
+		}
+	}
+	plm_red_sea_routes_mission = {
+		icon = mission_arabian_sea_trade
+		required_missions = { plm_tame_the_tanukhids_mission plm_march_to_palestina_mission }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2327	#Petra
+				province_id = 388	#Aden
+				province_id = 387	#Muza / Mocha
+			}
+			NOT = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			owns_core_province = 2327	#Petra
+			owns_core_province = 388	#Aden
+			owns_core_province = 387	#Muza / Mocha
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_victory_over_petra"
+				duration = 10950
+			}
+			define_advisor = {
+				type = trader
+				skill = 2
+				discount = yes
+				culture = nabataean_culture
+				religion = nabataean
+			}
+		}
+	}
+	plm_merchants_of_alexandria_mission = {
+		icon = mission_rb_seize_alexandria
+		required_missions = { plm_egyptian_annexation_mission }
+		position = 8
+		provinces_to_highlight = {
+			province_id = 358	#Alexandria
+			NOT = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			owns_core_province = 358
+			358 = {
+				is_strongest_trade_power = ROOT
+			}
+		}
+		effect = {
+			358 = {
+				add_province_modifier = {
+					name = "me_plm_thriving_alexandria"
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+
+palmyrene_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = PLM
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	plm_noble_priests_of_palmyra_mission = {
+		icon = mission_brahmin_administrators
+		required_missions = {  }
+		position = 1
+		trigger = {
+			OR = {
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 70
+				}
+				num_of_estate_agendas_completed = {
+					estate = estate_church
+					value = 3
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_ancestral_gods_of_the_noble_clans"
+				duration = 10950
+			}
+			define_advisor = {
+				type = theologian
+				skill = 2
+				discount = yes
+			}
+		}
+	}
+	plm_export_the_pantheon_mission = {
+		icon = mission_parthenon
+		required_missions = { plm_noble_priests_of_palmyra_mission }
+		position = 3
+		provinces_to_highlight = {
+			owned_by = ROOT
+			has_owner_religion = no
+		}
+		trigger = {
+			grown_by_states = 5
+			grown_by_development = 50
+			religious_unity = 0.90
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_plm_gods_of_palmyra"
+				duration = -1
+			}
+		}
+	}
+	plm_strength_of_odaenathus_mission = {
+		icon = mission_persian_heavy_cataphract_cavalry
+		required_missions = {  }
+		position = 4
+		trigger = {
+			OR = {
+				war_score_against = {
+					who = PRT
+					value = 50
+				}
+				war_score_against = {
+					who = ERS
+					value = 50
+				}
+				war_score_against = {
+					who = PER
+					value = 50
+				}
+				war_score_against = {
+					who = MD1
+					value = 50
+				}
+				war_score_against = {
+					who = PR1
+					value = 50
+				}
+				num_of_provinces_owned_or_owned_by_subjects_with = {
+					value = 1
+					region = persia_region
+				}
+			}
+		}
+		effect = {
+			add_army_tradition = 25
+			add_country_modifier = {
+				name = "me_plm_persian_war_spoils"
+				duration = 10950
+			}
+		}
+	}
+	plm_lay_siege_to_ctesiphon_mission = {
+		icon = mission_zoroastrian_fire_temple_ateshgah
+		required_missions = { plm_strength_of_odaenathus_mission plm_peerless_might_mission }
+		position = 5
+		provinces_to_highlight = {
+			province_id = 410
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 410
+		}
+		effect = {
+			add_legitimacy = 50
+			add_army_tradition = 15
+			add_country_modifier = {
+				name = "me_plm_king_in_ctesiphon"
+				duration = -1
+			}
+		}
+	}
+	plm_persian_gulf_markets_mission = {
+		icon = mam_hormuz_straits
+		required_missions = { plm_lay_siege_to_ctesiphon_mission }
+		position = 6
+		provinces_to_highlight = {
+			province_id = 1334	#Hormuz trade node
+			has_discovered = ROOT
+		}
+		trigger = {
+			1334 = {
+				is_strongest_trade_power = ROOT
+			}
+		}
+		effect = {
+			add_years_of_income = 0.2
+			add_country_modifier = {
+				name = "me_plm_persian_merchant_networks"
+				duration = -1
+			}
+		}
+	}
+	plm_seize_the_indian_spices_mission = {
+		icon = mission_dominate_persian_gulf
+		required_missions = { plm_persian_gulf_markets_mission }
+		position = 7
+		provinces_to_highlight = {
+			trade_goods = spices
+			NOT = {
+				owned_by = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 5
+				trade_goods = spices
+			}
+			calc_true_if = {
+				all_active_trade_node = {
+					is_strongest_trade_power = ROOT
+				}
+				amount = 4
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_country_modifier = {
+				name = "me_cls_spice_production"
+				duration = -1
+			}
+		}
+	}
+	plm_conquest_of_carthago_mission = {
+		icon = mission_carthage_tanit
+		required_missions = { plm_egyptian_annexation_mission }
+		position = 8
+		provinces_to_highlight = {
+			province_id = 341
+			NOT = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			owns_core_province = 341
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_van_king_of_carthage"
+				duration = -1
+			}
+			add_country_modifier = {
+				name = "me_plm_shared_religious_ties"
+				duration = 10950
+			}
+		}
+	}
+	plm_commerce_of_the_great_sea_mission = {
+		icon = mission_roman_ship_mosaic
+		required_missions = { plm_conquest_of_carthago_mission plm_merchants_of_alexandria_mission }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1295	#Valencia
+				province_id = 1298	#Genua
+				province_id = 1308	#Venice
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			OR = {
+				1295 = {
+					is_strongest_trade_power = ROOT
+				}
+				1298 = {
+					is_strongest_trade_power = ROOT
+				}
+				1308 = {
+					is_strongest_trade_power = ROOT
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "me_byz2_mare_nostrum"
+				duration = -1
+			}
+		}
+	}
+}

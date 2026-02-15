@@ -1429,8 +1429,8 @@ teu_pru_dummy_hre_mission_slot_1 = {
 			}
 			custom_tooltip = teu_kingdom_prussia_path_effects_tt
 			if = {
-				limit = { NOT = { government_rank = 3 } }
-				set_government_rank = 3
+				limit = { NOT = { government_rank = 10 } }
+				set_government_rank = 10
 			}
 			add_power_projection = {
 				type = mission_rewards_power_projection
@@ -3579,8 +3579,8 @@ teu_pru_kingdom_of_prussia_mission_slot = {
 		}
 		effect = {
 			if = {
-				limit = { NOT = { government_rank = 3 } }
-				set_government_rank = 3
+				limit = { NOT = { government_rank = 10 } }
+				set_government_rank = 10
 			}
 			add_power_projection = {
 				type = mission_rewards_power_projection

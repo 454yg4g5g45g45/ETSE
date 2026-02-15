@@ -1,0 +1,227 @@
+﻿l_english:
+ # --- Antiquity ---
+ roman_flavour_mod_event.1.t: "The Burden of the Cura Annonae"
+ roman_flavour_mod_event.1.d: "The horizon off the port of Ostia is thick with sails as the great grain fleet arrives from the breadbaskets of Egypt and Africa. The air is thick with the smell of brine and unwashed bodies as stevedores unload the lifeblood of the Empire. For centuries, the stability of the Eternal City has rested upon the 'Cura Annonae', the state-subsidized distribution of grain to the poorest citizens. However, the Prefect of the Annona has brought a grim ledger to the palace. While the granaries are bursting, the Imperial treasury is dangerously light. We stand at a precipice between fiscal responsibility and civil disorder. To sell the surplus would fill our coffers with much-needed gold, but it would risk the wrath of the mob, who view free bread not as a charity, but as a birthright. The cry of 'Panem et Circenses' echoes in the streets, and a hungry mob does not listen to reason."
+ roman_flavour_mod_event.1.d_rep: "The horizon off the port of Ostia is thick with sails as the great grain fleet arrives from the breadbaskets of Egypt and Africa. The air is thick with the smell of brine as stevedores unload the lifeblood of the Republic. For centuries, the stability of the state has rested upon the 'Cura Annonae', the subsidized distribution of grain to the citizens. However, the Senate is divided. The Quaestors report that the treasury is dangerously light. We stand at a precipice. To sell the surplus on the open market would fill the public coffers with gold, but it would risk the wrath of the Plebeians, who view affordable bread as a fundamental right of their citizenship. The Forum is tense, and a hungry mob does not listen to the oratory of Senators."
+ roman_flavour_mod_event.1.a: "Panem et Circenses! The mob must be fed to keep the peace."
+ roman_flavour_mod_event.1.b: "The State needs gold more than the mob needs free bread. Sell the surplus."
+
+ roman_flavour_mod_event.2.t: "Inspection of the Limes"
+ roman_flavour_mod_event.2.d: "Grim reports have arrived from the Dux Limitanei, the commander of the frontier forces. The great system of watchtowers, palisades, and stone forts known as the 'Limes', which separates civilization from the howling wilderness, is showing its age. Decades of neglect, corruption, and harsh winters have left walls cracked and garrisons under-equipped. Across the river, the bonfires of the Germanic tribes burn brighter every night, and their probing raids are becoming more frequent and daring. The legions request immediate funds to restore the fortifications and clear the lines of sight. It is a heavy investment of gold and labour, but can we truly afford to leave the gateway to the Empire unguarded against the gathering storm?"
+ roman_flavour_mod_event.2.d_rep: "Grim reports have arrived from the frontier legates. The great system of watchtowers and forts that separates our Republic from the barbarian wilderness is crumbling. Decades of neglect have left the walls cracked and the garrisons under-equipped. Across the river, the bonfires of the tribes burn brighter every night. The Generals request immediate funds from the Senate to restore the fortifications. It is a heavy investment, but the safety of the Republic is paramount. Do we trust in stone and mortar to hold back the tide, or do we trust in the valour of our citizens to meet the enemy in the field?"
+ roman_flavour_mod_event.2.a: "Restore the walls. Rome shall be an impregnable fortress."
+ roman_flavour_mod_event.2.b: "Walls do not fight back. Invest in the legions instead."
+
+ roman_flavour_mod_event.3.t: "The Shadow of the Portico"
+ roman_flavour_mod_event.3.d: "A new school of thought has taken hold within the Palatine, influenced by the works of the great Marcus Aurelius and Epictetus. A circle of Stoic philosophers has begun to preach the virtues of 'Ataraxia', or imperturbability, and the supreme importance of civic duty. They argue that the Emperor should be the first servant of the state, ruled by cold reason rather than fiery passion. Their austere lifestyle and logical approach to administration could greatly reduce corruption and improve efficiency. However, the military aristocracy mocks them as 'bearded dreamers' whose pacifist ideals have no place in a world forged by iron and blood."
+ roman_flavour_mod_event.3.d_rep: "A new school of thought has taken hold within the Forum, influenced by the works of the great Stoics. A circle of philosophers has begun to preach the virtues of civic duty and reason. They argue that a Consul should be the first servant of the law, ruling by logic rather than populism. Their austere lifestyle and logical approach to administration could greatly reduce corruption in the Senate. However, the military aristocracy mocks them as 'bearded dreamers' whose pacifist ideals have no place in a world where the Republic must fight for its survival."
+ roman_flavour_mod_event.3.a: "Let reason guide our hand. Embrace the Stoic way."
+ roman_flavour_mod_event.3.b: "Philosophy is a luxury for idle minds. We have a State to rule."
+
+ roman_flavour_mod_event.4.t: "The Foederati Question"
+ roman_flavour_mod_event.4.d: "A massive migration of barbarian tribes has arrived at our border. Unlike the raiders of old, these families come not to pillage, but to settle. They petition for the status of 'Foederati', allies of Rome. They offer to settle the depopulated lands near the frontier and provide fierce warriors for our auxiliary cohorts in exchange for autonomy and land rights. The Senate is in an uproar, crying out against the 'barbarization' of the legions and the dilution of Roman culture. Yet, our own manpower reserves are critical, and the fields lie fallow. Do we swallow our pride to secure our survival, or do we turn them away at the point of a gladius?"
+ roman_flavour_mod_event.4.d_rep: "A massive migration of barbarian tribes has arrived at our border. They petition for the status of 'Foederati', allies of Rome. They offer to settle the depopulated lands near the frontier and provide fierce warriors for our auxiliary cohorts in exchange for autonomy. The Senate is in an uproar, crying out against the 'barbarization' of the legions and the dilution of Roman culture. Yet, our own manpower reserves are critical. Do we swallow our pride to secure the survival of the Republic, or do we stand firm on the principle that only citizens may defend the state?"
+ roman_flavour_mod_event.4.a: "Grant them land. We need their swords more than our pride."
+ roman_flavour_mod_event.4.b: "We will never let savages settle on sacred Roman soil!"
+
+ roman_flavour_mod_event.5.t: "The Praetorian Demand"
+ roman_flavour_mod_event.5.d: "An uneasy silence has fallen over the Imperial Palace. The Prefect of the Praetorian Guard has requested a private audience, but his hand rests clearly on the hilt of his gladius. The Guard feels that their loyalty during the recent transition of power has gone unrewarded. They subtly, and then not so subtly, suggest that a 'Donativum', a substantial bonus in gold to every soldier in the Guard, is necessary to 'refresh' their oaths of fealty. It is essentially a bribe to not assassinate the Emperor, a humiliation that has become all too common. Refusing them could spark a coup, but paying them proves who truly holds the power in Rome."
+ roman_flavour_mod_event.5.d_rep: "An uneasy silence has fallen over the Curia. The Prefect of the Praetorian Guard has requested a private audience with the Consuls. The Guard feels that their loyalty has gone unrewarded. They subtly suggest that a 'Donativum', a substantial bonus in gold to every soldier in the Guard, is necessary to 'refresh' their oaths of fealty to the Senate. It is essentially a bribe to not launch a coup, a humiliation that has become all too common. Refusing them could spark a civil war, but paying them proves who truly holds the power in Rome."
+ roman_flavour_mod_event.5.a: "A heavy purse buys a light heart. Pay the Guard."
+ roman_flavour_mod_event.5.b: "I am the Emperor, not their puppet! Arrest the Prefect!"
+
+ roman_flavour_mod_event.6.t: "Factions of the Circus"
+ roman_flavour_mod_event.6.d: "The Circus Maximus is roaring with the sound of thousands. The chariot races have divided the city not just by sport, but by politics. The 'Blues', backed by the aristocracy and the great naval families, represent the established order, religious orthodoxy, and the Senate. The 'Greens', supported by the urban populace and the land-owning gentry, clamour for radical change and often harbour Monophysite leanings. The Emperor's visible support for one colour over the other sends a powerful signal to the Senate and the mob alike. Whom shall we favour in the coming races?"
+ roman_flavour_mod_event.6.a: "Support the Blues. Order and Aristocracy!"
+ roman_flavour_mod_event.6.b: "Support the Greens. The People and the Land!"
+
+ roman_flavour_mod_event.7.t: "The Divine Mandate"
+ roman_flavour_mod_event.7.d_monarchy: "As the Empire expands, the diverse pantheon of gods becomes unwieldy. The army and the eastern provinces have begun to coalesce around the cult of 'Sol Invictus', the Unconquered Sun. Proclaiming Sol as the supreme patron of the Empire would mirror the monarchy itself; one Sun in the heavens, one Emperor on Earth. It is a powerful tool for unification, though the traditional priests of Jupiter and the old Roman pantheon may chafe at this eastern innovation."
+ roman_flavour_mod_event.7.d_republic: "We are a Republic, yet strange foreign cults infiltrate the Forum daily. The conservatives in the Senate call for a return to the 'Mos Maiorum', the Way of the Ancestors. They argue that Rome grew strong not because of new eastern gods, but because we held faith with Jupiter Optimus Maximus and the virtues of duty, discipline, and piety. A state-sponsored revival of the old ways could strengthen our republican resolve and reject these foreign influences."
+ roman_flavour_mod_event.7.a: "Unify the state under one divine patron."
+ roman_flavour_mod_event.7.b: "Rome has room for all gods. Practice tolerance."
+
+ roman_flavour_mod_event.8.t: "Envoys from Serica"
+ roman_flavour_mod_event.8.d: "Travelers have arrived from the far east, claiming to represent the 'Seres', the mysterious Silk People of Serica. They speak of a vast empire that rivals our own in wealth, power, and history. They have brought bales of shimmering silk, porcelain, and spices unknown to our markets. Establishing a formal trade protocol could flood our treasury with wealth, though some Senators worry about the outflow of Roman gold to pay for these decadent luxuries, fearing it will soften the moral fibre of our citizens."
+ roman_flavour_mod_event.8.a: "Silk for Gold. Let the trade flow."
+ roman_flavour_mod_event.8.b: "These luxuries weaken the Roman spirit. Tax them heavily."
+
+ roman_flavour_mod_event.9.t: "The Cursus Publicus"
+ roman_flavour_mod_event.9.d_large: "Our borders stretch from the misty shores of Britannia to the burning sands of Syria. The 'Cursus Publicus', the state-run courier and transportation service, is the nervous system of this colossal beast. Without fresh horses at the waystations and repaired bridges, orders from the capital take months to reach the frontier. The system is currently straining under the sheer size of our domain and requires a massive infusion of gold to function efficiently. Without it, the Empire risks fragmentation."
+ roman_flavour_mod_event.9.d_small: "Though our domain is currently compact, the efficiency of the 'Cursus Publicus' ensures that our rule remains absolute. A well-maintained network of couriers allows us to react instantly to threats. The Master of Offices suggests we invest in upgrading the waystations now, ensuring that our infrastructure is ready for the expansion that is surely to come. Speed is the essence of warfare and governance."
+ roman_flavour_mod_event.9.a: "The Emperor's word must travel as fast as the wind. Fund it."
+ roman_flavour_mod_event.9.b: "The treasury cannot bear this cost. Let private merchants handle the post."
+
+ roman_flavour_mod_event.10.t: "The Codification of Law"
+ roman_flavour_mod_event.10.d: "Centuries of legal precedents, senatorial decrees, and imperial edicts have created a labyrinth of Roman Law that is often contradictory and confusing. Judges in the provinces frequently make rulings based on laws that were repealed in Rome decades ago. A complete overhaul and codification of the Civil Law is proposed; a 'Corpus Juris Civilis' that will standardize justice across the realm, ensuring that the rule of law is the same in Syria as it is in Spain."
+ roman_flavour_mod_event.10.d_scholar: "You have spent many late nights poring over the old scrolls of Ulpian and Papinian. It offends your scholarly mind to see the chaotic state of Roman Law. Contradictory edicts and forgotten statutes clutter the courts. You have personally drafted the outline for a grand codification, a 'Corpus Juris Civilis', that will serve as a beacon of logic and justice for a thousand years. It is time to turn this vision into reality."
+ roman_flavour_mod_event.10.a: "Purge the contradictions. Justice must be uniform."
+ roman_flavour_mod_event.10.b: "The old system is flexible enough. Do not disturb it."
+
+ roman_flavour_mod_event.11.t: "The Scourge of Pestilence"
+ roman_flavour_mod_event.11.d: "A terrible shadow has fallen over the Empire. Reports from the East speak of a pestilence that turns men to corpses in days. The plague has reached our ports, and panic is spreading faster than the disease. We face a grim choice. We can enforce a ruthless quarantine, shutting down trade and travel, which will cripple our economy but perhaps save lives. Or we can keep the markets open and pray to Apollo the Healer, accepting that the manpower losses will be catastrophic. The gods are testing our resolve."
+ roman_flavour_mod_event.11.a: "Enforce the quarantine. Save the people, whatever the cost."
+ roman_flavour_mod_event.11.b: "We cannot stop the will of the Gods. Save the treasury."
+
+ roman_flavour_mod_event.12.t: "Provincial Corruption"
+ roman_flavour_mod_event.12.d: "The machinery of empire is grinding to a halt, clogged by the greed of our own officials. Provincial governors are treating their posts as personal fiefdoms, extracting ruinous taxes from the populace to line their own pockets while neglecting infrastructure and defence. The people are groaning under this weight. To purge the administration would require a massive expenditure of political capital and could destabilize the provinces in the short term, but ignoring it will rot the foundations of our state."
+ roman_flavour_mod_event.12.a: "Purge the corrupt governors! Justice must be done."
+ roman_flavour_mod_event.12.b: "We cannot afford the instability. Turn a blind eye."
+
+ roman_flavour_mod_event.13.t: "Debasement of the Denarius"
+ roman_flavour_mod_event.13.d: "The costs of war and administration are rising, and the silver mines cannot keep pace. The Master of the Mint has proposed a solution: debasement. By mixing base metals like copper into the silver coinage, we can mint significantly more coins with the same amount of precious metal. This would solve our immediate cash flow problems and allow us to pay the legions. However, merchants will eventually realize the coins are worth less, leading to rampant inflation and economic instability in the future."
+ roman_flavour_mod_event.13.a: "Debase the currency. The army must be paid."
+ roman_flavour_mod_event.13.b: "Maintain the purity of the silver. We accept austerity."
+
+ # --- Middle Ages ---
+ roman_flavour_mod_event.14.t: "The Feudal Transformation"
+ roman_flavour_mod_event.14.d: "The centralized economy of Antiquity has shattered. The flow of coin from the provinces has dried up, and the central treasury can no longer support the massive payroll of a standing professional army. Across Europe, local warlords are granting land to soldiers in exchange for military service, a system known as feudalism. Our generals suggest we must dismantle the old legions and adopt this decentralized model to survive, or risk bankruptcy maintaining a ghost army that we cannot pay."
+ roman_flavour_mod_event.14.a: "We must adapt. Grant land for service."
+ roman_flavour_mod_event.14.b: "Never! The Legion is the soul of Rome."
+
+ roman_flavour_mod_event.15.t: "Preservation in the Monasteries"
+ roman_flavour_mod_event.15.d: "As the great cities shrink and the public schools close, the light of learning flickers and threatens to go out. However, in the hilltops and remote valleys, Benedictine monks are painstakingly copying the old texts by candlelight. They are the last guardians of literacy and the classics in a darkening world. State sponsorship could help them preserve the knowledge of the ancients, ensuring that the wisdom of Rome survives for future generations."
+ roman_flavour_mod_event.15.a: "Protect the scribes. Knowledge is power."
+ roman_flavour_mod_event.15.b: "Prayers do not defend borders. Ignore them."
+
+ roman_flavour_mod_event.16.t: "Saracen Raiders"
+ roman_flavour_mod_event.16.d: "The Mediterranean, once 'Mare Nostrum', has become a hostile frontier. Fleets from the Caliphates raid our coasts annually, seizing captives for the slave markets and disrupting trade routes. The coastal towns are begging for new walls, watchtowers, and naval patrols. The cost of securing the entire coastline is astronomical, but the alternative is to cede the sea to our enemies."
+ roman_flavour_mod_event.16.a: "Fortify the coastlines! The sea remains ours."
+ roman_flavour_mod_event.16.b: "We cannot stop them everywhere. Let them come."
+
+ roman_flavour_mod_event.17.t: "The Carolingian Pretender"
+ roman_flavour_mod_event.17.d: "The King of the Franks, Charles, has grown powerful in the lands of Gaul. He styles himself as a successor to the Caesars and protector of the Faith. There are rumours that he intends to be crowned 'Emperor of the Romans' by the Pope, a direct insult to our unbroken lineage and authority. To allow a barbarian king to usurp the Imperial title would be a diplomatic catastrophe."
+ roman_flavour_mod_event.17.a: "He is but a barbarian King! Denounce him!"
+ roman_flavour_mod_event.17.b: "He is powerful. Acknowledge his royal title, but nothing more."
+
+ roman_flavour_mod_event.18.t: "The Secret of Greek Fire"
+ roman_flavour_mod_event.18.d: "Imperial alchemists have perfected a terrifying new weapon for our navy; a liquid mixture that burns even when floating on water. Known as 'Greek Fire', it requires a complex siphon system to deploy and can turn an enemy fleet into a blazing inferno in minutes. Guarding this secret is paramount, for if it falls into enemy hands, our naval advantage is lost."
+ roman_flavour_mod_event.18.a: "Equip the Dromons. Burn them all."
+
+ roman_flavour_mod_event.19.t: "Rise of the Great Families"
+ roman_flavour_mod_event.19.d: "With the central authority weakened by years of crisis, powerful noble families have begun to carve up the city and the countryside. Clans like the Orsini and Colonna have turned ancient monuments into private fortresses and wage open war in the streets. They demand privileges and tax exemptions, threatening to make the Emperor a prisoner in his own capital. We must deal with these robber barons."
+ roman_flavour_mod_event.19.a: "Diplomacy is key. Play them against each other."
+ roman_flavour_mod_event.19.b: "Tear down their towers! Crush them!"
+
+ roman_flavour_mod_event.20.t: "The Great Schism"
+ roman_flavour_mod_event.20.d: "Tensions between the Latin and Greek rites have reached a breaking point. Theological disputes over the 'Filioque', the use of unleavened bread, and the supreme authority of the Pope have led to mutual excommunications. The Christian world is fracturing in two. We must decide where we stand; do we enforce the absolute primacy of Rome, or do we seek a desperate compromise to keep Christendom united against the heathen threats?"
+ roman_flavour_mod_event.20.a: "Rome is the Mother Church. No compromise!"
+ roman_flavour_mod_event.20.b: "A divided Christendom will fall. Seek unity."
+
+ roman_flavour_mod_event.21.t: "Norman Adventurers"
+ roman_flavour_mod_event.21.d: "Bands of Norman knights, descendants of Vikings who settled in France, have arrived in the Mediterranean. They are restless, ambitious, and terrifyingly effective in battle with their heavy cavalry charges. They offer their swords to the highest bidder, but history suggests they often end up conquering their employers. Do we hire these dangerous mercenaries?"
+ roman_flavour_mod_event.21.a: "Hire them. We need their heavy cavalry."
+ roman_flavour_mod_event.21.b: "Send them away before they take our land."
+
+ roman_flavour_mod_event.22.t: "The Call to Crusade"
+ roman_flavour_mod_event.22.d: "The Pope has called for a holy war to reclaim the East from the infidel. Across Europe, princes and peasants alike are taking the cross, sewing red crosses onto their tunics. As the heir to Rome, the Holy Land is historically ours, but joining this chaotic mass of religious zealots could be dangerous and expensive."
+ roman_flavour_mod_event.22.a: "Deus Vult! We march for Jerusalem!"
+ roman_flavour_mod_event.22.b: "Let the barbarians fight. We shall watch."
+
+ roman_flavour_mod_event.23.t: "Venetian Trade Rivalry"
+ roman_flavour_mod_event.23.d: "The merchant republic of Venice is strangling our trade. Their galleys dominate the Adriatic and the Levant, siphoning wealth that should flow into our coffers. They demand lowered tariffs and special quarters in our cities, acting more like masters than merchants. If we do not act, we will become an economic colony of a city built on a swamp."
+ roman_flavour_mod_event.23.a: "Embargo them! Seize their ships!"
+ roman_flavour_mod_event.23.b: "We need their gold. Grant the privileges."
+
+ roman_flavour_mod_event.24.t: "Heraldic Traditions"
+ roman_flavour_mod_event.24.d: "A new fashion is sweeping the nobility of Europe; Heraldry. Knights are painting their shields with distinct symbols and colours to be recognized in the chaos of battle and at tournaments. While our legions used uniform symbols, adopting personal heraldry would integrate our nobility into the broader European chivalric culture and increase our prestige abroad."
+ roman_flavour_mod_event.24.a: "Adopt the custom. It brings prestige."
+
+ roman_flavour_mod_event.25.t: "The Fourth Crusade Arrives"
+ roman_flavour_mod_event.25.d: "Disaster! The Crusade that was meant for Egypt has been diverted to our walls by Venetian debt and political intrigue. The Crusaders demand a massive payment to ferry them across the sea, or they threaten to sack the city. The so-called 'Soldiers of Christ' look at our wealth with hungry eyes. We must prepare for the worst."
+ roman_flavour_mod_event.25.a: "Empty the treasury to pay them off."
+ roman_flavour_mod_event.25.b: "To the walls! We fight!"
+
+ roman_flavour_mod_event.26.t: "The Donation of Constantine"
+ roman_flavour_mod_event.26.d: "The Papacy has produced a document, the 'Donation of Constantine', which claims that the Emperor Constantine transferred authority over Rome and the western part of the Roman Empire to the Pope. It effectively makes the Emperor a subordinate of the Pontiff. Our legal scholars suspect it is a clumsy forgery, but challenging it openly will enrage the Church and the pious populace."
+ roman_flavour_mod_event.26.a: "Accept it for the sake of harmony."
+ roman_flavour_mod_event.26.b: "It is a crude forgery! Burn it!"
+
+ roman_flavour_mod_event.27.t: "Rise of the Communes"
+ roman_flavour_mod_event.27.d: "The cities of Northern Italy and the Empire are growing rich. Merchants and artisans are forming 'Communes', swearing oaths of mutual defence and demanding self-governance, free from the rule of bishops or imperial counts. They offer tax revenue in exchange for charters of liberty, but this weakens our direct control over the urban centres."
+ roman_flavour_mod_event.27.a: "Grant the charters. Wealth is what matters."
+ roman_flavour_mod_event.27.b: "Suppress these upstarts!"
+
+ roman_flavour_mod_event.28.t: "Recovery of Civil Law"
+ roman_flavour_mod_event.28.d: "In Bologna, scholars have begun to systematically study and teach the 'Corpus Juris Civilis' of Justinian. This revival of Roman legal science offers a powerful tool to centralize the state and curb the power of the feudal lords. Establishing a university to promote this study could lead to a renaissance of administration."
+ roman_flavour_mod_event.28.a: "Establish the University of Bologna."
+
+ # --- Modern & Future ---
+ roman_flavour_mod_event.29.t: "The Vitruvian Revival"
+ roman_flavour_mod_event.29.d: "The ancient texts of Vitruvius, the great Roman architect, have always been known to us. However, a new generation of architects is reinterpreting them, combining classical proportions with modern mathematics and engineering. This 'Vitruvian Revival' promises a new golden age of construction, where marble meets the needs of a modern gunpowder empire. Our cities shall once again be the envy of the world."
+ roman_flavour_mod_event.29.a: "Build for eternity."
+ roman_flavour_mod_event.29.b: "Our current methods work fine."
+
+ roman_flavour_mod_event.30.t: "Beyond the Pillars of Hercules"
+ roman_flavour_mod_event.30.d: "For millennia, the Pillars of Hercules marked the end of the world. Now, reports from Portuguese and Spanish sailors confirm vast lands to the west. The Senate debates; shall we remain masters of the Mediterranean, our ancient pond, or shall we turn the Roman Eagles toward the Atlantic? To rule the waves of the Oceanus is the new destiny of Rome."
+ roman_flavour_mod_event.30.a: "The Atlantic is the new Mare Nostrum!"
+ roman_flavour_mod_event.30.b: "Let the barbarians have the open ocean."
+
+ roman_flavour_mod_event.31.t: "The New World Proconsuls"
+ roman_flavour_mod_event.31.d: "Our colonies in the 'Novus Orbis' (New World) have grown from outposts into thriving cities. The question of administration has arisen. Should we govern them as Proconsular Provinces, strictly controlled by Rome and taxed heavily? Or should we grant them the status of 'Socii' (Allies), allowing them autonomy in exchange for trade? The distance makes direct rule difficult, but lucrative."
+ roman_flavour_mod_event.31.a: "They are Provinces of Rome. Tax them."
+ roman_flavour_mod_event.31.b: "Treat them as Client States to ensure loyalty."
+
+ roman_flavour_mod_event.32.t: "The Heliocentric Debate"
+ roman_flavour_mod_event.32.d: "Astronomers, using improved telescopes, have confirmed what some ancients suspected; the Earth moves around the Sun. This contradicts the Ptolemaic model and certain religious interpretations. The scientific community clamours for acceptance, but the religious authorities fear this unravels the divine order. Shall we support the march of science or maintain the stability of dogma?"
+ roman_flavour_mod_event.32.a: "The truth cannot be heresy. Embrace Science."
+ roman_flavour_mod_event.32.b: "Order is more important than the stars. Silence them."
+
+ roman_flavour_mod_event.33.t: "The Aeolipile Industrialized"
+ roman_flavour_mod_event.33.d: "Hero of Alexandria invented a steam-powered toy centuries ago. Now, Roman engineers have taken that concept and scaled it to titanic proportions. The 'Machina Vaporis', the Steam Engine, is being used to pump water from mines and power textile mills. The valleys of the Empire are filling with smoke, and the sound of piston-hammers rings louder than the blacksmith's anvil. The Industrial Age of Rome has begun."
+ roman_flavour_mod_event.33.a: "Praise Vulcan! The Engine drives us forward!"
+ roman_flavour_mod_event.33.b: "These machines are noisy and dangerous."
+
+ roman_flavour_mod_event.34.t: "Via Ferrea"
+ roman_flavour_mod_event.34.d: "The Roman Road was the marvel of antiquity. Today, we lay iron upon the stone. The 'Via Ferrea' (Iron Way) allows steam locomotives to transport legions and grain across the Empire in days rather than months. It is the greatest infrastructure project since the aqueducts, knitting the empire together with bands of steel."
+ roman_flavour_mod_event.34.a: "Let the Iron Horse run from Rome to Constantinople!"
+
+ roman_flavour_mod_event.35.t: "The Factory Senate"
+ roman_flavour_mod_event.35.d: "The Plebeians have left the fields for the factories. Crowded into urban tenements, they have formed unions and demanded rights. They call themselves the 'Proletariat'. Some Senators call for their suppression, while others suggest a 'Lex Laboris' to grant them rights and prevent a socialist revolution. The spectre of revolution haunts the factories."
+ roman_flavour_mod_event.35.a: "Pass the Lex Laboris. We are the protectors of the people."
+ roman_flavour_mod_event.35.b: "Send in the Praetorians to break the strikes."
+
+ roman_flavour_mod_event.36.t: "The New Imperialism"
+ roman_flavour_mod_event.36.d: "The European powers are scrambling for territory in the heart of Africa. Rome held the northern coast for centuries, but the interior was a mystery. Now, with steamships and quinine, we can march south. It is time to reclaim Africa Proconsularis and extend the Pax Romana to the Cape. Maps are being drawn in Berlin, but they will be redrawn in Rome."
+ roman_flavour_mod_event.36.a: "Paint the map Roman Red."
+
+ roman_flavour_mod_event.37.t: "Universal Suffrage"
+ roman_flavour_mod_event.37.d: "The definition of 'Roman Citizen' has expanded over the centuries. Now, the demand is for the vote. Not just for the wealthy property owners, but for every man (and some argue, every woman) in the Republic. It is a radical shift from the aristocratic republic of old. The streets are filled with marchers demanding a voice."
+ roman_flavour_mod_event.37.a: "The strength of Rome is its citizens. Grant the vote."
+ roman_flavour_mod_event.37.b: "Only those with a stake in the land should rule."
+
+ roman_flavour_mod_event.38.t: "The Fire of Prometheus"
+ roman_flavour_mod_event.38.d: "Our physicists have unlocked the secrets of the atom. It is a power greater than Jupiter's thunderbolt. We can harness it for limitless energy, or for a weapon that could end civilization. The 'Fire of Prometheus' is in our hands. The world holds its breath as we conduct the first test."
+ roman_flavour_mod_event.38.a: "We have become Death, destroyer of worlds."
+
+ roman_flavour_mod_event.39.t: "The Digital Forum"
+ roman_flavour_mod_event.39.d: "The Forum was once a physical place where citizens gathered to debate. Now, the Forum is digital. A global network connects every city in the Empire instantaneously. This 'Internet' is a chaos of information, commerce, and sedition. The Cyber-Praetors suggest we clamp down on it, but the economic benefits of a free network are staggering."
+ roman_flavour_mod_event.39.a: "Let the data flow freely. The Pax Romana is digital."
+ roman_flavour_mod_event.39.b: "Establish the Great Firewall of Rome."
+
+ roman_flavour_mod_event.40.t: "Astra ad Aspera"
+ roman_flavour_mod_event.40.d: "Since the days of Lucian of Samosata, our poets have dreamed of sailing the aether. Now, our rockets stand ready on the launchpads. The Space Race has begun. To place a Roman Eagle on the surface of Luna would be the ultimate triumph of our civilization, a message to the stars that Rome is eternal."
+ roman_flavour_mod_event.40.a: "One small step for a man, one giant leap for the Empire."
+
+ roman_flavour_mod_event.41.t: "The Automated Legions"
+ roman_flavour_mod_event.41.d: "Why spill Roman blood when titanium and silicon can fight for us? Robotics corporations have unveiled the 'Legionnaire X-1', a fully autonomous combat unit. They feel no fear, require no food, and obey orders instantly. However, the military aristocracy fears that an army without humans loses the martial spirit and loyalty that built this Empire."
+ roman_flavour_mod_event.41.a: "Replace the flesh. The machine is superior."
+ roman_flavour_mod_event.41.b: "A machine has no honour. Keep the legions human."
+
+ roman_flavour_mod_event.42.t: "Deus Ex Machina"
+ roman_flavour_mod_event.42.d: "We have created a god. The Central Artificial Intelligence, housed in the depths of the Palatine Hill, has processed centuries of legal and economic data. It claims it can run the economy with 99.9% efficiency, eliminating corruption and waste. It requests full administrative access to the Senate's protocols. Do we hand the keys of the Empire to the machine?"
+ roman_flavour_mod_event.42.a: "Let the Algorithm reign. Long live the Digital Emperor."
+ roman_flavour_mod_event.42.b: "It is a tool, not a ruler. Keep it as an advisor."
+
+ roman_flavour_mod_event.43.t: "Nova Roma"
+ roman_flavour_mod_event.43.d: "Earth is becoming crowded, and its resources strained. The Red Planet beckons. Our terraforming engines are ready to turn the dust of Mars into fertile soil. Establishing 'Nova Roma' on Mars would ensure the survival of the Roman people even if Earth were to fall. It is a titanic investment, but the rewards are a second home for humanity."
+ roman_flavour_mod_event.43.a: "Mars shall be the new province of the Empire."
+
+ roman_flavour_mod_event.44.t: "The Synthetic Citizen"
+ roman_flavour_mod_event.44.d: "Advances in genetics and cybernetics have blurred the line between man and machine. Citizens are augmenting themselves with neural links and synthetic limbs. The concept of 'Human' is changing. We must update our laws. Is a citizen with a positronic brain still a Roman? If we embrace this, we enter a post-human golden age."
+ roman_flavour_mod_event.44.a: "Evolution is our right. Embrace the future."
+
+ roman_flavour_mod_event.45.t: "The Grand Prix of Rome"
+ roman_flavour_mod_event.45.d: "The ancient rivalry of the Circus Maximus has been reborn on the asphalt racetrack. The 'Scuderia Veneta' (Blues) and 'Scuderia Prasina' (Greens) now compete in high-speed automobiles, serving as proxies for modern political factions. The city grinds to a halt as the engines roar, and once again, the Emperor's favour decides the mood of the capital."
+ roman_flavour_mod_event.45.a: "Back the Blues (Conservatives)."
+ roman_flavour_mod_event.45.b: "Back the Greens (Reformists)."

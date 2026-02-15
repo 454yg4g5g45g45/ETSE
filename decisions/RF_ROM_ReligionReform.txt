@@ -1,0 +1,50 @@
+country_decisions = {
+
+    reform_hellenic_faith_decision = {
+		color = { 199 55 134 }
+		major = yes
+        # 1. Who can see this button?
+        potential = {
+            tag = ROM 
+            religion = hellenism
+            NOT = { has_country_flag = hellenic_reform_done }
+            is_playing_custom_nation = no
+        }
+
+        # 2. What requirements must be met?
+        allow = {
+            # Stability & Core Requirements
+            num_of_cities = 300
+            owns_core_province = 118  # Rome
+            owns_core_province = 151  # Constantinople
+            religious_unity = 0.9     
+            is_at_war = no            
+            
+            # The "Modernization" Requirement
+            adm_tech = 9 
+            adm_power = 50 # You need the mana to enact the law
+            
+            # The "Christian Threat" Requirement
+            # Triggers only if the "Galilean Madness" has actually infected the Empire
+            calc_true_if = {
+                amount = 20
+                all_owned_province = {
+                    religion_group = christian
+                }
+            }
+        }
+
+        # 3. What happens when clicked?
+        effect = {
+            # Spend the Admin Power (Cost of the Reform)
+            add_adm_power = -50
+            
+            # Fire the Event
+            country_event = { id = hellenic_reform.1 }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

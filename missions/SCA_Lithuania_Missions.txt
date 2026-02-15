@@ -1163,7 +1163,7 @@ lit_dlc_5 = {
 		effect = {
 			if = {
 				limit = { 
-					NOT = { government_rank = 3 }
+					NOT = { government_rank = 10 }
 				}
 				add_government_reform = lithuanian_grand_kingdom
 			}

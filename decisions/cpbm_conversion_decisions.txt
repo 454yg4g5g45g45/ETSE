@@ -145,8 +145,8 @@ religion_decisions = {
 	convert_to_hussitism = {
 		major = yes
 		potential = {
-			is_religion_enabled = hussitism
-			NOT = { religion = hussitism }
+			is_religion_enabled  = hussite
+			NOT = { religion  = hussite }
 			NOT = { religion = secularism }
 			NOT = { government = theocracy }
 			primary_culture = czech
@@ -156,7 +156,7 @@ religion_decisions = {
 			is_at_war = no
 		}
 		effect = {
-			change_religion = hussitism
+			change_religion  = hussite
 			add_stability = -4
 			add_country_modifier = {
 				name = "recent_conversion"
@@ -167,7 +167,7 @@ religion_decisions = {
 			factor = 0
 			modifier = {
 				factor = 1
-				dominant_religion = hussitism
+				dominant_religion  = hussite
 			}
 		}
 	}
@@ -253,7 +253,7 @@ religion_decisions = {
 	convert_to_shamanism = {
 		major = yes
 		potential = {
-			NOT = { religion = chamanism }
+			NOT = { religion = shamanist }
 			NOT = { religion = secularism }
 			NOT = { government = theocracy }
 			culture_group = evenks
@@ -263,7 +263,7 @@ religion_decisions = {
 			is_at_war = no
 		}
 		effect = {
-			change_religion = chamanism
+			change_religion = shamanist
 			add_stability = -4
 			add_country_modifier = {
 				name = "recent_conversion"
@@ -353,7 +353,7 @@ religion_decisions = {
 	convert_to_arevakhach = {
 		major = yes
 		potential = {
-			NOT = { religion = arevakhach }
+			NOT = { religion = armenian_religion }
 			NOT = { religion = secularism }
 			NOT = { government = theocracy }
 			primary_culture = armenian
@@ -363,7 +363,7 @@ religion_decisions = {
 			is_at_war = no
 		}
 		effect = {
-			change_religion = arevakhach
+			change_religion = armenian_religion
 			add_stability = -4
 			add_country_modifier = {
 				name = "recent_conversion"
@@ -1560,7 +1560,7 @@ religion_decisions = {
 	convert_to_tjukurpa = {
 		major = yes
 		potential = {
-			NOT = { religion = tjukurpa }
+			NOT = { religion = dreamtime }
 			NOT = { religion = secularism }
 			NOT = { government = theocracy }
 			primary_culture = aboriginal
@@ -1570,7 +1570,7 @@ religion_decisions = {
 			is_at_war = no
 		}
 		effect = {
-			change_religion = tjukurpa
+			change_religion = dreamtime
 			add_stability = -4
 			add_country_modifier = {
 				name = "recent_conversion"

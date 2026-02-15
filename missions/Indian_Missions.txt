@@ -324,10 +324,10 @@ gen_north_india_2 = {
 			if = {
 				limit = {
 					NOT = {
-						government_rank = 3
+						government_rank = 10
 					}
 				}
-				set_government_rank = 3
+				set_government_rank = 10
 			}
 			add_country_modifier = {
 				name = "indian_empire"
@@ -616,10 +616,10 @@ gen_south_india_2 = {
 			if = {
 				limit = {
 					NOT = {
-						government_rank = 3
+						government_rank = 10
 					}
 				}
-				set_government_rank = 3
+				set_government_rank = 10
 			}
 			add_country_modifier = {
 				name = "indian_empire"
@@ -1479,10 +1479,10 @@ gen_indian_sikh = {
 			if = {
 				limit = {
 					NOT = {
-						government_rank = 3
+						government_rank = 10
 					}
 				}
-				set_government_rank = 3
+				set_government_rank = 10
 			}
 			add_country_modifier = {
 				name = "sikh_empire"

@@ -503,9 +503,9 @@ kongo_choose_path_missions_slot = {
 		effect = {
 			if = {
 				limit = {
-					NOT = { government_rank = 3 }
+					NOT = { government_rank = 10 }
 				}
-				set_government_rank = 3
+				set_government_rank = 10
 			}
 			if = {
 				limit = {
@@ -628,7 +628,7 @@ kongo_choose_path_missions_slot = {
 			}
 			else = {
 				total_own_and_non_tributary_subject_development = 1500
-				government_rank = 3
+				government_rank = 10
 			}
 		}
 		effect = {

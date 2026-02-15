@@ -258,7 +258,7 @@ akk_missions = {
 			}
 		}
 		effect = {
-			set_government_rank = 3
+			set_government_rank = 10
 			add_country_modifier = {
 				name = "akk_persia"
 				duration = 7300

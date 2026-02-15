@@ -430,7 +430,7 @@ tau_slot_2 = {
 			}
 		}
 		effect = {
-			set_government_rank = 3
+			set_government_rank = 10
 			if = {
 				limit = {
 					NOT = { any_country = { has_country_flag = is_burma } }

@@ -736,7 +736,7 @@ emp_ser_east_branch = {
 			}
 		}
 		effect = {
-			set_government_rank = 3
+			set_government_rank = 10
 		}
 	}
 }
